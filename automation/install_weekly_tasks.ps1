@@ -5,24 +5,15 @@ param(
     [string]$OutputPkl = "data\historical\team_ratings.pkl"
 )
 
-$refreshTask = "Pred_Weekly_League_Refresh"
-$retrainTask = "Pred_Weekly_Retrain_Ratings"
+$weeklyTask = "Pred_Weekly_Refresh_And_Retrain"
 
-$refreshAction = New-ScheduledTaskAction `
+$weeklyAction = New-ScheduledTaskAction `
     -Execute "powershell.exe" `
-    -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$ProjectDir\automation\run_weekly_league_refresh.ps1`" -ProjectDir `"$ProjectDir`" -PythonExe `"$PythonExe`""
+    -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$ProjectDir\automation\run_weekly_refresh_and_retrain.ps1`" -ProjectDir `"$ProjectDir`" -PythonExe `"$PythonExe`" -HistoryCsv `"$HistoryCsv`" -OutputPkl `"$OutputPkl`""
 
-$retrainAction = New-ScheduledTaskAction `
-    -Execute "powershell.exe" `
-    -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$ProjectDir\automation\run_weekly_retrain_ratings.ps1`" -ProjectDir `"$ProjectDir`" -PythonExe `"$PythonExe`" -HistoryCsv `"$HistoryCsv`" -OutputPkl `"$OutputPkl`""
+$weeklyTrigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Sunday -At 05:30
 
-# Weekly Sunday schedule: refresh first, retrain after.
-$refreshTrigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Sunday -At 05:30
-$retrainTrigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Sunday -At 06:15
-
-Register-ScheduledTask -TaskName $refreshTask -Action $refreshAction -Trigger $refreshTrigger -Force | Out-Null
-Register-ScheduledTask -TaskName $retrainTask -Action $retrainAction -Trigger $retrainTrigger -Force | Out-Null
+Register-ScheduledTask -TaskName $weeklyTask -Action $weeklyAction -Trigger $weeklyTrigger -Force | Out-Null
 
 Write-Host "Installed tasks:"
-Write-Host " - $refreshTask @ Sunday 05:30"
-Write-Host " - $retrainTask @ Sunday 06:15"
+Write-Host " - $weeklyTask @ Sunday 05:30"

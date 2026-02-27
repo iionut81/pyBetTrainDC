@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Dict, Optional
+from typing import Dict, Optional, Set
 
 
 def implied_probability(odds: Optional[float]) -> Optional[float]:
@@ -28,6 +28,7 @@ def evaluate_market(
     min_dc_probability: float = 0.78,
     min_odds: float = 1.25,
     max_odds: float = 1.35,
+    allowed_variance_classes: Optional[Set[str]] = None,
 ) -> Dict[str, object]:
     fair_odds = (1.0 / model_probability) if model_probability > 0 else None
     effective_odds = offered_odds
@@ -39,7 +40,8 @@ def evaluate_market(
 
     pass_odds = offered_odds is not None and (min_odds <= offered_odds <= max_odds)
     pass_prob = model_probability >= min_dc_probability
-    pass_variance = variance_class in {"LOW", "MEDIUM"}
+    allowed = allowed_variance_classes if allowed_variance_classes is not None else {"LOW", "MEDIUM"}
+    pass_variance = variance_class in allowed
     pass_edge = edge is not None and edge > 0.0
 
     recommended = bool(pass_odds and pass_prob and pass_variance and pass_edge)

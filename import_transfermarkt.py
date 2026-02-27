@@ -22,6 +22,9 @@ LEAGUES: Dict[str, str] = {
     "FR1": "F1",
     "NL1": "N1",
     "PO1": "P1",
+    "RO1": "RO1",
+    "SER1": "RS1",
+    "SA1": "SA1",
 }
 
 USER_AGENT = (

@@ -18,6 +18,8 @@ from decision_engine import evaluate_market
 from dixon_coles import expected_goals, market_probabilities, resolve_team_strength, score_matrix
 from simulation import run_monte_carlo
 
+STRICT_LOW_VARIANCE_LEAGUES = {"E1", "RO1"}
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Daily Dixon-Coles probability engine with stability filter.")
@@ -110,6 +112,7 @@ def main() -> None:
 
     rows = []
     for fx in fixtures:
+        allowed_variance_classes = {"LOW"} if fx.league.upper() in STRICT_LOW_VARIANCE_LEAGUES else {"LOW", "MEDIUM"}
         resolved = resolve_team_strength(
             ratings=ratings,
             league=fx.league,
@@ -140,6 +143,7 @@ def main() -> None:
             min_dc_probability=args.min_dc_probability,
             min_odds=args.min_odds,
             max_odds=args.max_odds,
+            allowed_variance_classes=allowed_variance_classes,
         )
         eval_x2 = evaluate_market(
             market="X2",
@@ -150,6 +154,7 @@ def main() -> None:
             min_dc_probability=args.min_dc_probability,
             min_odds=args.min_odds,
             max_odds=args.max_odds,
+            allowed_variance_classes=allowed_variance_classes,
         )
 
         for market_eval in (eval_1x, eval_x2):

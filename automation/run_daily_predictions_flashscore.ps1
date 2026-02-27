@@ -6,24 +6,17 @@ param(
     [double]$MinOdds = 1.10,
     [double]$MaxOdds = 1.25,
     [string]$Series = "1",
-    [string]$ApiToken = $env:FOOTBALL_DATA_TOKEN,
     [string]$ApiFootballToken = $env:API_FOOTBALL_TOKEN
 )
 
 Set-Location $ProjectDir
 
 $targetDate = (Get-Date).Date.AddDays($DaysAhead).ToString("yyyy-MM-dd")
-$apiUrl = ""
-$activeApiToken = ""
-
-if ($ApiFootballToken -and $ApiFootballToken.Trim().Length -gt 0) {
-    $apiUrl = "https://v3.football.api-sports.io/fixtures?date=$targetDate"
-    $activeApiToken = $ApiFootballToken
+if (-not $ApiFootballToken -or $ApiFootballToken.Trim().Length -eq 0) {
+    throw "API_FOOTBALL_TOKEN is required for daily odds-enabled predictions."
 }
-elseif ($ApiToken -and $ApiToken.Trim().Length -gt 0) {
-    $apiUrl = "https://api.football-data.org/v4/matches?dateFrom=$targetDate&dateTo=$targetDate"
-    $activeApiToken = $ApiToken
-}
+$apiUrl = "https://v3.football.api-sports.io/fixtures?date=$targetDate"
+$activeApiToken = $ApiFootballToken
 $evalOut = "simulations\evaluations\$Series.1_Today_Evaluations.csv"
 $recOut = "simulations\recommendations\$Series.2_Today_Recommendations.csv"
 
@@ -32,7 +25,7 @@ New-Item -ItemType Directory -Force -Path "simulations\recommendations" | Out-Nu
 
 $cmd = @(
     "main.py",
-    "--provider", "auto",
+    "--provider", "api",
     "--target-date", $targetDate,
     "--ratings-pkl", $RatingsPkl,
     "--output-csv", $recOut,
@@ -42,9 +35,7 @@ $cmd = @(
     "--insecure"
 )
 
-if ($activeApiToken -and $activeApiToken.Trim().Length -gt 0) {
-    $cmd += @("--fixtures-api-url", $apiUrl, "--api-key", $activeApiToken)
-}
+$cmd += @("--fixtures-api-url", $apiUrl, "--api-key", $activeApiToken)
 
 & $PythonExe @cmd
 if ($LASTEXITCODE -ne 0) {
