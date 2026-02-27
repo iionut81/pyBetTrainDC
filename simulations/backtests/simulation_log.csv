@@ -1,0 +1,4 @@
+run_utc,history_store,output_csv,start_date,end_date,days,history_days,lookback_days,top_n,odds_target,odds_tolerance,min_teams_per_league,min_matches_per_league,predictions,settled,wins,hit_rate,unit_pnl,roi,decay_xi
+2026-02-26T17:28:00.958747+00:00,historical_matches_transfermarkt.csv,simulations\backtest_30d_historical_matches_transfermarkt_2026-01-27_to_2026-02-25.csv,2026-01-27,2026-02-25,30,220,180,5,1.2,0.05,4,12,54,54,44,0.8148148148148148,,,
+2026-02-26T17:43:14.246488+00:00,historical_matches_transfermarkt.csv,simulations\backtest_3d_decay_sanity.csv,2026-02-20,2026-02-22,3,220,180,5,1.2,0.05,4,12,11,11,11,1.0,,,0.0015
+2026-02-26T18:35:35.718978+00:00,historical_matches_transfermarkt.csv,simulations\season5_oos_backtest_bestcfg.csv,2025-08-08,2026-02-25,202,220,270,5,1.2,0.05,4,12,309,309,250,0.8090614886731392,,,0.0025
