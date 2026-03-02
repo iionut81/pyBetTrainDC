@@ -9,6 +9,8 @@ import numpy as np
 import pandas as pd
 from scipy.stats import nbinom, poisson
 
+from fhg_calibration import apply_platt_logit, fit_platt_logit
+
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(
@@ -26,6 +28,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--out-summary", default="simulations/Corners U12.5/backtests/corners_under12_5_summary.csv")
     p.add_argument("--out-calibration", default="simulations/Corners U12.5/backtests/corners_under12_5_calibration.csv")
     p.add_argument("--out-sharpness", default="simulations/Corners U12.5/backtests/corners_under12_5_sharpness.csv")
+    p.add_argument("--out-calibration-params", default="simulations/Corners U12.5/data/corners_calibration.csv")
     return p.parse_args()
 
 
@@ -225,6 +228,7 @@ def main() -> int:
     max_date = df["match_date"].max().date()
     anchor = min_date + dt.timedelta(days=args.lookback_days)
     rows: list[dict] = []
+    cal_pairs: dict[str, tuple[list, list]] = {}  # league -> (p_raw list, y list)
 
     while anchor <= max_date:
         train_start = anchor - dt.timedelta(days=args.lookback_days)
@@ -269,16 +273,57 @@ def main() -> int:
                     "under_12_5": float(m["under_12_5"]),
                 }
             )
+            lg_key = str(m["league"])
+            if lg_key not in cal_pairs:
+                cal_pairs[lg_key] = ([], [])
+            cal_pairs[lg_key][0].append(p_under)
+            cal_pairs[lg_key][1].append(float(m["under_12_5"]))
         anchor = pred_end
 
     pred_df = pd.DataFrame(rows)
     if pred_df.empty:
         raise RuntimeError("No predictions generated. Increase history or loosen min-team filters.")
 
+    # Fit Platt calibration per league on the walk-forward predictions.
+    cal_rows: list[dict] = []
+    cal_map: dict[str, tuple[float, float]] = {}
+    all_cp: list[np.ndarray] = []
+    all_cy: list[np.ndarray] = []
+    for lg, (ps, ys) in cal_pairs.items():
+        if len(ps) < 30:
+            continue
+        p_arr = np.array(ps, dtype=float)
+        y_arr = np.array(ys, dtype=float)
+        a, b = fit_platt_logit(p_arr, y_arr)
+        cal_map[lg] = (a, b)
+        all_cp.append(p_arr)
+        all_cy.append(y_arr)
+        cal_rows.append({"league": lg.upper(), "method": "platt", "a": a, "b": b, "n_train": len(ps)})
+    ga, gb = (0.0, 1.0)
+    if all_cp:
+        ga, gb = fit_platt_logit(np.concatenate(all_cp), np.concatenate(all_cy))
+    cal_rows.append({
+        "league": "__GLOBAL__", "method": "platt", "a": ga, "b": gb,
+        "n_train": int(sum(len(v[0]) for v in cal_pairs.values())),
+    })
+    cal_params_df = pd.DataFrame(cal_rows)
+    Path(args.out_calibration_params).parent.mkdir(parents=True, exist_ok=True)
+    cal_params_df.to_csv(args.out_calibration_params, index=False)
+
+    # Apply calibration to all walk-forward predictions.
+    pred_df["p_under_12_5_cal"] = pred_df["p_under_12_5"].copy()
+    for lg in pred_df["league"].unique():
+        mask = pred_df["league"] == lg
+        p_raw_arr = pred_df.loc[mask, "p_under_12_5"].to_numpy(dtype=float)
+        a, b = cal_map.get(lg, (ga, gb))
+        pred_df.loc[mask, "p_under_12_5_cal"] = apply_platt_logit(p_raw_arr, a, b)
+
     # Save walk-forward outputs.
     Path(args.out_predictions).parent.mkdir(parents=True, exist_ok=True)
     pred_df.to_csv(args.out_predictions, index=False)
 
+    cal_df_tmp = pred_df.drop(columns=["p_under_12_5"]).rename(columns={"p_under_12_5_cal": "p_under_12_5"})
+    cal_metrics = _metrics(cal_df_tmp)
     summary = pd.DataFrame(
         [
             {
@@ -287,7 +332,14 @@ def main() -> int:
                 "lookback_days": int(args.lookback_days),
                 "retrain_days": int(args.retrain_days),
                 **_metrics(pred_df),
-            }
+            },
+            {
+                "scope": "corners_under_12_5_walk_forward_calibrated",
+                "model": args.model,
+                "lookback_days": int(args.lookback_days),
+                "retrain_days": int(args.retrain_days),
+                **cal_metrics,
+            },
         ]
     )
     Path(args.out_summary).parent.mkdir(parents=True, exist_ok=True)
@@ -313,12 +365,13 @@ def main() -> int:
 
     print("CORNERS_UNDER_12_5_SUMMARY")
     print(summary.to_string(index=False))
-    print(f"\nSaved predictions: {args.out_predictions}")
-    print(f"Saved summary:     {args.out_summary}")
-    print(f"Saved calibration: {args.out_calibration}")
-    print(f"Saved sharpness:   {args.out_sharpness}")
-    print(f"Saved profiles:    {args.out_team_profiles}")
-    print(f"Saved league prm:  {args.out_league_params}")
+    print(f"\nSaved predictions:   {args.out_predictions}")
+    print(f"Saved summary:       {args.out_summary}")
+    print(f"Saved calibration:   {args.out_calibration}")
+    print(f"Saved sharpness:     {args.out_sharpness}")
+    print(f"Saved cal params:    {args.out_calibration_params}")
+    print(f"Saved profiles:      {args.out_team_profiles}")
+    print(f"Saved league prm:    {args.out_league_params}")
     return 0
 
 

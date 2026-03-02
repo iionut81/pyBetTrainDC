@@ -5,10 +5,12 @@ import datetime as dt
 from pathlib import Path
 from typing import Dict, Optional, Tuple
 
+import numpy as np
 import pandas as pd
 from scipy.stats import nbinom, poisson
 
 from data_loader import fetch_fixtures_from_api
+from fhg_calibration import apply_calibration, calibration_from_row
 
 
 def _norm_team(name: object) -> str:
@@ -38,6 +40,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--target-date", default=dt.date.today().isoformat())
     p.add_argument("--profiles-csv", default="simulations/Corners U12.5/data/corners_team_profiles.csv")
     p.add_argument("--league-params-csv", default="simulations/Corners U12.5/data/corners_league_params.csv")
+    p.add_argument("--calibration-csv", default="simulations/Corners U12.5/data/corners_calibration.csv")
     p.add_argument("--odds-csv", default="", help="Optional CSV with columns: league,home_team,away_team,odds_under_12_5")
     p.add_argument("--model", choices=["poisson", "nb"], default="nb")
     p.add_argument("--min-prob", type=float, default=0.78)
@@ -84,6 +87,12 @@ def main() -> int:
     for c in ("league", "team"):
         profiles[c] = profiles[c].astype(str).str.strip().str.lower()
     league_params["league"] = league_params["league"].astype(str).str.strip().str.upper()
+
+    cal_path = Path(args.calibration_csv)
+    cal_df = pd.read_csv(cal_path) if cal_path.exists() else pd.DataFrame(columns=["league", "method", "a", "b"])
+    cal_map = {str(r["league"]).strip().upper(): calibration_from_row(dict(r)) for _, r in cal_df.iterrows()}
+    global_cal = cal_map.get("__GLOBAL__", {"method": "platt", "a": 0.0, "b": 1.0, "temperature": 1.0})
+
     odds_map = _load_odds_map(args.odds_csv)
 
     api_url = f"https://v3.football.api-sports.io/fixtures?date={args.target_date}"
@@ -119,24 +128,26 @@ def main() -> int:
         lam = float(0.8 * (lam_base * tempo) + 0.2 * mu)
         lam = float(max(2.5, min(18.0, lam)))
 
-        p_under = _prob_under_12_5(lam=lam, model=args.model, k=k)
-        fair_odds = (1.0 / p_under) if p_under > 0 else None
+        p_under_raw = _prob_under_12_5(lam=lam, model=args.model, k=k)
+        calib = cal_map.get(league, global_cal)
+        p_under_cal = float(apply_calibration(np.array([p_under_raw], dtype=float), calib)[0])
+        fair_odds = (1.0 / p_under_cal) if p_under_cal > 0 else None
 
         offered = odds_map.get((league, home, away))
         implied = (1.0 / offered) if offered is not None and offered > 0 else None
-        edge = (p_under - implied) if implied is not None else None
+        edge = (p_under_cal - implied) if implied is not None else None
 
         if offered is not None:
             recommended = bool(
                 args.min_odds <= offered <= args.max_odds
-                and p_under >= args.min_prob
+                and p_under_cal >= args.min_prob
                 and edge is not None
                 and edge > 0
             )
             odds_source = "market"
         else:
             # Fallback recommendation path when market corners odds are unavailable.
-            recommended = bool(p_under >= args.min_prob and fair_odds is not None and fair_odds <= args.max_fair_odds)
+            recommended = bool(p_under_cal >= args.min_prob and fair_odds is not None and fair_odds <= args.max_fair_odds)
             odds_source = "missing"
 
         rows.append(
@@ -149,7 +160,9 @@ def main() -> int:
                 "model": args.model,
                 "lambda_corners": lam,
                 "k_dispersion": k,
-                "p_under_12_5": p_under,
+                "p_under_12_5_raw": p_under_raw,
+                "p_under_12_5_cal": p_under_cal,
+                "p_under_12_5": p_under_cal,
                 "fair_odds_under_12_5": fair_odds,
                 "offered_odds_under_12_5": offered,
                 "implied_probability": implied,
