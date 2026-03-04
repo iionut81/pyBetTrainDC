@@ -17,6 +17,68 @@ def _norm_team(name: object) -> str:
     return " ".join(str(name or "").strip().lower().split())
 
 
+# Maps full API-Football names (returned by /fixtures?date=) to the short names
+# stored in corners_team_profiles.csv (built from /fixtures?league=&season=).
+# The two endpoints return inconsistent display names for the same teams.
+_TEAM_ALIASES: dict[str, str] = {
+    # E0 – Premier League
+    "manchester city": "man city",
+    "manchester united": "man united",
+    "nottingham forest": "nott'm forest",
+    # D1 – Bundesliga
+    "1. fc heidenheim": "heidenheim",
+    "1899 hoffenheim": "hoffenheim",
+    "bayer leverkusen": "leverkusen",
+    "fc bayern münchen": "bayern munich",
+    "fc bayern munchen": "bayern munich",
+    "borussia dortmund": "dortmund",
+    "borussia mönchengladbach": "m'gladbach",
+    "borussia monchengladbach": "m'gladbach",
+    "eintracht frankfurt": "ein frankfurt",
+    "fc augsburg": "augsburg",
+    "fc st. pauli": "st pauli",
+    "fsv mainz 05": "mainz",
+    "hamburger sv": "hamburg",
+    "sc freiburg": "freiburg",
+    "vfb stuttgart": "stuttgart",
+    "vfl bochum": "bochum",
+    "vfl wolfsburg": "wolfsburg",
+    "1. fc köln": "fc koln",
+    "1. fc koln": "fc koln",
+    # SP1 – La Liga
+    "athletic club": "ath bilbao",
+    "atletico madrid": "ath madrid",
+    "celta vigo": "celta",
+    "espanyol": "espanol",
+    "rayo vallecano": "vallecano",
+    "real betis": "betis",
+    "real sociedad": "sociedad",
+    # E1 – Championship
+    "hull city": "hull",
+    "oxford united": "oxford",
+    "sheffield utd": "sheffield united",
+    "sheffield wednesday": "sheffield weds",
+    "stoke city": "stoke",
+    # F1 – Ligue 1
+    "paris saint germain": "paris sg",
+    "saint etienne": "st etienne",
+    "stade brestois 29": "brest",
+    # I1 – Serie A
+    "ac milan": "milan",
+    "as roma": "roma",
+    "hellas verona": "verona",
+    # N1 – Eredivisie
+    "almere city fc": "almere city",
+    "fortuna sittard": "for sittard",
+    "nec nijmegen": "nijmegen",
+    "pec zwolle": "zwolle",
+    # P1 – Liga Portugal
+    "fc porto": "porto",
+    "sc braga": "sp braga",
+    "sporting cp": "sp lisbon",
+}
+
+
 def _to_float(value: object) -> Optional[float]:
     if value is None:
         return None
@@ -104,8 +166,10 @@ def main() -> int:
     rows: list[dict] = []
     for fx in fixtures:
         league = str(fx.league).strip().upper()
-        home = _norm_team(fx.home_team)
-        away = _norm_team(fx.away_team)
+        home_raw = _norm_team(fx.home_team)
+        away_raw = _norm_team(fx.away_team)
+        home = _TEAM_ALIASES.get(home_raw, home_raw)
+        away = _TEAM_ALIASES.get(away_raw, away_raw)
 
         lp = league_params[league_params["league"] == league]
         if lp.empty:
@@ -118,6 +182,12 @@ def main() -> int:
         h = pp[pp["team"] == home]
         a = pp[pp["team"] == away]
         if h.empty or a.empty:
+            missing = []
+            if h.empty:
+                missing.append(f"home={home!r}")
+            if a.empty:
+                missing.append(f"away={away!r}")
+            print(f"  [SKIP] {league} {home_raw} vs {away_raw} — no profile for {', '.join(missing)}")
             continue
 
         hrow = h.iloc[0]
