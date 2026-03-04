@@ -19,18 +19,21 @@ MARKETS = ["over_2_5", "under_3_5", "under_4_5"]
 THRESHOLDS: Dict[str, Dict[str, float]] = {
     "over_2_5": {
         "min_prob": 0.63,
+        "max_prob": 1.00,
         "min_odds": 1.40,
         "max_odds": 1.95,
         "max_fair_odds": 1.59,
     },
     "under_3_5": {
-        "min_prob": 0.70,
+        "min_prob": 0.65,
+        "max_prob": 0.85,  # tail above 0.85 is over-confident (+0.138 gap at 0.9-1.0)
         "min_odds": 1.25,
         "max_odds": 1.65,
         "max_fair_odds": 1.43,
     },
     "under_4_5": {
         "min_prob": 0.82,
+        "max_prob": 0.93,  # avoid extreme tail (+0.043 gap at 0.9-1.0)
         "min_odds": 1.10,
         "max_odds": 1.35,
         "max_fair_odds": 1.22,
@@ -205,17 +208,18 @@ def main() -> int:
             edge = (p_cal - implied) if implied is not None else None
 
             thresh = THRESHOLDS[market]
+            in_prob_band = thresh["min_prob"] <= p_cal <= thresh["max_prob"]
             if offered_odd is not None:
                 recommended = bool(
-                    thresh["min_odds"] <= offered_odd <= thresh["max_odds"]
-                    and p_cal >= thresh["min_prob"]
+                    in_prob_band
+                    and thresh["min_odds"] <= offered_odd <= thresh["max_odds"]
                     and edge is not None
                     and edge > 0
                 )
                 odds_source = "market"
             else:
                 recommended = bool(
-                    p_cal >= thresh["min_prob"]
+                    in_prob_band
                     and fair_odds is not None
                     and fair_odds <= thresh["max_fair_odds"]
                 )
