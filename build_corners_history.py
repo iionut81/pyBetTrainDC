@@ -35,8 +35,8 @@ LEAGUE_IDS: dict[str, int] = {
     "SA1": 307,
 }
 
-QUEUE_PATH = Path("simulations/Corners/data/fixture_queue.csv")
-HISTORY_PATH = Path("simulations/Corners/data/corners_history.csv")
+QUEUE_PATH = Path("simulations/Corners U12.5/data/fixture_queue.csv")
+HISTORY_PATH = Path("simulations/Corners U12.5/data/corners_history.csv")
 HISTORY_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 

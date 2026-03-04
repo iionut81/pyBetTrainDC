@@ -6,7 +6,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from fhg_calibration import apply_platt_logit
+from fhg_calibration import apply_calibration, calibration_from_row
 from fhg_weibull import p_goal_before_45
 
 
@@ -35,8 +35,8 @@ def main() -> int:
         raise RuntimeError("No HT rows available for league bias training.")
 
     k_map = {str(x["league"]).upper(): float(x["k_estimate"]) for _, x in r.iterrows()}
-    cal_map = {str(x["league"]).upper(): (float(x["a"]), float(x["b"])) for _, x in c.iterrows()}
-    global_ab = cal_map.get("__GLOBAL__", (0.0, 1.0))
+    cal_map = {str(x["league"]).upper(): calibration_from_row(dict(x)) for _, x in c.iterrows()}
+    global_cal = cal_map.get("__GLOBAL__", {"method": "platt", "a": 0.0, "b": 1.0})
 
     rows = []
     for league, g in h.groupby("league"):
@@ -46,10 +46,10 @@ def main() -> int:
         if len(train) < args.min_train:
             continue
         k = k_map.get(str(league).upper(), 1.2)
-        a, b = cal_map.get(str(league).upper(), global_ab)
+        calib = cal_map.get(str(league).upper(), global_cal)
         xg_proxy = (train["home_goals"].astype(float) + train["away_goals"].astype(float)).clip(lower=0.05)
         p_raw = np.array([p_goal_before_45(x, k) for x in xg_proxy], dtype=float)
-        p_cal = apply_platt_logit(p_raw, a=a, b=b)
+        p_cal = apply_calibration(p_raw, calib)
         y = ((train["ht_home_goals"].astype(float) + train["ht_away_goals"].astype(float)) > 0).astype(float).to_numpy()
 
         mean_pred = float(np.mean(p_cal))
@@ -82,4 +82,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

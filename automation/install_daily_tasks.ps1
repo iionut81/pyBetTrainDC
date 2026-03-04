@@ -1,11 +1,16 @@
 param(
     [string]$ProjectDir = "C:\Users\Ionut.Iordache\OneDrive - LucaNet AG\Desktop\Pred",
     [string]$PythonExe = "python",
-    [string]$RatingsPkl = "data\historical\team_ratings.pkl"
+    [string]$RatingsPkl = "data\historical\team_ratings.pkl",
+    [double]$CornersMinProb = 0.78,
+    [double]$CornersMinOdds = 1.10,
+    [double]$CornersMaxOdds = 1.35,
+    [double]$CornersMaxFairOdds = 1.30
 )
 
 $historyTask = "Pred_Daily_History_Update"
 $predictTask = "Pred_Daily_Flashscore_Predictions"
+$cornersTask = "Pred_Daily_Corners_U12_5"
 
 $historyAction = New-ScheduledTaskAction `
     -Execute "powershell.exe" `
@@ -15,12 +20,19 @@ $predictAction = New-ScheduledTaskAction `
     -Execute "powershell.exe" `
     -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$ProjectDir\automation\run_daily_predictions_flashscore.ps1`" -ProjectDir `"$ProjectDir`" -PythonExe `"$PythonExe`" -RatingsPkl `"$RatingsPkl`" -DaysAhead 1"
 
+$cornersAction = New-ScheduledTaskAction `
+    -Execute "powershell.exe" `
+    -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$ProjectDir\automation\run_daily_corners_u12_5.ps1`" -ProjectDir `"$ProjectDir`" -PythonExe `"$PythonExe`" -DaysAhead 1 -MinProb $CornersMinProb -MinOdds $CornersMinOdds -MaxOdds $CornersMaxOdds -MaxFairOdds $CornersMaxFairOdds"
+
 $historyTrigger = New-ScheduledTaskTrigger -Daily -At 06:30
 $predictTrigger = New-ScheduledTaskTrigger -Daily -At 07:00
+$cornersTrigger = New-ScheduledTaskTrigger -Daily -At 07:20
 
 Register-ScheduledTask -TaskName $historyTask -Action $historyAction -Trigger $historyTrigger -Force | Out-Null
 Register-ScheduledTask -TaskName $predictTask -Action $predictAction -Trigger $predictTrigger -Force | Out-Null
+Register-ScheduledTask -TaskName $cornersTask -Action $cornersAction -Trigger $cornersTrigger -Force | Out-Null
 
 Write-Host "Installed tasks:"
 Write-Host " - $historyTask @ 06:30"
 Write-Host " - $predictTask @ 07:00"
+Write-Host " - $cornersTask @ 07:20"

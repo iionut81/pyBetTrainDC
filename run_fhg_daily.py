@@ -9,7 +9,7 @@ import pandas as pd
 
 from data_loader import fetch_fixtures_from_api, load_team_ratings
 from dixon_coles import expected_goals, resolve_team_strength
-from fhg_calibration import apply_platt_logit
+from fhg_calibration import apply_calibration, calibration_from_row
 from fhg_weibull import p_goal_before_45
 
 
@@ -51,11 +51,8 @@ def main() -> int:
         if Path(args.calibration_csv).exists()
         else pd.DataFrame(columns=["league", "a", "b"])
     )
-    cal_map = {
-        str(r["league"]).strip().upper(): (float(r.get("a", 0.0)), float(r.get("b", 1.0)))
-        for _, r in cal.iterrows()
-    }
-    global_ab = cal_map.get("__GLOBAL__", (0.0, 1.0))
+    cal_map = {str(r["league"]).strip().upper(): calibration_from_row(dict(r)) for _, r in cal.iterrows()}
+    global_cal = cal_map.get("__GLOBAL__", {"method": "platt", "a": 0.0, "b": 1.0})
     bias_df = (
         pd.read_csv(args.league_bias_csv)
         if Path(args.league_bias_csv).exists()
@@ -80,8 +77,8 @@ def main() -> int:
         xg_total = float(lam_h + lam_a)
         k = float(k_map.get(fx.league.upper(), 1.2))
         p_fhg_raw = p_goal_before_45(expected_total_goals=xg_total, k=k)
-        a, b = cal_map.get(fx.league.upper(), global_ab)
-        p_fhg_cal = float(apply_platt_logit(p_fhg_raw, a=a, b=b))
+        calib = cal_map.get(fx.league.upper(), global_cal)
+        p_fhg_cal = float(apply_calibration(np.array([p_fhg_raw], dtype=float), calib)[0])
         # Keep calibrated probability untouched; use league bias only as edge/ranking amplifier.
         p_fhg = p_fhg_cal
         bias = float(bias_map.get(fx.league.upper(), 1.0))

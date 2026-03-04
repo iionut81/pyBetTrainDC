@@ -17,4 +17,9 @@ if ($LASTEXITCODE -ne 0) {
     throw "Weekly retrain step failed with exit code $LASTEXITCODE"
 }
 
-Write-Host "Weekly pipeline completed: refresh + retrain."
+& "$ProjectDir\automation\run_weekly_corners_refresh.ps1" -ProjectDir $ProjectDir -PythonExe $PythonExe
+if ($LASTEXITCODE -ne 0) {
+    throw "Weekly corners refresh step failed with exit code $LASTEXITCODE"
+}
+
+Write-Host "Weekly pipeline completed: refresh + retrain + corners."
