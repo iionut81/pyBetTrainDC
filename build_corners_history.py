@@ -33,6 +33,12 @@ LEAGUE_IDS: dict[str, int] = {
     "RO1": 283,
     "RS1": 286,
     "SA1": 307,
+    # New leagues added 2026-03-09
+    "SP2": 141,
+    "D2": 79,
+    "I2": 136,
+    "SW1": 207,
+    "DK1": 119,
 }
 
 QUEUE_PATH = Path("simulations/Corners U12.5/data/fixture_queue.csv")

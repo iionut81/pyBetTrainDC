@@ -17,14 +17,19 @@ LEAGUES: Dict[str, str] = {
     "GB1": "E0",
     "GB2": "E1",
     "ES1": "SP1",
+    "ES2": "SP2",
     "L1": "D1",
+    "L2": "D2",
     "IT1": "I1",
+    "IT2": "I2",
     "FR1": "F1",
     "NL1": "N1",
     "PO1": "P1",
     "RO1": "RO1",
     "SER1": "RS1",
     "SA1": "SA1",
+    "C1": "SW1",
+    "DK1": "DK1",
 }
 
 USER_AGENT = (

@@ -7,14 +7,18 @@ from typing import Dict, List
 
 import pandas as pd
 import requests
+import urllib3
 
 
 LEAGUES: Dict[str, str] = {
     "E0": "England Premier League",
     "E1": "England Championship",
     "SP1": "Spain La Liga",
+    "SP2": "Spain Segunda Division",
     "D1": "Germany Bundesliga",
+    "D2": "Germany 2. Bundesliga",
     "I1": "Italy Serie A",
+    "I2": "Italy Serie B",
     "F1": "France Ligue 1",
     "N1": "Netherlands Eredivisie",
     "P1": "Portugal Primeira Liga",
@@ -65,9 +69,9 @@ def to_model_schema(df: pd.DataFrame, league_code: str, season_code: str) -> pd.
     return out
 
 
-def download_csv(session: requests.Session, season_code: str, league_code: str, timeout: int) -> pd.DataFrame:
+def download_csv(session: requests.Session, season_code: str, league_code: str, timeout: int, verify_ssl: bool = True) -> pd.DataFrame:
     url = f"https://www.football-data.co.uk/mmz4281/{season_code}/{league_code}.csv"
-    resp = session.get(url, timeout=timeout)
+    resp = session.get(url, timeout=timeout, verify=verify_ssl)
     resp.raise_for_status()
     return pd.read_csv(io.StringIO(resp.text))
 
@@ -103,10 +107,22 @@ def main() -> int:
         help="Path to write consolidated output CSV.",
     )
     parser.add_argument("--timeout", type=int, default=20, help="HTTP timeout in seconds.")
+    parser.add_argument("--insecure", action="store_true", help="Disable SSL certificate verification.")
     args = parser.parse_args()
+
+    verify_ssl = not args.insecure
+    if not verify_ssl:
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
     seasons = season_codes(args.n_seasons, args.end_season_code)
     session = requests.Session()
+    session.headers.update({
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/122.0.0.0 Safari/537.36"
+        )
+    })
     rows: List[pd.DataFrame] = []
     failures: List[str] = []
     input_dir = Path(args.input_dir) if args.input_dir else None
@@ -115,7 +131,7 @@ def main() -> int:
         for league_code in LEAGUES:
             try:
                 if input_dir is None:
-                    df_raw = download_csv(session, season, league_code, timeout=args.timeout)
+                    df_raw = download_csv(session, season, league_code, timeout=args.timeout, verify_ssl=verify_ssl)
                 else:
                     file_path = input_dir / f"{season}_{league_code}.csv"
                     df_raw = load_local_csv(file_path)

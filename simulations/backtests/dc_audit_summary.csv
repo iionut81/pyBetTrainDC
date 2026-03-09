@@ -1,2 +1,2 @@
-scope,n,hit_rate,log_loss,brier,p_mean,y_mean
-validation_best_predictions_walk_forward,2821,0.7749025168380007,0.5162833684757757,0.1688617297403651,0.7862786948088368,0.7749025168380007
+timestamp,source_csv,leagues,n_leagues,total_matches_evaluated,min_dc_prob_threshold,hit_rate,log_loss,brier,p_mean,y_mean,oos_start,oos_end,oos_predictions,oos_wins,oos_hit_rate,lookback_days,decay_xi
+2026-03-09T12:39:26Z,data/historical/historical_matches_transfermarkt_new_leagues.csv,"D1, D2, DK1, E0, E1, F1, I1, I2, N1, P1, RO1, RS1, SA1, SP1, SP2, SW1",16,8468,0.78,0.8219,0.4851,0.1466,0.8594,0.8219,2025-08-10,2026-03-08,1489,1234,0.8287,365,0.0025

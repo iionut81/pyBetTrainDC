@@ -51,6 +51,15 @@ API_LEAGUE_MAP: Dict[tuple[str, str], str] = {
     ("saudi-arabia", "pro league"): "SA1",
     ("saudi arabia", "saudi professional league"): "SA1",
     ("saudi-arabia", "saudi professional league"): "SA1",
+    ("spain", "segunda division"): "SP2",
+    ("spain", "laliga2"): "SP2",
+    ("spain", "segunda división"): "SP2",
+    ("germany", "2. bundesliga"): "D2",
+    ("germany", "2 bundesliga"): "D2",
+    ("italy", "serie b"): "I2",
+    ("switzerland", "super league"): "SW1",
+    ("switzerland", "super league 1"): "SW1",
+    ("denmark", "superliga"): "DK1",
 }
 
 
