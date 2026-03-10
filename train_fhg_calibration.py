@@ -9,9 +9,12 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from config import CFG
 from dc_double_chance import DixonColesModel
 from fhg_calibration import fit_isotonic, fit_platt_logit
 from fhg_weibull import p_goal_before_45
+
+_TF = CFG["training"]["fhg"]
 
 
 def parse_args() -> argparse.Namespace:
@@ -20,11 +23,11 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--ratios-csv", default="simulations/FHG/data/fhg_league_ratios.csv")
     p.add_argument("--out-csv", default="simulations/FHG/data/fhg_calibration.csv")
     p.add_argument("--method", choices=["platt", "isotonic"], default="platt")
-    p.add_argument("--lookback-days", type=int, default=365)
-    p.add_argument("--retrain-days", type=int, default=30)
-    p.add_argument("--min-train-matches", type=int, default=35)
-    p.add_argument("--min-train-teams", type=int, default=6)
-    p.add_argument("--min-samples", type=int, default=150)
+    p.add_argument("--lookback-days", type=int, default=_TF["lookback_days"])
+    p.add_argument("--retrain-days", type=int, default=_TF["retrain_days"])
+    p.add_argument("--min-train-matches", type=int, default=_TF["min_train_matches"])
+    p.add_argument("--min-train-teams", type=int, default=_TF["min_train_teams"])
+    p.add_argument("--min-samples", type=int, default=_TF["min_samples"])
     return p.parse_args()
 
 

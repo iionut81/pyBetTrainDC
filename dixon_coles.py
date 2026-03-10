@@ -49,15 +49,29 @@ def _canonical_team_name(name: str) -> str:
     return " ".join(tokens)
 
 
-def _resolve_team_name(known_teams: Dict[str, dict], incoming_name: str) -> Optional[str]:
+def _resolve_team_name(
+    known_teams: Dict[str, dict],
+    incoming_name: str,
+    league: str = "",
+) -> Optional[str]:
+    # 1. Exact match in known_teams
     if incoming_name in known_teams:
         return incoming_name
 
+    # 2. Registry lookup (deterministic, from team_ids.yaml)
+    try:
+        from team_registry import resolve_team
+        registry_name = resolve_team(incoming_name, league)
+        if registry_name is not None and registry_name in known_teams:
+            return registry_name
+    except Exception:
+        pass  # registry not available — fall through to legacy matching
+
+    # 3. Legacy canonical matching (kept for backwards compatibility)
     target = _canonical_team_name(incoming_name)
     if not target:
         return None
 
-    # Exact canonical match first.
     canon_pairs = [(team, _canonical_team_name(team)) for team in known_teams.keys()]
     canon_exact = [team for team, canon in canon_pairs if canon == target]
     if len(canon_exact) == 1:
@@ -65,7 +79,7 @@ def _resolve_team_name(known_teams: Dict[str, dict], incoming_name: str) -> Opti
     if len(canon_exact) > 1:
         return sorted(canon_exact, key=len)[0]
 
-    # Substring containment (handles "hull" vs "hull city", "porto" vs "fc porto").
+    # 4. Substring containment
     contains = []
     for team, canon in canon_pairs:
         if canon and (target in canon or canon in target):
@@ -74,7 +88,7 @@ def _resolve_team_name(known_teams: Dict[str, dict], incoming_name: str) -> Opti
         contains.sort(key=lambda x: (abs(len(x[1]) - len(target)), len(x[1])))
         return contains[0][0]
 
-    # Fuzzy fallback.
+    # 5. Fuzzy fallback — log a warning so the alias can be added
     best_team = None
     best_score = 0.0
     for team, canon in canon_pairs:
@@ -85,6 +99,10 @@ def _resolve_team_name(known_teams: Dict[str, dict], incoming_name: str) -> Opti
             best_score = score
             best_team = team
     if best_team is not None and best_score >= 0.72:
+        print(
+            f"  [WARN] Fuzzy match: {incoming_name!r} -> {best_team!r} "
+            f"(score={best_score:.2f}, league={league}) — add to team_ids.yaml"
+        )
         return best_team
     return None
 
@@ -158,8 +176,8 @@ def resolve_team_strength(
         if not isinstance(league_block, dict):
             return None
         teams = league_block.get("teams", {})
-        home_resolved = _resolve_team_name(teams, home_team)
-        away_resolved = _resolve_team_name(teams, away_team)
+        home_resolved = _resolve_team_name(teams, home_team, league=league)
+        away_resolved = _resolve_team_name(teams, away_team, league=league)
         h = teams.get(home_resolved) if home_resolved else None
         a = teams.get(away_resolved) if away_resolved else None
         if not (isinstance(h, dict) and isinstance(a, dict)):

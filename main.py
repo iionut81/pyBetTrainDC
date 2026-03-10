@@ -7,6 +7,7 @@ from typing import List
 
 import pandas as pd
 
+from config import CFG
 from data_loader import (
     Fixture,
     fetch_fixtures_from_api,
@@ -18,7 +19,7 @@ from decision_engine import evaluate_market
 from dixon_coles import expected_goals, market_probabilities, resolve_team_strength, score_matrix
 from simulation import run_monte_carlo
 
-STRICT_LOW_VARIANCE_LEAGUES = {"E1", "RO1"}
+STRICT_LOW_VARIANCE_LEAGUES = set(CFG["strict_low_variance_leagues"])
 
 
 def parse_args() -> argparse.Namespace:
@@ -58,13 +59,13 @@ def parse_args() -> argparse.Namespace:
         default="simulations/evaluations/1.1_Today_Evaluations.csv",
         help="Full evaluated markets output.",
     )
-    parser.add_argument("--max-goals", type=int, default=6, help="Max goals in Poisson score matrix.")
-    parser.add_argument("--iterations", type=int, default=50000, help="Monte Carlo iterations per match.")
-    parser.add_argument("--min-dc-probability", type=float, default=0.78)
-    parser.add_argument("--min-odds", type=float, default=1.25)
-    parser.add_argument("--max-odds", type=float, default=1.35)
-    parser.add_argument("--default-home-advantage", type=float, default=0.0)
-    parser.add_argument("--default-rho", type=float, default=-0.05)
+    parser.add_argument("--max-goals", type=int, default=CFG["dixon_coles"]["max_goals"], help="Max goals in Poisson score matrix.")
+    parser.add_argument("--iterations", type=int, default=CFG["dixon_coles"]["mc_iterations"], help="Monte Carlo iterations per match.")
+    parser.add_argument("--min-dc-probability", type=float, default=CFG["dc"]["min_probability"])
+    parser.add_argument("--min-odds", type=float, default=CFG["dc"]["min_odds"])
+    parser.add_argument("--max-odds", type=float, default=CFG["dc"]["max_odds"])
+    parser.add_argument("--default-home-advantage", type=float, default=CFG["dixon_coles"]["default_home_advantage"])
+    parser.add_argument("--default-rho", type=float, default=CFG["dixon_coles"]["default_rho"])
     parser.add_argument("--insecure", action="store_true", help="Disable TLS verification for API requests.")
     return parser.parse_args()
 

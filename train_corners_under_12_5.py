@@ -9,7 +9,11 @@ import numpy as np
 import pandas as pd
 from scipy.stats import nbinom, poisson
 
+from config import CFG
 from fhg_calibration import apply_platt_logit, fit_platt_logit
+
+_TC = CFG["training"]["corners"]
+_CC = CFG["corners"]
 
 
 def parse_args() -> argparse.Namespace:
@@ -17,10 +21,10 @@ def parse_args() -> argparse.Namespace:
         description="Train and evaluate Under 12.5 corners model (Poisson / Negative Binomial)."
     )
     p.add_argument("--history-csv", default="simulations/Corners U12.5/data/corners_history.csv")
-    p.add_argument("--lookback-days", type=int, default=365)
-    p.add_argument("--retrain-days", type=int, default=30)
-    p.add_argument("--min-team-home", type=int, default=5)
-    p.add_argument("--min-team-away", type=int, default=5)
+    p.add_argument("--lookback-days", type=int, default=_TC["lookback_days"])
+    p.add_argument("--retrain-days", type=int, default=_TC["retrain_days"])
+    p.add_argument("--min-team-home", type=int, default=_TC["min_team_home"])
+    p.add_argument("--min-team-away", type=int, default=_TC["min_team_away"])
     p.add_argument("--model", choices=["poisson", "nb"], default="nb")
     p.add_argument("--out-team-profiles", default="simulations/Corners U12.5/data/corners_team_profiles.csv")
     p.add_argument("--out-league-params", default="simulations/Corners U12.5/data/corners_league_params.csv")
@@ -51,7 +55,7 @@ def _estimate_nb_k(values: np.ndarray, default_k: float = 12.0) -> float:
     if var <= mu or mu <= 0:
         return float(default_k)
     k = (mu * mu) / (var - mu)
-    return float(np.clip(k, 0.5, 200.0))
+    return float(np.clip(k, _CC["k_min"], _CC["k_max"]))
 
 
 def _prob_under_12_5(lam: float, model: str, k: float) -> float:
@@ -108,7 +112,7 @@ def _league_params(train: pd.DataFrame, global_mu: float) -> pd.DataFrame:
                 "mu_total": mu,
                 "var_total": var,
                 "k_dispersion": k,
-                "tempo_factor": float(np.clip(tempo, 0.75, 1.25)),
+                "tempo_factor": float(np.clip(tempo, _CC["tempo_min"], _CC["tempo_max"])),
                 "n_train": int(len(lg)),
             }
         )
@@ -147,9 +151,9 @@ def _predict_lambda(
         float(hrow["h_for"]) + float(arow["a_against"]) + float(arow["a_for"]) + float(hrow["h_against"])
     ) / 2.0
     lam = lam_base * tempo
-    lam = float(np.clip(lam, 2.5, 18.0))
+    lam = float(np.clip(lam, _CC["lambda_min"], _CC["lambda_max"]))
     # Blend with league mean to avoid unstable extremes.
-    lam = float(0.8 * lam + 0.2 * mu)
+    lam = float(_CC["blend_empirical"] * lam + _CC["blend_league_mean"] * mu)
     return lam, True
 
 

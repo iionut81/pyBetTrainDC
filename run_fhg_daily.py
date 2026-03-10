@@ -7,6 +7,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from config import CFG
 from data_loader import fetch_fixtures_from_api, load_team_ratings
 from dixon_coles import expected_goals, resolve_team_strength
 from fhg_calibration import apply_calibration, calibration_from_row
@@ -27,9 +28,9 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--ratios-csv", default="simulations/FHG/data/fhg_league_ratios.csv")
     p.add_argument("--calibration-csv", default="simulations/FHG/data/fhg_calibration.csv")
     p.add_argument("--league-bias-csv", default="simulations/FHG/data/fhg_league_bias.csv")
-    p.add_argument("--min-prob", type=float, default=0.78)
-    p.add_argument("--min-odds", type=float, default=1.10)
-    p.add_argument("--max-odds", type=float, default=1.25)
+    p.add_argument("--min-prob", type=float, default=CFG["fhg"]["min_probability"])
+    p.add_argument("--min-odds", type=float, default=CFG["fhg"]["min_odds"])
+    p.add_argument("--max-odds", type=float, default=CFG["fhg"]["max_odds"])
     p.add_argument("--series", default="1")
     p.add_argument("--insecure", action="store_true")
     return p.parse_args()
@@ -45,7 +46,7 @@ def main() -> int:
         return 0
 
     ratios = pd.read_csv(args.ratios_csv) if Path(args.ratios_csv).exists() else pd.DataFrame(columns=["league", "k_estimate"])
-    k_map = {str(r["league"]).strip().upper(): float(r.get("k_estimate", 1.2)) for _, r in ratios.iterrows()}
+    k_map = {str(r["league"]).strip().upper(): float(r.get("k_estimate", CFG["fhg"]["default_k"])) for _, r in ratios.iterrows()}
     cal = (
         pd.read_csv(args.calibration_csv)
         if Path(args.calibration_csv).exists()
@@ -67,15 +68,15 @@ def main() -> int:
             league=fx.league,
             home_team=fx.home_team,
             away_team=fx.away_team,
-            default_home_advantage=0.0,
-            default_rho=-0.05,
+            default_home_advantage=CFG["dixon_coles"]["default_home_advantage"],
+            default_rho=CFG["dixon_coles"]["default_rho"],
         )
         if resolved is None:
             continue
         home_s, away_s, league_params = resolved
         lam_h, lam_a = expected_goals(home=home_s, away=away_s, home_advantage=league_params.home_advantage)
         xg_total = float(lam_h + lam_a)
-        k = float(k_map.get(fx.league.upper(), 1.2))
+        k = float(k_map.get(fx.league.upper(), CFG["fhg"]["default_k"]))
         p_fhg_raw = p_goal_before_45(expected_total_goals=xg_total, k=k)
         calib = cal_map.get(fx.league.upper(), global_cal)
         p_fhg_cal = float(apply_calibration(np.array([p_fhg_raw], dtype=float), calib)[0])

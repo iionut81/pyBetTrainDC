@@ -1,0 +1,120 @@
+# ============================================================================
+# Central configuration for all prediction pipelines.
+# Edit thresholds here instead of scattered across individual scripts.
+# ============================================================================
+
+# --- Dixon-Coles model defaults ---
+dixon_coles:
+  default_home_advantage: 0.0
+  default_rho: -0.05
+  max_goals: 6              # score matrix dimension for daily DC
+  max_goals_training: 10    # score matrix dimension for training / goals totals
+  mc_iterations: 50000      # Monte Carlo simulation iterations
+  fuzzy_match_threshold: 0.72
+
+# --- Variance classification thresholds ---
+variance:
+  low: 0.145
+  low_medium: 0.185
+  medium: 0.22
+  # anything above medium is HIGH
+
+# --- Leagues that only allow LOW variance recommendations ---
+strict_low_variance_leagues:
+  - E1
+  - RO1
+
+# --- Double Chance (1X / X2) recommendation filters ---
+dc:
+  min_probability: 0.78
+  min_odds: 1.25
+  max_odds: 1.35
+
+# --- First-Half Goal recommendation filters ---
+fhg:
+  min_probability: 0.78
+  min_odds: 1.10
+  max_odds: 1.25
+  default_k: 1.2
+  k_min: 0.6
+  k_max: 2.0
+
+# --- Goals Totals recommendation filters (per market) ---
+goals:
+  over_2_5:
+    min_prob: 0.63
+    max_prob: 1.00
+    min_odds: 1.40
+    max_odds: 1.95
+    max_fair_odds: 1.59
+  under_3_5:
+    min_prob: 0.65
+    max_prob: 0.85
+    min_odds: 1.25
+    max_odds: 1.65
+    max_fair_odds: 1.43
+  under_4_5:
+    min_prob: 0.82
+    max_prob: 0.93
+    min_odds: 1.10
+    max_odds: 1.35
+    max_fair_odds: 1.22
+
+# --- Corners Under 12.5 recommendation filters ---
+corners:
+  min_probability: 0.78
+  min_odds: 1.10
+  max_odds: 1.35
+  max_fair_odds: 1.30
+  lambda_min: 2.5
+  lambda_max: 18.0
+  blend_empirical: 0.8     # weight for empirical lambda
+  blend_league_mean: 0.2   # weight for league mean mu
+  default_mu: 10.0
+  default_k: 12.0
+  k_min: 0.5
+  k_max: 200.0
+  tempo_min: 0.75
+  tempo_max: 1.25
+
+# --- Training defaults ---
+training:
+  team_ratings:
+    lookback_days: 270
+    decay_xi: 0.0025
+    min_teams: 6
+    min_matches: 35
+  fhg:
+    lookback_days: 365
+    retrain_days: 30
+    min_train_matches: 35
+    min_train_teams: 6
+    min_samples: 150
+  goals:
+    lookback_days: 365
+    retrain_days: 30
+    min_train_matches: 35
+    min_train_teams: 6
+    min_samples: 100
+  corners:
+    lookback_days: 365
+    retrain_days: 30
+    min_team_home: 5
+    min_team_away: 5
+
+# --- Notifications ---
+# Daily pipeline writes a log to notifications.log_dir.
+# Set notifications.email.enabled to true and fill in SMTP details to get
+# email alerts on pipeline failures.
+notifications:
+  log_dir: "logs"                     # relative to project root
+  email:
+    enabled: false
+    smtp_host: "smtp.example.com"
+    smtp_port: 587
+    use_tls: true
+    username: ""                      # or use env var SMTP_USERNAME
+    password: ""                      # or use env var SMTP_PASSWORD
+    from_addr: "pred-pipeline@example.com"
+    to_addrs:
+      - "your-email@example.com"

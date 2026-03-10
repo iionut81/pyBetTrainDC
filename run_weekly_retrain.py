@@ -22,6 +22,8 @@ import subprocess
 import sys
 from typing import List
 
+from notify import notify
+
 
 def _current_season() -> int:
     """Current season start year: switches on July 1."""
@@ -72,6 +74,11 @@ def main() -> int:
         ok = _run(label, cmd)
         results.append((label, ok))
         return ok
+
+    # ── 0. Run test suite ───────────────────────────────────────────────────
+    if not step("Test suite (pytest)", [py, "-m", "pytest", "tests/", "-q"]):
+        print("  ⚠ Tests failed — aborting retrain to avoid training on broken code.")
+        return 1
 
     # ── 1. Refresh FHG / Goals history ──────────────────────────────────────
     if not args.skip_history and not args.skip_fhg:
@@ -124,6 +131,8 @@ def main() -> int:
         icon = "✓" if ok else "✗"
         print(f"    {icon}  {label}")
     print(f"{'═' * 60}\n")
+
+    notify("Weekly Retrain", results)
 
     return 0 if n_fail == 0 else 1
 

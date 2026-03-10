@@ -1,0 +1,195 @@
+# ============================================================================
+# Canonical team name registry.
+#
+# Format:  league -> { alias: canonical_name }
+# The canonical name is the one stored in team_ratings.pkl (Transfermarkt).
+# All aliases (from API-Football fixtures, corners profiles, etc.) map to it.
+#
+# To add a new team: add a line under the right league.
+# To find mismatches: run  python team_registry.py --check
+# ============================================================================
+
+# A special _global section for cross-league aliases (rarely needed)
+_global: {}
+
+E0:
+  # API-Football long names
+  manchester city: man city
+  manchester united: man utd
+  nottingham forest: "nott'm forest"
+  wolverhampton wanderers: wolves
+  # Corners profile names
+  man united: man utd
+
+E1:
+  # API-Football names
+  sheffield utd: sheff utd
+  sheffield united: sheff utd
+  sheffield wednesday: sheff wed
+  # Corners profile names
+  hull: hull city
+  oxford: oxford united
+  sheffield weds: sheff wed
+  stoke: stoke city
+
+D1:
+  # API-Football long names
+  "1. fc heidenheim": heidenheim
+  "1899 hoffenheim": hoffenheim
+  bayer leverkusen: leverkusen
+  "fc bayern münchen": bayern munich
+  "fc bayern munchen": bayern munich
+  borussia dortmund: dortmund
+  "borussia mönchengladbach": "mönchengladbach"
+  "borussia monchengladbach": "mönchengladbach"
+  eintracht frankfurt: frankfurt
+  fc augsburg: augsburg
+  "fc st. pauli": "st. pauli"
+  "fsv mainz 05": mainz
+  sc freiburg: freiburg
+  vfb stuttgart: stuttgart
+  vfl wolfsburg: wolfsburg
+  "1. fc köln": "1.fc köln"
+  "1. fc koln": "1.fc köln"
+  rb leipzig: leipzig
+  hamburger sv: hamburg
+  # Corners profile names
+  ein frankfurt: frankfurt
+  fc koln: "1.fc köln"
+  "m'gladbach": "mönchengladbach"
+  st pauli: "st. pauli"
+  bochum: vfl bochum         # only in corners (relegated from D1)
+  holstein kiel: holstein kiel
+
+D2:
+  "1. fc kaiserslautern": "1.fc k'lautern"
+  "fc schalke 04": fc schalke 04
+  karlsruher sc: karlsruher sc
+  "ssv jahn regensburg": jahn regensburg
+  "1. fc magdeburg": 1.fc magdeburg
+  "1. fc nürnberg": 1.fc nuremberg
+  "1. fc nuremberg": 1.fc nuremberg
+
+SP1:
+  # API-Football names
+  atletico madrid: "atlético"
+  "atlético madrid": "atlético"
+  celta vigo: celta de vigo
+  rayo vallecano: rayo vallecano
+  real betis: real betis
+  real sociedad: real sociedad
+  athletic club: athletic club
+  # Corners profile names
+  ath bilbao: athletic club
+  ath madrid: "atlético"
+  betis: real betis
+  celta: celta de vigo
+  espanol: espanyol
+  vallecano: rayo vallecano
+  sociedad: real sociedad
+  alaves: "alavés"
+  mallorca: rcd mallorca
+  osasuna: ca osasuna
+  sevilla: sevilla fc
+  oviedo: real oviedo
+  elche: elche cf
+  leganes: "cd leganés"
+  valladolid: real valladolid
+  las palmas: ud las palmas
+
+SP2:
+  cultural leonesa: cyd leonesa
+  "ud almeria": "ud almería"
+  "ud almería": "ud almería"
+  malaga: "málaga cf"
+  "málaga": "málaga cf"
+  cadiz: "cádiz cf"
+  "cádiz": "cádiz cf"
+  cordoba: "córdoba cf"
+  "córdoba": "córdoba cf"
+  castellon: "castellón"
+  "sporting de gijon": "sporting gijón"
+  "sporting gijon": "sporting gijón"
+  huesca: sd huesca
+
+F1:
+  paris saint germain: psg
+  "saint etienne": saint etienne
+  "stade brestois 29": stade brestois
+  angers: angers sco
+  auxerre: aj auxerre
+  lorient: fc lorient
+  metz: fc metz
+  nantes: fc nantes
+  "le havre": le havre ac
+  strasbourg: "r. strasbourg"
+  rennes: stade rennais
+  # Corners profile names
+  paris sg: psg
+  brest: stade brestois
+  st etienne: saint etienne
+  reims: reims
+  montpellier: montpellier
+
+I1:
+  as roma: roma
+  hellas verona: hellas verona
+  # Corners profile names
+  milan: ac milan
+  verona: hellas verona
+  empoli: fc empoli
+
+I2:
+  "spezia calcio": spezia calcio
+  "cosenza calcio": cosenza
+  "us cremonese": cremonese
+  "venezia fc": venezia
+
+N1:
+  "almere city fc": almere city
+  almere city: almere city
+  fortuna sittard: fortuna sittard
+  "nec nijmegen": nec nijmegen
+  "pec zwolle": pec zwolle
+  # Corners profile names
+  for sittard: fortuna sittard
+  nijmegen: nec nijmegen
+  zwolle: pec zwolle
+  groningen: fc groningen
+  twente: fc twente
+  volendam: fc volendam
+  heracles: heracles almelo
+  "psv eindhoven": psv
+  "sparta rotterdam": "sparta r."
+
+P1:
+  "fc porto": porto
+  "sc braga": braga
+  "sporting cp": sporting
+  # Corners profile names
+  sp braga: braga
+  sp lisbon: sporting
+  estrela: estrela amadora
+  avs: avs fs
+  famalicao: "famalicão"
+  guimaraes: "vit. guimarães"
+
+RO1: {}
+
+RS1: {}
+
+SA1: {}
+
+DK1:
+  "agf aarhus": aarhus gf
+  agf: aarhus gf
+  "fc midtjylland": midtjylland
+  "fc nordsjaelland": nordsjaelland
+  "silkeborg if": silkeborg if
+
+SW1:
+  "fc zürich": "fc zürich"
+  "fc zurich": "fc zürich"
+  "bsc young boys": young boys
+  "fc lugano": fc lugano
+  "fc lausanne-sport": lausanne-sport

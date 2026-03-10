@@ -9,36 +9,15 @@ import numpy as np
 import pandas as pd
 import requests
 
+from config import CFG
 from data_loader import fetch_fixtures_from_api, load_team_ratings
 from dixon_coles import expected_goals, resolve_team_strength, score_matrix
 from fhg_calibration import apply_calibration, calibration_from_row
 
 MARKETS = ["over_2_5", "under_3_5", "under_4_5"]
 
-# Default recommendation thresholds per market
-THRESHOLDS: Dict[str, Dict[str, float]] = {
-    "over_2_5": {
-        "min_prob": 0.63,
-        "max_prob": 1.00,
-        "min_odds": 1.40,
-        "max_odds": 1.95,
-        "max_fair_odds": 1.59,
-    },
-    "under_3_5": {
-        "min_prob": 0.65,
-        "max_prob": 0.85,  # tail above 0.85 is over-confident (+0.138 gap at 0.9-1.0)
-        "min_odds": 1.25,
-        "max_odds": 1.65,
-        "max_fair_odds": 1.43,
-    },
-    "under_4_5": {
-        "min_prob": 0.82,
-        "max_prob": 0.93,  # avoid extreme tail (+0.043 gap at 0.9-1.0)
-        "min_odds": 1.10,
-        "max_odds": 1.35,
-        "max_fair_odds": 1.22,
-    },
-}
+# Recommendation thresholds per market — loaded from config.yaml
+THRESHOLDS: Dict[str, Dict[str, float]] = {m: CFG["goals"][m] for m in MARKETS}
 
 
 def _to_float(value: object) -> Optional[float]:

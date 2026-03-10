@@ -8,8 +8,11 @@ from typing import Dict, List, Tuple
 import numpy as np
 import pandas as pd
 
+from config import CFG
 from dc_double_chance import DixonColesModel
 from fhg_calibration import apply_platt_logit, fit_platt_logit
+
+_TG = CFG["training"]["goals"]
 
 MARKETS = ["over_2_5", "under_3_5", "under_4_5"]
 
@@ -155,11 +158,11 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--out-predictions-csv", default="simulations/Goals/backtests/goals_predictions.csv")
     p.add_argument("--out-summary-csv", default="simulations/Goals/backtests/goals_backtest_summary.csv")
     p.add_argument("--out-buckets-csv", default="simulations/Goals/backtests/goals_calibration_buckets.csv")
-    p.add_argument("--lookback-days", type=int, default=365)
-    p.add_argument("--retrain-days", type=int, default=30)
-    p.add_argument("--min-train-matches", type=int, default=35)
-    p.add_argument("--min-train-teams", type=int, default=6)
-    p.add_argument("--min-samples", type=int, default=100)
+    p.add_argument("--lookback-days", type=int, default=_TG["lookback_days"])
+    p.add_argument("--retrain-days", type=int, default=_TG["retrain_days"])
+    p.add_argument("--min-train-matches", type=int, default=_TG["min_train_matches"])
+    p.add_argument("--min-train-teams", type=int, default=_TG["min_train_teams"])
+    p.add_argument("--min-samples", type=int, default=_TG["min_samples"])
     return p.parse_args()
 
 

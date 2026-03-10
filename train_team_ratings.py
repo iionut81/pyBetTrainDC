@@ -7,15 +7,18 @@ from typing import Dict
 
 import pandas as pd
 
+from config import CFG
 from dc_double_chance import DixonColesModel
+
+_TR = CFG["training"]["team_ratings"]
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Train league-wise Dixon-Coles ratings and export team_ratings.pkl")
     parser.add_argument("--history-csv", default="data/historical/historical_matches_transfermarkt.csv")
     parser.add_argument("--output-pkl", default="data/historical/team_ratings.pkl")
-    parser.add_argument("--lookback-days", type=int, default=270)
-    parser.add_argument("--decay-xi", type=float, default=0.0025)
+    parser.add_argument("--lookback-days", type=int, default=_TR["lookback_days"])
+    parser.add_argument("--decay-xi", type=float, default=_TR["decay_xi"])
     parser.add_argument(
         "--reference-date",
         default="",
@@ -39,7 +42,7 @@ def main() -> int:
     for league in sorted(train["league"].unique()):
         ldf = train[train["league"] == league].copy()
         n_teams = len(set(ldf["home_team"]).union(set(ldf["away_team"])))
-        if n_teams < 6 or len(ldf) < 35:
+        if n_teams < _TR["min_teams"] or len(ldf) < _TR["min_matches"]:
             continue
         model = DixonColesModel(max_goals=10)
         try:

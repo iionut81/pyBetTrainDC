@@ -6,50 +6,13 @@ from pathlib import Path
 
 import pandas as pd
 
+from config import CFG
 from data_loader import fetch_fixtures_from_api, load_team_ratings
 from decision_engine import evaluate_market
 from dixon_coles import expected_goals, market_probabilities, resolve_team_strength, score_matrix
 from simulation import run_monte_carlo
 
-STRICT_LOW_VARIANCE_LEAGUES = {"E1", "RO1"}
-
-# Maps API-Football team names (lowercased) to Transfermarkt training names.
-# Add entries whenever a new league causes team name mismatches.
-TEAM_ALIASES: dict[str, str] = {
-    # SP2 – Spain Segunda División
-    "cultural leonesa": "cyd leonesa",
-    "ud almeria": "ud almería",
-    "malaga": "málaga cf",
-    "cadiz": "cádiz cf",
-    "cordoba": "córdoba cf",
-    "castellon": "castellón",
-    "sporting de gijon": "sporting gijón",
-    "huesca": "sd huesca",
-    # D2 – Germany 2. Bundesliga
-    "karlsruher sc": "karlsruhe",
-    "1. fc kaiserslautern": "kaiserslautern",
-    "fc schalke 04": "schalke 04",
-    "ssv jahn regensburg": "jahn regensburg",
-    # I2 – Italy Serie B
-    "spezia calcio": "spezia",
-    "cosenza calcio": "cosenza",
-    "us cremonese": "cremonese",
-    "venezia fc": "venezia",
-    # DK1 – Denmark Superliga
-    "agf aarhus": "agf",
-    "fc midtjylland": "midtjylland",
-    "fc nordsjaelland": "nordsjaelland",
-    "silkeborg if": "silkeborg",
-    # SW1 – Switzerland Super League
-    "fc zürich": "fc zurich",
-    "bsc young boys": "young boys",
-    "fc lugano": "lugano",
-    "fc lausanne-sport": "lausanne-sport",
-}
-
-
-def _apply_team_alias(name: str) -> str:
-    return TEAM_ALIASES.get(name.lower(), name)
+STRICT_LOW_VARIANCE_LEAGUES = set(CFG["strict_low_variance_leagues"])
 
 
 def parse_args() -> argparse.Namespace:
@@ -58,11 +21,11 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--target-date", default=dt.date.today().isoformat())
     p.add_argument("--ratings-pkl", default="data/historical/team_ratings.pkl")
     p.add_argument("--series", default="1")
-    p.add_argument("--min-dc-probability", type=float, default=0.78)
-    p.add_argument("--min-odds", type=float, default=1.25)
-    p.add_argument("--max-odds", type=float, default=1.35)
-    p.add_argument("--max-goals", type=int, default=6)
-    p.add_argument("--iterations", type=int, default=50000)
+    p.add_argument("--min-dc-probability", type=float, default=CFG["dc"]["min_probability"])
+    p.add_argument("--min-odds", type=float, default=CFG["dc"]["min_odds"])
+    p.add_argument("--max-odds", type=float, default=CFG["dc"]["max_odds"])
+    p.add_argument("--max-goals", type=int, default=CFG["dixon_coles"]["max_goals"])
+    p.add_argument("--iterations", type=int, default=CFG["dixon_coles"]["mc_iterations"])
     p.add_argument("--insecure", action="store_true")
     return p.parse_args()
 
@@ -86,10 +49,10 @@ def main() -> int:
         resolved = resolve_team_strength(
             ratings=ratings,
             league=fx.league,
-            home_team=_apply_team_alias(fx.home_team),
-            away_team=_apply_team_alias(fx.away_team),
-            default_home_advantage=0.0,
-            default_rho=-0.05,
+            home_team=fx.home_team,
+            away_team=fx.away_team,
+            default_home_advantage=CFG["dixon_coles"]["default_home_advantage"],
+            default_rho=CFG["dixon_coles"]["default_rho"],
         )
         if resolved is None:
             continue

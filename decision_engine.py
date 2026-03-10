@@ -2,6 +2,10 @@ from __future__ import annotations
 
 from typing import Dict, Optional, Set
 
+from config import CFG
+
+_VAR = CFG["variance"]
+
 
 def implied_probability(odds: Optional[float]) -> Optional[float]:
     if odds is None or odds <= 0:
@@ -10,11 +14,11 @@ def implied_probability(odds: Optional[float]) -> Optional[float]:
 
 
 def classify_variance(var_value: float) -> str:
-    if var_value <= 0.145:
+    if var_value <= _VAR["low"]:
         return "LOW"
-    if var_value <= 0.185:
+    if var_value <= _VAR["low_medium"]:
         return "LOW-MEDIUM"
-    if var_value <= 0.22:
+    if var_value <= _VAR["medium"]:
         return "MEDIUM"
     return "HIGH"
 

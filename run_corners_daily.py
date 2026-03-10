@@ -9,74 +9,16 @@ import numpy as np
 import pandas as pd
 from scipy.stats import nbinom, poisson
 
+from config import CFG
 from data_loader import fetch_fixtures_from_api
 from fhg_calibration import apply_calibration, calibration_from_row
+from team_registry import resolve_team_or_warn
+
+_CORNERS = CFG["corners"]
 
 
 def _norm_team(name: object) -> str:
     return " ".join(str(name or "").strip().lower().split())
-
-
-# Maps full API-Football names (returned by /fixtures?date=) to the short names
-# stored in corners_team_profiles.csv (built from /fixtures?league=&season=).
-# The two endpoints return inconsistent display names for the same teams.
-_TEAM_ALIASES: dict[str, str] = {
-    # E0 – Premier League
-    "manchester city": "man city",
-    "manchester united": "man united",
-    "nottingham forest": "nott'm forest",
-    # D1 – Bundesliga
-    "1. fc heidenheim": "heidenheim",
-    "1899 hoffenheim": "hoffenheim",
-    "bayer leverkusen": "leverkusen",
-    "fc bayern münchen": "bayern munich",
-    "fc bayern munchen": "bayern munich",
-    "borussia dortmund": "dortmund",
-    "borussia mönchengladbach": "m'gladbach",
-    "borussia monchengladbach": "m'gladbach",
-    "eintracht frankfurt": "ein frankfurt",
-    "fc augsburg": "augsburg",
-    "fc st. pauli": "st pauli",
-    "fsv mainz 05": "mainz",
-    "hamburger sv": "hamburg",
-    "sc freiburg": "freiburg",
-    "vfb stuttgart": "stuttgart",
-    "vfl bochum": "bochum",
-    "vfl wolfsburg": "wolfsburg",
-    "1. fc köln": "fc koln",
-    "1. fc koln": "fc koln",
-    # SP1 – La Liga
-    "athletic club": "ath bilbao",
-    "atletico madrid": "ath madrid",
-    "celta vigo": "celta",
-    "espanyol": "espanol",
-    "rayo vallecano": "vallecano",
-    "real betis": "betis",
-    "real sociedad": "sociedad",
-    # E1 – Championship
-    "hull city": "hull",
-    "oxford united": "oxford",
-    "sheffield utd": "sheffield united",
-    "sheffield wednesday": "sheffield weds",
-    "stoke city": "stoke",
-    # F1 – Ligue 1
-    "paris saint germain": "paris sg",
-    "saint etienne": "st etienne",
-    "stade brestois 29": "brest",
-    # I1 – Serie A
-    "ac milan": "milan",
-    "as roma": "roma",
-    "hellas verona": "verona",
-    # N1 – Eredivisie
-    "almere city fc": "almere city",
-    "fortuna sittard": "for sittard",
-    "nec nijmegen": "nijmegen",
-    "pec zwolle": "zwolle",
-    # P1 – Liga Portugal
-    "fc porto": "porto",
-    "sc braga": "sp braga",
-    "sporting cp": "sp lisbon",
-}
 
 
 def _to_float(value: object) -> Optional[float]:
@@ -105,10 +47,10 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--calibration-csv", default="simulations/Corners U12.5/data/corners_calibration.csv")
     p.add_argument("--odds-csv", default="", help="Optional CSV with columns: league,home_team,away_team,odds_under_12_5")
     p.add_argument("--model", choices=["poisson", "nb"], default="nb")
-    p.add_argument("--min-prob", type=float, default=0.78)
-    p.add_argument("--min-odds", type=float, default=1.10)
-    p.add_argument("--max-odds", type=float, default=1.35)
-    p.add_argument("--max-fair-odds", type=float, default=1.30)
+    p.add_argument("--min-prob", type=float, default=_CORNERS["min_probability"])
+    p.add_argument("--min-odds", type=float, default=_CORNERS["min_odds"])
+    p.add_argument("--max-odds", type=float, default=_CORNERS["max_odds"])
+    p.add_argument("--max-fair-odds", type=float, default=_CORNERS["max_fair_odds"])
     p.add_argument("--series", default="1")
     p.add_argument("--insecure", action="store_true")
     return p.parse_args()
@@ -150,6 +92,12 @@ def main() -> int:
         profiles[c] = profiles[c].astype(str).str.strip().str.lower()
     league_params["league"] = league_params["league"].astype(str).str.strip().str.upper()
 
+    # Normalize profile team names to canonical (same as fixture names after registry lookup)
+    profiles["team"] = profiles.apply(
+        lambda row: resolve_team_or_warn(row["team"], row["league"].upper()),
+        axis=1,
+    )
+
     cal_path = Path(args.calibration_csv)
     cal_df = pd.read_csv(cal_path) if cal_path.exists() else pd.DataFrame(columns=["league", "method", "a", "b"])
     cal_map = {str(r["league"]).strip().upper(): calibration_from_row(dict(r)) for _, r in cal_df.iterrows()}
@@ -168,14 +116,14 @@ def main() -> int:
         league = str(fx.league).strip().upper()
         home_raw = _norm_team(fx.home_team)
         away_raw = _norm_team(fx.away_team)
-        home = _TEAM_ALIASES.get(home_raw, home_raw)
-        away = _TEAM_ALIASES.get(away_raw, away_raw)
+        home = resolve_team_or_warn(home_raw, league)
+        away = resolve_team_or_warn(away_raw, league)
 
         lp = league_params[league_params["league"] == league]
         if lp.empty:
             continue
-        mu = float(lp.iloc[0].get("mu_total", 10.0))
-        k = float(lp.iloc[0].get("k_dispersion", 12.0))
+        mu = float(lp.iloc[0].get("mu_total", _CORNERS["default_mu"]))
+        k = float(lp.iloc[0].get("k_dispersion", _CORNERS["default_k"]))
         tempo = float(lp.iloc[0].get("tempo_factor", 1.0))
 
         pp = profiles[profiles["league"] == league.lower()]
@@ -195,8 +143,8 @@ def main() -> int:
         lam_base = (
             float(hrow["h_for"]) + float(arow["a_against"]) + float(arow["a_for"]) + float(hrow["h_against"])
         ) / 2.0
-        lam = float(0.8 * (lam_base * tempo) + 0.2 * mu)
-        lam = float(max(2.5, min(18.0, lam)))
+        lam = float(_CORNERS["blend_empirical"] * (lam_base * tempo) + _CORNERS["blend_league_mean"] * mu)
+        lam = float(max(_CORNERS["lambda_min"], min(_CORNERS["lambda_max"], lam)))
 
         p_under_raw = _prob_under_12_5(lam=lam, model=args.model, k=k)
         calib = cal_map.get(league, global_cal)
