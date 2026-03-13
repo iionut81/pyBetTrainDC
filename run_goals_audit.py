@@ -21,18 +21,20 @@ import pandas as pd
 from dc_double_chance import DixonColesModel
 from fhg_calibration import apply_platt_logit, fit_platt_logit
 
-MARKETS = ["over_2_5", "under_3_5", "under_4_5"]
+MARKETS = ["over_2_5", "under_3_5", "under_4_5", "btts"]
 
 ELIGIBLE_BANDS: Dict[str, Tuple[float, float]] = {
     "over_2_5":  (0.63, 1.00),
     "under_3_5": (0.65, 0.85),
     "under_4_5": (0.82, 0.93),
+    "btts":      (0.60, 1.00),
 }
 
 MARKET_LABELS = {
     "over_2_5":  "OVER 2.5",
     "under_3_5": "UNDER 3.5",
     "under_4_5": "UNDER 4.5",
+    "btts":      "BTTS YES",
 }
 
 
@@ -47,6 +49,7 @@ def _ou_probs(mat: np.ndarray) -> Dict[str, float]:
         "over_2_5":  float(mat[total >= 3].sum()),
         "under_3_5": float(mat[total <= 3].sum()),
         "under_4_5": float(mat[total <= 4].sum()),
+        "btts":      float(mat[1:, 1:].sum()),
     }
 
 
@@ -152,9 +155,11 @@ def walk_forward(
                 "p_over_2_5":     probs["over_2_5"],
                 "p_under_3_5":    probs["under_3_5"],
                 "p_under_4_5":    probs["under_4_5"],
+                "p_btts":         probs["btts"],
                 "y_over_2_5":     float(total >= 3),
                 "y_under_3_5":    float(total <= 3),
                 "y_under_4_5":    float(total <= 4),
+                "y_btts":         float(int(row["home_goals"]) >= 1 and int(row["away_goals"]) >= 1),
                 "total_goals":    total,
             })
 

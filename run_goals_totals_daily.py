@@ -14,7 +14,7 @@ from data_loader import fetch_fixtures_from_api, load_team_ratings
 from dixon_coles import expected_goals, resolve_team_strength, score_matrix
 from fhg_calibration import apply_calibration, calibration_from_row
 
-MARKETS = ["over_2_5", "under_3_5", "under_4_5"]
+MARKETS = ["over_2_5", "under_3_5", "under_4_5", "btts"]
 
 # Recommendation thresholds per market — loaded from config.yaml
 THRESHOLDS: Dict[str, Dict[str, float]] = {m: CFG["goals"][m] for m in MARKETS}
@@ -41,24 +41,38 @@ def _extract_goals_odds(bookmakers: list) -> Dict[str, Optional[float]]:
                 continue
             bid = bet.get("id")
             bname = str(bet.get("name", "")).strip().lower()
-            if bid != 5 and "goals over/under" not in bname and bname != "over/under":
-                continue
-            vals = bet.get("values", [])
-            if not isinstance(vals, list):
-                continue
-            for v in vals:
-                if not isinstance(v, dict):
+            # Goals Over/Under (bet ID 5)
+            if bid == 5 or "goals over/under" in bname or bname == "over/under":
+                vals = bet.get("values", [])
+                if not isinstance(vals, list):
                     continue
-                label = str(v.get("value", "")).strip().lower()
-                odd = _to_float(v.get("odd"))
-                if odd is None or odd <= 0:
+                for v in vals:
+                    if not isinstance(v, dict):
+                        continue
+                    label = str(v.get("value", "")).strip().lower()
+                    odd = _to_float(v.get("odd"))
+                    if odd is None or odd <= 0:
+                        continue
+                    if label == "over 2.5":
+                        result["over_2_5"] = odd
+                    elif label == "under 3.5":
+                        result["under_3_5"] = odd
+                    elif label == "under 4.5":
+                        result["under_4_5"] = odd
+            # Both Teams Score (bet ID 8)
+            if bid == 8 or "both teams" in bname:
+                vals = bet.get("values", [])
+                if not isinstance(vals, list):
                     continue
-                if label == "over 2.5":
-                    result["over_2_5"] = odd
-                elif label == "under 3.5":
-                    result["under_3_5"] = odd
-                elif label == "under 4.5":
-                    result["under_4_5"] = odd
+                for v in vals:
+                    if not isinstance(v, dict):
+                        continue
+                    label = str(v.get("value", "")).strip().lower()
+                    odd = _to_float(v.get("odd"))
+                    if odd is None or odd <= 0:
+                        continue
+                    if label == "yes":
+                        result["btts"] = odd
     return result
 
 
@@ -105,6 +119,7 @@ def _ou_probs(mat: np.ndarray) -> Dict[str, float]:
         "over_2_5": float(mat[total >= 3].sum()),
         "under_3_5": float(mat[total <= 3].sum()),
         "under_4_5": float(mat[total <= 4].sum()),
+        "btts": float(mat[1:, 1:].sum()),
     }
 
 

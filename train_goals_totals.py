@@ -14,7 +14,7 @@ from fhg_calibration import apply_platt_logit, fit_platt_logit
 
 _TG = CFG["training"]["goals"]
 
-MARKETS = ["over_2_5", "under_3_5", "under_4_5"]
+MARKETS = ["over_2_5", "under_3_5", "under_4_5", "btts"]
 
 
 def _ou_probs(mat: np.ndarray) -> Dict[str, float]:
@@ -26,6 +26,7 @@ def _ou_probs(mat: np.ndarray) -> Dict[str, float]:
         "over_2_5": float(mat[total >= 3].sum()),
         "under_3_5": float(mat[total <= 3].sum()),
         "under_4_5": float(mat[total <= 4].sum()),
+        "btts": float(mat[1:, 1:].sum()),
     }
 
 
@@ -136,10 +137,12 @@ def walk_forward_samples(
                     "p_over_2_5": probs["over_2_5"],
                     "p_under_3_5": probs["under_3_5"],
                     "p_under_4_5": probs["under_4_5"],
+                    "p_btts": probs["btts"],
                     "total_goals": total_goals,
                     "y_over_2_5": float(total_goals >= 3),
                     "y_under_3_5": float(total_goals <= 3),
                     "y_under_4_5": float(total_goals <= 4),
+                    "y_btts": float(int(row["home_goals"]) >= 1 and int(row["away_goals"]) >= 1),
                 }
             )
         anchor = pred_end
