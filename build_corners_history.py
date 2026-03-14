@@ -133,7 +133,11 @@ def build_queue(session: requests.Session, seasons: list[int], budget: int) -> t
 def fetch_statistics(session: requests.Session, queue: pd.DataFrame, budget: int) -> tuple[int, int]:
     """Call /fixtures/statistics for unprocessed fixtures. Returns (stats_fetched, calls_used)."""
     existing_history = pd.read_csv(HISTORY_PATH) if HISTORY_PATH.exists() else pd.DataFrame()
-    processed_ids = set(existing_history["fixture_id"].astype(int).tolist()) if not existing_history.empty else set()
+    processed_ids: set[int] = set()
+    if not existing_history.empty and "fixture_id" in existing_history.columns:
+        ids = existing_history["fixture_id"].dropna()
+        if not ids.empty:
+            processed_ids = set(ids.astype(int).tolist())
 
     unprocessed = queue[~queue["fixture_id"].astype(int).isin(processed_ids)].copy()
     print(f"  Fixtures to process: {len(unprocessed)} unprocessed of {len(queue)} total")
@@ -195,7 +199,19 @@ def fetch_statistics(session: requests.Session, queue: pd.DataFrame, budget: int
 def _append_and_save(existing: pd.DataFrame, new_rows: list[dict]) -> None:
     new_df = pd.DataFrame(new_rows)
     out = pd.concat([existing, new_df], ignore_index=True) if not existing.empty else new_df
-    out = out.drop_duplicates(subset=["fixture_id"]).reset_index(drop=True)
+    if "fixture_id" in out.columns and out["fixture_id"].notna().any():
+        has_id = out["fixture_id"].notna()
+        with_id = out[has_id].drop_duplicates(subset=["fixture_id"])
+        without_id = out[~has_id]
+        natural_cols = [c for c in ["league", "season", "match_date", "home_team", "away_team"] if c in out.columns]
+        if natural_cols:
+            without_id = without_id.drop_duplicates(subset=natural_cols)
+        out = pd.concat([with_id, without_id], ignore_index=True)
+    else:
+        natural_cols = [c for c in ["league", "season", "match_date", "home_team", "away_team"] if c in out.columns]
+        if natural_cols:
+            out = out.drop_duplicates(subset=natural_cols)
+    out = out.reset_index(drop=True)
     out.to_csv(HISTORY_PATH, index=False)
 
 
@@ -261,14 +277,19 @@ def _print_status() -> None:
         print(f"CORNERS HISTORY: {len(h)} records saved")
         if not h.empty:
             print(f"  Leagues: {sorted(h['league'].unique().tolist())}")
-            print(f"  Seasons: {sorted(h['season'].unique().tolist())}")
+            if "season" in h.columns:
+                print(f"  Seasons: {sorted(h['season'].unique().tolist())}")
             by_league = h.groupby("league").size().sort_values(ascending=False)
             print(f"  By league:\n{by_league.to_string()}")
     else:
         print("No corner history yet.")
     if QUEUE_PATH.exists():
         q = pd.read_csv(QUEUE_PATH)
-        processed = pd.read_csv(HISTORY_PATH)["fixture_id"].nunique() if HISTORY_PATH.exists() else 0
+        processed = 0
+        if HISTORY_PATH.exists():
+            h = pd.read_csv(HISTORY_PATH)
+            if "fixture_id" in h.columns:
+                processed = h["fixture_id"].dropna().nunique()
         print(f"\nQUEUE: {len(q)} total fixtures | {processed} processed | {len(q) - processed} remaining")
 
 
