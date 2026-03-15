@@ -1,0 +1,515 @@
+from __future__ import annotations
+
+"""
+train_wta.py
+Walk-forward backtesting and Platt logit calibration for the WTA tennis model.
+
+Usage:
+  python -X utf8 train_wta.py
+"""
+
+import argparse
+from pathlib import Path
+from typing import Dict, List, Tuple
+
+import numpy as np
+import pandas as pd
+
+from config import CFG
+from fhg_calibration import apply_platt_logit, fit_platt_logit
+from wta_elo import SurfaceElo
+from wta_markov import (
+    PlayerServeStats,
+    predict_match,
+)
+from wta_ratings import build_player_match_stats, compute_player_stats_fast
+from wta_tiebreak import (
+    build_tiebreak_features,
+    fit_tiebreak_logistic,
+    predict_tiebreak,
+    save_tiebreak_model,
+)
+
+_TW = CFG["training"]["wta"]
+_WTA = CFG["wta"]
+_ELO_CFG = _WTA.get("elo", {})
+STABILITY = _WTA["stability"]
+BLEND_W = _ELO_CFG.get("blend_weight", 0.60)
+
+MARKETS = ["match_winner", "tiebreak"]
+
+
+def _parse_set1_games(score: str) -> int:
+    """Parse total games in set 1 from score string like '6-2 6-4' or '7-6(3) 6-3'."""
+    try:
+        set1 = str(score).split()[0]
+        parts = set1.replace("(", "-").replace(")", "").split("-")
+        return int(parts[0]) + int(parts[1])
+    except (IndexError, ValueError, AttributeError):
+        return -1
+
+
+def _log_loss(p: np.ndarray, y: np.ndarray) -> float:
+    p = np.clip(p, 1e-9, 1.0 - 1e-9)
+    return float(-np.mean(y * np.log(p) + (1.0 - y) * np.log(1.0 - p)))
+
+
+def _brier(p: np.ndarray, y: np.ndarray) -> float:
+    return float(np.mean((p - y) ** 2))
+
+
+def _calibration_buckets(p: np.ndarray, y: np.ndarray, n_buckets: int = 10) -> pd.DataFrame:
+    rows = []
+    for i in range(n_buckets):
+        lo = i / n_buckets
+        hi = (i + 1) / n_buckets
+        mask = (p >= lo) & (p < hi)
+        if i == n_buckets - 1:
+            mask = (p >= lo) & (p <= hi)
+        if mask.sum() > 0:
+            rows.append({
+                "bucket": f"{lo:.1f}-{hi:.1f}",
+                "p_mean": float(p[mask].mean()),
+                "y_mean": float(y[mask].mean()),
+                "count": int(mask.sum()),
+                "gap": float(p[mask].mean() - y[mask].mean()),
+            })
+    return pd.DataFrame(rows)
+
+
+
+def precompute_elo_predictions(
+    df: pd.DataFrame, elo_cfg: dict,
+) -> Tuple[Dict[Tuple[int, int, str], float], SurfaceElo]:
+    """One chronological pass: predict-then-update for every match.
+
+    Returns (elo_preds, final_elo) where elo_preds maps
+    (winner_id, loser_id, match_date_str) -> p_elo_winner.
+    """
+    elo = SurfaceElo(
+        initial_rating=elo_cfg.get("initial_rating", 1500),
+        k_initial=elo_cfg.get("k_initial", 40.0),
+        k_floor=elo_cfg.get("k_floor", 10.0),
+        k_decay_rate=elo_cfg.get("k_decay_rate", 0.05),
+    )
+    preds: Dict[Tuple[int, int, str], float] = {}
+
+    for _, row in df.sort_values("match_date").iterrows():
+        w_id = int(row["winner_id"])
+        l_id = int(row["loser_id"])
+        surface = row["surface"]
+        date_key = str(row["match_date"])
+
+        # Predict BEFORE update (no leakage)
+        p = elo.predict(w_id, l_id, surface)
+        if p is not None:
+            preds[(w_id, l_id, date_key)] = p
+
+        # Update AFTER prediction
+        elo.update(w_id, l_id, surface)
+
+    elo.last_processed_date = df["match_date"].max()
+    return preds, elo
+
+
+def walk_forward(
+    df: pd.DataFrame,
+    pms: pd.DataFrame,
+    surface: str,
+    lookback_days: int,
+    retrain_days: int,
+    min_train_matches: int,
+    min_players: int,
+    rolling_window: int,
+    recency_decay: float,
+    min_matches_for_rating: int,
+    elo_preds: Dict[Tuple[int, int, str], float] = None,
+    blend_weight: float = 0.60,
+) -> pd.DataFrame:
+    """Walk-forward prediction for a single surface. Blends Markov + Elo.
+    Trains tiebreak logistic regression per window."""
+    g = df[df["surface"] == surface].sort_values("match_date").reset_index(drop=True)
+    if g.empty:
+        return pd.DataFrame(), None
+
+    # Pre-filter pms to this surface for speed
+    pms_surf = pms[pms["surface"] == surface].copy()
+
+    min_date = g["match_date"].min()
+    max_date = g["match_date"].max()
+    anchor = min_date + pd.Timedelta(days=lookback_days)
+
+    rows: List[dict] = []
+    last_tb_weights = None  # carry forward tiebreak model across windows
+
+    while anchor <= max_date:
+        train_start = anchor - pd.Timedelta(days=lookback_days)
+        pred_end = anchor + pd.Timedelta(days=retrain_days)
+
+        train = g[(g["match_date"] >= train_start) & (g["match_date"] < anchor)]
+        pred = g[(g["match_date"] >= anchor) & (g["match_date"] < pred_end)]
+
+        if pred.empty:
+            anchor = pred_end
+            continue
+
+        players = set(train["winner_id"]).union(set(train["loser_id"]))
+        if len(train) < min_train_matches or len(players) < min_players:
+            anchor = pred_end
+            continue
+
+        # Pre-filter pms to training window
+        pms_window = pms_surf[
+            (pms_surf["match_date"] >= train_start) & (pms_surf["match_date"] < anchor)
+        ]
+
+        # ── Compute per-player tiebreak rates and surface base rate from training ──
+        player_tb_hits: Dict[int, int] = {}   # player_id -> tiebreak count
+        player_tb_total: Dict[int, int] = {}  # player_id -> total matches with parseable set1
+        tb_total_count = 0
+        tb_hit_count = 0
+        for _, trow in train.iterrows():
+            s1g = _parse_set1_games(trow.get("score", ""))
+            if s1g <= 0:
+                continue
+            is_tb = int(s1g >= 13)
+            tb_total_count += 1
+            tb_hit_count += is_tb
+            for pid in (int(trow["winner_id"]), int(trow["loser_id"])):
+                player_tb_total[pid] = player_tb_total.get(pid, 0) + 1
+                player_tb_hits[pid] = player_tb_hits.get(pid, 0) + is_tb
+
+        surface_tb_rate = tb_hit_count / max(tb_total_count, 1)
+
+        def _player_tb_rate(pid: int) -> float:
+            total = player_tb_total.get(pid, 0)
+            if total < 5:
+                return surface_tb_rate  # fallback to surface base rate
+            return player_tb_hits.get(pid, 0) / total
+
+        # ── Fit tiebreak logistic on training window ──
+        tb_X_train = []
+        tb_y_train = []
+        for _, trow in train.iterrows():
+            s1g = _parse_set1_games(trow.get("score", ""))
+            if s1g <= 0:
+                continue
+            tw_id = int(trow["winner_id"])
+            tl_id = int(trow["loser_id"])
+            ts_w = compute_player_stats_fast(pms_window, tw_id, surface, window=rolling_window, decay=recency_decay)
+            ts_l = compute_player_stats_fast(pms_window, tl_id, surface, window=rolling_window, decay=recency_decay)
+            if ts_w is None or ts_l is None:
+                continue
+            if ts_w.n_matches < min_matches_for_rating or ts_l.n_matches < min_matches_for_rating:
+                continue
+            # Look up Elo prediction for this training match
+            t_p_elo = None
+            if elo_preds is not None:
+                t_p_elo = elo_preds.get((tw_id, tl_id, str(trow["match_date"])))
+            feat = build_tiebreak_features(
+                ts_w, ts_l, surface,
+                p_elo=t_p_elo,
+                tb_rate_a=_player_tb_rate(tw_id),
+                tb_rate_b=_player_tb_rate(tl_id),
+                surface_tb_rate=surface_tb_rate,
+            )
+            tb_X_train.append(feat)
+            tb_y_train.append(float(s1g >= 13))
+
+        if len(tb_X_train) >= 100:
+            X_tb = np.array(tb_X_train)
+            y_tb = np.array(tb_y_train)
+            # Higher C = less regularization, allows weights to grow for discrimination
+            last_tb_weights = fit_tiebreak_logistic(X_tb, y_tb, C=10.0)
+
+        for _, row in pred.iterrows():
+            w_id = int(row["winner_id"])
+            l_id = int(row["loser_id"])
+
+            stats_w = compute_player_stats_fast(
+                pms_window, w_id, surface,
+                window=rolling_window, decay=recency_decay,
+            )
+            stats_l = compute_player_stats_fast(
+                pms_window, l_id, surface,
+                window=rolling_window, decay=recency_decay,
+            )
+
+            if stats_w is None or stats_l is None:
+                continue
+            if stats_w.n_matches < min_matches_for_rating or stats_l.n_matches < min_matches_for_rating:
+                continue
+
+            result = predict_match(stats_w, stats_l)
+
+            # Step 11 — Stability Filter
+            hold_diff = abs(result["p_hold_a"] - result["p_hold_b"])
+            if hold_diff < STABILITY["min_hold_diff"]:
+                continue
+            if result["p_match_a"] > STABILITY["max_match_prob"] or result["p_match_a"] < STABILITY["min_match_prob"]:
+                continue
+            # Fatigue: check recent matches in pms_window
+            match_date = row["match_date"]
+            fatigue_cutoff = match_date - pd.Timedelta(days=STABILITY["fatigue_window_days"])
+            fatigued = False
+            for pid in (w_id, l_id):
+                recent_cnt = int((
+                    (pms_window["player_id"] == pid)
+                    & (pms_window["match_date"] >= fatigue_cutoff)
+                    & (pms_window["match_date"] < match_date)
+                ).sum())
+                if recent_cnt > STABILITY["max_matches_last_5d"]:
+                    fatigued = True
+                    break
+            if fatigued:
+                continue
+
+            # Blend Markov + Elo for match winner
+            p_markov = result["p_match_a"]
+            p_elo = None
+            if elo_preds is not None:
+                date_key = str(row["match_date"])
+                p_elo = elo_preds.get((w_id, l_id, date_key))
+            if p_elo is not None:
+                p_blended = blend_weight * p_markov + (1.0 - blend_weight) * p_elo
+            else:
+                p_blended = p_markov
+
+            set1_games = _parse_set1_games(row.get("score", ""))
+
+            # Tiebreak prediction
+            p_tiebreak = np.nan
+            if last_tb_weights is not None:
+                tb_feat = build_tiebreak_features(
+                    stats_w, stats_l, surface,
+                    p_elo=p_elo,
+                    tb_rate_a=_player_tb_rate(w_id),
+                    tb_rate_b=_player_tb_rate(l_id),
+                    surface_tb_rate=surface_tb_rate,
+                )
+                p_tiebreak = float(predict_tiebreak(tb_feat, last_tb_weights)[0])
+
+            rows.append({
+                "match_date": row["match_date"],
+                "surface": surface,
+                "tourney_name": row.get("tourney_name", ""),
+                "round": row.get("round", ""),
+                "winner_name": row["winner_name"],
+                "loser_name": row["loser_name"],
+                "winner_id": w_id,
+                "loser_id": l_id,
+                "p_match_winner": p_blended,
+                "p_markov": p_markov,
+                "p_elo": p_elo if p_elo is not None else np.nan,
+                "p_tiebreak": p_tiebreak,
+                "p_hold_w": result["p_hold_a"],
+                "p_hold_l": result["p_hold_b"],
+                "p_set_w": result["p_set_a"],
+                "y_match_winner": 1.0,
+                "y_tiebreak": float(set1_games >= 13) if set1_games > 0 else np.nan,
+                "actual_set1_games": set1_games if set1_games > 0 else np.nan,
+            })
+
+        anchor = pred_end
+        if len(rows) % 1000 < 100:
+            print(f"    {surface}: {len(rows)} samples (anchor={anchor.date()})")
+
+    return pd.DataFrame(rows), last_tb_weights
+
+
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser(description="Train WTA prediction model.")
+    p.add_argument("--history-csv", default="data/historical/wta_matches_combined.csv")
+    p.add_argument("--out-calibration-csv", default="simulations/WTA/data/wta_calibration.csv")
+    p.add_argument("--out-predictions-csv", default="simulations/WTA/backtests/wta_predictions.csv")
+    p.add_argument("--out-summary-csv", default="simulations/WTA/backtests/wta_backtest_summary.csv")
+    p.add_argument("--out-buckets-csv", default="simulations/WTA/backtests/wta_calibration_buckets.csv")
+    p.add_argument("--lookback-days", type=int, default=_TW["lookback_days"])
+    p.add_argument("--retrain-days", type=int, default=_TW["retrain_days"])
+    p.add_argument("--min-train-matches", type=int, default=_TW["min_train_matches"])
+    p.add_argument("--min-players", type=int, default=_TW["min_players"])
+    p.add_argument("--min-samples", type=int, default=_TW["min_samples"])
+    p.add_argument("--rolling-window", type=int, default=_WTA["rolling_window"])
+    p.add_argument("--recency-decay", type=float, default=_WTA["recency_decay"])
+    p.add_argument("--min-matches-for-rating", type=int, default=_WTA["min_matches_for_rating"])
+    return p.parse_args()
+
+
+def main() -> int:
+    args = parse_args()
+
+    print(f"Loading {args.history_csv} ...")
+    df = pd.read_csv(args.history_csv)
+    df["match_date"] = pd.to_datetime(df["match_date"], errors="coerce")
+    df = df.dropna(subset=["match_date"]).copy()
+    df["winner_id"] = df["winner_id"].astype(int)
+    df["loser_id"] = df["loser_id"].astype(int)
+    print(f"  Rows: {len(df)}")
+
+    # Pre-build player match stats table ONCE
+    print("Building player match stats index ...")
+    pms = build_player_match_stats(df)
+    print(f"  Player-match rows: {len(pms)}")
+
+    # Pre-compute Elo predictions for all matches (single chronological pass)
+    print("Pre-computing surface-specific Elo predictions ...")
+    elo_preds, final_elo = precompute_elo_predictions(df, _ELO_CFG)
+    total_rated = sum(len(v) for v in final_elo.ratings.values())
+    print(f"  Elo predictions: {len(elo_preds):,}, players rated: {total_rated}")
+
+    surfaces = _WTA["surfaces"]
+    all_preds: List[pd.DataFrame] = []
+    cal_rows: List[dict] = []
+    summary_rows: List[dict] = []
+    bucket_dfs: List[pd.DataFrame] = []
+    all_cal_pairs: Dict[str, Tuple[List[np.ndarray], List[np.ndarray]]] = {
+        m: ([], []) for m in MARKETS
+    }
+
+    final_tb_weights = None
+    for surface in surfaces:
+        print(f"\nWalk-forward surface={surface} ...")
+        wf, tb_weights = walk_forward(
+            df=df, pms=pms, surface=surface,
+            lookback_days=args.lookback_days,
+            retrain_days=args.retrain_days,
+            min_train_matches=args.min_train_matches,
+            min_players=args.min_players,
+            rolling_window=args.rolling_window,
+            recency_decay=args.recency_decay,
+            min_matches_for_rating=args.min_matches_for_rating,
+            elo_preds=elo_preds, blend_weight=BLEND_W,
+        )
+        if tb_weights is not None:
+            final_tb_weights = tb_weights
+        if wf.empty or len(wf) < args.min_samples:
+            print(f"  Skipped (samples={len(wf) if not wf.empty else 0})")
+            continue
+
+        all_preds.append(wf)
+        print(f"  {surface}: {len(wf)} total samples")
+
+        market_cols = {
+            "match_winner": ("p_match_winner", "y_match_winner"),
+            "tiebreak": ("p_tiebreak", "y_tiebreak"),
+        }
+
+        for market, (p_col, y_col) in market_cols.items():
+            # Drop rows where y is NaN (e.g. unparseable scores for set1)
+            valid = wf[[p_col, y_col]].dropna()
+            if valid.empty:
+                continue
+            p_raw = valid[p_col].to_numpy(dtype=float)
+            y = valid[y_col].to_numpy(dtype=float)
+
+            if market == "match_winner":
+                p_raw_sym = np.concatenate([p_raw, 1.0 - p_raw])
+                y_sym = np.concatenate([y, np.zeros_like(y)])
+                p_raw, y = p_raw_sym, y_sym
+
+            a_val, b_val = fit_platt_logit(p_raw, y)
+            p_cal = apply_platt_logit(p_raw, a_val, b_val)
+
+            all_cal_pairs[market][0].append(p_raw)
+            all_cal_pairs[market][1].append(y)
+
+            cal_rows.append({
+                "surface": surface,
+                "market": market,
+                "method": "platt",
+                "a": a_val,
+                "b": b_val,
+                "temperature": 1.0,
+                "n_train": len(p_raw),
+            })
+
+            summary_rows.append({
+                "surface": surface,
+                "market": market,
+                "n": len(p_raw),
+                "p_mean": float(p_raw.mean()),
+                "y_mean": float(y.mean()),
+                "gap_raw": float(p_raw.mean() - y.mean()),
+                "log_loss_raw": _log_loss(p_raw, y),
+                "log_loss_cal": _log_loss(p_cal, y),
+                "brier_raw": _brier(p_raw, y),
+                "brier_cal": _brier(p_cal, y),
+            })
+
+            bdf = _calibration_buckets(p_cal, y)
+            if not bdf.empty:
+                bdf["surface"] = surface
+                bdf["market"] = market
+                bucket_dfs.append(bdf)
+
+    # Global calibration
+    for market in MARKETS:
+        ps_list, ys_list = all_cal_pairs[market]
+        if ps_list:
+            p_all = np.concatenate(ps_list)
+            y_all = np.concatenate(ys_list)
+            ga, gb = fit_platt_logit(p_all, y_all)
+            n_total = len(p_all)
+        else:
+            ga, gb = 0.0, 1.0
+            n_total = 0
+        cal_rows.append({
+            "surface": "__GLOBAL__",
+            "market": market,
+            "method": "platt",
+            "a": ga,
+            "b": gb,
+            "temperature": 1.0,
+            "n_train": n_total,
+        })
+
+    # Save
+    cal_df = pd.DataFrame(cal_rows).sort_values(["surface", "market"]).reset_index(drop=True)
+    Path(args.out_calibration_csv).parent.mkdir(parents=True, exist_ok=True)
+    cal_df.to_csv(args.out_calibration_csv, index=False)
+    print(f"\nSaved calibration: {args.out_calibration_csv} rows={len(cal_df)}")
+
+    if all_preds:
+        pred_df = pd.concat(all_preds, ignore_index=True)
+        Path(args.out_predictions_csv).parent.mkdir(parents=True, exist_ok=True)
+        pred_df.to_csv(args.out_predictions_csv, index=False)
+        print(f"Saved predictions: {args.out_predictions_csv} rows={len(pred_df)}")
+
+    if summary_rows:
+        summ_df = pd.DataFrame(summary_rows).sort_values(["surface", "market"]).reset_index(drop=True)
+        Path(args.out_summary_csv).parent.mkdir(parents=True, exist_ok=True)
+        summ_df.to_csv(args.out_summary_csv, index=False)
+        print(f"Saved summary: {args.out_summary_csv} rows={len(summ_df)}")
+
+        print("\n" + "=" * 80)
+        print("BACKTEST SUMMARY")
+        print("=" * 80)
+        print(f"\n  {'Surface':<10} {'Market':<20} {'n':>7} {'p_mean':>7} {'y_mean':>7} {'LL_raw':>7} {'LL_cal':>7} {'Brier_cal':>9}")
+        for _, r in summ_df.iterrows():
+            print(f"  {r['surface']:<10} {r['market']:<20} {int(r['n']):>7,} {r['p_mean']:>7.4f} {r['y_mean']:>7.4f} {r['log_loss_raw']:>7.4f} {r['log_loss_cal']:>7.4f} {r['brier_cal']:>9.4f}")
+
+    if bucket_dfs:
+        bkt_df = pd.concat(bucket_dfs, ignore_index=True)
+        Path(args.out_buckets_csv).parent.mkdir(parents=True, exist_ok=True)
+        bkt_df.to_csv(args.out_buckets_csv, index=False)
+        print(f"\nSaved calibration buckets: {args.out_buckets_csv} rows={len(bkt_df)}")
+
+    # Save Elo snapshot for daily pipeline
+    elo_path = "simulations/WTA/data/wta_elo_snapshot.pkl"
+    final_elo.save(elo_path)
+    print(f"Saved Elo snapshot: {elo_path}")
+
+    # Save tiebreak model for daily pipeline
+    if final_tb_weights is not None:
+        tb_path = "simulations/WTA/data/wta_tiebreak_model.pkl"
+        save_tiebreak_model(final_tb_weights, tb_path)
+        print(f"Saved tiebreak model: {tb_path}")
+    else:
+        print("[WARN] No tiebreak model trained (insufficient data)")
+
+    print("\nDone.")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

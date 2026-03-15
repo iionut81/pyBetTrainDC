@@ -1,0 +1,738 @@
+from __future__ import annotations
+
+"""
+run_wta_daily.py
+Daily WTA match evaluations and recommendations.
+Fetches fixtures from the official WTA API (api.wtatennis.com).
+
+Usage:
+  python -X utf8 run_wta_daily.py
+  python -X utf8 run_wta_daily.py --series 1
+  python -X utf8 run_wta_daily.py --target-date 2026-03-15
+"""
+
+import argparse
+import datetime as dt
+import json
+import re
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
+
+import numpy as np
+import pandas as pd
+import requests
+
+from config import CFG
+from fhg_calibration import apply_calibration, calibration_from_row
+from wta_elo import SurfaceElo
+from wta_markov import (
+    predict_match,
+    simulate_match,
+)
+from wta_markov import PlayerServeStats
+from wta_ratings import build_player_match_stats, compute_player_stats_fast
+from wta_tiebreak import build_tiebreak_features, load_tiebreak_model, predict_tiebreak
+
+_WTA = CFG["wta"]
+MARKETS_CFG = _WTA["markets"]
+STABILITY = _WTA["stability"]
+_ELO_CFG = _WTA.get("elo", {})
+BLEND_W = _ELO_CFG.get("blend_weight", 0.60)
+
+WTA_API_BASE = "https://api.wtatennis.com/tennis"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+
+
+# ── WTA API helpers ───────────────────────────────────────────────────────────
+
+_VERIFY_SSL = True
+
+
+def _fetch_json(url: str, timeout: int = 20) -> dict:
+    resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=timeout, verify=_VERIFY_SSL)
+    resp.raise_for_status()
+    return resp.json()
+
+
+def fetch_active_tournaments(target_date: str) -> List[dict]:
+    """Find WTA tournaments that are in progress or starting on target_date.
+
+    The WTA API lists tournaments chronologically (1960-2026). We scan backward
+    from the last page to find the current year quickly.
+    """
+    td = dt.date.fromisoformat(target_date)
+    year = td.year
+
+    # First request: discover total entries to compute last page
+    # Note: WTA API caps pageSize at 100
+    page_size = 100
+    url0 = f"{WTA_API_BASE}/tournaments?page=0&pageSize={page_size}"
+    data0 = _fetch_json(url0)
+    total = data0.get("pageInfo", {}).get("numEntries", 0)
+    if total == 0:
+        return []
+
+    last_page = max(0, (total - 1) // page_size)
+
+    tournaments: List[dict] = []
+    # Scan backward — 2026 tournaments are on the last few pages
+    for page in range(last_page, max(last_page - 5, -1), -1):
+        url = f"{WTA_API_BASE}/tournaments?page={page}&pageSize={page_size}"
+        data = _fetch_json(url)
+        content = data.get("content", [])
+        if not content:
+            continue
+
+        found_year = False
+        for t in content:
+            if t.get("year") != year:
+                continue
+            found_year = True
+            start = t.get("startDate", "")
+            end = t.get("endDate", "")
+            try:
+                start_d = dt.date.fromisoformat(start)
+                end_d = dt.date.fromisoformat(end)
+            except (ValueError, TypeError):
+                continue
+            # Qualifying rounds can start ~4 days before official startDate
+            if start_d - dt.timedelta(days=4) <= td <= end_d + dt.timedelta(days=1):
+                t["_start_date"] = start_d
+                t["_end_date"] = end_d
+                tournaments.append(t)
+
+        # Stop scanning if we've gone past our year
+        if content and not found_year and content[0].get("year", 9999) < year:
+            break
+
+    return tournaments
+
+
+def fetch_upcoming_matches(tournament_group_id: int, year: int) -> List[dict]:
+    """Fetch upcoming singles matches for a tournament."""
+    url = f"{WTA_API_BASE}/tournaments/{tournament_group_id}/{year}/matches"
+    data = _fetch_json(url)
+    matches = data.get("matches", [])
+    # Filter: upcoming + singles only
+    return [
+        m for m in matches
+        if m.get("MatchState") == "U"
+        and m.get("DrawMatchType") == "S"
+        and m.get("PlayerIDA")
+        and m.get("PlayerIDB")
+    ]
+
+
+def _to_float(value: object) -> Optional[float]:
+    if value is None:
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+# ── Player ID mapping (WTA API ID → Sackmann ID) ────────────────────────────
+
+def build_name_to_sackmann_id(hist: pd.DataFrame) -> Dict[str, int]:
+    """Build lookup from normalized player name → Sackmann player_id."""
+    name_map: Dict[str, int] = {}
+    for col_id, col_name in [("winner_id", "winner_name"), ("loser_id", "loser_name")]:
+        for _, r in hist[[col_id, col_name]].drop_duplicates(col_name).iterrows():
+            name = str(r[col_name]).strip().lower()
+            name_map[name] = int(r[col_id])
+    return name_map
+
+
+def resolve_player_id(
+    wta_first: str, wta_last: str, name_map: Dict[str, int]
+) -> Optional[int]:
+    """Try to find Sackmann player ID from WTA API name."""
+    # Sackmann format: "Firstname Lastname"
+    full = f"{wta_first} {wta_last}".strip().lower()
+    if full in name_map:
+        return name_map[full]
+
+    # Try last name only (common for unique last names)
+    last = wta_last.strip().lower()
+    matches = [(k, v) for k, v in name_map.items() if k.endswith(f" {last}")]
+    if len(matches) == 1:
+        return matches[0][1]
+
+    return None
+
+
+# ── Tennis Abstract fallback ──────────────────────────────────────────────────
+
+TA_BASE = "https://www.tennisabstract.com"
+
+# Column indices in Tennis Abstract matchmx
+# Note: index 31 = oSvGms (extra column not in matchhead), shifting opp stats by 1
+_TA_COLS = {
+    "date": 0, "surf": 2, "wl": 4, "aces": 21, "dfs": 22, "pts": 23,
+    "firsts": 24, "fwon": 25, "swon": 26, "saved": 27, "chances": 28,
+    "oaces": 29, "opts": 32, "ofirsts": 33, "ofwon": 34, "oswon": 35,
+    "osaved": 36, "ochances": 37,
+}
+
+_ta_cache: Dict[str, Optional[List[list]]] = {}
+
+
+def _ta_js_name(first: str, last: str) -> str:
+    """Convert WTA API name to Tennis Abstract JS filename format: FirstnameLastname."""
+    f = first.strip().replace(" ", "").replace("-", "")
+    l = last.strip().replace(" ", "").replace("-", "")
+    return f"{f}{l}"
+
+
+def _fetch_ta_matches(first: str, last: str) -> Optional[List[list]]:
+    """Fetch match-level data from Tennis Abstract for a player."""
+    key = _ta_js_name(first, last)
+    if key in _ta_cache:
+        return _ta_cache[key]
+
+    url = f"{TA_BASE}/jsmatches/{key}.js"
+    try:
+        resp = requests.get(
+            url, headers={"User-Agent": USER_AGENT}, timeout=15, verify=_VERIFY_SSL,
+        )
+        if resp.status_code != 200:
+            _ta_cache[key] = None
+            return None
+        mm = re.search(r"var matchmx\s*=\s*(\[.*\]);", resp.text, re.DOTALL)
+        if not mm:
+            _ta_cache[key] = None
+            return None
+        matchmx = json.loads(mm.group(1))
+        _ta_cache[key] = matchmx
+        return matchmx
+    except Exception:
+        _ta_cache[key] = None
+        return None
+
+
+def _ta_int(row: list, col: str) -> int:
+    """Safely extract an integer from a Tennis Abstract match row."""
+    idx = _TA_COLS.get(col, -1)
+    if idx < 0 or idx >= len(row):
+        return 0
+    v = row[idx]
+    if isinstance(v, (int, float)):
+        return int(v)
+    try:
+        return int(str(v).strip())
+    except (ValueError, TypeError):
+        return 0
+
+
+def compute_stats_from_ta(
+    first: str, last: str, surface: str,
+    window: int = 20, decay: float = 0.05,
+) -> Optional[PlayerServeStats]:
+    """Compute PlayerServeStats from Tennis Abstract data as fallback."""
+    matchmx = _fetch_ta_matches(first, last)
+    if matchmx is None:
+        return None
+
+    # Filter to surface and matches with serve stats
+    surf_matches = []
+    for row in matchmx:
+        if len(row) < 38:
+            continue
+        if row[_TA_COLS["surf"]] != surface:
+            continue
+        pts = _ta_int(row, "pts")
+        opts = _ta_int(row, "opts")
+        if pts < 10 or opts < 10:
+            continue
+        surf_matches.append(row)
+
+    if len(surf_matches) < 3:
+        return None
+
+    # Take last `window` matches (matchmx is chronological)
+    recent = surf_matches[-window:]
+    n = len(recent)
+
+    # Exponential weights (most recent first)
+    w = np.exp(-decay * np.arange(n))
+    w = w / w.sum()
+
+    eps = 1e-9
+    stats_arrays = []
+    for row in reversed(recent):  # reverse so most recent = index 0
+        svpt = max(_ta_int(row, "pts"), 1)
+        first_in = _ta_int(row, "firsts")
+        fwon = _ta_int(row, "fwon")
+        swon = _ta_int(row, "swon")
+        aces = _ta_int(row, "aces")
+        bp_saved = _ta_int(row, "saved")
+        bp_faced = _ta_int(row, "chances")
+        # Opponent serve stats (for return calculation)
+        opts = max(_ta_int(row, "opts"), 1)
+        ofwon = _ta_int(row, "ofwon")
+        oswon = _ta_int(row, "oswon")
+        obp_saved = _ta_int(row, "osaved")
+        obp_faced = _ta_int(row, "ochances")
+
+        second_attempts = max(svpt - first_in, 1)
+        sv_games = max((svpt + 3) // 4, 1)  # approximate service games
+
+        stats_arrays.append([
+            first_in / svpt,                             # 1stServeIn_pct
+            fwon / max(first_in, 1),                     # 1stServeWon_pct
+            swon / second_attempts,                      # 2ndServeWon_pct
+            aces / sv_games,                             # aceRate
+            bp_saved / max(bp_faced, eps),                # bpSaved_pct
+            (opts - ofwon - oswon) / opts,                # returnPtsWon_pct
+            (obp_faced - obp_saved) / max(obp_faced, eps), # bpConverted_pct
+        ])
+
+    vals = np.array(stats_arrays, dtype=float)
+
+    def wmean(col_idx: int) -> float:
+        v = vals[:, col_idx]
+        valid = ~np.isnan(v)
+        if valid.sum() == 0:
+            return 0.5
+        ww = w[valid]
+        return float(np.average(v[valid], weights=ww / ww.sum()))
+
+    return PlayerServeStats(
+        first_serve_in_pct=wmean(0),
+        first_serve_won_pct=wmean(1),
+        second_serve_won_pct=wmean(2),
+        ace_rate=wmean(3),
+        bp_saved_pct=wmean(4),
+        return_pts_won_pct=wmean(5),
+        bp_converted_pct=wmean(6),
+        n_matches=n,
+    )
+
+
+# ── Stability Filter (Step 11) ────────────────────────────────────────────────
+
+def count_recent_matches(
+    pms: pd.DataFrame, player_id: int, reference_date: pd.Timestamp, days: int,
+) -> int:
+    """Count how many matches a player played in the last `days` days."""
+    if pms.empty:
+        return 0
+    cutoff = reference_date - pd.Timedelta(days=days)
+    mask = (
+        (pms["player_id"] == player_id)
+        & (pms["match_date"] >= cutoff)
+        & (pms["match_date"] < reference_date)
+    )
+    return int(mask.sum())
+
+
+def stability_check(
+    result: dict,
+    mc: dict,
+    pms: pd.DataFrame,
+    sid_a: int,
+    sid_b: int,
+    reference_date: pd.Timestamp,
+    player_a: str,
+    player_b: str,
+) -> Optional[str]:
+    """Return rejection reason string, or None if match passes all filters."""
+    cfg = STABILITY
+
+    # 1. Fatigue: reject if either player played >N matches in last 5 days
+    window = cfg["fatigue_window_days"]
+    max_m = cfg["max_matches_last_5d"]
+    recent_a = count_recent_matches(pms, sid_a, reference_date, window)
+    recent_b = count_recent_matches(pms, sid_b, reference_date, window)
+    if recent_a > max_m:
+        return f"fatigue {player_a} ({recent_a} matches last {window}d)"
+    if recent_b > max_m:
+        return f"fatigue {player_b} ({recent_b} matches last {window}d)"
+
+    # 2. Injury news — manual override via injuries.txt (one name per line)
+    injuries = _load_injury_list()
+    for name in [player_a, player_b]:
+        if name.strip().lower() in injuries:
+            return f"injury flag: {name}"
+
+    # 3. Serve hold difference too small → match too unpredictable
+    hold_diff = abs(result["p_hold_a"] - result["p_hold_b"])
+    if hold_diff < cfg["min_hold_diff"]:
+        return f"hold_diff {hold_diff:.4f} < {cfg['min_hold_diff']}"
+
+    # 4. Variance HIGH — MC std of total games above threshold
+    if mc["std_total_games"] > cfg["variance_std_threshold"]:
+        return f"variance HIGH (std={mc['std_total_games']:.2f})"
+
+    # 5. Match prob too extreme (one-sided blowout — poor odds value)
+    p = result["p_match_a"]
+    if p > cfg["max_match_prob"] or p < cfg["min_match_prob"]:
+        return f"extreme p_match={p:.4f}"
+
+    return None
+
+
+def _load_injury_list() -> set:
+    """Load player names from injuries.txt (one per line). Returns lowercase set."""
+    p = Path("injuries.txt")
+    if not p.exists():
+        return set()
+    return {line.strip().lower() for line in p.read_text(encoding="utf-8").splitlines() if line.strip()}
+
+
+# ── main ─────────────────────────────────────────────────────────────────────
+
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser(description="Daily WTA evaluations and recommendations.")
+    p.add_argument("--target-date", default=dt.date.today().isoformat())
+    p.add_argument("--history-csv", default="data/historical/wta_matches_combined.csv")
+    p.add_argument("--calibration-csv", default="simulations/WTA/data/wta_calibration.csv")
+    p.add_argument("--series", default="1")
+    p.add_argument("--mc-iterations", type=int, default=_WTA["mc_iterations"])
+    p.add_argument("--rolling-window", type=int, default=_WTA["rolling_window"])
+    p.add_argument("--recency-decay", type=float, default=_WTA["recency_decay"])
+    p.add_argument("--min-matches-for-rating", type=int, default=_WTA["min_matches_for_rating"])
+    p.add_argument("--insecure", action="store_true", help="Disable SSL verification (for corporate proxies)")
+    return p.parse_args()
+
+
+def main() -> int:
+    args = parse_args()
+    target = args.target_date
+
+    if args.insecure:
+        global _VERIFY_SSL
+        _VERIFY_SSL = False
+        import urllib3
+        urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+    # ── Fetch fixtures from WTA API ──────────────────────────────────────────
+    print(f"Fetching active WTA tournaments for {target} ...")
+    tournaments = fetch_active_tournaments(target)
+    if not tournaments:
+        print("No active WTA tournaments found.")
+        return 0
+
+    all_upcoming: List[Tuple[dict, dict]] = []  # (tournament, match)
+    for t in tournaments:
+        gid = t["tournamentGroup"]["id"]
+        name = t["tournamentGroup"]["name"]
+        level = t["tournamentGroup"].get("level", "")
+        surface = t.get("surface", "Hard")
+        year = t.get("year", dt.date.fromisoformat(target).year)
+        print(f"  {name} ({level}, {surface}) ...")
+
+        try:
+            matches = fetch_upcoming_matches(gid, year)
+        except Exception as exc:
+            print(f"    [WARN] Could not fetch matches: {exc}")
+            continue
+
+        for m in matches:
+            all_upcoming.append((t, m))
+        if matches:
+            print(f"    {len(matches)} upcoming singles matches")
+        else:
+            print(f"    No upcoming singles matches")
+
+    if not all_upcoming:
+        print("No upcoming WTA matches found.")
+        return 0
+
+    print(f"\nTotal upcoming fixtures: {len(all_upcoming)}")
+
+    # ── Load historical data ─────────────────────────────────────────────────
+    print(f"\nLoading {args.history_csv} for player ratings ...")
+    hist = pd.read_csv(args.history_csv)
+    hist["match_date"] = pd.to_datetime(hist["match_date"], errors="coerce")
+    hist = hist.dropna(subset=["match_date"]).copy()
+    hist["winner_id"] = hist["winner_id"].astype(int)
+    hist["loser_id"] = hist["loser_id"].astype(int)
+
+    pms = build_player_match_stats(hist)
+    name_map = build_name_to_sackmann_id(hist)
+    print(f"  Player-match stats: {len(pms)} rows, name map: {len(name_map)} players")
+
+    # Load Elo snapshot (built by train_wta.py)
+    elo_path = Path("simulations/WTA/data/wta_elo_snapshot.pkl")
+    elo: Optional[SurfaceElo] = None
+    if elo_path.exists():
+        elo = SurfaceElo.load(str(elo_path))
+        total_rated = sum(len(v) for v in elo.ratings.values())
+        print(f"  Loaded Elo snapshot: {total_rated} player-surface ratings")
+    else:
+        print("  [WARN] No Elo snapshot found, using pure Markov")
+
+    # ── Load calibration ─────────────────────────────────────────────────────
+    cal_path = Path(args.calibration_csv)
+    cal_df = (
+        pd.read_csv(cal_path)
+        if cal_path.exists()
+        else pd.DataFrame(columns=["surface", "market", "method", "a", "b", "temperature"])
+    )
+    cal_map: Dict[Tuple[str, str], dict] = {}
+    for _, r in cal_df.iterrows():
+        sf = str(r["surface"]).strip()
+        mk = str(r["market"]).strip()
+        cal_map[(sf, mk)] = calibration_from_row(dict(r))
+
+    global_cals = {
+        market: cal_map.get(("__GLOBAL__", market), {"method": "platt", "a": 0.0, "b": 1.0, "temperature": 1.0})
+        for market in ["match_winner", "tiebreak"]
+    }
+
+    # Load tiebreak model
+    tb_path = Path("simulations/WTA/data/wta_tiebreak_model.pkl")
+    tb_weights = load_tiebreak_model(str(tb_path))
+    if tb_weights is not None:
+        print(f"  Loaded tiebreak model ({len(tb_weights)} weights)")
+    else:
+        print("  [WARN] No tiebreak model found, tiebreak predictions disabled")
+
+    # Compute per-player tiebreak rates and per-surface base rates from history
+    player_tb_hits: Dict[int, int] = {}
+    player_tb_total: Dict[int, int] = {}
+    surface_tb_hits: Dict[str, int] = {}
+    surface_tb_total: Dict[str, int] = {}
+    for _, hrow in hist.iterrows():
+        score = str(hrow.get("score", ""))
+        try:
+            set1 = score.split()[0]
+            parts = set1.replace("(", "-").replace(")", "").split("-")
+            s1g = int(parts[0]) + int(parts[1])
+        except (IndexError, ValueError, AttributeError):
+            continue
+        if s1g <= 0:
+            continue
+        is_tb = int(s1g >= 13)
+        surf = hrow.get("surface", "Hard")
+        surface_tb_total[surf] = surface_tb_total.get(surf, 0) + 1
+        surface_tb_hits[surf] = surface_tb_hits.get(surf, 0) + is_tb
+        for pid in (int(hrow["winner_id"]), int(hrow["loser_id"])):
+            player_tb_total[pid] = player_tb_total.get(pid, 0) + 1
+            player_tb_hits[pid] = player_tb_hits.get(pid, 0) + is_tb
+
+    def _get_surface_tb_rate(surf: str) -> float:
+        total = surface_tb_total.get(surf, 0)
+        return surface_tb_hits.get(surf, 0) / max(total, 1) if total > 0 else 0.12
+
+    def _get_player_tb_rate(pid: Optional[int], surf: str) -> float:
+        if pid is None:
+            return _get_surface_tb_rate(surf)
+        total = player_tb_total.get(pid, 0)
+        if total < 5:
+            return _get_surface_tb_rate(surf)
+        return player_tb_hits.get(pid, 0) / total
+
+    print(f"  Tiebreak rates: {', '.join(f'{s}={surface_tb_hits.get(s,0)}/{surface_tb_total.get(s,0)} ({_get_surface_tb_rate(s):.1%})' for s in ['Hard','Clay','Grass'])}")
+
+    # ── Evaluate each fixture ────────────────────────────────────────────────
+    rows_winner: list[dict] = []
+    rows_tb: list[dict] = []
+    for t, m in all_upcoming:
+        surface = t.get("surface", "Hard")
+        tourney = t["tournamentGroup"]["name"]
+        level = t["tournamentGroup"].get("level", "")
+
+        first_a = str(m.get("PlayerNameFirstA", "")).strip()
+        last_a = str(m.get("PlayerNameLastA", "")).strip()
+        first_b = str(m.get("PlayerNameFirstB", "")).strip()
+        last_b = str(m.get("PlayerNameLastB", "")).strip()
+        player_a = f"{first_a} {last_a}"
+        player_b = f"{first_b} {last_b}"
+
+        # Resolve Sackmann IDs and compute stats (with Tennis Abstract fallback)
+        sid_a = resolve_player_id(first_a, last_a, name_map)
+        sid_b = resolve_player_id(first_b, last_b, name_map)
+
+        stats_a = None
+        stats_b = None
+        src_a = "sackmann"
+        src_b = "sackmann"
+
+        # Try Sackmann CSV first
+        if sid_a is not None:
+            stats_a = compute_player_stats_fast(
+                pms, sid_a, surface,
+                window=args.rolling_window, decay=args.recency_decay,
+            )
+        if sid_b is not None:
+            stats_b = compute_player_stats_fast(
+                pms, sid_b, surface,
+                window=args.rolling_window, decay=args.recency_decay,
+            )
+
+        # Check minimum matches threshold from Sackmann
+        if stats_a is not None and stats_a.n_matches < args.min_matches_for_rating:
+            stats_a = None
+        if stats_b is not None and stats_b.n_matches < args.min_matches_for_rating:
+            stats_b = None
+
+        # Fallback to Tennis Abstract for missing stats
+        if stats_a is None:
+            stats_a = compute_stats_from_ta(
+                first_a, last_a, surface,
+                window=args.rolling_window, decay=args.recency_decay,
+            )
+            if stats_a is not None:
+                src_a = "tennisabstract"
+        if stats_b is None:
+            stats_b = compute_stats_from_ta(
+                first_b, last_b, surface,
+                window=args.rolling_window, decay=args.recency_decay,
+            )
+            if stats_b is not None:
+                src_b = "tennisabstract"
+
+        if stats_a is None or stats_b is None:
+            missing = []
+            if stats_a is None:
+                missing.append(f"A={player_a}")
+            if stats_b is None:
+                missing.append(f"B={player_b}")
+            print(f"  [SKIP] {player_a} vs {player_b} ({surface}) — no stats for {', '.join(missing)}")
+            continue
+
+        if stats_a.n_matches < 3 or stats_b.n_matches < 3:
+            print(f"  [SKIP] {player_a} vs {player_b} — too few matches (A={stats_a.n_matches}, B={stats_b.n_matches})")
+            continue
+
+        data_src = f"{src_a}/{src_b}"
+
+        # Analytical prediction
+        result = predict_match(stats_a, stats_b)
+
+        # Monte Carlo for games distribution
+        mc = simulate_match(
+            result["p_serve_a"], result["p_serve_b"],
+            n_simulations=args.mc_iterations,
+        )
+
+        # Step 11 — Stability Filter (skip fatigue check if no Sackmann ID)
+        ref_date = pd.Timestamp(target)
+        reject_reason = stability_check(
+            result, mc, pms,
+            sid_a if sid_a is not None else -1,
+            sid_b if sid_b is not None else -1,
+            ref_date, player_a, player_b,
+        )
+        if reject_reason:
+            print(f"  [UNSTABLE] {player_a} vs {player_b} — {reject_reason}")
+            continue
+
+        # Blend Markov + Elo for match winner
+        p_markov = result["p_match_a"]
+        p_elo = None
+        if elo is not None and sid_a is not None and sid_b is not None:
+            p_elo = elo.predict(sid_a, sid_b, surface)
+        if p_elo is not None:
+            p_match_raw = BLEND_W * p_markov + (1.0 - BLEND_W) * p_elo
+        else:
+            p_match_raw = p_markov
+
+        # Tiebreak prediction
+        p_tb_raw = None
+        if tb_weights is not None:
+            tb_feat = build_tiebreak_features(
+                stats_a, stats_b, surface,
+                p_elo=p_elo,
+                tb_rate_a=_get_player_tb_rate(sid_a, surface),
+                tb_rate_b=_get_player_tb_rate(sid_b, surface),
+                surface_tb_rate=_get_surface_tb_rate(surface),
+            )
+            p_tb_raw = float(predict_tiebreak(tb_feat, tb_weights)[0])
+
+        # Calibrate match winner (Platt well-fitted)
+        cal_mw = cal_map.get((surface, "match_winner"), global_cals["match_winner"])
+        p_match_cal = float(apply_calibration(np.array([p_match_raw]), cal_mw)[0])
+
+        # Calibrate tiebreak if available
+        if p_tb_raw is not None:
+            cal_tb = cal_map.get((surface, "tiebreak"), global_cals["tiebreak"])
+            p_tb_cal = float(apply_calibration(np.array([p_tb_raw]), cal_tb)[0])
+        else:
+            p_tb_cal = None
+
+        fair_odds_a = (1.0 / p_match_cal) if p_match_cal > 0 else None
+        fair_odds_tb = (1.0 / p_tb_cal) if p_tb_cal and p_tb_cal > 0 else None
+
+        # Recommendations
+        mw_cfg = MARKETS_CFG["match_winner"]
+        rec_match = bool(
+            mw_cfg["min_prob"] <= p_match_cal <= mw_cfg["max_prob"]
+            and fair_odds_a is not None
+            and fair_odds_a <= mw_cfg["max_odds"]
+        )
+
+        tb_cfg = MARKETS_CFG["tiebreak"]
+        rec_tb = bool(
+            p_tb_cal is not None
+            and tb_cfg["min_prob"] <= p_tb_cal <= tb_cfg["max_prob"]
+            and fair_odds_tb is not None
+            and fair_odds_tb <= tb_cfg["max_odds"]
+        )
+
+        base = {
+            "run_date": dt.date.today().isoformat(),
+            "match_date": m.get("MatchTimeStamp", ""),
+            "tournament": tourney,
+            "level": level,
+            "surface": surface,
+            "round": m.get("RoundID", ""),
+            "player_a": player_a,
+            "player_b": player_b,
+            "data_source": data_src,
+            "p_hold_a": round(result["p_hold_a"], 4),
+            "p_hold_b": round(result["p_hold_b"], 4),
+            "p_markov": round(p_markov, 4),
+            "p_elo": round(p_elo, 4) if p_elo is not None else None,
+            "expected_games": round(mc["expected_total_games"], 2),
+        }
+
+        # Winner
+        rows_winner.append({
+            **base,
+            "p_raw": round(p_match_raw, 4),
+            "p_cal": round(p_match_cal, 4),
+            "Chances": f"{p_match_cal * 100:.1f}%",
+            "fair_odds": round(fair_odds_a, 4) if fair_odds_a else None,
+            "recommended": rec_match,
+        })
+
+        # Tiebreak
+        if p_tb_cal is not None:
+            rows_tb.append({
+                **base,
+                "p_raw": round(p_tb_raw, 4),
+                "p_cal": round(p_tb_cal, 4),
+                "Chances": f"{p_tb_cal * 100:.1f}%",
+                "fair_odds": round(fair_odds_tb, 4) if fair_odds_tb else None,
+                "recommended": rec_tb,
+            })
+
+    if not rows_winner:
+        print("No WTA matches evaluated.")
+        return 0
+
+    base_dir = Path("simulations/WTA/evaluations")
+    base_dir.mkdir(parents=True, exist_ok=True)
+    s = args.series
+
+    files = [
+        (f"{s}.1_WTA_Winner.csv", rows_winner, "Winner"),
+        (f"{s}.2_WTA_Tiebreak.csv", rows_tb, "Tiebreak"),
+    ]
+
+    for fname, row_list, label in files:
+        df = pd.DataFrame(row_list)
+        df = df.sort_values("p_cal", ascending=False).reset_index(drop=True)
+        path = base_dir / fname
+        df.to_csv(path, index=False)
+        n_rec = int(df["recommended"].sum())
+        print(f"  {label:20s} -> {path}  ({len(df)} matches, {n_rec} recommended)")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

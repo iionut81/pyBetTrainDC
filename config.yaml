@@ -83,6 +83,55 @@ corners:
   tempo_min: 0.75
   tempo_max: 1.25
 
+# --- WTA Tennis prediction model ---
+wta:
+  rolling_window: 20           # last N matches on same surface for ratings
+  surfaces: ["Hard", "Clay", "Grass"]
+  mc_iterations: 10000
+  min_matches_for_rating: 10   # minimum surface matches before player gets a rating
+  surface_blend: 0.70          # weight for surface-specific stats (rest = overall)
+  recency_decay: 0.05          # exponential decay per match for rolling stats
+  markets:
+    match_winner:
+      min_prob: 0.62
+      max_prob: 1.00
+      min_odds: 1.20
+      max_odds: 2.10
+      min_edge: 0.03
+    total_games_over:
+      line: 19.5
+      min_prob: 0.58
+      max_prob: 1.00
+      min_odds: 1.40
+      max_odds: 2.00
+      min_edge: 0.03
+    total_games_under:
+      line: 19.5
+      min_prob: 0.58
+      max_prob: 1.00
+      min_odds: 1.40
+      max_odds: 2.00
+      min_edge: 0.03
+    tiebreak:
+      min_prob: 0.14
+      max_prob: 0.35
+      min_odds: 4.00
+      max_odds: 12.00
+      min_edge: 0.03
+  elo:
+    initial_rating: 1500
+    k_initial: 40.0
+    k_floor: 10.0
+    k_decay_rate: 0.05
+    blend_weight: 0.60          # p_final = w * p_markov + (1-w) * p_elo
+  stability:
+    max_matches_last_5d: 3        # reject if player played >N matches in last 5 days
+    fatigue_window_days: 5
+    min_hold_diff: 0.01           # reject if abs(p_hold_a - p_hold_b) < threshold
+    max_match_prob: 0.97          # reject if p_match too extreme (one-sided)
+    min_match_prob: 0.03          # reject if p_match too extreme (other side)
+    variance_std_threshold: 6.5   # HIGH variance if MC std_total_games > threshold
+
 # --- Training defaults ---
 training:
   team_ratings:
@@ -107,6 +156,12 @@ training:
     retrain_days: 30
     min_team_home: 5
     min_team_away: 5
+  wta:
+    lookback_days: 730          # 2 years walk-forward window
+    retrain_days: 30
+    min_train_matches: 200
+    min_players: 30
+    min_samples: 100
 
 # --- Notifications ---
 # Daily pipeline writes a log to notifications.log_dir.
