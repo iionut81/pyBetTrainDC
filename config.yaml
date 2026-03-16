@@ -118,6 +118,18 @@ wta:
       min_odds: 4.00
       max_odds: 12.00
       min_edge: 0.03
+    set1_over_7_5:
+      min_prob: 0.88
+      max_prob: 1.00
+      min_odds: 1.05
+      max_odds: 1.30
+      min_edge: 0.03
+    set1_over_9_5:
+      min_prob: 0.58
+      max_prob: 1.00
+      min_odds: 1.40
+      max_odds: 2.20
+      min_edge: 0.03
   elo:
     initial_rating: 1500
     k_initial: 40.0

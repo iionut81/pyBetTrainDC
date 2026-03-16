@@ -479,7 +479,7 @@ def main() -> int:
 
     global_cals = {
         market: cal_map.get(("__GLOBAL__", market), {"method": "platt", "a": 0.0, "b": 1.0, "temperature": 1.0})
-        for market in ["match_winner", "tiebreak"]
+        for market in ["match_winner", "tiebreak", "set1_over_7_5", "set1_over_9_5"]
     }
 
     # Load tiebreak model
@@ -490,11 +490,15 @@ def main() -> int:
     else:
         print("  [WARN] No tiebreak model found, tiebreak predictions disabled")
 
-    # Compute per-player tiebreak rates and per-surface base rates from history
+    # Compute per-player tiebreak rates, Set 1 avg games, and per-surface base rates
     player_tb_hits: Dict[int, int] = {}
     player_tb_total: Dict[int, int] = {}
+    player_s1_sum: Dict[int, float] = {}
+    player_s1_count: Dict[int, int] = {}
     surface_tb_hits: Dict[str, int] = {}
     surface_tb_total: Dict[str, int] = {}
+    surface_s1_sum: Dict[str, float] = {}
+    surface_s1_count: Dict[str, int] = {}
     for _, hrow in hist.iterrows():
         score = str(hrow.get("score", ""))
         try:
@@ -509,9 +513,13 @@ def main() -> int:
         surf = hrow.get("surface", "Hard")
         surface_tb_total[surf] = surface_tb_total.get(surf, 0) + 1
         surface_tb_hits[surf] = surface_tb_hits.get(surf, 0) + is_tb
+        surface_s1_sum[surf] = surface_s1_sum.get(surf, 0.0) + s1g
+        surface_s1_count[surf] = surface_s1_count.get(surf, 0) + 1
         for pid in (int(hrow["winner_id"]), int(hrow["loser_id"])):
             player_tb_total[pid] = player_tb_total.get(pid, 0) + 1
             player_tb_hits[pid] = player_tb_hits.get(pid, 0) + is_tb
+            player_s1_sum[pid] = player_s1_sum.get(pid, 0.0) + s1g
+            player_s1_count[pid] = player_s1_count.get(pid, 0) + 1
 
     def _get_surface_tb_rate(surf: str) -> float:
         total = surface_tb_total.get(surf, 0)
@@ -525,10 +533,22 @@ def main() -> int:
             return _get_surface_tb_rate(surf)
         return player_tb_hits.get(pid, 0) / total
 
+    def _get_player_avg_s1(pid: Optional[int], surf: str) -> float:
+        if pid is None:
+            cnt = surface_s1_count.get(surf, 0)
+            return surface_s1_sum.get(surf, 0.0) / max(cnt, 1) if cnt > 0 else 9.5
+        cnt = player_s1_count.get(pid, 0)
+        if cnt < 5:
+            cnt_s = surface_s1_count.get(surf, 0)
+            return surface_s1_sum.get(surf, 0.0) / max(cnt_s, 1) if cnt_s > 0 else 9.5
+        return player_s1_sum.get(pid, 0.0) / cnt
+
     print(f"  Tiebreak rates: {', '.join(f'{s}={surface_tb_hits.get(s,0)}/{surface_tb_total.get(s,0)} ({_get_surface_tb_rate(s):.1%})' for s in ['Hard','Clay','Grass'])}")
 
     # ── Evaluate each fixture ────────────────────────────────────────────────
     rows_winner: list[dict] = []
+    rows_s1_7: list[dict] = []
+    rows_s1o: list[dict] = []
     rows_tb: list[dict] = []
     for t, m in all_upcoming:
         surface = t.get("surface", "Hard")
@@ -631,6 +651,23 @@ def main() -> int:
         else:
             p_match_raw = p_markov
 
+        # Set 1 Over 7.5 (analytical from Markov chain + momentum)
+        p_s1_7_analytical = result["p_set1_over_7_5"]
+        avg_s1_a_7 = _get_player_avg_s1(sid_a, surface)
+        avg_s1_b_7 = _get_player_avg_s1(sid_b, surface)
+        avg_s1_pair_7 = (avg_s1_a_7 + avg_s1_b_7) / 2.0
+        momentum_7 = 0.01 * (avg_s1_pair_7 - 7.5)
+        p_s1_7_raw = max(0.05, min(0.99, p_s1_7_analytical + momentum_7))
+
+        # Set 1 Over 9.5 (analytical from Markov chain + momentum)
+        p_s1o_analytical = result["p_set1_over_9_5"]
+        # Momentum: player historical Set 1 avg games
+        avg_s1_a = _get_player_avg_s1(sid_a, surface)
+        avg_s1_b = _get_player_avg_s1(sid_b, surface)
+        avg_s1_pair = (avg_s1_a + avg_s1_b) / 2.0
+        momentum = 0.02 * (avg_s1_pair - 9.5)
+        p_s1o_raw = max(0.05, min(0.95, p_s1o_analytical + momentum))
+
         # Tiebreak prediction
         p_tb_raw = None
         if tb_weights is not None:
@@ -647,6 +684,14 @@ def main() -> int:
         cal_mw = cal_map.get((surface, "match_winner"), global_cals["match_winner"])
         p_match_cal = float(apply_calibration(np.array([p_match_raw]), cal_mw)[0])
 
+        # Calibrate set1 over 7.5
+        cal_s1_7 = cal_map.get((surface, "set1_over_7_5"), global_cals.get("set1_over_7_5", {"method": "platt", "a": 0.0, "b": 1.0, "temperature": 1.0}))
+        p_s1_7_cal = float(apply_calibration(np.array([p_s1_7_raw]), cal_s1_7)[0])
+
+        # Calibrate set1 over 9.5
+        cal_s1o = cal_map.get((surface, "set1_over_9_5"), global_cals.get("set1_over_9_5", {"method": "platt", "a": 0.0, "b": 1.0, "temperature": 1.0}))
+        p_s1o_cal = float(apply_calibration(np.array([p_s1o_raw]), cal_s1o)[0])
+
         # Calibrate tiebreak if available
         if p_tb_raw is not None:
             cal_tb = cal_map.get((surface, "tiebreak"), global_cals["tiebreak"])
@@ -655,6 +700,8 @@ def main() -> int:
             p_tb_cal = None
 
         fair_odds_a = (1.0 / p_match_cal) if p_match_cal > 0 else None
+        fair_odds_s1_7 = (1.0 / p_s1_7_cal) if p_s1_7_cal > 0 else None
+        fair_odds_s1o = (1.0 / p_s1o_cal) if p_s1o_cal > 0 else None
         fair_odds_tb = (1.0 / p_tb_cal) if p_tb_cal and p_tb_cal > 0 else None
 
         # Recommendations
@@ -663,6 +710,20 @@ def main() -> int:
             mw_cfg["min_prob"] <= p_match_cal <= mw_cfg["max_prob"]
             and fair_odds_a is not None
             and fair_odds_a <= mw_cfg["max_odds"]
+        )
+
+        s1_7_cfg = MARKETS_CFG["set1_over_7_5"]
+        rec_s1_7 = bool(
+            s1_7_cfg["min_prob"] <= p_s1_7_cal <= s1_7_cfg["max_prob"]
+            and fair_odds_s1_7 is not None
+            and fair_odds_s1_7 <= s1_7_cfg["max_odds"]
+        )
+
+        s1o_cfg = MARKETS_CFG["set1_over_9_5"]
+        rec_s1o = bool(
+            s1o_cfg["min_prob"] <= p_s1o_cal <= s1o_cfg["max_prob"]
+            and fair_odds_s1o is not None
+            and fair_odds_s1o <= s1o_cfg["max_odds"]
         )
 
         tb_cfg = MARKETS_CFG["tiebreak"]
@@ -700,6 +761,26 @@ def main() -> int:
             "recommended": rec_match,
         })
 
+        # Set 1 Over 7.5
+        rows_s1_7.append({
+            **base,
+            "p_raw": round(p_s1_7_raw, 4),
+            "p_cal": round(p_s1_7_cal, 4),
+            "Chances": f"{p_s1_7_cal * 100:.1f}%",
+            "fair_odds": round(fair_odds_s1_7, 4) if fair_odds_s1_7 else None,
+            "recommended": rec_s1_7,
+        })
+
+        # Set 1 Over 9.5
+        rows_s1o.append({
+            **base,
+            "p_raw": round(p_s1o_raw, 4),
+            "p_cal": round(p_s1o_cal, 4),
+            "Chances": f"{p_s1o_cal * 100:.1f}%",
+            "fair_odds": round(fair_odds_s1o, 4) if fair_odds_s1o else None,
+            "recommended": rec_s1o,
+        })
+
         # Tiebreak
         if p_tb_cal is not None:
             rows_tb.append({
@@ -721,7 +802,9 @@ def main() -> int:
 
     files = [
         (f"{s}.1_WTA_Winner.csv", rows_winner, "Winner"),
-        (f"{s}.2_WTA_Tiebreak.csv", rows_tb, "Tiebreak"),
+        (f"{s}.2_WTA_Set1_Over_7_5.csv", rows_s1_7, "Set1 Over 7.5"),
+        (f"{s}.3_WTA_Set1_Over_9_5.csv", rows_s1o, "Set1 Over 9.5"),
+        (f"{s}.4_WTA_Tiebreak.csv", rows_tb, "Tiebreak"),
     ]
 
     for fname, row_list, label in files:

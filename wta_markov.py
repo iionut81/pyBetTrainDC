@@ -247,6 +247,12 @@ def predict_match(
     # Set 1 under 12.5 (= no tiebreak in set 1)
     p_s1_under = p_set_under_12_5(p_hold_a, p_hold_b)
 
+    # Set 1 over 7.5 games (non-blowout: 6-2+ either way)
+    p_s1_over_7_5 = p_set1_over_7_5(p_hold_a, p_hold_b)
+
+    # Set 1 over 9.5 games (competitive set: 6-4+ either way)
+    p_s1_over_9_5 = p_set1_over_9_5(p_hold_a, p_hold_b)
+
     return {
         "p_serve_a": p_serve_a_adj,
         "p_serve_b": p_serve_b_adj,
@@ -258,6 +264,8 @@ def predict_match(
         "p_set_a": p_set_a,
         "p_match_a": p_match_a,
         "p_set1_under_12_5": p_s1_under,
+        "p_set1_over_7_5": p_s1_over_7_5,
+        "p_set1_over_9_5": p_s1_over_9_5,
     }
 
 
@@ -445,6 +453,81 @@ def p_set_tiebreak(p_hold_a: float, p_hold_b: float) -> float:
 def p_set_under_12_5(p_hold_a: float, p_hold_b: float) -> float:
     """P(under 12.5 games in a set) = P(no tiebreak) = 1 - P(6-6)."""
     return 1.0 - p_set_tiebreak(p_hold_a, p_hold_b)
+
+
+def p_set1_over_7_5(p_hold_a: float, p_hold_b: float) -> float:
+    """P(set 1 total games >= 8) using exact DP over game states.
+
+    Over 7.5 means the set reaches at least 6-2 (or 2-6, and anything closer).
+    Under 7.5 means the set ends 6-0 or 6-1 (or reversed) — blowouts only.
+    A serves first.
+    """
+    memo: Dict[tuple, float] = {}
+
+    def _dp(ga: int, gb: int, a_serves: bool) -> float:
+        if ga >= 6 and ga - gb >= 2:
+            return 1.0 if (ga + gb) >= 8 else 0.0
+        if gb >= 6 and gb - ga >= 2:
+            return 1.0 if (ga + gb) >= 8 else 0.0
+        # Tiebreak at 6-6 → 13 games total → over 7.5
+        if ga == 6 and gb == 6:
+            return 1.0
+
+        key = (ga, gb, a_serves)
+        if key in memo:
+            return memo[key]
+
+        if a_serves:
+            p_a_wins_game = p_hold_a
+        else:
+            p_a_wins_game = 1.0 - p_hold_b
+
+        result = (
+            p_a_wins_game * _dp(ga + 1, gb, not a_serves)
+            + (1.0 - p_a_wins_game) * _dp(ga, gb + 1, not a_serves)
+        )
+        memo[key] = result
+        return result
+
+    return _dp(0, 0, True)
+
+
+def p_set1_over_9_5(p_hold_a: float, p_hold_b: float) -> float:
+    """P(set 1 total games >= 10) using exact DP over game states.
+
+    Over 9.5 means the set reaches at least 6-4 (or 4-6, 7-5, 5-7, 7-6, 6-7).
+    Under 9.5 means the set ends 6-0, 6-1, 6-2, 6-3 (or reversed).
+    A serves first.
+    """
+    memo: Dict[tuple, float] = {}
+
+    def _dp(ga: int, gb: int, a_serves: bool) -> float:
+        # Set decided without tiebreak
+        if ga >= 6 and ga - gb >= 2:
+            return 1.0 if (ga + gb) >= 10 else 0.0
+        if gb >= 6 and gb - ga >= 2:
+            return 1.0 if (ga + gb) >= 10 else 0.0
+        # Tiebreak at 6-6 → 13 games total → over 9.5
+        if ga == 6 and gb == 6:
+            return 1.0
+
+        key = (ga, gb, a_serves)
+        if key in memo:
+            return memo[key]
+
+        if a_serves:
+            p_a_wins_game = p_hold_a
+        else:
+            p_a_wins_game = 1.0 - p_hold_b
+
+        result = (
+            p_a_wins_game * _dp(ga + 1, gb, not a_serves)
+            + (1.0 - p_a_wins_game) * _dp(ga, gb + 1, not a_serves)
+        )
+        memo[key] = result
+        return result
+
+    return _dp(0, 0, True)
 
 
 def prob_over_games(games_dist: Dict[int, float], line: float) -> float:

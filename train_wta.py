@@ -36,7 +36,7 @@ _ELO_CFG = _WTA.get("elo", {})
 STABILITY = _WTA["stability"]
 BLEND_W = _ELO_CFG.get("blend_weight", 0.60)
 
-MARKETS = ["match_winner", "tiebreak"]
+MARKETS = ["match_winner", "tiebreak", "set1_over_7_5", "set1_over_9_5"]
 
 
 def _parse_set1_games(score: str) -> int:
@@ -163,11 +163,14 @@ def walk_forward(
             (pms_surf["match_date"] >= train_start) & (pms_surf["match_date"] < anchor)
         ]
 
-        # ── Compute per-player tiebreak rates and surface base rate from training ──
-        player_tb_hits: Dict[int, int] = {}   # player_id -> tiebreak count
-        player_tb_total: Dict[int, int] = {}  # player_id -> total matches with parseable set1
+        # ── Compute per-player tiebreak rates, Set 1 avg games, and surface base rate ──
+        player_tb_hits: Dict[int, int] = {}
+        player_tb_total: Dict[int, int] = {}
+        player_s1_games_sum: Dict[int, float] = {}   # for momentum adjustment
+        player_s1_games_count: Dict[int, int] = {}
         tb_total_count = 0
         tb_hit_count = 0
+        s1_games_all: List[int] = []
         for _, trow in train.iterrows():
             s1g = _parse_set1_games(trow.get("score", ""))
             if s1g <= 0:
@@ -175,17 +178,27 @@ def walk_forward(
             is_tb = int(s1g >= 13)
             tb_total_count += 1
             tb_hit_count += is_tb
+            s1_games_all.append(s1g)
             for pid in (int(trow["winner_id"]), int(trow["loser_id"])):
                 player_tb_total[pid] = player_tb_total.get(pid, 0) + 1
                 player_tb_hits[pid] = player_tb_hits.get(pid, 0) + is_tb
+                player_s1_games_sum[pid] = player_s1_games_sum.get(pid, 0.0) + s1g
+                player_s1_games_count[pid] = player_s1_games_count.get(pid, 0) + 1
 
         surface_tb_rate = tb_hit_count / max(tb_total_count, 1)
+        surface_avg_s1_games = np.mean(s1_games_all) if s1_games_all else 9.5
 
         def _player_tb_rate(pid: int) -> float:
             total = player_tb_total.get(pid, 0)
             if total < 5:
-                return surface_tb_rate  # fallback to surface base rate
+                return surface_tb_rate
             return player_tb_hits.get(pid, 0) / total
+
+        def _player_avg_s1_games(pid: int) -> float:
+            cnt = player_s1_games_count.get(pid, 0)
+            if cnt < 5:
+                return surface_avg_s1_games
+            return player_s1_games_sum.get(pid, 0.0) / cnt
 
         # ── Fit tiebreak logistic on training window ──
         tb_X_train = []
@@ -289,6 +302,20 @@ def walk_forward(
                 )
                 p_tiebreak = float(predict_tiebreak(tb_feat, last_tb_weights)[0])
 
+            # Set 1 Over 7.5: analytical + momentum adjustment from player history
+            p_s1_7_raw = result["p_set1_over_7_5"]
+
+            # Set 1 Over 9.5: analytical + momentum adjustment from player history
+            p_s1o_raw = result["p_set1_over_9_5"]
+            avg_s1_a = _player_avg_s1_games(w_id)
+            avg_s1_b = _player_avg_s1_games(l_id)
+            avg_s1_pair = (avg_s1_a + avg_s1_b) / 2.0
+            momentum_7 = 0.01 * (avg_s1_pair - 7.5)
+            p_s1_7_adj = max(0.05, min(0.99, p_s1_7_raw + momentum_7))
+
+            momentum = 0.02 * (avg_s1_pair - 9.5)
+            p_s1o_adj = max(0.05, min(0.95, p_s1o_raw + momentum))
+
             rows.append({
                 "match_date": row["match_date"],
                 "surface": surface,
@@ -302,11 +329,18 @@ def walk_forward(
                 "p_markov": p_markov,
                 "p_elo": p_elo if p_elo is not None else np.nan,
                 "p_tiebreak": p_tiebreak,
+                "p_set1_over_7_5": p_s1_7_adj,
+                "p_set1_over_7_5_raw": p_s1_7_raw,
+                "p_set1_over_9_5": p_s1o_adj,
+                "p_set1_over_9_5_raw": p_s1o_raw,
+                "avg_s1_games_pair": round(avg_s1_pair, 2),
                 "p_hold_w": result["p_hold_a"],
                 "p_hold_l": result["p_hold_b"],
                 "p_set_w": result["p_set_a"],
                 "y_match_winner": 1.0,
                 "y_tiebreak": float(set1_games >= 13) if set1_games > 0 else np.nan,
+                "y_set1_over_7_5": float(set1_games >= 8) if set1_games > 0 else np.nan,
+                "y_set1_over_9_5": float(set1_games >= 10) if set1_games > 0 else np.nan,
                 "actual_set1_games": set1_games if set1_games > 0 else np.nan,
             })
 
@@ -392,6 +426,8 @@ def main() -> int:
         market_cols = {
             "match_winner": ("p_match_winner", "y_match_winner"),
             "tiebreak": ("p_tiebreak", "y_tiebreak"),
+            "set1_over_7_5": ("p_set1_over_7_5", "y_set1_over_7_5"),
+            "set1_over_9_5": ("p_set1_over_9_5", "y_set1_over_9_5"),
         }
 
         for market, (p_col, y_col) in market_cols.items():
