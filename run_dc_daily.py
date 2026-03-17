@@ -3,13 +3,16 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 from pathlib import Path
+from typing import Dict, Tuple
 
+import numpy as np
 import pandas as pd
 
 from config import CFG
 from data_loader import fetch_fixtures_from_api, load_team_ratings
 from decision_engine import evaluate_market
 from dixon_coles import expected_goals, market_probabilities, resolve_team_strength, score_matrix
+from fhg_calibration import apply_calibration, calibration_from_row
 from simulation import run_monte_carlo
 
 STRICT_LOW_VARIANCE_LEAGUES = set(CFG["strict_low_variance_leagues"])
@@ -26,6 +29,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--max-odds", type=float, default=CFG["dc"]["max_odds"])
     p.add_argument("--max-goals", type=int, default=CFG["dixon_coles"]["max_goals"])
     p.add_argument("--iterations", type=int, default=CFG["dixon_coles"]["mc_iterations"])
+    p.add_argument("--calibration-csv", default="simulations/DC/data/dc_calibration.csv")
     p.add_argument("--insecure", action="store_true")
     return p.parse_args()
 
@@ -34,6 +38,25 @@ def main() -> int:
     args = parse_args()
 
     ratings = load_team_ratings(args.ratings_pkl)
+
+    # Load DC calibration
+    cal_path = Path(args.calibration_csv)
+    cal_df = (
+        pd.read_csv(cal_path)
+        if cal_path.exists()
+        else pd.DataFrame(columns=["league", "market", "method", "a", "b", "temperature"])
+    )
+    cal_map: Dict[Tuple[str, str], dict] = {}
+    for _, r in cal_df.iterrows():
+        lg = str(r["league"]).strip().upper()
+        mk = str(r["market"]).strip()
+        cal_map[(lg, mk)] = calibration_from_row(dict(r))
+    global_cals = {
+        market: cal_map.get(
+            ("__GLOBAL__", market), {"method": "platt", "a": 0.0, "b": 1.0, "temperature": 1.0}
+        )
+        for market in ("1X", "X2")
+    }
 
     api_url = f"https://v3.football.api-sports.io/fixtures?date={args.target_date}"
     fixtures = fetch_fixtures_from_api(api_url=api_url, api_key=args.api_key, verify_ssl=not args.insecure)
@@ -67,9 +90,17 @@ def main() -> int:
         probs = market_probabilities(mat)
         mc = run_monte_carlo(lam_home, lam_away, iterations=args.iterations)
 
+        league_upper = fx.league.upper()
+
+        # Calibrate raw probabilities
+        calib_1x = cal_map.get((league_upper, "1X"), global_cals["1X"])
+        calib_x2 = cal_map.get((league_upper, "X2"), global_cals["X2"])
+        p_1x_cal = float(apply_calibration(np.array([probs["1X"]]), calib_1x)[0])
+        p_x2_cal = float(apply_calibration(np.array([probs["X2"]]), calib_x2)[0])
+
         eval_1x = evaluate_market(
             market="1X",
-            model_probability=probs["1X"],
+            model_probability=p_1x_cal,
             variance_value=mc["variance_1X"],
             upset_frequency=mc["upset_1X"],
             offered_odds=fx.odds_1x,
@@ -80,7 +111,7 @@ def main() -> int:
         )
         eval_x2 = evaluate_market(
             market="X2",
-            model_probability=probs["X2"],
+            model_probability=p_x2_cal,
             variance_value=mc["variance_X2"],
             upset_frequency=mc["upset_X2"],
             offered_odds=fx.odds_x2,
@@ -90,7 +121,9 @@ def main() -> int:
             allowed_variance_classes=allowed_variance_classes,
         )
 
+        raw_probs = {"1X": probs["1X"], "X2": probs["X2"]}
         for market_eval in (eval_1x, eval_x2):
+            mkt = market_eval["market"]
             rows.append(
                 {
                     "run_date": dt.date.today().isoformat(),
@@ -103,6 +136,7 @@ def main() -> int:
                     "p_home_win": probs["home_win"],
                     "p_draw": probs["draw"],
                     "p_away_win": probs["away_win"],
+                    "p_raw": raw_probs[mkt],
                     **market_eval,
                 }
             )

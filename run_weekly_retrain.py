@@ -3,13 +3,19 @@ from __future__ import annotations
 """Weekly retrain pipeline.
 
 Runs in order:
-  1. build_fhg_history.py        — refresh FHG/Goals history from API-Football
-  2. build_corners_history.py    — refresh Corners history from API-Football
-  3. train_team_ratings.py       — rebuild DC team ratings pkl (FHG + Goals daily)
-  4. train_fhg_calibration.py    — retrain FHG Platt calibration
-  5. train_fhg_league_bias.py    — retrain FHG league bias factors
-  6. train_goals_totals.py       — retrain Goals Totals calibration
-  7. train_corners_under_12_5.py — retrain Corners NB model + Platt calibration
+  0.  pytest                          — abort if tests fail
+  0b. import_transfermarkt.py        — refresh Transfermarkt history (DC + Goals source)
+  1.  build_fhg_history.py           — refresh FHG/Goals history from API-Football
+  2.  build_corners_history.py       — refresh Corners history from API-Football
+  3.  train_team_ratings.py          — rebuild DC team ratings pkl
+  4.  train_fhg_calibration.py       — retrain FHG Platt calibration
+  5.  train_fhg_league_bias.py       — retrain FHG league bias factors
+  6.  train_goals_totals.py          — retrain Goals Totals calibration
+  7.  train_corners_under_12_5.py    — retrain Corners NB model + Platt calibration
+  7b. import_wta_tennis_abstract.py  — refresh WTA history from Tennis Abstract
+  7c. train_wta.py                   — retrain WTA Elo + calibration + tiebreak
+  8.  backtest_dc.py                 — backtest DC model on historical data
+  9.  train_dc_calibration.py        — retrain DC Platt calibration from backtest
 
 Usage:
   python run_weekly_retrain.py --api-key YOUR_KEY --insecure
@@ -80,6 +86,19 @@ def main() -> int:
         print("  ⚠ Tests failed — aborting retrain to avoid training on broken code.")
         return 1
 
+    # ── 0b. Refresh Transfermarkt history (DC + Goals source data) ─────────
+    if not args.skip_history:
+        step(
+            "Transfermarkt history refresh (5 seasons snapshot)",
+            [py, "import_transfermarkt.py",
+             "--start-season-year", "2021",
+             "--n-seasons", "5",
+             "--output-csv", "simulations/seasons/transfermarkt_weekly_5s_snapshot.csv",
+             "--merge-into", "data/historical/historical_matches_transfermarkt.csv",
+             "--sleep-seconds", "0.3",
+             ],
+        )
+
     # ── 1. Refresh FHG / Goals history ──────────────────────────────────────
     if not args.skip_history and not args.skip_fhg:
         step(
@@ -120,6 +139,22 @@ def main() -> int:
     # ── 6. Retrain Corners U12.5 ─────────────────────────────────────────────
     if not args.skip_corners:
         step("Corners U12.5 retrain", [py, "train_corners_under_12_5.py"])
+
+    # ── 7. WTA history refresh + retrain ─────────────────────────────────────
+    if not args.skip_history:
+        step(
+            "WTA Tennis Abstract history refresh",
+            [py, "import_wta_tennis_abstract.py",
+             "--top-n", "200",
+             "--sleep", "0.3",
+             ] + insecure,
+        )
+    step("WTA retrain (Elo + calibration + tiebreak)", [py, "train_wta.py"])
+
+    # ── 8. DC backtest + calibration ──────────────────────────────────────────
+    if not args.skip_fhg or not args.skip_goals:
+        step("DC backtest", [py, "backtest_dc.py"])
+        step("DC calibration retrain", [py, "train_dc_calibration.py"])
 
     # ── Summary ──────────────────────────────────────────────────────────────
     n_ok = sum(1 for _, ok in results if ok)

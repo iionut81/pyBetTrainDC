@@ -9,6 +9,7 @@ Usage:
 """
 
 import argparse
+import json
 from pathlib import Path
 from typing import Dict, List, Tuple
 
@@ -16,7 +17,12 @@ import numpy as np
 import pandas as pd
 
 from config import CFG
-from fhg_calibration import apply_platt_logit, fit_platt_logit
+from fhg_calibration import (
+    apply_isotonic,
+    apply_platt_logit,
+    fit_isotonic,
+    fit_platt_logit,
+)
 from wta_elo import SurfaceElo
 from wta_markov import (
     PlayerServeStats,
@@ -443,21 +449,36 @@ def main() -> int:
                 y_sym = np.concatenate([y, np.zeros_like(y)])
                 p_raw, y = p_raw_sym, y_sym
 
-            a_val, b_val = fit_platt_logit(p_raw, y)
-            p_cal = apply_platt_logit(p_raw, a_val, b_val)
+            if market == "tiebreak":
+                # Isotonic regression preserves discrimination for rare-event tiebreak
+                xb, yv = fit_isotonic(p_raw, y)
+                p_cal = apply_isotonic(p_raw, xb, yv)
+                cal_rows.append({
+                    "surface": surface,
+                    "market": market,
+                    "method": "isotonic",
+                    "a": 0.0,
+                    "b": 0.0,
+                    "temperature": 1.0,
+                    "n_train": len(p_raw),
+                    "x_breaks": json.dumps(xb.tolist()),
+                    "y_values": json.dumps(yv.tolist()),
+                })
+            else:
+                a_val, b_val = fit_platt_logit(p_raw, y)
+                p_cal = apply_platt_logit(p_raw, a_val, b_val)
+                cal_rows.append({
+                    "surface": surface,
+                    "market": market,
+                    "method": "platt",
+                    "a": a_val,
+                    "b": b_val,
+                    "temperature": 1.0,
+                    "n_train": len(p_raw),
+                })
 
             all_cal_pairs[market][0].append(p_raw)
             all_cal_pairs[market][1].append(y)
-
-            cal_rows.append({
-                "surface": surface,
-                "market": market,
-                "method": "platt",
-                "a": a_val,
-                "b": b_val,
-                "temperature": 1.0,
-                "n_train": len(p_raw),
-            })
 
             summary_rows.append({
                 "surface": surface,
@@ -484,20 +505,35 @@ def main() -> int:
         if ps_list:
             p_all = np.concatenate(ps_list)
             y_all = np.concatenate(ys_list)
-            ga, gb = fit_platt_logit(p_all, y_all)
             n_total = len(p_all)
         else:
-            ga, gb = 0.0, 1.0
+            p_all, y_all = np.array([]), np.array([])
             n_total = 0
-        cal_rows.append({
-            "surface": "__GLOBAL__",
-            "market": market,
-            "method": "platt",
-            "a": ga,
-            "b": gb,
-            "temperature": 1.0,
-            "n_train": n_total,
-        })
+
+        if market == "tiebreak" and n_total > 0:
+            gxb, gyv = fit_isotonic(p_all, y_all)
+            cal_rows.append({
+                "surface": "__GLOBAL__",
+                "market": market,
+                "method": "isotonic",
+                "a": 0.0,
+                "b": 0.0,
+                "temperature": 1.0,
+                "n_train": n_total,
+                "x_breaks": json.dumps(gxb.tolist()),
+                "y_values": json.dumps(gyv.tolist()),
+            })
+        else:
+            ga, gb = fit_platt_logit(p_all, y_all) if n_total > 0 else (0.0, 1.0)
+            cal_rows.append({
+                "surface": "__GLOBAL__",
+                "market": market,
+                "method": "platt",
+                "a": ga,
+                "b": gb,
+                "temperature": 1.0,
+                "n_train": n_total,
+            })
 
     # Save
     cal_df = pd.DataFrame(cal_rows).sort_values(["surface", "market"]).reset_index(drop=True)
