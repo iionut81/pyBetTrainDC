@@ -112,17 +112,43 @@ D1:
   werder bremen: werder bremen
 
 D2:
-  "1. fc kaiserslautern": "1.fc k'lautern"
-  "fc schalke 04": fc schalke 04
-  karlsruher sc: karlsruher sc
-  "ssv jahn regensburg": jahn regensburg
-  "1. fc magdeburg": 1.fc magdeburg
-  "arminia bielefeld": arm. bielefeld
-  "eintracht braunschweig": e. braunschweig
-  "fortuna düsseldorf": "f. düsseldorf"
-  "sc paderborn 07": sc paderborn
-  "1. fc nürnberg": 1.fc nuremberg
-  "1. fc nuremberg": 1.fc nuremberg
+  # API-Football names
+  "1. fc kaiserslautern": kaiserslautern
+  "1. fc köln": fc koln
+  "1. fc magdeburg": magdeburg
+  "1. fc nürnberg": nurnberg
+  "eintracht braunschweig": braunschweig
+  "fc saarbrücken": saarbrucken
+  "fc schalke 04": schalke
+  "fortuna düsseldorf": dusseldorf
+  "hamburger sv": hamburger sv
+  "hannover 96": hannover
+  "hertha bsc": hertha berlin
+  "karlsruher sc": karlsruher sc
+  "preußen münster": preussen munster
+  "sc paderborn 07": paderborn
+  "spvgg greuther fürth": greuther furth
+  "ssv jahn regensburg": regensburg
+  "ssv ulm 1846": ulm
+  "sv darmstadt 98": darmstadt
+  "sv elversberg": elversberg
+  "sg dynamo dresden": sg dynamo dresden
+  # Flashscore canonical
+  bochum: bochum
+  holstein kiel: holstein kiel
+  "st. pauli": "st. pauli"
+  heidenheim: heidenheim
+  werder bremen: werder bremen
+  # Legacy aliases
+  "arminia bielefeld": arminia bielefeld
+  "1.fc k'lautern": kaiserslautern
+  "arm. bielefeld": arminia bielefeld
+  "e. braunschweig": braunschweig
+  "f. düsseldorf": dusseldorf
+  "1.fc magdeburg": magdeburg
+  "jahn regensburg": regensburg
+  "sc paderborn": paderborn
+  "1.fc nuremberg": nurnberg
 
 SP1:
   # API-Football names
@@ -160,26 +186,68 @@ SP1:
   villarreal: villarreal
 
 SP2:
-  cultural leonesa: cyd leonesa
-  "ud almeria": "ud almería"
-  "ud almería": "ud almería"
-  malaga: "málaga cf"
-  "málaga": "málaga cf"
-  "deportivo la coruna": "dep. la coruña"
-  "racing santander": racing
-  zaragoza: real zaragoza
-  almeria: "ud almería"
-  valladolid: real valladolid
-  leganes: "cd leganés"
-  "ad ceuta fc": ad ceuta
-  cadiz: "cádiz cf"
-  "cádiz": "cádiz cf"
-  cordoba: "córdoba cf"
-  "córdoba": "córdoba cf"
-  castellon: "castellón"
-  "sporting de gijon": "sporting gijón"
-  "sporting gijon": "sporting gijón"
-  huesca: sd huesca
+  # API-Football names
+  "almeria": almeria
+  "burgos": burgos cf
+  "cadiz": cadiz cf
+  "castellón": castellon
+  "deportivo la coruna": "dep. la coruna"
+  "fc cartagena": "fc cartagena sad"
+  "granada cf": granada cf
+  "racing ferrol": racing club ferrol
+  "racing santander": racing santander
+  "sporting gijon": gijon
+  "cultural leonesa": cultural leonesa
+  # Flashscore canonical
+  albacete: albacete
+  andorra: andorra
+  "burgos cf": burgos cf
+  "cadiz cf": cadiz cf
+  castellon: castellon
+  ceuta: ceuta
+  cordoba: cordoba
+  "dep. la coruna": "dep. la coruna"
+  eibar: eibar
+  elche: elche
+  eldense: eldense
+  "fc cartagena sad": "fc cartagena sad"
+  gijon: gijon
+  "granada cf": granada cf
+  huesca: huesca
+  "las palmas": las palmas
+  leganes: leganes
+  levante: levante
+  malaga: malaga
+  mirandes: mirandes
+  oviedo: oviedo
+  "racing club ferrol": racing club ferrol
+  "racing santander": racing santander
+  "real sociedad b": "real sociedad b"
+  tenerife: tenerife
+  valladolid: valladolid
+  zaragoza: zaragoza
+  almeria: almeria
+  # Legacy aliases
+  "ud almeria": almeria
+  "ud almería": almeria
+  "málaga cf": malaga
+  "málaga": malaga
+  "dep. la coruña": "dep. la coruna"
+  "cádiz cf": cadiz cf
+  "cádiz": cadiz cf
+  "córdoba cf": cordoba
+  "córdoba": cordoba
+  "castellón": castellon
+  "sporting gijón": gijon
+  "sporting de gijon": gijon
+  "sd huesca": huesca
+  "cyd leonesa": cultural leonesa
+  "ad ceuta fc": ceuta
+  "ad ceuta": ceuta
+  "real zaragoza": zaragoza
+  "real valladolid": valladolid
+  "cd leganés": leganes
+  racing: racing santander
 
 F1:
   paris saint germain: psg
@@ -238,21 +306,41 @@ I1:
   venezia: venezia
 
 I2:
-  "spezia calcio": spezia calcio
-  spezia: spezia calcio
+  # API-Football names
+  "spezia calcio": spezia
   "cosenza calcio": cosenza
   "us cremonese": cremonese
   "venezia fc": venezia
-  empoli: fc empoli
-  palermo: palermo
-  "juve stabia": juve stabia
-  padova: padova
-  mantova: mantova
-  cesena: cesena
-  reggiana: reggiana
-  monza: monza
+  # Flashscore canonical (self-mapping for corners profiles)
+  avellino: avellino
+  bari: bari
+  brescia: brescia
+  carrarese: carrarese
   catanzaro: catanzaro
+  cesena: cesena
+  cittadella: cittadella
+  cosenza: cosenza
+  cremonese: cremonese
+  empoli: empoli
+  entella: entella
+  frosinone: frosinone
+  "juve stabia": juve stabia
+  mantova: mantova
   modena: modena
+  monza: monza
+  padova: padova
+  palermo: palermo
+  pescara: pescara
+  pisa: pisa
+  reggiana: reggiana
+  salernitana: salernitana
+  sampdoria: sampdoria
+  sassuolo: sassuolo
+  spezia: spezia
+  sudtirol: sudtirol
+  venezia: venezia
+  # API-Football alternate
+  "virtus entella": entella
 
 N1:
   "almere city fc": almere city
@@ -311,47 +399,187 @@ P1:
   tondela: tondela
 
 RO1:
-  "universitatea craiova": cs u craiova
-  "arges pitesti": fc arges
-  "uta arad": uta arad
+  # API-Football names
   "afc hermannstadt": fc hermannstadt
-  "oţelul": otelul galati
-  otelul: otelul galati
-  csikszereda: fk csikszereda
-  rapid: fc rapid 1923
-  "dinamo bucuresti": fc dinamo
+  "cfr 1907 cluj": cfr cluj
+  "dinamo bucuresti": dinamo bucuresti
+  "farul constanta": farul constanta
+  "fc botosani": fc botosani
+  "fc voluntari": fc voluntari
+  "fcsb": fcsb
+  "metaloglobus": metaloglobus bucharest
+  "oţelul": otelul
+  "petrolul ploiesti": petrolul
+  "politehnica iasi": poli iasi
+  "rapid": fc rapid bucuresti
+  "scm gloria buzău": gloria buzau
+  "sepsi osk sfantu gheorghe": "sepsi sf. gheorghe"
+  "unirea slobozia": unirea slobozia
+  "universitatea cluj": "u. cluj"
+  "universitatea craiova": "univ. craiova"
+  "uta arad": uta arad
+  # Flashscore canonical
+  "cfr cluj": cfr cluj
+  "csikszereda m. ciuc": "csikszereda m. ciuc"
+  "fc arges": fc arges
+  "fc hermannstadt": fc hermannstadt
+  "fc rapid bucuresti": fc rapid bucuresti
+  "gloria buzau": gloria buzau
+  "metaloglobus bucharest": metaloglobus bucharest
+  otelul: otelul
+  petrolul: petrolul
+  "poli iasi": poli iasi
+  "sepsi sf. gheorghe": "sepsi sf. gheorghe"
+  "u. cluj": "u. cluj"
+  "univ. craiova": "univ. craiova"
+  # Legacy aliases
+  "arges pitesti": fc arges
+  "otelul galati": otelul
+  "fk csikszereda": "csikszereda m. ciuc"
+  "fc rapid 1923": fc rapid bucuresti
+  "cs u craiova": "univ. craiova"
+  "fc dinamo": dinamo bucuresti
 
 RS1:
-  "radnik surdulica": radnik
-  javor: javor-matis
-  "fk spartak zdrepceva krv": spartak
+  # API-Football names
+  "fk crvena zvezda": crvena zvezda
   "fk partizan": partizan
-  "tsc backa topola": fk tsc
+  "fk spartak zdrepceva krv": "sp. subotica"
+  "tsc backa topola": tsc
+  "jedinstvo ub": "jedinstvo u."
+  "mladost lucani": mladost
+  "mladost novi sad": "mladost gat"
+  "ofk beograd": "ofk beograd mozzart bet"
+  "tekstilac odžaci": tekstilac odzaci
+  "železničar pančevo": zeleznicar pancevo
+  # Flashscore canonical
+  crvena zvezda: crvena zvezda
+  cukaricki: cukaricki
+  "imt novi beograd": "imt novi beograd"
+  javor: javor
+  "jedinstvo u.": "jedinstvo u."
+  macva: macva
+  mladost: mladost
+  "mladost gat": "mladost gat"
+  napredak: napredak
+  "novi pazar": novi pazar
+  "ofk beograd mozzart bet": "ofk beograd mozzart bet"
+  partizan: partizan
+  "radnicki 1923": "radnicki 1923"
+  "radnicki nis": "radnicki nis"
+  radnik: radnik
+  "sp. subotica": "sp. subotica"
+  "tekstilac odzaci": tekstilac odzaci
+  tsc: tsc
+  vojvodina: vojvodina
+  "zeleznicar pancevo": zeleznicar pancevo
+  # Legacy
+  "radnik surdulica": radnik
+  "javor-matis": javor
+  "fk tsc": tsc
+  spartak: "sp. subotica"
 
 SA1:
-  "al-hazm": al-hazem
-  "al taawon": al-taawoun
-  "al kholood": al-kholood
-  "al najma": al-najma
-  "damac": damac fc
-  "neom": neom sc
-  "al-qadisiyah fc": al-qadsiah
-  "al shabab": al-shabab
-  "al okhdood": al-okhdood
-  "al khaleej saihat": al-khaleej
-  "al-hilal saudi fc": al-hilal
+  # API-Football names
+  "al-ahli jeddah": "al ahli sc"
+  "al-ettifaq": al ettifaq
+  "al-fateh": al fateh
+  "al-fayha": al fayha
+  "al-hilal saudi fc": al hilal
+  "al-ittihad fc": al ittihad
+  "al-nassr": al nassr
+  "al-qadisiyah fc": al qadsiah
+  "al-raed": al raed
+  "al khaleej saihat": al khaleej
+  "al kholood": al kholood
+  "al okhdood": al okhdood
+  "al orubah": al orubah
+  "al riyadh": al riyadh
+  "al shabab": al shabab
+  "al taawon": al taawon
+  "al wehda club": al wehda
+  "damac": damac
+  # Flashscore canonical
+  "al ahli sc": "al ahli sc"
+  "al ettifaq": al ettifaq
+  "al fateh": al fateh
+  "al fayha": al fayha
+  "al hazem": al hazem
+  "al hilal": al hilal
+  "al ittihad": al ittihad
+  "al khaleej": al khaleej
+  "al najma": al najma
+  "al nassr": al nassr
+  "al qadsiah": al qadsiah
+  "al raed": al raed
+  "al wehda": al wehda
+  "neom sc": neom sc
+  # Legacy
+  "al-hazm": al hazem
+  "al-taawoun": al taawon
+  "al-kholood": al kholood
+  "al-najma": al najma
+  "damac fc": damac
+  "al-shabab": al shabab
+  "al-okhdood": al okhdood
+  "al-khaleej": al khaleej
+  "al-hilal": al hilal
+  "al-qadsiah": al qadsiah
 
 DK1:
-  "agf aarhus": aarhus gf
-  agf: aarhus gf
+  # API-Football names
+  "agf aarhus": aarhus
+  agf: aarhus
   "fc midtjylland": midtjylland
   "fc nordsjaelland": nordsjaelland
-  "silkeborg if": silkeborg if
+  "fc copenhagen": fc copenhagen
+  "silkeborg if": silkeborg
+  # Flashscore canonical
+  aalborg: aalborg
+  aarhus: aarhus
+  brondby: brondby
+  "fc copenhagen": fc copenhagen
+  fredericia: fredericia
+  lyngby: lyngby
+  midtjylland: midtjylland
+  nordsjaelland: nordsjaelland
+  odense: odense
+  "randers fc": randers fc
+  silkeborg: silkeborg
+  sonderjyske: sonderjyske
+  vejle: vejle
+  viborg: viborg
+  # Legacy
+  "aarhus gf": aarhus
+  "silkeborg if": silkeborg
 
 SW1:
-  "fc zürich": "fc zürich"
-  "fc zurich": "fc zürich"
+  # API-Football names
   "bsc young boys": young boys
-  "fc lugano": fc lugano
-  "fc lausanne-sport": lausanne-sport
-  "fc st. gallen": "fc st. gallen"
+  "fc aarau": aarau
+  "fc basel 1893": basel
+  "fc lugano": lugano
+  "fc luzern": luzern
+  "fc sion": sion
+  "fc st. gallen": "st. gallen"
+  "fc winterthur": winterthur
+  "fc zurich": zurich
+  "fc zürich": zurich
+  "fc lausanne-sport": lausanne
+  "servette fc": servette
+  "yverdon sport": yverdon
+  # Flashscore canonical
+  aarau: aarau
+  basel: basel
+  grasshoppers: grasshoppers
+  lausanne: lausanne
+  lugano: lugano
+  luzern: luzern
+  servette: servette
+  sion: sion
+  "st. gallen": "st. gallen"
+  thun: thun
+  winterthur: winterthur
+  "young boys": young boys
+  yverdon: yverdon
+  zurich: zurich
