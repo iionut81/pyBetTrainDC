@@ -26,12 +26,20 @@ class Fixture:
 FLASHSCORE_LEAGUE_URLS: Dict[str, str] = {
     "E0": "https://www.flashscore.com/football/england/premier-league/fixtures/",
     "E1": "https://www.flashscore.com/football/england/championship/fixtures/",
-    "SP1": "https://www.flashscore.com/football/spain/laliga/fixtures/",
     "D1": "https://www.flashscore.com/football/germany/bundesliga/fixtures/",
+    "D2": "https://www.flashscore.com/football/germany/2-bundesliga/fixtures/",
+    "SP1": "https://www.flashscore.com/football/spain/laliga/fixtures/",
+    "SP2": "https://www.flashscore.com/football/spain/laliga2/fixtures/",
     "I1": "https://www.flashscore.com/football/italy/serie-a/fixtures/",
+    "I2": "https://www.flashscore.com/football/italy/serie-b/fixtures/",
     "F1": "https://www.flashscore.com/football/france/ligue-1/fixtures/",
     "N1": "https://www.flashscore.com/football/netherlands/eredivisie/fixtures/",
     "P1": "https://www.flashscore.com/football/portugal/liga-portugal/fixtures/",
+    "RO1": "https://www.flashscore.com/football/romania/superliga/fixtures/",
+    "RS1": "https://www.flashscore.com/football/serbia/mozzart-bet-super-liga/fixtures/",
+    "SA1": "https://www.flashscore.com/football/saudi-arabia/saudi-professional-league/fixtures/",
+    "SW1": "https://www.flashscore.com/football/switzerland/super-league/fixtures/",
+    "DK1": "https://www.flashscore.com/football/denmark/superliga/fixtures/",
 }
 
 API_LEAGUE_MAP: Dict[tuple[str, str], str] = {
@@ -168,11 +176,51 @@ def fetch_fixtures_from_api(
         headers["Authorization"] = f"Bearer {api_key}"
         headers["x-apisports-key"] = api_key
 
-    # API-Football: enrich fixtures with odds from /odds endpoint.
+    # Primary: Flashscore (free, all 16 leagues, no quota).
+    # Secondary: API-Football odds enrichment where available.
     if "v3.football.api-sports.io/fixtures" in api_url:
-        return _fetch_api_football_fixtures_with_odds(
-            api_url=api_url, headers=headers, timeout=timeout, verify_ssl=verify_ssl
-        )
+        parsed_url = urlparse(api_url)
+        qs = parse_qs(parsed_url.query)
+        target_date = (qs.get("date") or [""])[0]
+
+        # 1. Flashscore fixtures (primary source)
+        fs_fixtures: List[Fixture] = []
+        if target_date:
+            try:
+                fs_fixtures = fetch_fixtures_from_flashscore(
+                    target_date_iso=target_date, verify_ssl=verify_ssl
+                )
+            except Exception:
+                pass
+
+        # 2. API-Football fixtures + odds (secondary, for odds enrichment)
+        try:
+            api_fixtures = _fetch_api_football_fixtures_with_odds(
+                api_url=api_url, headers=headers, timeout=timeout, verify_ssl=verify_ssl
+            )
+        except Exception:
+            api_fixtures = []
+
+        # Build odds lookup from API-Football
+        api_odds: Dict[tuple[str, str, str], Fixture] = {}
+        for fx in api_fixtures:
+            api_odds[(fx.league, fx.home_team, fx.away_team)] = fx
+
+        # Enrich Flashscore fixtures with API-Football odds where available
+        for fx in fs_fixtures:
+            api_fx = api_odds.pop((fx.league, fx.home_team, fx.away_team), None)
+            if api_fx:
+                fx.odds_1x = api_fx.odds_1x
+                fx.odds_x2 = api_fx.odds_x2
+                fx.fixture_id = api_fx.fixture_id
+
+        # Add any API-Football fixtures not found in Flashscore
+        for api_fx in api_odds.values():
+            fs_fixtures.append(api_fx)
+
+        n_api = len(api_fixtures)
+        print(f"Fixtures: {len(fs_fixtures)} (Flashscore primary, API enrichment: {n_api})")
+        return fs_fixtures
 
     resp = requests.get(api_url, headers=headers, timeout=timeout, verify=verify_ssl)
     resp.raise_for_status()
