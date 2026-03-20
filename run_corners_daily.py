@@ -10,7 +10,7 @@ import pandas as pd
 from scipy.stats import nbinom, poisson
 
 from config import CFG
-from data_loader import fetch_fixtures_from_api
+from data_loader import clean_output_dir, fetch_fixtures_from_api
 from fhg_calibration import apply_calibration, calibration_from_row
 from team_registry import resolve_team_or_warn
 
@@ -202,6 +202,8 @@ def main() -> int:
     rec_path = Path(f"simulations/Corners U12.5/recommendations/{args.series}.2_Corners_U12_5_Recommendations.csv")
     eval_path.parent.mkdir(parents=True, exist_ok=True)
     rec_path.parent.mkdir(parents=True, exist_ok=True)
+    clean_output_dir(eval_path.parent)
+    clean_output_dir(rec_path.parent)
     out.to_csv(eval_path, index=False)
     rec.to_csv(rec_path, index=False)
 

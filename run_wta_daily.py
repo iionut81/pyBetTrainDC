@@ -18,6 +18,8 @@ import re
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
+from data_loader import clean_output_dir
+
 import numpy as np
 import pandas as pd
 import requests
@@ -712,13 +714,6 @@ def main() -> int:
             and fair_odds_a <= mw_cfg["max_odds"]
         )
 
-        s1_7_cfg = MARKETS_CFG["set1_over_7_5"]
-        rec_s1_7 = bool(
-            s1_7_cfg["min_prob"] <= p_s1_7_cal <= s1_7_cfg["max_prob"]
-            and fair_odds_s1_7 is not None
-            and fair_odds_s1_7 <= s1_7_cfg["max_odds"]
-        )
-
         s1o_cfg = MARKETS_CFG["set1_over_9_5"]
         rec_s1o = bool(
             s1o_cfg["min_prob"] <= p_s1o_cal <= s1o_cfg["max_prob"]
@@ -732,6 +727,14 @@ def main() -> int:
             and tb_cfg["min_prob"] <= p_tb_cal <= tb_cfg["max_prob"]
             and fair_odds_tb is not None
             and fair_odds_tb <= tb_cfg["max_odds"]
+        )
+
+        # Set1 Over 7.5: all three must be true
+        exp_games = mc["expected_total_games"]
+        rec_s1_7 = bool(
+            exp_games >= 23
+            and p_s1_7_cal >= 0.81
+            and rec_tb
         )
 
         base = {
@@ -798,6 +801,10 @@ def main() -> int:
 
     base_dir = Path("simulations/WTA/evaluations")
     base_dir.mkdir(parents=True, exist_ok=True)
+    clean_output_dir(base_dir)
+    rec_dir = Path("simulations/WTA/recommendations")
+    rec_dir.mkdir(parents=True, exist_ok=True)
+    clean_output_dir(rec_dir)
     s = args.series
 
     files = [

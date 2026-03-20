@@ -10,7 +10,7 @@ import pandas as pd
 import requests
 
 from config import CFG
-from data_loader import fetch_fixtures_from_api, load_team_ratings
+from data_loader import clean_output_dir, fetch_fixtures_from_api, load_team_ratings
 from dixon_coles import expected_goals, resolve_team_strength, score_matrix
 from fhg_calibration import apply_calibration, calibration_from_row
 
@@ -254,6 +254,8 @@ def main() -> int:
     rec_path = Path(f"simulations/Goals/recommendations/{args.series}.2_Goals_Recommendations.csv")
     eval_path.parent.mkdir(parents=True, exist_ok=True)
     rec_path.parent.mkdir(parents=True, exist_ok=True)
+    clean_output_dir(eval_path.parent)
+    clean_output_dir(rec_path.parent)
     out.to_csv(eval_path, index=False)
     rec.to_csv(rec_path, index=False)
 

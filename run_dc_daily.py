@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 
 from config import CFG
-from data_loader import fetch_fixtures_from_api, load_team_ratings
+from data_loader import clean_output_dir, fetch_fixtures_from_api, load_team_ratings
 from decision_engine import evaluate_market
 from dixon_coles import expected_goals, market_probabilities, resolve_team_strength, score_matrix
 from fhg_calibration import apply_calibration, calibration_from_row
@@ -154,6 +154,8 @@ def main() -> int:
     rec_path = Path(f"simulations/recommendations/{args.series}.2_Today_Recommendations.csv")
     eval_path.parent.mkdir(parents=True, exist_ok=True)
     rec_path.parent.mkdir(parents=True, exist_ok=True)
+    clean_output_dir(eval_path.parent)
+    clean_output_dir(rec_path.parent)
     all_df.to_csv(eval_path, index=False)
     rec_df.to_csv(rec_path, index=False)
 

@@ -12,6 +12,17 @@ from urllib.parse import parse_qs, urlparse
 import requests
 
 
+def clean_output_dir(directory: str | Path) -> None:
+    """Remove all CSV files from an output directory before writing new evaluations."""
+    d = Path(directory)
+    if d.exists():
+        for f in d.glob("*.csv"):
+            try:
+                f.unlink()
+            except PermissionError:
+                pass  # file open in Excel, skip
+
+
 @dataclass
 class Fixture:
     league: str

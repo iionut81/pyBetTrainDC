@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 
 from config import CFG
-from data_loader import fetch_fixtures_from_api, load_team_ratings
+from data_loader import clean_output_dir, fetch_fixtures_from_api, load_team_ratings
 from dixon_coles import expected_goals, resolve_team_strength
 from fhg_calibration import apply_calibration, calibration_from_row
 from fhg_weibull import p_goal_before_45
@@ -129,6 +129,8 @@ def main() -> int:
     rec_path = Path(f"simulations/FHG/recommendations/{args.series}.2_FHG_Recommendations.csv")
     eval_path.parent.mkdir(parents=True, exist_ok=True)
     rec_path.parent.mkdir(parents=True, exist_ok=True)
+    clean_output_dir(eval_path.parent)
+    clean_output_dir(rec_path.parent)
     out.to_csv(eval_path, index=False)
     rec.to_csv(rec_path, index=False)
     print(f"Saved FHG evaluations: {eval_path} rows={len(out)}")
