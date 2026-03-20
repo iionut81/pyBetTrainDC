@@ -111,8 +111,15 @@ def precompute_elo_predictions(
         if p is not None:
             preds[(w_id, l_id, date_key)] = p
 
-        # Update AFTER prediction
-        elo.update(w_id, l_id, surface)
+        # Update AFTER prediction (with margin-of-victory)
+        _w_sets = int(row.get("w_sets", 0) or 0)
+        _l_sets = int(row.get("l_sets", 0) or 0)
+        _tg = int(row.get("total_games", 0) or 0)
+        _md = pd.Timestamp(row["match_date"])
+        elo.update(w_id, l_id, surface,
+                   w_sets=_w_sets, l_sets=_l_sets, total_games=_tg, match_date=_md)
+        elo.update(w_id, l_id, "__ALL__",
+                   w_sets=_w_sets, l_sets=_l_sets, total_games=_tg, match_date=_md)
 
     elo.last_processed_date = df["match_date"].max()
     return preds, elo
