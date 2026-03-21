@@ -15,7 +15,7 @@ _TR = CFG["training"]["team_ratings"]
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Train league-wise Dixon-Coles ratings and export team_ratings.pkl")
-    parser.add_argument("--history-csv", default="data/historical/historical_matches_transfermarkt.csv")
+    parser.add_argument("--history-csv", default="data/flashscore/match_stats.csv")
     parser.add_argument("--output-pkl", default="data/historical/team_ratings.pkl")
     parser.add_argument("--lookback-days", type=int, default=_TR["lookback_days"])
     parser.add_argument("--decay-xi", type=float, default=_TR["decay_xi"])
