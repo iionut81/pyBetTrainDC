@@ -191,10 +191,26 @@ def main() -> int:
 
         offered = goals_odds.get(fx.fixture_id, {}) if fx.fixture_id is not None else {}
 
+        # Edge layer filters
+        lam_total = lam_h + lam_a
+        mismatch = abs(lam_h - lam_a)
+        is_mismatch = mismatch > 1.2        # blowout risk
+        is_high_total = lam_total > 3.2      # fat tail risk
+
         for market in MARKETS:
             p_raw = probs[market]
             calib = cal_map.get((fx.league.upper(), market), global_cals[market])
             p_cal = float(apply_calibration(np.array([p_raw], dtype=float), calib)[0])
+
+            # Apply edge layer penalties for UNDER markets
+            if "under" in market:
+                penalty = 0.0
+                if is_mismatch:
+                    penalty += 0.04   # -4% for blowout risk
+                if is_high_total:
+                    penalty += 0.03   # -3% for fat tail Poisson bias
+                p_cal = max(0.01, p_cal - penalty)
+
             fair_odds = (1.0 / p_cal) if p_cal > 0 else None
 
             offered_odd = offered.get(market) if offered else None
@@ -229,6 +245,8 @@ def main() -> int:
                     "market": market,
                     "lam_home": round(lam_h, 4),
                     "lam_away": round(lam_a, 4),
+                    "lam_total": round(lam_total, 4),
+                    "mismatch": round(mismatch, 4),
                     "p_raw": round(p_raw, 4),
                     "p_cal": round(p_cal, 4),
                     "fair_odds": round(fair_odds, 4) if fair_odds else None,
@@ -236,6 +254,8 @@ def main() -> int:
                     "implied_probability": round(implied, 4) if implied else None,
                     "edge": round(edge, 4) if edge is not None else None,
                     "odds_source": odds_source,
+                    "mismatch_flag": is_mismatch,
+                    "high_total_flag": is_high_total,
                     "recommended": recommended,
                 }
             )
