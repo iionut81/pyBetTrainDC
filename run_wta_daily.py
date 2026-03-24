@@ -729,12 +729,91 @@ def main() -> int:
             and fair_odds_tb <= tb_cfg["max_odds"]
         )
 
-        # Set1 Over 7.5: all three must be true
+        # Set1 Over 7.5: blowout detection layer + stability filters
         exp_games = mc["expected_total_games"]
+        p_hold_a = result["p_hold_a"]
+        p_hold_b = result["p_hold_b"]
+
+        # Surface and tier flags
+        is_clay = surface.lower() == "clay"
+        is_lower_tier = level not in ("WTA 1000", "Grand Slam", "WTA 500")
+        match_round = int(m.get("RoundID", 0) or 0)
+
+        # Hold thresholds: floor (universal) and strong (surface-adjusted)
+        min_hold = 0.66 if is_clay else 0.62
+        gap = abs(p_hold_a - p_hold_b)
+        min_hold_val = min(p_hold_a, p_hold_b)
+        holds_floor = min_hold_val >= 0.62
+        holds_strong = min_hold_val >= min_hold
+
+        # Blowout risk score — evaluate BOTH players separately
+        blowout_score = 0
+        for hold in (p_hold_a, p_hold_b):
+            if hold < 0.62:
+                blowout_score += 2
+            elif hold < 0.65:
+                blowout_score += 1
+        if gap > 0.08:
+            blowout_score += 2
+        # Asymmetry killer: one solid server vs one weak
+        if max(p_hold_a, p_hold_b) > 0.68 and min_hold_val < 0.60:
+            blowout_score += 2
+        if is_clay:
+            if min_hold_val < 0.64:
+                blowout_score += 2
+            else:
+                blowout_score += 1
+        if is_lower_tier and min_hold_val < 0.64:
+            blowout_score += 1
+        if match_round == 4:
+            blowout_score += 1
+        elif match_round >= 5:
+            blowout_score += 2
+
+        # Collapse trigger: only extreme cases
+        collapse_risk = min_hold_val < 0.58
+
+        # Competitive set: improved with graduated gap tolerance
+        competitive_set = (
+            holds_floor
+            and (
+                gap <= 0.07
+                or (gap <= 0.09 and min_hold_val >= 0.64)
+            )
+        )
+
+        # Dynamic probability adjustment (graduated, not flat)
+        p_s1_7_adj = p_s1_7_cal
+        if is_clay:
+            if min_hold_val < 0.64:
+                p_s1_7_adj -= 0.03
+            elif min_hold_val < 0.66:
+                p_s1_7_adj -= 0.015
+
+        # High confidence rescue: save borderline picks with elite stats
+        high_confidence = (
+            exp_games >= 25
+            and p_s1_7_adj >= 0.86
+            and min_hold_val >= 0.65
+        )
+        if high_confidence and blowout_score == 4:
+            blowout_score -= 1
+
         rec_s1_7 = bool(
             exp_games >= 23
-            and p_s1_7_cal >= 0.81
-            and rec_tb
+            and p_s1_7_adj >= 0.81
+            and competitive_set
+            and holds_floor
+            and blowout_score <= 3
+            and not collapse_risk
+        )
+
+        # Elite pick flag (for CSV tracking, not used in decision)
+        elite_pick = bool(
+            exp_games >= 24.5
+            and p_s1_7_adj >= 0.84
+            and blowout_score <= 2
+            and holds_strong
         )
 
         base = {
@@ -769,8 +848,13 @@ def main() -> int:
             **base,
             "p_raw": round(p_s1_7_raw, 4),
             "p_cal": round(p_s1_7_cal, 4),
+            "p_cal_adj": round(p_s1_7_adj, 4),
             "Chances": f"{p_s1_7_cal * 100:.1f}%",
             "fair_odds": round(fair_odds_s1_7, 4) if fair_odds_s1_7 else None,
+            "blowout_score": blowout_score,
+            "competitive_set": competitive_set,
+            "collapse_risk": collapse_risk,
+            "elite_pick": elite_pick,
             "recommended": rec_s1_7,
         })
 
