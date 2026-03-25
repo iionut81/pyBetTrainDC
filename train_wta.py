@@ -20,13 +20,16 @@ from config import CFG
 from fhg_calibration import (
     apply_isotonic,
     apply_platt_logit,
+    apply_temperature,
     fit_isotonic,
     fit_platt_logit,
+    fit_temperature,
 )
 from wta_elo import SurfaceElo
 from wta_markov import (
     PlayerServeStats,
     predict_match,
+    simulate_match,
 )
 from wta_ratings import build_player_match_stats, compute_player_stats_fast
 from wta_scoring import parse_set1_games
@@ -42,8 +45,22 @@ _WTA = CFG["wta"]
 _ELO_CFG = _WTA.get("elo", {})
 STABILITY = _WTA["stability"]
 BLEND_W = _ELO_CFG.get("blend_weight", 0.60)
+_MW_TEMP = bool(_WTA.get("calibration", {}).get("match_winner_temperature", False))
+_BT = _WTA.get("backtest") or {}
+_STORE_EG = bool(_BT.get("store_expected_games", False))
+_MC_EG = int(_BT.get("expected_games_mc", 800))
 
 MARKETS = ["match_winner", "tiebreak", "set1_over_7_5", "set1_over_9_5"]
+
+
+def _sackmann_round_id(round_val: object) -> int:
+    """Map common Sackmann round labels to blowout layer IDs (approx. WTA RoundID scale)."""
+    s = str(round_val or "").upper().strip()
+    if s in ("SF", "BSF", "S"):
+        return 4
+    if s in ("F", "BR", "R"):
+        return 5
+    return 0
 
 
 def _log_loss(p: np.ndarray, y: np.ndarray) -> float:
@@ -259,6 +276,14 @@ def walk_forward(
 
             result = predict_match(stats_w, stats_l)
 
+            if _STORE_EG:
+                mc_bt = simulate_match(
+                    result["p_serve_a"], result["p_serve_b"], n_simulations=_MC_EG,
+                )
+                exp_total_games = float(mc_bt["expected_total_games"])
+            else:
+                exp_total_games = float("nan")
+
             # Step 11 — Stability Filter
             hold_diff = abs(result["p_hold_a"] - result["p_hold_b"])
             if hold_diff < STABILITY["min_hold_diff"]:
@@ -346,6 +371,8 @@ def walk_forward(
                 "y_set1_over_7_5": float(set1_games >= 8) if set1_games > 0 else np.nan,
                 "y_set1_over_9_5": float(set1_games >= 10) if set1_games > 0 else np.nan,
                 "actual_set1_games": set1_games if set1_games > 0 else np.nan,
+                "expected_total_games": exp_total_games,
+                "round_id": _sackmann_round_id(row.get("round")),
             })
 
         anchor = pred_end
@@ -386,7 +413,8 @@ def main() -> int:
 
     # Pre-build player match stats table ONCE
     print("Building player match stats index ...")
-    pms = build_player_match_stats(df)
+    tier_w = _WTA.get("tier_weights")
+    pms = build_player_match_stats(df, tier_weights=tier_w if tier_w else None)
     print(f"  Player-match rows: {len(pms)}")
 
     # Pre-compute Elo predictions for all matches (single chronological pass)
@@ -464,14 +492,19 @@ def main() -> int:
                 })
             else:
                 a_val, b_val = fit_platt_logit(p_raw, y)
-                p_cal = apply_platt_logit(p_raw, a_val, b_val)
+                p_platt = apply_platt_logit(p_raw, a_val, b_val)
+                if market == "match_winner" and _MW_TEMP:
+                    t_val = fit_temperature(p_platt, y)
+                else:
+                    t_val = 1.0
+                p_cal = apply_temperature(p_platt, t_val)
                 cal_rows.append({
                     "surface": surface,
                     "market": market,
                     "method": "platt",
                     "a": a_val,
                     "b": b_val,
-                    "temperature": 1.0,
+                    "temperature": t_val,
                     "n_train": len(p_raw),
                 })
 
@@ -523,13 +556,18 @@ def main() -> int:
             })
         else:
             ga, gb = fit_platt_logit(p_all, y_all) if n_total > 0 else (0.0, 1.0)
+            if n_total > 0:
+                p_gpl = apply_platt_logit(p_all, ga, gb)
+                g_temp = fit_temperature(p_gpl, y_all) if (market == "match_winner" and _MW_TEMP) else 1.0
+            else:
+                g_temp = 1.0
             cal_rows.append({
                 "surface": "__GLOBAL__",
                 "market": market,
                 "method": "platt",
                 "a": ga,
                 "b": gb,
-                "temperature": 1.0,
+                "temperature": g_temp,
                 "n_train": n_total,
             })
 

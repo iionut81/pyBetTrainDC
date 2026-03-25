@@ -16,7 +16,7 @@ import datetime as dt
 import json
 import re
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 from data_loader import clean_output_dir
 
@@ -26,6 +26,7 @@ import requests
 
 from config import CFG
 from fhg_calibration import apply_calibration, calibration_from_row
+from wta_api import build_json_session, fetch_json
 from wta_elo import SurfaceElo
 from wta_markov import (
     predict_match,
@@ -34,6 +35,7 @@ from wta_markov import (
 from wta_markov import PlayerServeStats
 from wta_ratings import build_player_match_stats, compute_player_stats_fast
 from wta_scoring import parse_set1_games
+from wta_set1_filters import eval_set1_o75_gates, merge_set1_o75_config
 from wta_tiebreak import build_tiebreak_features, load_tiebreak_model, predict_tiebreak
 
 _WTA = CFG["wta"]
@@ -43,6 +45,8 @@ _ELO_CFG = _WTA.get("elo", {})
 BLEND_W = _ELO_CFG.get("blend_weight", 0.60)
 _S175_RAW = _WTA.get("set1_o75")
 S175: Dict = _S175_RAW if isinstance(_S175_RAW, dict) else {}
+_GRASS_POLICY_RAW = _WTA.get("grass_policy")
+GRASS_POLICY: Dict = _GRASS_POLICY_RAW if isinstance(_GRASS_POLICY_RAW, dict) else {}
 
 WTA_API_BASE = "https://api.wtatennis.com/tennis"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -51,12 +55,31 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 # ── WTA API helpers ───────────────────────────────────────────────────────────
 
 _VERIFY_SSL = True
+_WTA_HTTP: Dict[str, Any] = {}
 
 
-def _fetch_json(url: str, timeout: int = 20) -> dict:
-    resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=timeout, verify=_VERIFY_SSL)
-    resp.raise_for_status()
-    return resp.json()
+def _configure_wta_http() -> None:
+    api = _WTA.get("api") or {}
+    _WTA_HTTP["session"] = build_json_session(
+        USER_AGENT,
+        max_retries=int(api.get("max_retries", 3)),
+        backoff_factor=float(api.get("backoff_factor", 0.5)),
+    )
+    cd = str(api.get("cache_dir") or "").strip()
+    _WTA_HTTP["cache_dir"] = Path(cd) if cd else None
+    _WTA_HTTP["cache_ttl"] = float(api.get("cache_ttl_seconds", 0) or 0)
+    _WTA_HTTP["timeout"] = float(api.get("timeout_seconds", 20))
+
+
+def _fetch_json(url: str) -> dict:
+    return fetch_json(
+        _WTA_HTTP["session"],
+        url,
+        timeout=_WTA_HTTP["timeout"],
+        verify=_VERIFY_SSL,
+        cache_dir=_WTA_HTTP["cache_dir"],
+        cache_ttl_seconds=_WTA_HTTP["cache_ttl"],
+    )
 
 
 def fetch_active_tournaments(target_date: str) -> List[dict]:
@@ -412,6 +435,8 @@ def main() -> int:
         import urllib3
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
+    _configure_wta_http()
+
     # ── Fetch fixtures from WTA API ──────────────────────────────────────────
     print(f"Fetching active WTA tournaments for {target} ...")
     tournaments = fetch_active_tournaments(target)
@@ -455,7 +480,8 @@ def main() -> int:
     hist["winner_id"] = hist["winner_id"].astype(int)
     hist["loser_id"] = hist["loser_id"].astype(int)
 
-    pms = build_player_match_stats(hist)
+    tier_w = _WTA.get("tier_weights")
+    pms = build_player_match_stats(hist, tier_weights=tier_w if tier_w else None)
     name_map = build_name_to_sackmann_id(hist)
     print(f"  Player-match stats: {len(pms)} rows, name map: {len(name_map)} players")
 
@@ -726,102 +752,44 @@ def main() -> int:
             and fair_odds_tb <= tb_cfg["max_odds"]
         )
 
-        # Set1 Over 7.5: blowout detection (thresholds: config.wta.set1_o75)
+        # Set1 Over 7.5: wta_set1_filters (same logic as ablation script) + grass_policy overrides
         exp_games = mc["expected_total_games"]
         p_hold_a = result["p_hold_a"]
         p_hold_b = result["p_hold_b"]
-
-        o = S175
-        elite_levels = tuple(o.get("elite_levels", ["WTA 1000", "Grand Slam", "WTA 500"]))
-        is_clay = surface.lower() == "clay"
-        is_lower_tier = level not in elite_levels
         match_round = int(m.get("RoundID", 0) or 0)
-
-        hold_floor = float(o.get("hold_floor", 0.62))
-        hold_strong_clay = float(o.get("hold_strong_clay", 0.66))
-        hold_strong_default = float(o.get("hold_strong_default", 0.62))
-        min_hold = hold_strong_clay if is_clay else hold_strong_default
-        gap = abs(p_hold_a - p_hold_b)
-        min_hold_val = min(p_hold_a, p_hold_b)
-        holds_floor = min_hold_val >= hold_floor
-        holds_strong = min_hold_val >= min_hold
-
-        blowout_hold_weak = float(o.get("blowout_hold_weak", 0.62))
-        blowout_hold_moderate = float(o.get("blowout_hold_moderate", 0.65))
-        blowout_score = 0
-        for hold in (p_hold_a, p_hold_b):
-            if hold < blowout_hold_weak:
-                blowout_score += 2
-            elif hold < blowout_hold_moderate:
-                blowout_score += 1
-        if gap > float(o.get("gap_large", 0.08)):
-            blowout_score += 2
-        if max(p_hold_a, p_hold_b) > float(o.get("asym_server_high", 0.68)) and min_hold_val < float(o.get("asym_server_low", 0.60)):
-            blowout_score += 2
-        clay_mb = float(o.get("clay_min_hold_blowout", 0.64))
-        if is_clay:
-            if min_hold_val < clay_mb:
-                blowout_score += 2
-            else:
-                blowout_score += 1
-        lower_mb = float(o.get("lower_tier_min_hold", 0.64))
-        if is_lower_tier and min_hold_val < lower_mb:
-            blowout_score += 1
-        rnd_sf = int(o.get("round_semifinal", 4))
-        rnd_f = int(o.get("round_final_plus", 5))
-        if match_round == rnd_sf:
-            blowout_score += 1
-        elif match_round >= rnd_f:
-            blowout_score += 2
-
-        collapse_risk = min_hold_val < float(o.get("collapse_min_hold", 0.58))
-
-        cg_tight = float(o.get("comp_gap_tight", 0.07))
-        cg_loose = float(o.get("comp_gap_loose", 0.09))
-        cg_mh = float(o.get("comp_min_hold_loose_gap", 0.64))
-        competitive_set = (
-            holds_floor
-            and (gap <= cg_tight or (gap <= cg_loose and min_hold_val >= cg_mh))
+        _go75 = GRASS_POLICY.get("set1_o75")
+        o75_eff = merge_set1_o75_config(
+            S175,
+            _go75 if isinstance(_go75, dict) else None,
+            surface=surface,
         )
-
-        p_s1_7_adj = p_s1_7_cal
-        cpl = float(o.get("clay_penalty_hold_lo", 0.64))
-        cph = float(o.get("clay_penalty_hold_hi", 0.66))
-        if is_clay:
-            if min_hold_val < cpl:
-                p_s1_7_adj -= float(o.get("clay_penalty_lo", 0.03))
-            elif min_hold_val < cph:
-                p_s1_7_adj -= float(o.get("clay_penalty_hi", 0.015))
-
-        hc_eg = float(o.get("hc_exp_games", 25.0))
-        hc_ps = float(o.get("hc_p_s1", 0.86))
-        hc_mh = float(o.get("hc_min_hold", 0.65))
-        hc_br = int(o.get("hc_blowout_rescue_at", 4))
-        high_confidence = exp_games >= hc_eg and p_s1_7_adj >= hc_ps and min_hold_val >= hc_mh
-        if high_confidence and blowout_score == hc_br:
-            blowout_score -= 1
-
-        rec_eg = float(o.get("rec_min_exp_games", 23.0))
-        rec_ps = float(o.get("rec_min_p_s1", 0.81))
-        rec_bm = int(o.get("rec_max_blowout", 3))
-        rec_s1_7 = bool(
-            exp_games >= rec_eg
-            and p_s1_7_adj >= rec_ps
-            and competitive_set
-            and holds_floor
-            and blowout_score <= rec_bm
-            and not collapse_risk
+        s1gates = eval_set1_o75_gates(
+            p_hold_a,
+            p_hold_b,
+            exp_games,
+            float(p_s1_7_cal),
+            surface,
+            level,
+            match_round,
+            o75_eff,
         )
+        p_s1_7_adj = s1gates["p_s1_7_adj"]
+        blowout_score = s1gates["blowout_score"]
+        competitive_set = s1gates["competitive_set"]
+        collapse_risk = s1gates["collapse_risk"]
+        elite_pick = s1gates["elite_pick"]
+        rec_s1_7 = s1gates["rec_s1_7"]
 
-        el_eg = float(o.get("elite_exp_games", 24.5))
-        el_ps = float(o.get("elite_p_s1", 0.84))
-        el_bm = int(o.get("elite_max_blowout", 2))
-        elite_pick = bool(
-            exp_games >= el_eg
-            and p_s1_7_adj >= el_ps
-            and blowout_score <= el_bm
-            and holds_strong
-        )
+        if surface.lower() == "grass":
+            dr = {str(x).strip() for x in (GRASS_POLICY.get("disable_recommendations") or [])}
+            if "match_winner" in dr:
+                rec_match = False
+            if "set1_over_7_5" in dr:
+                rec_s1_7 = False
+            if "set1_over_9_5" in dr:
+                rec_s1o = False
+            if "tiebreak" in dr:
+                rec_tb = False
 
         base = {
             "run_date": dt.date.today().isoformat(),

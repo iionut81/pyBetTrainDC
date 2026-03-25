@@ -178,6 +178,42 @@ wta:
     round_semifinal: 4
     round_final_plus: 5
 
+  # HTTP for api.wtatennis.com (run_wta_daily). cache_ttl_seconds=0 disables cache.
+  api:
+    timeout_seconds: 20
+    max_retries: 3
+    backoff_factor: 0.5
+    cache_dir: "simulations/WTA/cache/http"
+    cache_ttl_seconds: 3600
+
+  # Optional: down-weight ITF / challengers when rolling stats (Sackmann tourney_level codes).
+  tier_weights:
+    __default__: 1.0
+    G: 1.0
+    P: 1.0
+    PM: 1.0
+    I: 0.75
+    F: 0.6
+    D: 0.6
+    W: 0.55
+    O: 0.55
+
+  # Grass: merge into set1_o75; optionally disable recommendation keys for this surface only.
+  grass_policy:
+    set1_o75:
+      rec_max_blowout: 2
+      rec_min_p_s1: 0.83
+    disable_recommendations: []
+
+  calibration:
+    # Second stage after Platt on symmetric match-winner logits (reduces overconfidence).
+    match_winner_temperature: true
+
+  # Optional: slower walk-forward, enables analyze_wta_ablation.py filter vs baseline.
+  backtest:
+    store_expected_games: false
+    expected_games_mc: 800
+
 # --- Training defaults ---
 training:
   team_ratings:

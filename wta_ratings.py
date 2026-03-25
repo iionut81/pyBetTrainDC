@@ -9,7 +9,7 @@ Optimized: pre-builds a player-perspective stats table once, then lookups are O(
 import pickle
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Mapping
 
 import numpy as np
 import pandas as pd
@@ -34,10 +34,16 @@ class PlayerRating:
     pressure_rating: float = 0.0
 
 
-def build_player_match_stats(matches: pd.DataFrame) -> pd.DataFrame:
+def build_player_match_stats(
+    matches: pd.DataFrame,
+    tier_weights: Optional[Mapping[str, float]] = None,
+) -> pd.DataFrame:
     """Build a table where each row is one player's stats from one match.
 
     This is the key optimization: we do this ONCE and then filter by player/surface/date.
+
+    If ``tier_weights`` is set and ``tourney_level`` exists on ``matches``, adds column
+    ``tier_weight`` per row (Sackmann codes e.g. G, P, I, F). Use ``__default__`` for unknown levels.
     """
     # Winner perspective
     w = matches[["match_date", "surface", "winner_id",
@@ -50,6 +56,19 @@ def build_player_match_stats(matches: pd.DataFrame) -> pd.DataFrame:
                   "l_1stServeIn_pct", "l_1stServeWon_pct", "l_2ndServeWon_pct",
                   "l_aceRate", "l_bpSaved_pct", "l_returnPtsWon_pct", "l_bpConverted_pct"]].copy()
     l.columns = ["match_date", "surface", "player_id"] + STAT_COLS
+
+    if tier_weights and "tourney_level" in matches.columns:
+        default_w = float(tier_weights.get("__default__", 1.0))
+
+        def _tw(level: object) -> float:
+            if level is None or (isinstance(level, float) and pd.isna(level)):
+                return default_w
+            key = str(level).strip()
+            return float(tier_weights.get(key, default_w))
+
+        tl = matches["tourney_level"]
+        w["tier_weight"] = tl.map(_tw).astype(float)
+        l["tier_weight"] = tl.map(_tw).astype(float)
 
     pms = pd.concat([w, l], ignore_index=True)
     pms["player_id"] = pms["player_id"].astype(int)
@@ -89,6 +108,12 @@ def compute_player_stats_fast(
         return None
 
     weights = _exponential_weights(n, decay)
+    if "tier_weight" in subset.columns:
+        tw = subset["tier_weight"].to_numpy(dtype=float)[::-1]
+        weights = weights * tw
+        s = float(weights.sum())
+        if s > 1e-12:
+            weights = weights / s
 
     def wmean(col_idx: int) -> float:
         v = vals[:, col_idx].astype(float)
