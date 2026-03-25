@@ -144,6 +144,40 @@ wta:
     min_match_prob: 0.03          # reject if p_match too extreme (other side)
     variance_std_threshold: 6.5   # HIGH variance if MC std_total_games > threshold
 
+  # Set 1 Over 7.5 — blowout / competitive filters (run_wta_daily). Tune via walk-forward ablation.
+  set1_o75:
+    elite_levels: ["WTA 1000", "Grand Slam", "WTA 500"]
+    hold_floor: 0.62
+    hold_strong_clay: 0.66
+    hold_strong_default: 0.62
+    blowout_hold_weak: 0.62
+    blowout_hold_moderate: 0.65
+    gap_large: 0.08
+    asym_server_high: 0.68
+    asym_server_low: 0.60
+    clay_min_hold_blowout: 0.64
+    lower_tier_min_hold: 0.64
+    collapse_min_hold: 0.58
+    comp_gap_tight: 0.07
+    comp_gap_loose: 0.09
+    comp_min_hold_loose_gap: 0.64
+    clay_penalty_hold_lo: 0.64
+    clay_penalty_hold_hi: 0.66
+    clay_penalty_lo: 0.03
+    clay_penalty_hi: 0.015
+    hc_exp_games: 25.0
+    hc_p_s1: 0.86
+    hc_min_hold: 0.65
+    hc_blowout_rescue_at: 4
+    rec_min_exp_games: 23.0
+    rec_min_p_s1: 0.81
+    rec_max_blowout: 3
+    elite_exp_games: 24.5
+    elite_p_s1: 0.84
+    elite_max_blowout: 2
+    round_semifinal: 4
+    round_final_plus: 5
+
 # --- Training defaults ---
 training:
   team_ratings:

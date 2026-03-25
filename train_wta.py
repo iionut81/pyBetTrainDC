@@ -29,6 +29,7 @@ from wta_markov import (
     predict_match,
 )
 from wta_ratings import build_player_match_stats, compute_player_stats_fast
+from wta_scoring import parse_set1_games
 from wta_tiebreak import (
     build_tiebreak_features,
     fit_tiebreak_logistic,
@@ -43,16 +44,6 @@ STABILITY = _WTA["stability"]
 BLEND_W = _ELO_CFG.get("blend_weight", 0.60)
 
 MARKETS = ["match_winner", "tiebreak", "set1_over_7_5", "set1_over_9_5"]
-
-
-def _parse_set1_games(score: str) -> int:
-    """Parse total games in set 1 from score string like '6-2 6-4' or '7-6(3) 6-3'."""
-    try:
-        set1 = str(score).split()[0]
-        parts = set1.replace("(", "-").replace(")", "").split("-")
-        return int(parts[0]) + int(parts[1])
-    except (IndexError, ValueError, AttributeError):
-        return -1
 
 
 def _log_loss(p: np.ndarray, y: np.ndarray) -> float:
@@ -185,7 +176,7 @@ def walk_forward(
         tb_hit_count = 0
         s1_games_all: List[int] = []
         for _, trow in train.iterrows():
-            s1g = _parse_set1_games(trow.get("score", ""))
+            s1g = parse_set1_games(trow.get("score", ""))
             if s1g <= 0:
                 continue
             is_tb = int(s1g >= 13)
@@ -217,7 +208,7 @@ def walk_forward(
         tb_X_train = []
         tb_y_train = []
         for _, trow in train.iterrows():
-            s1g = _parse_set1_games(trow.get("score", ""))
+            s1g = parse_set1_games(trow.get("score", ""))
             if s1g <= 0:
                 continue
             tw_id = int(trow["winner_id"])
@@ -301,7 +292,7 @@ def walk_forward(
             else:
                 p_blended = p_markov
 
-            set1_games = _parse_set1_games(row.get("score", ""))
+            set1_games = parse_set1_games(row.get("score", ""))
 
             # Tiebreak prediction
             p_tiebreak = np.nan
