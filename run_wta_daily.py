@@ -809,8 +809,10 @@ def main() -> int:
         }
 
         # Winner
+        predicted_winner = player_a if p_match_cal >= 0.50 else player_b
         rows_winner.append({
             **base,
+            "predicted_winner": predicted_winner,
             "p_raw": round(p_match_raw, 4),
             "p_cal": round(p_match_cal, 4),
             "Chances": f"{p_match_cal * 100:.1f}%",
