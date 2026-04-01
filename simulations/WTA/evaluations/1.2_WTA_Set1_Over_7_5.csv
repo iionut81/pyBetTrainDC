@@ -1,15 +1,13 @@
-run_date,match_date,tournament,level,surface,round,player_a,player_b,data_source,p_hold_a,p_hold_b,p_markov,p_elo,expected_games,p_raw,p_cal,Chances,fair_odds,recommended
-2026-03-17,2026-03-17T12:00-04:00,MIAMI,WTA 1000,Hard,10,Elvina Kalieva,Diane Parry,sackmann/sackmann,0.7838,0.7374,0.6315,0.5329,24.82,0.93,0.863,86.3%,1.1587,False
-2026-03-17,2026-03-17T23:59-04:00,MIAMI,WTA 1000,Hard,7,Shuai Zhang,Sorana Cirstea,sackmann/sackmann,0.6395,0.7253,0.315,0.4138,24.22,0.9212,0.8558,85.6%,1.1686,False
-2026-03-17,2026-03-17T12:00-04:00,MIAMI,WTA 1000,Hard,7,Simona Waltert,Ajla Tomljanovic,tennisabstract/sackmann,0.6181,0.7277,0.2684,0.2875,23.81,0.9138,0.85,85.0%,1.1764,False
-2026-03-17,2026-03-17T23:59-04:00,MIAMI,WTA 1000,Hard,7,Laura Siegemund,Petra Marcinko,sackmann/sackmann,0.6134,0.6666,0.3873,0.4587,24.19,0.9105,0.8475,84.8%,1.1799,False
-2026-03-17,2026-03-17T12:00-04:00,MIAMI,WTA 1000,Hard,7,Darja Vidmanova,Elsa Jacquemot,sackmann/sackmann,0.5978,0.6188,0.4577,0.1349,24.26,0.9015,0.841,84.1%,1.1891,False
-2026-03-17,2026-03-17T12:00-04:00,MIAMI,WTA 1000,Hard,10,Ella Seidel,Rebeka Masarova,sackmann/sackmann,0.6998,0.5843,0.7479,0.6804,23.5,0.8789,0.8258,82.6%,1.2109,False
-2026-03-17,2026-03-17T23:59-04:00,MIAMI,WTA 1000,Hard,10,Darja Semenistaja,Sinja Kraus,tennisabstract/sackmann,0.6865,0.5356,0.8023,0.5342,22.85,0.8564,0.8122,81.2%,1.2312,False
-2026-03-17,2026-03-17T19:00-04:00,MIAMI,WTA 1000,Hard,7,Zeynep Sonmez,Beatriz Haddad Maia,sackmann/sackmann,0.4696,0.7202,0.0827,0.3529,21.09,0.8387,0.8022,80.2%,1.2465,False
-2026-03-17,2026-03-17T12:00-04:00,MIAMI,WTA 1000,Hard,7,Magda Linette,Varvara Gracheva,sackmann/sackmann,0.7137,0.5134,0.8711,0.6874,21.92,0.8342,0.7998,80.0%,1.2504,False
-2026-03-17,2026-03-17T23:59-04:00,MIAMI,WTA 1000,Hard,10,Viktorija Golubic,Nikola Bartunkova,sackmann/sackmann,0.4785,0.7622,0.0549,0.2851,20.41,0.8228,0.7936,79.4%,1.26,False
-2026-03-17,2026-03-17T23:59-04:00,MIAMI,WTA 1000,Hard,7,Sofia Kenin,Anna Blinkova,sackmann/sackmann,0.7552,0.5319,0.9019,0.6528,21.43,0.8197,0.792,79.2%,1.2626,False
-2026-03-17,2026-03-17T13:00-04:00,MIAMI,WTA 1000,Hard,10,Mary Stoiana,Yuliia Starodubtseva,sackmann/sackmann,0.4721,0.7976,0.0309,0.0559,19.6,0.7985,0.7812,78.1%,1.2801,False
-2026-03-17,2026-03-17T20:00-04:00,MIAMI,WTA 1000,Hard,7,Katerina Siniakova,Camila Osorio,sackmann/sackmann,0.7518,0.482,0.9377,0.7189,20.47,0.7856,0.7748,77.5%,1.2906,False
-2026-03-17,2026-03-17T23:59-04:00,MIAMI,WTA 1000,Hard,7,Katie Boulter,Jessica Bouzas Maneiro,sackmann/sackmann,0.7395,0.4468,0.9502,0.6811,20.01,0.77,0.7673,76.7%,1.3032,False
+run_date,match_date,tournament,level,surface,round,player_a,player_b,data_source,p_hold_a,p_hold_b,p_markov,p_elo,expected_games,p_raw,p_cal,p_cal_adj,Chances,fair_odds,blowout_score,competitive_set,collapse_risk,elite_pick,recommended
+2026-04-01,2026-04-01T11:00-04:00,CHARLESTON,WTA 500,Clay,5,Yue Yuan,Elisabetta Cocciaretto,sackmann/sackmann,0.6057,0.7465,0.2111,0.3862,23.45,0.9099,0.8431,0.8131,84.3%,1.1862,8,False,False,False,False
+2026-04-01,2026-04-01T23:59-04:00,CHARLESTON,WTA 500,Clay,5,Leylah Fernandez,Polina Kudermetova,sackmann/tennisabstract,0.6582,0.6281,0.5729,0.6469,24.32,0.9061,0.8398,0.8098,84.0%,1.1907,5,True,False,False,False
+2026-04-01,2026-04-01T23:59-04:00,CHARLESTON,WTA 500,Clay,5,Jessica Pegula,Yulia Putintseva,sackmann/sackmann,0.7492,0.6593,0.7125,0.6531,24.03,0.9002,0.8349,0.8199,83.5%,1.1977,5,True,False,False,False
+2026-04-01,2026-04-01T12:30-04:00,CHARLESTON,WTA 500,Clay,5,Peyton Stearns,Ashlyn Krueger,sackmann/sackmann,0.6233,0.5703,0.6181,0.5743,24.07,0.8952,0.8309,0.8009,83.1%,1.2034,7,False,True,False,False
+2026-04-01,2026-04-01T23:59-05:00,BOGOTA,WTA 250,Clay,4,Katarzyna Kawa,Tatjana Maria,sackmann/sackmann,0.495,0.53,0.4256,0.4819,24.09,0.8919,0.8283,0.7983,82.8%,1.2073,8,False,True,False,False
+2026-04-01,2026-04-01T18:00-05:00,BOGOTA,WTA 250,Clay,4,Julia Riera,Anna Blinkova,sackmann/sackmann,0.4891,0.5991,0.277,0.4262,23.43,0.8803,0.8195,0.7895,81.9%,1.2203,10,False,True,False,False
+2026-04-01,2026-04-01T18:00-04:00,CHARLESTON,WTA 500,Clay,5,Yuliia Starodubtseva,Ekaterina Alexandrova,sackmann/sackmann,0.5393,0.7463,0.1215,0.415,22.03,0.8755,0.8159,0.7859,81.6%,1.2256,10,False,True,False,False
+2026-04-01,2026-04-01T23:59-04:00,CHARLESTON,WTA 500,Clay,5,Maria Sakkari,Paula Badosa,sackmann/sackmann,0.752,0.6136,0.7972,0.4865,23.17,0.8753,0.8157,0.7857,81.6%,1.2259,8,False,False,False,False
+2026-04-01,2026-04-01T23:59-04:00,CHARLESTON,WTA 500,Clay,5,Madison Keys,Donna Vekic,sackmann/sackmann,0.7675,0.6039,0.8379,0.5973,22.74,0.863,0.807,0.777,80.7%,1.2392,8,False,False,False,False
+2026-04-01,2026-04-01T23:59-04:00,CHARLESTON,WTA 500,Clay,5,Hailey Baptiste,Renata Zarazua,sackmann/sackmann,0.6809,0.5109,0.8286,0.5333,22.53,0.852,0.7994,0.7694,79.9%,1.2509,10,False,True,False,False
+2026-04-01,2026-04-01T13:00-04:00,CHARLESTON,WTA 500,Clay,5,Anna Bondar,Magdalena Frech,sackmann/sackmann,0.75,0.5503,0.8771,0.5449,21.94,0.8406,0.7918,0.7618,79.2%,1.2629,10,False,True,False,False
+2026-04-01,2026-04-01T11:00-04:00,CHARLESTON,WTA 500,Clay,5,Iva Jovic,Alycia Parks,tennisabstract/sackmann,0.7106,0.4871,0.8949,0.661,21.45,0.8169,0.7768,0.7468,77.7%,1.2874,10,False,True,False,False
