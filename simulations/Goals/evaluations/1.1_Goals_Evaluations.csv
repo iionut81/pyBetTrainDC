@@ -1,21 +1,321 @@
 run_date,match_date,league,home_team,away_team,market,lam_home,lam_away,lam_total,mismatch,p_raw,p_cal,fair_odds,offered_odds,implied_probability,edge,odds_source,mismatch_flag,high_total_flag,recommended
-2026-03-31,2026-03-31,SP2,valladolid,cadiz cf,btts,2.3272,1.3734,3.7006,0.9538,0.6656,0.572,1.7482,,,,missing,False,True,False
-2026-03-31,2026-03-31T19:30:00+00:00,SP2,valladolid,cadiz,btts,2.3272,1.3734,3.7006,0.9538,0.6656,0.572,1.7482,,,,missing,False,True,False
-2026-03-31,2026-03-31,SP2,dep. la coruna,cordoba,btts,2.1571,0.9777,3.1348,1.1794,0.542,0.5504,1.817,,,,missing,False,False,False
-2026-03-31,2026-03-31T18:00:00+00:00,SP2,deportivo la coruna,cordoba,btts,2.1571,0.9777,3.1348,1.1794,0.542,0.5504,1.817,,,,missing,False,False,False
-2026-03-31,2026-03-31,SP2,mirandes,albacete,btts,0.349,0.9023,1.2514,0.5533,0.1656,0.475,2.105,,,,missing,False,False,False
-2026-03-31,2026-03-31,SP2,valladolid,cadiz cf,over_2_5,2.3272,1.3734,3.7006,0.9538,0.7147,0.6143,1.6279,,,,missing,False,True,False
-2026-03-31,2026-03-31T19:30:00+00:00,SP2,valladolid,cadiz,over_2_5,2.3272,1.3734,3.7006,0.9538,0.7147,0.6143,1.6279,,,,missing,False,True,False
-2026-03-31,2026-03-31,SP2,dep. la coruna,cordoba,over_2_5,2.1571,0.9777,3.1348,1.1794,0.6063,0.5696,1.7557,,,,missing,False,False,False
-2026-03-31,2026-03-31T18:00:00+00:00,SP2,deportivo la coruna,cordoba,over_2_5,2.1571,0.9777,3.1348,1.1794,0.6063,0.5696,1.7557,,,,missing,False,False,False
-2026-03-31,2026-03-31,SP2,mirandes,albacete,over_2_5,0.349,0.9023,1.2514,0.5533,0.1318,0.3536,2.8279,,,,missing,False,False,False
-2026-03-31,2026-03-31,SP2,mirandes,albacete,under_3_5,0.349,0.9023,1.2514,0.5533,0.9616,0.8461,1.1819,,,,missing,False,False,True
-2026-03-31,2026-03-31,SP2,dep. la coruna,cordoba,under_3_5,2.1571,0.9777,3.1348,1.1794,0.6171,0.6496,1.5395,,,,missing,False,False,False
-2026-03-31,2026-03-31T18:00:00+00:00,SP2,deportivo la coruna,cordoba,under_3_5,2.1571,0.9777,3.1348,1.1794,0.6171,0.6496,1.5395,,,,missing,False,False,False
-2026-03-31,2026-03-31,SP2,valladolid,cadiz cf,under_3_5,2.3272,1.3734,3.7006,0.9538,0.494,0.5732,1.7447,,,,missing,False,True,False
-2026-03-31,2026-03-31T19:30:00+00:00,SP2,valladolid,cadiz,under_3_5,2.3272,1.3734,3.7006,0.9538,0.494,0.5732,1.7447,,,,missing,False,True,False
-2026-03-31,2026-03-31,SP2,mirandes,albacete,under_4_5,0.349,0.9023,1.2514,0.5533,0.9908,0.9435,1.0599,,,,missing,False,False,False
-2026-03-31,2026-03-31,SP2,dep. la coruna,cordoba,under_4_5,2.1571,0.9777,3.1348,1.1794,0.7921,0.8234,1.2145,,,,missing,False,False,True
-2026-03-31,2026-03-31T18:00:00+00:00,SP2,deportivo la coruna,cordoba,under_4_5,2.1571,0.9777,3.1348,1.1794,0.7921,0.8234,1.2145,,,,missing,False,False,True
-2026-03-31,2026-03-31,SP2,valladolid,cadiz cf,under_4_5,2.3272,1.3734,3.7006,0.9538,0.6871,0.7607,1.3146,,,,missing,False,True,False
-2026-03-31,2026-03-31T19:30:00+00:00,SP2,valladolid,cadiz,under_4_5,2.3272,1.3734,3.7006,0.9538,0.6871,0.7607,1.3146,,,,missing,False,True,False
+2026-04-04,2026-04-04,D1,stuttgart,dortmund,btts,1.9819,1.6797,3.6616,0.3022,0.7092,0.6352,1.5743,,,,missing,False,True,True
+2026-04-04,2026-04-04T16:30:00+00:00,D1,vfb stuttgart,borussia dortmund,btts,1.9819,1.6797,3.6616,0.3022,0.7092,0.6352,1.5743,,,,missing,False,True,True
+2026-04-04,2026-04-04,D1,freiburg,bayern munich,btts,1.1516,3.4886,4.6401,2.337,0.6665,0.6241,1.6023,,,,missing,True,True,True
+2026-04-04,2026-04-04T13:30:00+00:00,D1,sc freiburg,bayern münchen,btts,1.1516,3.4886,4.6401,2.337,0.6665,0.6241,1.6023,,,,missing,True,True,True
+2026-04-04,2026-04-04,D1,hoffenheim,mainz,btts,1.8428,1.352,3.1949,0.4908,0.6332,0.6159,1.6238,,,,missing,False,False,True
+2026-04-04,2026-04-04T13:30:00+00:00,D1,1899 hoffenheim,fsv mainz 05,btts,1.8428,1.352,3.1949,0.4908,0.6332,0.6159,1.6238,,,,missing,False,False,True
+2026-04-04,2026-04-04,D1,bayer leverkusen,wolfsburg,btts,2.9704,0.8214,3.7918,2.1491,0.5364,0.593,1.6863,,,,missing,True,True,False
+2026-04-04,2026-04-04T13:30:00+00:00,D1,bayer leverkusen,vfl wolfsburg,btts,2.9704,0.8214,3.7918,2.1491,0.5364,0.593,1.6863,,,,missing,True,True,False
+2026-04-04,2026-04-04,D1,werder bremen,rb leipzig,btts,0.9898,1.6517,2.6415,0.6618,0.5185,0.5888,1.6982,,,,missing,False,False,False
+2026-04-04,2026-04-04,D1,b. monchengladbach,heidenheim,btts,1.8967,0.9002,2.7969,0.9965,0.5139,0.5878,1.7013,,,,missing,False,False,False
+2026-04-04,2026-04-04T13:30:00+00:00,D1,borussia mönchengladbach,1. fc heidenheim,btts,1.8967,0.9002,2.7969,0.9965,0.5139,0.5878,1.7013,,,,missing,False,False,False
+2026-04-04,2026-04-04,D2,sg dynamo dresden,hertha berlin,btts,2.9281,1.4588,4.3869,1.4693,0.7371,0.5861,1.7061,,,,missing,True,True,False
+2026-04-04,2026-04-04T18:30:00+00:00,D2,dynamo dresden,hertha bsc,btts,2.9281,1.4588,4.3869,1.4693,0.7371,0.5861,1.7061,,,,missing,True,True,False
+2026-04-04,2026-04-04,SA1,al hilal,al taawon,btts,2.4314,0.7653,3.1966,1.6661,0.503,0.5781,1.7297,,,,missing,True,False,False
+2026-04-04,2026-04-04T18:00:00+00:00,SA1,al-hilal saudi fc,al taawon,btts,2.4314,0.7653,3.1966,1.6661,0.503,0.5781,1.7297,,,,missing,True,False,False
+2026-04-04,2026-04-04,D2,magdeburg,bochum,btts,1.7477,1.7096,3.4572,0.0381,0.6952,0.5776,1.7312,,,,missing,False,True,False
+2026-04-04,2026-04-04T11:00:00+00:00,D2,1. fc magdeburg,vfl bochum,btts,1.7477,1.7096,3.4572,0.0381,0.6952,0.5776,1.7312,,,,missing,False,True,False
+2026-04-04,2026-04-04,SW1,basel,young boys,btts,1.5475,1.8459,3.3934,0.2984,0.6821,0.5751,1.7388,,,,missing,False,True,False
+2026-04-04,2026-04-04T18:30:00+00:00,SW1,fc basel 1893,bsc young boys,btts,1.5475,1.8459,3.3934,0.2984,0.6821,0.5751,1.7388,,,,missing,False,True,False
+2026-04-04,2026-04-04,SP1,betis,espanyol,btts,2.6447,1.091,3.7357,1.5536,0.6242,0.5701,1.7541,,,,missing,True,True,False
+2026-04-04,2026-04-04T16:30:00+00:00,SP1,real betis,espanyol,btts,2.6447,1.091,3.7357,1.5536,0.6242,0.5701,1.7541,,,,missing,True,True,False
+2026-04-04,2026-04-04,N1,psv,utrecht,btts,1.4151,0.9143,2.3293,0.5008,0.4788,0.563,1.7762,,,,missing,False,False,False
+2026-04-04,2026-04-04T14:30:00+00:00,N1,psv eindhoven,utrecht,btts,1.4151,0.9143,2.3293,0.5008,0.4788,0.563,1.7762,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP2,cultural leonesa,valladolid,btts,1.3161,1.9311,3.2472,0.6149,0.6153,0.5629,1.7764,,,,missing,False,True,False
+2026-04-04,2026-04-04,N1,ajax,twente,btts,1.2668,1.1678,2.4346,0.099,0.5208,0.5605,1.7841,,,,missing,False,False,False
+2026-04-04,2026-04-04,SW1,lausanne,winterthur,btts,1.9458,1.1194,3.0653,0.8264,0.5976,0.5598,1.7862,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,SW1,lausanne,fc winterthur,btts,1.9458,1.1194,3.0653,0.8264,0.5976,0.5598,1.7862,,,,missing,False,False,False
+2026-04-04,2026-04-04,N1,telstar,groningen,btts,1.4669,1.0879,2.5547,0.379,0.5349,0.5597,1.7868,,,,missing,False,False,False
+2026-04-04,2026-04-04,SA1,neom sc,al fayha,btts,0.9518,1.1082,2.0599,0.1564,0.4381,0.5596,1.787,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:30:00+00:00,SA1,neom,al-fayha,btts,0.9518,1.1082,2.0599,0.1564,0.4381,0.5596,1.787,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP2,dep. la coruna,malaga,btts,1.8995,1.2399,3.1394,0.6596,0.5935,0.5591,1.7885,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:30:00+00:00,SP2,deportivo la coruna,malaga,btts,1.8995,1.2399,3.1394,0.6596,0.5935,0.5591,1.7885,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP2,cadiz cf,cordoba,btts,1.3654,1.6118,2.9772,0.2463,0.5843,0.5576,1.7936,,,,missing,False,False,False
+2026-04-04,2026-04-04T12:00:00+00:00,SP2,cadiz,cordoba,btts,1.3654,1.6118,2.9772,0.2463,0.5843,0.5576,1.7936,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP1,real sociedad,levante,btts,2.5012,0.9276,3.4288,1.5736,0.5629,0.5572,1.7946,,,,missing,True,True,False
+2026-04-04,2026-04-04,SW1,lugano,thun,btts,1.1179,1.6605,2.7784,0.5425,0.5682,0.5548,1.8025,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,SW1,fc lugano,fc thun,btts,1.1179,1.6605,2.7784,0.5425,0.5682,0.5548,1.8025,,,,missing,False,False,False
+2026-04-04,2026-04-04,D1,hamburger sv,augsburg,btts,1.1265,0.7594,1.8859,0.3672,0.3714,0.5537,1.8059,,,,missing,False,False,False
+2026-04-04,2026-04-04T13:30:00+00:00,D1,hamburger sv,fc augsburg,btts,1.1265,0.7594,1.8859,0.3672,0.3714,0.5537,1.8059,,,,missing,False,False,False
+2026-04-04,2026-04-04,N1,excelsior,nijmegen,btts,1.3445,1.9886,3.333,0.6441,0.6572,0.5521,1.8113,,,,missing,False,True,False
+2026-04-04,2026-04-04T19:00:00+00:00,N1,excelsior,nec nijmegen,btts,1.3445,1.9886,3.333,0.6441,0.6572,0.5521,1.8113,,,,missing,False,True,False
+2026-04-04,2026-04-04,F1,strasbourg,nice,btts,1.8612,0.7793,2.6405,1.0819,0.4452,0.5516,1.8129,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP1,mallorca,real madrid,btts,0.8368,2.3945,3.2314,1.5577,0.5236,0.5492,1.8209,,,,missing,True,True,False
+2026-04-04,2026-04-04,F1,lille,lens,btts,0.8129,2.0467,2.8596,1.2338,0.4736,0.5473,1.8272,,,,missing,True,False,False
+2026-04-04,2026-04-04,SA1,al ahli sc,damac,btts,2.6195,0.5292,3.1487,2.0903,0.3929,0.5463,1.8306,,,,missing,True,False,False
+2026-04-04,2026-04-04T16:15:00+00:00,SA1,al-ahli jeddah,damac,btts,2.6195,0.5292,3.1487,2.0903,0.3929,0.5463,1.8306,,,,missing,True,False,False
+2026-04-04,2026-04-04,N1,az alkmaar,sittard,btts,2.6275,1.6306,4.2581,0.997,0.7582,0.5448,1.8356,,,,missing,False,True,False
+2026-04-04,2026-04-04T16:45:00+00:00,N1,az alkmaar,fortuna sittard,btts,2.6275,1.6306,4.2581,0.997,0.7582,0.5448,1.8356,,,,missing,False,True,False
+2026-04-04,2026-04-04,D2,kaiserslautern,dusseldorf,btts,1.133,1.108,2.2409,0.025,0.4808,0.5401,1.8516,,,,missing,False,False,False
+2026-04-04,2026-04-04T11:00:00+00:00,D2,1. fc kaiserslautern,fortuna düsseldorf,btts,1.133,1.108,2.2409,0.025,0.4808,0.5401,1.8516,,,,missing,False,False,False
+2026-04-04,2026-04-04,D2,arminia bielefeld,darmstadt,btts,0.9597,1.2741,2.2338,0.3143,0.4706,0.5384,1.8575,,,,missing,False,False,False
+2026-04-04,2026-04-04T11:00:00+00:00,D2,arminia bielefeld,sv darmstadt 98,btts,0.9597,1.2741,2.2338,0.3143,0.4706,0.5384,1.8575,,,,missing,False,False,False
+2026-04-04,2026-04-04,F1,brest,rennes,btts,1.4856,1.3759,2.8615,0.1096,0.5648,0.5334,1.8747,,,,missing,False,False,False
+2026-04-04,2026-04-04T17:00:00+00:00,F1,stade brestois 29,rennes,btts,1.4856,1.3759,2.8615,0.1096,0.5648,0.5334,1.8747,,,,missing,False,False,False
+2026-04-04,2026-04-04,DK1,midtjylland,sonderjyske,btts,1.6009,0.7417,2.3426,0.8592,0.4256,0.5307,1.8844,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,DK1,fc midtjylland,sonderjyske,btts,1.6009,0.7417,2.3426,0.8592,0.4256,0.5307,1.8844,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP1,atl. madrid,barcelona,btts,0.8442,1.2717,2.1159,0.4276,0.4239,0.5287,1.8914,,,,missing,False,False,False
+2026-04-04,2026-04-04T19:00:00+00:00,SP1,atletico madrid,barcelona,btts,0.8442,1.2717,2.1159,0.4276,0.4239,0.5287,1.8914,,,,missing,False,False,False
+2026-04-04,2026-04-04,RS1,imt novi beograd,vojvodina,btts,0.6848,1.4829,2.1677,0.7981,0.395,0.524,1.9085,,,,missing,False,False,False
+2026-04-04,2026-04-04,RS1,radnicki 1923,mladost,btts,1.9213,0.5493,2.4706,1.372,0.3698,0.5199,1.9235,,,,missing,True,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,RS1,radnicki 1923,mladost lucani,btts,1.9213,0.5493,2.4706,1.372,0.3698,0.5199,1.9235,,,,missing,True,False,False
+2026-04-04,2026-04-04,RS1,sp. subotica,javor,btts,1.0278,0.7607,1.7885,0.267,0.3553,0.5175,1.9325,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,RS1,fk spartak zdrepceva krv,javor,btts,1.0278,0.7607,1.7885,0.267,0.3553,0.5175,1.9325,,,,missing,False,False,False
+2026-04-04,2026-04-04,P1,nacional,estrela,btts,1.9167,1.0746,2.9912,0.8421,0.5762,0.5151,1.9414,,,,missing,False,False,False
+2026-04-04,2026-04-04,P1,moreirense,braga,btts,1.0034,2.1469,3.1503,1.1435,0.5723,0.515,1.9419,,,,missing,False,False,False
+2026-04-04,2026-04-04T17:00:00+00:00,P1,moreirense,sc braga,btts,1.0034,2.1469,3.1503,1.1435,0.5723,0.515,1.9419,,,,missing,False,False,False
+2026-04-04,2026-04-04,RS1,zeleznicar pancevo,novi pazar,btts,1.4313,0.5404,1.9717,0.8909,0.3286,0.5129,1.9496,,,,missing,False,False,False
+2026-04-04,2026-04-04T14:00:00+00:00,RS1,železničar pančevo,novi pazar,btts,1.4313,0.5404,1.9717,0.8909,0.3286,0.5129,1.9496,,,,missing,False,False,False
+2026-04-04,2026-04-04,P1,rio ave,alverca,btts,0.9096,0.9194,1.829,0.0098,0.378,0.509,1.9648,,,,missing,False,False,False
+2026-04-04,2026-04-04,RO1,otelul,fc hermannstadt,btts,1.6151,1.3542,2.9692,0.2609,0.5718,0.5089,1.9652,,,,missing,False,False,False
+2026-04-04,2026-04-04T12:00:00+00:00,RO1,oţelul,afc hermannstadt,btts,1.6151,1.3542,2.9692,0.2609,0.5718,0.5089,1.9652,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,I1,hellas verona,fiorentina,btts,0.678,2.2914,2.9694,1.6134,0.431,0.5076,1.9699,1.95,0.5128,-0.0052,market,True,False,False
+2026-04-04,2026-04-04,I1,verona,fiorentina,btts,0.678,2.2914,2.9694,1.6134,0.431,0.5076,1.9699,,,,missing,True,False,False
+2026-04-04,2026-04-04,I1,sassuolo,cagliari,btts,1.3462,0.8977,2.2439,0.4485,0.4197,0.5062,1.9755,1.95,0.5128,-0.0066,market,False,False,False
+2026-04-04,2026-04-04,P1,fc porto,famalicao,btts,1.5966,0.3386,1.9352,1.258,0.24,0.504,1.9843,,,,missing,True,False,False
+2026-04-04,2026-04-04,RO1,fc arges,dinamo bucuresti,btts,0.963,0.709,1.672,0.254,0.2883,0.5036,1.9856,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:30:00+00:00,RO1,arges pitesti,dinamo bucuresti,btts,0.963,0.709,1.672,0.254,0.2883,0.5036,1.9856,,,,missing,False,False,False
+2026-04-04,2026-04-04,I1,lazio,parma,btts,0.9664,0.5863,1.5527,0.3801,0.2574,0.483,2.0702,2.05,0.4878,-0.0048,market,False,False,False
+2026-04-04,2026-04-04,SP2,albacete,burgos cf,btts,0.5351,0.3613,0.8964,0.1738,0.1174,0.4582,2.1826,,,,missing,False,False,False
+2026-04-04,2026-04-04T14:15:00+00:00,SP2,albacete,burgos,btts,0.5351,0.3613,0.8964,0.1738,0.1174,0.4582,2.1826,,,,missing,False,False,False
+2026-04-04,2026-04-04,D1,freiburg,bayern munich,over_2_5,1.1516,3.4886,4.6401,2.337,0.8414,0.7012,1.4262,,,,missing,True,True,True
+2026-04-04,2026-04-04T13:30:00+00:00,D1,sc freiburg,bayern münchen,over_2_5,1.1516,3.4886,4.6401,2.337,0.8414,0.7012,1.4262,,,,missing,True,True,True
+2026-04-04,2026-04-04,D2,sg dynamo dresden,hertha berlin,over_2_5,2.9281,1.4588,4.3869,1.4693,0.8133,0.6629,1.5085,,,,missing,True,True,True
+2026-04-04,2026-04-04T18:30:00+00:00,D2,dynamo dresden,hertha bsc,over_2_5,2.9281,1.4588,4.3869,1.4693,0.8133,0.6629,1.5085,,,,missing,True,True,True
+2026-04-04,2026-04-04,N1,az alkmaar,sittard,over_2_5,2.6275,1.6306,4.2581,0.997,0.7973,0.6581,1.5196,,,,missing,False,True,True
+2026-04-04,2026-04-04T16:45:00+00:00,N1,az alkmaar,fortuna sittard,over_2_5,2.6275,1.6306,4.2581,0.997,0.7973,0.6581,1.5196,,,,missing,False,True,True
+2026-04-04,2026-04-04,D1,bayer leverkusen,wolfsburg,over_2_5,2.9704,0.8214,3.7918,2.1491,0.7297,0.6566,1.5229,,,,missing,True,True,True
+2026-04-04,2026-04-04T13:30:00+00:00,D1,bayer leverkusen,vfl wolfsburg,over_2_5,2.9704,0.8214,3.7918,2.1491,0.7297,0.6566,1.5229,,,,missing,True,True,True
+2026-04-04,2026-04-04,D1,stuttgart,dortmund,over_2_5,1.9819,1.6797,3.6616,0.3022,0.708,0.6493,1.5402,,,,missing,False,True,True
+2026-04-04,2026-04-04T16:30:00+00:00,D1,vfb stuttgart,borussia dortmund,over_2_5,1.9819,1.6797,3.6616,0.3022,0.708,0.6493,1.5402,,,,missing,False,True,True
+2026-04-04,2026-04-04,SP1,betis,espanyol,over_2_5,2.6447,1.091,3.7357,1.5536,0.7205,0.6221,1.6075,,,,missing,True,True,False
+2026-04-04,2026-04-04T16:30:00+00:00,SP1,real betis,espanyol,over_2_5,2.6447,1.091,3.7357,1.5536,0.7205,0.6221,1.6075,,,,missing,True,True,False
+2026-04-04,2026-04-04,D1,hoffenheim,mainz,over_2_5,1.8428,1.352,3.1949,0.4908,0.619,0.6212,1.6098,,,,missing,False,False,False
+2026-04-04,2026-04-04T13:30:00+00:00,D1,1899 hoffenheim,fsv mainz 05,over_2_5,1.8428,1.352,3.1949,0.4908,0.619,0.6212,1.6098,,,,missing,False,False,False
+2026-04-04,2026-04-04,N1,excelsior,nijmegen,over_2_5,1.3445,1.9886,3.333,0.6441,0.6472,0.6123,1.6332,,,,missing,False,True,False
+2026-04-04,2026-04-04T19:00:00+00:00,N1,excelsior,nec nijmegen,over_2_5,1.3445,1.9886,3.333,0.6441,0.6472,0.6123,1.6332,,,,missing,False,True,False
+2026-04-04,2026-04-04,SA1,al hilal,al taawon,over_2_5,2.4314,0.7653,3.1966,1.6661,0.6194,0.6006,1.6651,,,,missing,True,False,False
+2026-04-04,2026-04-04T18:00:00+00:00,SA1,al-hilal saudi fc,al taawon,over_2_5,2.4314,0.7653,3.1966,1.6661,0.6194,0.6006,1.6651,,,,missing,True,False,False
+2026-04-04,2026-04-04,SA1,al ahli sc,damac,over_2_5,2.6195,0.5292,3.1487,2.0903,0.6092,0.5968,1.6755,,,,missing,True,False,False
+2026-04-04,2026-04-04T16:15:00+00:00,SA1,al-ahli jeddah,damac,over_2_5,2.6195,0.5292,3.1487,2.0903,0.6092,0.5968,1.6755,,,,missing,True,False,False
+2026-04-04,2026-04-04,D2,magdeburg,bochum,over_2_5,1.7477,1.7096,3.4572,0.0381,0.6712,0.5957,1.6788,,,,missing,False,True,False
+2026-04-04,2026-04-04T11:00:00+00:00,D2,1. fc magdeburg,vfl bochum,over_2_5,1.7477,1.7096,3.4572,0.0381,0.6712,0.5957,1.6788,,,,missing,False,True,False
+2026-04-04,2026-04-04,D1,b. monchengladbach,heidenheim,over_2_5,1.8967,0.9002,2.7969,0.9965,0.5298,0.5948,1.6813,,,,missing,False,False,False
+2026-04-04,2026-04-04T13:30:00+00:00,D1,borussia mönchengladbach,1. fc heidenheim,over_2_5,1.8967,0.9002,2.7969,0.9965,0.5298,0.5948,1.6813,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP1,real sociedad,levante,over_2_5,2.5012,0.9276,3.4288,1.5736,0.6658,0.5913,1.6911,,,,missing,True,True,False
+2026-04-04,2026-04-04,SW1,basel,young boys,over_2_5,1.5475,1.8459,3.3934,0.2984,0.659,0.5906,1.6931,,,,missing,False,True,False
+2026-04-04,2026-04-04T18:30:00+00:00,SW1,fc basel 1893,bsc young boys,over_2_5,1.5475,1.8459,3.3934,0.2984,0.659,0.5906,1.6931,,,,missing,False,True,False
+2026-04-04,2026-04-04,P1,moreirense,braga,over_2_5,1.0034,2.1469,3.1503,1.1435,0.6096,0.5893,1.697,,,,missing,False,False,False
+2026-04-04,2026-04-04T17:00:00+00:00,P1,moreirense,sc braga,over_2_5,1.0034,2.1469,3.1503,1.1435,0.6096,0.5893,1.697,,,,missing,False,False,False
+2026-04-04,2026-04-04,D1,werder bremen,rb leipzig,over_2_5,0.9898,1.6517,2.6415,0.6618,0.4919,0.5837,1.7133,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP2,cultural leonesa,valladolid,over_2_5,1.3161,1.9311,3.2472,0.6149,0.6299,0.5789,1.7275,,,,missing,False,True,False
+2026-04-04,2026-04-04,P1,nacional,estrela,over_2_5,1.9167,1.0746,2.9912,0.8421,0.5748,0.5759,1.7363,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP1,mallorca,real madrid,over_2_5,0.8368,2.3945,3.2314,1.5577,0.6266,0.5705,1.7529,,,,missing,True,True,False
+2026-04-04,2026-04-04,SP2,dep. la coruna,malaga,over_2_5,1.8995,1.2399,3.1394,0.6596,0.6073,0.5699,1.7545,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:30:00+00:00,SP2,deportivo la coruna,malaga,over_2_5,1.8995,1.2399,3.1394,0.6596,0.6073,0.5699,1.7545,,,,missing,False,False,False
+2026-04-04,2026-04-04,N1,telstar,groningen,over_2_5,1.4669,1.0879,2.5547,0.379,0.4702,0.5668,1.7644,,,,missing,False,False,False
+2026-04-04,2026-04-04,SW1,lausanne,winterthur,over_2_5,1.9458,1.1194,3.0653,0.8264,0.5913,0.5637,1.774,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,SW1,lausanne,fc winterthur,over_2_5,1.9458,1.1194,3.0653,0.8264,0.5913,0.5637,1.774,,,,missing,False,False,False
+2026-04-04,2026-04-04,N1,ajax,twente,over_2_5,1.2668,1.1678,2.4346,0.099,0.4393,0.5588,1.7895,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP2,cadiz cf,cordoba,over_2_5,1.3654,1.6118,2.9772,0.2463,0.5717,0.5561,1.7981,,,,missing,False,False,False
+2026-04-04,2026-04-04T12:00:00+00:00,SP2,cadiz,cordoba,over_2_5,1.3654,1.6118,2.9772,0.2463,0.5717,0.5561,1.7981,,,,missing,False,False,False
+2026-04-04,2026-04-04,N1,psv,utrecht,over_2_5,1.4151,0.9143,2.3293,0.5008,0.4117,0.5516,1.8129,,,,missing,False,False,False
+2026-04-04,2026-04-04T14:30:00+00:00,N1,psv eindhoven,utrecht,over_2_5,1.4151,0.9143,2.3293,0.5008,0.4117,0.5516,1.8129,,,,missing,False,False,False
+2026-04-04,2026-04-04,F1,brest,rennes,over_2_5,1.4856,1.3759,2.8615,0.1096,0.5451,0.5422,1.8442,,,,missing,False,False,False
+2026-04-04,2026-04-04T17:00:00+00:00,F1,stade brestois 29,rennes,over_2_5,1.4856,1.3759,2.8615,0.1096,0.5451,0.5422,1.8442,,,,missing,False,False,False
+2026-04-04,2026-04-04,F1,lille,lens,over_2_5,0.8129,2.0467,2.8596,1.2338,0.5446,0.542,1.8449,,,,missing,True,False,False
+2026-04-04,2026-04-04,SW1,lugano,thun,over_2_5,1.1179,1.6605,2.7784,0.5425,0.5254,0.5385,1.8571,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,SW1,fc lugano,fc thun,over_2_5,1.1179,1.6605,2.7784,0.5425,0.5254,0.5385,1.8571,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,I1,hellas verona,fiorentina,over_2_5,0.678,2.2914,2.9694,1.6134,0.5699,0.5251,1.9044,6.0,0.1667,0.3584,market,True,False,False
+2026-04-04,2026-04-04,I1,verona,fiorentina,over_2_5,0.678,2.2914,2.9694,1.6134,0.5699,0.5251,1.9044,,,,missing,True,False,False
+2026-04-04,2026-04-04,RS1,radnicki 1923,mladost,over_2_5,1.9213,0.5493,2.4706,1.372,0.4486,0.5236,1.91,,,,missing,True,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,RS1,radnicki 1923,mladost lucani,over_2_5,1.9213,0.5493,2.4706,1.372,0.4486,0.5236,1.91,,,,missing,True,False,False
+2026-04-04,2026-04-04,F1,strasbourg,nice,over_2_5,1.8612,0.7793,2.6405,1.0819,0.4917,0.5214,1.918,,,,missing,False,False,False
+2026-04-04,2026-04-04,D1,hamburger sv,augsburg,over_2_5,1.1265,0.7594,1.8859,0.3672,0.2925,0.52,1.9229,,,,missing,False,False,False
+2026-04-04,2026-04-04T13:30:00+00:00,D1,hamburger sv,fc augsburg,over_2_5,1.1265,0.7594,1.8859,0.3672,0.2925,0.52,1.9229,,,,missing,False,False,False
+2026-04-04,2026-04-04,SA1,neom sc,al fayha,over_2_5,0.9518,1.1082,2.0599,0.1564,0.3395,0.4971,2.0115,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:30:00+00:00,SA1,neom,al-fayha,over_2_5,0.9518,1.1082,2.0599,0.1564,0.3395,0.4971,2.0115,,,,missing,False,False,False
+2026-04-04,2026-04-04,DK1,midtjylland,sonderjyske,over_2_5,1.6009,0.7417,2.3426,0.8592,0.4152,0.4962,2.0152,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,DK1,fc midtjylland,sonderjyske,over_2_5,1.6009,0.7417,2.3426,0.8592,0.4152,0.4962,2.0152,,,,missing,False,False,False
+2026-04-04,2026-04-04,D2,kaiserslautern,dusseldorf,over_2_5,1.133,1.108,2.2409,0.025,0.3882,0.4855,2.0596,,,,missing,False,False,False
+2026-04-04,2026-04-04T11:00:00+00:00,D2,1. fc kaiserslautern,fortuna düsseldorf,over_2_5,1.133,1.108,2.2409,0.025,0.3882,0.4855,2.0596,,,,missing,False,False,False
+2026-04-04,2026-04-04,D2,arminia bielefeld,darmstadt,over_2_5,0.9597,1.2741,2.2338,0.3143,0.3863,0.4848,2.0629,,,,missing,False,False,False
+2026-04-04,2026-04-04T11:00:00+00:00,D2,arminia bielefeld,sv darmstadt 98,over_2_5,0.9597,1.2741,2.2338,0.3143,0.3863,0.4848,2.0629,,,,missing,False,False,False
+2026-04-04,2026-04-04,RS1,imt novi beograd,vojvodina,over_2_5,0.6848,1.4829,2.1677,0.7981,0.3686,0.4772,2.0957,,,,missing,False,False,False
+2026-04-04,2026-04-04,P1,fc porto,famalicao,over_2_5,1.5966,0.3386,1.9352,1.258,0.3058,0.4696,2.1295,,,,missing,True,False,False
+2026-04-04,2026-04-04,I1,sassuolo,cagliari,over_2_5,1.3462,0.8977,2.2439,0.4485,0.389,0.4649,2.1511,5.0,0.2,0.2649,market,False,False,False
+2026-04-04,2026-04-04,P1,rio ave,alverca,over_2_5,0.9096,0.9194,1.829,0.0098,0.2771,0.4564,2.1909,,,,missing,False,False,False
+2026-04-04,2026-04-04,RO1,otelul,fc hermannstadt,over_2_5,1.6151,1.3542,2.9692,0.2609,0.5699,0.4471,2.2367,,,,missing,False,False,False
+2026-04-04,2026-04-04T12:00:00+00:00,RO1,oţelul,afc hermannstadt,over_2_5,1.6151,1.3542,2.9692,0.2609,0.5699,0.4471,2.2367,,,,missing,False,False,False
+2026-04-04,2026-04-04,RS1,zeleznicar pancevo,novi pazar,over_2_5,1.4313,0.5404,1.9717,0.8909,0.3157,0.4444,2.2502,,,,missing,False,False,False
+2026-04-04,2026-04-04T14:00:00+00:00,RS1,železničar pančevo,novi pazar,over_2_5,1.4313,0.5404,1.9717,0.8909,0.3157,0.4444,2.2502,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP1,atl. madrid,barcelona,over_2_5,0.8442,1.2717,2.1159,0.4276,0.3547,0.4319,2.3156,,,,missing,False,False,False
+2026-04-04,2026-04-04T19:00:00+00:00,SP1,atletico madrid,barcelona,over_2_5,0.8442,1.2717,2.1159,0.4276,0.3547,0.4319,2.3156,,,,missing,False,False,False
+2026-04-04,2026-04-04,RO1,fc arges,dinamo bucuresti,over_2_5,0.963,0.709,1.672,0.254,0.2354,0.4315,2.3176,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:30:00+00:00,RO1,arges pitesti,dinamo bucuresti,over_2_5,0.963,0.709,1.672,0.254,0.2354,0.4315,2.3176,,,,missing,False,False,False
+2026-04-04,2026-04-04,RS1,sp. subotica,javor,over_2_5,1.0278,0.7607,1.7885,0.267,0.2663,0.4116,2.4296,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,RS1,fk spartak zdrepceva krv,javor,over_2_5,1.0278,0.7607,1.7885,0.267,0.2663,0.4116,2.4296,,,,missing,False,False,False
+2026-04-04,2026-04-04,I1,lazio,parma,over_2_5,0.9664,0.5863,1.5527,0.3801,0.2045,0.3919,2.5514,6.0,0.1667,0.2253,market,False,False,False
+2026-04-04,2026-04-04,SP2,albacete,burgos cf,over_2_5,0.5351,0.3613,0.8964,0.1738,0.0623,0.2853,3.5056,,,,missing,False,False,False
+2026-04-04,2026-04-04T14:15:00+00:00,SP2,albacete,burgos,over_2_5,0.5351,0.3613,0.8964,0.1738,0.0623,0.2853,3.5056,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP2,albacete,burgos cf,under_3_5,0.5351,0.3613,0.8964,0.1738,0.9867,0.8943,1.1182,,,,missing,False,False,False
+2026-04-04,2026-04-04T14:15:00+00:00,SP2,albacete,burgos,under_3_5,0.5351,0.3613,0.8964,0.1738,0.9867,0.8943,1.1182,,,,missing,False,False,False
+2026-04-04,2026-04-04,I1,lazio,parma,under_3_5,0.9664,0.5863,1.5527,0.3801,0.9276,0.8144,1.2278,1.2,0.8333,-0.0189,market,False,False,False
+2026-04-04,2026-04-04,SP1,atl. madrid,barcelona,under_3_5,0.8442,1.2717,2.1159,0.4276,0.8356,0.7991,1.2515,,,,missing,False,False,True
+2026-04-04,2026-04-04T19:00:00+00:00,SP1,atletico madrid,barcelona,under_3_5,0.8442,1.2717,2.1159,0.4276,0.8356,0.7991,1.2515,,,,missing,False,False,True
+2026-04-04,2026-04-04,RS1,sp. subotica,javor,under_3_5,1.0278,0.7607,1.7885,0.267,0.8931,0.7986,1.2522,,,,missing,False,False,True
+2026-04-04,2026-04-04T16:00:00+00:00,RS1,fk spartak zdrepceva krv,javor,under_3_5,1.0278,0.7607,1.7885,0.267,0.8931,0.7986,1.2522,,,,missing,False,False,True
+2026-04-04,2026-04-04,RS1,zeleznicar pancevo,novi pazar,under_3_5,1.4313,0.5404,1.9717,0.8909,0.8622,0.7726,1.2943,,,,missing,False,False,True
+2026-04-04,2026-04-04T14:00:00+00:00,RS1,železničar pančevo,novi pazar,under_3_5,1.4313,0.5404,1.9717,0.8909,0.8622,0.7726,1.2943,,,,missing,False,False,True
+2026-04-04,2026-04-04,RO1,otelul,fc hermannstadt,under_3_5,1.6151,1.3542,2.9692,0.2609,0.6541,0.7652,1.3068,,,,missing,False,False,True
+2026-04-04,2026-04-04T12:00:00+00:00,RO1,oţelul,afc hermannstadt,under_3_5,1.6151,1.3542,2.9692,0.2609,0.6541,0.7652,1.3068,,,,missing,False,False,True
+2026-04-04,2026-04-04,I1,sassuolo,cagliari,under_3_5,1.3462,0.8977,2.2439,0.4485,0.8107,0.7577,1.3197,1.03,0.9709,-0.2131,market,False,False,False
+2026-04-04,2026-04-04,RS1,imt novi beograd,vojvodina,under_3_5,0.6848,1.4829,2.1677,0.7981,0.8257,0.7454,1.3415,,,,missing,False,False,True
+2026-04-04,2026-04-04,SA1,neom sc,al fayha,under_3_5,0.9518,1.1082,2.0599,0.1564,0.8461,0.7391,1.353,,,,missing,False,False,True
+2026-04-04,2026-04-04T16:30:00+00:00,SA1,neom,al-fayha,under_3_5,0.9518,1.1082,2.0599,0.1564,0.8461,0.7391,1.353,,,,missing,False,False,True
+2026-04-04,2026-04-04,P1,rio ave,alverca,under_3_5,0.9096,0.9194,1.829,0.0098,0.8866,0.7362,1.3584,,,,missing,False,False,True
+2026-04-04,2026-04-04,D2,arminia bielefeld,darmstadt,under_3_5,0.9597,1.2741,2.2338,0.3143,0.8127,0.733,1.3643,,,,missing,False,False,True
+2026-04-04,2026-04-04T11:00:00+00:00,D2,arminia bielefeld,sv darmstadt 98,under_3_5,0.9597,1.2741,2.2338,0.3143,0.8127,0.733,1.3643,,,,missing,False,False,True
+2026-04-04,2026-04-04,D2,kaiserslautern,dusseldorf,under_3_5,1.133,1.108,2.2409,0.025,0.8112,0.7322,1.3657,,,,missing,False,False,True
+2026-04-04,2026-04-04T11:00:00+00:00,D2,1. fc kaiserslautern,fortuna düsseldorf,under_3_5,1.133,1.108,2.2409,0.025,0.8112,0.7322,1.3657,,,,missing,False,False,True
+2026-04-04,2026-04-04,RO1,fc arges,dinamo bucuresti,under_3_5,0.963,0.709,1.672,0.254,0.911,0.7268,1.3759,,,,missing,False,False,True
+2026-04-04,2026-04-04T16:30:00+00:00,RO1,arges pitesti,dinamo bucuresti,under_3_5,0.963,0.709,1.672,0.254,0.911,0.7268,1.3759,,,,missing,False,False,True
+2026-04-04,2026-04-04,DK1,midtjylland,sonderjyske,under_3_5,1.6009,0.7417,2.3426,0.8592,0.7906,0.7221,1.3849,,,,missing,False,False,True
+2026-04-04,2026-04-04T16:00:00+00:00,DK1,fc midtjylland,sonderjyske,under_3_5,1.6009,0.7417,2.3426,0.8592,0.7906,0.7221,1.3849,,,,missing,False,False,True
+2026-04-04,2026-04-04,D1,hamburger sv,augsburg,under_3_5,1.1265,0.7594,1.8859,0.3672,0.8771,0.7061,1.4163,,,,missing,False,False,True
+2026-04-04,2026-04-04T13:30:00+00:00,D1,hamburger sv,fc augsburg,under_3_5,1.1265,0.7594,1.8859,0.3672,0.8771,0.7061,1.4163,,,,missing,False,False,True
+2026-04-04,2026-04-04,F1,strasbourg,nice,under_3_5,1.8612,0.7793,2.6405,1.0819,0.7272,0.6944,1.4401,,,,missing,False,False,False
+2026-04-04,2026-04-04,P1,fc porto,famalicao,under_3_5,1.5966,0.3386,1.9352,1.258,0.8686,0.6889,1.4517,,,,missing,True,False,False
+2026-04-04,2026-04-04,SW1,lugano,thun,under_3_5,1.1179,1.6605,2.7784,0.5425,0.6967,0.6809,1.4687,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,SW1,fc lugano,fc thun,under_3_5,1.1179,1.6605,2.7784,0.5425,0.6967,0.6809,1.4687,,,,missing,False,False,False
+2026-04-04,2026-04-04,F1,brest,rennes,under_3_5,1.4856,1.3759,2.8615,0.1096,0.6782,0.6757,1.48,,,,missing,False,False,False
+2026-04-04,2026-04-04T17:00:00+00:00,F1,stade brestois 29,rennes,under_3_5,1.4856,1.3759,2.8615,0.1096,0.6782,0.6757,1.48,,,,missing,False,False,False
+2026-04-04,2026-04-04,N1,psv,utrecht,under_3_5,1.4151,0.9143,2.3293,0.5008,0.7934,0.6738,1.4842,,,,missing,False,False,False
+2026-04-04,2026-04-04T14:30:00+00:00,N1,psv eindhoven,utrecht,under_3_5,1.4151,0.9143,2.3293,0.5008,0.7934,0.6738,1.4842,,,,missing,False,False,False
+2026-04-04,2026-04-04,P1,nacional,estrela,under_3_5,1.9167,1.0746,2.9912,0.8421,0.6492,0.6695,1.4937,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,I1,hellas verona,fiorentina,under_3_5,0.678,2.2914,2.9694,1.6134,0.6541,0.6684,1.4961,1.2,0.8333,-0.1649,market,True,False,False
+2026-04-04,2026-04-04,I1,verona,fiorentina,under_3_5,0.678,2.2914,2.9694,1.6134,0.6541,0.6684,1.4961,,,,missing,True,False,False
+2026-04-04,2026-04-04,RS1,radnicki 1923,mladost,under_3_5,1.9213,0.5493,2.4706,1.372,0.7638,0.6649,1.5039,,,,missing,True,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,RS1,radnicki 1923,mladost lucani,under_3_5,1.9213,0.5493,2.4706,1.372,0.7638,0.6649,1.5039,,,,missing,True,False,False
+2026-04-04,2026-04-04,N1,ajax,twente,under_3_5,1.2668,1.1678,2.4346,0.099,0.7715,0.6635,1.5072,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP2,cadiz cf,cordoba,under_3_5,1.3654,1.6118,2.9772,0.2463,0.6523,0.6632,1.5079,,,,missing,False,False,False
+2026-04-04,2026-04-04T12:00:00+00:00,SP2,cadiz,cordoba,under_3_5,1.3654,1.6118,2.9772,0.2463,0.6523,0.6632,1.5079,,,,missing,False,False,False
+2026-04-04,2026-04-04,P1,moreirense,braga,under_3_5,1.0034,2.1469,3.1503,1.1435,0.6136,0.6619,1.5107,,,,missing,False,False,False
+2026-04-04,2026-04-04T17:00:00+00:00,P1,moreirense,sc braga,under_3_5,1.0034,2.1469,3.1503,1.1435,0.6136,0.6619,1.5107,,,,missing,False,False,False
+2026-04-04,2026-04-04,SW1,lausanne,winterthur,under_3_5,1.9458,1.1194,3.0653,0.8264,0.6326,0.6555,1.5255,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:00:00+00:00,SW1,lausanne,fc winterthur,under_3_5,1.9458,1.1194,3.0653,0.8264,0.6326,0.6555,1.5255,,,,missing,False,False,False
+2026-04-04,2026-04-04,N1,telstar,groningen,under_3_5,1.4669,1.0879,2.5547,0.379,0.7458,0.6521,1.5335,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP2,dep. la coruna,malaga,under_3_5,1.8995,1.2399,3.1394,0.6596,0.616,0.6492,1.5404,,,,missing,False,False,False
+2026-04-04,2026-04-04T16:30:00+00:00,SP2,deportivo la coruna,malaga,under_3_5,1.8995,1.2399,3.1394,0.6596,0.616,0.6492,1.5404,,,,missing,False,False,False
+2026-04-04,2026-04-04,F1,lille,lens,under_3_5,0.8129,2.0467,2.8596,1.2338,0.6787,0.6358,1.5727,,,,missing,True,False,False
+2026-04-04,2026-04-04,D1,werder bremen,rb leipzig,under_3_5,0.9898,1.6517,2.6415,0.6618,0.727,0.6287,1.5906,,,,missing,False,False,False
+2026-04-04,2026-04-04,D1,b. monchengladbach,heidenheim,under_3_5,1.8967,0.9002,2.7969,0.9965,0.6926,0.6148,1.6267,,,,missing,False,False,False
+2026-04-04,2026-04-04T13:30:00+00:00,D1,borussia mönchengladbach,1. fc heidenheim,under_3_5,1.8967,0.9002,2.7969,0.9965,0.6926,0.6148,1.6267,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP2,cultural leonesa,valladolid,under_3_5,1.3161,1.9311,3.2472,0.6149,0.592,0.6101,1.6392,,,,missing,False,True,False
+2026-04-04,2026-04-04,SW1,basel,young boys,under_3_5,1.5475,1.8459,3.3934,0.2984,0.5598,0.5979,1.6724,,,,missing,False,True,False
+2026-04-04,2026-04-04T18:30:00+00:00,SW1,fc basel 1893,bsc young boys,under_3_5,1.5475,1.8459,3.3934,0.2984,0.5598,0.5979,1.6724,,,,missing,False,True,False
+2026-04-04,2026-04-04,D2,magdeburg,bochum,under_3_5,1.7477,1.7096,3.4572,0.0381,0.5459,0.5927,1.6872,,,,missing,False,True,False
+2026-04-04,2026-04-04T11:00:00+00:00,D2,1. fc magdeburg,vfl bochum,under_3_5,1.7477,1.7096,3.4572,0.0381,0.5459,0.5927,1.6872,,,,missing,False,True,False
+2026-04-04,2026-04-04,SP1,mallorca,real madrid,under_3_5,0.8368,2.3945,3.2314,1.5577,0.5956,0.5902,1.6944,,,,missing,True,True,False
+2026-04-04,2026-04-04,D1,hoffenheim,mainz,under_3_5,1.8428,1.352,3.1949,0.4908,0.6037,0.5814,1.7201,,,,missing,False,False,False
+2026-04-04,2026-04-04T13:30:00+00:00,D1,1899 hoffenheim,fsv mainz 05,under_3_5,1.8428,1.352,3.1949,0.4908,0.6037,0.5814,1.7201,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP1,real sociedad,levante,under_3_5,2.5012,0.9276,3.4288,1.5736,0.5521,0.5667,1.7644,,,,missing,True,True,False
+2026-04-04,2026-04-04,N1,excelsior,nijmegen,under_3_5,1.3445,1.9886,3.333,0.6441,0.5731,0.5558,1.7992,,,,missing,False,True,False
+2026-04-04,2026-04-04T19:00:00+00:00,N1,excelsior,nec nijmegen,under_3_5,1.3445,1.9886,3.333,0.6441,0.5731,0.5558,1.7992,,,,missing,False,True,False
+2026-04-04,2026-04-04,SA1,al ahli sc,damac,under_3_5,2.6195,0.5292,3.1487,2.0903,0.614,0.5555,1.8001,,,,missing,True,False,False
+2026-04-04,2026-04-04T16:15:00+00:00,SA1,al-ahli jeddah,damac,under_3_5,2.6195,0.5292,3.1487,2.0903,0.614,0.5555,1.8001,,,,missing,True,False,False
+2026-04-04,2026-04-04,SA1,al hilal,al taawon,under_3_5,2.4314,0.7653,3.1966,1.6661,0.6033,0.5498,1.8188,,,,missing,True,False,False
+2026-04-04,2026-04-04T18:00:00+00:00,SA1,al-hilal saudi fc,al taawon,under_3_5,2.4314,0.7653,3.1966,1.6661,0.6033,0.5498,1.8188,,,,missing,True,False,False
+2026-04-04,2026-04-04,SP1,betis,espanyol,under_3_5,2.6447,1.091,3.7357,1.5536,0.4868,0.531,1.8831,,,,missing,True,True,False
+2026-04-04,2026-04-04T16:30:00+00:00,SP1,real betis,espanyol,under_3_5,2.6447,1.091,3.7357,1.5536,0.4868,0.531,1.8831,,,,missing,True,True,False
+2026-04-04,2026-04-04,D1,stuttgart,dortmund,under_3_5,1.9819,1.6797,3.6616,0.3022,0.5022,0.5154,1.9402,,,,missing,False,True,False
+2026-04-04,2026-04-04T16:30:00+00:00,D1,vfb stuttgart,borussia dortmund,under_3_5,1.9819,1.6797,3.6616,0.3022,0.5022,0.5154,1.9402,,,,missing,False,True,False
+2026-04-04,2026-04-04,N1,az alkmaar,sittard,under_3_5,2.6275,1.6306,4.2581,0.997,0.3848,0.4879,2.0496,,,,missing,False,True,False
+2026-04-04,2026-04-04T16:45:00+00:00,N1,az alkmaar,fortuna sittard,under_3_5,2.6275,1.6306,4.2581,0.997,0.3848,0.4879,2.0496,,,,missing,False,True,False
+2026-04-04,2026-04-04,D2,sg dynamo dresden,hertha berlin,under_3_5,2.9281,1.4588,4.3869,1.4693,0.3618,0.4806,2.0807,,,,missing,True,True,False
+2026-04-04,2026-04-04T18:30:00+00:00,D2,dynamo dresden,hertha bsc,under_3_5,2.9281,1.4588,4.3869,1.4693,0.3618,0.4806,2.0807,,,,missing,True,True,False
+2026-04-04,2026-04-04,D1,bayer leverkusen,wolfsburg,under_3_5,2.9704,0.8214,3.7918,2.1491,0.4753,0.4659,2.1463,,,,missing,True,True,False
+2026-04-04,2026-04-04T13:30:00+00:00,D1,bayer leverkusen,vfl wolfsburg,under_3_5,2.9704,0.8214,3.7918,2.1491,0.4753,0.4659,2.1463,,,,missing,True,True,False
+2026-04-04,2026-04-04,D1,freiburg,bayern munich,under_3_5,1.1516,3.4886,4.6401,2.337,0.3195,0.4077,2.4527,,,,missing,True,True,False
+2026-04-04,2026-04-04T13:30:00+00:00,D1,sc freiburg,bayern münchen,under_3_5,1.1516,3.4886,4.6401,2.337,0.3195,0.4077,2.4527,,,,missing,True,True,False
+2026-04-04,2026-04-04,SP2,albacete,burgos cf,under_4_5,0.5351,0.3613,0.8964,0.1738,0.9977,0.9659,1.0353,,,,missing,False,False,False
+2026-04-04,2026-04-04T14:15:00+00:00,SP2,albacete,burgos,under_4_5,0.5351,0.3613,0.8964,0.1738,0.9977,0.9659,1.0353,,,,missing,False,False,False
+2026-04-04,2026-04-04,I1,lazio,parma,under_4_5,0.9664,0.5863,1.5527,0.3801,0.9788,0.9255,1.0805,1.06,0.9434,-0.0179,market,False,False,False
+2026-04-04,2026-04-04,RS1,sp. subotica,javor,under_4_5,1.0278,0.7607,1.7885,0.267,0.9644,0.9213,1.0854,,,,missing,False,False,True
+2026-04-04,2026-04-04T16:00:00+00:00,RS1,fk spartak zdrepceva krv,javor,under_4_5,1.0278,0.7607,1.7885,0.267,0.9644,0.9213,1.0854,,,,missing,False,False,True
+2026-04-04,2026-04-04,RS1,zeleznicar pancevo,novi pazar,under_4_5,1.4313,0.5404,1.9717,0.8909,0.9499,0.9062,1.1036,,,,missing,False,False,True
+2026-04-04,2026-04-04T14:00:00+00:00,RS1,železničar pančevo,novi pazar,under_4_5,1.4313,0.5404,1.9717,0.8909,0.9499,0.9062,1.1036,,,,missing,False,False,True
+2026-04-04,2026-04-04,SP1,atl. madrid,barcelona,under_4_5,0.8442,1.2717,2.1159,0.4276,0.9363,0.8965,1.1155,,,,missing,False,False,True
+2026-04-04,2026-04-04T19:00:00+00:00,SP1,atletico madrid,barcelona,under_4_5,0.8442,1.2717,2.1159,0.4276,0.9363,0.8965,1.1155,,,,missing,False,False,True
+2026-04-04,2026-04-04,RO1,fc arges,dinamo bucuresti,under_4_5,0.963,0.709,1.672,0.254,0.9721,0.8936,1.119,,,,missing,False,False,True
+2026-04-04,2026-04-04T16:30:00+00:00,RO1,arges pitesti,dinamo bucuresti,under_4_5,0.963,0.709,1.672,0.254,0.9721,0.8936,1.119,,,,missing,False,False,True
+2026-04-04,2026-04-04,I1,sassuolo,cagliari,under_4_5,1.3462,0.8977,2.2439,0.4485,0.9227,0.8923,1.1207,1.06,0.9434,-0.0511,market,False,False,False
+2026-04-04,2026-04-04,RS1,imt novi beograd,vojvodina,under_4_5,0.6848,1.4829,2.1677,0.7981,0.9309,0.8894,1.1244,,,,missing,False,False,True
+2026-04-04,2026-04-04,D2,arminia bielefeld,darmstadt,under_4_5,0.9597,1.2741,2.2338,0.3143,0.9238,0.8787,1.138,,,,missing,False,False,True
+2026-04-04,2026-04-04T11:00:00+00:00,D2,arminia bielefeld,sv darmstadt 98,under_4_5,0.9597,1.2741,2.2338,0.3143,0.9238,0.8787,1.138,,,,missing,False,False,True
+2026-04-04,2026-04-04,D2,kaiserslautern,dusseldorf,under_4_5,1.133,1.108,2.2409,0.025,0.923,0.8783,1.1386,,,,missing,False,False,True
+2026-04-04,2026-04-04T11:00:00+00:00,D2,1. fc kaiserslautern,fortuna düsseldorf,under_4_5,1.133,1.108,2.2409,0.025,0.923,0.8783,1.1386,,,,missing,False,False,True
+2026-04-04,2026-04-04,SA1,neom sc,al fayha,under_4_5,0.9518,1.1082,2.0599,0.1564,0.9418,0.8764,1.141,,,,missing,False,False,True
+2026-04-04,2026-04-04T16:30:00+00:00,SA1,neom,al-fayha,under_4_5,0.9518,1.1082,2.0599,0.1564,0.9418,0.8764,1.141,,,,missing,False,False,True
+2026-04-04,2026-04-04,RO1,otelul,fc hermannstadt,under_4_5,1.6151,1.3542,2.9692,0.2609,0.8204,0.8735,1.1449,,,,missing,False,False,True
+2026-04-04,2026-04-04T12:00:00+00:00,RO1,oţelul,afc hermannstadt,under_4_5,1.6151,1.3542,2.9692,0.2609,0.8204,0.8735,1.1449,,,,missing,False,False,True
+2026-04-04,2026-04-04,DK1,midtjylland,sonderjyske,under_4_5,1.6009,0.7417,2.3426,0.8592,0.9112,0.8718,1.1471,,,,missing,False,False,True
+2026-04-04,2026-04-04T16:00:00+00:00,DK1,fc midtjylland,sonderjyske,under_4_5,1.6009,0.7417,2.3426,0.8592,0.9112,0.8718,1.1471,,,,missing,False,False,True
+2026-04-04,2026-04-04,D1,hamburger sv,augsburg,under_4_5,1.1265,0.7594,1.8859,0.3672,0.9571,0.8709,1.1483,,,,missing,False,False,True
+2026-04-04,2026-04-04T13:30:00+00:00,D1,hamburger sv,fc augsburg,under_4_5,1.1265,0.7594,1.8859,0.3672,0.9571,0.8709,1.1483,,,,missing,False,False,True
+2026-04-04,2026-04-04,F1,strasbourg,nice,under_4_5,1.8612,0.7793,2.6405,1.0819,0.8716,0.8598,1.163,,,,missing,False,False,True
+2026-04-04,2026-04-04,P1,moreirense,braga,under_4_5,1.0034,2.1469,3.1503,1.1435,0.7894,0.8594,1.1636,,,,missing,False,False,True
+2026-04-04,2026-04-04T17:00:00+00:00,P1,moreirense,sc braga,under_4_5,1.0034,2.1469,3.1503,1.1435,0.7894,0.8594,1.1636,,,,missing,False,False,True
+2026-04-04,2026-04-04,P1,nacional,estrela,under_4_5,1.9167,1.0746,2.9912,0.8421,0.8167,0.8592,1.1639,,,,missing,False,False,True
+2026-04-04,2026-04-04,P1,rio ave,alverca,under_4_5,0.9096,0.9194,1.829,0.0098,0.9615,0.8574,1.1664,,,,missing,False,False,True
+2026-04-04,2026-04-04,SW1,lugano,thun,under_4_5,1.1179,1.6605,2.7784,0.5425,0.851,0.8447,1.1838,,,,missing,False,False,True
+2026-04-04,2026-04-04T16:00:00+00:00,SW1,fc lugano,fc thun,under_4_5,1.1179,1.6605,2.7784,0.5425,0.851,0.8447,1.1838,,,,missing,False,False,True
+2026-04-04,2026-04-04,F1,brest,rennes,under_4_5,1.4856,1.3759,2.8615,0.1096,0.838,0.8434,1.1857,,,,missing,False,False,True
+2026-04-04,2026-04-04T17:00:00+00:00,F1,stade brestois 29,rennes,under_4_5,1.4856,1.3759,2.8615,0.1096,0.838,0.8434,1.1857,,,,missing,False,False,True
+2026-04-04,2026-04-04,SP2,cadiz cf,cordoba,under_4_5,1.3654,1.6118,2.9772,0.2463,0.8191,0.8327,1.2009,,,,missing,False,False,True
+2026-04-04,2026-04-04T12:00:00+00:00,SP2,cadiz,cordoba,under_4_5,1.3654,1.6118,2.9772,0.2463,0.8191,0.8327,1.2009,,,,missing,False,False,True
+2026-04-04,2026-04-04,SW1,lausanne,winterthur,under_4_5,1.9458,1.1194,3.0653,0.8264,0.8042,0.8275,1.2085,,,,missing,False,False,True
+2026-04-04,2026-04-04T16:00:00+00:00,SW1,lausanne,fc winterthur,under_4_5,1.9458,1.1194,3.0653,0.8264,0.8042,0.8275,1.2085,,,,missing,False,False,True
+2026-04-04,2026-04-04,N1,psv,utrecht,under_4_5,1.4151,0.9143,2.3293,0.5008,0.9128,0.8248,1.2125,,,,missing,False,False,True
+2026-04-04,2026-04-04T14:30:00+00:00,N1,psv eindhoven,utrecht,under_4_5,1.4151,0.9143,2.3293,0.5008,0.9128,0.8248,1.2125,,,,missing,False,False,True
+2026-04-04,2026-04-04,D1,werder bremen,rb leipzig,under_4_5,0.9898,1.6517,2.6415,0.6618,0.8715,0.8237,1.2141,,,,missing,False,False,True
+2026-04-04,2026-04-04,SP2,dep. la coruna,malaga,under_4_5,1.8995,1.2399,3.1394,0.6596,0.7913,0.8231,1.2149,,,,missing,False,False,True
+2026-04-04,2026-04-04T16:30:00+00:00,SP2,deportivo la coruna,malaga,under_4_5,1.8995,1.2399,3.1394,0.6596,0.7913,0.8231,1.2149,,,,missing,False,False,True
+2026-04-04,2026-04-04,RS1,radnicki 1923,mladost,under_4_5,1.9213,0.5493,2.4706,1.372,0.8951,0.8227,1.2155,,,,missing,True,False,True
+2026-04-04,2026-04-04T16:00:00+00:00,RS1,radnicki 1923,mladost lucani,under_4_5,1.9213,0.5493,2.4706,1.372,0.8951,0.8227,1.2155,,,,missing,True,False,True
+2026-04-04,2026-04-04T16:00:00+00:00,I1,hellas verona,fiorentina,under_4_5,0.678,2.2914,2.9694,1.6134,0.8204,0.8215,1.2172,1.06,0.9434,-0.1219,market,True,False,False
+2026-04-04,2026-04-04,I1,verona,fiorentina,under_4_5,0.678,2.2914,2.9694,1.6134,0.8204,0.8215,1.2172,,,,missing,True,False,True
+2026-04-04,2026-04-04,N1,ajax,twente,under_4_5,1.2668,1.1678,2.4346,0.099,0.8997,0.8203,1.2191,,,,missing,False,False,True
+2026-04-04,2026-04-04,P1,fc porto,famalicao,under_4_5,1.5966,0.3386,1.9352,1.258,0.953,0.8176,1.2231,,,,missing,True,False,False
+2026-04-04,2026-04-04,N1,telstar,groningen,under_4_5,1.4669,1.0879,2.5547,0.379,0.8837,0.8154,1.2264,,,,missing,False,False,False
+2026-04-04,2026-04-04,D1,b. monchengladbach,heidenheim,under_4_5,1.8967,0.9002,2.7969,0.9965,0.8482,0.8148,1.2273,,,,missing,False,False,False
+2026-04-04,2026-04-04T13:30:00+00:00,D1,borussia mönchengladbach,1. fc heidenheim,under_4_5,1.8967,0.9002,2.7969,0.9965,0.8482,0.8148,1.2273,,,,missing,False,False,False
+2026-04-04,2026-04-04,F1,lille,lens,under_4_5,0.8129,2.0467,2.8596,1.2338,0.8383,0.8036,1.2445,,,,missing,True,False,False
+2026-04-04,2026-04-04,D1,hoffenheim,mainz,under_4_5,1.8428,1.352,3.1949,0.4908,0.7815,0.7932,1.2608,,,,missing,False,False,False
+2026-04-04,2026-04-04T13:30:00+00:00,D1,1899 hoffenheim,fsv mainz 05,under_4_5,1.8428,1.352,3.1949,0.4908,0.7815,0.7932,1.2608,,,,missing,False,False,False
+2026-04-04,2026-04-04,SP2,cultural leonesa,valladolid,under_4_5,1.3161,1.9311,3.2472,0.6149,0.7722,0.7868,1.271,,,,missing,False,True,False
+2026-04-04,2026-04-04,SW1,basel,young boys,under_4_5,1.5475,1.8459,3.3934,0.2984,0.7454,0.7783,1.2849,,,,missing,False,True,False
+2026-04-04,2026-04-04T18:30:00+00:00,SW1,fc basel 1893,bsc young boys,under_4_5,1.5475,1.8459,3.3934,0.2984,0.7454,0.7783,1.2849,,,,missing,False,True,False
+2026-04-04,2026-04-04,D2,magdeburg,bochum,under_4_5,1.7477,1.7096,3.4572,0.0381,0.7335,0.7746,1.291,,,,missing,False,True,False
+2026-04-04,2026-04-04T11:00:00+00:00,D2,1. fc magdeburg,vfl bochum,under_4_5,1.7477,1.7096,3.4572,0.0381,0.7335,0.7746,1.291,,,,missing,False,True,False
+2026-04-04,2026-04-04,N1,excelsior,nijmegen,under_4_5,1.3445,1.9886,3.333,0.6441,0.7566,0.7571,1.3209,,,,missing,False,True,False
+2026-04-04,2026-04-04T19:00:00+00:00,N1,excelsior,nec nijmegen,under_4_5,1.3445,1.9886,3.333,0.6441,0.7566,0.7571,1.3209,,,,missing,False,True,False
+2026-04-04,2026-04-04,SA1,al ahli sc,damac,under_4_5,2.6195,0.5292,3.1487,2.0903,0.7898,0.7421,1.3476,,,,missing,True,False,False
+2026-04-04,2026-04-04T16:15:00+00:00,SA1,al-ahli jeddah,damac,under_4_5,2.6195,0.5292,3.1487,2.0903,0.7898,0.7421,1.3476,,,,missing,True,False,False
+2026-04-04,2026-04-04,D1,stuttgart,dortmund,under_4_5,1.9819,1.6797,3.6616,0.3022,0.6946,0.7393,1.3527,,,,missing,False,True,False
+2026-04-04,2026-04-04T16:30:00+00:00,D1,vfb stuttgart,borussia dortmund,under_4_5,1.9819,1.6797,3.6616,0.3022,0.6946,0.7393,1.3527,,,,missing,False,True,False
+2026-04-04,2026-04-04,SA1,al hilal,al taawon,under_4_5,2.4314,0.7653,3.1966,1.6661,0.7813,0.738,1.3549,,,,missing,True,False,False
+2026-04-04,2026-04-04T18:00:00+00:00,SA1,al-hilal saudi fc,al taawon,under_4_5,2.4314,0.7653,3.1966,1.6661,0.7813,0.738,1.3549,,,,missing,True,False,False
+2026-04-04,2026-04-04,SP1,mallorca,real madrid,under_4_5,0.8368,2.3945,3.2314,1.5577,0.775,0.7297,1.3705,,,,missing,True,True,False
+2026-04-04,2026-04-04,N1,az alkmaar,sittard,under_4_5,2.6275,1.6306,4.2581,0.997,0.5786,0.7286,1.3725,,,,missing,False,True,False
+2026-04-04,2026-04-04T16:45:00+00:00,N1,az alkmaar,fortuna sittard,under_4_5,2.6275,1.6306,4.2581,0.997,0.5786,0.7286,1.3725,,,,missing,False,True,False
+2026-04-04,2026-04-04,SP1,real sociedad,levante,under_4_5,2.5012,0.9276,3.4288,1.5736,0.7389,0.7123,1.4039,,,,missing,True,True,False
+2026-04-04,2026-04-04,D1,bayer leverkusen,wolfsburg,under_4_5,2.9704,0.8214,3.7918,2.1491,0.6696,0.6929,1.4432,,,,missing,True,True,False
+2026-04-04,2026-04-04T13:30:00+00:00,D1,bayer leverkusen,vfl wolfsburg,under_4_5,2.9704,0.8214,3.7918,2.1491,0.6696,0.6929,1.4432,,,,missing,True,True,False
+2026-04-04,2026-04-04,SP1,betis,espanyol,under_4_5,2.6447,1.091,3.7357,1.5536,0.6804,0.6853,1.4592,,,,missing,True,True,False
+2026-04-04,2026-04-04T16:30:00+00:00,SP1,real betis,espanyol,under_4_5,2.6447,1.091,3.7357,1.5536,0.6804,0.6853,1.4592,,,,missing,True,True,False
+2026-04-04,2026-04-04,D2,sg dynamo dresden,hertha berlin,under_4_5,2.9281,1.4588,4.3869,1.4693,0.5538,0.6824,1.4653,,,,missing,True,True,False
+2026-04-04,2026-04-04T18:30:00+00:00,D2,dynamo dresden,hertha bsc,under_4_5,2.9281,1.4588,4.3869,1.4693,0.5538,0.6824,1.4653,,,,missing,True,True,False
+2026-04-04,2026-04-04,D1,freiburg,bayern munich,under_4_5,1.1516,3.4886,4.6401,2.337,0.5062,0.6528,1.5319,,,,missing,True,True,False
+2026-04-04,2026-04-04T13:30:00+00:00,D1,sc freiburg,bayern münchen,under_4_5,1.1516,3.4886,4.6401,2.337,0.5062,0.6528,1.5319,,,,missing,True,True,False

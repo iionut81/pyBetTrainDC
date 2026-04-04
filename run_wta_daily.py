@@ -137,18 +137,154 @@ def fetch_active_tournaments(target_date: str) -> List[dict]:
 
 
 def fetch_upcoming_matches(tournament_group_id: int, year: int) -> List[dict]:
-    """Fetch upcoming singles matches for a tournament."""
+    """Fetch reliable upcoming main-draw singles matches for a tournament.
+
+    The WTA `/matches` feed can leave stale `MatchState == "U"` rows from an
+    already-completed round while the real next-round pairings are either later
+    in the payload or not published yet. When that happens, prefer the deepest
+    active round that exists in the feed; if the feed still lags behind, rebuild
+    the next round from the winners of the deepest fully completed round.
+    """
     url = f"{WTA_API_BASE}/tournaments/{tournament_group_id}/{year}/matches"
     data = _fetch_json(url)
     matches = data.get("matches", [])
-    # Filter: upcoming + singles only
-    return [
+    main_singles = [
         m for m in matches
-        if m.get("MatchState") == "U"
+        if m.get("DrawLevelType") == "M"
         and m.get("DrawMatchType") == "S"
         and m.get("PlayerIDA")
         and m.get("PlayerIDB")
     ]
+
+    if not main_singles:
+        return []
+
+    def _round_token(value: object) -> str:
+        return str(value).strip().upper()
+
+    def _round_rank(value: object) -> int:
+        token = _round_token(value)
+        if token.isdigit():
+            return int(token)
+        special = {"Q": 100, "S": 101, "F": 102}
+        return special.get(token, -1)
+
+    def _next_round_token(current_token: str, current_count: int) -> Optional[str]:
+        if current_count <= 1:
+            return None
+        if current_count == 2:
+            return "F"
+        if current_count == 4:
+            return "S"
+        if current_count == 8:
+            return "Q"
+        if current_token.isdigit():
+            return str(int(current_token) + 1)
+        return None
+
+    def _winner_side(match: dict) -> Optional[str]:
+        result = str(match.get("ResultString", "") or "")
+        pre = result.split(" d ", 1)[0]
+        last_a = str(match.get("PlayerNameLastA", "") or "").strip()
+        last_b = str(match.get("PlayerNameLastB", "") or "").strip()
+        if last_a and last_a in pre and (not last_b or last_b not in pre):
+            return "A"
+        if last_b and last_b in pre and (not last_a or last_a not in pre):
+            return "B"
+
+        winner_code = str(match.get("Winner", "") or "").strip()
+        if winner_code in {"2", "4", "6"}:
+            return "A"
+        if winner_code in {"3", "5", "7"}:
+            return "B"
+        return None
+
+    def _winner_payload(match: dict) -> Optional[dict]:
+        side = _winner_side(match)
+        if side is None:
+            return None
+        suffix = side
+        return {
+            "PlayerID": match.get(f"PlayerID{suffix}"),
+            "PlayerNameFirst": match.get(f"PlayerNameFirst{suffix}"),
+            "PlayerNameLast": match.get(f"PlayerNameLast{suffix}"),
+            "PlayerCountry": match.get(f"PlayerCountry{suffix}"),
+            "Seed": match.get(f"Seed{suffix}", ""),
+            "EntryType": match.get(f"EntryType{suffix}", ""),
+        }
+
+    def _rebuild_next_round(round_matches: List[dict], next_round: str) -> List[dict]:
+        rebuilt: List[dict] = []
+        ordered = sorted(
+            round_matches,
+            key=lambda m: (_to_float(m.get("DateSeq")) or 0.0, str(m.get("MatchID", ""))),
+        )
+        for i in range(0, len(ordered), 2):
+            if i + 1 >= len(ordered):
+                break
+            wa = _winner_payload(ordered[i])
+            wb = _winner_payload(ordered[i + 1])
+            if wa is None or wb is None:
+                continue
+            rebuilt.append({
+                "MatchState": "U",
+                "DrawLevelType": "M",
+                "DrawMatchType": "S",
+                "RoundID": next_round,
+                "MatchID": f"SYNTH-{next_round}-{(i // 2) + 1}",
+                "MatchTimeStamp": "",
+                "EventID": ordered[i].get("EventID"),
+                "EventYear": ordered[i].get("EventYear"),
+                "PlayerIDA": wa["PlayerID"],
+                "PlayerIDB": wb["PlayerID"],
+                "PlayerNameFirstA": wa["PlayerNameFirst"],
+                "PlayerNameLastA": wa["PlayerNameLast"],
+                "PlayerNameFirstB": wb["PlayerNameFirst"],
+                "PlayerNameLastB": wb["PlayerNameLast"],
+                "PlayerCountryA": wa["PlayerCountry"],
+                "PlayerCountryB": wb["PlayerCountry"],
+                "SeedA": wa["Seed"],
+                "SeedB": wb["Seed"],
+                "EntryTypeA": wa["EntryType"],
+                "EntryTypeB": wb["EntryType"],
+            })
+        return rebuilt
+
+    open_matches = [m for m in main_singles if str(m.get("MatchState", "")).strip().upper() != "F"]
+    if open_matches:
+        highest_open_rank = max(_round_rank(m.get("RoundID")) for m in open_matches)
+        open_matches = [m for m in open_matches if _round_rank(m.get("RoundID")) == highest_open_rank]
+    else:
+        highest_open_rank = -1
+
+    finished_by_round: Dict[str, List[dict]] = {}
+    for match in main_singles:
+        if str(match.get("MatchState", "")).strip().upper() != "F":
+            continue
+        token = _round_token(match.get("RoundID"))
+        finished_by_round.setdefault(token, []).append(match)
+
+    if not finished_by_round:
+        return [m for m in open_matches if str(m.get("MatchState", "")).strip().upper() == "U"]
+
+    deepest_finished_token = max(finished_by_round, key=_round_rank)
+    deepest_finished_rank = _round_rank(deepest_finished_token)
+    deepest_finished_matches = finished_by_round[deepest_finished_token]
+    next_round_token = _next_round_token(deepest_finished_token, len(deepest_finished_matches))
+    next_round_rank = _round_rank(next_round_token) if next_round_token else -1
+
+    # If the feed only exposes unfinished matches from an earlier round, rebuild
+    # the next-round bracket from actual winners in the deepest completed round.
+    if (
+        next_round_token
+        and highest_open_rank < next_round_rank
+        and not any(_round_rank(m.get("RoundID")) == deepest_finished_rank for m in open_matches)
+    ):
+        rebuilt = _rebuild_next_round(deepest_finished_matches, next_round_token)
+        if rebuilt:
+            return rebuilt
+
+    return [m for m in open_matches if str(m.get("MatchState", "")).strip().upper() == "U"]
 
 
 def _to_float(value: object) -> Optional[float]:
@@ -158,6 +294,17 @@ def _to_float(value: object) -> Optional[float]:
         return float(value)
     except (TypeError, ValueError):
         return None
+
+
+def normalize_round_id(value: object) -> int:
+    """Map WTA round tokens to the numeric scale used by downstream filters."""
+    token = str(value).strip().upper()
+    if not token:
+        return 0
+    if token.isdigit():
+        return int(token)
+    special = {"Q": 3, "S": 4, "F": 5}
+    return special.get(token, 0)
 
 
 # ── Player ID mapping (WTA API ID → Sackmann ID) ────────────────────────────
@@ -724,7 +871,11 @@ def main() -> int:
         else:
             p_tb_cal = None
 
-        fair_odds_a = (1.0 / p_match_cal) if p_match_cal > 0 else None
+        # Winner-side probability and fair odds
+        predicted_winner = player_a if p_match_cal >= 0.50 else player_b
+        p_side = p_match_cal if predicted_winner == player_a else (1.0 - p_match_cal)
+        fair_odds_side = (1.0 / p_side) if p_side > 0 else None
+
         fair_odds_s1_7 = (1.0 / p_s1_7_cal) if p_s1_7_cal > 0 else None
         fair_odds_s1o = (1.0 / p_s1o_cal) if p_s1o_cal > 0 else None
         fair_odds_tb = (1.0 / p_tb_cal) if p_tb_cal and p_tb_cal > 0 else None
@@ -732,9 +883,9 @@ def main() -> int:
         # Recommendations
         mw_cfg = MARKETS_CFG["match_winner"]
         rec_match = bool(
-            mw_cfg["min_prob"] <= p_match_cal <= mw_cfg["max_prob"]
-            and fair_odds_a is not None
-            and fair_odds_a <= mw_cfg["max_odds"]
+            mw_cfg["min_prob"] <= p_side <= mw_cfg["max_prob"]
+            and fair_odds_side is not None
+            and fair_odds_side <= mw_cfg["max_odds"]
         )
 
         s1o_cfg = MARKETS_CFG["set1_over_9_5"]
@@ -756,7 +907,7 @@ def main() -> int:
         exp_games = mc["expected_total_games"]
         p_hold_a = result["p_hold_a"]
         p_hold_b = result["p_hold_b"]
-        match_round = int(m.get("RoundID", 0) or 0)
+        match_round = normalize_round_id(m.get("RoundID", 0))
         _go75 = GRASS_POLICY.get("set1_o75")
         o75_eff = merge_set1_o75_config(
             S175,
@@ -809,14 +960,13 @@ def main() -> int:
         }
 
         # Winner
-        predicted_winner = player_a if p_match_cal >= 0.50 else player_b
         rows_winner.append({
             **base,
             "predicted_winner": predicted_winner,
             "p_raw": round(p_match_raw, 4),
-            "p_cal": round(p_match_cal, 4),
-            "Chances": f"{p_match_cal * 100:.1f}%",
-            "fair_odds": round(fair_odds_a, 4) if fair_odds_a else None,
+            "p_cal": round(p_side, 4),
+            "Chances": f"{p_side * 100:.1f}%",
+            "fair_odds": round(fair_odds_side, 4) if fair_odds_side else None,
             "recommended": rec_match,
         })
 
