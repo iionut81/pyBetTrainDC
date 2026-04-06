@@ -430,13 +430,20 @@ For each recommended pick include:
 - Score 7-8: **MODERATE** confidence
 - Score < 7: **DO NOT RECOMMEND**
 
+### DAILY PRICE FILTER (not long-term edge):
+This analysis is for **daily single-bet decisions**, not long-term portfolio optimization. Use this filter:
+
+- **Research probability ≥ 82% AND odds ≥ 1.10** → RECOMMEND (pick is confident enough for a daily bet)
+- **Research probability < 82%** → needs positive edge (research_prob > implied_prob) to recommend
+- **Odds < 1.10** → PASS (profit too small for a single bet)
+- **Positive edge is a bonus, not a requirement** when probability is high (82%+)
+
 ### CROSS-MARKET RULES:
-- DC at odds < 1.10 = max MODERATE confidence (thin value singles, accumulator-only)
+- Odds < 1.10 = **PASS** (not enough profit on a single bet)
 - Football lower leagues = max MODERATE confidence
 - WTA 250 on clay = max MODERATE confidence for Under 12.5
 - Finals = automatic **-1**
 - Both top-10 (tennis) = automatic **-1**
-- tennisabstract data source = automatic **-1**
 
 ---
 
@@ -445,8 +452,8 @@ For each recommended pick include:
 From all surviving picks across all markets, select the **top 2** ranked by:
 
 1. Checklist score (highest first)
-2. Edge vs market odds (biggest edge first)
-3. Research confidence (most supported first)
+2. Research-adjusted probability (highest first)
+3. Edge vs market odds (bonus ranking, not required)
 
 Present as:
 

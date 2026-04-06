@@ -85,7 +85,6 @@ Before any analysis, run this checklist. If it doesn't pass → DON'T BET.
 ### AUTOMATIC PENALTIES:
 - Finals = **-1** on checklist score
 - Both top-10 players = **-1** on checklist score
-- tennisabstract/tennisabstract data source = **-1** on checklist score
 
 ---
 
@@ -112,7 +111,7 @@ For each match that passes the checklist, gather from internet:
 - Research can upgrade model probability by MAX +10pp (not more)
 - Never say "impossible" — use "TB probability ~X%"
 - H2H with < 10 meetings = context only, not statistical evidence
-- ITF/tennisabstract data = flag as less reliable
+- ITF data = flag as less reliable
 
 ---
 
@@ -178,7 +177,6 @@ For each recommended pick include:
 - Max "HIGH confidence" on clay WTA 125/250 = MODERATE (cap it)
 - Finals = automatic -1 on checklist score
 - Both top-10 players = automatic -1 on checklist score
-- tennisabstract/tennisabstract data source = automatic -1 on checklist score
 
 ---
 
