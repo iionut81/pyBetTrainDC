@@ -14,7 +14,7 @@ from fhg_calibration import apply_platt_logit, fit_platt_logit
 
 _TG = CFG["training"]["goals"]
 
-MARKETS = ["over_2_5", "under_3_5", "under_4_5", "btts"]
+MARKETS = ["under_3_5", "under_4_5"]
 
 
 def _ou_probs(mat: np.ndarray) -> Dict[str, float]:
@@ -156,7 +156,7 @@ def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(
         description="Train leakage-free Goals Totals calibration from walk-forward DC predictions."
     )
-    p.add_argument("--history-csv", default="simulations/FHG/data/fhg_history.csv")
+    p.add_argument("--history-csv", default="data/historical/historical_matches_transfermarkt.csv")
     p.add_argument("--out-calibration-csv", default="simulations/Goals/data/goals_calibration.csv")
     p.add_argument("--out-predictions-csv", default="simulations/Goals/backtests/goals_predictions.csv")
     p.add_argument("--out-summary-csv", default="simulations/Goals/backtests/goals_backtest_summary.csv")
