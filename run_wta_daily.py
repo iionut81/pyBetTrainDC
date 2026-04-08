@@ -82,6 +82,162 @@ def _fetch_json(url: str) -> dict:
     )
 
 
+# ── Flashscore WTA fixtures (supplementary source) ───────────────────────────
+
+# Map WTA tournament names (as returned by WTA API) to Flashscore URL slugs.
+# Add new tournaments here as needed.
+FLASHSCORE_WTA_SLUGS: Dict[str, str] = {
+    "LINZ": "linz",
+    "CHARLESTON": "charleston",
+    "BOGOTA": "bogota",
+    "MADRID 125": None,  # WTA 125 not on Flashscore main WTA page
+    "MIAMI": "miami",
+    "INDIAN WELLS": "indian-wells",
+    "DUBAI": "dubai",
+    "DOHA": "doha",
+    "ROME": "rome",
+    "MADRID": "madrid",
+    "ROLAND GARROS": "roland-garros",
+    "WIMBLEDON": "wimbledon",
+    "US OPEN": "us-open",
+    "AUSTRALIAN OPEN": "australian-open",
+    "BEIJING": "beijing",
+    "WUHAN": "wuhan",
+    "SINGAPORE": "singapore",
+    "STUTTGART": "stuttgart",
+    "EASTBOURNE": "eastbourne",
+    "MONTREAL": "montreal",
+    "TORONTO": "toronto",
+    "CINCINNATI": "cincinnati",
+    "SAN DIEGO": "san-diego",
+    "TOKYO": "tokyo",
+    "GUADALAJARA": "guadalajara",
+    "ADELAIDE": "adelaide",
+    "BRISBANE": "brisbane",
+    "HOBART": "hobart",
+    "OSTRAVA": "ostrava",
+    "SEOUL": "seoul",
+    "TALLINN": "tallinn",
+    "MONASTIR": "monastir",
+}
+
+
+def fetch_flashscore_wta_matches(
+    slug: str,
+    target_date: dt.date,
+    verify_ssl: bool = True,
+) -> List[dict]:
+    """Fetch upcoming WTA singles matches from Flashscore for a tournament.
+
+    Returns list of dicts in WTA-API-compatible format with keys:
+      PlayerNameFirstA, PlayerNameLastA, PlayerNameFirstB, PlayerNameLastB,
+      MatchState, RoundID, MatchTimeStamp
+    """
+    url = f"https://www.flashscore.com/tennis/wta-singles/{slug}/"
+    headers = {
+        "User-Agent": USER_AGENT,
+        "x-fsign": "SW9D1eZo",
+        "Referer": "https://www.flashscore.com/",
+    }
+    try:
+        resp = requests.get(url, headers=headers, timeout=20, verify=verify_ssl)
+        resp.raise_for_status()
+    except Exception:
+        return []
+
+    text = resp.text
+    matches_raw = text.split("\xacAA\xf7")
+    if len(matches_raw) < 2:
+        # Try alternate split
+        matches_raw = text.split("~AA\xf7")
+
+    ROUND_MAP = {
+        "1/64-finals": "5",
+        "1/32-finals": "5",
+        "1/16-finals": "5",
+        "1/8-finals": "4",
+        "Quarter-finals": "Q",
+        "Semi-finals": "S",
+        "Final": "F",
+    }
+
+    seen: set = set()
+    results: List[dict] = []
+    for block in matches_raw[1:]:
+        fields: Dict[str, str] = {}
+        for pair in block.split("\xac"):
+            if "\xf7" in pair:
+                key, val = pair.split("\xf7", 1)
+                fields[key] = val
+
+        state = fields.get("AB", "")
+        if state != "1":  # only upcoming matches
+            continue
+
+        # Check date
+        timestamp_str = fields.get("AD", "0")
+        try:
+            ts = int(timestamp_str)
+            match_date = dt.datetime.fromtimestamp(ts).date()
+        except (ValueError, OSError):
+            continue
+
+        if match_date != target_date:
+            continue
+
+        # Player names from slugs (more reliable than short names)
+        slug_a = fields.get("WU", "")
+        slug_b = fields.get("WV", "")
+        if not slug_a or not slug_b:
+            continue
+
+        def _slug_to_name(s: str) -> Tuple[str, str]:
+            """Convert 'andreeva-mirra' to ('Mirra', 'Andreeva')."""
+            parts = s.replace("-", " ").strip().split()
+            if len(parts) >= 2:
+                # Flashscore format: lastname-firstname
+                last = parts[0].title()
+                first = " ".join(p.title() for p in parts[1:])
+                return first, last
+            return parts[0].title(), ""
+
+        first_a, last_a = _slug_to_name(slug_a)
+        first_b, last_b = _slug_to_name(slug_b)
+
+        # Deduplicate
+        key = f"{last_a}_{last_b}"
+        if key in seen:
+            continue
+        seen.add(key)
+
+        round_name = fields.get("ER", "")
+        round_id = ROUND_MAP.get(round_name, "5")
+
+        match_ts = ""
+        try:
+            match_ts = dt.datetime.fromtimestamp(int(timestamp_str)).isoformat()
+        except (ValueError, OSError):
+            pass
+
+        results.append({
+            "MatchState": "U",
+            "DrawLevelType": "M",
+            "DrawMatchType": "S",
+            "RoundID": round_id,
+            "MatchID": f"FS-{slug_a}-{slug_b}",
+            "MatchTimeStamp": match_ts,
+            "PlayerNameFirstA": first_a,
+            "PlayerNameLastA": last_a,
+            "PlayerNameFirstB": first_b,
+            "PlayerNameLastB": last_b,
+            "PlayerIDA": None,
+            "PlayerIDB": None,
+            "_source": "flashscore",
+        })
+
+    return results
+
+
 def fetch_active_tournaments(target_date: str) -> List[dict]:
     """Find WTA tournaments that are in progress or starting on target_date.
 
@@ -612,6 +768,42 @@ def main() -> int:
             print(f"    {len(matches)} upcoming singles matches")
         else:
             print(f"    No upcoming singles matches")
+
+    # ── Supplement with Flashscore fixtures ────────────────────────────────────
+    target_d = dt.date.fromisoformat(target)
+    existing_keys: set = set()
+    for _t, _m in all_upcoming:
+        la = str(_m.get("PlayerNameLastA", "")).strip().lower()
+        lb = str(_m.get("PlayerNameLastB", "")).strip().lower()
+        if la and lb:
+            existing_keys.add(f"{la}_{lb}")
+            existing_keys.add(f"{lb}_{la}")
+
+    fs_added = 0
+    for t in tournaments:
+        tname = t["tournamentGroup"]["name"].upper().strip()
+        fs_slug = FLASHSCORE_WTA_SLUGS.get(tname)
+        if not fs_slug:
+            continue
+        surface = t.get("surface", "Hard")
+        try:
+            fs_matches = fetch_flashscore_wta_matches(fs_slug, target_d, verify_ssl=_VERIFY_SSL)
+        except Exception as exc:
+            print(f"    [FS] Could not fetch Flashscore for {tname}: {exc}")
+            continue
+
+        for fm in fs_matches:
+            la = str(fm.get("PlayerNameLastA", "")).strip().lower()
+            lb = str(fm.get("PlayerNameLastB", "")).strip().lower()
+            key = f"{la}_{lb}"
+            if key in existing_keys or f"{lb}_{la}" in existing_keys:
+                continue  # already have this match from WTA API
+            all_upcoming.append((t, fm))
+            existing_keys.add(key)
+            fs_added += 1
+
+    if fs_added:
+        print(f"  [Flashscore] Added {fs_added} matches not in WTA API")
 
     if not all_upcoming:
         print("No upcoming WTA matches found.")
