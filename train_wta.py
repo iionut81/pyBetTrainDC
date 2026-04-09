@@ -407,6 +407,11 @@ def main() -> int:
     df = pd.read_csv(args.history_csv)
     df["match_date"] = pd.to_datetime(df["match_date"], errors="coerce")
     df = df.dropna(subset=["match_date"]).copy()
+    # Drop rows without player IDs (e.g. Flashscore-only matches without Sackmann mapping)
+    before = len(df)
+    df = df.dropna(subset=["winner_id", "loser_id"]).copy()
+    if len(df) < before:
+        print(f"  Dropped {before - len(df)} rows without player IDs")
     df["winner_id"] = df["winner_id"].astype(int)
     df["loser_id"] = df["loser_id"].astype(int)
     print(f"  Rows: {len(df)}")

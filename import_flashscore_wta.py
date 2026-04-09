@@ -424,6 +424,27 @@ def main() -> int:
         all_matches = queue_df.to_dict("records")
         LOG.info(f"  Queue: {len(all_matches)} matches")
 
+    # ── Build name → Sackmann ID map from existing history ─────────────────
+    hist_path = Path("data/historical/wta_matches_combined.csv")
+    name_to_id: Dict[str, int] = {}
+    if hist_path.exists():
+        hist = pd.read_csv(hist_path, usecols=["winner_name", "winner_id", "loser_name", "loser_id"])
+        for col_name, col_id in [("winner_name", "winner_id"), ("loser_name", "loser_id")]:
+            for _, r in hist[[col_name, col_id]].dropna().drop_duplicates(col_name).iterrows():
+                name_to_id[str(r[col_name]).strip().lower()] = int(r[col_id])
+        LOG.info(f"  Player ID map: {len(name_to_id)} names")
+
+    def _resolve_id(name: str) -> Optional[int]:
+        n = name.strip().lower()
+        if n in name_to_id:
+            return name_to_id[n]
+        # Try last name only match
+        last = n.split()[-1] if n else ""
+        matches = [(k, v) for k, v in name_to_id.items() if k.endswith(f" {last}")]
+        if len(matches) == 1:
+            return matches[0][1]
+        return None
+
     # ── Phase 2: Fetch serve stats ──────────────────────────────────────────
     LOG.info("")
     LOG.info("[PHASE 2] Fetching match statistics via API ...")
@@ -447,6 +468,8 @@ def main() -> int:
         w_prefix = "a" if winner_side == "A" else "b"
         l_prefix = "b" if winner_side == "A" else "a"
 
+        winner_name = m.get("winner_name", "")
+        loser_name = m.get("loser_name", "")
         row = {
             "event_id": eid,
             "source": "flashscore",
@@ -454,8 +477,10 @@ def main() -> int:
             "surface": m.get("surface", "Hard"),
             "tourney_name": m.get("tournament", ""),
             "round": m.get("round", ""),
-            "winner_name": m.get("winner_name", ""),
-            "loser_name": m.get("loser_name", ""),
+            "winner_name": winner_name,
+            "loser_name": loser_name,
+            "winner_id": _resolve_id(winner_name),
+            "loser_id": _resolve_id(loser_name),
             "score": m.get("score", ""),
         }
 
