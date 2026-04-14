@@ -51,6 +51,10 @@ FLASHSCORE_LEAGUE_URLS: Dict[str, str] = {
     "SA1": "https://www.flashscore.com/football/saudi-arabia/saudi-professional-league/fixtures/",
     "SW1": "https://www.flashscore.com/football/switzerland/super-league/fixtures/",
     "DK1": "https://www.flashscore.com/football/denmark/superliga/fixtures/",
+    "B1": "https://www.flashscore.com/football/belgium/jupiler-pro-league/fixtures/",
+    "B2": "https://www.flashscore.com/football/belgium/challenger-pro-league/fixtures/",
+    "TR1": "https://www.flashscore.com/football/turkey/super-lig/fixtures/",
+    "TR2": "https://www.flashscore.com/football/turkey/1-lig/fixtures/",
 }
 
 API_LEAGUE_MAP: Dict[tuple[str, str], str] = {
@@ -79,6 +83,12 @@ API_LEAGUE_MAP: Dict[tuple[str, str], str] = {
     ("switzerland", "super league"): "SW1",
     ("switzerland", "super league 1"): "SW1",
     ("denmark", "superliga"): "DK1",
+    ("belgium", "jupiler pro league"): "B1",
+    ("belgium", "pro league"): "B1",
+    ("belgium", "challenger pro league"): "B2",
+    ("turkey", "super lig"): "TR1",
+    ("turkey", "süper lig"): "TR1",
+    ("turkey", "1. lig"): "TR2",
 }
 
 
@@ -187,7 +197,7 @@ def fetch_fixtures_from_api(
         headers["Authorization"] = f"Bearer {api_key}"
         headers["x-apisports-key"] = api_key
 
-    # Primary: Flashscore (free, all 16 leagues, no quota).
+    # Primary: Flashscore (free, all 20 leagues, no quota).
     # Secondary: API-Football odds enrichment where available.
     if "v3.football.api-sports.io/fixtures" in api_url:
         parsed_url = urlparse(api_url)

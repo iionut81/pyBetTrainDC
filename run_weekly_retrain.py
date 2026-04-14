@@ -4,7 +4,7 @@ from __future__ import annotations
 
 Runs in order:
   0.  pytest                          — abort if tests fail
-  0b. import_transfermarkt.py        — refresh Transfermarkt history (DC + Goals source)
+  0b. import_flashscore_stats.py     — refresh Flashscore history (DC + Goals source, 68 columns)
   1.  build_fhg_history.py           — refresh FHG/Goals history from API-Football
   2.  build_corners_history.py       — refresh Corners history from API-Football
   3.  train_team_ratings.py          — rebuild DC team ratings pkl
@@ -86,17 +86,13 @@ def main() -> int:
         print("  ⚠ Tests failed — aborting retrain to avoid training on broken code.")
         return 1
 
-    # ── 0b. Refresh Transfermarkt history (DC + Goals source data) ─────────
+    # ── 0b. Refresh Flashscore history (DC + Goals source data, 68 cols) ────
     if not args.skip_history:
         step(
-            "Transfermarkt history refresh (5 seasons snapshot)",
-            [py, "import_transfermarkt.py",
-             "--start-season-year", "2021",
-             "--n-seasons", "5",
-             "--output-csv", "simulations/seasons/transfermarkt_weekly_5s_snapshot.csv",
-             "--merge-into", "data/historical/historical_matches_transfermarkt.csv",
-             "--sleep-seconds", "0.3",
-             ],
+            "Flashscore history refresh (current + previous season)",
+            [py, "import_flashscore_stats.py",
+             "--seasons", f"{season - 1},{season}",
+             ] + insecure,
         )
 
     # ── 1. Refresh FHG / Goals history ──────────────────────────────────────

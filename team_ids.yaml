@@ -316,6 +316,8 @@ I1:
   venezia: venezia
 
 I2:
+  # Fix fuzzy match: cosenza is its own team, not cesena
+  cosenza: cosenza
   # API-Football names
   "spezia calcio": spezia
   "cosenza calcio": cosenza
@@ -495,6 +497,8 @@ RS1:
   spartak: "sp. subotica"
 
 SA1:
+  # Fix fuzzy match: al raed is its own team
+  al raed: al raed
   # API-Football names
   "al-ahli jeddah": "al ahli sc"
   "al-ettifaq": al ettifaq
@@ -601,3 +605,187 @@ SW1:
   "young boys": young boys
   yverdon: yverdon
   zurich: zurich
+
+B1:
+  # API-Football / Transfermarkt names
+  "royal antwerp fc": antwerp
+  "club brugge": club brugge kv
+  "club bruges kv": club brugge kv
+  "krc genk": genk
+  "kaa gent": gent
+  "kv kortrijk": kortrijk
+  "oh leuven": leuven
+  "oud-heverlee leuven": leuven
+  "kv mechelen": kv mechelen
+  "standard liege": st. liege
+  "standard de liège": st. liege
+  "sint-truidense vv": st. truiden
+  "sint-truiden": st. truiden
+  "royale union saint-gilloise": royale union sg
+  "union saint-gilloise": royale union sg
+  "union st. gilloise": royale union sg
+  "zulte waregem": waregem
+  "sv zulte waregem": waregem
+  "cercle brugge": cercle brugge ksv
+  "rwdm": rwdm brussels
+  "raal": raal la louviere
+  # Flashscore canonical
+  anderlecht: anderlecht
+  antwerp: antwerp
+  beerschot va: beerschot va
+  beveren: beveren
+  cercle brugge ksv: cercle brugge ksv
+  charleroi: charleroi
+  club brugge kv: club brugge kv
+  deinze: deinze
+  dender: dender
+  eupen: eupen
+  genk: genk
+  gent: gent
+  kortrijk: kortrijk
+  kv mechelen: kv mechelen
+  leuven: leuven
+  lommel sk: lommel sk
+  oostende: oostende
+  patro eisden: patro eisden
+  raal la louviere: raal la louviere
+  royale union sg: royale union sg
+  rwdm brussels: rwdm brussels
+  seraing: seraing
+  sporting lokeren: sporting lokeren
+  st. liege: st. liege
+  st. truiden: st. truiden
+  waregem: waregem
+  westerlo: westerlo
+
+B2:
+  # Flashscore canonical (includes U23 teams)
+  anderlecht u23: anderlecht u23
+  beerschot va: beerschot va
+  beveren: beveren
+  club brugge kv u23: club brugge kv u23
+  deinze: deinze
+  dender: dender
+  eupen: eupen
+  francs borains: francs borains
+  genk u23: genk u23
+  gent u23: gent u23
+  k. lierse s.k.: k. lierse s.k.
+  kortrijk: kortrijk
+  lommel sk: lommel sk
+  mouscron: mouscron
+  oc charleroi: oc charleroi
+  oostende: oostende
+  patro eisden: patro eisden
+  raal la louviere: raal la louviere
+  rfc liege: rfc liege
+  rwdm brussels: rwdm brussels
+  seraing: seraing
+  sporting lokeren: sporting lokeren
+  st. liege u23: st. liege u23
+  virton: virton
+  waregem: waregem
+  westerlo: westerlo
+
+TR1:
+  # API-Football / Transfermarkt names
+  "istanbul basaksehir": basaksehir
+  "istanbul basaksehir fk": basaksehir
+  "fatih karagumruk": karagumruk
+  "fatih karagümrük": karagumruk
+  "caykur rizespor": rizespor
+  "çaykur rizespor": rizespor
+  "yeni malatyaspor fk": yeni malatyaspor
+  "mke ankaragucu": ankaragucu
+  "ankaragücü": ankaragucu
+  "kasimpasa sk": kasimpasa
+  "kasımpaşa": kasimpasa
+  "kayserispor fk": kayserispor
+  "sivasspor fk": sivasspor
+  "konyaspor fc": konyaspor
+  "trabzonspor as": trabzonspor
+  "giresunspor fc": giresunspor
+  "gaziantep fk": gaziantep
+  "gaziantep f.k.": gaziantep
+  "genclerbirligi sk": genclerbirligi
+  "gençlerbirliği": genclerbirligi
+  "istanbul bb": basaksehir
+  # Flashscore canonical
+  adana demirspor: adana demirspor
+  alanyaspor: alanyaspor
+  altay: altay
+  ankaragucu: ankaragucu
+  antalyaspor: antalyaspor
+  basaksehir: basaksehir
+  besiktas: besiktas
+  bodrumspor: bodrumspor
+  eyupspor: eyupspor
+  fenerbahce: fenerbahce
+  galatasaray: galatasaray
+  gaziantep: gaziantep
+  genclerbirligi: genclerbirligi
+  giresunspor: giresunspor
+  goztepe: goztepe
+  hatayspor: hatayspor
+  istanbulspor as: istanbulspor as
+  karagumruk: karagumruk
+  kasimpasa: kasimpasa
+  kayserispor: kayserispor
+  kocaelispor: kocaelispor
+  konyaspor: konyaspor
+  pendikspor: pendikspor
+  rizespor: rizespor
+  samsunspor: samsunspor
+  sivasspor: sivasspor
+  trabzonspor: trabzonspor
+  umraniyespor: umraniyespor
+  yeni malatyaspor: yeni malatyaspor
+
+TR2:
+  # Shared aliases with TR1 (promoted/relegated)
+  "fatih karagumruk": karagumruk
+  "istanbul basaksehir": basaksehir
+  "caykur rizespor": rizespor
+  "mke ankaragucu": ankaragucu
+  "genclerbirligi sk": genclerbirligi
+  "şanlıurfaspor": sanliurfaspor
+  # Flashscore canonical
+  adana demirspor: adana demirspor
+  adanaspor as: adanaspor as
+  altay: altay
+  altinordu: altinordu
+  amedspor: amedspor
+  ankaragucu: ankaragucu
+  balikesirspor: balikesirspor
+  bandirmaspor: bandirmaspor
+  bodrumspor: bodrumspor
+  boluspor: boluspor
+  bursaspor: bursaspor
+  corum: corum
+  denizlispor: denizlispor
+  erokspor: erokspor
+  erzurumspor: erzurumspor
+  eyupspor: eyupspor
+  genclerbirligi: genclerbirligi
+  giresunspor: giresunspor
+  goztepe: goztepe
+  hatayspor: hatayspor
+  igdir fk: igdir fk
+  istanbulspor as: istanbulspor as
+  karagumruk: karagumruk
+  keciorengucu: keciorengucu
+  kocaelispor: kocaelispor
+  manisa fk: manisa fk
+  menemenspor: menemenspor
+  pendikspor: pendikspor
+  rizespor: rizespor
+  sakaryaspor: sakaryaspor
+  samsunspor: samsunspor
+  sanliurfaspor: sanliurfaspor
+  sariyer: sariyer
+  serik spor: serik spor
+  sivasspor: sivasspor
+  tuzlaspor: tuzlaspor
+  umraniyespor: umraniyespor
+  vanspor fk: vanspor fk
+  yeni malatyaspor: yeni malatyaspor

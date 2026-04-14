@@ -156,7 +156,7 @@ def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(
         description="Train leakage-free Goals Totals calibration from walk-forward DC predictions."
     )
-    p.add_argument("--history-csv", default="data/historical/historical_matches_transfermarkt.csv")
+    p.add_argument("--history-csv", default="data/flashscore/match_stats.csv")
     p.add_argument("--out-calibration-csv", default="simulations/Goals/data/goals_calibration.csv")
     p.add_argument("--out-predictions-csv", default="simulations/Goals/backtests/goals_predictions.csv")
     p.add_argument("--out-summary-csv", default="simulations/Goals/backtests/goals_backtest_summary.csv")

@@ -54,6 +54,10 @@ FLASH_LEAGUES: Dict[str, dict] = {
     "SA1": {"country": "saudi-arabia", "slug": "saudi-professional-league"},
     "SW1": {"country": "switzerland",  "slug": "super-league"},
     "DK1": {"country": "denmark",      "slug": "superliga"},
+    "B1":  {"country": "belgium",      "slug": "jupiler-pro-league"},
+    "B2":  {"country": "belgium",      "slug": "challenger-pro-league"},
+    "TR1": {"country": "turkey",       "slug": "super-lig"},
+    "TR2": {"country": "turkey",       "slug": "1-lig"},
 }
 
 # Flashscore internal stats API

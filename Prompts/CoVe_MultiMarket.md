@@ -447,15 +447,61 @@ This analysis is for **daily single-bet decisions**, not long-term portfolio opt
 
 ---
 
-## STEP 6: Top 2 Picks
+## STEP 6: Single Bet Strategy Selection (updated 2026-04-10)
 
-From all surviving picks across all markets, select the **top 2** ranked by:
+**OBJECTIVE:** Select exactly **1 pick per day** for the 25% bankroll strategy.
+**TARGET:** Odds 1.25-1.40, probability 85%+, score 8+.
 
+### MARKET PRIORITY ORDER (Sweet Spot Ranking):
+
+| Priority | Market | Prob | Odds Range | When |
+|----------|--------|------|-----------|------|
+| **🥇 1st** | **DC Football (score 9+)** | 85-92% | **1.25-1.35** | 2-3x/week |
+| **🥈 2nd** | **Corners U11.5 SP2/I1/F1** | 88-93% | **1.25-1.35** | 2-3x/week |
+| **🥉 3rd** | **Over 7.5 Set 1 Tennis** | 80-85% | **1.25-1.40** | 1-2x/week |
+| **4th** | **Corners U11.5 other leagues** | 83-88% | 1.15-1.25 | 3-5x/week |
+| **5th** | **Under 12.5 Set 1 Tennis** | 85-90% | 1.10-1.15 | Daily on clay |
+| **6th** | **Under 4.5 Goals** | 88-93% | 1.10-1.16 | Daily |
+
+### SELECTION RULES:
+
+1. From ALL surviving picks (score 7+), filter for: **odds >= 1.25 AND prob >= 85%**
+2. If multiple qualify, pick the one with **highest score**, then **highest edge**
+3. If NONE qualify at odds 1.25+, check if any pick has **prob >= 90% AND odds >= 1.15** → acceptable as conservative day
+4. If still NONE → **SKIP DAY** (no bet is better than a bad bet)
+
+### MINIMUM THRESHOLDS (absolute):
+- **Odds < 1.10 → NEVER bet** (profit too small)
+- **Prob < 80% → NEVER bet** (too risky for single bet strategy)
+- **Score < 7 → NEVER bet**
+
+### OUTPUT:
+
+Present the **single best pick** as:
+
+### 🎯 TODAY'S PICK
+**[Match] — [Market] @ [Odds]**
+Score: X/10 | Confidence: HIGH/MODERATE
+Model: X% | Research: X% | Fair odds: X.XX
+Priority: 1st/2nd/3rd (from market priority table)
+Stake: 25% of current bankroll
+Key stat: ...
+How I lose: ...
+Source: [URL]
+
+**If no qualifying pick exists:**
+### ⏸️ SKIP DAY
+No pick meets minimum criteria (odds 1.25+ with prob 85%+, or odds 1.15+ with prob 90%+).
+Better to skip than to force a bad bet.
+
+---
+
+## STEP 7: Backup — Top 2 Picks (for reference)
+
+If the user wants options beyond the single best pick, show top 2 ranked by:
 1. Checklist score (highest first)
 2. Research-adjusted probability (highest first)
-3. Edge vs market odds (bonus ranking, not required)
-
-Present as:
+3. Edge vs market odds (bonus ranking)
 
 ### 🥇 PICK 1
 **[Match] — [Market] @ [Odds]**
@@ -473,25 +519,21 @@ Risk: ...
 
 ---
 
-## ACCUMULATOR (optional)
+## ACCUMULATOR (NOT RECOMMENDED for main strategy)
 
-If the top picks are from **different events** (different matches / different sports) → suggest accumulator.
+**WARNING:** The single bet strategy (25% bankroll) has 100% success rate in simulations.
+Accumulators have 0.8% success rate. **Do not use accumulators for the main strategy.**
 
-**Rules:**
-- Only include picks with Score **8+** in accumulators
-- Max 3 legs (more = too much variance)
-- DC legs at odds < 1.12 are acceptable as "anchor" legs only
-- Calculate combined odds
-- Combined fair odds must be < combined market odds (positive expected value)
+Accumulators are acceptable ONLY for:
+- Small side bets (max 5% of bankroll)
+- Entertainment purposes
+- When user explicitly requests
+
+If used, rules:
+- Only include picks with Score **8+**
+- Max 3 legs
 - Never combine two picks from the same match
-
-### Format:
-
-| Leg | Match | Market | Odds | Score |
-|-----|-------|--------|------|-------|
-| 1 | ... | ... | ... | ... |
-| 2 | ... | ... | ... | ... |
-| **Combined** | | | **X.XX** | |
+- Never use bankroll strategy money
 
 ---
 

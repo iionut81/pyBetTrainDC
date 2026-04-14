@@ -53,6 +53,10 @@ FLASH_LEAGUES: Dict[str, dict] = {
     "SA1": {"country": "saudi-arabia", "slug": "saudi-professional-league"},
     "SW1": {"country": "switzerland",  "slug": "super-league"},
     "DK1": {"country": "denmark",      "slug": "superliga"},
+    "B1":  {"country": "belgium",      "slug": "jupiler-pro-league"},
+    "B2":  {"country": "belgium",      "slug": "challenger-pro-league"},
+    "TR1": {"country": "turkey",       "slug": "super-lig"},
+    "TR2": {"country": "turkey",       "slug": "1-lig"},
 }
 
 # Flashscore internal stats API
@@ -165,8 +169,10 @@ def _results_urls(info: dict, season_start: Optional[int] = None) -> List[str]:
 
 
 # ---------------------------------------------------------------------------
-# Phase 1 — Collect match IDs from results feeds
+# Phase 1 — Collect match IDs from results feeds (with pagination)
 # ---------------------------------------------------------------------------
+
+PAGINATION_API = "https://2.flashscore.ninja/2/x/feed/tr_1_{cid}_{tsid}_{sid}_{page}_0_en_1"
 
 def _extract_feed(html: str) -> str:
     m = re.search(
@@ -174,6 +180,43 @@ def _extract_feed(html: str) -> str:
         html, re.DOTALL,
     )
     return m.group(1) if m else ""
+
+
+def _extract_pagination_ids(html: str) -> Tuple[Optional[str], Optional[str], Optional[int]]:
+    """Extract countryId (ZB), tournamentStageId (ZEE), and seasonId from HTML."""
+    feed = ""
+    m = re.search(
+        r"cjs\.initialFeeds\['results'\]\s*=\s*\{\s*data:\s*`(.*?)`,\s*allEventsCount:",
+        html, re.DOTALL,
+    )
+    if m:
+        feed = m.group(1)
+
+    # Extract ZEE (tournamentStageId) from feed header
+    tsid = None
+    m_zee = re.search(r"ZEE" + chr(247) + r"([^" + chr(172) + r"~]+)", feed)
+    if m_zee:
+        tsid = m_zee.group(1)
+
+    # Extract ZB (countryId) from feed header
+    cid = None
+    m_zb = re.search(r"ZB" + chr(247) + r"(\d+)", feed)
+    if m_zb:
+        cid = m_zb.group(1)
+
+    # Extract seasonId from the JS object
+    sid = None
+    m_sid = re.search(r"seasonId:\s*(\d+)", html)
+    if m_sid:
+        sid = int(m_sid.group(1))
+
+    # Extract allEventsCount
+    total = None
+    m_cnt = re.search(r"allEventsCount:\s*(\d+)", html)
+    if m_cnt:
+        total = int(m_cnt.group(1))
+
+    return cid, tsid, sid, total
 
 
 def _parse_fields(chunk: str) -> dict:
@@ -223,6 +266,43 @@ def parse_results_feed(feed: str, league: str, season_start: int) -> List[dict]:
     return out
 
 
+def _fetch_all_pages(
+    cid: str, tsid: str, sid: int, total: int,
+    league: str, season_start: int, verify_ssl: bool,
+) -> List[dict]:
+    """Fetch ALL result pages via the Flashscore ninja API."""
+    all_parsed: List[dict] = []
+    seen_eids: set = set()
+    max_pages = (total // 100) + 2  # safety margin
+
+    for page in range(max_pages):
+        url = PAGINATION_API.format(cid=cid, tsid=tsid, sid=sid, page=page)
+        try:
+            r = req.get(url, headers=STATS_HEADERS, timeout=35, verify=verify_ssl)
+            r.raise_for_status()
+            feed = r.text
+        except Exception as exc:
+            LOG.warning(f"    Page {page} failed: {exc}")
+            break
+
+        page_parsed = parse_results_feed(feed, league, season_start)
+        new_matches = [m for m in page_parsed if m["event_id"] not in seen_eids]
+
+        if not new_matches:
+            break  # no more new matches
+
+        for m in new_matches:
+            seen_eids.add(m["event_id"])
+        all_parsed.extend(new_matches)
+
+        if len(all_parsed) >= total:
+            break
+
+        time.sleep(DELAY_RESULTS)
+
+    return all_parsed
+
+
 def phase1_collect(
     leagues: List[str], season_starts: List[int], verify_ssl: bool
 ) -> pd.DataFrame:
@@ -240,8 +320,21 @@ def phase1_collect(
                 try:
                     r = req.get(url, headers=headers, timeout=35, verify=verify_ssl)
                     r.raise_for_status()
-                    feed = _extract_feed(r.text)
+                    html = r.text
+                    feed = _extract_feed(html)
                     parsed = parse_results_feed(feed, league, ss)
+
+                    # --- Pagination: fetch remaining pages if available ---
+                    cid, tsid, sid, total = _extract_pagination_ids(html)
+                    if cid and tsid and sid and total and total > len(parsed):
+                        LOG.debug(f"    {league} {ss}: page0={len(parsed)}, total={total} → paginating")
+                        paginated = _fetch_all_pages(
+                            cid, tsid, sid, total, league, ss, verify_ssl,
+                        )
+                        if len(paginated) > len(parsed):
+                            parsed = paginated
+                            LOG.debug(f"    {league} {ss}: got {len(parsed)} via pagination")
+
                     if parsed:
                         break
                 except Exception as exc:

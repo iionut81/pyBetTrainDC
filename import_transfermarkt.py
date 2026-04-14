@@ -30,6 +30,10 @@ LEAGUES: Dict[str, str] = {
     "SA1": "SA1",
     "C1": "SW1",
     "DK1": "DK1",
+    "BE1": "B1",
+    "BE2": "B2",
+    "TR1": "TR1",
+    "TR2": "TR2",
 }
 
 USER_AGENT = (
