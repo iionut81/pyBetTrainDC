@@ -63,11 +63,11 @@ PYTHONIOENCODING=utf-8 python run_weekly_retrain.py --api-key KEY --insecure
 
 | File | Market | Version |
 |---|---|---|
-| `1.0.0CoVe_DC.md` | Double Chance | v1.1 |
+| `1.0.0CoVe_DC.md` | Double Chance | v1.2 (research cap +3pp) |
 | `1.0.2.0.Goals.md` | Under Goals | v2.0 |
-| `1.0.3CoVe_Corners.md` | Corners Under | v1.0 |
+| `1.0.3CoVe_Corners.md` | Corners Under | v1.1 (mismatch > 0.6 = HARD PASS) |
 | `1.0.4.WTA_over7.5_Under12.5.md` | WTA Set1 dual market | v3.2 |
-| `1.0.5MultiMarket.md` | Multi-Market Accumulator | v1.0 |
+| `1.0.5MultiMarket.md` | Multi-Market Accumulator | v1.1 (ROI table + lessons) |
 | `3.0.European_Cups.md` | UCL/UEL/UECL | v1.0 |
 
 ---
