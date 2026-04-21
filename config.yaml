@@ -83,6 +83,63 @@ corners:
   tempo_min: 0.75
   tempo_max: 1.25
 
+# --- Shots on Target (per-team) recommendation filters ---
+# Bookmaker SOT definition differs from Flashscore count (bookmaker ~1.9x higher globally).
+# Scaling factor applies to our predicted lambdas before probability computation.
+sot:
+  scaling_factor: 1.90     # fallback global multiplier
+  scaling_per_league:      # override per-league (calibrated from bookmaker odds April 2026)
+    E0: 1.90   # Premier League — confirmed via Crystal Palace
+    E1: 2.10   # Championship — confirmed via Coventry
+    D1: 1.95   # Bundesliga — estimated, high volume league
+    D2: 1.95
+    SP1: 1.90  # La Liga — confirmed
+    SP2: 1.90
+    I1: 1.90   # Serie A — confirmed
+    I2: 1.90
+    F1: 1.90   # Ligue 1
+    N1: 1.85   # Eredivisie
+    P1: 2.00   # Liga Portugal — confirmed via Moreirense
+    RO1: 1.80
+    B1: 1.70   # Jupiler Pro — confirmed via Leuven + Genk
+    B2: 1.70
+    TR1: 1.85
+    TR2: 1.85
+    DK1: 1.80
+    SW1: 1.85
+    RS1: 1.80
+    SA1: 1.90  # Saudi Pro League
+  lines: [2.5, 3.5, 4.5, 5.5]
+  min_probability: 0.60
+  min_odds: 1.25
+  max_odds: 2.50
+  max_fair_odds: 1.85
+  lambda_min: 0.5
+  lambda_max: 8.0
+  blend_empirical: 0.8
+  blend_league_mean: 0.2
+  default_mu_team: 2.4     # global fallback mean SOT per team (pre-scaling)
+  default_k: 10.0
+  k_min: 0.5
+  k_max: 200.0
+  tempo_min: 0.75
+  tempo_max: 1.25
+  # Fix #2: Recency decay weighting for team profiles.
+  recency:
+    enabled: true
+    half_life_days: 140    # match weight = exp(-ln(2)/140 * days_ago), ~0.005 per day
+  # Fix #3: Elo/class strength adjustment from team_ratings.pkl.
+  elo:
+    enabled: true
+    sot_elasticity: 0.15   # lambda multiplier = 1 + elasticity * (attack_own - defence_opp)
+    clip_min: 0.65         # never reduce lambda below 65% of baseline
+    clip_max: 1.50         # never boost lambda above 150% of baseline
+  # Fix #5: Squad depletion penalty (applied at daily prediction time).
+  depletion:
+    threshold: 3           # >= N key absences triggers penalty
+    penalty_per_absence: 0.05  # lambda reduction per absent key player (capped)
+    max_penalty: 0.25      # max 25% lambda reduction
+
 # --- WTA Tennis prediction model ---
 wta:
   rolling_window: 20           # last N matches on same surface for ratings
@@ -234,6 +291,11 @@ training:
     min_train_teams: 6
     min_samples: 50
   corners:
+    lookback_days: 365
+    retrain_days: 30
+    min_team_home: 5
+    min_team_away: 5
+  sot:
     lookback_days: 365
     retrain_days: 30
     min_team_home: 5

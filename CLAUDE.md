@@ -68,6 +68,7 @@ PYTHONIOENCODING=utf-8 python run_weekly_retrain.py --api-key KEY --insecure
 | `1.0.3CoVe_Corners.md` | Corners Under | v1.1 (mismatch > 0.6 = HARD PASS) |
 | `1.0.4.WTA_over7.5_Under12.5.md` | WTA Set1 dual market | v3.2 |
 | `1.0.5MultiMarket.md` | Multi-Market Accumulator | v1.1 (ROI table + lessons) |
+| `1.0.6CoVe_SOT.md` | Per-team Shots on Target Over | v1.0 (scaling 1.9x, class-gap HARD PASS) |
 | `3.0.European_Cups.md` | UCL/UEL/UECL | v1.0 |
 
 ---
