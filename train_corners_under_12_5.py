@@ -20,7 +20,7 @@ def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(
         description="Train and evaluate Under 12.5 corners model (Poisson / Negative Binomial)."
     )
-    p.add_argument("--history-csv", default="simulations/Corners U12.5/data/corners_history.csv")
+    p.add_argument("--history-csv", default="data/flashscore/match_stats.csv")
     p.add_argument("--lookback-days", type=int, default=_TC["lookback_days"])
     p.add_argument("--retrain-days", type=int, default=_TC["retrain_days"])
     p.add_argument("--min-team-home", type=int, default=_TC["min_team_home"])

@@ -4,18 +4,17 @@ from __future__ import annotations
 
 Runs in order:
   0.  pytest                          — abort if tests fail
-  0b. import_flashscore_stats.py     — refresh Flashscore history (DC + Goals source, 68 columns)
+  0b. import_flashscore_stats.py     — refresh Flashscore history (DC + Goals + Corners source, 68 columns)
   1.  build_fhg_history.py           — refresh FHG/Goals history from API-Football
-  2.  build_corners_history.py       — refresh Corners history from API-Football
-  3.  train_team_ratings.py          — rebuild DC team ratings pkl
-  4.  train_fhg_calibration.py       — retrain FHG Platt calibration
-  5.  train_fhg_league_bias.py       — retrain FHG league bias factors
-  6.  train_goals_totals.py          — retrain Goals Totals calibration
-  7.  train_corners_under_12_5.py    — retrain Corners NB model + Platt calibration
-  7b. import_wta_tennis_abstract.py  — refresh WTA history from Tennis Abstract
-  7c. train_wta.py                   — retrain WTA Elo + calibration + tiebreak
-  8.  backtest_dc.py                 — backtest DC model on historical data
-  9.  train_dc_calibration.py        — retrain DC Platt calibration from backtest
+  2.  train_team_ratings.py          — rebuild DC team ratings pkl
+  3.  train_fhg_calibration.py       — retrain FHG Platt calibration
+  4.  train_fhg_league_bias.py       — retrain FHG league bias factors
+  5.  train_goals_totals.py          — retrain Goals Totals calibration
+  6.  train_corners_under_12_5.py    — retrain Corners NB model + Platt calibration (uses Flashscore)
+  6b. import_wta_tennis_abstract.py  — refresh WTA history from Tennis Abstract
+  6c. train_wta.py                   — retrain WTA Elo + calibration + tiebreak
+  7.  backtest_dc.py                 — backtest DC model on historical data
+  8.  train_dc_calibration.py        — retrain DC Platt calibration from backtest
 
 Usage:
   python run_weekly_retrain.py --api-key YOUR_KEY --insecure
@@ -104,16 +103,6 @@ def main() -> int:
              "--start-season", str(season),
              "--end-season", str(season),
              ] + insecure,
-        )
-
-    # ── 2. Refresh Corners history ───────────────────────────────────────────
-    if not args.skip_history and not args.skip_corners:
-        step(
-            "Corners history refresh (API-Football)",
-            [py, "build_corners_history.py",
-             "--api-key", args.api_key,
-             "--seasons", str(season),
-             ],
         )
 
     # ── 3. Rebuild team ratings (used by FHG + Goals daily runners) ──────────

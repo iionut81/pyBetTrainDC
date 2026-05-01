@@ -747,6 +747,7 @@ def main() -> int:
         print("No active WTA tournaments found.")
         return 0
 
+    target_d = dt.date.fromisoformat(target)
     all_upcoming: List[Tuple[dict, dict]] = []  # (tournament, match)
     for t in tournaments:
         gid = t["tournamentGroup"]["id"]
@@ -762,15 +763,37 @@ def main() -> int:
             print(f"    [WARN] Could not fetch matches: {exc}")
             continue
 
+        kept = 0
+        skipped_no_ts = 0
+        skipped_other_date = 0
         for m in matches:
+            ts_str = str(m.get("MatchTimeStamp", "")).strip()
+            if not ts_str:
+                skipped_no_ts += 1
+                continue
+            try:
+                m_date = dt.datetime.fromisoformat(ts_str.replace("Z", "+00:00")).date()
+            except (ValueError, TypeError):
+                skipped_no_ts += 1
+                continue
+            if m_date != target_d:
+                skipped_other_date += 1
+                continue
             all_upcoming.append((t, m))
+            kept += 1
+
         if matches:
-            print(f"    {len(matches)} upcoming singles matches")
+            extras = []
+            if skipped_no_ts:
+                extras.append(f"{skipped_no_ts} no timestamp")
+            if skipped_other_date:
+                extras.append(f"{skipped_other_date} other date")
+            note = f" (skipped: {', '.join(extras)})" if extras else ""
+            print(f"    {kept} upcoming singles matches{note}")
         else:
             print(f"    No upcoming singles matches")
 
     # ── Supplement with Flashscore fixtures ────────────────────────────────────
-    target_d = dt.date.fromisoformat(target)
     existing_keys: set = set()
     for _t, _m in all_upcoming:
         la = str(_m.get("PlayerNameLastA", "")).strip().lower()
@@ -1001,9 +1024,9 @@ def main() -> int:
             sid_b if sid_b is not None else -1,
             ref_date, player_a, player_b,
         )
+        unstable_reason = reject_reason
         if reject_reason:
             print(f"  [UNSTABLE] {player_a} vs {player_b} — {reject_reason}")
-            continue
 
         # Blend Markov + Elo for match winner
         p_markov = result["p_match_a"]
@@ -1134,6 +1157,12 @@ def main() -> int:
             if "tiebreak" in dr:
                 rec_tb = False
 
+        if unstable_reason:
+            rec_match = False
+            rec_s1_7 = False
+            rec_s1o = False
+            rec_tb = False
+
         base = {
             "run_date": dt.date.today().isoformat(),
             "match_date": m.get("MatchTimeStamp", ""),
@@ -1149,6 +1178,7 @@ def main() -> int:
             "p_markov": round(p_markov, 4),
             "p_elo": round(p_elo, 4) if p_elo is not None else None,
             "expected_games": round(mc["expected_total_games"], 2),
+            "unstable_reason": unstable_reason or "",
         }
 
         # Winner

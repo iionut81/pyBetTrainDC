@@ -352,7 +352,11 @@ def phase1_collect(
 # ---------------------------------------------------------------------------
 
 def parse_all_stats(text: str) -> Dict[str, Tuple[Optional[str], Optional[str]]]:
-    """Parse the ¬÷ encoded stats feed into {stat_name: (home_val, away_val)}."""
+    """Parse the ¬÷ encoded stats feed into {stat_name: (home_val, away_val)}.
+
+    Feed has 3 sections marked by SE: "Match" (full), "1st Half", "2nd Half".
+    Match section comes FIRST, so we keep only the first occurrence per stat.
+    """
     stats: Dict[str, Tuple[Optional[str], Optional[str]]] = {}
     current_stat = ""
     home_val: Optional[str] = None
@@ -365,8 +369,8 @@ def parse_all_stats(text: str) -> Dict[str, Tuple[Optional[str], Optional[str]]]
             elif k == "SH":
                 home_val = v
             elif k == "SI" and current_stat:
-                stats[current_stat] = (home_val, v)
-                # Only keep first occurrence of each stat
+                if current_stat not in stats:
+                    stats[current_stat] = (home_val, v)
                 current_stat = ""
     return stats
 
