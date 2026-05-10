@@ -1193,8 +1193,14 @@ def main() -> int:
         })
 
         # Set 1 Over 7.5
+        _good_to_go = (
+            0.40 <= p_markov < 0.61
+            and p_elo is not None
+            and 0.40 <= p_elo < 0.61
+        )
         rows_s1_7.append({
             **base,
+            "good_to_go": "Yes" if _good_to_go else "No",
             "p_raw": round(p_s1_7_raw, 4),
             "p_cal": round(p_s1_7_cal, 4),
             "p_cal_adj": round(p_s1_7_adj, 4),
@@ -1250,6 +1256,11 @@ def main() -> int:
     for fname, row_list, label in files:
         df = pd.DataFrame(row_list)
         df = df.sort_values("p_cal", ascending=False).reset_index(drop=True)
+        if "good_to_go" in df.columns and "p_elo" in df.columns:
+            cols = list(df.columns)
+            cols.remove("good_to_go")
+            cols.insert(cols.index("p_elo") + 1, "good_to_go")
+            df = df[cols]
         path = base_dir / fname
         df.to_csv(path, index=False)
         n_rec = int(df["recommended"].sum())
