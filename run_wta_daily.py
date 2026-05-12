@@ -452,6 +452,16 @@ def _to_float(value: object) -> Optional[float]:
         return None
 
 
+def _count_sets_from_result(result_str: str) -> int:
+    """Count sets from a WTA API ResultString like 'Ostapenko d. Kalinskaya 6-1 6-2'.
+    Returns number of sets (2 or 3), 0 if unparseable.
+    """
+    import re
+    # Find all set scores: digit-digit, optionally followed by (digit) for tiebreaks
+    sets = re.findall(r'\d+-\d+(?:\(\d+\))?', result_str)
+    return len(sets)
+
+
 def normalize_round_id(value: object) -> int:
     """Map WTA round tokens to the numeric scale used by downstream filters."""
     token = str(value).strip().upper()
@@ -892,6 +902,9 @@ def main() -> int:
     surface_tb_total: Dict[str, int] = {}
     surface_s1_sum: Dict[str, float] = {}
     surface_s1_count: Dict[str, int] = {}
+    # Fatigue tracking: last match date + was it 3 sets + any 3-set match in last 7 days
+    player_last_match: Dict[int, Dict] = {}
+    player_3sets_7d: Dict[int, bool] = {}  # True if any 3-set match in last 7 days before target_d
     for _, hrow in hist.iterrows():
         s1g = parse_set1_games(str(hrow.get("score", "")))
         if s1g <= 0:
@@ -907,6 +920,67 @@ def main() -> int:
             player_tb_hits[pid] = player_tb_hits.get(pid, 0) + is_tb
             player_s1_sum[pid] = player_s1_sum.get(pid, 0.0) + s1g
             player_s1_count[pid] = player_s1_count.get(pid, 0) + 1
+        # Fatigue: track last match date and 3-set flag for each player
+        row_date = hrow.get("match_date")
+        if row_date is not None and not pd.isna(row_date):
+            try:
+                row_date_val = pd.Timestamp(row_date).date()
+            except Exception:
+                row_date_val = None
+            if row_date_val is not None and row_date_val < target_d:
+                w_sets = int(hrow.get("w_sets") or 0)
+                l_sets = int(hrow.get("l_sets") or 0)
+                was_3sets = (w_sets + l_sets) == 3
+                days_ago = (target_d - row_date_val).days
+                for pid in (int(hrow["winner_id"]), int(hrow["loser_id"])):
+                    if pid not in player_last_match or row_date_val > player_last_match[pid]["date"]:
+                        player_last_match[pid] = {"date": row_date_val, "was_3sets": was_3sets}
+                    # Track any 3-set match within last 7 days
+                    if was_3sets and days_ago <= 7:
+                        player_3sets_7d[pid] = True
+
+    # ── Supplement fatigue data from WTA API current tournament matches ────────
+    # Tennis Abstract has ~7 day delay → use WTA API finished matches for recent results
+    for t_cur in tournaments:
+        try:
+            gid = t_cur["tournamentGroup"]["id"]
+            yr = t_cur.get("year", target_d.year)
+            url = f"{WTA_API_BASE}/tournaments/{gid}/{yr}/matches"
+            raw = _fetch_json(url)
+            for m in raw.get("matches", []):
+                if str(m.get("MatchState", "")).strip().upper() != "F":
+                    continue
+                ts_str = str(m.get("MatchTimeStamp", "")).strip()
+                if not ts_str:
+                    continue
+                try:
+                    match_date_api = dt.datetime.fromisoformat(
+                        ts_str.replace("Z", "+00:00")
+                    ).date()
+                except (ValueError, TypeError):
+                    continue
+                if match_date_api >= target_d:
+                    continue
+                days_ago = (target_d - match_date_api).days
+                if days_ago > 14:
+                    continue
+                result_str = str(m.get("ResultString", "") or "")
+                n_sets = _count_sets_from_result(result_str)
+                if n_sets not in (2, 3):
+                    continue
+                was_3sets = (n_sets == 3)
+                for side in ("A", "B"):
+                    first = str(m.get(f"PlayerNameFirst{side}", "") or "").strip()
+                    last = str(m.get(f"PlayerNameLast{side}", "") or "").strip()
+                    pid = resolve_player_id(first, last, name_map)
+                    if pid is None:
+                        continue
+                    if pid not in player_last_match or match_date_api > player_last_match[pid]["date"]:
+                        player_last_match[pid] = {"date": match_date_api, "was_3sets": was_3sets}
+                    if was_3sets and days_ago <= 7:
+                        player_3sets_7d[pid] = True
+        except Exception:
+            pass  # API failure is non-fatal; fall back to historical data
 
     def _get_surface_tb_rate(surf: str) -> float:
         total = surface_tb_total.get(surf, 0)
@@ -929,6 +1003,15 @@ def main() -> int:
             cnt_s = surface_s1_count.get(surf, 0)
             return surface_s1_sum.get(surf, 0.0) / max(cnt_s, 1) if cnt_s > 0 else 9.5
         return player_s1_sum.get(pid, 0.0) / cnt
+
+    def _get_fatigue_info(pid: Optional[int]) -> tuple:
+        """Returns (days_rest, last_was_3sets, had_3sets_7d) for a player."""
+        if pid is None or pid not in player_last_match:
+            return None, None, False
+        last = player_last_match[pid]
+        days_rest = (target_d - last["date"]).days
+        had_3sets_7d = player_3sets_7d.get(pid, False)
+        return days_rest, last["was_3sets"], had_3sets_7d
 
     print(f"  Tiebreak rates: {', '.join(f'{s}={surface_tb_hits.get(s,0)}/{surface_tb_total.get(s,0)} ({_get_surface_tb_rate(s):.1%})' for s in ['Hard','Clay','Grass'])}")
 
@@ -1163,6 +1246,19 @@ def main() -> int:
             rec_s1o = False
             rec_tb = False
 
+        # Fatigue info for both players
+        days_rest_a, last_3sets_a, had_3sets_7d_a = _get_fatigue_info(sid_a)
+        days_rest_b, last_3sets_b, had_3sets_7d_b = _get_fatigue_info(sid_b)
+        # fatigue_flag: played 3-set match within 2 days OR any 3-set match within 7 days + rest ≤ 3
+        fatigue_flag_a = bool(
+            (days_rest_a is not None and days_rest_a <= 2 and last_3sets_a) or
+            (days_rest_a is not None and days_rest_a <= 3 and had_3sets_7d_a)
+        )
+        fatigue_flag_b = bool(
+            (days_rest_b is not None and days_rest_b <= 2 and last_3sets_b) or
+            (days_rest_b is not None and days_rest_b <= 3 and had_3sets_7d_b)
+        )
+
         base = {
             "run_date": dt.date.today().isoformat(),
             "match_date": m.get("MatchTimeStamp", ""),
@@ -1177,6 +1273,14 @@ def main() -> int:
             "p_hold_b": round(result["p_hold_b"], 4),
             "p_markov": round(p_markov, 4),
             "p_elo": round(p_elo, 4) if p_elo is not None else None,
+            "days_rest_a": days_rest_a,
+            "days_rest_b": days_rest_b,
+            "last_3sets_a": last_3sets_a,
+            "last_3sets_b": last_3sets_b,
+            "had_3sets_7d_a": had_3sets_7d_a,
+            "had_3sets_7d_b": had_3sets_7d_b,
+            "fatigue_flag_a": fatigue_flag_a,
+            "fatigue_flag_b": fatigue_flag_b,
             "expected_games": round(mc["expected_total_games"], 2),
             "unstable_reason": unstable_reason or "",
         }
@@ -1198,19 +1302,39 @@ def main() -> int:
             and p_elo is not None
             and 0.40 <= p_elo < 0.61
         )
+        # bet_signal: single column combining all filters for O7.5
+        # Yes = good_to_go + recommended + no fatigue on either player
+        _bet_signal = (
+            _good_to_go
+            and rec_s1_7
+            and not fatigue_flag_a
+            and not fatigue_flag_b
+        )
+
+        # u125_signal: Under 12.5 signal (no tiebreak expected)
+        # Backtest: p_markov > 0.65 AND p_u125 >= 0.88 → 91.1% hit rate
+        # (dominant match = less likely to reach tiebreak)
+        _p_u125 = round(1.0 - p_tb_cal, 4) if p_tb_cal is not None else None
+        # Dominant = either player has p_markov > 0.65
+        # p_markov is player_a's probability → player_b dominant if p_markov < 0.35
+        _dominant = (p_markov > 0.65 or p_markov < 0.35)
+        _u125_signal = bool(
+            _p_u125 is not None
+            and _p_u125 >= 0.88
+            and _dominant
+        )
+
         rows_s1_7.append({
             **base,
             "good_to_go": "Yes" if _good_to_go else "No",
             "p_raw": round(p_s1_7_raw, 4),
             "p_cal": round(p_s1_7_cal, 4),
             "p_cal_adj": round(p_s1_7_adj, 4),
-            "Chances": f"{p_s1_7_cal * 100:.1f}%",
-            "fair_odds": round(fair_odds_s1_7, 4) if fair_odds_s1_7 else None,
             "blowout_score": blowout_score,
             "competitive_set": competitive_set,
-            "collapse_risk": collapse_risk,
             "elite_pick": elite_pick,
-            "recommended": rec_s1_7,
+            "O7.5": "YES" if _bet_signal else "no",
+            "U12.5": "YES" if _u125_signal else "no",
         })
 
         # Set 1 Over 9.5
@@ -1263,7 +1387,12 @@ def main() -> int:
             df = df[cols]
         path = base_dir / fname
         df.to_csv(path, index=False)
-        n_rec = int(df["recommended"].sum())
+        if "recommended" in df.columns:
+            n_rec = int(df["recommended"].sum())
+        elif "O7.5" in df.columns:
+            n_rec = int((df["O7.5"] == "YES").sum())
+        else:
+            n_rec = 0
         print(f"  {label:20s} -> {path}  ({len(df)} matches, {n_rec} recommended)")
     return 0
 
