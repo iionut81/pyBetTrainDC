@@ -91,6 +91,10 @@ FLASHSCORE_WTA_SLUGS: Dict[str, str] = {
     "CHARLESTON": "charleston",
     "BOGOTA": "bogota",
     "MADRID 125": None,  # WTA 125 not on Flashscore main WTA page
+    "PARIS 125": "paris",
+    "PARMA 125": "parma",
+    "STRASBOURG": "strasbourg",
+    "RABAT": "rabat",
     "MIAMI": "miami",
     "INDIAN WELLS": "indian-wells",
     "DUBAI": "dubai",
@@ -176,11 +180,16 @@ def fetch_flashscore_wta_matches(
 
         # Check date
         timestamp_str = fields.get("AD", "0")
+        match_ts_raw = ""
         try:
             ts = int(timestamp_str)
-            match_date = dt.datetime.fromtimestamp(ts).date()
+            if ts > 0:
+                match_date = dt.datetime.fromtimestamp(ts).date()
+                match_ts_raw = dt.datetime.fromtimestamp(ts).isoformat()
+            else:
+                match_date = target_date  # no timestamp → assume target date
         except (ValueError, OSError):
-            continue
+            match_date = target_date  # invalid timestamp → assume target date
 
         if match_date != target_date:
             continue
@@ -213,11 +222,7 @@ def fetch_flashscore_wta_matches(
         round_name = fields.get("ER", "")
         round_id = ROUND_MAP.get(round_name, "5")
 
-        match_ts = ""
-        try:
-            match_ts = dt.datetime.fromtimestamp(int(timestamp_str)).isoformat()
-        except (ValueError, OSError):
-            pass
+        match_ts = match_ts_raw if match_ts_raw else f"{target_date}T23:59+02:00"
 
         results.append({
             "MatchState": "U",
@@ -303,10 +308,13 @@ def fetch_upcoming_matches(tournament_group_id: int, year: int) -> List[dict]:
     """
     url = f"{WTA_API_BASE}/tournaments/{tournament_group_id}/{year}/matches"
     data = _fetch_json(url)
-    matches = data.get("matches", [])
+    if isinstance(data, list):
+        matches = data
+    else:
+        matches = data.get("matches", [])
     main_singles = [
         m for m in matches
-        if m.get("DrawLevelType") == "M"
+        if m.get("DrawLevelType") in ("M", "Q")  # main draw + qualifying
         and m.get("DrawMatchType") == "S"
         and m.get("PlayerIDA")
         and m.get("PlayerIDB")
@@ -779,12 +787,18 @@ def main() -> int:
         for m in matches:
             ts_str = str(m.get("MatchTimeStamp", "")).strip()
             if not ts_str:
-                skipped_no_ts += 1
+                # no timestamp → assume target date, keep match
+                m["MatchTimeStamp"] = f"{target_d}T23:59+02:00"
+                all_upcoming.append((t, m))
+                kept += 1
                 continue
             try:
                 m_date = dt.datetime.fromisoformat(ts_str.replace("Z", "+00:00")).date()
             except (ValueError, TypeError):
-                skipped_no_ts += 1
+                # invalid timestamp → assume target date
+                m["MatchTimeStamp"] = f"{target_d}T23:59+02:00"
+                all_upcoming.append((t, m))
+                kept += 1
                 continue
             if m_date != target_d:
                 skipped_other_date += 1
@@ -1312,12 +1326,18 @@ def main() -> int:
         )
 
         # u125_signal: Under 12.5 signal (no tiebreak expected)
-        # Backtest: p_markov > 0.65 AND p_u125 >= 0.88 → 91.1% hit rate
-        # (dominant match = less likely to reach tiebreak)
+        # Backtest v2: added hold_asym filter (2026-05-20)
+        # hold_asym > 0.15 + min_hold < 0.50 + p_tb < 0.12 → 93.4% HR (N=777)
         _p_u125 = round(1.0 - p_tb_cal, 4) if p_tb_cal is not None else None
-        # Dominant = either player has p_markov > 0.65
-        # p_markov is player_a's probability → player_b dominant if p_markov < 0.35
         _dominant = (p_markov > 0.65 or p_markov < 0.35)
+        _hold_asym = round(abs(p_hold_a - p_hold_b), 4)
+        _min_hold = min(p_hold_a, p_hold_b)
+        # Premium zone: asym > 0.15 AND min_hold < 0.50 AND p_tb_cal < 0.12
+        _premium_u125 = (
+            _hold_asym > 0.15
+            and _min_hold < 0.50
+            and (p_tb_cal is not None and p_tb_cal < 0.12)
+        )
         _u125_signal = bool(
             _p_u125 is not None
             and _p_u125 >= 0.88
@@ -1335,6 +1355,10 @@ def main() -> int:
             "elite_pick": elite_pick,
             "O7.5": "YES" if _bet_signal else "no",
             "U12.5": "YES" if _u125_signal else "no",
+            "hold_asym": _hold_asym,
+            "premium_u125": "YES" if _premium_u125 else "no",
+            "tb_p_raw": round(p_tb_raw, 4) if p_tb_raw is not None else None,
+            "tb_p_cal": round(p_tb_cal, 4) if p_tb_cal is not None else None,
         })
 
         # Set 1 Over 9.5
