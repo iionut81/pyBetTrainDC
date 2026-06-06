@@ -1034,6 +1034,7 @@ def main() -> int:
     rows_s1_7: list[dict] = []
     rows_s1o: list[dict] = []
     rows_tb: list[dict] = []
+    rows_u125: list[dict] = []
     for t, m in all_upcoming:
         surface = t.get("surface", "Hard")
         tourney = t["tournamentGroup"]["name"]
@@ -1326,10 +1327,10 @@ def main() -> int:
         )
 
         # u125_signal: Under 12.5 signal (no tiebreak expected)
-        # Backtest v2: added hold_asym filter (2026-05-20)
-        # hold_asym > 0.15 + min_hold < 0.50 + p_tb < 0.12 → 93.4% HR (N=777)
+        # U12.5 pierde DOAR la tiebreak → singurul filtru relevant este tb_p_cal
+        # _dominant eliminat (2026-06-05): conditia dezechilibra meciuri echilibrate
+        # cu tiebreak scazut — exact scenariul ideal pt U12.5
         _p_u125 = round(1.0 - p_tb_cal, 4) if p_tb_cal is not None else None
-        _dominant = (p_markov > 0.65 or p_markov < 0.35)
         _hold_asym = round(abs(p_hold_a - p_hold_b), 4)
         _min_hold = min(p_hold_a, p_hold_b)
         # Premium zone: asym > 0.15 AND min_hold < 0.50 AND p_tb_cal < 0.12
@@ -1341,7 +1342,6 @@ def main() -> int:
         _u125_signal = bool(
             _p_u125 is not None
             and _p_u125 >= 0.88
-            and _dominant
         )
 
         rows_s1_7.append({
@@ -1360,6 +1360,31 @@ def main() -> int:
             "tb_p_raw": round(p_tb_raw, 4) if p_tb_raw is not None else None,
             "tb_p_cal": round(p_tb_cal, 4) if p_tb_cal is not None else None,
         })
+
+        # Dedicated U12.5 output — only columns relevant to tiebreak elimination
+        if p_tb_cal is not None:
+            rows_u125.append({
+                "run_date":       base["run_date"],
+                "match_date":     base["match_date"],
+                "tournament":     base["tournament"],
+                "level":          base["level"],
+                "surface":        base["surface"],
+                "round":          base["round"],
+                "player_a":       base["player_a"],
+                "player_b":       base["player_b"],
+                "p_hold_a":       round(p_hold_a, 4),
+                "p_hold_b":       round(p_hold_b, 4),
+                "hold_asym":      _hold_asym,
+                "blowout_score":  blowout_score,
+                "fatigue_flag_a": fatigue_flag_a,
+                "fatigue_flag_b": fatigue_flag_b,
+                "unstable_reason": unstable_reason or "",
+                "tb_p_raw":       round(p_tb_raw, 4) if p_tb_raw is not None else None,
+                "tb_p_cal":       round(p_tb_cal, 4),
+                "p_u125":         round(1.0 - p_tb_cal, 4),
+                "premium_u125":   "YES" if _premium_u125 else "no",
+                "recommended":    _u125_signal,
+            })
 
         # Set 1 Over 9.5
         rows_s1o.append({
@@ -1395,15 +1420,19 @@ def main() -> int:
     s = args.series
 
     files = [
-        (f"{s}.1_WTA_Winner.csv", rows_winner, "Winner"),
-        (f"{s}.2_WTA_Set1_Over_7_5.csv", rows_s1_7, "Set1 Over 7.5"),
-        (f"{s}.3_WTA_Set1_Over_9_5.csv", rows_s1o, "Set1 Over 9.5"),
-        (f"{s}.4_WTA_Tiebreak.csv", rows_tb, "Tiebreak"),
+        (f"{s}.1_WTA_Winner.csv",         rows_winner, "Winner",          "p_cal",    False),
+        (f"{s}.2_WTA_Set1_Over_7_5.csv",  rows_s1_7,  "Set1 Over 7.5",  "p_cal",    False),
+        (f"{s}.3_WTA_Set1_Over_9_5.csv",  rows_s1o,   "Set1 Over 9.5",  "p_cal",    False),
+        (f"{s}.4_WTA_Tiebreak.csv",       rows_tb,    "Tiebreak",        "p_cal",    False),
+        (f"{s}.5_WTA_Under12_5.csv",      rows_u125,  "Under 12.5",      "tb_p_cal", True),
     ]
 
-    for fname, row_list, label in files:
+    for fname, row_list, label, sort_col, sort_asc in files:
         df = pd.DataFrame(row_list)
-        df = df.sort_values("p_cal", ascending=False).reset_index(drop=True)
+        if sort_col in df.columns:
+            df = df.sort_values(sort_col, ascending=sort_asc).reset_index(drop=True)
+        else:
+            df = df.reset_index(drop=True)
         if "good_to_go" in df.columns and "p_elo" in df.columns:
             cols = list(df.columns)
             cols.remove("good_to_go")

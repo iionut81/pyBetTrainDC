@@ -214,24 +214,68 @@ def phase1_collect(
 # Phase 2 — Fetch corner stats via Flashscore internal API (requests)
 # ---------------------------------------------------------------------------
 
-def _parse_corners_from_stats(text: str) -> Tuple[Optional[int], Optional[int]]:
-    """Parse the ¬÷ encoded stats feed for 'Corner kicks'.
+def _parse_corners_all_periods(text: str) -> dict:
+    """Parse the ¬÷ encoded stats feed for 'Corner kicks' per period.
 
-    Format: ...~SD÷16¬SG÷Corner kicks¬SH÷{home}¬SI÷{away}¬...
+    Feed structure:
+        ~SE÷Match¬   ... stats ...
+        ~SE÷1st Half¬ ... stats ...
+        ~SE÷2nd Half¬ ... stats ...
+
+    Returns dict with keys: match_h, match_a, h1_h, h1_a, h2_h, h2_a
+    (None when not present).
     """
-    fields = {}
+    # Split into period sections on the SE (Section Event) marker
+    sections: dict[str, dict] = {}
+    current_period = "match"
     current_stat = ""
-    for token in text.split(chr(172)):           # ¬
-        if chr(247) in token:                     # ÷
-            k, v = token.split(chr(247), 1)
-            if k == "SG":
-                current_stat = v
-            elif k == "SH" and current_stat.lower() == "corner kicks":
-                fields["home"] = _safe_int(v)
-            elif k == "SI" and current_stat.lower() == "corner kicks":
-                fields["away"] = _safe_int(v)
-                break  # first occurrence is enough
-    return fields.get("home"), fields.get("away")
+
+    for token in text.split(chr(172)):   # ¬
+        if not token:
+            continue
+        if chr(247) not in token:
+            continue
+        k, v = token.split(chr(247), 1)
+        k = k.lstrip("~")   # tokens starting a new record have a ~ prefix
+
+        if k == "SE":
+            label = v.strip().lower()
+            if "1st" in label or "first" in label:
+                current_period = "1h"
+            elif "2nd" in label or "second" in label:
+                current_period = "2h"
+            else:
+                current_period = "match"
+            current_stat = ""
+            sections.setdefault(current_period, {})
+        elif k == "SG":
+            current_stat = v.strip().lower()
+        elif k == "SH" and current_stat == "corner kicks":
+            sections.setdefault(current_period, {})
+            if "home" not in sections[current_period]:
+                sections[current_period]["home"] = _safe_int(v)
+        elif k == "SI" and current_stat == "corner kicks":
+            sections.setdefault(current_period, {})
+            if "away" not in sections[current_period]:
+                sections[current_period]["away"] = _safe_int(v)
+
+    m = sections.get("match", {})
+    h1 = sections.get("1h", {})
+    h2 = sections.get("2h", {})
+    return {
+        "match_h": m.get("home"),
+        "match_a": m.get("away"),
+        "h1_h": h1.get("home"),
+        "h1_a": h1.get("away"),
+        "h2_h": h2.get("home"),
+        "h2_a": h2.get("away"),
+    }
+
+
+def _parse_corners_from_stats(text: str) -> Tuple[Optional[int], Optional[int]]:
+    """Backward-compatible: return full-match corners only."""
+    d = _parse_corners_all_periods(text)
+    return d["match_h"], d["match_a"]
 
 
 def fetch_corners_api(
@@ -242,6 +286,16 @@ def fetch_corners_api(
     r = session.get(url, timeout=15)
     r.raise_for_status()
     return _parse_corners_from_stats(r.text)
+
+
+def fetch_corners_all_periods(
+    session: req.Session, event_id: str
+) -> dict:
+    """Fetch corner counts for all periods via Flashscore stats API."""
+    url = STATS_API.format(eid=event_id)
+    r = session.get(url, timeout=15)
+    r.raise_for_status()
+    return _parse_corners_all_periods(r.text)
 
 
 # ---------------------------------------------------------------------------

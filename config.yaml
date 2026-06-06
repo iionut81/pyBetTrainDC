@@ -83,6 +83,26 @@ corners:
   tempo_min: 0.75
   tempo_max: 1.25
 
+# --- Corners Under 7.5 First Half recommendation filters ---
+# Audit 2026-05-21: Only TR2/D2/RS1/I1 are profitable at 1.10 (rate >90.9%).
+# DK1/P1/E0/B1/SW1 are structurally negative — excluded via allowed_leagues.
+corners_1h:
+  min_probability: 0.91        # above break-even at 1.10 (90.9%)
+  min_odds: 1.10
+  max_odds: 1.35
+  max_fair_odds: 1.10          # tight: only recommend when fair odds <= 1.10
+  lambda_min: 1.0
+  lambda_max: 9.0
+  blend_empirical: 0.8
+  blend_league_mean: 0.2
+  default_mu: 4.3
+  default_k: 12.0
+  k_min: 0.5
+  k_max: 200.0
+  tempo_min: 0.75
+  tempo_max: 1.25
+  allowed_leagues: [TR2, D2, RS1, I1]   # only leagues with rate >90.9% empirical
+
 # --- Shots on Target (per-team) recommendation filters ---
 # Bookmaker SOT definition differs from Flashscore count (bookmaker ~1.9x higher globally).
 # Scaling factor applies to our predicted lambdas before probability computation.
@@ -291,6 +311,11 @@ training:
     min_train_teams: 6
     min_samples: 50
   corners:
+    lookback_days: 365
+    retrain_days: 30
+    min_team_home: 5
+    min_team_away: 5
+  corners_1h:
     lookback_days: 365
     retrain_days: 30
     min_team_home: 5
