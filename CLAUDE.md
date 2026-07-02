@@ -162,22 +162,32 @@ For UCL/UEL/UECL matches:
 
 ---
 
-## WTA U12.5 SET 2 — TRIPLE FILTER WORKFLOW (v1.0, 2026-06-23)
+## WTA U12.5 SET 2 — TRIPLE FILTER WORKFLOW (v1.1, 2026-07-02)
 
 **Regula de bază:** Parcurge cei 3 pași în ordine. Orice SKIP = stop, nu continua.
 
-### PASUL 1 — CSV Model (automat, din 1.5_WTA_Under12_5.csv)
+### PASUL 1 — CSV Model + Market Check (automat, din 1.5_WTA_Under12_5.csv)
 ```
 □ tb_p_cal ≤ 0.10            → semnal U12.5 primar (prag operațional recomandat)
 □ Elo/Markov gap > 35pp      → SKIP  |  gap = |p_elo - p_markov| × 100
 □ p_elo = 0.0                → SKIP (jucătoare fără date Elo în Sackmann)
 □ UNSTABLE flag              → max 7/10 scor final
+
+□ Robinhood market check (standard, orice candidat U12.5 S2):
+    URL: robinhood.com/us/en/prediction-markets/tennis/events/[p1]-vs-[p2]-[mon-dd-yyyy]/
+    P(favorita) < 60%         → SKIP (meci echilibrat, S2 poate fi lung)
+    P(favorita) 60-74%        → continuă, notează divergența față de p_markov
+    P(favorita) ≥ 75%         → class gap confirmat de piață ✅
+    Divergență market vs p_markov > 15pp → investigheaza (injury? form recent?)
+      → fără explicație clară → SKIP
 ```
 
-**De ce double guard Elo/Markov:**
+**De ce triple guard Elo/Markov/Market:**
 - `p_markov` = simulare din hold rates pe suprafață → direct relevant pentru TB
 - `p_elo` = rezultate reale istorice → validare că hold rates sunt realiste
-- Divergență > 35pp = hold rates din sample insuficient sau adversare slabe → date contaminate
+- `market` = crowd wisdom cu form curent + injuries → tiebreaker când p_elo ≠ p_markov
+- Divergență market vs p_markov > 15pp = piața știe ceva ce modelul nu vede → investigheaza
+- Validat 02.07.2026: Rybakina p_markov=77% ≈ market=78% (p_elo=67% era outlier)
 
 ### PASUL 2 — TennisAbstract (suprafața curentă)
 ```
