@@ -1,6 +1,6 @@
 # CLAUDE.md — Project Brain
 # Betting Prediction System — 20 Leagues + WTA Tennis
-# Last updated: 2026-04-15
+# Last updated: 2026-06-23
 
 ---
 
@@ -159,6 +159,80 @@ For UCL/UEL/UECL matches:
 - `UEL_QF_Analysis_YYYY-MM-DD.md`
 
 ### Keep all analysis files — they serve as audit trail.
+
+---
+
+## WTA U12.5 SET 2 — TRIPLE FILTER WORKFLOW (v1.0, 2026-06-23)
+
+**Regula de bază:** Parcurge cei 3 pași în ordine. Orice SKIP = stop, nu continua.
+
+### PASUL 1 — CSV Model (automat, din 1.5_WTA_Under12_5.csv)
+```
+□ tb_p_cal ≤ 0.10            → semnal U12.5 primar (prag operațional recomandat)
+□ Elo/Markov gap > 35pp      → SKIP  |  gap = |p_elo - p_markov| × 100
+□ p_elo = 0.0                → SKIP (jucătoare fără date Elo în Sackmann)
+□ UNSTABLE flag              → max 7/10 scor final
+```
+
+**De ce double guard Elo/Markov:**
+- `p_markov` = simulare din hold rates pe suprafață → direct relevant pentru TB
+- `p_elo` = rezultate reale istorice → validare că hold rates sunt realiste
+- Divergență > 35pp = hold rates din sample insuficient sau adversare slabe → date contaminate
+
+### PASUL 2 — TennisAbstract (suprafața curentă)
+```
+□ Meciuri pe suprafață ≥ 10 pentru AMBELE jucătoare → continuă | < 10 → PASS
+
+□ Set 2 TB rate pe suprafață (calculat manual din scoruri brute)
+    ≥ 33% S2 TB rate         → risc real, -1pp din scor
+    < 15% S2 TB rate         → confirmare, +1pp
+
+□ S1 TB → S2 pattern (factori mental + fizic):
+    Pentru fiecare meci cu S1 = 7-6(x):
+      → Cine a câștigat S1 TB? Ce scor a fost în S2?
+    Calcul: câte S2 TB din totalul meciurilor cu S1 TB?
+      > 50% S2 TB după S1 TB → scor maxim 6/10
+      > 33% S2 TB după S1 TB → -1pp din scor
+      ≤ 20% S2 TB după S1 TB → +1pp confirmare
+```
+
+**Motivație S1 TB → S2:**
+- Factor mental: pierzătoarea TB Set 1 tinde să se prăbușească în Set 2
+- Factor fizic: TB adaugă 15-25 min → serviciu mai slab în primele game-uri Set 2
+- Backtest validat (23.06.2026): Navarro 1/7=14% ✅, Bondar 0/3=0% ✅, Lys 0/4=0% ✅, Kalinskaya 2/3=67% 🔴
+
+**ATENȚIE TennisAbstract:** Agentul confundă frecvent TB Set 1 cu Set 2.
+Întotdeauna verifică MANUAL scorul complet (ex: "7-6(4) 6-3" → S1=TB, S2=NO TB).
+
+### PASUL 3 — Context manual
+```
+□ Fatigue: days_rest, had_3sets_7d = True
+□ Motivație: miza meciului, home advantage, presiune clasament
+□ Condiții: temperatură, tip iarbă
+□ UNSTABLE flag din model → max 7/10
+```
+
+### Scor final U12.5 Set 2
+| Condiție | Scor |
+|---|---|
+| Toți 3 pași OK, S2 TB ≤15%, S1→S2 ≤20% | 9/10 |
+| Pași OK, S2 TB 15-25%, S1→S2 20-33% | 8/10 |
+| Sample borderline (8-12) SAU S2 TB 25-35% | 7/10 |
+| UNSTABLE flag SAU S1→S2 > 33% | max 6/10 |
+| Pasul 1 SKIP SAU Pasul 2 PASS | Nu recomandăm |
+
+### Backtest rezultate (iarbă, 321 meciuri, 2017-2026)
+- Baseline fără filtru: **86.0% HR**
+- Prag ≤ 0.127: 88.6% HR (+2.6pp)
+- **Prag ≤ 0.10: 91.2% HR (+5.3pp) ← OPTIM**
+- Valoarea reală a filtrelor: prevenție outlier-e (picks contaminate), nu creștere medie HR
+
+---
+
+## FIX-URI COD APLICATE (2026-06-23)
+
+1. `run_wta_daily.py:294` — `timedelta(days=4)` → `timedelta(days=7)` — Wimbledon qualifying găsit
+2. `run_wta_daily.py:513` — First-name guard în `resolve_player_id` — false match Laura≠Liudmila Samsonova eliminat
 
 ---
 

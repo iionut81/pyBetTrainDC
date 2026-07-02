@@ -123,6 +123,12 @@ FLASHSCORE_WTA_SLUGS: Dict[str, str] = {
     "SEOUL": "seoul",
     "TALLINN": "tallinn",
     "MONASTIR": "monastir",
+    # Grass season tournaments (2026-06 fix: WTA API lags on main draw publish)
+    "'S-HERTOGENBOSCH": "hertogenbosch",
+    "QUEENS": "queens",
+    "ILKLEY 125": "ilkley",
+    "BIRMINGHAM 125": "birmingham",
+    "BAD HOMBURG": "bad-homburg",
 }
 
 
@@ -284,8 +290,8 @@ def fetch_active_tournaments(target_date: str) -> List[dict]:
                 end_d = dt.date.fromisoformat(end)
             except (ValueError, TypeError):
                 continue
-            # Qualifying rounds can start ~4 days before official startDate
-            if start_d - dt.timedelta(days=4) <= td <= end_d + dt.timedelta(days=1):
+            # Qualifying rounds can start ~7 days before official startDate (Wimbledon Q = 6 days)
+            if start_d - dt.timedelta(days=7) <= td <= end_d + dt.timedelta(days=1):
                 t["_start_date"] = start_d
                 t["_end_date"] = end_d
                 tournaments.append(t)
@@ -506,7 +512,13 @@ def resolve_player_id(
     last = wta_last.strip().lower()
     matches = [(k, v) for k, v in name_map.items() if k.endswith(f" {last}")]
     if len(matches) == 1:
-        return matches[0][1]
+        # Guard: first name must be compatible to avoid false matches
+        # e.g. "Laura Samsonova" must NOT resolve to "Liudmila Samsonova"
+        first_q = wta_first.strip().lower()
+        found_first = matches[0][0].split()[0]
+        n = 1 if len(first_q) <= 2 else 3
+        if not first_q or found_first.startswith(first_q[:n]):
+            return matches[0][1]
 
     return None
 
@@ -1312,16 +1324,11 @@ def main() -> int:
         })
 
         # Set 1 Over 7.5
-        _good_to_go = (
-            0.40 <= p_markov < 0.61
-            and p_elo is not None
-            and 0.40 <= p_elo < 0.61
-        )
-        # bet_signal: single column combining all filters for O7.5
-        # Yes = good_to_go + recommended + no fatigue on either player
+        # good_to_go eliminat (2026-06-08): conditia Markov+Elo balance (0.40-0.61)
+        # inducea in eroare — excludea meciuri valide si includea meciuri slabe.
+        # bet_signal bazat exclusiv pe: p_cal_adj threshold + no fatigue
         _bet_signal = (
-            _good_to_go
-            and rec_s1_7
+            rec_s1_7
             and not fatigue_flag_a
             and not fatigue_flag_b
         )
@@ -1346,7 +1353,6 @@ def main() -> int:
 
         rows_s1_7.append({
             **base,
-            "good_to_go": "Yes" if _good_to_go else "No",
             "p_raw": round(p_s1_7_raw, 4),
             "p_cal": round(p_s1_7_cal, 4),
             "p_cal_adj": round(p_s1_7_adj, 4),
@@ -1433,11 +1439,7 @@ def main() -> int:
             df = df.sort_values(sort_col, ascending=sort_asc).reset_index(drop=True)
         else:
             df = df.reset_index(drop=True)
-        if "good_to_go" in df.columns and "p_elo" in df.columns:
-            cols = list(df.columns)
-            cols.remove("good_to_go")
-            cols.insert(cols.index("p_elo") + 1, "good_to_go")
-            df = df[cols]
+        # good_to_go eliminat din output (2026-06-08)
         path = base_dir / fname
         df.to_csv(path, index=False)
         if "recommended" in df.columns:
