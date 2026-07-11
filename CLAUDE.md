@@ -167,11 +167,25 @@ For UCL/UEL/UECL matches:
 **Regula de bază:** Parcurge cei 3 pași în ordine. Orice SKIP = stop, nu continua.
 
 ### PASUL 1 — CSV Model + Market Check (automat, din 1.5_WTA_Under12_5.csv)
+
+**Câmpuri noi în CSV (din 2026-07-11):**
+- `min_hold` = hold-ul jucătoarei mai slabe (ex: 0.4043 = ține 40% din servicii)
+- `premium_elite` = YES dacă min_hold<0.40 + hold_asym>0.20 + tb_p_cal<0.08 → HR 94.5% clay
+- `premium_u125` = YES dacă min_hold<0.50 + hold_asym>0.15 + tb_p_cal<0.10 → HR 93.7% clay
+- `danger_zone` = YES dacă min_hold între 0.40–0.45 → HR 88.9% (sub standard, max 7/10)
+
+**Interpretare premium (backtestat 2017-2026, 16.4K meciuri):**
+- `premium_elite=YES` + `danger_zone=NO` → pick valid, HR 94.5%
+- `premium_u125=YES` + `danger_zone=NO` → pick valid, HR 93.7% clay
+- `danger_zone=YES` → scor maxim 7/10, indiferent de premium flag
+- min_hold≥0.55 (ambii jucători țin bine) → HR 88-90% — NU e premium, e risc mai mare de TB
+
 ```
 □ tb_p_cal ≤ 0.10            → semnal U12.5 primar (prag operațional recomandat)
 □ Elo/Markov gap > 35pp      → SKIP  |  gap = |p_elo - p_markov| × 100
 □ p_elo = 0.0                → SKIP (jucătoare fără date Elo în Sackmann)
 □ UNSTABLE flag              → max 7/10 scor final
+□ danger_zone = YES          → max 7/10 scor final (min_hold 0.40-0.45 = inconsistenta)
 
 □ Robinhood market check (standard, orice candidat U12.5 S2):
     URL: robinhood.com/us/en/prediction-markets/tennis/events/[p1]-vs-[p2]-[mon-dd-yyyy]/

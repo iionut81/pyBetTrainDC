@@ -1047,6 +1047,7 @@ def main() -> int:
     rows_s1o: list[dict] = []
     rows_tb: list[dict] = []
     rows_u125: list[dict] = []
+    rows_qualifying: list[dict] = []
     for t, m in all_upcoming:
         surface = t.get("surface", "Hard")
         tourney = t["tournamentGroup"]["name"]
@@ -1340,12 +1341,21 @@ def main() -> int:
         _p_u125 = round(1.0 - p_tb_cal, 4) if p_tb_cal is not None else None
         _hold_asym = round(abs(p_hold_a - p_hold_b), 4)
         _min_hold = min(p_hold_a, p_hold_b)
-        # Premium zone: asym > 0.15 AND min_hold < 0.50 AND p_tb_cal < 0.12
+        # Premium elite: jucatoarea slaba e rupta constant (min_hold<0.40) — HR 94.5% clay
+        _premium_elite = (
+            _min_hold < 0.40
+            and _hold_asym > 0.20
+            and (p_tb_cal is not None and p_tb_cal < 0.08)
+        )
+        # Premium standard: blowout scenario — prag fix 0.10 (nu 0.12)
+        # Backtest: HR 93.7% clay, 92.3% all surfaces
         _premium_u125 = (
             _hold_asym > 0.15
             and _min_hold < 0.50
-            and (p_tb_cal is not None and p_tb_cal < 0.12)
+            and (p_tb_cal is not None and p_tb_cal < 0.10)
         )
+        # Danger zone: min_hold 0.40-0.45 = jucatoare inconsistenta — HR 88.9% (sub standard)
+        _danger_zone = (0.40 <= _min_hold < 0.45)
         _u125_signal = bool(
             _p_u125 is not None
             and _p_u125 >= 0.88
@@ -1362,7 +1372,10 @@ def main() -> int:
             "O7.5": "YES" if _bet_signal else "no",
             "U12.5": "YES" if _u125_signal else "no",
             "hold_asym": _hold_asym,
+            "min_hold": round(_min_hold, 4),
+            "premium_elite": "YES" if _premium_elite else "no",
             "premium_u125": "YES" if _premium_u125 else "no",
+            "danger_zone": "YES" if _danger_zone else "no",
             "tb_p_raw": round(p_tb_raw, 4) if p_tb_raw is not None else None,
             "tb_p_cal": round(p_tb_cal, 4) if p_tb_cal is not None else None,
         })
@@ -1381,6 +1394,7 @@ def main() -> int:
                 "p_hold_a":       round(p_hold_a, 4),
                 "p_hold_b":       round(p_hold_b, 4),
                 "hold_asym":      _hold_asym,
+                "min_hold":       round(_min_hold, 4),
                 "blowout_score":  blowout_score,
                 "fatigue_flag_a": fatigue_flag_a,
                 "fatigue_flag_b": fatigue_flag_b,
@@ -1388,8 +1402,48 @@ def main() -> int:
                 "tb_p_raw":       round(p_tb_raw, 4) if p_tb_raw is not None else None,
                 "tb_p_cal":       round(p_tb_cal, 4),
                 "p_u125":         round(1.0 - p_tb_cal, 4),
+                "premium_elite":  "YES" if _premium_elite else "no",
                 "premium_u125":   "YES" if _premium_u125 else "no",
+                "danger_zone":    "YES" if _danger_zone else "no",
                 "recommended":    _u125_signal,
+            })
+
+        # Qualifying-specific U12.5 output
+        _raw_round = str(m.get("RoundID", "")).strip().upper()
+        _is_qualifying = (
+            m.get("DrawLevelType", "").upper() == "Q"
+            or (_raw_round.startswith("Q") and len(_raw_round) > 1 and _raw_round[1:].isdigit())
+        )
+        if _is_qualifying and p_tb_cal is not None:
+            _qual_signal = bool(
+                p_tb_cal <= 0.12
+                and blowout_score <= 4
+                and p_elo is not None
+                and p_elo > 0.0
+            )
+            rows_qualifying.append({
+                "run_date":       base["run_date"],
+                "match_date":     base["match_date"],
+                "tournament":     base["tournament"],
+                "level":          base["level"],
+                "surface":        base["surface"],
+                "round":          base["round"],
+                "player_a":       base["player_a"],
+                "player_b":       base["player_b"],
+                "p_hold_a":       round(p_hold_a, 4),
+                "p_hold_b":       round(p_hold_b, 4),
+                "hold_asym":      _hold_asym,
+                "blowout_score":  blowout_score,
+                "fatigue_flag_a": fatigue_flag_a,
+                "fatigue_flag_b": fatigue_flag_b,
+                "unstable_reason": unstable_reason or "",
+                "p_elo":          round(p_elo, 4) if p_elo is not None else None,
+                "p_markov":       round(p_markov, 4),
+                "tb_p_cal":       round(p_tb_cal, 4),
+                "p_u125":         round(1.0 - p_tb_cal, 4),
+                "premium_u125":   "YES" if _premium_u125 else "no",
+                "qual_signal":    _qual_signal,
+                "market_needed":  True,
             })
 
         # Set 1 Over 9.5
@@ -1430,7 +1484,8 @@ def main() -> int:
         (f"{s}.2_WTA_Set1_Over_7_5.csv",  rows_s1_7,  "Set1 Over 7.5",  "p_cal",    False),
         (f"{s}.3_WTA_Set1_Over_9_5.csv",  rows_s1o,   "Set1 Over 9.5",  "p_cal",    False),
         (f"{s}.4_WTA_Tiebreak.csv",       rows_tb,    "Tiebreak",        "p_cal",    False),
-        (f"{s}.5_WTA_Under12_5.csv",      rows_u125,  "Under 12.5",      "tb_p_cal", True),
+        (f"{s}.5_WTA_Under12_5.csv",      rows_u125,       "Under 12.5",       "tb_p_cal", True),
+        (f"{s}.6_WTA_Qualifying_U125.csv", rows_qualifying, "Qualifying U12.5", "tb_p_cal", True),
     ]
 
     for fname, row_list, label, sort_col, sort_asc in files:
