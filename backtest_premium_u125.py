@@ -210,4 +210,87 @@ for label, mask in combos:
     print(f"  {label:<40} {len(s):>5}  {hr*100:>6.1f}%  TB={int(s['s2_tb'].sum())}")
 
 print()
+print("=" * 75)
+print("BREAK CASCADE INDEX (BCI) = (1 - min_hold) x hold_asym")
+print("=" * 75)
+
+df["bci"] = (1 - df["min_hold"]) * df["hold_asym"]
+sub_op = df[df["p_tiebreak"] < 0.098]
+
+# BCI threshold sweep
+print("\nSWEEP BCI threshold (la p_tb<0.098, ALL surfaces):")
+print(f"\n  {'BCI threshold':<25} {'N':>5}  {'HR%':>7}  {'TB losses':>10}")
+print("  " + "-" * 55)
+thresholds = [0.04, 0.06, 0.08, 0.10, 0.12, 0.15, 0.20]
+for t in thresholds:
+    s = sub_op[sub_op["bci"] >= t]
+    if len(s) < 10:
+        print(f"  BCI >= {t:.2f}               {len(s):>5}  n/a")
+        continue
+    hr = 1 - s["s2_tb"].mean()
+    print(f"  BCI >= {t:.2f}               {len(s):>5}  {hr*100:>6.1f}%  {int(s['s2_tb'].sum()):>10}")
+
+print()
+print("SWEEP BCI threshold (la p_tb<0.098, Clay):")
+sub_clay_op = df[(df["p_tiebreak"] < 0.098) & (df["surface"] == "Clay")]
+print(f"\n  {'BCI threshold':<25} {'N':>5}  {'HR%':>7}  {'TB losses':>10}")
+print("  " + "-" * 55)
+for t in thresholds:
+    s = sub_clay_op[sub_clay_op["bci"] >= t]
+    if len(s) < 10:
+        print(f"  BCI >= {t:.2f}               {len(s):>5}  n/a")
+        continue
+    hr = 1 - s["s2_tb"].mean()
+    print(f"  BCI >= {t:.2f}               {len(s):>5}  {hr*100:>6.1f}%  {int(s['s2_tb'].sum()):>10}")
+
+print()
+print("BCI buckets (la p_tb<0.098, ALL surfaces):")
+print(f"\n  {'BCI bucket':<25} {'N':>5}  {'HR%':>7}  {'TB losses':>10}")
+print("  " + "-" * 55)
+bci_buckets = [
+    ("<0.04",   sub_op["bci"] < 0.04),
+    ("0.04-0.06", (sub_op["bci"]>=0.04) & (sub_op["bci"]<0.06)),
+    ("0.06-0.08", (sub_op["bci"]>=0.06) & (sub_op["bci"]<0.08)),
+    ("0.08-0.10", (sub_op["bci"]>=0.08) & (sub_op["bci"]<0.10)),
+    ("0.10-0.12", (sub_op["bci"]>=0.10) & (sub_op["bci"]<0.12)),
+    ("0.12-0.15", (sub_op["bci"]>=0.12) & (sub_op["bci"]<0.15)),
+    ("0.15-0.20", (sub_op["bci"]>=0.15) & (sub_op["bci"]<0.20)),
+    (">=0.20",    sub_op["bci"] >= 0.20),
+]
+for label, mask in bci_buckets:
+    s = sub_op[mask]
+    if len(s) < 10:
+        print(f"  {label:<25} {len(s):>5}  n/a")
+        continue
+    hr = 1 - s["s2_tb"].mean()
+    print(f"  {label:<25} {len(s):>5}  {hr*100:>6.1f}%  {int(s['s2_tb'].sum()):>10}")
+
+print()
+print("BCI vs premium_elite comparatie directa (Clay, p_tb<0.098):")
+print(f"\n  {'Definitie':<45} {'N':>5}  {'HR%':>7}  {'TB losses':>10}")
+print("  " + "-" * 65)
+comparisons = [
+    ("Baseline clay p_tb<0.098",
+     sub_clay_op.index, sub_clay_op),
+    ("premium_CURRENT (asym>0.15, min<0.50, p_tb<0.12)",
+     df.index, df[(df["prem_current"]) & (df["surface"]=="Clay")]),
+    ("premium_BLOWOUT (min<0.45, asym>0.20, p_tb<0.08)",
+     df.index, df[(df["prem_blowout"]) & (df["surface"]=="Clay")]),
+    ("BCI >= 0.08 + p_tb<0.098",
+     df.index, sub_clay_op[sub_clay_op["bci"] >= 0.08]),
+    ("BCI >= 0.10 + p_tb<0.098",
+     df.index, sub_clay_op[sub_clay_op["bci"] >= 0.10]),
+    ("BCI >= 0.12 + p_tb<0.098",
+     df.index, sub_clay_op[sub_clay_op["bci"] >= 0.12]),
+    ("BCI >= 0.15 + p_tb<0.098",
+     df.index, sub_clay_op[sub_clay_op["bci"] >= 0.15]),
+]
+for label, _, s in comparisons:
+    if len(s) < 10:
+        print(f"  {label:<45} {len(s):>5}  n/a")
+        continue
+    hr = 1 - s["s2_tb"].mean()
+    print(f"  {label:<45} {len(s):>5}  {hr*100:>6.1f}%  {int(s['s2_tb'].sum()):>10}")
+
+print()
 print("Done.")

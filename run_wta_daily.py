@@ -309,8 +309,11 @@ def fetch_upcoming_matches(tournament_group_id: int, year: int) -> List[dict]:
     The WTA `/matches` feed can leave stale `MatchState == "U"` rows from an
     already-completed round while the real next-round pairings are either later
     in the payload or not published yet. When that happens, prefer the deepest
-    active round that exists in the feed; if the feed still lags behind, rebuild
-    the next round from the winners of the deepest fully completed round.
+    active round that exists in the feed. If the feed hasn't published the next
+    round yet, we deliberately return nothing for it rather than guessing the
+    bracket — pairing winners by date order previously produced phantom matches
+    (e.g. re-pairing two players who had already played each other) whenever the
+    finished-round match count didn't actually match a full bracket round.
     """
     url = f"{WTA_API_BASE}/tournaments/{tournament_group_id}/{year}/matches"
     data = _fetch_json(url)
@@ -339,131 +342,12 @@ def fetch_upcoming_matches(tournament_group_id: int, year: int) -> List[dict]:
         special = {"Q": 100, "S": 101, "F": 102}
         return special.get(token, -1)
 
-    def _next_round_token(current_token: str, current_count: int) -> Optional[str]:
-        if current_count <= 1:
-            return None
-        if current_count == 2:
-            return "F"
-        if current_count == 4:
-            return "S"
-        if current_count == 8:
-            return "Q"
-        if current_token.isdigit():
-            return str(int(current_token) + 1)
-        return None
-
-    def _winner_side(match: dict) -> Optional[str]:
-        result = str(match.get("ResultString", "") or "")
-        pre = result.split(" d ", 1)[0]
-        last_a = str(match.get("PlayerNameLastA", "") or "").strip()
-        last_b = str(match.get("PlayerNameLastB", "") or "").strip()
-        if last_a and last_a in pre and (not last_b or last_b not in pre):
-            return "A"
-        if last_b and last_b in pre and (not last_a or last_a not in pre):
-            return "B"
-
-        winner_code = str(match.get("Winner", "") or "").strip()
-        if winner_code in {"2", "4", "6"}:
-            return "A"
-        if winner_code in {"3", "5", "7"}:
-            return "B"
-        return None
-
-    def _winner_payload(match: dict) -> Optional[dict]:
-        side = _winner_side(match)
-        if side is None:
-            return None
-        suffix = side
-        return {
-            "PlayerID": match.get(f"PlayerID{suffix}"),
-            "PlayerNameFirst": match.get(f"PlayerNameFirst{suffix}"),
-            "PlayerNameLast": match.get(f"PlayerNameLast{suffix}"),
-            "PlayerCountry": match.get(f"PlayerCountry{suffix}"),
-            "Seed": match.get(f"Seed{suffix}", ""),
-            "EntryType": match.get(f"EntryType{suffix}", ""),
-        }
-
-    def _rebuild_next_round(round_matches: List[dict], next_round: str) -> List[dict]:
-        rebuilt: List[dict] = []
-        ordered = sorted(
-            round_matches,
-            key=lambda m: (_to_float(m.get("DateSeq")) or 0.0, str(m.get("MatchID", ""))),
-        )
-        for i in range(0, len(ordered), 2):
-            if i + 1 >= len(ordered):
-                break
-            wa = _winner_payload(ordered[i])
-            wb = _winner_payload(ordered[i + 1])
-            if wa is None or wb is None:
-                continue
-            rebuilt.append({
-                "MatchState": "U",
-                "DrawLevelType": "M",
-                "DrawMatchType": "S",
-                "RoundID": next_round,
-                "MatchID": f"SYNTH-{next_round}-{(i // 2) + 1}",
-                "MatchTimeStamp": "",
-                "EventID": ordered[i].get("EventID"),
-                "EventYear": ordered[i].get("EventYear"),
-                "PlayerIDA": wa["PlayerID"],
-                "PlayerIDB": wb["PlayerID"],
-                "PlayerNameFirstA": wa["PlayerNameFirst"],
-                "PlayerNameLastA": wa["PlayerNameLast"],
-                "PlayerNameFirstB": wb["PlayerNameFirst"],
-                "PlayerNameLastB": wb["PlayerNameLast"],
-                "PlayerCountryA": wa["PlayerCountry"],
-                "PlayerCountryB": wb["PlayerCountry"],
-                "SeedA": wa["Seed"],
-                "SeedB": wb["Seed"],
-                "EntryTypeA": wa["EntryType"],
-                "EntryTypeB": wb["EntryType"],
-            })
-        return rebuilt
-
     open_matches = [m for m in main_singles if str(m.get("MatchState", "")).strip().upper() != "F"]
     if open_matches:
         highest_open_rank = max(_round_rank(m.get("RoundID")) for m in open_matches)
         open_matches = [m for m in open_matches if _round_rank(m.get("RoundID")) == highest_open_rank]
-    else:
-        highest_open_rank = -1
-
-    finished_by_round: Dict[str, List[dict]] = {}
-    for match in main_singles:
-        if str(match.get("MatchState", "")).strip().upper() != "F":
-            continue
-        token = _round_token(match.get("RoundID"))
-        finished_by_round.setdefault(token, []).append(match)
-
-    if not finished_by_round:
-        return [m for m in open_matches if str(m.get("MatchState", "")).strip().upper() == "U"]
-
-    deepest_finished_token = max(finished_by_round, key=_round_rank)
-    deepest_finished_rank = _round_rank(deepest_finished_token)
-    deepest_finished_matches = finished_by_round[deepest_finished_token]
-    next_round_token = _next_round_token(deepest_finished_token, len(deepest_finished_matches))
-    next_round_rank = _round_rank(next_round_token) if next_round_token else -1
-
-    # If the feed only exposes unfinished matches from an earlier round, rebuild
-    # the next-round bracket from actual winners in the deepest completed round.
-    if (
-        next_round_token
-        and highest_open_rank < next_round_rank
-        and not any(_round_rank(m.get("RoundID")) == deepest_finished_rank for m in open_matches)
-    ):
-        rebuilt = _rebuild_next_round(deepest_finished_matches, next_round_token)
-        if rebuilt:
-            return rebuilt
 
     return [m for m in open_matches if str(m.get("MatchState", "")).strip().upper() == "U"]
-
-
-def _to_float(value: object) -> Optional[float]:
-    if value is None:
-        return None
-    try:
-        return float(value)
-    except (TypeError, ValueError):
-        return None
 
 
 def _count_sets_from_result(result_str: str) -> int:
@@ -1341,17 +1225,16 @@ def main() -> int:
         _p_u125 = round(1.0 - p_tb_cal, 4) if p_tb_cal is not None else None
         _hold_asym = round(abs(p_hold_a - p_hold_b), 4)
         _min_hold = min(p_hold_a, p_hold_b)
-        # Premium elite: jucatoarea slaba e rupta constant (min_hold<0.40) — HR 94.5% clay
+        # BCI = (1 - min_hold) x hold_asym — backtest 16.4K meciuri 2017-2026
+        # BCI >= 0.15 clay HR 95.8% | BCI >= 0.12 clay HR 94.7%
+        # Filtreaza toate 3 pierderile din 09-10.07.2026 (BCI: 0.116 / 0.019 / 0.021)
+        _bci = round((1.0 - _min_hold) * _hold_asym, 4)
         _premium_elite = (
-            _min_hold < 0.40
-            and _hold_asym > 0.20
+            _bci >= 0.15
             and (p_tb_cal is not None and p_tb_cal < 0.08)
         )
-        # Premium standard: blowout scenario — prag fix 0.10 (nu 0.12)
-        # Backtest: HR 93.7% clay, 92.3% all surfaces
         _premium_u125 = (
-            _hold_asym > 0.15
-            and _min_hold < 0.50
+            _bci >= 0.12
             and (p_tb_cal is not None and p_tb_cal < 0.10)
         )
         # Danger zone: min_hold 0.40-0.45 = jucatoare inconsistenta — HR 88.9% (sub standard)
@@ -1373,6 +1256,7 @@ def main() -> int:
             "U12.5": "YES" if _u125_signal else "no",
             "hold_asym": _hold_asym,
             "min_hold": round(_min_hold, 4),
+            "bci": _bci,
             "premium_elite": "YES" if _premium_elite else "no",
             "premium_u125": "YES" if _premium_u125 else "no",
             "danger_zone": "YES" if _danger_zone else "no",
@@ -1395,6 +1279,7 @@ def main() -> int:
                 "p_hold_b":       round(p_hold_b, 4),
                 "hold_asym":      _hold_asym,
                 "min_hold":       round(_min_hold, 4),
+                "bci":            _bci,
                 "blowout_score":  blowout_score,
                 "fatigue_flag_a": fatigue_flag_a,
                 "fatigue_flag_b": fatigue_flag_b,
