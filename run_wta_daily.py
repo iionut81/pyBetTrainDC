@@ -28,6 +28,7 @@ from config import CFG
 from fhg_calibration import apply_calibration, calibration_from_row
 from wta_api import build_json_session, fetch_json
 from wta_elo import SurfaceElo
+from wta_glicko import SurfaceGlicko
 from wta_markov import (
     predict_match,
     simulate_match,
@@ -758,7 +759,7 @@ def main() -> int:
     print(f"\nLoading {args.history_csv} for player ratings ...")
     hist = pd.read_csv(args.history_csv)
     hist["match_date"] = pd.to_datetime(hist["match_date"], errors="coerce")
-    hist = hist.dropna(subset=["match_date"]).copy()
+    hist = hist.dropna(subset=["match_date", "winner_id", "loser_id"]).copy()
     hist["winner_id"] = hist["winner_id"].astype(int)
     hist["loser_id"] = hist["loser_id"].astype(int)
 
@@ -767,7 +768,7 @@ def main() -> int:
     name_map = build_name_to_sackmann_id(hist)
     print(f"  Player-match stats: {len(pms)} rows, name map: {len(name_map)} players")
 
-    # Load Elo snapshot (built by train_wta.py)
+    # Load Elo snapshot (built by train_wta.py) — kept as diagnostic/fallback
     elo_path = Path("simulations/WTA/data/wta_elo_snapshot.pkl")
     elo: Optional[SurfaceElo] = None
     if elo_path.exists():
@@ -776,6 +777,18 @@ def main() -> int:
         print(f"  Loaded Elo snapshot: {total_rated} player-surface ratings")
     else:
         print("  [WARN] No Elo snapshot found, using pure Markov")
+
+    # Load Glicko-2 snapshot (built by train_wta.py) — primary rating signal,
+    # validated ~10.8% lower Brier / ~29% lower log-loss than Elo
+    # (backtest_glicko_vs_elo_blended.py, 41,631 historical matches).
+    glicko_path = Path("simulations/WTA/data/wta_glicko_snapshot.pkl")
+    glicko: Optional[SurfaceGlicko] = None
+    if glicko_path.exists():
+        glicko = SurfaceGlicko.load(str(glicko_path))
+        total_rated_gli = sum(len(v) for v in glicko.ratings.values())
+        print(f"  Loaded Glicko-2 snapshot: {total_rated_gli} player-surface ratings")
+    else:
+        print("  [WARN] No Glicko-2 snapshot found, falling back to Elo")
 
     # ── Load calibration ─────────────────────────────────────────────────────
     cal_path = Path(args.calibration_csv)
@@ -1023,13 +1036,17 @@ def main() -> int:
         if reject_reason:
             print(f"  [UNSTABLE] {player_a} vs {player_b} — {reject_reason}")
 
-        # Blend Markov + Elo for match winner
+        # Blend Markov + rating-model for match winner (Glicko-2 primary, Elo fallback/diagnostic)
         p_markov = result["p_match_a"]
         p_elo = None
         if elo is not None and sid_a is not None and sid_b is not None:
             p_elo = elo.predict(sid_a, sid_b, surface)
-        if p_elo is not None:
-            p_match_raw = BLEND_W * p_markov + (1.0 - BLEND_W) * p_elo
+        p_gli = None
+        if glicko is not None and sid_a is not None and sid_b is not None:
+            p_gli = glicko.predict(sid_a, sid_b, surface)
+        p_rating = p_gli if p_gli is not None else p_elo
+        if p_rating is not None:
+            p_match_raw = BLEND_W * p_markov + (1.0 - BLEND_W) * p_rating
         else:
             p_match_raw = p_markov
 
@@ -1055,7 +1072,7 @@ def main() -> int:
         if tb_weights is not None:
             tb_feat = build_tiebreak_features(
                 stats_a, stats_b, surface,
-                p_elo=p_elo,
+                p_elo=p_rating,
                 tb_rate_a=_get_player_tb_rate(sid_a, surface),
                 tb_rate_b=_get_player_tb_rate(sid_b, surface),
                 surface_tb_rate=_get_surface_tb_rate(surface),
@@ -1184,7 +1201,8 @@ def main() -> int:
             "p_hold_a": round(result["p_hold_a"], 4),
             "p_hold_b": round(result["p_hold_b"], 4),
             "p_markov": round(p_markov, 4),
-            "p_elo": round(p_elo, 4) if p_elo is not None else None,
+            "p_elo": round(p_rating, 4) if p_rating is not None else None,  # Glicko-2 primary, Elo fallback
+            "p_elo_classic": round(p_elo, 4) if p_elo is not None else None,  # raw Sackmann-Elo, diagnostic
             "days_rest_a": days_rest_a,
             "days_rest_b": days_rest_b,
             "last_3sets_a": last_3sets_a,
@@ -1303,8 +1321,8 @@ def main() -> int:
             _qual_signal = bool(
                 p_tb_cal <= 0.12
                 and blowout_score <= 4
-                and p_elo is not None
-                and p_elo > 0.0
+                and p_rating is not None
+                and p_rating > 0.0
             )
             rows_qualifying.append({
                 "run_date":       base["run_date"],
@@ -1322,7 +1340,8 @@ def main() -> int:
                 "fatigue_flag_a": fatigue_flag_a,
                 "fatigue_flag_b": fatigue_flag_b,
                 "unstable_reason": unstable_reason or "",
-                "p_elo":          round(p_elo, 4) if p_elo is not None else None,
+                "p_elo":          round(p_rating, 4) if p_rating is not None else None,
+                "p_elo_classic":  round(p_elo, 4) if p_elo is not None else None,
                 "p_markov":       round(p_markov, 4),
                 "tb_p_cal":       round(p_tb_cal, 4),
                 "p_u125":         round(1.0 - p_tb_cal, 4),

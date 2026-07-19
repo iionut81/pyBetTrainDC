@@ -62,6 +62,44 @@ WTA_TOURNAMENTS: Dict[str, dict] = {
     "singapore": {"surface": "Hard", "name": "Singapore"},
     "tallinn": {"surface": "Hard", "name": "Tallinn"},
     "monastir": {"surface": "Hard", "name": "Monastir"},
+    # WTA 125 / Challenger events (challenger-women-singles category) — verify
+    # surface before adding new slugs, unconfigured ones default to Hard.
+    "iasi": {"surface": "Clay", "name": "Iasi"},
+    "kitzbuhel": {"surface": "Clay", "name": "Kitzbuhel"},
+    "palermo": {"surface": "Clay", "name": "Palermo"},
+    "athens": {"surface": "Hard", "name": "Athens"},
+    "istanbul-2": {"surface": "Hard", "name": "Istanbul-2"},
+    # NOTE: "prague" is ambiguous on Tennis Abstract — a Clay event (2015-2024,
+    # spring swing) and a separate Hard event (2021+, summer WTA250) share the
+    # same tourney_name. Default to Hard (the current/recent event); if the
+    # clay event is ever the target, override via a distinct check before merge.
+    "prague": {"surface": "Hard", "name": "Prague"},
+    # --- Systematic 2026 WTA125 season coverage (per Wikipedia 2026 WTA 125
+    # tournaments calendar) — best-guess slugs, verify low/0-match ones. ---
+    "canberra": {"surface": "Hard", "name": "Canberra"},
+    "manila": {"surface": "Hard", "name": "Manila"},
+    "mumbai": {"surface": "Hard", "name": "Mumbai"},
+    "oeiras": {"surface": "Hard", "name": "Oeiras"},
+    "midland": {"surface": "Hard", "name": "Midland"},
+    "antalya": {"surface": "Clay", "name": "Antalya"},
+    "antalya-2": {"surface": "Clay", "name": "Antalya-2"},
+    "antalya-3": {"surface": "Clay", "name": "Antalya-3"},
+    "austin": {"surface": "Hard", "name": "Austin"},
+    "dubrovnik": {"surface": "Clay", "name": "Dubrovnik"},
+    "saint-malo": {"surface": "Clay", "name": "Saint-Malo"},
+    "la-bisbal-d-emporda": {"surface": "Clay", "name": "La Bisbal d'Emporda"},
+    "huzhou": {"surface": "Clay", "name": "Huzhou"},
+    "jiangxi": {"surface": "Hard", "name": "Jiangxi"},
+    "parma": {"surface": "Clay", "name": "Parma"},
+    "birmingham": {"surface": "Grass", "name": "Birmingham"},
+    "foggia": {"surface": "Clay", "name": "Foggia"},
+    "makarska": {"surface": "Clay", "name": "Makarska"},
+    "contrexeville": {"surface": "Clay", "name": "Contrexeville"},
+    "bastad": {"surface": "Clay", "name": "Bastad"},
+    "targu-mures": {"surface": "Clay", "name": "Targu Mures"},
+    "vancouver": {"surface": "Hard", "name": "Vancouver"},
+    "modena": {"surface": "Clay", "name": "Modena"},
+    "newport": {"surface": "Grass", "name": "Newport"},
 }
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
@@ -173,8 +211,14 @@ def _parse_flashscore_feed(text: str) -> List[dict]:
 
         winner_side = "A" if wins_a > wins_b else "B"
 
-        # Build score string
-        score = " ".join(f"{a}-{b}" for a, b in zip(sets_a, sets_b))
+        # Build score string — ALWAYS winner's games first per set (Sackmann/ATP
+        # convention), matching how winner_name/loser_name are assigned below.
+        # BUG (fixed): this used to always write sets_a-sets_b regardless of
+        # winner_side, silently reversing the score whenever player B won.
+        if winner_side == "A":
+            score = " ".join(f"{a}-{b}" for a, b in zip(sets_a, sets_b))
+        else:
+            score = " ".join(f"{b}-{a}" for a, b in zip(sets_a, sets_b))
 
         # Player names
         first_a, last_a = slug_to_name(slug_a)

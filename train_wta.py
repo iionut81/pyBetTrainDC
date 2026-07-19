@@ -26,6 +26,7 @@ from fhg_calibration import (
     fit_temperature,
 )
 from wta_elo import SurfaceElo
+from wta_glicko import SurfaceGlicko
 from wta_markov import (
     PlayerServeStats,
     predict_match,
@@ -133,6 +134,34 @@ def precompute_elo_predictions(
     return preds, elo
 
 
+def precompute_glicko_predictions(
+    df: pd.DataFrame,
+) -> Tuple[Dict[Tuple[int, int, str], float], SurfaceGlicko]:
+    """One chronological pass: predict-then-update for every match, Glicko-2.
+
+    Validated (backtest_glicko_vs_elo_blended.py) to beat SurfaceElo by ~10.8%
+    Brier / ~29% log-loss on 41,631 historical matches — replaces Elo as the
+    rating signal blended with the Markov model (see BLEND_W usage below).
+    """
+    glicko = SurfaceGlicko()
+    preds: Dict[Tuple[int, int, str], float] = {}
+
+    for _, row in df.sort_values("match_date").iterrows():
+        w_id = int(row["winner_id"])
+        l_id = int(row["loser_id"])
+        surface = row["surface"]
+        date_key = str(row["match_date"])
+
+        p = glicko.predict(w_id, l_id, surface)
+        if p is not None:
+            preds[(w_id, l_id, date_key)] = p
+
+        glicko.update(w_id, l_id, surface, match_date=pd.Timestamp(row["match_date"]))
+
+    glicko.last_processed_date = df["match_date"].max()
+    return preds, glicko
+
+
 def walk_forward(
     df: pd.DataFrame,
     pms: pd.DataFrame,
@@ -145,6 +174,7 @@ def walk_forward(
     recency_decay: float,
     min_matches_for_rating: int,
     elo_preds: Dict[Tuple[int, int, str], float] = None,
+    glicko_preds: Dict[Tuple[int, int, str], float] = None,
     blend_weight: float = 0.60,
 ) -> pd.DataFrame:
     """Walk-forward prediction for a single surface. Blends Markov + Elo.
@@ -236,13 +266,18 @@ def walk_forward(
                 continue
             if ts_w.n_matches < min_matches_for_rating or ts_l.n_matches < min_matches_for_rating:
                 continue
-            # Look up Elo prediction for this training match
+            # Look up rating-model prediction for this training match.
+            # Glicko-2 (validated better-calibrated, see precompute_glicko_predictions)
+            # is the primary signal; fall back to Elo if unavailable.
             t_p_elo = None
             if elo_preds is not None:
                 t_p_elo = elo_preds.get((tw_id, tl_id, str(trow["match_date"])))
+            t_p_gli = None
+            if glicko_preds is not None:
+                t_p_gli = glicko_preds.get((tw_id, tl_id, str(trow["match_date"])))
             feat = build_tiebreak_features(
                 ts_w, ts_l, surface,
-                p_elo=t_p_elo,
+                p_elo=t_p_gli if t_p_gli is not None else t_p_elo,
                 tb_rate_a=_player_tb_rate(tw_id),
                 tb_rate_b=_player_tb_rate(tl_id),
                 surface_tb_rate=surface_tb_rate,
@@ -306,14 +341,14 @@ def walk_forward(
             if fatigued:
                 continue
 
-            # Blend Markov + Elo for match winner
+            # Blend Markov + rating-model (Glicko-2 primary, Elo fallback/diagnostic)
             p_markov = result["p_match_a"]
-            p_elo = None
-            if elo_preds is not None:
-                date_key = str(row["match_date"])
-                p_elo = elo_preds.get((w_id, l_id, date_key))
-            if p_elo is not None:
-                p_blended = blend_weight * p_markov + (1.0 - blend_weight) * p_elo
+            date_key = str(row["match_date"])
+            p_elo = elo_preds.get((w_id, l_id, date_key)) if elo_preds is not None else None
+            p_gli = glicko_preds.get((w_id, l_id, date_key)) if glicko_preds is not None else None
+            p_rating = p_gli if p_gli is not None else p_elo
+            if p_rating is not None:
+                p_blended = blend_weight * p_markov + (1.0 - blend_weight) * p_rating
             else:
                 p_blended = p_markov
 
@@ -324,7 +359,7 @@ def walk_forward(
             if last_tb_weights is not None:
                 tb_feat = build_tiebreak_features(
                     stats_w, stats_l, surface,
-                    p_elo=p_elo,
+                    p_elo=p_rating,
                     tb_rate_a=_player_tb_rate(w_id),
                     tb_rate_b=_player_tb_rate(l_id),
                     surface_tb_rate=surface_tb_rate,
@@ -356,7 +391,8 @@ def walk_forward(
                 "loser_id": l_id,
                 "p_match_winner": p_blended,
                 "p_markov": p_markov,
-                "p_elo": p_elo if p_elo is not None else np.nan,
+                "p_elo": p_rating if p_rating is not None else np.nan,  # now Glicko-2 primary (validated better-calibrated); falls back to Elo
+                "p_elo_classic": p_elo if p_elo is not None else np.nan,  # raw Sackmann-Elo, diagnostic only
                 "p_tiebreak": p_tiebreak,
                 "p_set1_over_7_5": p_s1_7_adj,
                 "p_set1_over_7_5_raw": p_s1_7_raw,
@@ -428,6 +464,13 @@ def main() -> int:
     total_rated = sum(len(v) for v in final_elo.ratings.values())
     print(f"  Elo predictions: {len(elo_preds):,}, players rated: {total_rated}")
 
+    # Pre-compute Glicko-2 predictions (primary rating signal — validated ~10.8%
+    # lower Brier / ~29% lower log-loss than Elo, backtest_glicko_vs_elo_blended.py)
+    print("Pre-computing surface-specific Glicko-2 predictions ...")
+    glicko_preds, final_glicko = precompute_glicko_predictions(df)
+    total_rated_gli = sum(len(v) for v in final_glicko.ratings.values())
+    print(f"  Glicko-2 predictions: {len(glicko_preds):,}, players rated: {total_rated_gli}")
+
     surfaces = _WTA["surfaces"]
     all_preds: List[pd.DataFrame] = []
     cal_rows: List[dict] = []
@@ -449,7 +492,7 @@ def main() -> int:
             rolling_window=args.rolling_window,
             recency_decay=args.recency_decay,
             min_matches_for_rating=args.min_matches_for_rating,
-            elo_preds=elo_preds, blend_weight=BLEND_W,
+            elo_preds=elo_preds, glicko_preds=glicko_preds, blend_weight=BLEND_W,
         )
         if tb_weights is not None:
             final_tb_weights = tb_weights
@@ -611,6 +654,10 @@ def main() -> int:
     elo_path = "simulations/WTA/data/wta_elo_snapshot.pkl"
     final_elo.save(elo_path)
     print(f"Saved Elo snapshot: {elo_path}")
+
+    glicko_path = "simulations/WTA/data/wta_glicko_snapshot.pkl"
+    final_glicko.save(glicko_path)
+    print(f"Saved Glicko-2 snapshot: {glicko_path}")
 
     # Save tiebreak model for daily pipeline
     if final_tb_weights is not None:
