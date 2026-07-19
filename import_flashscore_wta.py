@@ -212,10 +212,16 @@ def _parse_flashscore_feed(text: str) -> List[dict]:
 def fetch_tournament_matches(
     slug: str, verify_ssl: bool = True
 ) -> List[dict]:
-    """Fetch all finished matches for a WTA tournament from Flashscore."""
+    """Fetch all finished matches for a WTA tournament from Flashscore.
+
+    WTA 125 / Challenger events live under a different Flashscore category
+    (challenger-women-singles) than main tour events (wta-singles) — try both.
+    """
     urls = [
         f"https://www.flashscore.com/tennis/wta-singles/{slug}/results/",
         f"https://www.flashscore.com/tennis/wta-singles/{slug}/",
+        f"https://www.flashscore.com/tennis/challenger-women-singles/{slug}/results/",
+        f"https://www.flashscore.com/tennis/challenger-women-singles/{slug}/",
     ]
     all_matches: Dict[str, dict] = {}
 
@@ -567,6 +573,40 @@ def _save_incremental(rows: List[dict], out_path: Path, existing_ids: set) -> No
     rows.clear()
 
 
+def _sets_won(score: str) -> Tuple[Optional[int], Optional[int]]:
+    """Count sets won by winner/loser from a score string like '6-4 7-6(3)'."""
+    if not isinstance(score, str) or not score.strip():
+        return (None, None)
+    w_sets = l_sets = 0
+    for set_str in score.strip().split():
+        m = re.match(r"^(\d+)-(\d+)", set_str.strip())
+        if not m:
+            continue
+        g1, g2 = int(m.group(1)), int(m.group(2))
+        if g1 > g2:
+            w_sets += 1
+        elif g2 > g1:
+            l_sets += 1
+    if w_sets == 0 and l_sets == 0:
+        return (None, None)
+    return (w_sets, l_sets)
+
+
+def _total_games(score: str) -> Optional[int]:
+    """Sum all games played across all sets from a score string."""
+    if not isinstance(score, str) or not score.strip():
+        return None
+    total = 0
+    found = False
+    for set_str in score.strip().split():
+        m = re.match(r"^(\d+)-(\d+)", set_str.strip())
+        if not m:
+            continue
+        total += int(m.group(1)) + int(m.group(2))
+        found = True
+    return total if found else None
+
+
 def _merge_into_history(fs_path: Path, hist_path: Path) -> None:
     """Merge Flashscore WTA stats into the main wta_matches_combined.csv."""
     LOG.info(f"  Merging into {hist_path} ...")
@@ -578,6 +618,12 @@ def _merge_into_history(fs_path: Path, hist_path: Path) -> None:
     if fs_with_stats.empty:
         LOG.info("    No rows with stats to merge.")
         return
+
+    # Derive w_sets/l_sets/total_games from the score string (Flashscore doesn't provide these directly)
+    sets_pairs = fs_with_stats["score"].apply(_sets_won)
+    fs_with_stats["w_sets"] = [p[0] for p in sets_pairs]
+    fs_with_stats["l_sets"] = [p[1] for p in sets_pairs]
+    fs_with_stats["total_games"] = fs_with_stats["score"].apply(_total_games)
 
     # Create merge key
     fs_with_stats["_key"] = (
