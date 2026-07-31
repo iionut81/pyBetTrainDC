@@ -4,7 +4,7 @@ from __future__ import annotations
 
 Runs in order:
   0.  pytest                          — abort if tests fail
-  0b. import_flashscore_stats.py     — refresh Flashscore history (DC + Goals + Corners source, 68 columns)
+  0b. import_sofascore_stats.py      — refresh Sofascore history (DC + Goals + Corners source, 75 columns)
   1.  build_fhg_history.py           — refresh FHG/Goals history from API-Football
   2.  train_team_ratings.py          — rebuild DC team ratings pkl
   3.  train_fhg_calibration.py       — retrain FHG Platt calibration
@@ -85,11 +85,11 @@ def main() -> int:
         print("  ⚠ Tests failed — aborting retrain to avoid training on broken code.")
         return 1
 
-    # ── 0b. Refresh Flashscore history (DC + Goals source data, 68 cols) ────
+    # ── 0b. Refresh Sofascore history (DC + Goals + Corners source data, 75 cols) ──
     if not args.skip_history:
         step(
-            "Flashscore history refresh (current + previous season)",
-            [py, "import_flashscore_stats.py",
+            "Sofascore history refresh (current + previous season)",
+            [py, "import_sofascore_stats.py",
              "--seasons", f"{season - 1},{season}",
              ] + insecure,
         )

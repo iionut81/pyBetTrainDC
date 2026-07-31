@@ -1,6 +1,6 @@
 # CLAUDE.md — Project Brain
 # Betting Prediction System — 20 Leagues + WTA Tennis
-# Last updated: 2026-06-23
+# Last updated: 2026-07-31
 
 ---
 
@@ -23,14 +23,19 @@ Romanian BI developer transitioning to sport analyst. Builds betting prediction 
 E0, E1, D1, D2, SP1, SP2, I1, I2, F1, N1, P1, RO1, RS1, SA1, SW1, DK1, B1, B2, TR1, TR2
 
 ### Data Sources
-- **Flashscore** = PRIMARY (free, all 20 leagues)
-- **API-Football** = SECONDARY (odds only, free plan limited)
+- **Sofascore** = PRIMARY (free, unauthenticated API, all 20 leagues) — daily fixtures, historical results (FT+HT scores), exact goal minutes via `sofascore_loader.py`. Use this first for any "refresh data" / retrain request.
+- **Flashscore** = BACKUP (used if Sofascore is unavailable) — `data_loader.py`
+- **API-Football** = SECONDARY (odds + fixture statistics incl. corner kicks via `fixtures/statistics`, free plan limited to 100 req/day)
 - **Tennis Abstract / Sackmann** = WTA historical data (32,252 matches)
+
+**IMPORTANT — Sofascore client note:** `api.sofascore.com` blocks Python's native TLS stack (`requests`/`urllib`) with HTTP 403 after a handful of calls, but keeps accepting `curl` indefinitely (TLS/HTTP fingerprinting, confirmed 2026-07-31). `sofascore_loader.py` shells out to `curl` for every request — do not "simplify" this back to `requests`, it will silently start failing.
 
 ### Key Files
 - `config.yaml` — all thresholds
 - `team_ids.yaml` — team name aliases (20 leagues)
-- `data_loader.py` — Flashscore fixture fetching
+- `sofascore_loader.py` — Sofascore fixtures/historical/goal-minutes (PRIMARY data loader)
+- `import_sofascore_stats.py` — weekly retrain history refresh (75-col match stats, replaces `import_flashscore_stats.py` in `run_weekly_retrain.py`). 5 advanced metrics (xA, xGOT, errors-to-shot, errors-to-goal, xGOT-faced) are NOT exposed by Sofascore's public stats endpoint — always empty going forward, known accepted gap.
+- `data_loader.py` — Flashscore fixture fetching (backup)
 - `team_registry.py` — name resolution with fuzzy matching
 
 ---
@@ -139,7 +144,7 @@ For UCL/UEL/UECL matches:
 - Don't give time estimates
 - Don't add docstrings/comments to code you didn't change
 - Don't create files unless necessary
-- Don't use Transfermarkt for daily ops — Flashscore is PRIMARY
+- Don't use Transfermarkt for daily ops — Sofascore is PRIMARY, Flashscore is backup
 - Don't change calibration parameters — they're already optimal
 - Don't mix projected WTA R2 matches (no scheduled time) with confirmed R1 matches
 - Don't recommend picks from yesterday's evaluations on today's analysis

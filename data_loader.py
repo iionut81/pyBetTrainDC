@@ -197,16 +197,29 @@ def fetch_fixtures_from_api(
         headers["Authorization"] = f"Bearer {api_key}"
         headers["x-apisports-key"] = api_key
 
-    # Primary: Flashscore (free, all 20 leagues, no quota).
+    # Primary: Sofascore (free, all 20 leagues, no quota, exact goal minutes).
+    # Fallback: Flashscore, used only if Sofascore returns nothing (outage/block).
     # Secondary: API-Football odds enrichment where available.
     if "v3.football.api-sports.io/fixtures" in api_url:
         parsed_url = urlparse(api_url)
         qs = parse_qs(parsed_url.query)
         target_date = (qs.get("date") or [""])[0]
 
-        # 1. Flashscore fixtures (primary source)
+        # 1. Sofascore fixtures (primary source)
         fs_fixtures: List[Fixture] = []
+        source_name = "Sofascore"
         if target_date:
+            try:
+                from sofascore_loader import fetch_fixtures_from_sofascore
+
+                fs_fixtures = fetch_fixtures_from_sofascore(
+                    target_date_iso=target_date, verify_ssl=verify_ssl
+                )
+            except Exception:
+                fs_fixtures = []
+
+        if not fs_fixtures and target_date:
+            source_name = "Flashscore (fallback)"
             try:
                 fs_fixtures = fetch_fixtures_from_flashscore(
                     target_date_iso=target_date, verify_ssl=verify_ssl
@@ -240,7 +253,7 @@ def fetch_fixtures_from_api(
             fs_fixtures.append(api_fx)
 
         n_api = len(api_fixtures)
-        print(f"Fixtures: {len(fs_fixtures)} (Flashscore primary, API enrichment: {n_api})")
+        print(f"Fixtures: {len(fs_fixtures)} ({source_name}, API enrichment: {n_api})")
         return fs_fixtures
 
     resp = requests.get(api_url, headers=headers, timeout=timeout, verify=verify_ssl)
