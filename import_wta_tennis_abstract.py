@@ -159,6 +159,8 @@ def get_active_player_keys(
         ("loser_id", "loser_name", "loser_hand", "loser_ht", "loser_ioc"),
     ]:
         for _, r in hist[[col_id, col_name, col_hand, col_ht, col_ioc]].drop_duplicates(col_name).iterrows():
+            if pd.isna(r[col_id]) or pd.isna(r[col_name]):
+                continue
             name = str(r[col_name]).strip()
             name_to_id[name.lower()] = int(r[col_id])
             name_to_hand[name.lower()] = str(r[col_hand]) if pd.notna(r[col_hand]) else ""
@@ -419,6 +421,8 @@ def main() -> int:
     name_to_id: Dict[str, int] = {}
     for col_id, col_name in [("winner_id", "winner_name"), ("loser_id", "loser_name")]:
         for _, r in hist[[col_id, col_name]].drop_duplicates(col_name).iterrows():
+            if pd.isna(r[col_id]) or pd.isna(r[col_name]):
+                continue
             name_to_id[str(r[col_name]).strip().lower()] = int(r[col_id])
 
     # Build existing match keys for dedup

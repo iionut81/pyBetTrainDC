@@ -1,6 +1,6 @@
 # CLAUDE.md — Project Brain
 # Betting Prediction System — 20 Leagues + WTA Tennis
-# Last updated: 2026-07-31
+# Last updated: 2026-08-16
 
 ---
 
@@ -37,6 +37,9 @@ E0, E1, D1, D2, SP1, SP2, I1, I2, F1, N1, P1, RO1, RS1, SA1, SW1, DK1, B1, B2, T
 - `import_sofascore_stats.py` — weekly retrain history refresh (75-col match stats, replaces `import_flashscore_stats.py` in `run_weekly_retrain.py`). 5 advanced metrics (xA, xGOT, errors-to-shot, errors-to-goal, xGOT-faced) are NOT exposed by Sofascore's public stats endpoint — always empty going forward, known accepted gap.
 - `data_loader.py` — Flashscore fixture fetching (backup)
 - `team_registry.py` — name resolution with fuzzy matching
+- `selection_engine/` — generic filter+ranking engine (separate from the tuned production models above): given N candidate matches for a market, eliminates weak ones with a reason, ranks survivors, returns TOP N or NO BET. **FROZEN as of 2026-08-16 pending historical odds data** — do not add categories, CoVe, or new heuristics to it; see `feedback_selection_engine_backtest_before_scoring.md` in memory for why. Only market built so far: `TENNIS_SET1_OVER_7_5` (`selection_engine/markets/tennis_set1_over_7_5.py`). Architecture after backtesting 17,081 historical matches: DATA VALIDATION → HARD FILTER/VETO → rank by `p_cal_adj` (via `MarketProfile.score_fn`) → TOP N/NO BET. FORM/MATCHUP/MARKET_COMPATIBILITY/STABILITY are computed and shown as diagnostics only — they do NOT drive ranking (proven not to beat p_cal_adj alone; surface bonus proven to be pure noise, removed). VETO is validated (79.0% hit rate when triggered vs 83.5% when not) and stays. Backtest: Top 1%=86.7%, Top 5%=86.0%, Top 10%=86.5% vs baseline 83.5% (`backtest_selection_engine_wta.py`) — a real but modest lift, not a revolution. Cannot yet assess profitability — no historical odds data. Treat report's "Rank Score" as a ranking signal only, never as an absolute quality grade.
+- `run_selection_engine_wta.py` — adapter: reads today's `simulations/WTA/evaluations/1.2_WTA_Set1_Over_7_5.csv` (written by `run_wta_daily.py`), filters to today's confirmed-time matches (excludes `T23:59` no-time placeholders), runs them through `selection_engine/`. Triggered by "Ruleaza WTA NOU" (see Daily Workflow below).
+- `wta_recent_form.py` — computes each player's recent-form signal (serve-performance variance over her last 12 matches, any surface) from `data/historical/wta_matches_combined.csv`, feeds `selection_engine`'s FORM category. Normalization constants (`RAW_FLOOR`/`RAW_CEILING`) are calibrated off a 946-player percentile sample — revisit if the historical dataset changes materially.
 
 ---
 
@@ -60,6 +63,29 @@ E0, E1, D1, D2, SP1, SP2, I1, I2, F1, N1, P1, RO1, RS1, SA1, SW1, DK1, B1, B2, T
 PYTHONIOENCODING=utf-8 python run_weekly_retrain.py --api-key KEY --insecure
 # Or skip API fetch: --skip-history
 # WTA refresh separately: python import_wta_tennis_abstract.py --top-n 200 --sleep 0.3 --insecure
+```
+
+### "Ruleaza WTA NOU" — WTA daily + new selection engine (built 2026-08-16)
+When user says **"Ruleaza WTA NOU"**, run:
+```
+PYTHONIOENCODING=utf-8 python run_wta_daily.py --insecure
+PYTHONIOENCODING=utf-8 python run_selection_engine_wta.py
+```
+This is the lightweight daily version — no historical refresh/retrain, just today's fixtures
+through both the production model and the new generic filter+ranking engine
+(`selection_engine/`, market `TENNIS_SET1_OVER_7_5` only so far). Output is a
+TOP N report (or NO BET) separate from the normal WTA model output — treat it
+as a second opinion, not a replacement; it hasn't been backtested like
+`wta_set1_filters.py` and picks still need CoVe before recommending.
+
+**Full refresh cycle** (do occasionally, e.g. weekly, or when picks look off vs. current form —
+not needed daily, historical data doesn't shift much day to day):
+```
+PYTHONIOENCODING=utf-8 python import_wta_tennis_abstract.py --top-n 200 --sleep 0.3 --insecure
+PYTHONIOENCODING=utf-8 python train_wta.py
+PYTHONIOENCODING=utf-8 python train_wta_tiebreak_s2.py
+PYTHONIOENCODING=utf-8 python run_wta_daily.py --insecure
+PYTHONIOENCODING=utf-8 python run_selection_engine_wta.py
 ```
 
 ---
