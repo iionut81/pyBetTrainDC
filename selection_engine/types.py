@@ -3,6 +3,12 @@ from __future__ import annotations
 """
 types.py
 Core dataclasses shared by every stage of the selection engine.
+
+Ranking is percentile-based (see MarketProfile.rank_signal_fn /
+historical_percentiles), not a weighted 0-100 composite score. Category
+scorers still exist for diagnostics (form, matchup, market_compatibility,
+stability) but do not decide ranking or BET eligibility — see
+markets/tennis_set1_over_7_5.py.
 """
 
 from dataclasses import dataclass, field
@@ -16,6 +22,8 @@ CATEGORY_NAMES: Tuple[str, ...] = (
     "stability",
 )
 CATEGORY_MAX = 20.0
+
+PERCENTILE_KEYS: Tuple[str, ...] = ("p0", "p20", "p40", "p60", "p80", "p100")
 
 
 @dataclass
@@ -33,7 +41,10 @@ class MatchInput:
 
 @dataclass
 class CategoryScore:
-    """A single 0-20 category score plus the notes that justify it."""
+    """A single 0-20 diagnostic category score plus the notes that justify it.
+
+    Diagnostic only — does not feed ranking or BET eligibility.
+    """
 
     value: float
     notes: List[str] = field(default_factory=list)
@@ -41,64 +52,54 @@ class CategoryScore:
 
 # Market-specific hooks. Each hard filter / veto returns None (pass) or a
 # short machine-readable reason string (fail). Each category scorer returns
-# a CategoryScore for the given match.
+# a diagnostic CategoryScore for the given match. rank_signal_fn returns the
+# raw ranking value (e.g. a calibrated probability like p_cal_adj) — not
+# rescaled to any 0-20/0-100 range — or None if no signal is available.
 HardFilterFn = Callable[[MatchInput], Optional[str]]
-VetoFn = Callable[[MatchInput, Dict[str, "CategoryScore"]], Optional[str]]
+VetoFn = Callable[[MatchInput], Optional[str]]
 CategoryScorerFn = Callable[[MatchInput], CategoryScore]
-ScoreFn = Callable[[Dict[str, "CategoryScore"]], float]
+RankSignalFn = Callable[[MatchInput], Optional[float]]
 
 
 @dataclass
 class MarketProfile:
     """Everything the engine needs to evaluate matches for one specific market.
 
-    All thresholds are plain fields with defaults — nothing is hardcoded in
-    the engine itself. Weights are kept for documentation/future use; the
-    actual per-category score is always capped at 0-20 (spec: fewer knobs,
-    fixed 0-100 total).
+    Ranking/eligibility model: rank_signal_fn produces one raw value per
+    match (e.g. p_cal_adj). historical_percentiles (p0/p20/p40/p60/p80/p100),
+    computed from real historical outcomes for this exact market — never
+    guessed — classify that value into a label and a bet_eligible flag:
+    historical_percentile (0-100) >= bet_threshold_percentile (default 80,
+    i.e. the historical top quintile) -> "TOP_HISTORICAL_QUINTILE",
+    bet_eligible=True; 60-80 -> "HIGH"; 40-60 -> "MEDIUM"; 20-40 -> "LOW";
+    below 20 -> "VERY_LOW". Only TOP_HISTORICAL_QUINTILE candidates are
+    eligible for top_picks — if none qualify, the result is NO_BET regardless
+    of how many matches survived filtering. historical_percentiles must be
+    computed from the market's POST_HARD_FILTER / PRE_VETO population (veto
+    is a selection filter, not part of the statistical universe rank_value is
+    measured against) — see markets/tennis_set1_over_7_5.py.
 
-    score_fn: optional override for how the 5 category scores become the
-    0-100 ranking score. Default (None) sums all 5 categories and applies the
-    contradiction penalty — the original composite-score design. A market can
-    set score_fn to drive ranking off a single trusted category instead (e.g.
-    a category built from the production model's own calibrated probability)
-    once backtesting shows the composite score doesn't beat that signal alone
-    — see markets/tennis_set1_over_7_5.py for a market that does this. The
-    other categories still get computed and attached to the result as
-    diagnostics; they just stop deciding the ranking. When score_fn is set,
-    the contradiction check is skipped (no penalty applies).
+    category_scorers (form, matchup, market_compatibility, stability) are
+    still computed and attached to each result for diagnostics/logging — they
+    never affect ranking or eligibility.
     """
 
     market_id: str
     sport: str
-    minimum_score: float = 80.0
     top_n: int = 2
-    allow_no_bet: bool = True
-
-    weights: Dict[str, float] = field(
-        default_factory=lambda: {
-            "form": 0.20,
-            "matchup": 0.20,
-            "statistics": 0.30,
-            "market_compatibility": 0.20,
-            "stability": 0.10,
-        }
-    )
 
     required_fields: List[str] = field(default_factory=list)
     optional_fields: List[str] = field(default_factory=list)
     min_sample_size: int = 0
     max_data_age_days: Optional[int] = None
 
-    contradiction_high: float = 17.0
-    contradiction_low: float = 10.0
-    contradiction_spread: float = 10.0
-    contradiction_penalty: float = 8.0
-
     hard_filters: List[HardFilterFn] = field(default_factory=list)
     vetoes: List[VetoFn] = field(default_factory=list)
     category_scorers: Dict[str, CategoryScorerFn] = field(default_factory=dict)
-    score_fn: Optional[ScoreFn] = None
+
+    rank_signal_fn: Optional[RankSignalFn] = None
+    historical_percentiles: Dict[str, float] = field(default_factory=dict)
+    bet_threshold_percentile: float = 80.0
 
 
 @dataclass
@@ -110,13 +111,11 @@ class MatchResult:
     status: str  # "QUALIFIED" | "ELIMINATED"
     elimination_reason: Optional[str] = None
     category_scores: Dict[str, CategoryScore] = field(default_factory=dict)
-    raw_total: float = 0.0
-    contradiction: bool = False
-    contradiction_penalty: float = 0.0
-    contradiction_notes: List[str] = field(default_factory=list)
-    final_score: float = 0.0
+    rank_value: Optional[float] = None
+    historical_percentile: Optional[float] = None
+    label: str = ""  # "TOP_HISTORICAL_QUINTILE" | "HIGH" | "MEDIUM" | "LOW" | "VERY_LOW" | ""
+    bet_eligible: bool = False
     data_quality: float = 1.0
-    confidence: str = "LOW"
 
     @property
     def strengths(self) -> List[str]:
@@ -130,8 +129,6 @@ class MatchResult:
         notes: List[str] = []
         for cs in self.category_scores.values():
             notes.extend(n for n in cs.notes if n.startswith("-"))
-        if self.contradiction:
-            notes.extend(n for n in self.contradiction_notes if n.startswith("-"))
         return notes
 
 
@@ -145,3 +142,4 @@ class EngineResult:
     qualified: List[MatchResult] = field(default_factory=list)
     top_picks: List[MatchResult] = field(default_factory=list)
     decision: str = "NO_BET"  # "BET" | "NO_BET"
+    historical_p80: Optional[float] = None

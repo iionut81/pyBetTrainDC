@@ -28,7 +28,7 @@ MOCK_MATCHES = [
         stats={
             "p_hold_a": 0.72,
             "p_hold_b": 0.70,
-            "expected_total_games": 12.5,
+            "p_cal_adj": 0.94,  # >= p80 (0.9163) -> TOP_HISTORICAL_QUINTILE, bet_eligible
             "surface": "Hard",
             "recent_form_variance_a": 0.10,
             "recent_form_variance_b": 0.12,
@@ -43,7 +43,7 @@ MOCK_MATCHES = [
         stats={
             "p_hold_a": 0.68,
             "p_hold_b": 0.65,
-            "expected_total_games": 11.5,
+            "p_cal_adj": 0.925,  # also >= p80 -> second BET_ELIGIBLE pick
             "surface": "Grass",
             "recent_form_variance_a": 0.15,
             "recent_form_variance_b": 0.18,
@@ -58,7 +58,7 @@ MOCK_MATCHES = [
         stats={
             "p_hold_a": 0.66,
             "p_hold_b": 0.63,
-            "expected_total_games": 10.0,
+            "p_cal_adj": 0.91,  # p60-p80 -> HIGH, but not bet_eligible
             "surface": "Hard",
             "recent_form_variance_a": 0.30,
             "recent_form_variance_b": 0.35,
@@ -73,7 +73,7 @@ MOCK_MATCHES = [
         stats={
             "p_hold_a": 0.70,
             # p_hold_b missing -> INSUFFICIENT_DATA
-            "expected_total_games": 11.0,
+            "p_cal_adj": 0.93,
             "surface": "Clay",
         },
     ),
@@ -97,7 +97,7 @@ MOCK_MATCHES = [
         stats={
             "p_hold_a": 0.82,
             "p_hold_b": 0.45,  # gap 0.37 -> HARD_FILTER
-            "expected_total_games": 10.5,
+            "p_cal_adj": 0.90,
             "surface": "Hard",
         },
     ),
@@ -108,8 +108,8 @@ MOCK_MATCHES = [
         competitors=("Mona Mid", "Nora Novice"),
         stats={
             "p_hold_a": 0.70,
-            "p_hold_b": 0.52,  # gap 0.18, min_hold 0.52 -> VETO
-            "expected_total_games": 11.0,
+            "p_hold_b": 0.52,  # gap 0.18, min_hold 0.52 -> VETO, regardless of p_cal_adj below
+            "p_cal_adj": 0.95,
             "surface": "Grass",
             "recent_form_variance_a": 0.05,
             "recent_form_variance_b": 0.05,
@@ -123,11 +123,10 @@ MOCK_MATCHES = [
         competitors=("Olga Outlier", "Petra Paradox"),
         stats={
             "p_hold_a": 0.80,
-            # high STATISTICS (drives ranking) but weak MATCHUP/STABILITY diagnostics
-            # (large hold gap) -> since 2026-08-16 ranking is p_cal_adj/STATISTICS-only,
-            # so this still ranks near the top despite the mixed diagnostics
+            # mixed diagnostics (large hold gap -> weak MATCHUP/STABILITY) but
+            # those no longer feed ranking -> MEDIUM purely on p_cal_adj (p40-p60)
             "p_hold_b": 0.58,
-            "expected_total_games": 13.0,
+            "p_cal_adj": 0.895,
             "surface": "Hard",
             "recent_form_variance_a": 0.05,
             "recent_form_variance_b": 0.05,
@@ -142,9 +141,10 @@ MOCK_MATCHES = [
         stats={
             "p_hold_a": 0.71,
             "p_hold_b": 0.69,
+            # no p_cal_adj -> falls back to expected_total_games pseudo-probability
+            # (illustrates the mock-data fallback path; not a real probability)
             "expected_total_games": 12.0,
             "surface": "Hard",
-            # no optional fields -> lower data_quality -> MEDIUM confidence despite a good score
         },
     ),
     MatchInput(
@@ -154,8 +154,8 @@ MOCK_MATCHES = [
         competitors=("Rachel Rally", "Sofia Steady"),
         stats={
             "p_hold_a": 0.60,
-            "p_hold_b": 0.58,  # low STATISTICS -> ranks near the bottom regardless of diagnostics
-            "expected_total_games": 9.5,
+            "p_hold_b": 0.58,
+            "p_cal_adj": 0.87,  # between p20 and p40 -> LOW
             "surface": "Clay",
             "recent_form_variance_a": 0.35,
             "recent_form_variance_b": 0.30,
@@ -170,9 +170,10 @@ def main() -> None:
     print(format_report("TENNIS SET 1 OVER 7.5", result))
 
     print()
-    print("--- Same 10 matches, minimum_score raised above the max achievable 100 (forces NO BET) ---")
+    print("--- Same 10 matches, historical p80 pushed above every candidate's p_cal_adj (forces NO BET) ---")
     print()
-    strict_profile = dataclasses.replace(TENNIS_SET1_OVER_7_5_PROFILE, minimum_score=100.5)
+    forced_percentiles = {**TENNIS_SET1_OVER_7_5_PROFILE.historical_percentiles, "p80": 0.99}
+    strict_profile = dataclasses.replace(TENNIS_SET1_OVER_7_5_PROFILE, historical_percentiles=forced_percentiles)
     strict_result = run_selection(MOCK_MATCHES, strict_profile)
     print(format_report("TENNIS SET 1 OVER 7.5 (strict)", strict_result))
 

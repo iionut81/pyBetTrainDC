@@ -1,18 +1,22 @@
-"""Tests for the TENNIS_SET1_OVER_7_5 category scorers and contradiction detection."""
+"""Tests for the TENNIS_SET1_OVER_7_5 diagnostic category scorers.
+
+These categories are computed for logging/analysis only — they do not feed
+ranking or BET eligibility (see selection_engine/classification.py and
+markets/tennis_set1_over_7_5.py's rank_signal_p_cal_adj)."""
 from __future__ import annotations
 
 import pytest
 
-from selection_engine.contradiction import detect_contradiction
 from selection_engine.markets.tennis_set1_over_7_5 import (
     MARKET_ID,
+    rank_signal_p_cal_adj,
     score_form,
     score_market_compatibility,
     score_matchup,
     score_statistics,
     score_stability,
 )
-from selection_engine.types import CategoryScore, MarketProfile, MatchInput
+from selection_engine.types import MatchInput
 
 
 def _match(**stats) -> MatchInput:
@@ -55,6 +59,21 @@ class TestScoreMatchup:
 
 
 class TestScoreStatistics:
+    def test_p_cal_adj_used_directly_no_rescale(self):
+        # Diagnostic display only: plain p_cal_adj * 20, no floor/ceiling.
+        result = score_statistics(_match(p_cal_adj=0.90))
+        assert result.value == pytest.approx(18.0)
+        assert any(n.startswith("+") for n in result.notes)
+
+    def test_low_p_cal_adj_scores_low_with_risk_note(self):
+        result = score_statistics(_match(p_cal_adj=0.70))
+        assert result.value == pytest.approx(14.0)
+        assert any(n.startswith("-") for n in result.notes)
+
+    def test_p_cal_adj_takes_priority_over_expected_games_fallback(self):
+        result = score_statistics(_match(p_cal_adj=0.90, expected_total_games=9.0))
+        assert result.value == pytest.approx(18.0)
+
     def test_high_expected_games_scores_high(self):
         result = score_statistics(_match(expected_total_games=13.0))
         assert result.value == pytest.approx(20.0)
@@ -99,28 +118,17 @@ class TestScoreStability:
         assert len(result.notes) >= 1
 
 
-class TestDetectContradiction:
-    def _profile(self) -> MarketProfile:
-        return MarketProfile(market_id=MARKET_ID, sport="tennis")
+class TestRankSignalPCalAdj:
+    def test_uses_p_cal_adj_directly_unscaled(self):
+        assert rank_signal_p_cal_adj(_match(p_cal_adj=0.9083)) == pytest.approx(0.9083)
 
-    def test_spec_example_flags_contradiction(self):
-        # statistics=19 (high) alongside matchup=8 and stability=7 (low)
-        scores = {
-            "form": CategoryScore(18),
-            "matchup": CategoryScore(8),
-            "statistics": CategoryScore(19),
-            "market_compatibility": CategoryScore(19),
-            "stability": CategoryScore(7),
-        }
-        contradiction, penalty, notes = detect_contradiction(scores, self._profile())
-        assert contradiction is True
-        assert penalty > 0.0
-        assert notes
+    def test_p_cal_adj_takes_priority_over_fallback(self):
+        result = rank_signal_p_cal_adj(_match(p_cal_adj=0.90, expected_total_games=9.0))
+        assert result == pytest.approx(0.90)
 
-    def test_consistent_scores_no_contradiction(self):
-        scores = {name: CategoryScore(15) for name in
-                  ("form", "matchup", "statistics", "market_compatibility", "stability")}
-        contradiction, penalty, notes = detect_contradiction(scores, self._profile())
-        assert contradiction is False
-        assert penalty == 0.0
-        assert notes == []
+    def test_falls_back_to_expected_games_pseudo_probability(self):
+        result = rank_signal_p_cal_adj(_match(expected_total_games=13.0))
+        assert result == pytest.approx(1.0)
+
+    def test_none_when_no_signal_available(self):
+        assert rank_signal_p_cal_adj(_match()) is None

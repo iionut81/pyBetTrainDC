@@ -4,49 +4,68 @@ from __future__ import annotations
 markets/tennis_set1_over_7_5.py
 Market profile for TENNIS_SET1_OVER_7_5.
 
-RANKING IS DRIVEN BY p_cal_adj ALONE (see score_from_p_cal_adj below), not by
-a composite of all 5 categories. Backtested 2026-08-16 on 17,081 historical
-WTA matches (backtest_selection_engine_wta.py):
-  - p_cal_adj alone, bucketed by quantile, gave a clean monotonic hit-rate
-    curve (80.7% -> 85.7% across 5 equal-size buckets).
-  - The composite 5-category score's own bucket hit-rates were noisier
-    (82.7 -> 84.6 -> 85.8 -> 86.4 -> 84.8 -> 85.7, non-monotonic) and did not
-    beat p_cal_adj alone.
-  - The surface bonus that used to sit in MARKET_COMPATIBILITY tested as
-    literally no different with vs without it — removed for good.
-  - VETO held up (79.0% hit rate when triggered vs 83.5% when not) and stays
-    as an elimination gate.
-FORM, MATCHUP, MARKET_COMPATIBILITY and STABILITY are still computed and
-attached to every result as diagnostics (visible in the report's
-strengths/risks) — they just no longer decide ranking or the minimum-score
-threshold. Promote one back into score_fn only if a future backtest on more
-data shows it adds real separation on its own; don't assume it does.
+RANKING/ELIGIBILITY IS PERCENTILE-BASED ON p_cal_adj — the production
+pipeline's own calibrated P(Set 1 Over 7.5) for this exact match — not a
+0-100 composite/rescaled score. History (why, in order):
 
-Thresholds here are illustrative defaults for exercising the engine end to
-end — they are independent of, and simpler than, the tuned production logic
-in wta_set1_filters.py / run_wta_daily.py. Do not treat these numbers as
-validated betting thresholds.
+  2026-08-16: backtested a 5-category weighted composite score against
+  p_cal_adj alone on 17,081 historical WTA matches. p_cal_adj alone gave a
+  cleaner, monotonic hit-rate curve than the composite; the surface bonus in
+  MARKET_COMPATIBILITY tested as literally no different with vs without.
+  Simplified to score_fn = STATISTICS-only (still a 0-100 rescale of
+  p_cal_adj) with a fixed minimum_score=80 cutoff.
+
+  2026-08-17 (first pass): realized minimum_score=80 -> "p_cal_adj >= 91.8%"
+  was an artifact of two unrelated design choices (an untuned placeholder
+  cutoff of 80, rescaled through a percentile-normalized 0-100 map) — not a
+  threshold ever shown to correlate with anything. Replaced with:
+  rank_signal_fn returns raw p_cal_adj (no rescale at all), BET eligibility
+  decided by comparing it against real historical percentile breakpoints.
+
+  2026-08-17 (second pass): the first pass computed those breakpoints from
+  the POST-VETO population (n=14,323) — wrong population. Veto is a
+  selection filter (it decides which matches survive to be ranked); it must
+  not also define the statistical universe rank_value is measured against,
+  or the percentiles become entangled with an unrelated filtering decision.
+  P_CAL_ADJ_HISTORICAL_PERCENTILES below is now computed from the
+  POST_HARD_FILTER / PRE_VETO population (n=17,081) — data validation and
+  hard filters applied, veto NOT applied. Only matches at or above the
+  historical top quintile (p80 of THAT population) are BET_ELIGIBLE — being
+  the best candidate available today is not the same thing; see
+  classification.py.
+
+FORM, MATCHUP, MARKET_COMPATIBILITY and STABILITY are still computed and
+attached to every result as diagnostics (visible in the report) — they do
+NOT feed rank_signal_fn, historical_percentiles, or BET eligibility. Promote
+one back into the ranking signal only if a future backtest shows it adds
+real separation on its own; don't assume it does.
+
+Thresholds/hard-filters here are illustrative defaults for exercising the
+engine end to end — independent of, and simpler than, the tuned production
+logic in wta_set1_filters.py / run_wta_daily.py. Do not treat these numbers
+as validated betting thresholds beyond what the backtest actually shows.
 
 Expected `MatchInput.stats` fields:
   p_hold_a, p_hold_b        (required) hold rate 0-1 for each player
   surface                   (required) "Hard" | "Clay" | "Grass"
   p_cal_adj                 (optional) 0-1, model's own calibrated P(set 1 over 7.5) —
-                            preferred STATISTICS signal when available (e.g. from a
-                            production pipeline's own Monte Carlo + calibration)
+                            the ranking signal when available
   expected_total_games      (optional) model-estimated total GAMES IN SET 1 (not the
-                            whole match) — fallback STATISTICS signal for mock/demo data
-                            that has no calibrated probability of its own
+                            whole match) — fallback ranking signal for mock/demo data
+                            with no calibrated probability of its own (rescaled to a
+                            0-1 pseudo-probability; not a real probability)
   recent_form_variance_a/b  (optional) 0-1, higher = more erratic recent serve form
   tiebreak_rate             (optional) 0-1, historical set-1 tie-break frequency
 """
 
-from typing import Dict, Optional
+from typing import Dict, Iterable, Optional
 
+from selection_engine.classification import compute_percentiles
 from selection_engine.types import CategoryScore, MarketProfile, MatchInput
 
 MARKET_ID = "TENNIS_SET1_OVER_7_5"
 
-# Category scorers -----------------------------------------------------------
+# Category scorers (diagnostics only — do not feed ranking) -------------------
 
 
 def score_form(match: MatchInput) -> CategoryScore:
@@ -93,27 +112,18 @@ def score_matchup(match: MatchInput) -> CategoryScore:
     return CategoryScore(value=value, notes=notes)
 
 
-#  p_cal_adj linear map bounds. First calibration (0.75/0.90) was an eyeball
-#  guess and clipped ~50% of real matches to the max (0.90 sat at only the
-#  53rd percentile of the real distribution) — collapsing exactly the
-#  differentiation Top-N% selection needs among the best candidates.
-#  Recalibrated 2026-08-16 on the 1st/99th percentile of p_cal_adj across
-#  17,595 historical WTA matches (min 0.728, 1%=0.751, median 0.893,
-#  99%=0.958, max 0.986).
-P_CAL_ADJ_FLOOR = 0.75
-P_CAL_ADJ_CEILING = 0.96
-
-
 def score_statistics(match: MatchInput) -> CategoryScore:
+    """Diagnostic display of the same signal rank_signal_p_cal_adj uses for
+    ranking — plain p_cal_adj * 20, no percentile rescale. Not used for
+    ranking or eligibility (see module docstring)."""
     p_cal_adj = match.stats.get("p_cal_adj")
     if p_cal_adj is not None:
         p_cal_adj = float(p_cal_adj)
-        span = P_CAL_ADJ_CEILING - P_CAL_ADJ_FLOOR
-        value = max(0.0, min(20.0, 20.0 * (p_cal_adj - P_CAL_ADJ_FLOOR) / span))
+        value = max(0.0, min(20.0, p_cal_adj * 20.0))
         notes = []
-        if value >= 15.0:
+        if p_cal_adj >= 0.90:
             notes.append(f"+ High calibrated Over 7.5 probability ({p_cal_adj:.0%})")
-        elif value <= 8.0:
+        elif p_cal_adj < 0.80:
             notes.append(f"- Low calibrated Over 7.5 probability ({p_cal_adj:.0%})")
         return CategoryScore(value=value, notes=notes)
 
@@ -133,8 +143,7 @@ def score_statistics(match: MatchInput) -> CategoryScore:
 
 def score_market_compatibility(match: MatchInput) -> CategoryScore:
     # No surface bonus: backtested 2026-08-16, made no measurable difference
-    # to hit rate (see module docstring) — removed rather than left in "just
-    # in case".
+    # to hit rate — removed rather than left in "just in case".
     tb_rate = match.stats.get("tiebreak_rate")
     tb_component = (tb_rate * 10.0) if tb_rate is not None else 5.0
     value = max(0.0, min(20.0, 10.0 + tb_component))
@@ -179,17 +188,53 @@ CATEGORY_SCORERS = {
     "stability": score_stability,
 }
 
+# Ranking signal --------------------------------------------------------------
 
-def score_from_p_cal_adj(category_scores: Dict[str, CategoryScore]) -> float:
-    """Ranking score = STATISTICS alone, rescaled 0-20 -> 0-100.
 
-    STATISTICS is p_cal_adj itself (or, for mock data with no p_cal_adj, the
-    expected_total_games fallback — see score_statistics). FORM, MATCHUP,
-    MARKET_COMPATIBILITY and STABILITY are computed and reported but do not
-    feed this number. See module docstring for the backtest that justifies
-    this over summing all 5 categories.
-    """
-    return category_scores["statistics"].value * 5.0
+def rank_signal_p_cal_adj(match: MatchInput) -> Optional[float]:
+    """Raw ranking value — p_cal_adj itself, no rescale. Falls back to an
+    expected_total_games-derived pseudo-probability only for mock/demo data
+    that has no real calibrated probability; that fallback is NOT a real
+    probability and exists purely so the demo can exercise the pipeline."""
+    p_cal_adj = match.stats.get("p_cal_adj")
+    if p_cal_adj is not None:
+        return float(p_cal_adj)
+
+    expected_games = match.stats.get("expected_total_games")
+    if expected_games is not None:
+        return max(0.0, min(1.0, (float(expected_games) - 9.0) / 4.0))
+
+    return None
+
+
+# Historical percentile breakpoints for rank_signal_p_cal_adj ----------------
+# Computed 2026-08-17 from the POST_HARD_FILTER / PRE_VETO population — every
+# historical WTA match in simulations/WTA/backtests/wta_predictions.csv that
+# passed data_validation + hard_filters, BEFORE veto is applied (n=17,081).
+# Veto is deliberately excluded from this population (see module docstring).
+# Recompute with selection_engine.classification.compute_percentiles()
+# whenever the dataset changes materially — do not hand-edit these numbers.
+P_CAL_ADJ_HISTORICAL_PERCENTILES: Dict[str, float] = {
+    "p0": 0.753523,
+    "p20": 0.859453,
+    "p40": 0.886749,
+    "p60": 0.900665,
+    "p80": 0.916333,
+    "p90": 0.928661,
+    "p95": 0.939216,
+    "p100": 0.983489,
+}
+
+BET_THRESHOLD_PERCENTILE = 80.0
+
+
+def recompute_historical_percentiles(p_cal_adj_values: Iterable[float]) -> Dict[str, float]:
+    """Re-derive P_CAL_ADJ_HISTORICAL_PERCENTILES from a fresh sample (e.g.
+    after a retrain adds meaningfully more backtest data). Does not mutate
+    the module constant — copy the result in by hand once you've reviewed it,
+    same as any other calibration change in this file."""
+    return compute_percentiles(p_cal_adj_values)
+
 
 # Hard filters ----------------------------------------------------------------
 
@@ -211,7 +256,7 @@ def filter_extreme_hold_gap(match: MatchInput) -> Optional[str]:
 # Vetoes ------------------------------------------------------------------
 
 
-def veto_blowout_risk(match: MatchInput, category_scores: Dict[str, CategoryScore]) -> Optional[str]:
+def veto_blowout_risk(match: MatchInput) -> Optional[str]:
     hold_a = float(match.stats["p_hold_a"])
     hold_b = float(match.stats["p_hold_b"])
     min_hold = min(hold_a, hold_b)
@@ -224,9 +269,7 @@ def veto_blowout_risk(match: MatchInput, category_scores: Dict[str, CategoryScor
 TENNIS_SET1_OVER_7_5_PROFILE = MarketProfile(
     market_id=MARKET_ID,
     sport="tennis",
-    minimum_score=80.0,
     top_n=2,
-    allow_no_bet=True,
     required_fields=["p_hold_a", "p_hold_b", "surface"],
     optional_fields=[
         "p_cal_adj",
@@ -238,5 +281,7 @@ TENNIS_SET1_OVER_7_5_PROFILE = MarketProfile(
     hard_filters=[filter_low_expected_games, filter_extreme_hold_gap],
     vetoes=[veto_blowout_risk],
     category_scorers=CATEGORY_SCORERS,
-    score_fn=score_from_p_cal_adj,
+    rank_signal_fn=rank_signal_p_cal_adj,
+    historical_percentiles=P_CAL_ADJ_HISTORICAL_PERCENTILES,
+    bet_threshold_percentile=BET_THRESHOLD_PERCENTILE,
 )

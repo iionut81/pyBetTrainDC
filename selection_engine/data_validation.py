@@ -17,7 +17,8 @@ def validate(match: MatchInput, profile: MarketProfile) -> Tuple[Optional[str], 
 
     elimination_reason is None when the match has enough data to proceed.
     data_quality is 0-1, based on how many optional fields are present —
-    it still applies even when the match qualifies, feeding into confidence.
+    it still applies even when the match qualifies (used as a ranking
+    tie-breaker; see ranking.py).
     """
     for field in profile.required_fields:
         value = match.stats.get(field)

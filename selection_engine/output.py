@@ -2,14 +2,16 @@ from __future__ import annotations
 
 """
 output.py
-Renders an EngineResult as the plain-text report format from the project spec.
+Renders an EngineResult as a plain-text report.
 
-"Rank Score" is deliberately not called "Score" or graded as "good/bad" in
-isolation — for markets that set MarketProfile.score_fn (e.g.
-TENNIS_SET1_OVER_7_5), it's a rescaled transform of one trusted signal
-(currently p_cal_adj), not an independent composite quality judgment. It only
-means something as a RANKING key ("this cleared more matches than that one"),
-not as an absolute grade ("92/100 = great").
+Always shows the top-ranked candidates (by rank_value) regardless of BET
+eligibility — a match that's merely the best one available today is not the
+same thing as a BET_ELIGIBLE match, and the report must never blur that
+distinction (e.g. never say "Parry-Boisson is a bad match" when the honest
+statement is "best available today, but below the historical top quintile").
+Each displayed candidate carries its own label/bet_eligible so that's always
+explicit, independent of whatever the final BET/NO BET decision turns out
+to be.
 """
 
 from selection_engine.types import EngineResult, MatchResult
@@ -18,26 +20,37 @@ _RULE = "=" * 50
 _DASH = "-" * 50
 
 
-def _format_pick(rank: int, result: MatchResult) -> str:
+def _format_pct(value) -> str:
+    return f"{value:.2%}" if value is not None else "n/a"
+
+
+def _format_candidate(rank: int, result: MatchResult) -> str:
     vs = " vs ".join(result.competitors)
     lines = [
         f"#{rank} {vs}",
-        f"Rank Score: {result.final_score:.0f}/100 (ranking signal, not a quality grade)",
-        f"Confidence: {result.confidence}",
+        f"p_cal_adj: {_format_pct(result.rank_value)}",
+        f"historical_percentile: {result.historical_percentile:.1f}"
+        if result.historical_percentile is not None
+        else "historical_percentile: n/a",
+        f"label: {result.label or 'n/a'}",
+        f"bet_eligible: {'YES' if result.bet_eligible else 'NO'}",
         "",
     ]
     if result.strengths:
-        lines.append("Strengths:")
+        lines.append("Diagnostics (+):")
         lines.extend(result.strengths)
         lines.append("")
     if result.risks:
-        lines.append("Risks:")
+        lines.append("Diagnostics (-):")
         lines.extend(result.risks)
         lines.append("")
     return "\n".join(lines).rstrip()
 
 
-def format_report(market_label: str, result: EngineResult) -> str:
+def format_report(market_label: str, result: EngineResult, top_n: int = 2) -> str:
+    n_veto = sum(1 for r in result.eliminated if (r.elimination_reason or "").startswith("VETO:"))
+    n_eligible = sum(1 for r in result.qualified if r.bet_eligible)
+
     lines = [
         _RULE,
         f"MARKET: {market_label}",
@@ -46,32 +59,43 @@ def format_report(market_label: str, result: EngineResult) -> str:
         f"MATCHES ANALYZED: {result.total_analyzed}",
         "",
         f"ELIMINATED: {len(result.eliminated)}",
+        f"ELIMINATED BY VETO: {n_veto}",
         f"QUALIFIED: {len(result.qualified)}",
+        f"BET ELIGIBLE: {n_eligible}",
         "",
-        _DASH,
-        f"TOP {len(result.top_picks)}" if result.top_picks else "TOP CANDIDATES",
+        f"HISTORICAL P80: {_format_pct(result.historical_p80)}",
+        "",
         _DASH,
         "",
     ]
 
-    if result.top_picks:
-        for i, pick in enumerate(result.top_picks, start=1):
-            lines.append(_format_pick(i, pick))
+    displayed = result.qualified[:top_n]
+    if displayed:
+        for i, candidate in enumerate(displayed, start=1):
+            lines.append(_format_candidate(i, candidate))
             lines.append("")
             lines.append(_DASH)
             lines.append("")
     else:
-        lines.append("(none clear the minimum score threshold)")
+        lines.append("(no qualified candidates)")
         lines.append("")
 
+    lines.append(f"FINAL DECISION: {'BET' if result.decision == 'BET' else 'NO BET'}")
+    lines.append("")
     if result.decision == "BET":
-        lines.append("FINAL DECISION")
-        lines.append("")
         lines.append(f"TOP PICK: {' vs '.join(result.top_picks[0].competitors)}")
         if len(result.top_picks) > 1:
             lines.append(f"SECOND PICK: {' vs '.join(result.top_picks[1].competitors)}")
     else:
-        lines.append("FINAL DECISION: NO BET")
+        if displayed:
+            best = displayed[0]
+            best_vs = " vs ".join(best.competitors)
+            lines.append(
+                f"REASON: {best_vs} is the best available candidate, but it does not reach "
+                "the historical top-quintile threshold required for BET eligibility."
+            )
+        else:
+            lines.append("REASON: No qualified candidates were available to evaluate.")
 
     lines.append(_RULE)
     return "\n".join(lines)

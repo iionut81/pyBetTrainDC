@@ -2,26 +2,27 @@ from __future__ import annotations
 
 """
 ranking.py
-Stage 7: order qualified matches by final_score, then stability, then
-confidence, then contradiction count, then data quality (spec order).
+Orders qualified matches strictly by rank_value (p_cal_adj) descending.
+Ties (equal rank_value — rare in practice) break by: data_quality, then the
+diagnostic STABILITY category (never the primary signal, only a tie-breaker),
+then match_id for a fully deterministic order.
 """
 
 from typing import List
 
 from selection_engine.types import MatchResult
 
-_CONFIDENCE_RANK = {"HIGH": 2, "MEDIUM": 1, "LOW": 0}
-
 
 def _sort_key(result: MatchResult):
+    has_signal = result.rank_value is not None
     stability = result.category_scores.get("stability")
     stability_value = stability.value if stability else 0.0
     return (
-        -result.final_score,
-        -stability_value,
-        -_CONFIDENCE_RANK.get(result.confidence, 0),
-        int(result.contradiction),
+        not has_signal,
+        -(result.rank_value if has_signal else 0.0),
         -result.data_quality,
+        -stability_value,
+        result.match_id,
     )
 
 
