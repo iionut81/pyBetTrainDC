@@ -14,7 +14,7 @@ from data_loader import clean_output_dir, fetch_fixtures_from_api, load_team_rat
 from dixon_coles import expected_goals, resolve_team_strength, score_matrix
 from fhg_calibration import apply_calibration, calibration_from_row
 
-MARKETS = ["under_3_5", "under_4_5"]
+MARKETS = ["under_4_5"]
 
 # Recommendation thresholds per market — loaded from config.yaml
 THRESHOLDS: Dict[str, Dict[str, float]] = {m: CFG["goals"][m] for m in MARKETS}

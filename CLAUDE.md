@@ -14,7 +14,7 @@ Romanian BI developer transitioning to sport analyst. Builds betting prediction 
 
 ### 5 Models (all active)
 1. **DC Double Chance** — Dixon-Coles on goals → `run_dc_daily.py`
-2. **Goals Totals** — Under 3.5/4.5, Over 2.5, BTTS → `run_goals_totals_daily.py`
+2. **Goals Totals** — Under 4.5 only (Under 3.5/Over 2.5/BTTS dropped 2026-08-27, U3.5 audit HR 71.7% vs U4.5 86.7% — not worth running) → `run_goals_totals_daily.py`
 3. **FHG** — First-Half Goals → `run_fhg_daily.py` (11 leagues only)
 4. **Corners U12.5** — Negative Binomial → `run_corners_daily.py`
 5. **WTA Tennis** — Markov + WElo + Monte Carlo → `run_wta_daily.py`

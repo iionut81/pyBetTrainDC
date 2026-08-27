@@ -14,7 +14,7 @@ from fhg_calibration import apply_platt_logit, fit_platt_logit
 
 _TG = CFG["training"]["goals"]
 
-MARKETS = ["under_3_5", "under_4_5"]
+MARKETS = ["under_4_5"]
 
 
 def _ou_probs(mat: np.ndarray) -> Dict[str, float]:
