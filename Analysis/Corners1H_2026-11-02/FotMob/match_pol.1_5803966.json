@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803966",
+                    "league":  "pol.1",
+                    "date":  "2026-08-28T16:00:00Z",
+                    "home_id":  "8243",
+                    "home":  "Wisła Płock",
+                    "away_id":  "8245",
+                    "away":  "Korona Kielce",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/wisa-pock-vs-korona-kielce/28xqq1#5803966"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803966",
+    "collected_at_utc":  "2026-11-02T10:27:41.4290428Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  8,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  10,
+                      "away":  0,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

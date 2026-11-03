@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803947",
+                    "league":  "pol.1",
+                    "date":  "2026-08-15T18:15:00Z",
+                    "home_id":  "8024",
+                    "home":  "Widzew Łódź",
+                    "away_id":  "8245",
+                    "away":  "Korona Kielce",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/widzew-odz-vs-korona-kielce/26suz4#5803947"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803947",
+    "collected_at_utc":  "2026-11-02T10:27:37.4412672Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  6,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  9,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  15,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

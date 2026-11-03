@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5781749",
+                    "league":  "ned.1",
+                    "date":  "2026-09-13T14:45:00Z",
+                    "home_id":  "6413",
+                    "home":  "PEC Zwolle",
+                    "away_id":  "10235",
+                    "away":  "Feyenoord",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 7",
+                    "source":  "https://www.fotmob.com/matches/pec-zwolle-vs-feyenoord/2aiisx#5781749"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5781749",
+    "collected_at_utc":  "2026-11-03T09:07:58.9328601Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  6,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

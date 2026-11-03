@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5795371",
+                    "league":  "eng.1",
+                    "date":  "2026-08-23T15:30:00Z",
+                    "home_id":  "10261",
+                    "home":  "Newcastle United",
+                    "away_id":  "8650",
+                    "away":  "Liverpool",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "source":  "https://www.fotmob.com/matches/liverpool-vs-newcastle-united/2ygyxm#5795371"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5795371",
+    "collected_at_utc":  "2026-11-02T10:26:49.8732450Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  4,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

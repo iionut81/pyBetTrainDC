@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836861",
+                    "league":  "eng.2",
+                    "date":  "2026-10-09T19:00:00Z",
+                    "home_id":  "8654",
+                    "home":  "West Ham United",
+                    "away_id":  "10172",
+                    "away":  "Queens Park Rangers",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/west-ham-united-vs-queens-park-rangers/2xildx#5836861"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836861",
+    "collected_at_utc":  "2026-11-03T09:08:25.7861518Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  1,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

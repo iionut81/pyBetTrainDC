@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5853477",
+                    "league":  "rou.1",
+                    "date":  "2026-08-23T13:00:00Z",
+                    "home_id":  "583706",
+                    "home":  "Sepsi OSK",
+                    "away_id":  "210132",
+                    "away":  "FCV Farul Constanța",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/fcv-farul-constanta-vs-sepsi-osk/40r0o27n#5853477"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853477",
+    "collected_at_utc":  "2026-11-02T10:27:59.6544373Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  7,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  9,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

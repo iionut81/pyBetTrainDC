@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803936",
+                    "league":  "pol.1",
+                    "date":  "2026-08-08T15:30:00Z",
+                    "home_id":  "8023",
+                    "home":  "Pogoń Szczecin",
+                    "away_id":  "89466",
+                    "away":  "Motor Lublin",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 1",
+                    "source":  "https://www.fotmob.com/matches/pogon-szczecin-vs-motor-lublin/26lbxv7#5803936"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803936",
+    "collected_at_utc":  "2026-11-02T10:27:33.4533577Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

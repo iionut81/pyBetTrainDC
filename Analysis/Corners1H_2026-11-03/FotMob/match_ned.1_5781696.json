@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5781696",
+                    "league":  "ned.1",
+                    "date":  "2026-08-09T10:15:00Z",
+                    "home_id":  "8614",
+                    "home":  "Sparta Rotterdam",
+                    "away_id":  "10235",
+                    "away":  "Feyenoord",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/sparta-rotterdam-vs-feyenoord/2xrvo7#5781696"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5781696",
+    "collected_at_utc":  "2026-11-03T09:07:56.1607000Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  6,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  10,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

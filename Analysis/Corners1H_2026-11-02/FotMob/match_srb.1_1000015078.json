@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "1000015078",
+                    "league":  "srb.1",
+                    "date":  "2026-07-25T15:30:00Z",
+                    "home_id":  "6410",
+                    "home":  "Radnički Niš",
+                    "away_id":  "6374",
+                    "away":  "Čukarički",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/cukaricki-vs-radnicki-nis/1cnptu#1000015078"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015078",
+    "collected_at_utc":  "2026-11-02T10:28:11.1373565Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

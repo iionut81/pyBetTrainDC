@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803980",
+                    "league":  "pol.1",
+                    "date":  "2026-09-14T17:00:00Z",
+                    "home_id":  "5769",
+                    "home":  "Radomiak Radom",
+                    "away_id":  "8028",
+                    "away":  "Piast Gliwice",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/radomiak-radom-vs-piast-gliwice/1kobsr#5803980"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803980",
+    "collected_at_utc":  "2026-11-02T10:27:51.9895411Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  7,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  7,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  14,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

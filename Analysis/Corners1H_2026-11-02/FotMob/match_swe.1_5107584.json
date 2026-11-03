@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107584",
+                    "league":  "swe.1",
+                    "date":  "2026-08-31T17:00:00Z",
+                    "home_id":  "8297",
+                    "home":  "GAIS",
+                    "away_id":  "8501",
+                    "away":  "Brommapojkarna",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "4 - 0",
+                    "source":  "https://www.fotmob.com/matches/gais-vs-brommapojkarna/2c0c06#5107584"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107584",
+    "collected_at_utc":  "2026-11-02T10:28:38.2153912Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  6,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

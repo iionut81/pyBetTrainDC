@@ -1,0 +1,150 @@
+﻿{
+    "fixture":  {
+                    "league":  "srb.1",
+                    "id":  "1000015093",
+                    "date":  "2026-08-09T19:00:00Z",
+                    "home_id":  "1739",
+                    "home":  "Mladost Lučani",
+                    "away_id":  "6374",
+                    "away":  "Čukarički",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "round":  "4",
+                    "source":  "https://www.fotmob.com/matches/mladost-lucani-vs-cukaricki/jllv3#1000015093"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015093",
+    "general":  {
+                    "matchId":  "1000015093",
+                    "parentLeagueId":  182,
+                    "leagueName":  "Serbian Super Liga",
+                    "homeTeam":  {
+                                     "name":  "Mladost Lučani",
+                                     "id":  1739
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Čukarički",
+                                     "id":  6374
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  1739,
+                             "name":  "Mladost Lučani",
+                             "score":  2
+                         },
+                         {
+                             "id":  6374,
+                             "name":  "Čukarički",
+                             "score":  2
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-08-09T19:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "09.08.2026 21:01:05",
+                                        "firstHalfEnded":  "09.08.2026 21:47:16",
+                                        "secondHalfStarted":  "09.08.2026 22:02:10",
+                                        "secondHalfEnded":  "09.08.2026 22:51:13",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "09.08.2026 22:51:13"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "2 - 2",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  83,
+                      "added_time":  null,
+                      "time_str":  83,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  2,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  90,
+                      "added_time":  3,
+                      "time_str":  "90 + 3",
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  1,
+                      "away_score":  2,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  18,
+                      "added_time":  null,
+                      "time_str":  18,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  80,
+                      "added_time":  null,
+                      "time_str":  80,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  4
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  7
+                        },
+                        {
+                            "Name":  "AddedTime",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        }
+                    ]
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5887636",
+                    "league":  "por.1",
+                    "date":  "2026-09-19T17:00:00Z",
+                    "home_id":  "9780",
+                    "home":  "Alverca",
+                    "away_id":  "7841",
+                    "away":  "Rio Ave",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "source":  "https://www.fotmob.com/matches/rio-ave-vs-alverca/2kfxvf#5887636"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5887636",
+    "collected_at_utc":  "2026-11-02T10:27:20.4857512Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  5,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

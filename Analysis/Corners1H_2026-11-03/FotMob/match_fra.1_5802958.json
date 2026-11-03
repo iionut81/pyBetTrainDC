@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5802958",
+                    "league":  "fra.1",
+                    "date":  "2026-10-17T18:45:00Z",
+                    "home_id":  "8639",
+                    "home":  "Lille",
+                    "away_id":  "8521",
+                    "away":  "Brest",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/brest-vs-lille/2fo2ub#5802958"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5802958",
+    "collected_at_utc":  "2026-11-02T10:27:21.3279644Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

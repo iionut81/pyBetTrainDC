@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5887617",
+                    "league":  "por.1",
+                    "date":  "2026-08-31T19:15:00Z",
+                    "home_id":  "9772",
+                    "home":  "Benfica",
+                    "away_id":  "7842",
+                    "away":  "Estoril",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "source":  "https://www.fotmob.com/matches/estoril-vs-benfica/2kdaph#5887617"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5887617",
+    "collected_at_utc":  "2026-11-02T10:27:12.5061721Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  6,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  9,
+                      "away":  0,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

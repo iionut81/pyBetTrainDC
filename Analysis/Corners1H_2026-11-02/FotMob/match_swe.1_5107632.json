@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107632",
+                    "league":  "swe.1",
+                    "date":  "2026-10-25T15:30:00Z",
+                    "home_id":  "8127",
+                    "home":  "Mjällby",
+                    "away_id":  "8248",
+                    "away":  "Hammarby",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/mjallby-vs-hammarby/27txzw#5107632"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107632",
+    "collected_at_utc":  "2026-11-02T10:28:56.0172928Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  5,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  5,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  8,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

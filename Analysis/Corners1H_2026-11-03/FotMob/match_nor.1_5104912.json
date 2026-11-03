@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5104912",
+                    "league":  "nor.1",
+                    "date":  "2026-05-16T16:00:00Z",
+                    "home_id":  "8402",
+                    "home":  "Bodø/Glimt",
+                    "away_id":  "8608",
+                    "away":  "Tromsø",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "5 - 0",
+                    "source":  "https://www.fotmob.com/matches/bodoglimt-vs-tromso/2e55bv#5104912"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5104912",
+    "collected_at_utc":  "2026-11-03T09:07:55.7292662Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  1,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

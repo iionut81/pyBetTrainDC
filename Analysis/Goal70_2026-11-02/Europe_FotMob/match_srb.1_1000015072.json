@@ -1,0 +1,141 @@
+﻿{
+    "fixture":  {
+                    "league":  "srb.1",
+                    "id":  "1000015072",
+                    "date":  "2026-07-17T18:00:00Z",
+                    "home_id":  "676141",
+                    "home":  "Železničar Pančevo",
+                    "away_id":  "6410",
+                    "away":  "Radnički Niš",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "round":  "1",
+                    "source":  "https://www.fotmob.com/matches/radnicki-nis-vs-zeleznicar-pancevo/2z0du52p#1000015072"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015072",
+    "general":  {
+                    "matchId":  "1000015072",
+                    "parentLeagueId":  182,
+                    "leagueName":  "Serbian Super Liga",
+                    "homeTeam":  {
+                                     "name":  "Železničar Pančevo",
+                                     "id":  676141
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Radnički Niš",
+                                     "id":  6410
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  676141,
+                             "name":  "Železničar Pančevo",
+                             "score":  2
+                         },
+                         {
+                             "id":  6410,
+                             "name":  "Radnički Niš",
+                             "score":  1
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-07-17T18:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "17.07.2026 20:02:28",
+                                        "firstHalfEnded":  "17.07.2026 20:49:25",
+                                        "secondHalfStarted":  "17.07.2026 21:07:21",
+                                        "secondHalfEnded":  "17.07.2026 21:57:02",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "17.07.2026 21:57:02"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "2 - 1",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  13,
+                      "added_time":  null,
+                      "time_str":  13,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  70,
+                      "added_time":  null,
+                      "time_str":  70,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  1,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  29,
+                      "added_time":  null,
+                      "time_str":  29,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  1,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  3
+                        },
+                        {
+                            "Name":  "VAR",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  4
+                        },
+                        {
+                            "Name":  "AddedTime",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        }
+                    ]
+}

@@ -1,0 +1,72 @@
+﻿{
+    "ok":  true,
+    "league":  "swe.1",
+    "source":  "https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard?dates=20261102\u0026limit=1000",
+    "fetched_at_utc":  "2026-11-03T07:58:33.7808664Z",
+    "events":  [
+                   {
+                       "id":  "401842870",
+                       "date":  "2026-11-02T18:00Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "8222",
+                                         "name":  "GAIS",
+                                         "homeAway":  "home",
+                                         "score":  "2"
+                                     },
+                                     {
+                                         "id":  "994",
+                                         "name":  "AIK",
+                                         "homeAway":  "away",
+                                         "score":  "1"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "36\u0027",
+                                         "team_id":  "8222",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "53\u0027",
+                                         "team_id":  "8222",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "76\u0027",
+                                         "team_id":  "994",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401842870"
+                   },
+                   {
+                       "id":  "401842867",
+                       "date":  "2026-11-02T18:00Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "20301",
+                                         "name":  "Mjällby AIF",
+                                         "homeAway":  "home",
+                                         "score":  "0"
+                                     },
+                                     {
+                                         "id":  "3052",
+                                         "name":  "Kalmar FF",
+                                         "homeAway":  "away",
+                                         "score":  "0"
+                                     }
+                                 ],
+                       "goals":  [
+
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401842867"
+                   }
+               ]
+}

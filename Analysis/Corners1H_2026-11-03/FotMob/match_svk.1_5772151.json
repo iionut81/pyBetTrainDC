@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5772151",
+                    "league":  "svk.1",
+                    "date":  "2026-10-28T17:00:00Z",
+                    "home_id":  "6496",
+                    "home":  "Trenčín",
+                    "away_id":  "6019",
+                    "away":  "Slovan Bratislava",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/slovan-bratislava-vs-trencin/1ams8m#5772151"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5772151",
+    "collected_at_utc":  "2026-11-03T09:09:21.1376620Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  5,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  1,
+                      "away":  9,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

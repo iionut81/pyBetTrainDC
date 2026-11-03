@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836873",
+                    "league":  "eng.2",
+                    "date":  "2026-10-14T18:45:00Z",
+                    "home_id":  "10172",
+                    "home":  "Queens Park Rangers",
+                    "away_id":  "10170",
+                    "away":  "Derby County",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "4 - 1",
+                    "source":  "https://www.fotmob.com/matches/derby-county-vs-queens-park-rangers/3f6zl5#5836873"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836873",
+    "collected_at_utc":  "2026-11-03T09:08:39.6592807Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  1,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

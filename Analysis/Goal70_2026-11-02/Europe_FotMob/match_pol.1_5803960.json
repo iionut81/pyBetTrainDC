@@ -1,0 +1,120 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5803960",
+                    "date":  "2026-08-28T18:30:00Z",
+                    "home_id":  "8673",
+                    "home":  "Legia Warszawa",
+                    "away_id":  "8025",
+                    "away":  "Śląsk Wrocław",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "round":  "6",
+                    "source":  "https://www.fotmob.com/matches/slask-wrocaw-vs-legia-warszawa/2b0ftc#5803960"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803960",
+    "general":  {
+                    "matchId":  "5803960",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "Legia Warszawa",
+                                     "id":  8673
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Śląsk Wrocław",
+                                     "id":  8025
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  8673,
+                             "name":  "Legia Warszawa",
+                             "score":  1
+                         },
+                         {
+                             "id":  8025,
+                             "name":  "Śląsk Wrocław",
+                             "score":  1
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-08-28T18:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "28.08.2026 20:30:13",
+                                        "firstHalfEnded":  "28.08.2026 21:19:26",
+                                        "secondHalfStarted":  "28.08.2026 21:36:34",
+                                        "secondHalfEnded":  "28.08.2026 22:28:13",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "28.08.2026 22:28:13"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "1 - 1",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  90,
+                      "added_time":  4,
+                      "time_str":  "90 + 4",
+                      "type":  "Goal",
+                      "event_id":  14354095,
+                      "home_score":  0,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "away",
+                      "time":  35,
+                      "added_time":  null,
+                      "time_str":  35,
+                      "type":  "Goal",
+                      "event_id":  14352962,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  "Penalty",
+                      "period":  "FirstHalf",
+                      "is_own_goal":  false
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Substitution",
+                            "Count":  8
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  3
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        }
+                    ]
+}

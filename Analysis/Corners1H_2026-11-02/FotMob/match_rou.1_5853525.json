@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5853525",
+                    "league":  "rou.1",
+                    "date":  "2026-10-19T15:00:00Z",
+                    "home_id":  "89022",
+                    "home":  "Universitatea Cluj",
+                    "away_id":  "9732",
+                    "away":  "FC Argeș Pitesti",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "source":  "https://www.fotmob.com/matches/fc-arges-pitesti-vs-universitatea-cluj/28n6naf#5853525"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853525",
+    "collected_at_utc":  "2026-11-02T10:28:14.0225236Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  7,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

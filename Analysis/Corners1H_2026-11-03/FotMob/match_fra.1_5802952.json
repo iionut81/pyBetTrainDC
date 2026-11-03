@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5802952",
+                    "league":  "fra.1",
+                    "date":  "2026-10-10T18:45:00Z",
+                    "home_id":  "9847",
+                    "home":  "Paris Saint-Germain",
+                    "away_id":  "8682",
+                    "away":  "Le Mans",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 1",
+                    "source":  "https://www.fotmob.com/matches/le-mans-vs-paris-saint-germain/2u7pxk#5802952"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5802952",
+    "collected_at_utc":  "2026-11-03T09:07:46.2304196Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

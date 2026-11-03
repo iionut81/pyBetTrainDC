@@ -1,0 +1,91 @@
+﻿{
+    "fixture":  {
+                    "league":  "rou.1",
+                    "id":  "5853488",
+                    "date":  "2026-09-04T17:30:00Z",
+                    "home_id":  "9731",
+                    "home":  "CFR Cluj",
+                    "away_id":  "210132",
+                    "away":  "FCV Farul Constanța",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 0",
+                    "round":  "8",
+                    "source":  "https://www.fotmob.com/matches/cfr-cluj-vs-fcv-farul-constanta/b3q6qwn#5853488"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853488",
+    "general":  {
+                    "matchId":  "5853488",
+                    "parentLeagueId":  189,
+                    "leagueName":  "Superliga",
+                    "homeTeam":  {
+                                     "name":  "CFR Cluj",
+                                     "id":  9731
+                                 },
+                    "awayTeam":  {
+                                     "name":  "FCV Farul Constanța",
+                                     "id":  210132
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  9731,
+                             "name":  "CFR Cluj",
+                             "score":  0
+                         },
+                         {
+                             "id":  210132,
+                             "name":  "FCV Farul Constanța",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-09-04T17:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "04.09.2026 19:31:10",
+                                        "firstHalfEnded":  "04.09.2026 20:17:12",
+                                        "secondHalfStarted":  "04.09.2026 20:33:54",
+                                        "secondHalfEnded":  "04.09.2026 21:24:36",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "04.09.2026 21:24:36"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "0 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Card",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  7
+                        }
+                    ]
+}

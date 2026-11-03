@@ -1,0 +1,31 @@
+﻿{
+    "fixture":  {
+                    "id":  "5909184",
+                    "league":  "ukr.1",
+                    "date":  "2026-10-17T15:00:00Z",
+                    "home_id":  "9728",
+                    "home":  "Shakhtar Donetsk",
+                    "away_id":  "599924",
+                    "away":  "FC Kolos Kovalivka",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "source":  "https://www.fotmob.com/matches/shakhtar-donetsk-vs-fc-kolos-kovalivka/2ddf7bwi#5909184"
+                },
+    "ok":  false,
+    "error":  "first_half_corners_missing",
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5909184",
+    "collected_at_utc":  "2026-11-03T09:08:00.3844673Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  null,
+    "second_half":  null,
+    "full_time":  {
+                      "home":  8,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  false
+}

@@ -1,0 +1,163 @@
+﻿{
+    "fixture":  {
+                    "league":  "srb.1",
+                    "id":  "1000015144",
+                    "date":  "2026-10-11T13:00:00Z",
+                    "home_id":  "6410",
+                    "home":  "Radnički Niš",
+                    "away_id":  "6406",
+                    "away":  "Vojvodina",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 4",
+                    "round":  "11",
+                    "source":  "https://www.fotmob.com/matches/vojvodina-vs-radnicki-nis/1cwhw2#1000015144"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015144",
+    "general":  {
+                    "matchId":  "1000015144",
+                    "parentLeagueId":  182,
+                    "leagueName":  "Serbian Super Liga",
+                    "homeTeam":  {
+                                     "name":  "Radnički Niš",
+                                     "id":  6410
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Vojvodina",
+                                     "id":  6406
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  6410,
+                             "name":  "Radnički Niš",
+                             "score":  1
+                         },
+                         {
+                             "id":  6406,
+                             "name":  "Vojvodina",
+                             "score":  4
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-10-11T13:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "11.10.2026 15:01:50",
+                                        "firstHalfEnded":  "11.10.2026 15:49:05",
+                                        "secondHalfStarted":  "11.10.2026 16:06:21",
+                                        "secondHalfEnded":  "11.10.2026 16:51:31",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "11.10.2026 16:51:31"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "1 - 4",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  90,
+                      "added_time":  null,
+                      "time_str":  90,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  4,
+                      "goal_description":  "Own goal",
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  19,
+                      "added_time":  null,
+                      "time_str":  19,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  "Penalty",
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  31,
+                      "added_time":  null,
+                      "time_str":  31,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  50,
+                      "added_time":  null,
+                      "time_str":  50,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  2,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  70,
+                      "added_time":  null,
+                      "time_str":  70,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  3,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  5
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  5
+                        },
+                        {
+                            "Name":  "AddedTime",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        }
+                    ]
+}

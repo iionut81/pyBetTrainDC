@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868484",
+                    "league":  "esp.2",
+                    "date":  "2026-10-11T19:00:00Z",
+                    "home_id":  "8385",
+                    "home":  "Cádiz",
+                    "away_id":  "9869",
+                    "away":  "Sporting Gijón",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/cadiz-vs-sporting-gijon/2r7bbq#5868484"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868484",
+    "collected_at_utc":  "2026-11-02T10:28:29.2567486Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  4,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  7,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

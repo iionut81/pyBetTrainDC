@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5881200",
+                    "league":  "ger.1",
+                    "date":  "2026-10-25T16:30:00Z",
+                    "home_id":  "8358",
+                    "home":  "Freiburg",
+                    "away_id":  "9823",
+                    "away":  "Bayern München",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 3",
+                    "source":  "https://www.fotmob.com/matches/freiburg-vs-bayern-munchen/2qet4e#5881200"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5881200",
+    "collected_at_utc":  "2026-11-03T09:07:48.3345693Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

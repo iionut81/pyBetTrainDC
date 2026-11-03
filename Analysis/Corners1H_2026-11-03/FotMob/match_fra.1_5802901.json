@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5802901",
+                    "league":  "fra.1",
+                    "date":  "2026-08-23T13:00:00Z",
+                    "home_id":  "8121",
+                    "home":  "Angers",
+                    "away_id":  "8639",
+                    "away":  "Lille",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/angers-vs-lille/2bmo4b#5802901"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5802901",
+    "collected_at_utc":  "2026-11-03T09:07:39.5171224Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  5,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

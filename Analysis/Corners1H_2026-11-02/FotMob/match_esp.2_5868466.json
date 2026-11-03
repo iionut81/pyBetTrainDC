@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868466",
+                    "league":  "esp.2",
+                    "date":  "2026-09-27T14:15:00Z",
+                    "home_id":  "8661",
+                    "home":  "Mallorca",
+                    "away_id":  "9865",
+                    "away":  "Almería",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/mallorca-vs-almeria/2u6j22#5868466"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868466",
+    "collected_at_utc":  "2026-11-02T10:28:20.4243073Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

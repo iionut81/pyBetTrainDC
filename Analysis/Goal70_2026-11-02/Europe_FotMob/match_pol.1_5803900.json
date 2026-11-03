@@ -1,0 +1,107 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5803900",
+                    "date":  "2026-07-25T12:45:00Z",
+                    "home_id":  "1957",
+                    "home":  "Jagiellonia Białystok",
+                    "away_id":  "8245",
+                    "away":  "Korona Kielce",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "round":  "1",
+                    "source":  "https://www.fotmob.com/matches/jagiellonia-biaystok-vs-korona-kielce/uzoxg#5803900"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803900",
+    "general":  {
+                    "matchId":  "5803900",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "Jagiellonia Białystok",
+                                     "id":  1957
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Korona Kielce",
+                                     "id":  8245
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  1957,
+                             "name":  "Jagiellonia Białystok",
+                             "score":  1
+                         },
+                         {
+                             "id":  8245,
+                             "name":  "Korona Kielce",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-07-25T12:45:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "25.07.2026 14:47:53",
+                                        "firstHalfEnded":  "25.07.2026 15:35:04",
+                                        "secondHalfStarted":  "25.07.2026 15:52:03",
+                                        "secondHalfEnded":  "25.07.2026 16:38:18",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "25.07.2026 16:38:17"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "1 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  89,
+                      "added_time":  null,
+                      "time_str":  89,
+                      "type":  "Goal",
+                      "event_id":  14247854,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  1
+                        }
+                    ]
+}

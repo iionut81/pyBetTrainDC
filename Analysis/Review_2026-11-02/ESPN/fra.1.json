@@ -1,0 +1,42 @@
+﻿{
+    "ok":  true,
+    "league":  "fra.1",
+    "source":  "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261102\u0026limit=1000",
+    "fetched_at_utc":  "2026-11-03T07:58:30.8483195Z",
+    "events":  [
+                   {
+                       "id":  "401876419",
+                       "date":  "2026-11-02T19:45Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "273",
+                                         "name":  "Lorient",
+                                         "homeAway":  "home",
+                                         "score":  "0"
+                                     },
+                                     {
+                                         "id":  "6997",
+                                         "name":  "Brest",
+                                         "homeAway":  "away",
+                                         "score":  "2"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "69\u0027",
+                                         "team_id":  "6997",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "90\u0027+2\u0027",
+                                         "team_id":  "6997",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401876419"
+                   }
+               ]
+}

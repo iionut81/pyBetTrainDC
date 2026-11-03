@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803251",
+                    "league":  "fra.2",
+                    "date":  "2026-09-04T18:00:00Z",
+                    "home_id":  "6355",
+                    "home":  "Pau",
+                    "away_id":  "9874",
+                    "away":  "Sochaux",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/pau-vs-sochaux/26eypd#5803251"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803251",
+    "collected_at_utc":  "2026-11-02T10:29:12.4916271Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  5,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  1,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

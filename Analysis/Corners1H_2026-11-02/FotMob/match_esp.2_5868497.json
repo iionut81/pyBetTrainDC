@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868497",
+                    "league":  "esp.2",
+                    "date":  "2026-10-18T14:15:00Z",
+                    "home_id":  "7878",
+                    "home":  "Granada",
+                    "away_id":  "8385",
+                    "away":  "Cádiz",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 0",
+                    "source":  "https://www.fotmob.com/matches/granada-vs-cadiz/26qrrx#5868497"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868497",
+    "collected_at_utc":  "2026-11-02T10:28:34.9526827Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107510",
+                    "league":  "swe.1",
+                    "date":  "2026-05-30T13:00:00Z",
+                    "home_id":  "8297",
+                    "home":  "GAIS",
+                    "away_id":  "9892",
+                    "away":  "Kalmar FF",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 0",
+                    "source":  "https://www.fotmob.com/matches/gais-vs-kalmar-ff/2qhxfj#5107510"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107510",
+    "collected_at_utc":  "2026-11-02T10:28:16.4168480Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  5,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

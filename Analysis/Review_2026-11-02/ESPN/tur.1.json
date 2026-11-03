@@ -1,0 +1,57 @@
+﻿{
+    "ok":  true,
+    "league":  "tur.1",
+    "source":  "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard?dates=20261102\u0026limit=1000",
+    "fetched_at_utc":  "2026-11-03T07:58:32.9330133Z",
+    "events":  [
+                   {
+                       "id":  "401888260",
+                       "date":  "2026-11-02T17:00Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "996",
+                                         "name":  "Genclerbirligi",
+                                         "homeAway":  "home",
+                                         "score":  "5"
+                                     },
+                                     {
+                                         "id":  "9078",
+                                         "name":  "Alanyaspor",
+                                         "homeAway":  "away",
+                                         "score":  "0"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "1\u0027",
+                                         "team_id":  "996",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "59\u0027",
+                                         "team_id":  "996",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "66\u0027",
+                                         "team_id":  "996",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "68\u0027",
+                                         "team_id":  "996",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "78\u0027",
+                                         "team_id":  "996",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401888260"
+                   }
+               ]
+}

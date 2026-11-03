@@ -1,0 +1,31 @@
+﻿{
+    "fixture":  {
+                    "id":  "5909144",
+                    "league":  "ukr.1",
+                    "date":  "2026-08-29T15:00:00Z",
+                    "home_id":  "9728",
+                    "home":  "Shakhtar Donetsk",
+                    "away_id":  "1181312",
+                    "away":  "Polissya Zhytomyr",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/shakhtar-donetsk-vs-polissya-zhytomyr/91uc7f40#5909144"
+                },
+    "ok":  false,
+    "error":  "first_half_corners_missing",
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5909144",
+    "collected_at_utc":  "2026-11-03T09:07:58.4250880Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  null,
+    "second_half":  null,
+    "full_time":  {
+                      "home":  6,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  false
+}

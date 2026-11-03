@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5795365",
+                    "league":  "eng.1",
+                    "date":  "2026-08-22T14:00:00Z",
+                    "home_id":  "8668",
+                    "home":  "Everton",
+                    "away_id":  "9826",
+                    "away":  "Crystal Palace",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 0",
+                    "source":  "https://www.fotmob.com/matches/everton-vs-crystal-palace/2tttz7#5795365"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5795365",
+    "collected_at_utc":  "2026-11-02T10:26:49.0305087Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  0,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

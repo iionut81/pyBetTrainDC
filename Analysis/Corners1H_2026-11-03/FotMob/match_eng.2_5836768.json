@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836768",
+                    "league":  "eng.2",
+                    "date":  "2026-08-22T14:00:00Z",
+                    "home_id":  "10170",
+                    "home":  "Derby County",
+                    "away_id":  "8344",
+                    "away":  "Cardiff City",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "source":  "https://www.fotmob.com/matches/cardiff-city-vs-derby-county/2u1qeb#5836768"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836768",
+    "collected_at_utc":  "2026-11-03T09:07:37.0829538Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  5,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  7,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

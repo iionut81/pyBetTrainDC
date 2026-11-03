@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5943351",
+                    "league":  "gre.1",
+                    "date":  "2026-09-07T15:00:00Z",
+                    "home_id":  "80654",
+                    "home":  "Asteras Tripolis",
+                    "away_id":  "8675",
+                    "away":  "Iraklis",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/iraklis-vs-asteras-tripolis/1tzh5n0#5943351"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5943351",
+    "collected_at_utc":  "2026-11-02T10:27:35.4067111Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  5,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

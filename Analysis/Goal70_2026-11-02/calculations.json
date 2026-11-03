@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-02",
+  "definition": "At least one valid goal displayed at minute <=70, including first-half added time; exclude extra time and shootouts",
+  "current_season": "2026/27",
+  "market_odds_used": false,
+  "probabilities_validated": false,
+  "unique_matches": 57,
+  "results": [
+    {
+      "home": "Sassuolo",
+      "away": "Fiorentina",
+      "league": "I1",
+      "a": {
+        "team": "Sassuolo",
+        "venue": "all",
+        "n": 9,
+        "gf70": 10,
+        "ga70": 18,
+        "success70": 9
+      },
+      "b": {
+        "team": "Fiorentina",
+        "venue": "all",
+        "n": 9,
+        "gf70": 9,
+        "ga70": 14,
+        "success70": 9
+      },
+      "ah": {
+        "team": "Sassuolo",
+        "venue": "home",
+        "n": 4,
+        "gf70": 5,
+        "ga70": 7,
+        "success70": 4
+      },
+      "ba": {
+        "team": "Fiorentina",
+        "venue": "away",
+        "n": 4,
+        "gf70": 4,
+        "ga70": 6,
+        "success70": 4
+      },
+      "lambda_season": 2.8333333333333335,
+      "lambda_venue": 2.75,
+      "lambda_combined": 2.791666666666667,
+      "p_season": 0.9411835283575701,
+      "p_venue": 0.9360721387932924,
+      "p_raw": 0.9386810695149899,
+      "p_stress": 0.8928294012476933,
+      "fair_odds": 1.0653245628109804
+    },
+    {
+      "home": "Lorient",
+      "away": "Brest",
+      "league": "F1",
+      "a": {
+        "team": "Lorient",
+        "venue": "all",
+        "n": 8,
+        "gf70": 6,
+        "ga70": 6,
+        "success70": 6
+      },
+      "b": {
+        "team": "Brest",
+        "venue": "all",
+        "n": 8,
+        "gf70": 13,
+        "ga70": 9,
+        "success70": 8
+      },
+      "ah": {
+        "team": "Lorient",
+        "venue": "home",
+        "n": 4,
+        "gf70": 5,
+        "ga70": 4,
+        "success70": 4
+      },
+      "ba": {
+        "team": "Brest",
+        "venue": "away",
+        "n": 4,
+        "gf70": 6,
+        "ga70": 4,
+        "success70": 4
+      },
+      "lambda_season": 2.125,
+      "lambda_venue": 2.375,
+      "lambda_combined": 2.25,
+      "p_season": 0.8805670317332803,
+      "p_venue": 0.9069855107893365,
+      "p_raw": 0.8946007754381357,
+      "p_stress": 0.8347011117784134,
+      "fair_odds": 1.1178170503040805
+    },
+    {
+      "home": "Atalanta",
+      "away": "Parma",
+      "league": "I1",
+      "a": {
+        "team": "Atalanta",
+        "venue": "all",
+        "n": 9,
+        "gf70": 13,
+        "ga70": 13,
+        "success70": 8
+      },
+      "b": {
+        "team": "Parma",
+        "venue": "all",
+        "n": 9,
+        "gf70": 2,
+        "ga70": 12,
+        "success70": 7
+      },
+      "ah": {
+        "team": "Atalanta",
+        "venue": "home",
+        "n": 5,
+        "gf70": 10,
+        "ga70": 7,
+        "success70": 4
+      },
+      "ba": {
+        "team": "Parma",
+        "venue": "away",
+        "n": 4,
+        "gf70": 0,
+        "ga70": 7,
+        "success70": 4
+      },
+      "lambda_season": 2.2222222222222223,
+      "lambda_venue": 2.575,
+      "lambda_combined": 2.3986111111111112,
+      "p_season": 0.8916319767781041,
+      "p_venue": 0.9238461772013897,
+      "p_raw": 0.9091559620146927,
+      "p_stress": 0.8532300507134087,
+      "fair_odds": 1.099921291594455
+    }
+  ],
+  "diagnostics": {
+    "sassuolo_excluding_lazio_2026_10_27": {
+      "lambda_season": 2.5902777777777777,
+      "lambda_venue": 2.0833333333333335,
+      "p": 0.9033641564704519
+    }
+  }
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107476",
+                    "league":  "swe.1",
+                    "date":  "2026-04-27T17:00:00Z",
+                    "home_id":  "9892",
+                    "home":  "Kalmar FF",
+                    "away_id":  "8014",
+                    "away":  "Elfsborg",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "source":  "https://www.fotmob.com/matches/elfsborg-vs-kalmar-ff/2ngge7#5107476"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107476",
+    "collected_at_utc":  "2026-11-02T10:28:01.3976235Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  1,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

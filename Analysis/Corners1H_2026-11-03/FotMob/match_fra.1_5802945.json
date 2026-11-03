@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5802945",
+                    "league":  "fra.1",
+                    "date":  "2026-09-20T18:45:00Z",
+                    "home_id":  "8592",
+                    "home":  "Marseille",
+                    "away_id":  "9847",
+                    "away":  "Paris Saint-Germain",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/marseille-vs-paris-saint-germain/2t82ab#5802945"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5802945",
+    "collected_at_utc":  "2026-11-03T09:07:44.9591436Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  6,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  7,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

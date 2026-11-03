@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5853503",
+                    "league":  "rou.1",
+                    "date":  "2026-09-14T15:00:00Z",
+                    "home_id":  "89022",
+                    "home":  "Universitatea Cluj",
+                    "away_id":  "9736",
+                    "away":  "Oțelul Galați",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 0",
+                    "source":  "https://www.fotmob.com/matches/otelul-galati-vs-universitatea-cluj/28nf43h#5853503"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853503",
+    "collected_at_utc":  "2026-11-02T10:28:07.4308713Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803234",
+                    "league":  "fra.2",
+                    "date":  "2026-08-21T18:00:00Z",
+                    "home_id":  "9874",
+                    "home":  "Sochaux",
+                    "away_id":  "9747",
+                    "away":  "Guingamp",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "source":  "https://www.fotmob.com/matches/guingamp-vs-sochaux/36m6tt#5803234"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803234",
+    "collected_at_utc":  "2026-11-02T10:29:07.8276559Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  4,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  8,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

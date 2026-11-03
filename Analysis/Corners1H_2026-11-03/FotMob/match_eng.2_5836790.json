@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836790",
+                    "league":  "eng.2",
+                    "date":  "2026-09-01T19:00:00Z",
+                    "home_id":  "8658",
+                    "home":  "Birmingham City",
+                    "away_id":  "8466",
+                    "away":  "Southampton",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/southampton-vs-birmingham-city/2fauoc#5836790"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836790",
+    "collected_at_utc":  "2026-11-03T09:07:53.0565751Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

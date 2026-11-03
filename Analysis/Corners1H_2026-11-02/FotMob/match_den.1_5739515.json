@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5739515",
+                    "league":  "den.1",
+                    "date":  "2026-09-20T12:00:00Z",
+                    "home_id":  "8595",
+                    "home":  "Brøndby IF",
+                    "away_id":  "8391",
+                    "away":  "FC København",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/fc-kobenhavn-vs-brondby-if/2dwej6#5739515"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5739515",
+    "collected_at_utc":  "2026-11-02T10:27:41.0865892Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  1,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

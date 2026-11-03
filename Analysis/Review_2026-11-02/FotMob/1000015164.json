@@ -1,0 +1,382 @@
+﻿{
+    "ok":  true,
+    "league":  "srb.1",
+    "id":  "1000015164",
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015164",
+    "match_source":  "https://www.fotmob.com/matches/mladost-lucani-vs-fk-radnik-surdulica/1dpj6qnx#1000015164",
+    "fetched_at_utc":  "2026-11-03T07:58:26.8021717Z",
+    "general":  {
+                    "matchId":  "1000015164",
+                    "leagueName":  "Serbian Super Liga",
+                    "parentLeagueId":  182,
+                    "matchTimeUTC":  "Mon, Nov 2, 2026, 17:00 UTC",
+                    "started":  true,
+                    "finished":  true,
+                    "homeTeam":  {
+                                     "name":  "Mladost Lučani",
+                                     "id":  1739
+                                 },
+                    "awayTeam":  {
+                                     "name":  "FK Radnik Surdulica",
+                                     "id":  463461
+                                 }
+                },
+    "status":  {
+                   "utcTime":  "2026-11-02T17:00:00.000Z",
+                   "numberOfHomeRedCards":  0,
+                   "numberOfAwayRedCards":  0,
+                   "halfs":  {
+                                 "firstHalfStarted":  "02.11.2026 18:01:42",
+                                 "firstHalfEnded":  "02.11.2026 18:47:53",
+                                 "secondHalfStarted":  "02.11.2026 19:04:11",
+                                 "secondHalfEnded":  "02.11.2026 19:53:19",
+                                 "firstExtraHalfStarted":  "",
+                                 "secondExtraHalfStarted":  "",
+                                 "gameEnded":  "02.11.2026 19:53:19"
+                             },
+                   "finished":  true,
+                   "started":  true,
+                   "cancelled":  false,
+                   "awarded":  false,
+                   "scoreStr":  "0 - 1",
+                   "reason":  {
+                                  "short":  "FT",
+                                  "shortKey":  "fulltime_short",
+                                  "long":  "Full-Time",
+                                  "longKey":  "finished"
+                              },
+                   "whoLostOnPenalties":  null,
+                   "whoLostOnAggregated":  ""
+               },
+    "teams":  [
+                  {
+                      "id":  1739,
+                      "name":  "Mladost Lučani",
+                      "score":  0
+                  },
+                  {
+                      "id":  463461,
+                      "name":  "FK Radnik Surdulica",
+                      "score":  1
+                  }
+              ],
+    "goals":  [
+                  {
+                      "side":  "away",
+                      "minute":  84,
+                      "added_time":  null,
+                      "time_str":  84,
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "own_goal":  null
+                  }
+              ],
+    "stats":  [
+                  {
+                      "period":  "All",
+                      "key":  "BallPossesion",
+                      "title":  "Ball possession",
+                      "values":  [
+                                     43,
+                                     57
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "total_shots",
+                      "title":  "Total shots",
+                      "values":  [
+                                     7,
+                                     14
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "ShotsOnTarget",
+                      "title":  "Shots on target",
+                      "values":  [
+                                     1,
+                                     2
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "touches_opp_box",
+                      "title":  "Touches in opposition box",
+                      "values":  [
+                                     15,
+                                     17
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "big_chance",
+                      "title":  "Big chances",
+                      "values":  [
+                                     0,
+                                     1
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "corners",
+                      "title":  "Corners",
+                      "values":  [
+                                     2,
+                                     6
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "total_shots",
+                      "title":  "Total shots",
+                      "values":  [
+                                     7,
+                                     14
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "ShotsOnTarget",
+                      "title":  "Shots on target",
+                      "values":  [
+                                     1,
+                                     2
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "blocked_shots",
+                      "title":  "Blocked shots",
+                      "values":  [
+                                     1,
+                                     4
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "touches_opp_box",
+                      "title":  "Touches in opposition box",
+                      "values":  [
+                                     15,
+                                     17
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "BallPossesion",
+                      "title":  "Ball possession",
+                      "values":  [
+                                     43,
+                                     57
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "total_shots",
+                      "title":  "Total shots",
+                      "values":  [
+                                     4,
+                                     10
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "ShotsOnTarget",
+                      "title":  "Shots on target",
+                      "values":  [
+                                     0,
+                                     1
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "touches_opp_box",
+                      "title":  "Touches in opposition box",
+                      "values":  [
+                                     5,
+                                     6
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "big_chance",
+                      "title":  "Big chances",
+                      "values":  [
+                                     0,
+                                     0
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "corners",
+                      "title":  "Corners",
+                      "values":  [
+                                     0,
+                                     2
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "total_shots",
+                      "title":  "Total shots",
+                      "values":  [
+                                     4,
+                                     10
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "ShotsOnTarget",
+                      "title":  "Shots on target",
+                      "values":  [
+                                     0,
+                                     1
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "blocked_shots",
+                      "title":  "Blocked shots",
+                      "values":  [
+                                     1,
+                                     3
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "touches_opp_box",
+                      "title":  "Touches in opposition box",
+                      "values":  [
+                                     5,
+                                     6
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "BallPossesion",
+                      "title":  "Ball possession",
+                      "values":  [
+                                     44,
+                                     56
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "total_shots",
+                      "title":  "Total shots",
+                      "values":  [
+                                     3,
+                                     4
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "ShotsOnTarget",
+                      "title":  "Shots on target",
+                      "values":  [
+                                     1,
+                                     1
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "touches_opp_box",
+                      "title":  "Touches in opposition box",
+                      "values":  [
+                                     10,
+                                     11
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "big_chance",
+                      "title":  "Big chances",
+                      "values":  [
+                                     0,
+                                     1
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "corners",
+                      "title":  "Corners",
+                      "values":  [
+                                     2,
+                                     4
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "total_shots",
+                      "title":  "Total shots",
+                      "values":  [
+                                     3,
+                                     4
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "ShotsOnTarget",
+                      "title":  "Shots on target",
+                      "values":  [
+                                     1,
+                                     1
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "blocked_shots",
+                      "title":  "Blocked shots",
+                      "values":  [
+                                     0,
+                                     1
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "touches_opp_box",
+                      "title":  "Touches in opposition box",
+                      "values":  [
+                                     10,
+                                     11
+                                 ]
+                  }
+              ],
+    "cards":  [
+                  {
+                      "type":  "Card",
+                      "time":  27,
+                      "timeStr":  27,
+                      "isHome":  true,
+                      "card":  "Yellow",
+                      "cardType":  null,
+                      "overloadTime":  null
+                  },
+                  {
+                      "type":  "Card",
+                      "time":  45,
+                      "timeStr":  45,
+                      "isHome":  false,
+                      "card":  "Yellow",
+                      "cardType":  null,
+                      "overloadTime":  null
+                  },
+                  {
+                      "type":  "Card",
+                      "time":  60,
+                      "timeStr":  60,
+                      "isHome":  true,
+                      "card":  "Yellow",
+                      "cardType":  null,
+                      "overloadTime":  null
+                  }
+              ],
+    "formations":  {
+                       "homeFormation":  null,
+                       "awayFormation":  null
+                   }
+}

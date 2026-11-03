@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5943270",
+                    "league":  "gre.1",
+                    "date":  "2026-10-17T14:00:00Z",
+                    "home_id":  "4493",
+                    "home":  "Levadiakos",
+                    "away_id":  "885256",
+                    "away":  "NFC Volos",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 0",
+                    "source":  "https://www.fotmob.com/matches/levadiakos-vs-nfc-volos/51u9r5m7#5943270"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5943270",
+    "collected_at_utc":  "2026-11-02T10:27:42.8528758Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  7,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  9,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

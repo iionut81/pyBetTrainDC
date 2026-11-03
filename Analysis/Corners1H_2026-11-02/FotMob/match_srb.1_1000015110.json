@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "1000015110",
+                    "league":  "srb.1",
+                    "date":  "2026-08-23T19:00:00Z",
+                    "home_id":  "6406",
+                    "home":  "Vojvodina",
+                    "away_id":  "676141",
+                    "away":  "Železničar Pančevo",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "source":  "https://www.fotmob.com/matches/vojvodina-vs-zeleznicar-pancevo/2z0c7mfv#1000015110"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015110",
+    "collected_at_utc":  "2026-11-02T10:28:19.5714490Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

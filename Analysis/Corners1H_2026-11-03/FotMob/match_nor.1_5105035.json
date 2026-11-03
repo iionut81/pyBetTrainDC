@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5105035",
+                    "league":  "nor.1",
+                    "date":  "2026-10-30T18:00:00Z",
+                    "home_id":  "8402",
+                    "home":  "Bodø/Glimt",
+                    "away_id":  "8478",
+                    "away":  "Viking",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 2",
+                    "source":  "https://www.fotmob.com/matches/bodoglimt-vs-viking/2ctxg6#5105035"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5105035",
+    "collected_at_utc":  "2026-11-03T09:08:06.6073072Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

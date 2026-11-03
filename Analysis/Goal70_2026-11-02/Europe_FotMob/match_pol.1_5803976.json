@@ -1,0 +1,120 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5803976",
+                    "date":  "2026-09-07T16:00:00Z",
+                    "home_id":  "1286895",
+                    "home":  "Wieczysta Kraków",
+                    "away_id":  "8021",
+                    "away":  "Zagłębie Lubin",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "round":  "7",
+                    "source":  "https://www.fotmob.com/matches/zagebie-lubin-vs-wieczysta-krakow/ap5obj3z#5803976"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803976",
+    "general":  {
+                    "matchId":  "5803976",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "Wieczysta Kraków",
+                                     "id":  1286895
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Zagłębie Lubin",
+                                     "id":  8021
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  1286895,
+                             "name":  "Wieczysta Kraków",
+                             "score":  1
+                         },
+                         {
+                             "id":  8021,
+                             "name":  "Zagłębie Lubin",
+                             "score":  1
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-09-07T16:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "07.09.2026 18:01:32",
+                                        "firstHalfEnded":  "07.09.2026 18:48:45",
+                                        "secondHalfStarted":  "07.09.2026 19:06:01",
+                                        "secondHalfEnded":  "07.09.2026 19:55:27",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "07.09.2026 19:55:27"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "1 - 1",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  90,
+                      "added_time":  1,
+                      "time_str":  "90 + 1",
+                      "type":  "Goal",
+                      "event_id":  14406337,
+                      "home_score":  0,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "away",
+                      "time":  87,
+                      "added_time":  null,
+                      "time_str":  87,
+                      "type":  "Goal",
+                      "event_id":  14406314,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  3
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  2
+                        }
+                    ]
+}

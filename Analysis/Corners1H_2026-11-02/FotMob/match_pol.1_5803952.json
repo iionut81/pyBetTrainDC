@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803952",
+                    "league":  "pol.1",
+                    "date":  "2026-08-22T12:45:00Z",
+                    "home_id":  "8245",
+                    "home":  "Korona Kielce",
+                    "away_id":  "89466",
+                    "away":  "Motor Lublin",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/korona-kielce-vs-motor-lublin/26y8cgy#5803952"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803952",
+    "collected_at_utc":  "2026-11-02T10:27:38.7388214Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

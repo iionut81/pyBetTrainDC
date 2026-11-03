@@ -1,0 +1,133 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5803901",
+                    "date":  "2026-07-25T15:30:00Z",
+                    "home_id":  "8020",
+                    "home":  "Górnik Zabrze",
+                    "away_id":  "8025",
+                    "away":  "Śląsk Wrocław",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "round":  "1",
+                    "source":  "https://www.fotmob.com/matches/gornik-zabrze-vs-slask-wrocaw/24na5g#5803901"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803901",
+    "general":  {
+                    "matchId":  "5803901",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "Górnik Zabrze",
+                                     "id":  8020
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Śląsk Wrocław",
+                                     "id":  8025
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  8020,
+                             "name":  "Górnik Zabrze",
+                             "score":  2
+                         },
+                         {
+                             "id":  8025,
+                             "name":  "Śląsk Wrocław",
+                             "score":  1
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-07-25T15:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "25.07.2026 17:31:54",
+                                        "firstHalfEnded":  "25.07.2026 18:18:05",
+                                        "secondHalfStarted":  "25.07.2026 18:35:48",
+                                        "secondHalfEnded":  "25.07.2026 19:25:27",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "25.07.2026 19:25:27"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "2 - 1",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  65,
+                      "added_time":  null,
+                      "time_str":  65,
+                      "type":  "Goal",
+                      "event_id":  14248863,
+                      "home_score":  0,
+                      "away_score":  1,
+                      "goal_description":  "Own goal",
+                      "period":  "SecondHalf",
+                      "is_own_goal":  true
+                  },
+                  {
+                      "side":  "home",
+                      "time":  78,
+                      "added_time":  null,
+                      "time_str":  78,
+                      "type":  "Goal",
+                      "event_id":  14248931,
+                      "home_score":  1,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "away",
+                      "time":  8,
+                      "added_time":  null,
+                      "time_str":  8,
+                      "type":  "Goal",
+                      "event_id":  14248424,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  "FirstHalf",
+                      "is_own_goal":  false
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  3
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  3
+                        }
+                    ]
+}

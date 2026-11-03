@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5853494",
+                    "league":  "rou.1",
+                    "date":  "2026-09-07T17:30:00Z",
+                    "home_id":  "480286",
+                    "home":  "Universitatea Craiova",
+                    "away_id":  "89022",
+                    "away":  "Universitatea Cluj",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "4 - 0",
+                    "source":  "https://www.fotmob.com/matches/universitatea-cluj-vs-universitatea-craiova/22g427g4#5853494"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853494",
+    "collected_at_utc":  "2026-11-02T10:28:05.7423646Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

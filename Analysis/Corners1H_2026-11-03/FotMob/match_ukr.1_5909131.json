@@ -1,0 +1,31 @@
+﻿{
+    "fixture":  {
+                    "id":  "5909131",
+                    "league":  "ukr.1",
+                    "date":  "2026-08-16T12:30:00Z",
+                    "home_id":  "949030",
+                    "home":  "FC Kharkiv",
+                    "away_id":  "9728",
+                    "away":  "Shakhtar Donetsk",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/shakhtar-donetsk-vs-fc-kharkiv/5v53ao2t#5909131"
+                },
+    "ok":  false,
+    "error":  "first_half_corners_missing",
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5909131",
+    "collected_at_utc":  "2026-11-03T09:07:58.0864731Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  null,
+    "second_half":  null,
+    "full_time":  {
+                      "home":  6,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  false
+}

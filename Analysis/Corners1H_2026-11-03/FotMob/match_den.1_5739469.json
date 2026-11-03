@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5739469",
+                    "league":  "den.1",
+                    "date":  "2026-08-01T16:00:00Z",
+                    "home_id":  "9907",
+                    "home":  "Lyngby",
+                    "away_id":  "8071",
+                    "away":  "AGF",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "source":  "https://www.fotmob.com/matches/agf-vs-lyngby/2o857m#5739469"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5739469",
+    "collected_at_utc":  "2026-11-03T09:07:27.4557369Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

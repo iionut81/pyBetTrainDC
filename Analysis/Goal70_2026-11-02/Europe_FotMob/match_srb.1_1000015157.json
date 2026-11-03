@@ -1,0 +1,111 @@
+﻿{
+    "fixture":  {
+                    "league":  "srb.1",
+                    "id":  "1000015157",
+                    "date":  "2026-10-23T16:00:00Z",
+                    "home_id":  "568569",
+                    "home":  "FK IMT Beograd",
+                    "away_id":  "676141",
+                    "away":  "Železničar Pančevo",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "round":  "13",
+                    "source":  "https://www.fotmob.com/matches/fk-imt-beograd-vs-zeleznicar-pancevo/9vvc9qmq#1000015157"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015157",
+    "general":  {
+                    "matchId":  "1000015157",
+                    "parentLeagueId":  182,
+                    "leagueName":  "Serbian Super Liga",
+                    "homeTeam":  {
+                                     "name":  "FK IMT Beograd",
+                                     "id":  568569
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Železničar Pančevo",
+                                     "id":  676141
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  568569,
+                             "name":  "FK IMT Beograd",
+                             "score":  0
+                         },
+                         {
+                             "id":  676141,
+                             "name":  "Železničar Pančevo",
+                             "score":  1
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-10-23T16:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "23.10.2026 18:00:57",
+                                        "firstHalfEnded":  "23.10.2026 18:49:50",
+                                        "secondHalfStarted":  "23.10.2026 19:05:11",
+                                        "secondHalfEnded":  "23.10.2026 19:55:11",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "23.10.2026 19:55:11"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "0 - 1",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "away",
+                      "time":  5,
+                      "added_time":  null,
+                      "time_str":  5,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  9
+                        },
+                        {
+                            "Name":  "AddedTime",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        }
+                    ]
+}

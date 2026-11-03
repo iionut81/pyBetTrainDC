@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5804002",
+                    "league":  "pol.1",
+                    "date":  "2026-10-10T15:30:00Z",
+                    "home_id":  "8025",
+                    "home":  "Śląsk Wrocław",
+                    "away_id":  "2182",
+                    "away":  "Lech Poznań",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 4",
+                    "source":  "https://www.fotmob.com/matches/lech-poznan-vs-slask-wrocaw/v0s4p#5804002"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5804002",
+    "collected_at_utc":  "2026-11-02T10:27:59.0847319Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5904762",
+                    "league":  "tur.1",
+                    "date":  "2026-10-10T10:30:00Z",
+                    "home_id":  "7800",
+                    "home":  "Gençlerbirliği",
+                    "away_id":  "96498",
+                    "away":  "Amed Sportif",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "source":  "https://www.fotmob.com/matches/genclerbirligi-vs-amed-sportif/2hycm1l#5904762"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5904762",
+    "collected_at_utc":  "2026-11-02T10:27:44.5519584Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  6,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

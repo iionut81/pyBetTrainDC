@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836893",
+                    "league":  "eng.2",
+                    "date":  "2026-10-24T14:00:00Z",
+                    "home_id":  "10172",
+                    "home":  "Queens Park Rangers",
+                    "away_id":  "10003",
+                    "away":  "Swansea City",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "5 - 0",
+                    "source":  "https://www.fotmob.com/matches/swansea-city-vs-queens-park-rangers/3d6h1w#5836893"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836893",
+    "collected_at_utc":  "2026-11-03T09:08:52.7906330Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  5,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  8,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5887563",
+                    "league":  "por.1",
+                    "date":  "2026-08-09T17:00:00Z",
+                    "home_id":  "9773",
+                    "home":  "FC Porto",
+                    "away_id":  "9780",
+                    "away":  "Alverca",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 0",
+                    "source":  "https://www.fotmob.com/matches/fc-porto-vs-alverca/35tn0l#5887563"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5887563",
+    "collected_at_utc":  "2026-11-02T10:27:04.6822573Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  5,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  9,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5772167",
+                    "league":  "svk.1",
+                    "date":  "2026-08-22T18:30:00Z",
+                    "home_id":  "969268",
+                    "home":  "FC Košice",
+                    "away_id":  "6019",
+                    "away":  "Slovan Bratislava",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/slovan-bratislava-vs-fc-kosice/62hga6ig#5772167"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5772167",
+    "collected_at_utc":  "2026-11-03T09:09:17.0106649Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  8,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

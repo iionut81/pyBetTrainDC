@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5887616",
+                    "league":  "por.1",
+                    "date":  "2026-08-28T19:15:00Z",
+                    "home_id":  "7841",
+                    "home":  "Rio Ave",
+                    "away_id":  "9768",
+                    "away":  "Sporting CP",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 4",
+                    "source":  "https://www.fotmob.com/matches/rio-ave-vs-sporting-cp/2kber9#5887616"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5887616",
+    "collected_at_utc":  "2026-11-03T09:07:51.7973483Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

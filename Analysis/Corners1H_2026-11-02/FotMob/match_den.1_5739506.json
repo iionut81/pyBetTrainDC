@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5739506",
+                    "league":  "den.1",
+                    "date":  "2026-09-11T17:00:00Z",
+                    "home_id":  "8391",
+                    "home":  "FC København",
+                    "away_id":  "9814",
+                    "away":  "AC Horsens",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 0",
+                    "source":  "https://www.fotmob.com/matches/fc-kobenhavn-vs-ac-horsens/2qo615#5739506"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5739506",
+    "collected_at_utc":  "2026-11-02T10:27:39.7151510Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

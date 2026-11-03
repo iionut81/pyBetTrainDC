@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5853478",
+                    "league":  "rou.1",
+                    "date":  "2026-08-23T15:30:00Z",
+                    "home_id":  "480286",
+                    "home":  "Universitatea Craiova",
+                    "away_id":  "405332",
+                    "away":  "FC Voluntari",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 1",
+                    "source":  "https://www.fotmob.com/matches/fc-voluntari-vs-universitatea-craiova/505m9ge1#5853478"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853478",
+    "collected_at_utc":  "2026-11-02T10:28:00.2305311Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  1,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

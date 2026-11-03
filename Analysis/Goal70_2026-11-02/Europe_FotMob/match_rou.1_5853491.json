@@ -1,0 +1,107 @@
+﻿{
+    "fixture":  {
+                    "league":  "rou.1",
+                    "id":  "5853491",
+                    "date":  "2026-09-07T14:30:00Z",
+                    "home_id":  "405332",
+                    "home":  "FC Voluntari",
+                    "away_id":  "9732",
+                    "away":  "FC Argeș Pitesti",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "round":  "8",
+                    "source":  "https://www.fotmob.com/matches/fc-arges-pitesti-vs-fc-voluntari/13kl3pao#5853491"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853491",
+    "general":  {
+                    "matchId":  "5853491",
+                    "parentLeagueId":  189,
+                    "leagueName":  "Superliga",
+                    "homeTeam":  {
+                                     "name":  "FC Voluntari",
+                                     "id":  405332
+                                 },
+                    "awayTeam":  {
+                                     "name":  "FC Argeș Pitesti",
+                                     "id":  9732
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  405332,
+                             "name":  "FC Voluntari",
+                             "score":  1
+                         },
+                         {
+                             "id":  9732,
+                             "name":  "FC Argeș Pitesti",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-09-07T14:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "07.09.2026 16:32:36",
+                                        "firstHalfEnded":  "07.09.2026 17:19:07",
+                                        "secondHalfStarted":  "07.09.2026 17:34:18",
+                                        "secondHalfEnded":  "07.09.2026 18:22:31",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "07.09.2026 18:22:31"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "1 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  21,
+                      "added_time":  null,
+                      "time_str":  21,
+                      "type":  "Goal",
+                      "event_id":  14405792,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  5
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  6
+                        }
+                    ]
+}

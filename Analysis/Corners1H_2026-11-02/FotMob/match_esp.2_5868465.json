@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868465",
+                    "league":  "esp.2",
+                    "date":  "2026-09-28T18:30:00Z",
+                    "home_id":  "7854",
+                    "home":  "Leganés",
+                    "away_id":  "10279",
+                    "away":  "Castellón",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/leganes-vs-castellon/2pw33p#5868465"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868465",
+    "collected_at_utc":  "2026-11-02T10:28:22.5574152Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

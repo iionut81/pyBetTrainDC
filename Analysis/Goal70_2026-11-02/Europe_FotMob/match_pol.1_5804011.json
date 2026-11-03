@@ -1,0 +1,107 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5804011",
+                    "date":  "2026-10-19T17:00:00Z",
+                    "home_id":  "8243",
+                    "home":  "Wisła Płock",
+                    "away_id":  "5769",
+                    "away":  "Radomiak Radom",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "round":  "11",
+                    "source":  "https://www.fotmob.com/matches/radomiak-radom-vs-wisa-pock/1mgeqh#5804011"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5804011",
+    "general":  {
+                    "matchId":  "5804011",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "Wisła Płock",
+                                     "id":  8243
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Radomiak Radom",
+                                     "id":  5769
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  8243,
+                             "name":  "Wisła Płock",
+                             "score":  1
+                         },
+                         {
+                             "id":  5769,
+                             "name":  "Radomiak Radom",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-10-19T17:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "19.10.2026 19:00:57",
+                                        "firstHalfEnded":  "19.10.2026 19:48:25",
+                                        "secondHalfStarted":  "19.10.2026 20:04:41",
+                                        "secondHalfEnded":  "19.10.2026 20:57:51",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "19.10.2026 20:57:51"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "1 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  15,
+                      "added_time":  null,
+                      "time_str":  15,
+                      "type":  "Goal",
+                      "event_id":  14606371,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  "FirstHalf",
+                      "is_own_goal":  false
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        }
+                    ]
+}

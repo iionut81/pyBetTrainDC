@@ -1,0 +1,569 @@
+﻿{
+    "ok":  true,
+    "league":  "esp.2",
+    "id":  "5868523",
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868523",
+    "match_source":  "https://www.fotmob.com/matches/tenerife-vs-fc-andorra/1mbsjawm#5868523",
+    "fetched_at_utc":  "2026-11-03T07:58:17.0958722Z",
+    "general":  {
+                    "matchId":  "5868523",
+                    "leagueName":  "LaLiga2",
+                    "parentLeagueId":  140,
+                    "matchTimeUTC":  "Mon, Nov 2, 2026, 13:00 UTC",
+                    "started":  true,
+                    "finished":  true,
+                    "homeTeam":  {
+                                     "name":  "Tenerife",
+                                     "id":  9867
+                                 },
+                    "awayTeam":  {
+                                     "name":  "FC Andorra",
+                                     "id":  494050
+                                 }
+                },
+    "status":  {
+                   "utcTime":  "2026-11-02T13:00:00.000Z",
+                   "numberOfHomeRedCards":  1,
+                   "numberOfAwayRedCards":  2,
+                   "halfs":  {
+                                 "firstHalfStarted":  "02.11.2026 14:02:31",
+                                 "firstHalfEnded":  "02.11.2026 14:51:14",
+                                 "secondHalfStarted":  "02.11.2026 15:08:50",
+                                 "secondHalfEnded":  "02.11.2026 16:01:30",
+                                 "firstExtraHalfStarted":  "",
+                                 "secondExtraHalfStarted":  "",
+                                 "gameEnded":  "02.11.2026 16:01:30"
+                             },
+                   "cancelled":  true,
+                   "started":  true,
+                   "finished":  true,
+                   "reason":  {
+                                  "short":  "Ab",
+                                  "shortKey":  "aborted_short",
+                                  "long":  "Abandoned",
+                                  "longKey":  "aborted"
+                              },
+                   "scoreStr":  "2 - 2",
+                   "whoLostOnAggregated":  ""
+               },
+    "teams":  [
+                  {
+                      "id":  9867,
+                      "name":  "Tenerife",
+                      "score":  2
+                  },
+                  {
+                      "id":  494050,
+                      "name":  "FC Andorra",
+                      "score":  2
+                  }
+              ],
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "minute":  3,
+                      "added_time":  null,
+                      "time_str":  3,
+                      "event_id":  14689152,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  "FirstHalf",
+                      "own_goal":  false
+                  },
+                  {
+                      "side":  "home",
+                      "minute":  39,
+                      "added_time":  null,
+                      "time_str":  39,
+                      "event_id":  14689177,
+                      "home_score":  1,
+                      "away_score":  0,
+                      "goal_description":  "Penalty",
+                      "period":  "FirstHalf",
+                      "own_goal":  false
+                  },
+                  {
+                      "side":  "away",
+                      "minute":  83,
+                      "added_time":  null,
+                      "time_str":  83,
+                      "event_id":  14689244,
+                      "home_score":  2,
+                      "away_score":  0,
+                      "goal_description":  "Penalty",
+                      "period":  "SecondHalf",
+                      "own_goal":  false
+                  },
+                  {
+                      "side":  "away",
+                      "minute":  88,
+                      "added_time":  null,
+                      "time_str":  88,
+                      "event_id":  14689254,
+                      "home_score":  2,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "own_goal":  false
+                  }
+              ],
+    "stats":  [
+                  {
+                      "period":  "All",
+                      "key":  "BallPossesion",
+                      "title":  "Ball possession",
+                      "values":  [
+                                     26,
+                                     74
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "expected_goals",
+                      "title":  "Expected goals (xG)",
+                      "values":  [
+                                     "1.30",
+                                     "1.82"
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "total_shots",
+                      "title":  "Total shots",
+                      "values":  [
+                                     5,
+                                     11
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "ShotsOnTarget",
+                      "title":  "Shots on target",
+                      "values":  [
+                                     2,
+                                     4
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "touches_opp_box",
+                      "title":  "Touches in opposition box",
+                      "values":  [
+                                     8,
+                                     23
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "big_chance",
+                      "title":  "Big chances",
+                      "values":  [
+                                     2,
+                                     3
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "corners",
+                      "title":  "Corners",
+                      "values":  [
+                                     0,
+                                     3
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "total_shots",
+                      "title":  "Total shots",
+                      "values":  [
+                                     5,
+                                     11
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "ShotsOnTarget",
+                      "title":  "Shots on target",
+                      "values":  [
+                                     2,
+                                     4
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "blocked_shots",
+                      "title":  "Blocked shots",
+                      "values":  [
+                                     1,
+                                     0
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "expected_goals",
+                      "title":  "Expected goals (xG)",
+                      "values":  [
+                                     null,
+                                     null
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "expected_goals",
+                      "title":  "Expected goals (xG)",
+                      "values":  [
+                                     "1.30",
+                                     "1.82"
+                                 ]
+                  },
+                  {
+                      "period":  "All",
+                      "key":  "touches_opp_box",
+                      "title":  "Touches in opposition box",
+                      "values":  [
+                                     8,
+                                     23
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "BallPossesion",
+                      "title":  "Ball possession",
+                      "values":  [
+                                     25,
+                                     75
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "expected_goals",
+                      "title":  "Expected goals (xG)",
+                      "values":  [
+                                     "1.16",
+                                     "0.27"
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "total_shots",
+                      "title":  "Total shots",
+                      "values":  [
+                                     2,
+                                     4
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "ShotsOnTarget",
+                      "title":  "Shots on target",
+                      "values":  [
+                                     2,
+                                     2
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "touches_opp_box",
+                      "title":  "Touches in opposition box",
+                      "values":  [
+                                     5,
+                                     9
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "big_chance",
+                      "title":  "Big chances",
+                      "values":  [
+                                     2,
+                                     1
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "corners",
+                      "title":  "Corners",
+                      "values":  [
+                                     0,
+                                     2
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "total_shots",
+                      "title":  "Total shots",
+                      "values":  [
+                                     2,
+                                     4
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "ShotsOnTarget",
+                      "title":  "Shots on target",
+                      "values":  [
+                                     2,
+                                     2
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "blocked_shots",
+                      "title":  "Blocked shots",
+                      "values":  [
+                                     0,
+                                     0
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "expected_goals",
+                      "title":  "Expected goals (xG)",
+                      "values":  [
+                                     null,
+                                     null
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "expected_goals",
+                      "title":  "Expected goals (xG)",
+                      "values":  [
+                                     "1.16",
+                                     "0.27"
+                                 ]
+                  },
+                  {
+                      "period":  "FirstHalf",
+                      "key":  "touches_opp_box",
+                      "title":  "Touches in opposition box",
+                      "values":  [
+                                     5,
+                                     9
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "BallPossesion",
+                      "title":  "Ball possession",
+                      "values":  [
+                                     28,
+                                     72
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "expected_goals",
+                      "title":  "Expected goals (xG)",
+                      "values":  [
+                                     "0.14",
+                                     "1.55"
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "total_shots",
+                      "title":  "Total shots",
+                      "values":  [
+                                     3,
+                                     7
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "ShotsOnTarget",
+                      "title":  "Shots on target",
+                      "values":  [
+                                     0,
+                                     2
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "touches_opp_box",
+                      "title":  "Touches in opposition box",
+                      "values":  [
+                                     3,
+                                     14
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "big_chance",
+                      "title":  "Big chances",
+                      "values":  [
+                                     0,
+                                     2
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "corners",
+                      "title":  "Corners",
+                      "values":  [
+                                     0,
+                                     1
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "total_shots",
+                      "title":  "Total shots",
+                      "values":  [
+                                     3,
+                                     7
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "ShotsOnTarget",
+                      "title":  "Shots on target",
+                      "values":  [
+                                     0,
+                                     2
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "blocked_shots",
+                      "title":  "Blocked shots",
+                      "values":  [
+                                     1,
+                                     0
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "expected_goals",
+                      "title":  "Expected goals (xG)",
+                      "values":  [
+                                     null,
+                                     null
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "expected_goals",
+                      "title":  "Expected goals (xG)",
+                      "values":  [
+                                     "0.14",
+                                     "1.55"
+                                 ]
+                  },
+                  {
+                      "period":  "SecondHalf",
+                      "key":  "touches_opp_box",
+                      "title":  "Touches in opposition box",
+                      "values":  [
+                                     3,
+                                     14
+                                 ]
+                  }
+              ],
+    "cards":  [
+                  {
+                      "type":  "Card",
+                      "time":  20,
+                      "timeStr":  20,
+                      "isHome":  false,
+                      "card":  "Yellow",
+                      "cardType":  null,
+                      "overloadTime":  null
+                  },
+                  {
+                      "type":  "Card",
+                      "time":  23,
+                      "timeStr":  23,
+                      "isHome":  false,
+                      "card":  "Yellow",
+                      "cardType":  null,
+                      "overloadTime":  null
+                  },
+                  {
+                      "type":  "Card",
+                      "time":  26,
+                      "timeStr":  26,
+                      "isHome":  false,
+                      "card":  "Yellow",
+                      "cardType":  null,
+                      "overloadTime":  null
+                  },
+                  {
+                      "type":  "Card",
+                      "time":  37,
+                      "timeStr":  37,
+                      "isHome":  false,
+                      "card":  "Yellow",
+                      "cardType":  null,
+                      "overloadTime":  null
+                  },
+                  {
+                      "type":  "Card",
+                      "time":  45,
+                      "timeStr":  "45 + 2",
+                      "isHome":  true,
+                      "card":  "Yellow",
+                      "cardType":  null,
+                      "overloadTime":  2
+                  },
+                  {
+                      "type":  "Card",
+                      "time":  66,
+                      "timeStr":  66,
+                      "isHome":  false,
+                      "card":  "Yellow",
+                      "cardType":  null,
+                      "overloadTime":  null
+                  },
+                  {
+                      "type":  "Card",
+                      "time":  83,
+                      "timeStr":  83,
+                      "isHome":  false,
+                      "card":  "YellowRed",
+                      "cardType":  null,
+                      "overloadTime":  null
+                  },
+                  {
+                      "type":  "Card",
+                      "time":  84,
+                      "timeStr":  84,
+                      "isHome":  true,
+                      "card":  "Yellow",
+                      "cardType":  null,
+                      "overloadTime":  null
+                  },
+                  {
+                      "type":  "Card",
+                      "time":  85,
+                      "timeStr":  85,
+                      "isHome":  true,
+                      "card":  "YellowRed",
+                      "cardType":  null,
+                      "overloadTime":  null
+                  },
+                  {
+                      "type":  "Card",
+                      "time":  90,
+                      "timeStr":  "90 + 4",
+                      "isHome":  true,
+                      "card":  "Yellow",
+                      "cardType":  null,
+                      "overloadTime":  4
+                  },
+                  {
+                      "type":  "Card",
+                      "time":  90,
+                      "timeStr":  "90 + 7",
+                      "isHome":  false,
+                      "card":  "Red",
+                      "cardType":  null,
+                      "overloadTime":  7
+                  }
+              ],
+    "formations":  {
+                       "homeFormation":  null,
+                       "awayFormation":  null
+                   }
+}

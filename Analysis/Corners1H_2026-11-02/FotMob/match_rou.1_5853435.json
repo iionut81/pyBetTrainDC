@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5853435",
+                    "league":  "rou.1",
+                    "date":  "2026-07-17T15:30:00Z",
+                    "home_id":  "405332",
+                    "home":  "FC Voluntari",
+                    "away_id":  "188191",
+                    "away":  "Botoșani",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "source":  "https://www.fotmob.com/matches/botosani-vs-fc-voluntari/28wyikiq#5853435"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853435",
+    "collected_at_utc":  "2026-11-02T10:27:49.0470006Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  1,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

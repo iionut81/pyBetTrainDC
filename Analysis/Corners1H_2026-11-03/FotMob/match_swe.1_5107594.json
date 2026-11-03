@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107594",
+                    "league":  "swe.1",
+                    "date":  "2026-09-05T13:00:00Z",
+                    "home_id":  "6544",
+                    "home":  "Degerfors",
+                    "away_id":  "8310",
+                    "away":  "Halmstads BK",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 0",
+                    "source":  "https://www.fotmob.com/matches/degerfors-vs-halmstads-bk/1tow3v#5107594"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107594",
+    "collected_at_utc":  "2026-11-03T09:08:17.5039204Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  6,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  6,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  12,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

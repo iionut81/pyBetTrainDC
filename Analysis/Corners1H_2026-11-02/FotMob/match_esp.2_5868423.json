@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868423",
+                    "league":  "esp.2",
+                    "date":  "2026-08-30T17:00:00Z",
+                    "home_id":  "8661",
+                    "home":  "Mallorca",
+                    "away_id":  "357259",
+                    "away":  "AD Ceuta FC",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 0",
+                    "source":  "https://www.fotmob.com/matches/mallorca-vs-ad-ceuta-fc/ur7nlad#5868423"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868423",
+    "collected_at_utc":  "2026-11-02T10:28:03.1629907Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

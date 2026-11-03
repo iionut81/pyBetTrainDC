@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5795468",
+                    "league":  "eng.1",
+                    "date":  "2026-10-12T19:00:00Z",
+                    "home_id":  "8669",
+                    "home":  "Coventry City",
+                    "away_id":  "10261",
+                    "away":  "Newcastle United",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "4 - 1",
+                    "source":  "https://www.fotmob.com/matches/coventry-city-vs-newcastle-united/2yooc8#5795468"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5795468",
+    "collected_at_utc":  "2026-11-02T10:26:58.1085463Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

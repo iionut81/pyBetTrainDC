@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5853517",
+                    "league":  "rou.1",
+                    "date":  "2026-10-10T18:30:00Z",
+                    "home_id":  "9723",
+                    "home":  "FCSB",
+                    "away_id":  "9736",
+                    "away":  "Oțelul Galați",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "source":  "https://www.fotmob.com/matches/fcsb-vs-otelul-galati/34qc5q#5853517"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853517",
+    "collected_at_utc":  "2026-11-02T10:28:11.5905653Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

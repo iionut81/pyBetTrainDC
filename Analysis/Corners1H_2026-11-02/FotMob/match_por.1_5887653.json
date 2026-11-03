@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5887653",
+                    "league":  "por.1",
+                    "date":  "2026-10-11T17:00:00Z",
+                    "home_id":  "9772",
+                    "home":  "Benfica",
+                    "away_id":  "7844",
+                    "away":  "Vitória de Guimarães",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 0",
+                    "source":  "https://www.fotmob.com/matches/vitoria-de-guimaraes-vs-benfica/2ke1w4#5887653"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5887653",
+    "collected_at_utc":  "2026-11-02T10:27:23.4919843Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  9,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  11,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

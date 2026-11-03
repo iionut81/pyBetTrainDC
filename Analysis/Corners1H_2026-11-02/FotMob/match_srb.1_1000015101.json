@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "1000015101",
+                    "league":  "srb.1",
+                    "date":  "2026-08-16T19:00:00Z",
+                    "home_id":  "6231",
+                    "home":  "FK Zemun",
+                    "away_id":  "1739",
+                    "away":  "Mladost Lučani",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/mladost-lucani-vs-fk-zemun/iwyei#1000015101"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015101",
+    "collected_at_utc":  "2026-11-02T10:28:17.2263151Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  9,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

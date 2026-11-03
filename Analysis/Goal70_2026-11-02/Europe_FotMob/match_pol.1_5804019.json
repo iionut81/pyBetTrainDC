@@ -1,0 +1,120 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5804019",
+                    "date":  "2026-10-25T11:15:00Z",
+                    "home_id":  "8025",
+                    "home":  "Śląsk Wrocław",
+                    "away_id":  "1286895",
+                    "away":  "Wieczysta Kraków",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 0",
+                    "round":  "12",
+                    "source":  "https://www.fotmob.com/matches/slask-wrocaw-vs-wieczysta-krakow/ap5rejrx#5804019"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5804019",
+    "general":  {
+                    "matchId":  "5804019",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "Śląsk Wrocław",
+                                     "id":  8025
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Wieczysta Kraków",
+                                     "id":  1286895
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  8025,
+                             "name":  "Śląsk Wrocław",
+                             "score":  2
+                         },
+                         {
+                             "id":  1286895,
+                             "name":  "Wieczysta Kraków",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-10-25T11:15:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "25.10.2026 12:16:36",
+                                        "firstHalfEnded":  "25.10.2026 13:06:44",
+                                        "secondHalfStarted":  "25.10.2026 13:23:10",
+                                        "secondHalfEnded":  "25.10.2026 14:12:20",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "25.10.2026 14:12:20"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "2 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  24,
+                      "added_time":  null,
+                      "time_str":  24,
+                      "type":  "Goal",
+                      "event_id":  14638726,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  "FirstHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "home",
+                      "time":  45,
+                      "added_time":  3,
+                      "time_str":  "45 + 3",
+                      "type":  "Goal",
+                      "event_id":  14638794,
+                      "home_score":  1,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  "FirstHalf",
+                      "is_own_goal":  false
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Card",
+                            "Count":  5
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        }
+                    ]
+}

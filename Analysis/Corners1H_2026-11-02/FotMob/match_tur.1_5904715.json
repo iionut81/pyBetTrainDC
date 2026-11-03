@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5904715",
+                    "league":  "tur.1",
+                    "date":  "2026-08-23T18:30:00Z",
+                    "home_id":  "4678",
+                    "home":  "Alanyaspor",
+                    "away_id":  "10188",
+                    "away":  "Beşiktaş",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "source":  "https://www.fotmob.com/matches/alanyaspor-vs-besiktas/1tsmwh#5904715"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5904715",
+    "collected_at_utc":  "2026-11-02T10:27:36.8453402Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  7,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

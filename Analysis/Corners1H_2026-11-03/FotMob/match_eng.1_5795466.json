@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5795466",
+                    "league":  "eng.1",
+                    "date":  "2026-10-10T14:00:00Z",
+                    "home_id":  "10252",
+                    "home":  "Aston Villa",
+                    "away_id":  "9937",
+                    "away":  "Brentford",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "source":  "https://www.fotmob.com/matches/brentford-vs-aston-villa/3dciw4#5795466"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5795466",
+    "collected_at_utc":  "2026-11-03T09:07:35.1172548Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

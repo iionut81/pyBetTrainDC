@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ro">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark"><title>PRED — Football Research Terminal</title><meta name="description" content="Preview local al proiectului PRED: selecții de fotbal, istoric verificat și evaluare prospectivă."><style>/* STYLES */</style></head>
+<body>
+<a class="skip" href="#main">Mergi la conținut</a>
+<aside class="rail" aria-label="Navigare principală">
+ <a class="brand-symbol" href="#" aria-label="PRED — panou principal">P<span></span></a>
+ <div class="rail-divider"></div>
+ <button class="nav-icon active" data-view="overview" aria-label="Panou general" title="Panou general"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></button>
+ <button class="nav-icon" data-view="matches" aria-label="Toate meciurile" title="Toate meciurile"><svg viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16M8 3v18"/></svg></button>
+ <button class="nav-icon" data-view="history" aria-label="Istoric verificat" title="Istoric verificat"><svg viewBox="0 0 24 24"><path d="M4 8a9 9 0 1 1-1 7M4 3v6h6M12 7v6l4 2"/></svg></button>
+ <button class="nav-icon" data-view="validation" aria-label="Evaluarea modelului" title="Evaluarea modelului"><svg viewBox="0 0 24 24"><path d="M4 20V4M4 20h17M8 16l4-6 4 3 5-8"/></svg></button>
+ <div class="rail-bottom"><span class="system-dot"></span><span class="vertical-label">RESEARCH MODE</span><span class="version">01</span></div>
+</aside>
+<div class="workspace">
+ <header class="topbar"><div class="wordmark">PRED<span class="wordmark-divider">/</span><span class="wordmark-sub">FOOTBALL INTELLIGENCE</span></div><div class="header-actions"><span class="preview-tag"><span></span>PREVIEW · DATE SALVATE</span><button id="methodButton" class="icon-button" aria-label="Despre metodă" title="Despre metodă">i</button></div></header>
+ <main id="main">
+  <section class="page-heading"><div><div class="eyebrow"><span class="tiny-cross">+</span> RESEARCH TERMINAL <span class="dim">/ 001</span></div><h1 id="pageTitle">Din date, în decizii.</h1><p id="pageSubtitle">Gol până la 70′. Cornere la pauză. Fiecare alegere, verificabilă.</p></div><div class="date-block"><label for="dateSelect">INSTANTANEU CERCETARE</label><select id="dateSelect" aria-label="Ziua analizei"></select><span>Europe/Bucharest <b>·</b> <span id="snapshotTime">11:18 RO</span></span></div></section>
+  <section class="kpi-grid" aria-label="Indicatori de acoperire"></section>
+  <div id="overviewView" class="view-panel">
+   <div class="hero-grid">
+    <section class="panel radar-panel"><header class="panel-heading"><div><span class="eyebrow">01 / MATCH EXPLORER</span><h2>Radarul meciurilor</h2></div><span class="panel-status" id="inventoryCount"></span></header><div class="radar-toolbar"><div class="segmented league-pills" aria-label="Filtru competiție"><button data-league="all" class="active">Toate</button><button data-league="eng.2">Championship</button><button data-league="uefa.champions">UCL</button></div><span class="small-note">Selectează un punct pentru analiză</span></div><div id="radar" class="radar-wrap" aria-label="Comparație între probabilitățile brute Gol70 și cornere"></div><div class="radar-legend"><span><i class="legend-ring teal-ring"></i>Alegeri · Gol70</span><span><i class="legend-ring violet-ring"></i><b id="cornerLegendRole" style="font-weight:inherit">Candidat</b> · cornere</span><span id="radarCount" class="legend-count"></span></div><div class="model-note"><span>ⓘ</span> Axele arată estimări brute de screening. Probabilitățile nu sunt calibrate.</div></section>
+    <aside class="selection-stack" id="selectionCards"></aside>
+   </div>
+   <section class="bottom-grid"><article class="panel review-panel" id="reviewPanel"></article><article class="panel evidence-panel" id="evidencePanel"></article></section>
+  </div>
+  <section id="matchesSection" class="panel match-panel"><header class="panel-heading"><div><span class="eyebrow">04 / COMPARAȚIA COMPLETĂ</span><h2>Toate meciurile, aceeași metodă</h2></div><button id="exportButton" class="outline-button">↓ Export CSV</button></header><div class="table-controls"><div class="segmented market-switch" aria-label="Piață"><button data-market="goal" class="active">Gol până la 70′</button><button data-market="corner">Cornere sub 7,5 · 1H</button></div><div class="table-filters"><label class="search-box"><span>⌕</span><input id="searchInput" type="search" aria-label="Caută o echipă" placeholder="Caută o echipă…"></label><select id="leagueSelect" aria-label="Competiție"><option value="all">Toate competițiile</option><option value="eng.2">Championship</option><option value="uefa.champions">Champions League</option><option value="swe.1">Allsvenskan</option><option value="den.cup">Cupa Danemarcei</option></select></div></div><div class="table-scroll"><table><thead><tr><th>#</th><th>PARTIDĂ / COMPETIȚIE</th><th>ORA RO</th><th>MODEL BRUT ↓</th><th class="scenario-heading"><span class="scenario-label" id="scenarioColumnLabel">Succes Rate <br>AR 20%</span></th><th>ISTORIC</th><th>DATE / ROL</th><th><span class="sr-only">Detalii</span></th></tr></thead><tbody id="matchesBody"></tbody></table></div><footer class="table-footer"><span id="tableCount"></span><span>UCL și cupe: proiecții din campionatele interne.</span></footer></section>
+  <section id="historyView" class="view-panel hidden"><div class="table-controls"><label>Ziua rezultatelor <select id="historyDateSelect" aria-label="Ziua rezultatelor"></select></label><div class="segmented" aria-label="Piața istoricului"><button data-history-market="goal" class="active">Gol până la 70′</button><button data-history-market="corner">Cornere sub 7,5 · 1H</button></div></div><div class="history-summary" id="historySummary"></div><div class="history-user-grid" id="historyUserCards"></div><section class="panel"><header class="panel-heading"><div><span class="eyebrow" id="historyMarketLabel"></span><h2>Predicții salvate înainte de meci</h2></div><div class="segmented" aria-label="Filtru rezultate"><button data-result="all" class="active">Toate</button><button data-result="fail">Eșecuri</button><button data-result="success">Succese</button><button data-result="pending">Neverificate</button></div></header><div class="table-scroll"><table><thead><tr><th>RANG</th><th>PARTIDĂ</th><th>MODEL INIȚIAL</th><th>SCOR FINAL</th><th id="historyObservationLabel">PRIMUL GOL</th><th>REZULTAT</th></tr></thead><tbody id="historyBody"></tbody></table></div></section></section>
+  <section id="validationView" class="view-panel hidden"></section>
+  <footer class="page-footer"><span><b>PRED</b> / RESEARCH FIRST</span><span id="archiveStatus"></span><button class="text-button" id="footerMethod">Surse și metodă ↗</button></footer>
+ </main>
+</div>
+<dialog id="detailDialog" aria-labelledby="dialogTitle"><div class="dialog-header"><span class="eyebrow" id="dialogEyebrow">ANALIZA MECIULUI</span><button id="closeDialog" class="close-button" aria-label="Închide analiza">×</button></div><div id="dialogContent"></div></dialog>
+<div class="toast" id="toast" role="status"></div>
+<script id="snapshotData" type="application/json">/* APP_DATA */</script>
+<script>/* APP_CODE */</script>
+</body></html>

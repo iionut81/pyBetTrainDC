@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5795473",
+                    "league":  "eng.1",
+                    "date":  "2026-10-10T16:30:00Z",
+                    "home_id":  "10260",
+                    "home":  "Manchester United",
+                    "away_id":  "8586",
+                    "away":  "Tottenham Hotspur",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/tottenham-hotspur-vs-manchester-united/2xqo0r#5795473"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5795473",
+    "collected_at_utc":  "2026-11-03T09:07:35.6167493Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

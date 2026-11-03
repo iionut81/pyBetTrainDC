@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836776",
+                    "league":  "eng.2",
+                    "date":  "2026-08-22T14:00:00Z",
+                    "home_id":  "8654",
+                    "home":  "West Ham United",
+                    "away_id":  "8451",
+                    "away":  "Charlton Athletic",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/charlton-athletic-vs-west-ham-united/2f3vrb#5836776"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836776",
+    "collected_at_utc":  "2026-11-03T09:07:40.3514939Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  6,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

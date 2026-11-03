@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836843",
+                    "league":  "eng.2",
+                    "date":  "2026-09-19T11:30:00Z",
+                    "home_id":  "10004",
+                    "home":  "Millwall",
+                    "away_id":  "8654",
+                    "away":  "West Ham United",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "source":  "https://www.fotmob.com/matches/west-ham-united-vs-millwall/2vn3sx#5836843"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836843",
+    "collected_at_utc":  "2026-11-03T09:08:19.8371468Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  11,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  11,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

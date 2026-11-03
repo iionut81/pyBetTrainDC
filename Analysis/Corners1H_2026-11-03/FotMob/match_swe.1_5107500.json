@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107500",
+                    "league":  "swe.1",
+                    "date":  "2026-05-16T13:00:00Z",
+                    "home_id":  "8310",
+                    "home":  "Halmstads BK",
+                    "away_id":  "8014",
+                    "away":  "Elfsborg",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/elfsborg-vs-halmstads-bk/27c2n4#5107500"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107500",
+    "collected_at_utc":  "2026-11-03T09:08:08.9237515Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  7,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  8,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

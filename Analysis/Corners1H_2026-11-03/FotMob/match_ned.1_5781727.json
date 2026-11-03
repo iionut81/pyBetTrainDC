@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5781727",
+                    "league":  "ned.1",
+                    "date":  "2026-08-30T12:30:00Z",
+                    "home_id":  "10235",
+                    "home":  "Feyenoord",
+                    "away_id":  "10217",
+                    "away":  "ADO Den Haag",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "source":  "https://www.fotmob.com/matches/ado-den-haag-vs-feyenoord/3gj2wl#5781727"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5781727",
+    "collected_at_utc":  "2026-11-03T09:07:57.9270860Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  6,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  11,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

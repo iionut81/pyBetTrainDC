@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868024",
+                    "league":  "esp.1",
+                    "date":  "2026-08-23T19:30:00Z",
+                    "home_id":  "10268",
+                    "home":  "Elche",
+                    "away_id":  "8634",
+                    "away":  "Barcelona",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 5",
+                    "source":  "https://www.fotmob.com/matches/barcelona-vs-elche/2ydbmf#5868024"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868024",
+    "collected_at_utc":  "2026-11-03T09:07:38.3348105Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  1,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

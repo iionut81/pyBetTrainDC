@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107635",
+                    "league":  "swe.1",
+                    "date":  "2026-10-23T17:00:00Z",
+                    "home_id":  "6194",
+                    "home":  "Västerås SK",
+                    "away_id":  "8310",
+                    "away":  "Halmstads BK",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/vasteras-sk-vs-halmstads-bk/1qmrqi#5107635"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107635",
+    "collected_at_utc":  "2026-11-03T09:08:21.6523517Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  7,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  10,
+                      "away":  1,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

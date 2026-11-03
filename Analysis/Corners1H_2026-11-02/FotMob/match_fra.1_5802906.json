@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5802906",
+                    "league":  "fra.1",
+                    "date":  "2026-08-22T18:45:00Z",
+                    "home_id":  "9831",
+                    "home":  "Nice",
+                    "away_id":  "8689",
+                    "away":  "Lorient",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 0",
+                    "source":  "https://www.fotmob.com/matches/lorient-vs-nice/2u459v#5802906"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5802906",
+    "collected_at_utc":  "2026-11-02T10:27:13.2474322Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  9,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

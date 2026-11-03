@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "1000015144",
+                    "league":  "srb.1",
+                    "date":  "2026-10-11T13:00:00Z",
+                    "home_id":  "6410",
+                    "home":  "Radnički Niš",
+                    "away_id":  "6406",
+                    "away":  "Vojvodina",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 4",
+                    "source":  "https://www.fotmob.com/matches/vojvodina-vs-radnicki-nis/1cwhw2#1000015144"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015144",
+    "collected_at_utc":  "2026-11-02T10:28:29.7218554Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  1,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

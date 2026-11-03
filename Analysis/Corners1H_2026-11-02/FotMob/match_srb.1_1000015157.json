@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "1000015157",
+                    "league":  "srb.1",
+                    "date":  "2026-10-23T16:00:00Z",
+                    "home_id":  "568569",
+                    "home":  "FK IMT Beograd",
+                    "away_id":  "676141",
+                    "away":  "Železničar Pančevo",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/fk-imt-beograd-vs-zeleznicar-pancevo/9vvc9qmq#1000015157"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015157",
+    "collected_at_utc":  "2026-11-02T10:28:33.1624543Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

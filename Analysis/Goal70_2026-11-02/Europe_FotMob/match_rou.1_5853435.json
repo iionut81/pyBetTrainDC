@@ -1,0 +1,142 @@
+﻿{
+    "fixture":  {
+                    "league":  "rou.1",
+                    "id":  "5853435",
+                    "date":  "2026-07-17T15:30:00Z",
+                    "home_id":  "405332",
+                    "home":  "FC Voluntari",
+                    "away_id":  "188191",
+                    "away":  "Botoșani",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "round":  "1",
+                    "source":  "https://www.fotmob.com/matches/botosani-vs-fc-voluntari/28wyikiq#5853435"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853435",
+    "general":  {
+                    "matchId":  "5853435",
+                    "parentLeagueId":  189,
+                    "leagueName":  "Superliga",
+                    "homeTeam":  {
+                                     "name":  "FC Voluntari",
+                                     "id":  405332
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Botosani",
+                                     "id":  188191
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  405332,
+                             "name":  "FC Voluntari",
+                             "score":  2
+                         },
+                         {
+                             "id":  188191,
+                             "name":  "Botosani",
+                             "score":  2
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-07-17T15:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "17.07.2026 17:32:48",
+                                        "firstHalfEnded":  "17.07.2026 18:19:34",
+                                        "secondHalfStarted":  "17.07.2026 18:37:06",
+                                        "secondHalfEnded":  "17.07.2026 19:28:26",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "17.07.2026 19:28:26"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "2 - 2",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  15,
+                      "added_time":  null,
+                      "time_str":  15,
+                      "type":  "Goal",
+                      "event_id":  14234238,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  "Own goal",
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  88,
+                      "added_time":  null,
+                      "time_str":  88,
+                      "type":  "Goal",
+                      "event_id":  14234314,
+                      "home_score":  1,
+                      "away_score":  2,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  19,
+                      "added_time":  null,
+                      "time_str":  19,
+                      "type":  "Goal",
+                      "event_id":  14234242,
+                      "home_score":  1,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  47,
+                      "added_time":  null,
+                      "time_str":  47,
+                      "type":  "Goal",
+                      "event_id":  14234268,
+                      "home_score":  1,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  4
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        }
+                    ]
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "1000015113",
+                    "league":  "srb.1",
+                    "date":  "2026-08-29T17:00:00Z",
+                    "home_id":  "676141",
+                    "home":  "Železničar Pančevo",
+                    "away_id":  "463461",
+                    "away":  "FK Radnik Surdulica",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "5 - 1",
+                    "source":  "https://www.fotmob.com/matches/fk-radnik-surdulica-vs-zeleznicar-pancevo/8ab0sqs8#1000015113"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015113",
+    "collected_at_utc":  "2026-11-02T10:28:20.0784351Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  1,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

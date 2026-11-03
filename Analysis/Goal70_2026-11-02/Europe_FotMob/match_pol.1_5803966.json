@@ -1,0 +1,120 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5803966",
+                    "date":  "2026-08-28T16:00:00Z",
+                    "home_id":  "8243",
+                    "home":  "Wisła Płock",
+                    "away_id":  "8245",
+                    "away":  "Korona Kielce",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "round":  "6",
+                    "source":  "https://www.fotmob.com/matches/wisa-pock-vs-korona-kielce/28xqq1#5803966"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803966",
+    "general":  {
+                    "matchId":  "5803966",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "Wisła Płock",
+                                     "id":  8243
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Korona Kielce",
+                                     "id":  8245
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  8243,
+                             "name":  "Wisła Płock",
+                             "score":  0
+                         },
+                         {
+                             "id":  8245,
+                             "name":  "Korona Kielce",
+                             "score":  2
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-08-28T16:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "28.08.2026 18:00:56",
+                                        "firstHalfEnded":  "28.08.2026 18:50:56",
+                                        "secondHalfStarted":  "28.08.2026 19:08:18",
+                                        "secondHalfEnded":  "28.08.2026 19:58:10",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "28.08.2026 19:58:10"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "0 - 2",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "away",
+                      "time":  21,
+                      "added_time":  null,
+                      "time_str":  21,
+                      "type":  "Goal",
+                      "event_id":  14351828,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  "FirstHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "away",
+                      "time":  49,
+                      "added_time":  null,
+                      "time_str":  49,
+                      "type":  "Goal",
+                      "event_id":  14351961,
+                      "home_score":  0,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  8
+                        }
+                    ]
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868472",
+                    "league":  "esp.2",
+                    "date":  "2026-10-03T16:30:00Z",
+                    "home_id":  "8385",
+                    "home":  "Cádiz",
+                    "away_id":  "7854",
+                    "away":  "Leganés",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "4 - 0",
+                    "source":  "https://www.fotmob.com/matches/leganes-vs-cadiz/26ietl#5868472"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868472",
+    "collected_at_utc":  "2026-11-02T10:28:23.9233782Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

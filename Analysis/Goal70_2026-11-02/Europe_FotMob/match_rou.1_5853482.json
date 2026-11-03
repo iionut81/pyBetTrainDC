@@ -1,0 +1,95 @@
+﻿{
+    "fixture":  {
+                    "league":  "rou.1",
+                    "id":  "5853482",
+                    "date":  "2026-08-30T13:00:00Z",
+                    "home_id":  "210132",
+                    "home":  "FCV Farul Constanța",
+                    "away_id":  "188191",
+                    "away":  "Botoșani",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 0",
+                    "round":  "7",
+                    "source":  "https://www.fotmob.com/matches/botosani-vs-fcv-farul-constanta/10fzmzaa#5853482"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853482",
+    "general":  {
+                    "matchId":  "5853482",
+                    "parentLeagueId":  189,
+                    "leagueName":  "Superliga",
+                    "homeTeam":  {
+                                     "name":  "FCV Farul Constanța",
+                                     "id":  210132
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Botoșani",
+                                     "id":  188191
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  210132,
+                             "name":  "FCV Farul Constanța",
+                             "score":  0
+                         },
+                         {
+                             "id":  188191,
+                             "name":  "Botoșani",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-08-30T13:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "30.08.2026 15:01:42",
+                                        "firstHalfEnded":  "30.08.2026 15:49:53",
+                                        "secondHalfStarted":  "30.08.2026 16:05:34",
+                                        "secondHalfEnded":  "30.08.2026 16:54:14",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "30.08.2026 16:54:14"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "0 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Card",
+                            "Count":  7
+                        },
+                        {
+                            "Name":  "MissedPenalty",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        }
+                    ]
+}

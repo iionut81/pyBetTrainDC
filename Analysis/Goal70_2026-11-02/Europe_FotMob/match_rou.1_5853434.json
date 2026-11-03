@@ -1,0 +1,120 @@
+﻿{
+    "fixture":  {
+                    "league":  "rou.1",
+                    "id":  "5853434",
+                    "date":  "2026-07-17T18:30:00Z",
+                    "home_id":  "9723",
+                    "home":  "FCSB",
+                    "away_id":  "9732",
+                    "away":  "FC Argeș Pitesti",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 0",
+                    "round":  "1",
+                    "source":  "https://www.fotmob.com/matches/fcsb-vs-fc-arges-pitesti/34oo3o#5853434"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853434",
+    "general":  {
+                    "matchId":  "5853434",
+                    "parentLeagueId":  189,
+                    "leagueName":  "Superliga",
+                    "homeTeam":  {
+                                     "name":  "FCSB",
+                                     "id":  9723
+                                 },
+                    "awayTeam":  {
+                                     "name":  "FC Arges Pitesti",
+                                     "id":  9732
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  9723,
+                             "name":  "FCSB",
+                             "score":  2
+                         },
+                         {
+                             "id":  9732,
+                             "name":  "FC Arges Pitesti",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-07-17T18:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "17.07.2026 20:35:45",
+                                        "firstHalfEnded":  "17.07.2026 21:26:38",
+                                        "secondHalfStarted":  "17.07.2026 21:43:30",
+                                        "secondHalfEnded":  "17.07.2026 22:32:26",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "17.07.2026 22:32:26"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "2 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  19,
+                      "added_time":  null,
+                      "time_str":  19,
+                      "type":  "Goal",
+                      "event_id":  14234484,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  45,
+                      "added_time":  4,
+                      "time_str":  "45 + 4",
+                      "type":  "Goal",
+                      "event_id":  14234532,
+                      "home_score":  1,
+                      "away_score":  0,
+                      "goal_description":  "Penalty",
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Card",
+                            "Count":  3
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        }
+                    ]
+}

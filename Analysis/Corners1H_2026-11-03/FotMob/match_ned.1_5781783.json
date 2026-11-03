@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5781783",
+                    "league":  "ned.1",
+                    "date":  "2026-10-25T13:30:00Z",
+                    "home_id":  "8640",
+                    "home":  "PSV Eindhoven",
+                    "away_id":  "10235",
+                    "away":  "Feyenoord",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/psv-eindhoven-vs-feyenoord/2y2e3u#5781783"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5781783",
+    "collected_at_utc":  "2026-11-03T09:08:01.2305835Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

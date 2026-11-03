@@ -1,0 +1,31 @@
+﻿{
+    "fixture":  {
+                    "id":  "5909149",
+                    "league":  "ukr.1",
+                    "date":  "2026-09-05T15:00:00Z",
+                    "home_id":  "8691",
+                    "home":  "Karpaty",
+                    "away_id":  "9728",
+                    "away":  "Shakhtar Donetsk",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/karpaty-vs-shakhtar-donetsk/2t05se#5909149"
+                },
+    "ok":  false,
+    "error":  "first_half_corners_missing",
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5909149",
+    "collected_at_utc":  "2026-11-03T09:07:58.7774017Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  null,
+    "second_half":  null,
+    "full_time":  {
+                      "home":  4,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  false
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836905",
+                    "league":  "eng.2",
+                    "date":  "2026-10-31T15:00:00Z",
+                    "home_id":  "8466",
+                    "home":  "Southampton",
+                    "away_id":  "10172",
+                    "away":  "Queens Park Rangers",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "4 - 1",
+                    "source":  "https://www.fotmob.com/matches/southampton-vs-queens-park-rangers/2vf3vf#5836905"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836905",
+    "collected_at_utc":  "2026-11-03T09:09:00.8941346Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  4,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  9,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

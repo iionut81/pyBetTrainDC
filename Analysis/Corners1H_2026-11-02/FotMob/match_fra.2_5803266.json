@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803266",
+                    "league":  "fra.2",
+                    "date":  "2026-09-19T12:00:00Z",
+                    "home_id":  "9747",
+                    "home":  "Guingamp",
+                    "away_id":  "6390",
+                    "away":  "Red Star",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 3",
+                    "source":  "https://www.fotmob.com/matches/red-star-vs-guingamp/25j1s0#5803266"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803266",
+    "collected_at_utc":  "2026-11-02T10:29:19.1266198Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

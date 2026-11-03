@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803259",
+                    "league":  "fra.2",
+                    "date":  "2026-09-11T18:00:00Z",
+                    "home_id":  "8481",
+                    "home":  "Nancy",
+                    "away_id":  "9837",
+                    "away":  "Reims",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/nancy-vs-reims/2rwec6#5803259"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803259",
+    "collected_at_utc":  "2026-11-02T10:29:14.6796264Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  0,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

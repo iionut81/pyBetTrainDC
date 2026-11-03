@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107479",
+                    "league":  "swe.1",
+                    "date":  "2026-05-03T14:30:00Z",
+                    "home_id":  "8297",
+                    "home":  "GAIS",
+                    "away_id":  "10002",
+                    "away":  "Örgryte",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "4 - 0",
+                    "source":  "https://www.fotmob.com/matches/gais-vs-orgryte/2rowqb#5107479"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107479",
+    "collected_at_utc":  "2026-11-02T10:28:04.9401090Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

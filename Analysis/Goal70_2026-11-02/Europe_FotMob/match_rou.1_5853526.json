@@ -1,0 +1,120 @@
+﻿{
+    "fixture":  {
+                    "league":  "rou.1",
+                    "id":  "5853526",
+                    "date":  "2026-10-18T18:00:00Z",
+                    "home_id":  "480286",
+                    "home":  "Universitatea Craiova",
+                    "away_id":  "210132",
+                    "away":  "FCV Farul Constanța",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 0",
+                    "round":  "12",
+                    "source":  "https://www.fotmob.com/matches/fcv-farul-constanta-vs-universitatea-craiova/31hp327t#5853526"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853526",
+    "general":  {
+                    "matchId":  "5853526",
+                    "parentLeagueId":  189,
+                    "leagueName":  "Superliga",
+                    "homeTeam":  {
+                                     "name":  "Universitatea Craiova",
+                                     "id":  480286
+                                 },
+                    "awayTeam":  {
+                                     "name":  "FCV Farul Constanța",
+                                     "id":  210132
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  480286,
+                             "name":  "Universitatea Craiova",
+                             "score":  2
+                         },
+                         {
+                             "id":  210132,
+                             "name":  "FCV Farul Constanța",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-10-18T18:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "18.10.2026 20:02:12",
+                                        "firstHalfEnded":  "18.10.2026 20:47:42",
+                                        "secondHalfStarted":  "18.10.2026 21:03:45",
+                                        "secondHalfEnded":  "18.10.2026 21:51:27",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "18.10.2026 21:51:26"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "2 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  16,
+                      "added_time":  null,
+                      "time_str":  16,
+                      "type":  "Goal",
+                      "event_id":  14603652,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  87,
+                      "added_time":  null,
+                      "time_str":  87,
+                      "type":  "Goal",
+                      "event_id":  14604319,
+                      "home_score":  1,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  4
+                        }
+                    ]
+}

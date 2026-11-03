@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "browser": "Microsoft Edge headless",
+  "desktop": {
+    "width": 1600,
+    "height": 1200
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844
+  },
+  "checks": [
+    "Dashboard opens on the latest discovered archive date",
+    "20 fixtures and 19 eligible corner models",
+    "Archived reference dates are available and Derby is the confirmed user choice",
+    "Unverified user choices show a pending suffix in cards and table",
+    "All result suffixes are distinct, including fail, postponed and missing",
+    "Initial table includes all 20 rows",
+    "User goal pick is pinned first while retaining its original model rank",
+    "Radar has 19 source-supported data points",
+    "Only 26 played outcomes shown in retrospective strip",
+    "Corner screening sorts Derby first at 96.35 percent",
+    "Derby table badge is the user choice",
+    "Detail separates final 96.61 percent from screening",
+    "Escape closes analysis dialog",
+    "Missing first-half observations remain missing, not zero",
+    "Filtered CSV export keeps missing probability blank",
+    "League filter returns 9 UCL fixtures, 8 radar points",
+    "Date switch loads all 27 archived fixtures and earlier user choices",
+    "Verified historical user choices show success in both cards and the comparison table",
+    "Archived Mallorca choice is pinned first without changing model rank 21",
+    "Archived Sassuolo corner choice is pinned first with verified success",
+    "Historical failure filter includes four failures",
+    "Postponed historical fixture is shown separately",
+    "Corner history contains one verified success, 25 pending and one postponed",
+    "Saved Sassuolo result shows the actual two first-half corners",
+    "Today user corner choice is pending rather than assumed successful",
+    "Pilot shows 30 checkpoints without invented outcomes",
+    "Mobile has no page-level horizontal overflow",
+    "Mobile layout keeps all 20 fixtures accessible"
+  ],
+  "exceptionCount": 0,
+  "localOnly": true
+}

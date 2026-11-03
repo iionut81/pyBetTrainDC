@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803962",
+                    "league":  "pol.1",
+                    "date":  "2026-08-29T10:15:00Z",
+                    "home_id":  "5769",
+                    "home":  "Radomiak Radom",
+                    "away_id":  "2186",
+                    "away":  "Cracovia",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "source":  "https://www.fotmob.com/matches/cracovia-vs-radomiak-radom/iudvr#5803962"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803962",
+    "collected_at_utc":  "2026-11-02T10:27:42.7193349Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  7,
+                       "away":  7,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  10,
+                      "away":  10,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

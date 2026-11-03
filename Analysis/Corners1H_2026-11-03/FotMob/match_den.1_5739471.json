@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5739471",
+                    "league":  "den.1",
+                    "date":  "2026-08-02T12:00:00Z",
+                    "home_id":  "10202",
+                    "home":  "Nordsjælland",
+                    "away_id":  "8410",
+                    "away":  "Randers FC",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "source":  "https://www.fotmob.com/matches/randers-fc-vs-nordsjaelland/2v4q64#5739471"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5739471",
+    "collected_at_utc":  "2026-11-03T09:07:28.0143288Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  7,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  11,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

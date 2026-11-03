@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107644",
+                    "league":  "swe.1",
+                    "date":  "2026-10-28T18:00:00Z",
+                    "home_id":  "8310",
+                    "home":  "Halmstads BK",
+                    "away_id":  "10237",
+                    "away":  "Malmö FF",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 3",
+                    "source":  "https://www.fotmob.com/matches/halmstads-bk-vs-malmo-ff/2ueu84#5107644"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107644",
+    "collected_at_utc":  "2026-11-03T09:08:22.2448319Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

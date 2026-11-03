@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5887604",
+                    "league":  "por.1",
+                    "date":  "2026-09-09T19:45:00Z",
+                    "home_id":  "8348",
+                    "home":  "Moreirense",
+                    "away_id":  "9772",
+                    "away":  "Benfica",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 4",
+                    "source":  "https://www.fotmob.com/matches/moreirense-vs-benfica/2pr2r4#5887604"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5887604",
+    "collected_at_utc":  "2026-11-02T10:27:16.8806348Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  6,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  7,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5739535",
+                    "league":  "den.1",
+                    "date":  "2026-10-25T15:00:00Z",
+                    "home_id":  "9814",
+                    "home":  "AC Horsens",
+                    "away_id":  "8487",
+                    "away":  "Sønderjyske",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "5 - 1",
+                    "source":  "https://www.fotmob.com/matches/sonderjyske-vs-ac-horsens/2rpq55#5739535"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5739535",
+    "collected_at_utc":  "2026-11-02T10:27:45.3147028Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

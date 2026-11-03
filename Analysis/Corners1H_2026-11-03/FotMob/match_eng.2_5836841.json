@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836841",
+                    "league":  "eng.2",
+                    "date":  "2026-09-19T11:30:00Z",
+                    "home_id":  "8344",
+                    "home":  "Cardiff City",
+                    "away_id":  "8451",
+                    "away":  "Charlton Athletic",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 1",
+                    "source":  "https://www.fotmob.com/matches/cardiff-city-vs-charlton-athletic/2bz931#5836841"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836841",
+    "collected_at_utc":  "2026-11-03T09:08:19.2109946Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  1,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

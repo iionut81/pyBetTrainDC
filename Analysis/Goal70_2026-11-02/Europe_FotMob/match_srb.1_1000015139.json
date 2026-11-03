@@ -1,0 +1,137 @@
+﻿{
+    "fixture":  {
+                    "league":  "srb.1",
+                    "id":  "1000015139",
+                    "date":  "2026-09-20T18:00:00Z",
+                    "home_id":  "676141",
+                    "home":  "Železničar Pančevo",
+                    "away_id":  "6374",
+                    "away":  "Čukarički",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "round":  "10",
+                    "source":  "https://www.fotmob.com/matches/cukaricki-vs-zeleznicar-pancevo/2yzz7ht7#1000015139"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015139",
+    "general":  {
+                    "matchId":  "1000015139",
+                    "parentLeagueId":  182,
+                    "leagueName":  "Serbian Super Liga",
+                    "homeTeam":  {
+                                     "name":  "Železničar Pančevo",
+                                     "id":  676141
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Čukarički",
+                                     "id":  6374
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  676141,
+                             "name":  "Železničar Pančevo",
+                             "score":  2
+                         },
+                         {
+                             "id":  6374,
+                             "name":  "Čukarički",
+                             "score":  1
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-09-20T18:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "20.09.2026 20:01:02",
+                                        "firstHalfEnded":  "20.09.2026 20:48:16",
+                                        "secondHalfStarted":  "20.09.2026 21:06:32",
+                                        "secondHalfEnded":  "20.09.2026 21:56:54",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "20.09.2026 21:56:54"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "2 - 1",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  89,
+                      "added_time":  null,
+                      "time_str":  89,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  90,
+                      "added_time":  1,
+                      "time_str":  "90 + 1",
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  1,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  4,
+                      "added_time":  null,
+                      "time_str":  4,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  3
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  8
+                        },
+                        {
+                            "Name":  "AddedTime",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        }
+                    ]
+}

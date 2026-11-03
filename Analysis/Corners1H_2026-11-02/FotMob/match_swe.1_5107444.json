@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107444",
+                    "league":  "swe.1",
+                    "date":  "2026-04-05T12:00:00Z",
+                    "home_id":  "9892",
+                    "home":  "Kalmar FF",
+                    "away_id":  "6194",
+                    "away":  "Västerås SK",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/vasteras-sk-vs-kalmar-ff/251fup#5107444"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107444",
+    "collected_at_utc":  "2026-11-02T10:27:51.9623772Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  7,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  7,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  14,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

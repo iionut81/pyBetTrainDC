@@ -1,0 +1,37 @@
+﻿{
+    "ok":  true,
+    "league":  "eng.1",
+    "source":  "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261102\u0026limit=1000",
+    "fetched_at_utc":  "2026-11-03T07:58:34.6834474Z",
+    "events":  [
+                   {
+                       "id":  "401878762",
+                       "date":  "2026-11-02T20:00Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "361",
+                                         "name":  "Newcastle United",
+                                         "homeAway":  "home",
+                                         "score":  "0"
+                                     },
+                                     {
+                                         "id":  "368",
+                                         "name":  "Everton",
+                                         "homeAway":  "away",
+                                         "score":  "1"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "49\u0027",
+                                         "team_id":  "368",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401878762"
+                   }
+               ]
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5795464",
+                    "league":  "eng.1",
+                    "date":  "2026-09-19T11:30:00Z",
+                    "home_id":  "8586",
+                    "home":  "Tottenham Hotspur",
+                    "away_id":  "10252",
+                    "away":  "Aston Villa",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 3",
+                    "source":  "https://www.fotmob.com/matches/tottenham-hotspur-vs-aston-villa/2xnfpj#5795464"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5795464",
+    "collected_at_utc":  "2026-11-03T09:07:33.6176556Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  7,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  11,
+                      "away":  1,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

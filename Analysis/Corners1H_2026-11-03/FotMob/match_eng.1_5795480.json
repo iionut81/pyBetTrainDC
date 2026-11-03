@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5795480",
+                    "league":  "eng.1",
+                    "date":  "2026-10-18T13:00:00Z",
+                    "home_id":  "8463",
+                    "home":  "Leeds United",
+                    "away_id":  "10260",
+                    "away":  "Manchester United",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/leeds-united-vs-manchester-united/2wd539#5795480"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5795480",
+    "collected_at_utc":  "2026-11-03T09:07:36.2331249Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803963",
+                    "league":  "pol.1",
+                    "date":  "2026-08-30T12:45:00Z",
+                    "home_id":  "4024",
+                    "home":  "Raków Częstochowa",
+                    "away_id":  "1957",
+                    "away":  "Jagiellonia Białystok",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 5",
+                    "source":  "https://www.fotmob.com/matches/jagiellonia-biaystok-vs-rakow-czestochowa/anih7#5803963"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803963",
+    "collected_at_utc":  "2026-11-02T10:27:43.9049778Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

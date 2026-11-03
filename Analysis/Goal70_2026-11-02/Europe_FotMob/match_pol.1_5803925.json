@@ -1,0 +1,120 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5803925",
+                    "date":  "2026-09-15T18:30:00Z",
+                    "home_id":  "8245",
+                    "home":  "Korona Kielce",
+                    "away_id":  "8020",
+                    "away":  "Górnik Zabrze",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "round":  "2",
+                    "source":  "https://www.fotmob.com/matches/gornik-zabrze-vs-korona-kielce/26rgrm#5803925"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803925",
+    "general":  {
+                    "matchId":  "5803925",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "Korona Kielce",
+                                     "id":  8245
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Górnik Zabrze",
+                                     "id":  8020
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  8245,
+                             "name":  "Korona Kielce",
+                             "score":  0
+                         },
+                         {
+                             "id":  8020,
+                             "name":  "Górnik Zabrze",
+                             "score":  2
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-09-15T18:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "15.09.2026 20:34:58",
+                                        "firstHalfEnded":  "15.09.2026 21:21:32",
+                                        "secondHalfStarted":  "15.09.2026 21:32:51",
+                                        "secondHalfEnded":  "15.09.2026 22:20:29",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "15.09.2026 22:20:29"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "0 - 2",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "away",
+                      "time":  41,
+                      "added_time":  null,
+                      "time_str":  41,
+                      "type":  "Goal",
+                      "event_id":  14441759,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  "FirstHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "away",
+                      "time":  90,
+                      "added_time":  3,
+                      "time_str":  "90 + 3",
+                      "type":  "Goal",
+                      "event_id":  14442273,
+                      "home_score":  0,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  3
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        }
+                    ]
+}

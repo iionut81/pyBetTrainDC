@@ -1,0 +1,154 @@
+﻿{
+    "fixture":  {
+                    "league":  "srb.1",
+                    "id":  "1000015131",
+                    "date":  "2026-09-13T14:00:00Z",
+                    "home_id":  "6410",
+                    "home":  "Radnički Niš",
+                    "away_id":  "8692",
+                    "away":  "OFK Beograd",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 1",
+                    "round":  "9",
+                    "source":  "https://www.fotmob.com/matches/radnicki-nis-vs-ofk-beograd/1vwinp#1000015131"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015131",
+    "general":  {
+                    "matchId":  "1000015131",
+                    "parentLeagueId":  182,
+                    "leagueName":  "Serbian Super Liga",
+                    "homeTeam":  {
+                                     "name":  "Radnički Niš",
+                                     "id":  6410
+                                 },
+                    "awayTeam":  {
+                                     "name":  "OFK Beograd",
+                                     "id":  8692
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  6410,
+                             "name":  "Radnički Niš",
+                             "score":  3
+                         },
+                         {
+                             "id":  8692,
+                             "name":  "OFK Beograd",
+                             "score":  1
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-09-13T14:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "13.09.2026 16:01:25",
+                                        "firstHalfEnded":  "13.09.2026 16:49:35",
+                                        "secondHalfStarted":  "13.09.2026 17:04:41",
+                                        "secondHalfEnded":  "13.09.2026 17:53:47",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "13.09.2026 17:53:47"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "3 - 1",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  7,
+                      "added_time":  null,
+                      "time_str":  7,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  61,
+                      "added_time":  null,
+                      "time_str":  61,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  1,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  80,
+                      "added_time":  null,
+                      "time_str":  80,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  2,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  52,
+                      "added_time":  null,
+                      "time_str":  52,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  1,
+                      "away_score":  0,
+                      "goal_description":  "Penalty",
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  4
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  5
+                        },
+                        {
+                            "Name":  "AddedTime",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        },
+                        {
+                            "Name":  "Comment",
+                            "Count":  1
+                        }
+                    ]
+}

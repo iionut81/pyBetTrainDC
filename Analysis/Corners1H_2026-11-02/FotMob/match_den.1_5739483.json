@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5739483",
+                    "league":  "den.1",
+                    "date":  "2026-08-16T16:00:00Z",
+                    "home_id":  "8410",
+                    "home":  "Randers FC",
+                    "away_id":  "8391",
+                    "away":  "FC København",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 4",
+                    "source":  "https://www.fotmob.com/matches/fc-kobenhavn-vs-randers-fc/2c1etn#5739483"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5739483",
+    "collected_at_utc":  "2026-11-02T10:27:33.4883542Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

@@ -294,3 +294,20 @@ For UCL/UEL/UECL matches:
 ## GITHUB
 - Repo: `github.com/iionut81/pyBetTrainDC` (private)
 - Branch: main
+
+---
+
+## Football GOAL_BY_70 + CORNERS_1H_UNDER_7_5 (user method, 2026-11-01)
+
+Read `Prompts/Football_Goal70_Corners1H_Master.md` and `AGENTS.md` for these
+two markets. Research all leagues with usable history before final ranking;
+do not stop after the first acceptable candidate. For these markets the user
+explicitly requires no bookmaker odds, no odds requests, and no arbitrary
+research percentage adjustments; these requirements override older price and
+adjustment rules above. Report mathematical fair odds only.
+
+Offline data audit and the requested 50/50 season/venue Poisson baseline:
+`audit_goal70_corners_1h.ps1 -AsOf 2026-11-01`. Results and limitations live in
+`Analysis/Football70_Corners1H_Audit_2026-11-01/`. This audit leaves production
+models and calibration unchanged. Exact goal-event history is still incomplete;
+FHG halftime scores cannot substitute for all goal minutes up to 70.

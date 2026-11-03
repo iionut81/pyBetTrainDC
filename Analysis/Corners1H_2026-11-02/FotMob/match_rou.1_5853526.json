@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5853526",
+                    "league":  "rou.1",
+                    "date":  "2026-10-18T18:00:00Z",
+                    "home_id":  "480286",
+                    "home":  "Universitatea Craiova",
+                    "away_id":  "210132",
+                    "away":  "FCV Farul Constanța",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 0",
+                    "source":  "https://www.fotmob.com/matches/fcv-farul-constanta-vs-universitatea-craiova/31hp327t#5853526"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853526",
+    "collected_at_utc":  "2026-11-02T10:28:13.3933842Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

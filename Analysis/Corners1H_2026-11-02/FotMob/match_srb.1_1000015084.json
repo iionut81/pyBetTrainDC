@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "1000015084",
+                    "league":  "srb.1",
+                    "date":  "2026-09-10T17:00:00Z",
+                    "home_id":  "463461",
+                    "home":  "FK Radnik Surdulica",
+                    "away_id":  "8687",
+                    "away":  "FK Crvena Zvezda",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 0",
+                    "source":  "https://www.fotmob.com/matches/fk-crvena-zvezda-vs-fk-radnik-surdulica/1f7dnvtt#1000015084"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015084",
+    "collected_at_utc":  "2026-11-02T10:28:23.5067921Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  5,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  1,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

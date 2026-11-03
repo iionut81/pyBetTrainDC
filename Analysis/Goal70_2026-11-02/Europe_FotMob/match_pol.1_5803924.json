@@ -1,0 +1,146 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5803924",
+                    "date":  "2026-08-02T18:15:00Z",
+                    "home_id":  "4023",
+                    "home":  "GKS Katowice",
+                    "away_id":  "5769",
+                    "away":  "Radomiak Radom",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 1",
+                    "round":  "2",
+                    "source":  "https://www.fotmob.com/matches/gks-katowice-vs-radomiak-radom/sjs89#5803924"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803924",
+    "general":  {
+                    "matchId":  "5803924",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "GKS Katowice",
+                                     "id":  4023
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Radomiak Radom",
+                                     "id":  5769
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  4023,
+                             "name":  "GKS Katowice",
+                             "score":  3
+                         },
+                         {
+                             "id":  5769,
+                             "name":  "Radomiak Radom",
+                             "score":  1
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-08-02T18:15:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "02.08.2026 20:18:06",
+                                        "firstHalfEnded":  "02.08.2026 21:05:44",
+                                        "secondHalfStarted":  "02.08.2026 21:21:57",
+                                        "secondHalfEnded":  "02.08.2026 22:14:16",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "02.08.2026 22:14:16"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "3 - 1",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  58,
+                      "added_time":  null,
+                      "time_str":  58,
+                      "type":  "Goal",
+                      "event_id":  14272241,
+                      "home_score":  0,
+                      "away_score":  1,
+                      "goal_description":  "Own goal",
+                      "period":  "SecondHalf",
+                      "is_own_goal":  true
+                  },
+                  {
+                      "side":  "home",
+                      "time":  66,
+                      "added_time":  null,
+                      "time_str":  66,
+                      "type":  "Goal",
+                      "event_id":  14272293,
+                      "home_score":  1,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "home",
+                      "time":  90,
+                      "added_time":  3,
+                      "time_str":  "90 + 3",
+                      "type":  "Goal",
+                      "event_id":  14272454,
+                      "home_score":  2,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "away",
+                      "time":  37,
+                      "added_time":  null,
+                      "time_str":  37,
+                      "type":  "Goal",
+                      "event_id":  14272070,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  "FirstHalf",
+                      "is_own_goal":  false
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  4
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  8
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        }
+                    ]
+}

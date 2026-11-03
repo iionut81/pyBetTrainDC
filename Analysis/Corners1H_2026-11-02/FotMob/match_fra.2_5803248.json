@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803248",
+                    "league":  "fra.2",
+                    "date":  "2026-09-04T18:00:00Z",
+                    "home_id":  "7853",
+                    "home":  "Laval",
+                    "away_id":  "6390",
+                    "away":  "Red Star",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/red-star-vs-laval/1oecmb#5803248"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803248",
+    "collected_at_utc":  "2026-11-02T10:29:11.6171208Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

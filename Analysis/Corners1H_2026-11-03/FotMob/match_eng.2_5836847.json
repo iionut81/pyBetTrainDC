@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836847",
+                    "league":  "eng.2",
+                    "date":  "2026-09-19T11:30:00Z",
+                    "home_id":  "10194",
+                    "home":  "Stoke City",
+                    "away_id":  "8657",
+                    "away":  "Sheffield United",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "source":  "https://www.fotmob.com/matches/sheffield-united-vs-stoke-city/2xsosn#5836847"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836847",
+    "collected_at_utc":  "2026-11-03T09:08:20.4716673Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  6,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  1,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

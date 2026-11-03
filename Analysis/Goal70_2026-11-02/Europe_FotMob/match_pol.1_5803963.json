@@ -1,0 +1,185 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5803963",
+                    "date":  "2026-08-30T12:45:00Z",
+                    "home_id":  "4024",
+                    "home":  "Raków Częstochowa",
+                    "away_id":  "1957",
+                    "away":  "Jagiellonia Białystok",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 5",
+                    "round":  "6",
+                    "source":  "https://www.fotmob.com/matches/jagiellonia-biaystok-vs-rakow-czestochowa/anih7#5803963"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803963",
+    "general":  {
+                    "matchId":  "5803963",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "Raków Częstochowa",
+                                     "id":  4024
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Jagiellonia Białystok",
+                                     "id":  1957
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  4024,
+                             "name":  "Raków Częstochowa",
+                             "score":  2
+                         },
+                         {
+                             "id":  1957,
+                             "name":  "Jagiellonia Białystok",
+                             "score":  5
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-08-30T12:45:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "30.08.2026 14:45:55",
+                                        "firstHalfEnded":  "30.08.2026 15:36:16",
+                                        "secondHalfStarted":  "30.08.2026 15:53:24",
+                                        "secondHalfEnded":  "30.08.2026 16:42:30",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "30.08.2026 16:42:30"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "2 - 5",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  23,
+                      "added_time":  null,
+                      "time_str":  23,
+                      "type":  "Goal",
+                      "event_id":  14366130,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  "FirstHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "home",
+                      "time":  56,
+                      "added_time":  null,
+                      "time_str":  56,
+                      "type":  "Goal",
+                      "event_id":  14366745,
+                      "home_score":  1,
+                      "away_score":  2,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "away",
+                      "time":  31,
+                      "added_time":  null,
+                      "time_str":  31,
+                      "type":  "Goal",
+                      "event_id":  14366222,
+                      "home_score":  1,
+                      "away_score":  0,
+                      "goal_description":  "Penalty",
+                      "period":  "FirstHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "away",
+                      "time":  37,
+                      "added_time":  null,
+                      "time_str":  37,
+                      "type":  "Goal",
+                      "event_id":  14366305,
+                      "home_score":  1,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  "FirstHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "away",
+                      "time":  76,
+                      "added_time":  null,
+                      "time_str":  76,
+                      "type":  "Goal",
+                      "event_id":  14366982,
+                      "home_score":  2,
+                      "away_score":  2,
+                      "goal_description":  "Penalty",
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "away",
+                      "time":  78,
+                      "added_time":  null,
+                      "time_str":  78,
+                      "type":  "Goal",
+                      "event_id":  14367030,
+                      "home_score":  2,
+                      "away_score":  3,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "away",
+                      "time":  89,
+                      "added_time":  null,
+                      "time_str":  89,
+                      "type":  "Goal",
+                      "event_id":  14367238,
+                      "home_score":  2,
+                      "away_score":  4,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  7
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        }
+                    ]
+}

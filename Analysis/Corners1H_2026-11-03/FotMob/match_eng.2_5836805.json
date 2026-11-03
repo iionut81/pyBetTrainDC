@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836805",
+                    "league":  "eng.2",
+                    "date":  "2026-09-05T14:00:00Z",
+                    "home_id":  "10004",
+                    "home":  "Millwall",
+                    "away_id":  "8559",
+                    "away":  "Bolton Wanderers",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "4 - 0",
+                    "source":  "https://www.fotmob.com/matches/bolton-wanderers-vs-millwall/2ul7hx#5836805"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836805",
+    "collected_at_utc":  "2026-11-03T09:07:59.5558668Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  6,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  9,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

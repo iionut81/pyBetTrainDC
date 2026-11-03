@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "1000015143",
+                    "league":  "srb.1",
+                    "date":  "2026-10-10T13:00:00Z",
+                    "home_id":  "568569",
+                    "home":  "FK IMT Beograd",
+                    "away_id":  "463461",
+                    "away":  "FK Radnik Surdulica",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "source":  "https://www.fotmob.com/matches/fk-radnik-surdulica-vs-fk-imt-beograd/6snaz2zu#1000015143"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015143",
+    "collected_at_utc":  "2026-11-02T10:28:29.1169405Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

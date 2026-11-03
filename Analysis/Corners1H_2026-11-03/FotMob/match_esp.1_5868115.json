@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868115",
+                    "league":  "esp.1",
+                    "date":  "2026-10-31T20:00:00Z",
+                    "home_id":  "8634",
+                    "home":  "Barcelona",
+                    "away_id":  "9866",
+                    "away":  "Deportivo Alavés",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "6 - 1",
+                    "source":  "https://www.fotmob.com/matches/barcelona-vs-deportivo-alaves/2tw7n8#5868115"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868115",
+    "collected_at_utc":  "2026-11-03T09:07:54.3837334Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

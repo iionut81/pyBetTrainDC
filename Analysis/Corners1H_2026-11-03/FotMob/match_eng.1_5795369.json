@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5795369",
+                    "league":  "eng.1",
+                    "date":  "2026-08-23T13:00:00Z",
+                    "home_id":  "10204",
+                    "home":  "Brighton \u0026 Hove Albion",
+                    "away_id":  "10252",
+                    "away":  "Aston Villa",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "4 - 0",
+                    "source":  "https://www.fotmob.com/matches/brighton-hove-albion-vs-aston-villa/3gku1s#5795369"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5795369",
+    "collected_at_utc":  "2026-11-03T09:07:29.3740786Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

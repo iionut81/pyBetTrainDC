@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5749702",
+                    "league":  "ita.1",
+                    "date":  "2026-10-17T16:00:00Z",
+                    "home_id":  "9857",
+                    "home":  "Bologna",
+                    "away_id":  "8636",
+                    "away":  "Inter",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 3",
+                    "source":  "https://www.fotmob.com/matches/inter-vs-bologna/2ttfqc#5749702"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5749702",
+    "collected_at_utc":  "2026-11-03T09:09:10.4136892Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

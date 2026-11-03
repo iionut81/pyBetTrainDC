@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107627",
+                    "league":  "swe.1",
+                    "date":  "2026-10-18T12:00:00Z",
+                    "home_id":  "6194",
+                    "home":  "Västerås SK",
+                    "away_id":  "8127",
+                    "away":  "Mjällby",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "source":  "https://www.fotmob.com/matches/vasteras-sk-vs-mjallby/1p28fc#5107627"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107627",
+    "collected_at_utc":  "2026-11-02T10:28:51.6239826Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

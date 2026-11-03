@@ -1,0 +1,159 @@
+﻿{
+    "fixture":  {
+                    "league":  "rou.1",
+                    "id":  "5853458",
+                    "date":  "2026-08-08T15:30:00Z",
+                    "home_id":  "210132",
+                    "home":  "FCV Farul Constanța",
+                    "away_id":  "583690",
+                    "away":  "Csikszereda Miercurea Ciuc",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 2",
+                    "round":  "4",
+                    "source":  "https://www.fotmob.com/matches/fcv-farul-constanta-vs-csikszereda-miercurea-ciuc/40qt3ttn#5853458"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853458",
+    "general":  {
+                    "matchId":  "5853458",
+                    "parentLeagueId":  189,
+                    "leagueName":  "Superliga",
+                    "homeTeam":  {
+                                     "name":  "FCV Farul Constanta",
+                                     "id":  210132
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Csikszereda Miercurea Ciuc",
+                                     "id":  583690
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  210132,
+                             "name":  "FCV Farul Constanta",
+                             "score":  3
+                         },
+                         {
+                             "id":  583690,
+                             "name":  "Csikszereda Miercurea Ciuc",
+                             "score":  2
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-08-08T15:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "08.08.2026 17:43:14",
+                                        "firstHalfEnded":  "08.08.2026 18:34:42",
+                                        "secondHalfStarted":  "08.08.2026 18:49:24",
+                                        "secondHalfEnded":  "08.08.2026 19:37:46",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "08.08.2026 19:37:46"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "3 - 2",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  24,
+                      "added_time":  null,
+                      "time_str":  24,
+                      "type":  "Goal",
+                      "event_id":  14286723,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  28,
+                      "added_time":  null,
+                      "time_str":  28,
+                      "type":  "Goal",
+                      "event_id":  14286898,
+                      "home_score":  1,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  40,
+                      "added_time":  null,
+                      "time_str":  40,
+                      "type":  "Goal",
+                      "event_id":  14287001,
+                      "home_score":  2,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  35,
+                      "added_time":  null,
+                      "time_str":  35,
+                      "type":  "Goal",
+                      "event_id":  14286960,
+                      "home_score":  2,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  69,
+                      "added_time":  null,
+                      "time_str":  69,
+                      "type":  "Goal",
+                      "event_id":  14287481,
+                      "home_score":  3,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  5
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  6
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        }
+                    ]
+}

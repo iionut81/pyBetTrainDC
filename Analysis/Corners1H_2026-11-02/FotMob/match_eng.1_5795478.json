@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5795478",
+                    "league":  "eng.1",
+                    "date":  "2026-10-17T11:30:00Z",
+                    "home_id":  "8668",
+                    "home":  "Everton",
+                    "away_id":  "8455",
+                    "away":  "Chelsea",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/chelsea-vs-everton/2fahgy#5795478"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5795478",
+    "collected_at_utc":  "2026-11-02T10:26:58.8992062Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  4,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  7,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

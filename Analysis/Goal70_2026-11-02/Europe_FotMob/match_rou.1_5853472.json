@@ -1,0 +1,107 @@
+﻿{
+    "fixture":  {
+                    "league":  "rou.1",
+                    "id":  "5853472",
+                    "date":  "2026-08-23T18:30:00Z",
+                    "home_id":  "9731",
+                    "home":  "CFR Cluj",
+                    "away_id":  "9723",
+                    "away":  "FCSB",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "round":  "6",
+                    "source":  "https://www.fotmob.com/matches/fcsb-vs-cfr-cluj/34o938#5853472"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853472",
+    "general":  {
+                    "matchId":  "5853472",
+                    "parentLeagueId":  189,
+                    "leagueName":  "Superliga",
+                    "homeTeam":  {
+                                     "name":  "CFR Cluj",
+                                     "id":  9731
+                                 },
+                    "awayTeam":  {
+                                     "name":  "FCSB",
+                                     "id":  9723
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  9731,
+                             "name":  "CFR Cluj",
+                             "score":  1
+                         },
+                         {
+                             "id":  9723,
+                             "name":  "FCSB",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-08-23T18:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "23.08.2026 20:34:03",
+                                        "firstHalfEnded":  "23.08.2026 21:21:19",
+                                        "secondHalfStarted":  "23.08.2026 21:39:09",
+                                        "secondHalfEnded":  "23.08.2026 22:25:51",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "23.08.2026 22:25:51"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "1 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  77,
+                      "added_time":  null,
+                      "time_str":  77,
+                      "type":  "Goal",
+                      "event_id":  14341926,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  "Penalty",
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Card",
+                            "Count":  4
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  7
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  1
+                        }
+                    ]
+}

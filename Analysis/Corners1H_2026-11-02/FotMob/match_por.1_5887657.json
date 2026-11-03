@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5887657",
+                    "league":  "por.1",
+                    "date":  "2026-10-24T19:30:00Z",
+                    "home_id":  "9764",
+                    "home":  "Gil Vicente",
+                    "away_id":  "9773",
+                    "away":  "FC Porto",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/gil-vicente-vs-fc-porto/35mxpi#5887657"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5887657",
+    "collected_at_utc":  "2026-11-02T10:27:27.0616476Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  8,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  8,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

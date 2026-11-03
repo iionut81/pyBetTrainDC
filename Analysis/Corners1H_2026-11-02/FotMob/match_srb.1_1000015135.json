@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "1000015135",
+                    "league":  "srb.1",
+                    "date":  "2026-09-20T17:00:00Z",
+                    "home_id":  "8687",
+                    "home":  "FK Crvena Zvezda",
+                    "away_id":  "6410",
+                    "away":  "Radnički Niš",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 0",
+                    "source":  "https://www.fotmob.com/matches/radnicki-nis-vs-fk-crvena-zvezda/1vuwec#1000015135"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015135",
+    "collected_at_utc":  "2026-11-02T10:28:27.9528937Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

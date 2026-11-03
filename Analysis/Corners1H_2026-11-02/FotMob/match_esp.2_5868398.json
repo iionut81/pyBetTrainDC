@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868398",
+                    "league":  "esp.2",
+                    "date":  "2026-08-16T17:00:00Z",
+                    "home_id":  "7732",
+                    "home":  "Girona",
+                    "away_id":  "7854",
+                    "away":  "Leganés",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/girona-vs-leganes/20boip#5868398"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868398",
+    "collected_at_utc":  "2026-11-02T10:27:52.4760445Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  8,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  9,
+                      "away":  0,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

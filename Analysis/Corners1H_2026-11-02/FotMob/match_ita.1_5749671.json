@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5749671",
+                    "league":  "ita.1",
+                    "date":  "2026-09-14T16:30:00Z",
+                    "home_id":  "10171",
+                    "home":  "Como",
+                    "away_id":  "10167",
+                    "away":  "Parma",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "source":  "https://www.fotmob.com/matches/parma-vs-como/3f58t2#5749671"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5749671",
+    "collected_at_utc":  "2026-11-02T10:27:18.9292364Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  7,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  11,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

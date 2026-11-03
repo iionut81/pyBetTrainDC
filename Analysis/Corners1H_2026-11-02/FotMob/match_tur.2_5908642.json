@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5908642",
+                    "league":  "tur.2",
+                    "date":  "2026-09-20T17:00:00Z",
+                    "home_id":  "1088486",
+                    "home":  "Mardin 1969 Spor",
+                    "away_id":  "10182",
+                    "away":  "Kayserispor",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/kayserispor-vs-mardin-1969-spor/7p9ejgck#5908642"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5908642",
+    "collected_at_utc":  "2026-11-02T10:28:27.9093287Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  1,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

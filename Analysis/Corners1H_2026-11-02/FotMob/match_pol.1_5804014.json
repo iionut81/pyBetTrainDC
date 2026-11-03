@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5804014",
+                    "league":  "pol.1",
+                    "date":  "2026-10-24T12:45:00Z",
+                    "home_id":  "8245",
+                    "home":  "Korona Kielce",
+                    "away_id":  "4023",
+                    "away":  "GKS Katowice",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "source":  "https://www.fotmob.com/matches/gks-katowice-vs-korona-kielce/18t7ub#5804014"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5804014",
+    "collected_at_utc":  "2026-11-02T10:28:05.8291373Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  7,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  9,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

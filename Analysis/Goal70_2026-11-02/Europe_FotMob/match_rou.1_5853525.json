@@ -1,0 +1,146 @@
+﻿{
+    "fixture":  {
+                    "league":  "rou.1",
+                    "id":  "5853525",
+                    "date":  "2026-10-19T15:00:00Z",
+                    "home_id":  "89022",
+                    "home":  "Universitatea Cluj",
+                    "away_id":  "9732",
+                    "away":  "FC Argeș Pitesti",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "round":  "12",
+                    "source":  "https://www.fotmob.com/matches/fc-arges-pitesti-vs-universitatea-cluj/28n6naf#5853525"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853525",
+    "general":  {
+                    "matchId":  "5853525",
+                    "parentLeagueId":  189,
+                    "leagueName":  "Superliga",
+                    "homeTeam":  {
+                                     "name":  "Universitatea Cluj",
+                                     "id":  89022
+                                 },
+                    "awayTeam":  {
+                                     "name":  "FC Argeș Pitesti",
+                                     "id":  9732
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  89022,
+                             "name":  "Universitatea Cluj",
+                             "score":  2
+                         },
+                         {
+                             "id":  9732,
+                             "name":  "FC Argeș Pitesti",
+                             "score":  2
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-10-19T15:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "19.10.2026 17:02:37",
+                                        "firstHalfEnded":  "19.10.2026 17:51:15",
+                                        "secondHalfStarted":  "19.10.2026 18:08:35",
+                                        "secondHalfEnded":  "19.10.2026 18:56:28",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "19.10.2026 18:56:28"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "2 - 2",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  27,
+                      "added_time":  null,
+                      "time_str":  27,
+                      "type":  "Goal",
+                      "event_id":  14606016,
+                      "home_score":  0,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  44,
+                      "added_time":  null,
+                      "time_str":  44,
+                      "type":  "Goal",
+                      "event_id":  14606052,
+                      "home_score":  1,
+                      "away_score":  1,
+                      "goal_description":  "Own goal",
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  25,
+                      "added_time":  null,
+                      "time_str":  25,
+                      "type":  "Goal",
+                      "event_id":  14606005,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  "Penalty",
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  62,
+                      "added_time":  null,
+                      "time_str":  62,
+                      "type":  "Goal",
+                      "event_id":  14606165,
+                      "home_score":  2,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  7
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  4
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        }
+                    ]
+}

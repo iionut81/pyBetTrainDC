@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107566",
+                    "league":  "swe.1",
+                    "date":  "2026-08-16T14:30:00Z",
+                    "home_id":  "8297",
+                    "home":  "GAIS",
+                    "away_id":  "10237",
+                    "away":  "Malmö FF",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/gais-vs-malmo-ff/2u9o8e#5107566"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107566",
+    "collected_at_utc":  "2026-11-02T10:28:33.0758969Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  5,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

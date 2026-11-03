@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5795496",
+                    "league":  "eng.1",
+                    "date":  "2026-10-31T20:00:00Z",
+                    "home_id":  "10252",
+                    "home":  "Aston Villa",
+                    "away_id":  "9879",
+                    "away":  "Fulham",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/fulham-vs-aston-villa/3cnglp#5795496"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5795496",
+    "collected_at_utc":  "2026-11-03T09:07:38.5993862Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  7,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

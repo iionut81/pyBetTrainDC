@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5887558",
+                    "league":  "por.1",
+                    "date":  "2026-08-08T19:30:00Z",
+                    "home_id":  "1074320",
+                    "home":  "Estrela da Amadora",
+                    "away_id":  "9768",
+                    "away":  "Sporting CP",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "source":  "https://www.fotmob.com/matches/sporting-cp-vs-estrela-da-amadora/7hy84jvo#5887558"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5887558",
+    "collected_at_utc":  "2026-11-03T09:07:50.9867215Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  5,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

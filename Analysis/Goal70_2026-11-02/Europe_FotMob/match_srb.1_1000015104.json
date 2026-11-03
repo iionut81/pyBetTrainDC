@@ -1,0 +1,111 @@
+﻿{
+    "fixture":  {
+                    "league":  "srb.1",
+                    "id":  "1000015104",
+                    "date":  "2026-08-22T16:30:00Z",
+                    "home_id":  "563180",
+                    "home":  "Mačva Šabac",
+                    "away_id":  "6410",
+                    "away":  "Radnički Niš",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "round":  "6",
+                    "source":  "https://www.fotmob.com/matches/radnicki-nis-vs-macva-sabac/22irmbp3#1000015104"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015104",
+    "general":  {
+                    "matchId":  "1000015104",
+                    "parentLeagueId":  182,
+                    "leagueName":  "Serbian Super Liga",
+                    "homeTeam":  {
+                                     "name":  "Mačva Šabac",
+                                     "id":  563180
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Radnički Niš",
+                                     "id":  6410
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  563180,
+                             "name":  "Mačva Šabac",
+                             "score":  1
+                         },
+                         {
+                             "id":  6410,
+                             "name":  "Radnički Niš",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-08-22T16:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "22.08.2026 18:31:22",
+                                        "firstHalfEnded":  "22.08.2026 19:20:30",
+                                        "secondHalfStarted":  "22.08.2026 19:37:30",
+                                        "secondHalfEnded":  "22.08.2026 20:26:53",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "22.08.2026 20:26:53"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "1 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  65,
+                      "added_time":  null,
+                      "time_str":  65,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Card",
+                            "Count":  9
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        },
+                        {
+                            "Name":  "AddedTime",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  1
+                        }
+                    ]
+}

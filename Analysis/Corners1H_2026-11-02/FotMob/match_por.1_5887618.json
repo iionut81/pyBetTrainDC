@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5887618",
+                    "league":  "por.1",
+                    "date":  "2026-09-05T17:00:00Z",
+                    "home_id":  "9780",
+                    "home":  "Alverca",
+                    "away_id":  "10264",
+                    "away":  "Braga",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/alverca-vs-braga/3bm00y#5887618"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5887618",
+    "collected_at_utc":  "2026-11-02T10:27:13.8290500Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

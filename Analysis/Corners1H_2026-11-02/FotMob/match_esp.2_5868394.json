@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868394",
+                    "league":  "esp.2",
+                    "date":  "2026-08-15T15:00:00Z",
+                    "home_id":  "494050",
+                    "home":  "FC Andorra",
+                    "away_id":  "357259",
+                    "away":  "AD Ceuta FC",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "5 - 1",
+                    "source":  "https://www.fotmob.com/matches/ad-ceuta-fc-vs-fc-andorra/4mguf8wd#5868394"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868394",
+    "collected_at_utc":  "2026-11-02T10:27:49.0682399Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

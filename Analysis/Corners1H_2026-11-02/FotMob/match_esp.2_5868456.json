@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868456",
+                    "league":  "esp.2",
+                    "date":  "2026-09-20T16:30:00Z",
+                    "home_id":  "8306",
+                    "home":  "Las Palmas",
+                    "away_id":  "7876",
+                    "away":  "Burgos CF",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/burgos-cf-vs-las-palmas/25ylrz#5868456"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868456",
+    "collected_at_utc":  "2026-11-02T10:28:15.8935066Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  6,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  9,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5904771",
+                    "league":  "tur.1",
+                    "date":  "2026-10-17T13:00:00Z",
+                    "home_id":  "7800",
+                    "home":  "Gençlerbirliği",
+                    "away_id":  "8637",
+                    "away":  "Galatasaray",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/genclerbirligi-vs-galatasaray/28fr6c#5904771"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5904771",
+    "collected_at_utc":  "2026-11-02T10:27:45.9531751Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  6,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  7,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  9,
+                      "away":  10,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

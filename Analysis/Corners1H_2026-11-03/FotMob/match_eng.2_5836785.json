@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836785",
+                    "league":  "eng.2",
+                    "date":  "2026-08-29T14:00:00Z",
+                    "home_id":  "9850",
+                    "home":  "Norwich City",
+                    "away_id":  "8191",
+                    "away":  "Burnley",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "4 - 1",
+                    "source":  "https://www.fotmob.com/matches/burnley-vs-norwich-city/2owgnj#5836785"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836785",
+    "collected_at_utc":  "2026-11-03T09:07:47.7561920Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

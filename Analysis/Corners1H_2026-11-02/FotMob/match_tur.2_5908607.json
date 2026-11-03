@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5908607",
+                    "league":  "tur.2",
+                    "date":  "2026-08-29T16:00:00Z",
+                    "home_id":  "10182",
+                    "home":  "Kayserispor",
+                    "away_id":  "10270",
+                    "away":  "Bursaspor",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/kayserispor-vs-bursaspor/3gj2xk#5908607"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5908607",
+    "collected_at_utc":  "2026-11-02T10:28:23.3571000Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

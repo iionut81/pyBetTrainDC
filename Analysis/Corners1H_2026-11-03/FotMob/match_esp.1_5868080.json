@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868080",
+                    "league":  "esp.1",
+                    "date":  "2026-09-20T16:30:00Z",
+                    "home_id":  "10205",
+                    "home":  "Villarreal",
+                    "away_id":  "8581",
+                    "away":  "Levante",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 1",
+                    "source":  "https://www.fotmob.com/matches/levante-vs-villarreal/2x2gvs#5868080"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868080",
+    "collected_at_utc":  "2026-11-03T09:07:47.6041474Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  1,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

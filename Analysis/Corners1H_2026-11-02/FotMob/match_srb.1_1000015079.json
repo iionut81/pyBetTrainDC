@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "1000015079",
+                    "league":  "srb.1",
+                    "date":  "2026-10-28T14:00:00Z",
+                    "home_id":  "1675",
+                    "home":  "FK Radnički 1923",
+                    "away_id":  "676141",
+                    "away":  "Železničar Pančevo",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/fk-radnicki-1923-vs-zeleznicar-pancevo/2xj4bz8p#1000015079"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015079",
+    "collected_at_utc":  "2026-11-02T10:28:35.5367616Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  6,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

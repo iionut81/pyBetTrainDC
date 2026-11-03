@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5749704",
+                    "league":  "ita.1",
+                    "date":  "2026-10-16T18:45:00Z",
+                    "home_id":  "9891",
+                    "home":  "Frosinone",
+                    "away_id":  "7943",
+                    "away":  "Sassuolo",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "4 - 2",
+                    "source":  "https://www.fotmob.com/matches/sassuolo-vs-frosinone/2movl6#5749704"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5749704",
+    "collected_at_utc":  "2026-11-02T10:27:25.8093673Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5887610",
+                    "league":  "por.1",
+                    "date":  "2026-08-29T14:30:00Z",
+                    "home_id":  "9780",
+                    "home":  "Alverca",
+                    "away_id":  "1567",
+                    "away":  "Santa Clara",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/santa-clara-vs-alverca/12c5oy#5887610"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5887610",
+    "collected_at_utc":  "2026-11-02T10:27:11.1983671Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  6,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  10,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

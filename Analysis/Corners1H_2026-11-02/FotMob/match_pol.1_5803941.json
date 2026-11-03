@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803941",
+                    "league":  "pol.1",
+                    "date":  "2026-08-16T15:30:00Z",
+                    "home_id":  "2186",
+                    "home":  "Cracovia",
+                    "away_id":  "4024",
+                    "away":  "Raków Częstochowa",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "source":  "https://www.fotmob.com/matches/cracovia-vs-rakow-czestochowa/bhfmj#5803941"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803941",
+    "collected_at_utc":  "2026-11-02T10:27:38.0724141Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

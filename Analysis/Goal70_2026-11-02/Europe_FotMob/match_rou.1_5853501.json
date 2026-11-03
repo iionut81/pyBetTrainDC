@@ -1,0 +1,146 @@
+﻿{
+    "fixture":  {
+                    "league":  "rou.1",
+                    "id":  "5853501",
+                    "date":  "2026-09-14T18:00:00Z",
+                    "home_id":  "9723",
+                    "home":  "FCSB",
+                    "away_id":  "188187",
+                    "away":  "Petrolul Ploiești",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "round":  "9",
+                    "source":  "https://www.fotmob.com/matches/fcsb-vs-petrolul-ploiesti/8zvzczc#5853501"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853501",
+    "general":  {
+                    "matchId":  "5853501",
+                    "parentLeagueId":  189,
+                    "leagueName":  "Superliga",
+                    "homeTeam":  {
+                                     "name":  "FCSB",
+                                     "id":  9723
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Petrolul Ploiești",
+                                     "id":  188187
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  9723,
+                             "name":  "FCSB",
+                             "score":  2
+                         },
+                         {
+                             "id":  188187,
+                             "name":  "Petrolul Ploiești",
+                             "score":  2
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-09-14T18:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "14.09.2026 20:04:03",
+                                        "firstHalfEnded":  "14.09.2026 20:53:23",
+                                        "secondHalfStarted":  "14.09.2026 21:10:47",
+                                        "secondHalfEnded":  "14.09.2026 21:58:55",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "14.09.2026 21:58:55"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "2 - 2",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  14,
+                      "added_time":  null,
+                      "time_str":  14,
+                      "type":  "Goal",
+                      "event_id":  14439037,
+                      "home_score":  0,
+                      "away_score":  1,
+                      "goal_description":  "Penalty",
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  24,
+                      "added_time":  null,
+                      "time_str":  24,
+                      "type":  "Goal",
+                      "event_id":  14439129,
+                      "home_score":  1,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  3,
+                      "added_time":  null,
+                      "time_str":  3,
+                      "type":  "Goal",
+                      "event_id":  14438982,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  66,
+                      "added_time":  null,
+                      "time_str":  66,
+                      "type":  "Goal",
+                      "event_id":  14439495,
+                      "home_score":  2,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  4
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  4
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        }
+                    ]
+}

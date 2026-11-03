@@ -1,0 +1,137 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5803941",
+                    "date":  "2026-08-16T15:30:00Z",
+                    "home_id":  "2186",
+                    "home":  "Cracovia",
+                    "away_id":  "4024",
+                    "away":  "Raków Częstochowa",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "round":  "4",
+                    "source":  "https://www.fotmob.com/matches/cracovia-vs-rakow-czestochowa/bhfmj#5803941"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803941",
+    "general":  {
+                    "matchId":  "5803941",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "Cracovia",
+                                     "id":  2186
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Raków Częstochowa",
+                                     "id":  4024
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  2186,
+                             "name":  "Cracovia",
+                             "score":  2
+                         },
+                         {
+                             "id":  4024,
+                             "name":  "Raków Częstochowa",
+                             "score":  1
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-08-16T15:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "16.08.2026 17:35:15",
+                                        "firstHalfEnded":  "16.08.2026 18:23:23",
+                                        "secondHalfStarted":  "16.08.2026 18:39:53",
+                                        "secondHalfEnded":  "16.08.2026 19:30:33",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "16.08.2026 19:30:33"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "2 - 1",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  56,
+                      "added_time":  null,
+                      "time_str":  56,
+                      "type":  "Goal",
+                      "event_id":  14317099,
+                      "home_score":  0,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "home",
+                      "time":  75,
+                      "added_time":  null,
+                      "time_str":  75,
+                      "type":  "Goal",
+                      "event_id":  14317260,
+                      "home_score":  1,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  },
+                  {
+                      "side":  "away",
+                      "time":  31,
+                      "added_time":  null,
+                      "time_str":  31,
+                      "type":  "Goal",
+                      "event_id":  14316506,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  "FirstHalf",
+                      "is_own_goal":  false
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  3
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "MissedPenalty",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        }
+                    ]
+}

@@ -1,0 +1,91 @@
+﻿{
+    "ok":  true,
+    "league":  "fra.2",
+    "source":  "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/scoreboard?dates=20261102\u0026limit=1000",
+    "fetched_at_utc":  "2026-11-03T07:58:33.3478516Z",
+    "events":  [
+                   {
+                       "id":  "401876703",
+                       "date":  "2026-11-02T19:45Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "11884",
+                                         "name":  "Red Star FC 93",
+                                         "homeAway":  "home",
+                                         "score":  "1"
+                                     },
+                                     {
+                                         "id":  "3267",
+                                         "name":  "AS Nancy Lorraine",
+                                         "homeAway":  "away",
+                                         "score":  "4"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "21\u0027",
+                                         "team_id":  "3267",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "30\u0027",
+                                         "team_id":  "11884",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "45\u0027+4\u0027",
+                                         "team_id":  "3267",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "61\u0027",
+                                         "team_id":  "3267",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "86\u0027",
+                                         "team_id":  "3267",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401876703"
+                   },
+                   {
+                       "id":  "401876702",
+                       "date":  "2026-11-02T19:45Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "3243",
+                                         "name":  "Stade de Reims",
+                                         "homeAway":  "home",
+                                         "score":  "2"
+                                     },
+                                     {
+                                         "id":  "272",
+                                         "name":  "Sochaux",
+                                         "homeAway":  "away",
+                                         "score":  "0"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "6\u0027",
+                                         "team_id":  "3243",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "11\u0027",
+                                         "team_id":  "3243",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401876702"
+                   }
+               ]
+}

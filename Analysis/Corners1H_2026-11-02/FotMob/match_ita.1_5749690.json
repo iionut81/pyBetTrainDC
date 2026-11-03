@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5749690",
+                    "league":  "ita.1",
+                    "date":  "2026-10-12T16:30:00Z",
+                    "home_id":  "8524",
+                    "home":  "Atalanta",
+                    "away_id":  "7881",
+                    "away":  "Venezia",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 1",
+                    "source":  "https://www.fotmob.com/matches/venezia-vs-atalanta/284hmb#5749690"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5749690",
+    "collected_at_utc":  "2026-11-02T10:27:25.1820299Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  7,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

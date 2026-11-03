@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5908581",
+                    "league":  "tur.2",
+                    "date":  "2026-08-09T18:30:00Z",
+                    "home_id":  "146408",
+                    "home":  "Van Spor Kulübü",
+                    "away_id":  "10182",
+                    "away":  "Kayserispor",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/kayserispor-vs-van-spor-kulubu/5mrjr35#5908581"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5908581",
+    "collected_at_utc":  "2026-11-02T10:28:19.7438812Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

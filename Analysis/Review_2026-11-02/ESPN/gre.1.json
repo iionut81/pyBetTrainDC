@@ -1,0 +1,81 @@
+﻿{
+    "ok":  true,
+    "league":  "gre.1",
+    "source":  "https://site.api.espn.com/apis/site/v2/sports/soccer/gre.1/scoreboard?dates=20261102\u0026limit=1000",
+    "fetched_at_utc":  "2026-11-03T07:58:29.9517456Z",
+    "events":  [
+                   {
+                       "id":  "401896739",
+                       "date":  "2026-11-02T16:00Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "6790",
+                                         "name":  "Atromitos",
+                                         "homeAway":  "home",
+                                         "score":  "3"
+                                     },
+                                     {
+                                         "id":  "20043",
+                                         "name":  "Volos NFC",
+                                         "homeAway":  "away",
+                                         "score":  "0"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "27\u0027",
+                                         "team_id":  "6790",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "67\u0027",
+                                         "team_id":  "6790",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "90\u0027",
+                                         "team_id":  "6790",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401896739"
+                   },
+                   {
+                       "id":  "401896813",
+                       "date":  "2026-11-02T17:30Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "132429",
+                                         "name":  "Kalamata",
+                                         "homeAway":  "home",
+                                         "score":  "1"
+                                     },
+                                     {
+                                         "id":  "2575",
+                                         "name":  "Iraklis",
+                                         "homeAway":  "away",
+                                         "score":  "1"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "54\u0027",
+                                         "team_id":  "132429",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "57\u0027",
+                                         "team_id":  "2575",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401896813"
+                   }
+               ]
+}

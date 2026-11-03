@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868451",
+                    "league":  "esp.2",
+                    "date":  "2026-09-19T19:00:00Z",
+                    "home_id":  "8385",
+                    "home":  "Cádiz",
+                    "away_id":  "7732",
+                    "away":  "Girona",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/girona-vs-cadiz/25c3ug#5868451"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868451",
+    "collected_at_utc":  "2026-11-02T10:28:13.7266911Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  4,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

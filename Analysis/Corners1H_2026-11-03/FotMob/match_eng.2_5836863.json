@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836863",
+                    "league":  "eng.2",
+                    "date":  "2026-10-13T18:45:00Z",
+                    "home_id":  "8427",
+                    "home":  "Bristol City",
+                    "away_id":  "8655",
+                    "away":  "Blackburn Rovers",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/bristol-city-vs-blackburn-rovers/2evge6#5836863"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836863",
+    "collected_at_utc":  "2026-11-03T09:08:33.0681070Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  6,
+                       "away":  4,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  10,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

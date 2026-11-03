@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5802921",
+                    "league":  "fra.1",
+                    "date":  "2026-09-05T15:15:00Z",
+                    "home_id":  "8588",
+                    "home":  "Lens",
+                    "away_id":  "8689",
+                    "away":  "Lorient",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/lens-vs-lorient/2gv9dg#5802921"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5802921",
+    "collected_at_utc":  "2026-11-02T10:27:15.4941550Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  0,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

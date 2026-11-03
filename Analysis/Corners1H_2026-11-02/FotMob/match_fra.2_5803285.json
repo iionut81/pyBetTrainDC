@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803285",
+                    "league":  "fra.2",
+                    "date":  "2026-10-17T12:00:00Z",
+                    "home_id":  "8550",
+                    "home":  "Metz",
+                    "away_id":  "9874",
+                    "away":  "Sochaux",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 2",
+                    "source":  "https://www.fotmob.com/matches/metz-vs-sochaux/2t24z2#5803285"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803285",
+    "collected_at_utc":  "2026-11-02T10:29:24.3671512Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

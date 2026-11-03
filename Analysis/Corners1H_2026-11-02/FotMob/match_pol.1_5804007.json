@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5804007",
+                    "league":  "pol.1",
+                    "date":  "2026-10-18T15:30:00Z",
+                    "home_id":  "2182",
+                    "home":  "Lech Poznań",
+                    "away_id":  "8245",
+                    "away":  "Korona Kielce",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "6 - 1",
+                    "source":  "https://www.fotmob.com/matches/lech-poznan-vs-korona-kielce/wdfq7#5804007"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5804007",
+    "collected_at_utc":  "2026-11-02T10:28:03.7861956Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  7,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

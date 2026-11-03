@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836806",
+                    "league":  "eng.2",
+                    "date":  "2026-09-05T14:00:00Z",
+                    "home_id":  "8462",
+                    "home":  "Portsmouth",
+                    "away_id":  "8344",
+                    "away":  "Cardiff City",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 0",
+                    "source":  "https://www.fotmob.com/matches/cardiff-city-vs-portsmouth/2c37oz#5836806"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836806",
+    "collected_at_utc":  "2026-11-03T09:08:00.5260720Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  6,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  7,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

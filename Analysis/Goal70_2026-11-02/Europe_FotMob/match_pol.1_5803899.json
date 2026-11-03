@@ -1,0 +1,107 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5803899",
+                    "date":  "2026-07-24T18:30:00Z",
+                    "home_id":  "8023",
+                    "home":  "Pogoń Szczecin",
+                    "away_id":  "8673",
+                    "away":  "Legia Warszawa",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "round":  "1",
+                    "source":  "https://www.fotmob.com/matches/pogon-szczecin-vs-legia-warszawa/2azq1p#5803899"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803899",
+    "general":  {
+                    "matchId":  "5803899",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "Pogoń Szczecin",
+                                     "id":  8023
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Legia Warszawa",
+                                     "id":  8673
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  8023,
+                             "name":  "Pogoń Szczecin",
+                             "score":  0
+                         },
+                         {
+                             "id":  8673,
+                             "name":  "Legia Warszawa",
+                             "score":  1
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-07-24T18:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "24.07.2026 20:33:56",
+                                        "firstHalfEnded":  "24.07.2026 21:22:46",
+                                        "secondHalfStarted":  "24.07.2026 21:40:38",
+                                        "secondHalfEnded":  "24.07.2026 22:33:38",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "24.07.2026 22:33:38"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "0 - 1",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "away",
+                      "time":  90,
+                      "added_time":  6,
+                      "time_str":  "90 + 6",
+                      "type":  "Goal",
+                      "event_id":  14245820,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Card",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  1
+                        }
+                    ]
+}

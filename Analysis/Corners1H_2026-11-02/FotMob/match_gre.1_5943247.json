@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5943247",
+                    "league":  "gre.1",
+                    "date":  "2026-09-12T18:00:00Z",
+                    "home_id":  "8675",
+                    "home":  "Iraklis",
+                    "away_id":  "10187",
+                    "away":  "Atromitos",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/iraklis-vs-atromitos/2xx4v0#5943247"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5943247",
+    "collected_at_utc":  "2026-11-02T10:27:36.0566103Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  1,
+                      "away":  0,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

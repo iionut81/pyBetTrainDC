@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803976",
+                    "league":  "pol.1",
+                    "date":  "2026-09-07T16:00:00Z",
+                    "home_id":  "1286895",
+                    "home":  "Wieczysta Kraków",
+                    "away_id":  "8021",
+                    "away":  "Zagłębie Lubin",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/zagebie-lubin-vs-wieczysta-krakow/ap5obj3z#5803976"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803976",
+    "collected_at_utc":  "2026-11-02T10:27:47.9775489Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  5,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  10,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

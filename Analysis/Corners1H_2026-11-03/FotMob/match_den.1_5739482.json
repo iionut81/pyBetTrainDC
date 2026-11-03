@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5739482",
+                    "league":  "den.1",
+                    "date":  "2026-08-16T14:00:00Z",
+                    "home_id":  "9907",
+                    "home":  "Lyngby",
+                    "away_id":  "8113",
+                    "away":  "FC Midtjylland",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/fc-midtjylland-vs-lyngby/2oocj1#5739482"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5739482",
+    "collected_at_utc":  "2026-11-03T09:07:29.0098355Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  4,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

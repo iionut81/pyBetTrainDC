@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107503",
+                    "league":  "swe.1",
+                    "date":  "2026-05-25T17:00:00Z",
+                    "home_id":  "9893",
+                    "home":  "IFK Göteborg",
+                    "away_id":  "8127",
+                    "away":  "Mjällby",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/mjallby-vs-ifk-goteborg/2oocin#5107503"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107503",
+    "collected_at_utc":  "2026-11-02T10:28:14.9264306Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

@@ -1,0 +1,89 @@
+﻿{
+    "as_of":  "2026-11-01",
+    "calibration_cutoff":  "2025-07-01",
+    "train_n":  3641,
+    "later_period_n":  922,
+    "fit_intercept":  1.6963276621684558,
+    "fit_slope":  0.18722589699140135,
+    "fit_converged":  true,
+    "fit_iterations":  6,
+    "top1_n":  413,
+    "top1_failures":  46,
+    "top1_failure_rate":  0.11138014527845036,
+    "failure_totals":  [
+                           {
+                               "total_1h":  8,
+                               "failures":  24,
+                               "share_of_failures":  0.52173913043478259
+                           },
+                           {
+                               "total_1h":  9,
+                               "failures":  16,
+                               "share_of_failures":  0.34782608695652173
+                           },
+                           {
+                               "total_1h":  10,
+                               "failures":  4,
+                               "share_of_failures":  0.086956521739130432
+                           },
+                           {
+                               "total_1h":  11,
+                               "failures":  1,
+                               "share_of_failures":  0.021739130434782608
+                           },
+                           {
+                               "total_1h":  16,
+                               "failures":  1,
+                               "share_of_failures":  0.021739130434782608
+                           }
+                       ],
+    "comparison":  [
+                       {
+                           "scope":  "later_period_all_eligible",
+                           "variant":  "raw_poisson",
+                           "n":  922,
+                           "hits":  825,
+                           "failure_rate":  0.10520607375271152,
+                           "hit_rate":  0.89479392624728848,
+                           "mean_probability":  0.88825725931986532,
+                           "brier":  0.0958690054043411,
+                           "log_loss":  0.34384091648453907
+                       },
+                       {
+                           "scope":  "later_period_all_eligible",
+                           "variant":  "platt_trained_on_earlier_period",
+                           "n":  922,
+                           "hits":  825,
+                           "failure_rate":  0.10520607375271152,
+                           "hit_rate":  0.89479392624728848,
+                           "mean_probability":  0.89170285491979751,
+                           "brier":  0.093869526888477467,
+                           "log_loss":  0.334908714841892
+                       },
+                       {
+                           "scope":  "later_period_same_top1_picks",
+                           "variant":  "raw_poisson",
+                           "n":  65,
+                           "hits":  56,
+                           "failure_rate":  0.13846153846153841,
+                           "hit_rate":  0.86153846153846159,
+                           "mean_probability":  0.93986381394108975,
+                           "brier":  0.12515649856427682,
+                           "log_loss":  0.44376416745933317
+                       },
+                       {
+                           "scope":  "later_period_same_top1_picks",
+                           "variant":  "platt_trained_on_earlier_period",
+                           "n":  65,
+                           "hits":  56,
+                           "failure_rate":  0.13846153846153841,
+                           "hit_rate":  0.86153846153846159,
+                           "mean_probability":  0.9049650926667353,
+                           "brier":  0.12017934488531147,
+                           "log_loss":  0.40606696828539907
+                       }
+                   ],
+    "historical_outcomes_unchanged":  true,
+    "production_calibration_changed":  false,
+    "warning":  "Exploratory chronological correction after inspecting the overall historical audit. Not a prospective untouched final validation; no claim of hit-rate or ranking improvement."
+}

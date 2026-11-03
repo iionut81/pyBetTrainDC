@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107600",
+                    "league":  "swe.1",
+                    "date":  "2026-09-12T15:30:00Z",
+                    "home_id":  "9893",
+                    "home":  "IFK Göteborg",
+                    "away_id":  "8310",
+                    "away":  "Halmstads BK",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "source":  "https://www.fotmob.com/matches/halmstads-bk-vs-ifk-goteborg/2qndzz#5107600"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107600",
+    "collected_at_utc":  "2026-11-03T09:08:18.6160594Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  4,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  9,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

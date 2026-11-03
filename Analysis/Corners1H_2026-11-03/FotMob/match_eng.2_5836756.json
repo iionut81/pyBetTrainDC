@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836756",
+                    "league":  "eng.2",
+                    "date":  "2026-08-15T14:00:00Z",
+                    "home_id":  "8427",
+                    "home":  "Bristol City",
+                    "away_id":  "10004",
+                    "away":  "Millwall",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/bristol-city-vs-millwall/2t4ve3#5836756"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836756",
+    "collected_at_utc":  "2026-11-03T09:07:28.9210844Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

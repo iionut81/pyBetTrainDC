@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5853482",
+                    "league":  "rou.1",
+                    "date":  "2026-08-30T13:00:00Z",
+                    "home_id":  "210132",
+                    "home":  "FCV Farul Constanța",
+                    "away_id":  "188191",
+                    "away":  "Botoșani",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 0",
+                    "source":  "https://www.fotmob.com/matches/botosani-vs-fcv-farul-constanta/10fzmzaa#5853482"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853482",
+    "collected_at_utc":  "2026-11-02T10:28:02.6721656Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

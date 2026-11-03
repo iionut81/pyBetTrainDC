@@ -1,0 +1,91 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5803967",
+                    "date":  "2026-08-29T18:15:00Z",
+                    "home_id":  "8021",
+                    "home":  "Zagłębie Lubin",
+                    "away_id":  "8023",
+                    "away":  "Pogoń Szczecin",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 0",
+                    "round":  "6",
+                    "source":  "https://www.fotmob.com/matches/zagebie-lubin-vs-pogon-szczecin/24mxrp#5803967"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803967",
+    "general":  {
+                    "matchId":  "5803967",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "Zagłębie Lubin",
+                                     "id":  8021
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Pogoń Szczecin",
+                                     "id":  8023
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  8021,
+                             "name":  "Zagłębie Lubin",
+                             "score":  0
+                         },
+                         {
+                             "id":  8023,
+                             "name":  "Pogoń Szczecin",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-08-29T18:15:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  1,
+                          "halfs":  {
+                                        "firstHalfStarted":  "29.08.2026 20:16:35",
+                                        "firstHalfEnded":  "29.08.2026 21:05:54",
+                                        "secondHalfStarted":  "29.08.2026 21:23:27",
+                                        "secondHalfEnded":  "29.08.2026 22:13:35",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "29.08.2026 22:13:35"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "0 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Card",
+                            "Count":  8
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  8
+                        }
+                    ]
+}

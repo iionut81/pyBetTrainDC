@@ -1,0 +1,42 @@
+﻿{
+    "ok":  true,
+    "league":  "den.1",
+    "source":  "https://site.api.espn.com/apis/site/v2/sports/soccer/den.1/scoreboard?dates=20261102\u0026limit=1000",
+    "fetched_at_utc":  "2026-11-03T07:58:32.0268096Z",
+    "events":  [
+                   {
+                       "id":  "401874494",
+                       "date":  "2026-11-02T18:00Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "8118",
+                                         "name":  "Sønderjyske Fodbold",
+                                         "homeAway":  "home",
+                                         "score":  "0"
+                                     },
+                                     {
+                                         "id":  "909",
+                                         "name":  "F.C. København",
+                                         "homeAway":  "away",
+                                         "score":  "2"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "20\u0027",
+                                         "team_id":  "909",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "40\u0027",
+                                         "team_id":  "909",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401874494"
+                   }
+               ]
+}

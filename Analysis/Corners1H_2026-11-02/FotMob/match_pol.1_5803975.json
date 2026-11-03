@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803975",
+                    "league":  "pol.1",
+                    "date":  "2026-09-05T12:45:00Z",
+                    "home_id":  "8024",
+                    "home":  "Widzew Łódź",
+                    "away_id":  "5769",
+                    "away":  "Radomiak Radom",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 0",
+                    "source":  "https://www.fotmob.com/matches/radomiak-radom-vs-widzew-odz/1kn57t#5803975"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803975",
+    "collected_at_utc":  "2026-11-02T10:27:45.2144797Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

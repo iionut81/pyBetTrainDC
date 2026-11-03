@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5749700",
+                    "league":  "ita.1",
+                    "date":  "2026-10-18T16:00:00Z",
+                    "home_id":  "8564",
+                    "home":  "Milan",
+                    "away_id":  "8524",
+                    "away":  "Atalanta",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 2",
+                    "source":  "https://www.fotmob.com/matches/atalanta-vs-milan/2exnf8#5749700"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5749700",
+    "collected_at_utc":  "2026-11-02T10:27:27.3939817Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

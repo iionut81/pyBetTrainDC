@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803985",
+                    "league":  "pol.1",
+                    "date":  "2026-09-12T18:15:00Z",
+                    "home_id":  "8021",
+                    "home":  "Zagłębie Lubin",
+                    "away_id":  "4023",
+                    "away":  "GKS Katowice",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "source":  "https://www.fotmob.com/matches/gks-katowice-vs-zagebie-lubin/176ujn#5803985"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803985",
+    "collected_at_utc":  "2026-11-02T10:27:50.5866050Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

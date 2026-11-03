@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836814",
+                    "league":  "eng.2",
+                    "date":  "2026-09-08T18:45:00Z",
+                    "home_id":  "8655",
+                    "home":  "Blackburn Rovers",
+                    "away_id":  "8657",
+                    "away":  "Sheffield United",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/blackburn-rovers-vs-sheffield-united/2h88f5#5836814"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836814",
+    "collected_at_utc":  "2026-11-03T09:08:04.6613089Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

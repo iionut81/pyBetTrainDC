@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107492",
+                    "league":  "swe.1",
+                    "date":  "2026-05-10T12:00:00Z",
+                    "home_id":  "9892",
+                    "home":  "Kalmar FF",
+                    "away_id":  "8310",
+                    "away":  "Halmstads BK",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 0",
+                    "source":  "https://www.fotmob.com/matches/halmstads-bk-vs-kalmar-ff/2qmzyb#5107492"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107492",
+    "collected_at_utc":  "2026-11-02T10:28:07.6119832Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  8,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  12,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868049",
+                    "league":  "esp.1",
+                    "date":  "2026-09-06T14:15:00Z",
+                    "home_id":  "10267",
+                    "home":  "Valencia",
+                    "away_id":  "8634",
+                    "away":  "Barcelona",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 5",
+                    "source":  "https://www.fotmob.com/matches/barcelona-vs-valencia/2ycx1d#5868049"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868049",
+    "collected_at_utc":  "2026-11-03T09:07:42.1480161Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  1,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

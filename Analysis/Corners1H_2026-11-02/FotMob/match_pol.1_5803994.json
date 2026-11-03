@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803994",
+                    "league":  "pol.1",
+                    "date":  "2026-09-20T12:45:00Z",
+                    "home_id":  "8021",
+                    "home":  "Zagłębie Lubin",
+                    "away_id":  "8243",
+                    "away":  "Wisła Płock",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/zagebie-lubin-vs-wisa-pock/26r47r#5803994"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803994",
+    "collected_at_utc":  "2026-11-02T10:27:56.3652902Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

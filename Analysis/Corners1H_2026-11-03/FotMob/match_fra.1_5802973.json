@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5802973",
+                    "league":  "fra.1",
+                    "date":  "2026-10-30T18:00:00Z",
+                    "home_id":  "9746",
+                    "home":  "Le Havre",
+                    "away_id":  "9847",
+                    "away":  "Paris Saint-Germain",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 5",
+                    "source":  "https://www.fotmob.com/matches/le-havre-vs-paris-saint-germain/36af6s#5802973"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5802973",
+    "collected_at_utc":  "2026-11-03T09:07:48.3649016Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

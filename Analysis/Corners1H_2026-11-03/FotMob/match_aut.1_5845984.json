@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5845984",
+                    "league":  "aut.1",
+                    "date":  "2026-09-13T15:00:00Z",
+                    "home_id":  "10014",
+                    "home":  "Sturm Graz",
+                    "away_id":  "9977",
+                    "away":  "LASK",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "source":  "https://www.fotmob.com/matches/lask-vs-sturm-graz/3az9jh#5845984"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5845984",
+    "collected_at_utc":  "2026-11-03T09:07:30.7517306Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

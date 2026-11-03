@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5881163",
+                    "league":  "ger.1",
+                    "date":  "2026-09-13T15:30:00Z",
+                    "home_id":  "8232",
+                    "home":  "Elversberg",
+                    "away_id":  "9823",
+                    "away":  "Bayern München",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/elversberg-vs-bayern-munchen/2p1vln#5881163"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5881163",
+    "collected_at_utc":  "2026-11-03T09:07:43.1626669Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  8,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  9,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

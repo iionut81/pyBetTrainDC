@@ -1,0 +1,171 @@
+﻿{
+    "fixture":  {
+                    "league":  "tur.2",
+                    "id":  "5908683",
+                    "date":  "2026-10-24T13:00:00Z",
+                    "home_id":  "178387",
+                    "home":  "Muğlaspor",
+                    "away_id":  "106560",
+                    "away":  "İstanbulspor",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "5 - 0",
+                    "round":  "12",
+                    "source":  "https://www.fotmob.com/matches/istanbulspor-vs-muglaspor/inetz4h#5908683"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5908683",
+    "general":  {
+                    "matchId":  "5908683",
+                    "parentLeagueId":  165,
+                    "leagueName":  "Turkish 1. Lig",
+                    "homeTeam":  {
+                                     "name":  "Muğlaspor",
+                                     "id":  178387
+                                 },
+                    "awayTeam":  {
+                                     "name":  "İstanbulspor",
+                                     "id":  106560
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  178387,
+                             "name":  "Muğlaspor",
+                             "score":  5
+                         },
+                         {
+                             "id":  106560,
+                             "name":  "İstanbulspor",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-10-24T13:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "24.10.2026 14:59:53",
+                                        "firstHalfEnded":  "24.10.2026 15:49:59",
+                                        "secondHalfStarted":  "24.10.2026 16:05:06",
+                                        "secondHalfEnded":  "24.10.2026 16:54:22",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "24.10.2026 16:54:22"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "5 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  8,
+                      "added_time":  null,
+                      "time_str":  8,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  45,
+                      "added_time":  1,
+                      "time_str":  "45 + 1",
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  1,
+                      "away_score":  0,
+                      "goal_description":  "Penalty",
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  45,
+                      "added_time":  3,
+                      "time_str":  "45 + 3",
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  2,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  59,
+                      "added_time":  null,
+                      "time_str":  59,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  4,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  48,
+                      "added_time":  null,
+                      "time_str":  48,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  3,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Card",
+                            "Count":  3
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  5
+                        },
+                        {
+                            "Name":  "VAR",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "Comment",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "AddedTime",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        }
+                    ]
+}

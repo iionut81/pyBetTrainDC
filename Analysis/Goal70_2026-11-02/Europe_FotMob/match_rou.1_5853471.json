@@ -1,0 +1,133 @@
+﻿{
+    "fixture":  {
+                    "league":  "rou.1",
+                    "id":  "5853471",
+                    "date":  "2026-08-17T15:30:00Z",
+                    "home_id":  "89022",
+                    "home":  "Universitatea Cluj",
+                    "away_id":  "584663",
+                    "away":  "UTA Arad",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "round":  "5",
+                    "source":  "https://www.fotmob.com/matches/universitatea-cluj-vs-uta-arad/2w8xz9wl#5853471"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853471",
+    "general":  {
+                    "matchId":  "5853471",
+                    "parentLeagueId":  189,
+                    "leagueName":  "Superliga",
+                    "homeTeam":  {
+                                     "name":  "Universitatea Cluj",
+                                     "id":  89022
+                                 },
+                    "awayTeam":  {
+                                     "name":  "UTA Arad",
+                                     "id":  584663
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  89022,
+                             "name":  "Universitatea Cluj",
+                             "score":  2
+                         },
+                         {
+                             "id":  584663,
+                             "name":  "UTA Arad",
+                             "score":  1
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-08-17T15:30:00.000Z",
+                          "numberOfHomeRedCards":  1,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "17.08.2026 17:36:20",
+                                        "firstHalfEnded":  "17.08.2026 18:25:32",
+                                        "secondHalfStarted":  "17.08.2026 18:44:45",
+                                        "secondHalfEnded":  "17.08.2026 19:31:17",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "17.08.2026 19:31:17"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "2 - 1",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  45,
+                      "added_time":  1,
+                      "time_str":  "45 + 1",
+                      "type":  "Goal",
+                      "event_id":  14319762,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  74,
+                      "added_time":  null,
+                      "time_str":  74,
+                      "type":  "Goal",
+                      "event_id":  14319865,
+                      "home_score":  1,
+                      "away_score":  0,
+                      "goal_description":  "Penalty",
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  85,
+                      "added_time":  null,
+                      "time_str":  85,
+                      "type":  "Goal",
+                      "event_id":  14319898,
+                      "home_score":  2,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Substitution",
+                            "Count":  6
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  4
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  3
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        }
+                    ]
+}

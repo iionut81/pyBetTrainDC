@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868012",
+                    "league":  "esp.1",
+                    "date":  "2026-08-19T19:05:00Z",
+                    "home_id":  "9906",
+                    "home":  "Atlético Madrid",
+                    "away_id":  "9864",
+                    "away":  "Málaga",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 0",
+                    "source":  "https://www.fotmob.com/matches/malaga-vs-atletico-madrid/38d3a9#5868012"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868012",
+    "collected_at_utc":  "2026-11-03T09:07:36.8830137Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  1,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5804010",
+                    "league":  "pol.1",
+                    "date":  "2026-10-16T16:00:00Z",
+                    "home_id":  "1286895",
+                    "home":  "Wieczysta Kraków",
+                    "away_id":  "4024",
+                    "away":  "Raków Częstochowa",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/rakow-czestochowa-vs-wieczysta-krakow/ams7jp8k#5804010"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5804010",
+    "collected_at_utc":  "2026-11-02T10:28:01.0968809Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

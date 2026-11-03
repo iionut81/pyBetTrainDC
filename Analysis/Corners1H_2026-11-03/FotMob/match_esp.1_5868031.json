@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868031",
+                    "league":  "esp.1",
+                    "date":  "2026-08-28T19:30:00Z",
+                    "home_id":  "9866",
+                    "home":  "Deportivo Alavés",
+                    "away_id":  "10205",
+                    "away":  "Villarreal",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "source":  "https://www.fotmob.com/matches/deportivo-alaves-vs-villarreal/3bxlyu#5868031"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868031",
+    "collected_at_utc":  "2026-11-03T09:07:39.7859159Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  4,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  9,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

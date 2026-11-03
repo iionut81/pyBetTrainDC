@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "1000015147",
+                    "league":  "srb.1",
+                    "date":  "2026-10-12T18:00:00Z",
+                    "home_id":  "1739",
+                    "home":  "Mladost Lučani",
+                    "away_id":  "8692",
+                    "away":  "OFK Beograd",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 0",
+                    "source":  "https://www.fotmob.com/matches/mladost-lucani-vs-ofk-beograd/wec9g#1000015147"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015147",
+    "collected_at_utc":  "2026-11-02T10:28:30.8071797Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  4,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  2,
+                      "away":  7,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

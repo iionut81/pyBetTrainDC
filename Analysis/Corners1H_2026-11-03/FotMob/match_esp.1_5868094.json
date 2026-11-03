@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868094",
+                    "league":  "esp.1",
+                    "date":  "2026-10-17T12:00:00Z",
+                    "home_id":  "8558",
+                    "home":  "Espanyol",
+                    "away_id":  "9906",
+                    "away":  "Atlético Madrid",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/espanyol-vs-atletico-madrid/2thy9u#5868094"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868094",
+    "collected_at_utc":  "2026-11-03T09:07:50.0957863Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  7,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  12,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

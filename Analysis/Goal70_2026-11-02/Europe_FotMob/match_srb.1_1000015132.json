@@ -1,0 +1,163 @@
+﻿{
+    "fixture":  {
+                    "league":  "srb.1",
+                    "id":  "1000015132",
+                    "date":  "2026-09-12T18:30:00Z",
+                    "home_id":  "1675",
+                    "home":  "FK Radnički 1923",
+                    "away_id":  "1739",
+                    "away":  "Mladost Lučani",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "5 - 0",
+                    "round":  "9",
+                    "source":  "https://www.fotmob.com/matches/fk-radnicki-1923-vs-mladost-lucani/3gzc8#1000015132"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015132",
+    "general":  {
+                    "matchId":  "1000015132",
+                    "parentLeagueId":  182,
+                    "leagueName":  "Serbian Super Liga",
+                    "homeTeam":  {
+                                     "name":  "FK Radnički 1923",
+                                     "id":  1675
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Mladost Lučani",
+                                     "id":  1739
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  1675,
+                             "name":  "FK Radnički 1923",
+                             "score":  5
+                         },
+                         {
+                             "id":  1739,
+                             "name":  "Mladost Lučani",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-09-12T18:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "12.09.2026 20:31:45",
+                                        "firstHalfEnded":  "12.09.2026 21:19:46",
+                                        "secondHalfStarted":  "12.09.2026 21:36:37",
+                                        "secondHalfEnded":  "12.09.2026 22:22:08",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "12.09.2026 22:22:08"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "5 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  6,
+                      "added_time":  null,
+                      "time_str":  6,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  10,
+                      "added_time":  null,
+                      "time_str":  10,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  1,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  45,
+                      "added_time":  2,
+                      "time_str":  "45 + 2",
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  2,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  65,
+                      "added_time":  null,
+                      "time_str":  65,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  3,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  84,
+                      "added_time":  null,
+                      "time_str":  84,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  4,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  5
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  6
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        },
+                        {
+                            "Name":  "AddedTime",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        }
+                    ]
+}

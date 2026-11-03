@@ -1,0 +1,107 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5804012",
+                    "date":  "2026-10-18T12:45:00Z",
+                    "home_id":  "8021",
+                    "home":  "Zagłębie Lubin",
+                    "away_id":  "1957",
+                    "away":  "Jagiellonia Białystok",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "round":  "11",
+                    "source":  "https://www.fotmob.com/matches/jagiellonia-biaystok-vs-zagebie-lubin/tn8pw#5804012"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5804012",
+    "general":  {
+                    "matchId":  "5804012",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "Zagłębie Lubin",
+                                     "id":  8021
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Jagiellonia Białystok",
+                                     "id":  1957
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  8021,
+                             "name":  "Zagłębie Lubin",
+                             "score":  1
+                         },
+                         {
+                             "id":  1957,
+                             "name":  "Jagiellonia Białystok",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-10-18T12:45:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "18.10.2026 14:46:28",
+                                        "firstHalfEnded":  "18.10.2026 15:32:42",
+                                        "secondHalfStarted":  "18.10.2026 15:50:37",
+                                        "secondHalfEnded":  "18.10.2026 16:42:47",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "18.10.2026 16:42:47"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "1 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  77,
+                      "added_time":  null,
+                      "time_str":  77,
+                      "type":  "Goal",
+                      "event_id":  14599792,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  "Penalty",
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Card",
+                            "Count":  3
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  1
+                        }
+                    ]
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "1000015124",
+                    "league":  "srb.1",
+                    "date":  "2026-09-05T16:00:00Z",
+                    "home_id":  "463461",
+                    "home":  "FK Radnik Surdulica",
+                    "away_id":  "6374",
+                    "away":  "Čukarički",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 1",
+                    "source":  "https://www.fotmob.com/matches/cukaricki-vs-fk-radnik-surdulica/1epd245k#1000015124"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=1000015124",
+    "collected_at_utc":  "2026-11-02T10:28:22.4166868Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

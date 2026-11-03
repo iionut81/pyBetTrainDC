@@ -1,0 +1,150 @@
+﻿{
+    "fixture":  {
+                    "league":  "rou.1",
+                    "id":  "5853478",
+                    "date":  "2026-08-23T15:30:00Z",
+                    "home_id":  "480286",
+                    "home":  "Universitatea Craiova",
+                    "away_id":  "405332",
+                    "away":  "FC Voluntari",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 1",
+                    "round":  "6",
+                    "source":  "https://www.fotmob.com/matches/fc-voluntari-vs-universitatea-craiova/505m9ge1#5853478"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853478",
+    "general":  {
+                    "matchId":  "5853478",
+                    "parentLeagueId":  189,
+                    "leagueName":  "Superliga",
+                    "homeTeam":  {
+                                     "name":  "Universitatea Craiova",
+                                     "id":  480286
+                                 },
+                    "awayTeam":  {
+                                     "name":  "FC Voluntari",
+                                     "id":  405332
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  480286,
+                             "name":  "Universitatea Craiova",
+                             "score":  3
+                         },
+                         {
+                             "id":  405332,
+                             "name":  "FC Voluntari",
+                             "score":  1
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-08-23T15:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "23.08.2026 17:31:46",
+                                        "firstHalfEnded":  "23.08.2026 18:20:38",
+                                        "secondHalfStarted":  "23.08.2026 18:36:22",
+                                        "secondHalfEnded":  "23.08.2026 19:25:35",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "23.08.2026 19:25:35"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "3 - 1",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  45,
+                      "added_time":  3,
+                      "time_str":  "45 + 3",
+                      "type":  "Goal",
+                      "event_id":  14340214,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  "Penalty",
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  57,
+                      "added_time":  null,
+                      "time_str":  57,
+                      "type":  "Goal",
+                      "event_id":  14340410,
+                      "home_score":  1,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  78,
+                      "added_time":  null,
+                      "time_str":  78,
+                      "type":  "Goal",
+                      "event_id":  14340578,
+                      "home_score":  2,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  90,
+                      "added_time":  3,
+                      "time_str":  "90 + 3",
+                      "type":  "Goal",
+                      "event_id":  14340725,
+                      "home_score":  3,
+                      "away_score":  0,
+                      "goal_description":  "Penalty",
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  4
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  4
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "MissedPenalty",
+                            "Count":  1
+                        }
+                    ]
+}

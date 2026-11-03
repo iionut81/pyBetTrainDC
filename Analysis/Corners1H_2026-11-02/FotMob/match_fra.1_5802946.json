@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5802946",
+                    "league":  "fra.1",
+                    "date":  "2026-10-10T18:45:00Z",
+                    "home_id":  "8521",
+                    "home":  "Brest",
+                    "away_id":  "8121",
+                    "away":  "Angers",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "5 - 1",
+                    "source":  "https://www.fotmob.com/matches/angers-vs-brest/2agfd8#5802946"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5802946",
+    "collected_at_utc":  "2026-11-02T10:27:19.8818719Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  4,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

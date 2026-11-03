@@ -1,0 +1,172 @@
+﻿{
+    "fixture":  {
+                    "league":  "rou.1",
+                    "id":  "5853498",
+                    "date":  "2026-09-11T15:00:00Z",
+                    "home_id":  "210132",
+                    "home":  "FCV Farul Constanța",
+                    "away_id":  "584663",
+                    "away":  "UTA Arad",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "4 - 2",
+                    "round":  "9",
+                    "source":  "https://www.fotmob.com/matches/fcv-farul-constanta-vs-uta-arad/413l8z7t#5853498"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853498",
+    "general":  {
+                    "matchId":  "5853498",
+                    "parentLeagueId":  189,
+                    "leagueName":  "Superliga",
+                    "homeTeam":  {
+                                     "name":  "FCV Farul Constanța",
+                                     "id":  210132
+                                 },
+                    "awayTeam":  {
+                                     "name":  "UTA Arad",
+                                     "id":  584663
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  210132,
+                             "name":  "FCV Farul Constanța",
+                             "score":  4
+                         },
+                         {
+                             "id":  584663,
+                             "name":  "UTA Arad",
+                             "score":  2
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-09-11T15:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "11.09.2026 17:05:25",
+                                        "firstHalfEnded":  "11.09.2026 17:59:25",
+                                        "secondHalfStarted":  "11.09.2026 18:10:17",
+                                        "secondHalfEnded":  "11.09.2026 18:58:30",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "11.09.2026 18:58:30"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "4 - 2",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  3,
+                      "added_time":  null,
+                      "time_str":  3,
+                      "type":  "Goal",
+                      "event_id":  14414686,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  20,
+                      "added_time":  null,
+                      "time_str":  20,
+                      "type":  "Goal",
+                      "event_id":  14414706,
+                      "home_score":  1,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  57,
+                      "added_time":  null,
+                      "time_str":  57,
+                      "type":  "Goal",
+                      "event_id":  14414820,
+                      "home_score":  3,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  44,
+                      "added_time":  null,
+                      "time_str":  44,
+                      "type":  "Goal",
+                      "event_id":  14414736,
+                      "home_score":  2,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  37,
+                      "added_time":  null,
+                      "time_str":  37,
+                      "type":  "Goal",
+                      "event_id":  14414731,
+                      "home_score":  2,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  87,
+                      "added_time":  null,
+                      "time_str":  87,
+                      "type":  "Goal",
+                      "event_id":  14414955,
+                      "home_score":  4,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  6
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        }
+                    ]
+}

@@ -1,0 +1,107 @@
+﻿{
+    "fixture":  {
+                    "league":  "rou.1",
+                    "id":  "5853517",
+                    "date":  "2026-10-10T18:30:00Z",
+                    "home_id":  "9723",
+                    "home":  "FCSB",
+                    "away_id":  "9736",
+                    "away":  "Oțelul Galați",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 0",
+                    "round":  "11",
+                    "source":  "https://www.fotmob.com/matches/fcsb-vs-otelul-galati/34qc5q#5853517"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853517",
+    "general":  {
+                    "matchId":  "5853517",
+                    "parentLeagueId":  189,
+                    "leagueName":  "Superliga",
+                    "homeTeam":  {
+                                     "name":  "FCSB",
+                                     "id":  9723
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Oțelul Galați",
+                                     "id":  9736
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  9723,
+                             "name":  "FCSB",
+                             "score":  1
+                         },
+                         {
+                             "id":  9736,
+                             "name":  "Oțelul Galați",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-10-10T18:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  1,
+                          "halfs":  {
+                                        "firstHalfStarted":  "10.10.2026 20:36:09",
+                                        "firstHalfEnded":  "10.10.2026 21:23:50",
+                                        "secondHalfStarted":  "10.10.2026 21:41:11",
+                                        "secondHalfEnded":  "10.10.2026 22:29:43",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "10.10.2026 22:29:43"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "1 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  65,
+                      "added_time":  null,
+                      "time_str":  65,
+                      "type":  "Goal",
+                      "event_id":  14551090,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Card",
+                            "Count":  6
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  1
+                        }
+                    ]
+}

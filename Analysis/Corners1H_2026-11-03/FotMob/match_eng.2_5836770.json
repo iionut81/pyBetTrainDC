@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836770",
+                    "league":  "eng.2",
+                    "date":  "2026-08-22T11:30:00Z",
+                    "home_id":  "10004",
+                    "home":  "Millwall",
+                    "away_id":  "9850",
+                    "away":  "Norwich City",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 0",
+                    "source":  "https://www.fotmob.com/matches/norwich-city-vs-millwall/39crdv#5836770"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836770",
+    "collected_at_utc":  "2026-11-03T09:07:35.6855564Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

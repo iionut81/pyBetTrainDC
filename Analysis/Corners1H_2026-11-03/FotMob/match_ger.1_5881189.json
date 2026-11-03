@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5881189",
+                    "league":  "ger.1",
+                    "date":  "2026-10-17T16:30:00Z",
+                    "home_id":  "9823",
+                    "home":  "Bayern München",
+                    "away_id":  "178475",
+                    "away":  "RB Leipzig",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "6 - 1",
+                    "source":  "https://www.fotmob.com/matches/bayern-munchen-vs-rb-leipzig/856w9cm#5881189"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5881189",
+    "collected_at_utc":  "2026-11-03T09:07:47.2386464Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  6,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  11,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

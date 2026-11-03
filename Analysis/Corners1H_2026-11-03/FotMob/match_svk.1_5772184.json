@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5772184",
+                    "league":  "svk.1",
+                    "date":  "2026-09-13T17:00:00Z",
+                    "home_id":  "6019",
+                    "home":  "Slovan Bratislava",
+                    "away_id":  "6022",
+                    "away":  "Žilina",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 3",
+                    "source":  "https://www.fotmob.com/matches/slovan-bratislava-vs-zilina/17614j#5772184"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5772184",
+    "collected_at_utc":  "2026-11-03T09:09:18.4385838Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

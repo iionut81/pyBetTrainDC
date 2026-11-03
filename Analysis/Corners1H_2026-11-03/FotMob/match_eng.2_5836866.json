@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836866",
+                    "league":  "eng.2",
+                    "date":  "2026-10-13T18:45:00Z",
+                    "home_id":  "10004",
+                    "home":  "Millwall",
+                    "away_id":  "10003",
+                    "away":  "Swansea City",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/swansea-city-vs-millwall/3b64gw#5836866"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836866",
+    "collected_at_utc":  "2026-11-03T09:08:34.9734485Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  7,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  6,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  13,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

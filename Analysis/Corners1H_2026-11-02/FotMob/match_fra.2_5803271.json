@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803271",
+                    "league":  "fra.2",
+                    "date":  "2026-09-18T18:00:00Z",
+                    "home_id":  "4120",
+                    "home":  "Rodez",
+                    "away_id":  "8481",
+                    "away":  "Nancy",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 4",
+                    "source":  "https://www.fotmob.com/matches/rodez-vs-nancy/1b9z4m#5803271"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803271",
+    "collected_at_utc":  "2026-11-02T10:29:18.4334167Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868489",
+                    "league":  "esp.2",
+                    "date":  "2026-10-12T16:30:00Z",
+                    "home_id":  "8670",
+                    "home":  "Real Oviedo",
+                    "away_id":  "8372",
+                    "away":  "Eibar",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 1",
+                    "source":  "https://www.fotmob.com/matches/eibar-vs-real-oviedo/2egts9#5868489"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868489",
+    "collected_at_utc":  "2026-11-02T10:28:30.6931738Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  4,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  6,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  10,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

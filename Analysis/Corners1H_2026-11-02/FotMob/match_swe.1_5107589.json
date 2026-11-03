@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107589",
+                    "league":  "swe.1",
+                    "date":  "2026-09-05T13:00:00Z",
+                    "home_id":  "8297",
+                    "home":  "GAIS",
+                    "away_id":  "8428",
+                    "away":  "Häcken",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 0",
+                    "source":  "https://www.fotmob.com/matches/gais-vs-hacken/2ba3sj#5107589"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107589",
+    "collected_at_utc":  "2026-11-02T10:28:39.5756164Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

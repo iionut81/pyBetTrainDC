@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107466",
+                    "league":  "swe.1",
+                    "date":  "2026-04-23T17:00:00Z",
+                    "home_id":  "6544",
+                    "home":  "Degerfors",
+                    "away_id":  "8349",
+                    "away":  "AIK",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "source":  "https://www.fotmob.com/matches/degerfors-vs-aik/1u1bqg#5107466"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107466",
+    "collected_at_utc":  "2026-11-02T10:27:58.1909295Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  4,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  7,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

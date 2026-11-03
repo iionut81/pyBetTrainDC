@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868464",
+                    "league":  "esp.2",
+                    "date":  "2026-09-26T14:15:00Z",
+                    "home_id":  "7878",
+                    "home":  "Granada",
+                    "away_id":  "494050",
+                    "away":  "FC Andorra",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 3",
+                    "source":  "https://www.fotmob.com/matches/granada-vs-fc-andorra/1lv8z29m#5868464"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868464",
+    "collected_at_utc":  "2026-11-02T10:28:17.7202623Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  9,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  14,
+                      "away":  4,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

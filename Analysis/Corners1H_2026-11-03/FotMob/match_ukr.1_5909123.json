@@ -1,0 +1,31 @@
+﻿{
+    "fixture":  {
+                    "id":  "5909123",
+                    "league":  "ukr.1",
+                    "date":  "2026-08-09T12:30:00Z",
+                    "home_id":  "1395678",
+                    "home":  "Epitsentr Kamianets-Podilskyi",
+                    "away_id":  "9728",
+                    "away":  "Shakhtar Donetsk",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/shakhtar-donetsk-vs-epitsentr-kamianets-podilskyi/clotun1t#5909123"
+                },
+    "ok":  false,
+    "error":  "first_half_corners_missing",
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5909123",
+    "collected_at_utc":  "2026-11-03T09:07:57.7562890Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  null,
+    "second_half":  null,
+    "full_time":  {
+                      "home":  3,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  false
+}

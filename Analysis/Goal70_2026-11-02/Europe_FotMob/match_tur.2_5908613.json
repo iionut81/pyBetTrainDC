@@ -1,0 +1,128 @@
+﻿{
+    "fixture":  {
+                    "league":  "tur.2",
+                    "id":  "5908613",
+                    "date":  "2026-08-28T18:30:00Z",
+                    "home_id":  "178387",
+                    "home":  "Muğlaspor",
+                    "away_id":  "4675",
+                    "away":  "Boluspor",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 0",
+                    "round":  "4",
+                    "source":  "https://www.fotmob.com/matches/boluspor-vs-muglaspor/7p4218g#5908613"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5908613",
+    "general":  {
+                    "matchId":  "5908613",
+                    "parentLeagueId":  165,
+                    "leagueName":  "Turkish 1. Lig",
+                    "homeTeam":  {
+                                     "name":  "Muğlaspor",
+                                     "id":  178387
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Boluspor",
+                                     "id":  4675
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  178387,
+                             "name":  "Muğlaspor",
+                             "score":  2
+                         },
+                         {
+                             "id":  4675,
+                             "name":  "Boluspor",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-08-28T18:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  1,
+                          "halfs":  {
+                                        "firstHalfStarted":  "28.08.2026 20:30:32",
+                                        "firstHalfEnded":  "28.08.2026 21:18:36",
+                                        "secondHalfStarted":  "28.08.2026 21:34:39",
+                                        "secondHalfEnded":  "28.08.2026 22:22:51",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "28.08.2026 22:22:51"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "2 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  6,
+                      "added_time":  null,
+                      "time_str":  6,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  46,
+                      "added_time":  null,
+                      "time_str":  46,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  1,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Comment",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  5
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        },
+                        {
+                            "Name":  "AddedTime",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        }
+                    ]
+}

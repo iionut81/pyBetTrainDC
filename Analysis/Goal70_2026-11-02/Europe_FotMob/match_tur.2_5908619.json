@@ -1,0 +1,141 @@
+﻿{
+    "fixture":  {
+                    "league":  "tur.2",
+                    "id":  "5908619",
+                    "date":  "2026-09-07T14:00:00Z",
+                    "home_id":  "863838",
+                    "home":  "Esenler Erokspor",
+                    "away_id":  "10182",
+                    "away":  "Kayserispor",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 3",
+                    "round":  "6",
+                    "source":  "https://www.fotmob.com/matches/kayserispor-vs-esenler-erokspor/4vgv7ego#5908619"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5908619",
+    "general":  {
+                    "matchId":  "5908619",
+                    "parentLeagueId":  165,
+                    "leagueName":  "Turkish 1. Lig",
+                    "homeTeam":  {
+                                     "name":  "Esenler Erokspor",
+                                     "id":  863838
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Kayserispor",
+                                     "id":  10182
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  863838,
+                             "name":  "Esenler Erokspor",
+                             "score":  0
+                         },
+                         {
+                             "id":  10182,
+                             "name":  "Kayserispor",
+                             "score":  3
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-09-07T14:00:00.000Z",
+                          "numberOfHomeRedCards":  1,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "07.09.2026 16:02:05",
+                                        "firstHalfEnded":  "07.09.2026 16:48:08",
+                                        "secondHalfStarted":  "07.09.2026 17:04:56",
+                                        "secondHalfEnded":  "07.09.2026 17:53:22",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "07.09.2026 17:53:22"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "0 - 3",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "away",
+                      "time":  17,
+                      "added_time":  null,
+                      "time_str":  17,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  33,
+                      "added_time":  null,
+                      "time_str":  33,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  68,
+                      "added_time":  null,
+                      "time_str":  68,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  2,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Card",
+                            "Count":  8
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  3
+                        },
+                        {
+                            "Name":  "AddedTime",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        },
+                        {
+                            "Name":  "Comment",
+                            "Count":  1
+                        }
+                    ]
+}

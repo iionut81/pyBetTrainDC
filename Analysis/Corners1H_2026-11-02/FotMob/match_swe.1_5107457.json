@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107457",
+                    "league":  "swe.1",
+                    "date":  "2026-04-18T13:00:00Z",
+                    "home_id":  "8127",
+                    "home":  "Mjällby",
+                    "away_id":  "8501",
+                    "away":  "Brommapojkarna",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 0",
+                    "source":  "https://www.fotmob.com/matches/mjallby-vs-brommapojkarna/2abfnb#5107457"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107457",
+    "collected_at_utc":  "2026-11-02T10:27:56.1319239Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  1,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

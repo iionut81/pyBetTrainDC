@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107447",
+                    "league":  "swe.1",
+                    "date":  "2026-04-11T13:00:00Z",
+                    "home_id":  "8127",
+                    "home":  "Mjällby",
+                    "away_id":  "10002",
+                    "away":  "Örgryte",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/mjallby-vs-orgryte/2pujco#5107447"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107447",
+    "collected_at_utc":  "2026-11-02T10:27:53.3142629Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  8,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  12,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

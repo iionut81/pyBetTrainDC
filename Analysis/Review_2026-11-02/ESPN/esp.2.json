@@ -1,0 +1,199 @@
+﻿{
+    "ok":  true,
+    "league":  "esp.2",
+    "source":  "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20261102\u0026limit=1000",
+    "fetched_at_utc":  "2026-11-03T07:58:31.6016400Z",
+    "events":  [
+                   {
+                       "id":  "401883144",
+                       "date":  "2026-11-02T13:00Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "245",
+                                         "name":  "Tenerife",
+                                         "homeAway":  "home",
+                                         "score":  "2"
+                                     },
+                                     {
+                                         "id":  "20179",
+                                         "name":  "FC Andorra",
+                                         "homeAway":  "away",
+                                         "score":  "2"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "3\u0027",
+                                         "team_id":  "245",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "39\u0027",
+                                         "team_id":  "245",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "83\u0027",
+                                         "team_id":  "20179",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "88\u0027",
+                                         "team_id":  "20179",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401883144"
+                   },
+                   {
+                       "id":  "401883146",
+                       "date":  "2026-11-02T15:15Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "92",
+                                         "name":  "Real Oviedo",
+                                         "homeAway":  "home",
+                                         "score":  "2"
+                                     },
+                                     {
+                                         "id":  "98",
+                                         "name":  "Las Palmas",
+                                         "homeAway":  "away",
+                                         "score":  "3"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "21\u0027",
+                                         "team_id":  "98",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "26\u0027",
+                                         "team_id":  "98",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "54\u0027",
+                                         "team_id":  "98",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "62\u0027",
+                                         "team_id":  "92",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "80\u0027",
+                                         "team_id":  "92",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401883146"
+                   },
+                   {
+                       "id":  "401883123",
+                       "date":  "2026-11-02T17:30Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "95",
+                                         "name":  "Real Valladolid",
+                                         "homeAway":  "home",
+                                         "score":  "4"
+                                     },
+                                     {
+                                         "id":  "17534",
+                                         "name":  "Leganés",
+                                         "homeAway":  "away",
+                                         "score":  "3"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "6\u0027",
+                                         "team_id":  "95",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "21\u0027",
+                                         "team_id":  "17534",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "24\u0027",
+                                         "team_id":  "95",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "30\u0027",
+                                         "team_id":  "95",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "54\u0027",
+                                         "team_id":  "95",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "68\u0027",
+                                         "team_id":  "17534",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "90\u0027+1\u0027",
+                                         "team_id":  "17534",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401883123"
+                   },
+                   {
+                       "id":  "401883147",
+                       "date":  "2026-11-02T20:00Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "84",
+                                         "name":  "Mallorca",
+                                         "homeAway":  "home",
+                                         "score":  "2"
+                                     },
+                                     {
+                                         "id":  "3842",
+                                         "name":  "Cádiz",
+                                         "homeAway":  "away",
+                                         "score":  "1"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "50\u0027",
+                                         "team_id":  "3842",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "63\u0027",
+                                         "team_id":  "84",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "89\u0027",
+                                         "team_id":  "84",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401883147"
+                   }
+               ]
+}

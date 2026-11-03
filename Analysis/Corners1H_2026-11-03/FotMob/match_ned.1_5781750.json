@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5781750",
+                    "league":  "ned.1",
+                    "date":  "2026-09-20T10:15:00Z",
+                    "home_id":  "10235",
+                    "home":  "Feyenoord",
+                    "away_id":  "9908",
+                    "away":  "FC Utrecht",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "5 - 0",
+                    "source":  "https://www.fotmob.com/matches/fc-utrecht-vs-feyenoord/3csn30#5781750"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5781750",
+    "collected_at_utc":  "2026-11-03T09:07:59.4278633Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  5,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

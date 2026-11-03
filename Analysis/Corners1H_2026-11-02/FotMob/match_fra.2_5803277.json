@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5803277",
+                    "league":  "fra.2",
+                    "date":  "2026-10-10T12:00:00Z",
+                    "home_id":  "9830",
+                    "home":  "Nantes",
+                    "away_id":  "9837",
+                    "away":  "Reims",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 0",
+                    "source":  "https://www.fotmob.com/matches/nantes-vs-reims/375k23#5803277"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803277",
+    "collected_at_utc":  "2026-11-02T10:29:22.1311899Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  6,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

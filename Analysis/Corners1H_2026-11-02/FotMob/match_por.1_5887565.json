@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5887565",
+                    "league":  "por.1",
+                    "date":  "2026-08-09T19:30:00Z",
+                    "home_id":  "9772",
+                    "home":  "Benfica",
+                    "away_id":  "1786",
+                    "away":  "Académico Viseu",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "source":  "https://www.fotmob.com/matches/academico-viseu-vs-benfica/13ryc1#5887565"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5887565",
+    "collected_at_utc":  "2026-11-02T10:27:05.4122534Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  6,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  4,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  10,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

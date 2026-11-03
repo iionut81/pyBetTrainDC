@@ -1,0 +1,158 @@
+﻿{
+    "fixture":  {
+                    "league":  "tur.2",
+                    "id":  "5908623",
+                    "date":  "2026-09-06T17:00:00Z",
+                    "home_id":  "178387",
+                    "home":  "Muğlaspor",
+                    "away_id":  "146408",
+                    "away":  "Van Spor Kulübü",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "round":  "6",
+                    "source":  "https://www.fotmob.com/matches/van-spor-kulubu-vs-muglaspor/o8bqwsd#5908623"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5908623",
+    "general":  {
+                    "matchId":  "5908623",
+                    "parentLeagueId":  165,
+                    "leagueName":  "Turkish 1. Lig",
+                    "homeTeam":  {
+                                     "name":  "Muğlaspor",
+                                     "id":  178387
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Van Spor Kulübü",
+                                     "id":  146408
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  178387,
+                             "name":  "Muğlaspor",
+                             "score":  2
+                         },
+                         {
+                             "id":  146408,
+                             "name":  "Van Spor Kulübü",
+                             "score":  2
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-09-06T17:00:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "06.09.2026 18:59:51",
+                                        "firstHalfEnded":  "06.09.2026 19:48:44",
+                                        "secondHalfStarted":  "06.09.2026 20:06:53",
+                                        "secondHalfEnded":  "06.09.2026 20:57:58",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "06.09.2026 20:57:58"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "2 - 2",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "home",
+                      "time":  39,
+                      "added_time":  null,
+                      "time_str":  39,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "home",
+                      "time":  89,
+                      "added_time":  null,
+                      "time_str":  89,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  1,
+                      "away_score":  2,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  12,
+                      "added_time":  null,
+                      "time_str":  12,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  },
+                  {
+                      "side":  "away",
+                      "time":  55,
+                      "added_time":  null,
+                      "time_str":  55,
+                      "type":  "Goal",
+                      "event_id":  0,
+                      "home_score":  1,
+                      "away_score":  1,
+                      "goal_description":  null,
+                      "period":  null,
+                      "is_own_goal":  null
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Goal",
+                            "Count":  4
+                        },
+                        {
+                            "Name":  "Comment",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  8
+                        },
+                        {
+                            "Name":  "MissedPenalty",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "AddedTime",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  10
+                        }
+                    ]
+}

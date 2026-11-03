@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868090",
+                    "league":  "esp.1",
+                    "date":  "2026-10-11T14:15:00Z",
+                    "home_id":  "8560",
+                    "home":  "Real Sociedad",
+                    "away_id":  "9783",
+                    "away":  "Deportivo A Coruña",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 2",
+                    "source":  "https://www.fotmob.com/matches/real-sociedad-vs-deportivo-coruna/2s67wj#5868090"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868090",
+    "collected_at_utc":  "2026-11-02T10:27:23.1486596Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  8,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  10,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

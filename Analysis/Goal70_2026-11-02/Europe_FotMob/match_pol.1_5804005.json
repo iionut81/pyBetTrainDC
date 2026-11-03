@@ -1,0 +1,107 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5804005",
+                    "date":  "2026-10-17T15:30:00Z",
+                    "home_id":  "4023",
+                    "home":  "GKS Katowice",
+                    "away_id":  "8023",
+                    "away":  "Pogoń Szczecin",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "round":  "11",
+                    "source":  "https://www.fotmob.com/matches/gks-katowice-vs-pogon-szczecin/177d4w#5804005"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5804005",
+    "general":  {
+                    "matchId":  "5804005",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "GKS Katowice",
+                                     "id":  4023
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Pogoń Szczecin",
+                                     "id":  8023
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  4023,
+                             "name":  "GKS Katowice",
+                             "score":  0
+                         },
+                         {
+                             "id":  8023,
+                             "name":  "Pogoń Szczecin",
+                             "score":  1
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-10-17T15:30:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "17.10.2026 17:36:25",
+                                        "firstHalfEnded":  "17.10.2026 18:21:39",
+                                        "secondHalfStarted":  "17.10.2026 18:38:50",
+                                        "secondHalfEnded":  "17.10.2026 19:27:59",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "17.10.2026 19:27:59"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "0 - 1",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+                  {
+                      "side":  "away",
+                      "time":  51,
+                      "added_time":  null,
+                      "time_str":  51,
+                      "type":  "Goal",
+                      "event_id":  14590509,
+                      "home_score":  0,
+                      "away_score":  0,
+                      "goal_description":  null,
+                      "period":  "SecondHalf",
+                      "is_own_goal":  false
+                  }
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Goal",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  1
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        }
+                    ]
+}

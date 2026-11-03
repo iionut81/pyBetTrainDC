@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5802925",
+                    "league":  "fra.1",
+                    "date":  "2026-09-04T19:05:00Z",
+                    "home_id":  "9847",
+                    "home":  "Paris Saint-Germain",
+                    "away_id":  "9829",
+                    "away":  "Monaco",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 2",
+                    "source":  "https://www.fotmob.com/matches/monaco-vs-paris-saint-germain/379cod#5802925"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5802925",
+    "collected_at_utc":  "2026-11-03T09:07:42.7980029Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  5,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  0,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

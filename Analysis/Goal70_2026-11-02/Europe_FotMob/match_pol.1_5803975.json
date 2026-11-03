@@ -1,0 +1,91 @@
+﻿{
+    "fixture":  {
+                    "league":  "pol.1",
+                    "id":  "5803975",
+                    "date":  "2026-09-05T12:45:00Z",
+                    "home_id":  "8024",
+                    "home":  "Widzew Łódź",
+                    "away_id":  "5769",
+                    "away":  "Radomiak Radom",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 0",
+                    "round":  "7",
+                    "source":  "https://www.fotmob.com/matches/radomiak-radom-vs-widzew-odz/1kn57t#5803975"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5803975",
+    "general":  {
+                    "matchId":  "5803975",
+                    "parentLeagueId":  196,
+                    "leagueName":  "Ekstraklasa",
+                    "homeTeam":  {
+                                     "name":  "Widzew Łódź",
+                                     "id":  8024
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Radomiak Radom",
+                                     "id":  5769
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  8024,
+                             "name":  "Widzew Łódź",
+                             "score":  0
+                         },
+                         {
+                             "id":  5769,
+                             "name":  "Radomiak Radom",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-09-05T12:45:00.000Z",
+                          "numberOfHomeRedCards":  0,
+                          "numberOfAwayRedCards":  0,
+                          "halfs":  {
+                                        "firstHalfStarted":  "05.09.2026 14:47:29",
+                                        "firstHalfEnded":  "05.09.2026 15:34:03",
+                                        "secondHalfStarted":  "05.09.2026 15:49:57",
+                                        "secondHalfEnded":  "05.09.2026 16:44:17",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "05.09.2026 16:44:17"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "0 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Substitution",
+                            "Count":  8
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Card",
+                            "Count":  5
+                        }
+                    ]
+}

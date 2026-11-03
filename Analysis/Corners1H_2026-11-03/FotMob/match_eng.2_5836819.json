@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836819",
+                    "league":  "eng.2",
+                    "date":  "2026-09-08T18:45:00Z",
+                    "home_id":  "8466",
+                    "home":  "Southampton",
+                    "away_id":  "10003",
+                    "away":  "Swansea City",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 1",
+                    "source":  "https://www.fotmob.com/matches/southampton-vs-swansea-city/2tjwep#5836819"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836819",
+    "collected_at_utc":  "2026-11-03T09:08:06.0438429Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  6,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  9,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

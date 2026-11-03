@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836859",
+                    "league":  "eng.2",
+                    "date":  "2026-10-10T14:00:00Z",
+                    "home_id":  "9817",
+                    "home":  "Watford",
+                    "away_id":  "8191",
+                    "away":  "Burnley",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 4",
+                    "source":  "https://www.fotmob.com/matches/burnley-vs-watford/2ojpnp#5836859"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836859",
+    "collected_at_utc":  "2026-11-03T09:08:31.6167504Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  1,
+                       "away":  0,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  5,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

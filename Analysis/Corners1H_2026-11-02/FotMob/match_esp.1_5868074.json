@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868074",
+                    "league":  "esp.1",
+                    "date":  "2026-09-20T16:30:00Z",
+                    "home_id":  "9783",
+                    "home":  "Deportivo A Coruña",
+                    "away_id":  "8603",
+                    "away":  "Real Betis",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/real-betis-vs-deportivo-coruna/2sn58i#5868074"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868074",
+    "collected_at_utc":  "2026-11-02T10:27:22.5125782Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  11,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  11,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

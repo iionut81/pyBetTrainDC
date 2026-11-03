@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107513",
+                    "league":  "swe.1",
+                    "date":  "2026-09-03T17:00:00Z",
+                    "home_id":  "8127",
+                    "home":  "Mjällby",
+                    "away_id":  "9802",
+                    "away":  "Djurgården",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 2",
+                    "source":  "https://www.fotmob.com/matches/mjallby-vs-djurgarden/2npabb#5107513"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107513",
+    "collected_at_utc":  "2026-11-02T10:28:38.8022801Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  0,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  0,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

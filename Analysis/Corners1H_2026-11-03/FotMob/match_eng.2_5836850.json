@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836850",
+                    "league":  "eng.2",
+                    "date":  "2026-10-10T14:00:00Z",
+                    "home_id":  "8655",
+                    "home":  "Blackburn Rovers",
+                    "away_id":  "8344",
+                    "away":  "Cardiff City",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "source":  "https://www.fotmob.com/matches/cardiff-city-vs-blackburn-rovers/2e1517#5836850"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836850",
+    "collected_at_utc":  "2026-11-03T09:08:28.4288677Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  9,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  11,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

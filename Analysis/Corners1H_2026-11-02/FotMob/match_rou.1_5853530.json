@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5853530",
+                    "league":  "rou.1",
+                    "date":  "2026-10-24T12:30:00Z",
+                    "home_id":  "583690",
+                    "home":  "Csikszereda Miercurea Ciuc",
+                    "away_id":  "405332",
+                    "away":  "FC Voluntari",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 1",
+                    "source":  "https://www.fotmob.com/matches/fc-voluntari-vs-csikszereda-miercurea-ciuc/68ojl9mj#5853530"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853530",
+    "collected_at_utc":  "2026-11-02T10:28:15.6594592Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  0,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

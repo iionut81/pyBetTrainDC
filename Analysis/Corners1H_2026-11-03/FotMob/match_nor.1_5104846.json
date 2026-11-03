@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5104846",
+                    "league":  "nor.1",
+                    "date":  "2026-04-15T17:00:00Z",
+                    "home_id":  "8509",
+                    "home":  "Sarpsborg 08",
+                    "away_id":  "8402",
+                    "away":  "Bodø/Glimt",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/bodoglimt-vs-sarpsborg-08/2d55md#5104846"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5104846",
+    "collected_at_utc":  "2026-11-03T09:07:52.3786866Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  3,
+                       "away":  3,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  3,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  4,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

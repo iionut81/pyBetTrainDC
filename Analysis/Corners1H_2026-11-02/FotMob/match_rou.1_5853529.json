@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5853529",
+                    "league":  "rou.1",
+                    "date":  "2026-10-23T18:00:00Z",
+                    "home_id":  "1515102",
+                    "home":  "Corvinul Hunedoara",
+                    "away_id":  "89022",
+                    "away":  "Universitatea Cluj",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 3",
+                    "source":  "https://www.fotmob.com/matches/universitatea-cluj-vs-corvinul-hunedoara/gf25282c#5853529"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853529",
+    "collected_at_utc":  "2026-11-02T10:28:15.1123278Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  5,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  5,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  10,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

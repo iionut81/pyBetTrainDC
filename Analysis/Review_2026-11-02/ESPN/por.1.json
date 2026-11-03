@@ -1,0 +1,62 @@
+﻿{
+    "ok":  true,
+    "league":  "por.1",
+    "source":  "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261102\u0026limit=1000",
+    "fetched_at_utc":  "2026-11-03T07:58:34.2058984Z",
+    "events":  [
+                   {
+                       "id":  "401885403",
+                       "date":  "2026-11-02T20:15Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "1929",
+                                         "name":  "Benfica",
+                                         "homeAway":  "home",
+                                         "score":  "1"
+                                     },
+                                     {
+                                         "id":  "21613",
+                                         "name":  "Alverca",
+                                         "homeAway":  "away",
+                                         "score":  "0"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "51\u0027",
+                                         "team_id":  "1929",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401885403"
+                   },
+                   {
+                       "id":  "401885407",
+                       "date":  "2026-11-02T20:15Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "3699",
+                                         "name":  "Gil Vicente",
+                                         "homeAway":  "home",
+                                         "score":  "0"
+                                     },
+                                     {
+                                         "id":  "5309",
+                                         "name":  "Vitória de Guimaraes",
+                                         "homeAway":  "away",
+                                         "score":  "0"
+                                     }
+                                 ],
+                       "goals":  [
+
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401885407"
+                   }
+               ]
+}

@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5853461",
+                    "league":  "rou.1",
+                    "date":  "2026-08-10T18:30:00Z",
+                    "home_id":  "583706",
+                    "home":  "Sepsi OSK",
+                    "away_id":  "9723",
+                    "away":  "FCSB",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 0",
+                    "source":  "https://www.fotmob.com/matches/fcsb-vs-sepsi-osk/28w12dwi#5853461"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5853461",
+    "collected_at_utc":  "2026-11-02T10:27:56.1967741Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  6,
+                       "away":  1,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  4,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  8,
+                      "away":  5,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

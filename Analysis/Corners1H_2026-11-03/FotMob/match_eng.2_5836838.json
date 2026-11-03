@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5836838",
+                    "league":  "eng.2",
+                    "date":  "2026-09-19T14:00:00Z",
+                    "home_id":  "8658",
+                    "home":  "Birmingham City",
+                    "away_id":  "8549",
+                    "away":  "Middlesbrough",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "2 - 2",
+                    "source":  "https://www.fotmob.com/matches/middlesbrough-vs-birmingham-city/2g5e1i#5836838"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5836838",
+    "collected_at_utc":  "2026-11-03T09:08:21.1079846Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  3,
+                        "away":  1,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  5,
+                      "away":  3,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

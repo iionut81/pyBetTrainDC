@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107483",
+                    "league":  "swe.1",
+                    "date":  "2026-05-02T13:00:00Z",
+                    "home_id":  "6694",
+                    "home":  "Sirius",
+                    "away_id":  "9892",
+                    "away":  "Kalmar FF",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "3 - 2",
+                    "source":  "https://www.fotmob.com/matches/sirius-vs-kalmar-ff/29wiij#5107483"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107483",
+    "collected_at_utc":  "2026-11-02T10:28:02.7720501Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  4,
+                       "away":  4,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  2,
+                        "away":  2,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  6,
+                      "away":  6,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

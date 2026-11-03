@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5868416",
+                    "league":  "esp.2",
+                    "date":  "2026-08-30T15:00:00Z",
+                    "home_id":  "494050",
+                    "home":  "FC Andorra",
+                    "away_id":  "8372",
+                    "away":  "Eibar",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 1",
+                    "source":  "https://www.fotmob.com/matches/eibar-vs-fc-andorra/1lzco6b5#5868416"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5868416",
+    "collected_at_utc":  "2026-11-02T10:28:01.8284588Z",
+    "period_definition":  "content.stats.Periods.FirstHalf, key corners; includes first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  2,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  5,
+                        "away":  0,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  7,
+                      "away":  2,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

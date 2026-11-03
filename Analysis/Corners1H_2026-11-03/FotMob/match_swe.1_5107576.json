@@ -1,0 +1,41 @@
+﻿{
+    "fixture":  {
+                    "id":  "5107576",
+                    "league":  "swe.1",
+                    "date":  "2026-08-22T13:00:00Z",
+                    "home_id":  "10002",
+                    "home":  "Örgryte",
+                    "away_id":  "8310",
+                    "away":  "Halmstads BK",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "1 - 1",
+                    "source":  "https://www.fotmob.com/matches/halmstads-bk-vs-orgryte/2ru0d6#5107576"
+                },
+    "ok":  true,
+    "error":  null,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5107576",
+    "collected_at_utc":  "2026-11-03T09:08:16.3546803Z",
+    "period_definition":  "content.stats.Periods.FirstHalf key corners, including first-half added time",
+    "first_half":  {
+                       "home":  2,
+                       "away":  5,
+                       "key":  "corners",
+                       "period":  "FirstHalf"
+                   },
+    "second_half":  {
+                        "home":  1,
+                        "away":  5,
+                        "key":  "corners",
+                        "period":  "SecondHalf"
+                    },
+    "full_time":  {
+                      "home":  3,
+                      "away":  10,
+                      "key":  "corners",
+                      "period":  "All"
+                  },
+    "reconciled":  true
+}

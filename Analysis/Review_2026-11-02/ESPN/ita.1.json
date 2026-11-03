@@ -1,0 +1,101 @@
+﻿{
+    "ok":  true,
+    "league":  "ita.1",
+    "source":  "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261102\u0026limit=1000",
+    "fetched_at_utc":  "2026-11-03T07:58:30.4423162Z",
+    "events":  [
+                   {
+                       "id":  "401874963",
+                       "date":  "2026-11-02T17:30Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "3997",
+                                         "name":  "Sassuolo",
+                                         "homeAway":  "home",
+                                         "score":  "2"
+                                     },
+                                     {
+                                         "id":  "109",
+                                         "name":  "Fiorentina",
+                                         "homeAway":  "away",
+                                         "score":  "4"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "25\u0027",
+                                         "team_id":  "3997",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "45\u0027+2\u0027",
+                                         "team_id":  "109",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "50\u0027",
+                                         "team_id":  "109",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "65\u0027",
+                                         "team_id":  "3997",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "79\u0027",
+                                         "team_id":  "109",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "90\u0027+3\u0027",
+                                         "team_id":  "109",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401874963"
+                   },
+                   {
+                       "id":  "401874971",
+                       "date":  "2026-11-02T19:45Z",
+                       "state":  "post",
+                       "completed":  true,
+                       "status":  "STATUS_FULL_TIME",
+                       "teams":  [
+                                     {
+                                         "id":  "105",
+                                         "name":  "Atalanta",
+                                         "homeAway":  "home",
+                                         "score":  "0"
+                                     },
+                                     {
+                                         "id":  "115",
+                                         "name":  "Parma",
+                                         "homeAway":  "away",
+                                         "score":  "3"
+                                     }
+                                 ],
+                       "goals":  [
+                                     {
+                                         "minute":  "41\u0027",
+                                         "team_id":  "115",
+                                         "own_goal":  false
+                                     },
+                                     {
+                                         "minute":  "47\u0027",
+                                         "team_id":  "115",
+                                         "own_goal":  true
+                                     },
+                                     {
+                                         "minute":  "58\u0027",
+                                         "team_id":  "115",
+                                         "own_goal":  false
+                                     }
+                                 ],
+                       "source":  "https://www.espn.com/soccer/match/_/gameId/401874971"
+                   }
+               ]
+}

@@ -1,0 +1,95 @@
+﻿{
+    "fixture":  {
+                    "league":  "tur.2",
+                    "id":  "5908603",
+                    "date":  "2026-08-22T18:30:00Z",
+                    "home_id":  "658811",
+                    "home":  "Bodrum FK",
+                    "away_id":  "178387",
+                    "away":  "Muğlaspor",
+                    "finished":  true,
+                    "started":  true,
+                    "cancelled":  false,
+                    "awarded":  false,
+                    "score":  "0 - 0",
+                    "round":  "3",
+                    "source":  "https://www.fotmob.com/matches/muglaspor-vs-bodrum-fk/4gzto3gk#5908603"
+                },
+    "ok":  true,
+    "source":  "https://www.fotmob.com/api/data/matchDetails?matchId=5908603",
+    "general":  {
+                    "matchId":  "5908603",
+                    "parentLeagueId":  165,
+                    "leagueName":  "Turkish 1. Lig",
+                    "homeTeam":  {
+                                     "name":  "Bodrum FK",
+                                     "id":  658811
+                                 },
+                    "awayTeam":  {
+                                     "name":  "Muğlaspor",
+                                     "id":  178387
+                                 },
+                    "started":  true,
+                    "finished":  true
+                },
+    "header_teams":  [
+                         {
+                             "id":  658811,
+                             "name":  "Bodrum FK",
+                             "score":  0
+                         },
+                         {
+                             "id":  178387,
+                             "name":  "Muğlaspor",
+                             "score":  0
+                         }
+                     ],
+    "header_status":  {
+                          "utcTime":  "2026-08-22T18:30:00.000Z",
+                          "numberOfHomeRedCards":  1,
+                          "numberOfAwayRedCards":  1,
+                          "halfs":  {
+                                        "firstHalfStarted":  "22.08.2026 20:30:41",
+                                        "firstHalfEnded":  "22.08.2026 21:18:59",
+                                        "secondHalfStarted":  "22.08.2026 21:34:32",
+                                        "secondHalfEnded":  "22.08.2026 22:23:55",
+                                        "firstExtraHalfStarted":  "",
+                                        "secondExtraHalfStarted":  "",
+                                        "gameEnded":  "22.08.2026 22:23:55"
+                                    },
+                          "finished":  true,
+                          "started":  true,
+                          "cancelled":  false,
+                          "awarded":  false,
+                          "scoreStr":  "0 - 0",
+                          "reason":  {
+                                         "short":  "FT",
+                                         "shortKey":  "fulltime_short",
+                                         "long":  "Full-Time",
+                                         "longKey":  "finished"
+                                     },
+                          "whoLostOnPenalties":  null,
+                          "whoLostOnAggregated":  ""
+                      },
+    "goals":  [
+
+              ],
+    "event_types":  [
+                        {
+                            "Name":  "Card",
+                            "Count":  8
+                        },
+                        {
+                            "Name":  "AddedTime",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Half",
+                            "Count":  2
+                        },
+                        {
+                            "Name":  "Substitution",
+                            "Count":  9
+                        }
+                    ]
+}
