@@ -1,6 +1,6 @@
 {
   "date": "2026-11-04",
-  "snapshotAt": "08:12 RO",
+  "snapshotAt": "14:07 RO",
   "matches": [
     {
       "id": "6106303",
@@ -660,6 +660,38 @@
           "source": "",
           "verifiedAt": ""
         },
+        "userSelection": {
+          "selection_id": "2026-11-04_GOAL_BY_70_5836918",
+          "analysis_date": "2026-11-04",
+          "selected_at_ro": "2026-11-04T14:06:35+02:00",
+          "selected_by": "user",
+          "market": "GOAL_BY_70",
+          "event_definition": "At least one valid goal by either team at displayed minute <=70",
+          "home": "Bristol City",
+          "away": "Wolverhampton Wanderers",
+          "kickoff_ro": "2026-11-04T22:00:00+02:00",
+          "match_id": "5836918",
+          "provider": "FotMob",
+          "raw_rank": "12",
+          "model_snapshot_at_ro": "2026-11-04T08:06:48.064+02:00",
+          "p_raw": "0.8471357686295433",
+          "p_stress": "0.7774412355956299",
+          "fair_odds": "1.1804483260313199",
+          "calibrated": "False",
+          "market_price": "",
+          "stake": "",
+          "actual_first_goal_minute": "",
+          "actual_corners_1h": "",
+          "result": "",
+          "result_source": "",
+          "result_verified_at_ro": "",
+          "net_profit": "",
+          "status": "user_selection_pending_dashboard",
+          "analysis_path": "Previews/Pred_Research_Terminal/dist/reports/2026-11-04/goal/5836918.html",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836918",
+          "p": 0.8471357686295433,
+          "stress": 0.7774412355956299
+        },
         "report": "reports/2026-11-04/goal/5836918.html"
       },
       "corner": {
@@ -684,7 +716,8 @@
         "report": "reports/2026-11-04/corner/5836918.html"
       },
       "analystGoal": false,
-      "analystCorner": false
+      "analystCorner": false,
+      "userGoal": true
     },
     {
       "id": "6112306",
@@ -804,10 +837,43 @@
           "source": "",
           "verifiedAt": ""
         },
+        "userSelection": {
+          "selection_id": "2026-11-04_CORNERS_1H_UNDER_7_5_5811786",
+          "analysis_date": "2026-11-04",
+          "selected_at_ro": "2026-11-04T14:07:06+02:00",
+          "selected_by": "user",
+          "market": "CORNERS_1H_UNDER_7_5",
+          "event_definition": "Both teams combined first-half corners <=7, including added time",
+          "home": "Kortrijk",
+          "away": "KV Mechelen",
+          "kickoff_ro": "2026-11-04T21:30:00+02:00",
+          "match_id": "5811786",
+          "provider": "FotMob",
+          "raw_rank": "1",
+          "model_snapshot_at_ro": "2026-11-04T08:12:57.873+02:00",
+          "p_raw": "0.9578123027443454",
+          "p_stress": "0.9042231342020096",
+          "fair_odds": "1.0440458920132656",
+          "calibrated": "False",
+          "market_price": "",
+          "stake": "",
+          "actual_first_goal_minute": "",
+          "actual_corners_1h": "",
+          "result": "",
+          "result_source": "",
+          "result_verified_at_ro": "",
+          "net_profit": "",
+          "status": "user_selection_pending_dashboard",
+          "analysis_path": "Previews/Pred_Research_Terminal/dist/reports/2026-11-04/corner/5811786.html",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811786",
+          "p": 0.9578123027443454,
+          "stress": 0.9042231342020096
+        },
         "report": "reports/2026-11-04/corner/5811786.html"
       },
       "analystGoal": false,
-      "analystCorner": true
+      "analystCorner": true,
+      "userCorner": true
     },
     {
       "id": "1000015487",
@@ -1455,7 +1521,68 @@
       "scored": 0
     }
   },
-  "userSelections": [],
+  "userSelections": [
+    {
+      "selection_id": "2026-11-04_GOAL_BY_70_5836918",
+      "analysis_date": "2026-11-04",
+      "selected_at_ro": "2026-11-04T14:06:35+02:00",
+      "selected_by": "user",
+      "market": "GOAL_BY_70",
+      "event_definition": "At least one valid goal by either team at displayed minute <=70",
+      "home": "Bristol City",
+      "away": "Wolverhampton Wanderers",
+      "kickoff_ro": "2026-11-04T22:00:00+02:00",
+      "match_id": "5836918",
+      "provider": "FotMob",
+      "raw_rank": "12",
+      "model_snapshot_at_ro": "2026-11-04T08:06:48.064+02:00",
+      "p_raw": "0.8471357686295433",
+      "p_stress": "0.7774412355956299",
+      "fair_odds": "1.1804483260313199",
+      "calibrated": "False",
+      "market_price": "",
+      "stake": "",
+      "actual_first_goal_minute": "",
+      "actual_corners_1h": "",
+      "result": "",
+      "result_source": "",
+      "result_verified_at_ro": "",
+      "net_profit": "",
+      "status": "user_selection_pending_dashboard",
+      "analysis_path": "Previews/Pred_Research_Terminal/dist/reports/2026-11-04/goal/5836918.html",
+      "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836918"
+    },
+    {
+      "selection_id": "2026-11-04_CORNERS_1H_UNDER_7_5_5811786",
+      "analysis_date": "2026-11-04",
+      "selected_at_ro": "2026-11-04T14:07:06+02:00",
+      "selected_by": "user",
+      "market": "CORNERS_1H_UNDER_7_5",
+      "event_definition": "Both teams combined first-half corners <=7, including added time",
+      "home": "Kortrijk",
+      "away": "KV Mechelen",
+      "kickoff_ro": "2026-11-04T21:30:00+02:00",
+      "match_id": "5811786",
+      "provider": "FotMob",
+      "raw_rank": "1",
+      "model_snapshot_at_ro": "2026-11-04T08:12:57.873+02:00",
+      "p_raw": "0.9578123027443454",
+      "p_stress": "0.9042231342020096",
+      "fair_odds": "1.0440458920132656",
+      "calibrated": "False",
+      "market_price": "",
+      "stake": "",
+      "actual_first_goal_minute": "",
+      "actual_corners_1h": "",
+      "result": "",
+      "result_source": "",
+      "result_verified_at_ro": "",
+      "net_profit": "",
+      "status": "user_selection_pending_dashboard",
+      "analysis_path": "Previews/Pred_Research_Terminal/dist/reports/2026-11-04/corner/5811786.html",
+      "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811786"
+    }
+  ],
   "evidence": {
     "goal": {
       "checked_at_ro": "2026-11-04T08:12:57.873+02:00",

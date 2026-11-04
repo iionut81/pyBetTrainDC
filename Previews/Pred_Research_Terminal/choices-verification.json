@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-11-04T12:04:44.617Z",
+  "checks": [
+    "Choices initially belong to the analyst, not the user",
+    "Card selection shows user badge, pending status, and remove control",
+    "Two explicit market choices coexist and use the final corner estimate",
+    "Both choices survive reload from project history",
+    "Undo affects only the selected goal choice",
+    "Table action selects alternative without opening a dialog and pins its original rank",
+    "Direct browser choice also appears in history",
+    "Verified historical choice is locked",
+    "Mobile retains the choices without page overflow"
+  ],
+  "exceptions": 0,
+  "scope": "isolated test fixture; no real user choice selected or removed"
+}

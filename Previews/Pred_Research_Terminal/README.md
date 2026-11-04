@@ -9,8 +9,8 @@ Butoanele Gol70/Cornere de deasupra radarului si cele din tabel sunt sincronizat
 
 Deschidere directa in Chrome: `pred-dashboard://open`. Handler Windows per-user
 instalat la cererea utilizatorului, fara modificarea browserului implicit.
-Comanda sa are numai executabilul Chrome si calea fixa a acestui index; nu
-preia argumente din URI. Test real: titlul ferestrei este
+Comanda sa foloseste lansatorul fix open-dashboard.ps1, care porneste serviciul
+local si deschide pagina in Chrome; nu preia argumente din URI. Titlul ferestrei este
 `PRED — Football Research Terminal - Google Chrome`.
 
 Shortcut Explorer: `Deschide PRED in Chrome.url`. Daca aplicatia de chat
@@ -26,6 +26,40 @@ La mutarea pe alt calculator/folder ruleaza `install-chrome-link.ps1` acolo;
 `-PreviewOnly` arata exact handlerul fara instalare. Instalarea refuza
 inlocuirea unui protocol detinut de alta aplicatie. Detalii locale in
 `chrome-launcher.json`.
+
+## Alegeri direct din dashboard
+
+`Alege acest pick` este disponibil pe cardurile recomandarilor, in tabel si in
+fisa meciului. Dupa click, alegerea primeste badge-ul utilizatorului si rezultat
+in asteptare, urca prima in lista pietei si apare in Istoric. `Anuleaza alegerea`
+retrage alegerea curenta fara sa schimbe alta piata sau sa stearga urmele din
+jurnal. Partidele incepute si alegerile arhivate sunt blocate pentru editare.
+Mai multe alegeri explicite pot coexista; nu reprezinta automat un bilet combinat.
+
+Butonul si declaratiile din chat folosesc acelasi fisier canonic:
+`Analysis/Selection_History/user_selections.csv`. Serviciul salveaza valorile
+originale/finale existente, ora RO si identitatea partidei, fara rezultate sau
+mize inventate. Operatiile sunt auditate in `selection_events.jsonl`. CSV-ul
+foloseste lock, revizie si inlocuire atomica; o pagina veche nu suprascrie o
+modificare mai noua fara reincarcare. Agentul trebuie sa reciteasca acest istoric.
+
+Pagina interactiva: http://127.0.0.1:18770/Previews/Pred_Research_Terminal/dist/index.html
+
+Shortcutul Chrome existent porneste serviciul ascuns o singura data; dupa reboot,
+il reporneste la urmatoarea deschidere. Nu creeaza un task programat nou.
+`index.html` deschis ca fisier permite consultarea; pentru salvare afiseaza
+legatura spre lansatorul Chrome. Alegerile nu sunt pastrate doar in browser.
+Serviciul asculta numai pe127.0.0.1, accepta scrieri din propria pagina si
+nu serveste configuratiile private sau transcripturile. Fara dependinte npm.
+
+Verificari suplimentare:
+
+```powershell
+node --test Previews/Pred_Research_Terminal/selection-store.test.mjs
+node Previews/Pred_Research_Terminal/check-choices.mjs
+```
+
+Testul browser foloseste o arhiva izolata in .runtime; nu modifica alegerile reale.
 
 Configuratiile locale (executabile, chat_id, scurtaturi si starea Task Scheduler)
 nu sunt versionate. Pe un calculator nou ruleaza instalatoarele locale.

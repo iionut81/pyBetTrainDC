@@ -44,6 +44,12 @@ nu inventa rezultate sau cauze. Fara schimbari automate de model/procente.
    a mesajului: timestampul este momentul inregistrarii in proiect.
    Rezultatul, miza, pretul disponibil si profitul raman goale daca nu sunt cunoscute.
 6. Alegerea utilizatorului si candidatul analistului sunt roluri diferite.
+   Din4 noiembrie, un click explicit pe Alege acest pick este echivalent unei
+   declaratii prin chat. Serviciul local salveaza direct in acelasi CSV; citeste
+   istoricul actual si selection_events.jsonl inainte de modificari. Anularea
+   retrage alegerea curenta si ramane auditata; nu o recrea dintr-un snapshot
+   anterior. Respecta user_selections.csv.lock, reciteste revizia dupa orice
+   conflict si scrie atomic. Pastreaza alegerile introduse pe oricare ruta.
    Cand utilizatorul alege explicit cate un eveniment pe ambele piete, salveaza
    ambele separat. Aceasta nu este autorizare de pariere sau bilet combinat.
    Recomandarea principala implicita ramane una; NO BET este permis.

@@ -89,6 +89,18 @@ The explicit user instructions in the conversation take priority over older prom
   explicit; save a partial/unavailable review before proceeding when necessary.
   This changes the existing task's instructions, not its schedule. Do not
   automatically tune models, weights, probabilities or filters from daily results.
+- Dashboard choices approved 2026-11-04: an explicit click on `Alege acest pick`
+  is a user choice, equivalent to a declaration in chat. The local loopback
+  dashboard service writes the SAME `Analysis/Selection_History/user_selections.csv`,
+  preserving original prediction values and keeping outcomes pending. User undo
+  is recorded in `selection_events.jsonl`; do not recreate a revoked choice from
+  an analyst flag or an older snapshot. Read the latest CSV/events before edits,
+  preserve choices from either route, and never replace one market's choice with
+  another implicitly. Multiple explicit choices may coexist; this does not infer
+  a combined bet or change the analyst's default single-selection preference.
+  Browser storage alone is not authoritative. Completed/past/started fixtures
+  are locked in the UI. Launch via the existing Chrome shortcut/protocol, which
+  starts the service at 127.0.0.1:18770; file HTML remains read-only for choices.
 - Dashboard workflow agreed 2026-11-03: read
   `Analysis/Selection_History/DAILY_WORKFLOW.md` when resuming daily work.
   Save each day's complete candidates, evidence, analyst finalists, explicit

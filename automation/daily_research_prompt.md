@@ -33,7 +33,15 @@ Nu incepe inventarul sau selectia zilei curente in paralel cu review-ul.
   GOAL_BY_70 foloseste primul gol valid cu minut afisat <=70, inclusiv 45+.
   Pentru CORNERS_1H_UNDER_7_5 foloseste maximum 7 cornere cumulate FirstHalf,
   inclusiv 45+. FT sau scorul pauzei nu substituie observatiile cerute.
-- Prioritizeaza alegerile EXPLICITE ale utilizatorului, apoi verifica si listele
+- Un click explicit pe Alege acest pick in dashboard este tot alegere a
+  utilizatorului: citeste CSV-ul canonic actualizat de serviciul local si
+  selection_events.jsonl, daca exista. Pastreaza alegerile din dashboard si
+  chat, inclusiv mai multe alegeri explicite; nu recrea o alegere anulata din
+  candidatul analistului sau un snapshot vechi. Nu deduce pariuri combinate.
+  La modificari respecta user_selections.csv.lock, reciteste continutul dupa
+  conflicte si foloseste scriere atomica; nu suprascrie o alegere noua dintr-o
+  copie veche. Serviciul local poate primi alegeri in timpul researchului.
+  Prioritizeaza alegerile EXPLICITE ale utilizatorului, apoi verifica si listele
   complete cercetate. Pentru fiecare rezultat salveaza observatia exacta,
   success/fail, sursa si timestampul verificarii in Review_YYYY-MM-DD si in
   campurile de rezultat ale user_selections.csv. O alegere comunicata nu

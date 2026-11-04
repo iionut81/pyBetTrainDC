@@ -27,7 +27,7 @@ function renderTable(){
  const modelRanks=new Map([...DATA.matches].sort((a,b)=>(b[state.market].p??-1)-(a[state.market].p??-1)).map((m,i)=>[m.id,i+1]));
  $('#matchesBody').innerHTML=rows.length?rows.map((m,i)=>{
   const v=m[state.market],chosen=state.market==='goal'&&m.userGoal?'picked':state.market==='corner'&&(m.userCorner||m.analystCorner)?'corner-picked':'';
-  return `<tr class="${chosen}" data-match="${esc(m.id)}" tabindex="0" aria-label="Deschide analiza ${esc(m.home)} — ${esc(m.away)}"><td class="rank">${String(modelRanks.get(m.id)).padStart(2,'0')}</td><td class="table-match"><strong>${esc(m.home)} <span>vs</span> ${esc(m.away)}</strong><small>${esc(m.league)}</small></td><td class="table-muted">${esc(m.kickoff)}</td><td class="table-prob ${state.market==='corner'?'violet':''}">${percent(v.p)}</td><td class="table-muted">${percent(v.stress)}</td><td class="table-muted">${v.p==null?'—':ratio(v.wins,v.n)}</td><td>${badge(m)}</td><td class="row-arrow">↗</td></tr>`;
+  return `<tr class="${chosen}" data-match="${esc(m.id)}" tabindex="0" aria-label="Deschide analiza ${esc(m.home)} — ${esc(m.away)}"><td class="rank">${String(modelRanks.get(m.id)).padStart(2,'0')}</td><td class="table-match"><strong>${esc(m.home)} <span>vs</span> ${esc(m.away)}</strong><small>${esc(m.league)}</small></td><td class="table-muted">${esc(m.kickoff)}</td><td class="table-prob ${state.market==='corner'?'violet':''}">${percent(v.p)}</td><td class="table-muted">${percent(v.stress)}</td><td class="table-muted">${v.p==null?'—':ratio(v.wins,v.n)}</td><td><div class="table-choice-actions">${badge(m)}${choiceControl(m,state.market,true)}</div></td><td class="row-arrow">↗</td></tr>`;
  }).join(''):'<tr><td colspan="8" class="empty-cell">Nicio partidă nu corespunde filtrelor. Încearcă alt nume sau altă competiție.</td></tr>';
  $('#tableCount').textContent=`${rows.length} / ${DATA.matches.length} partide · ${state.market==='goal'?'Gol70':'Cornere 1H'} · alegerile tale primele, apoi model ↓`;
  $$('.market-switch button').forEach(b=>{b.classList.toggle('active',b.dataset.market===state.market);b.setAttribute('aria-pressed',String(b.dataset.market===state.market));});
@@ -90,6 +90,8 @@ function exportCsv(){
  const url=URL.createObjectURL(new Blob([text],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=`PRED_${DATA.date}_${state.market}_screening.csv`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('CSV exportat pentru ziua și piața selectate.');
 }
 document.addEventListener('click',e=>{
+ const choice=e.target.closest('[data-choice]');if(choice){e.preventDefault();saveChoice(choice.dataset.choice,choice.dataset.choiceMarket,choice.dataset.choiceAction);return;}
+ if(e.target.closest('a'))return;
  const historyMarket=e.target.closest('[data-history-market]');if(historyMarket){state.historyMarket=historyMarket.dataset.historyMarket;state.result='all';renderHistory();return;}
  const view=e.target.closest('[data-view]');if(view){setView(view.dataset.view);return;}
  const league=e.target.closest('[data-league]');if(league){setLeague(league.dataset.league);return;}
@@ -99,7 +101,7 @@ document.addEventListener('click',e=>{
  const node=e.target.closest('[data-radar-match]');if(node){showDetail(node.dataset.radarMatch,state.market);return;}
  const result=e.target.closest('[data-result]');if(result){state.result=result.dataset.result;renderHistory();}
 });
-document.addEventListener('keydown',e=>{if(e.key!=='Enter'&&e.key!==' ')return;const row=e.target.closest('[data-match]'),node=e.target.closest('[data-radar-match]');if(row||node){e.preventDefault();showDetail(row?row.dataset.match:node.dataset.radarMatch,state.market);}});
+document.addEventListener('keydown',e=>{if(e.target.closest('button,a,input,select')||e.key!=='Enter'&&e.key!==' ')return;const row=e.target.closest('[data-match]'),node=e.target.closest('[data-radar-match]');if(row||node){e.preventDefault();showDetail(row?row.dataset.match:node.dataset.radarMatch,state.market);}});
 $('#searchInput').addEventListener('input',e=>{state.search=e.target.value;renderTable();renderRadar();});
 $('#leagueSelect').addEventListener('change',e=>setLeague(e.target.value));
 $('#dateSelect').addEventListener('change',e=>selectDay(e.target.value));

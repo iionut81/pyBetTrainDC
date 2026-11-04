@@ -121,3 +121,25 @@ reconfigurare de browser sau automatizare nu a fost necesara.
 ## Publicarea modificarilor autorizata
 
 Utilizatorul a autorizat explicit commit si push pe main in iionut81/pyBetTrainDC. Scope: dashboard, rapoarte/date analitice, rezultate, review, reguli si automatizare; fara productia modificata independent, transcripturi/configuratii private sau metadata privata. QA arhiva4/browser28/politica zilnica PASS; rapoarte20 PASS in ultima verificare. Commitul trebuie sa includa trailerul Codex. Verifica git log si HEAD vs origin/main pentru hash/starea finala; nu crea duplicate.
+
+## Preview pentru butonul Alegerea ta - inainte de implementare
+
+Publicarea anterioara6e825bd este confirmata pe main/GitHub. Utilizatorul cere screen review inainte de implementarea butonului Alege acest pick pe recomandari/picks, pastrand si mesajul in chat ca alternativa. Creat doar preview static separat in Previews/Pred_Research_Terminal/Reviews/choice-button/, cu HTML si PNG desktop/mobil. Propunere: buton langa Deschide analiza si in tabel, apoi badge Alegerea ta -In asteptare, confirmare si Anuleaza alegerea; la implementare selectia urca prima si se salveaza in acelasi istoric canonic folosit de agent/chat. Nu este suficienta numai stocarea temporara in browser.
+
+Dashboardul real, snapshotul si user_selections.csv sunt neschimbate (hashuri SHA-256 verificate);4 verificari preview PASS,0 exceptii, fara overflow mobil. PSV ales din macheta este exclusiv demonstrativ. Utilizatorul spune ca are doua alegeri azi, fara nume in aceasta cerere; CSV-ul are inca zero pentru4 noiembrie. Nu infera alegeri din preview. Pas urmator: asteapta review/aprobare inainte de implementarea reala. Fara commit/push nou pentru preview.
+
+## Buton de alegere implementat dupa aprobarea preview-ului
+
+Utilizatorul a aprobat implementarea. Adaugate Alege acest pick/Anuleaza alegerea pe carduri, tabel si fisa meciului. Salvare reala in acelasi user_selections.csv folosit de chat/agent, nu in localStorage; selection_events.jsonl auditeaza selectarea/anularea. Mai multe alegeri explicite pot coexista, fara inferarea unui bilet. Se pastreaza snapshoturile si estimarea finala unde exista, timestamp RO si surse. Meciurile incepute, arhivate sau fara model nu pot fi alese/modificate prin UI.
+
+Serviciu Node local127.0.0.1:18770, token de sesiune/same-origin, lock/revizie/scriere atomica. Launcherul Chrome existent este actualizat sa porneasca serviciul ascuns, fara task nou sau schimbarea browserului implicit. Pagina interactiva: http://127.0.0.1:18770/Previews/Pred_Research_Terminal/dist/index.html . HTML ca fisier este pentru consultare si trimite catre lansator pentru salvare. Agentul zilnic citeste acelasi CSV si evenimentele, pastreaza ambele rute si nu recreeaza alegerile anulate.
+
+Verificari PASS:8 teste arhiva/stocare/API,9 scenarii browser intr-o arhiva izolata,4 verificari read-only ale paginii reale,28 regresii dashboard,20 rapoarte/istoric,0 exceptii. Nicio alegere de test nu a intrat in CSV-ul real (hash verificat). Preview-ul PSV ales ramane demonstrativ; nu au fost inferate cele doua alegeri mentionate fara nume de utilizator. Documentatia si promptul automat sunt actualizate. Nu s-a facut commit/push nou. Pas urmator: utilizatorul poate alege direct din pagina interactiva ori comunica alegerile in chat.
+
+## Stare curenta pentru transfer pe alt laptop
+
+CSV-ul recitit are acum DOUA alegeri4 noiembrie, ambele inregistrate explicit prin dashboard (user_selection_pending_dashboard). Aceasta constatare inlocuieste notele vechi care mentionau zero; citeste numele/ID-urile din CSV la reluare. Modificarile cu butonul si noile alegeri sunt locale si inca nepublicate dupa6e825bd. Clone transfera numai versiunea impinsa pe GitHub; datele/configuratiile ignorate si setarile Windows necesita transfer/configurare separata. Intrebarea despre portabilitate nu a declansat un commit/push nou.
+
+## Publicarea versiunii cu alegeri din dashboard
+
+Utilizatorul a cerut commit si push pentru versiunea actuala si alegerile noi. CSV-ul canonic confirma pentru4 noiembrie: Bristol City-Wolverhampton Wanderers GOAL_BY_70 si Kortrijk-KV Mechelen CORNERS_1H_UNDER_7_5, ambele introduse explicit prin dashboard si in asteptarea rezultatului. Se publica butoanele, serviciul local, launcherul portabil, testele, documentatia, istoricul canonic si jurnalul de evenimente. Configuratiile private, transcripturile, runtime si modificarile independente de productie raman excluse. Pentru hash si confirmarea push-ului consulta git log/origin main; nu infera ca este nevoie de un commit duplicat la reluare.

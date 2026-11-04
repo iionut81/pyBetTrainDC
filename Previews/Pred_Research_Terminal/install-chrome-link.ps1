@@ -13,8 +13,10 @@ $chromeCandidates = @(
 $chromeExe = [string]($chromeCandidates | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1)
 if (-not $chromeExe) { throw 'Google Chrome is not installed.' }
 $fileUri = ([uri]$indexFile).AbsoluteUri
-$arguments = '--new-window "' + $indexFile + '"'
-$command = '"' + $chromeExe + '" ' + $arguments
+$launcherScript = Join-Path $PSScriptRoot 'open-dashboard.ps1'
+if (-not (Test-Path -LiteralPath $launcherScript)) { throw 'Dashboard launcher script not found.' }
+$powershellExe = Join-Path $PSHOME 'powershell.exe'
+$command = '"' + $powershellExe + '" -NoProfile -WindowStyle Hidden -File "' + $launcherScript + '"'
 $relativeKey = 'Software\Classes\pred-dashboard'
 $existing = [Microsoft.Win32.Registry]::CurrentUser.OpenSubKey($relativeKey)
 if ($existing) {
@@ -26,11 +28,11 @@ $desktopShortcutPath = Join-Path ([Environment]::GetFolderPath('Desktop')) 'PRED
 if ($DesktopShortcut -and (Test-Path -LiteralPath $desktopShortcutPath) -and -not ([IO.File]::ReadAllText($desktopShortcutPath)).Contains('URL=pred-dashboard://open')) {
     throw 'A different desktop shortcut already exists; refusing to replace it.'
 }
-$result = [ordered]@{protocol='pred-dashboard://open';chrome_exe=$chromeExe;index_file=$indexFile;index_uri=$fileUri;command=$command;shortcut=$shortcutPath;changes_default_browser=$false;accepts_uri_arguments=$false}
+$result = [ordered]@{protocol='pred-dashboard://open';chrome_exe=$chromeExe;index_file=$indexFile;index_uri=$fileUri;command=$command;shortcut=$shortcutPath;changes_default_browser=$false;accepts_uri_arguments=$false;launcher_script=$launcherScript;dashboard_url='http://127.0.0.1:18770/Previews/Pred_Research_Terminal/dist/index.html'}
 if ($DesktopShortcut) { $result['desktop_shortcut'] = $desktopShortcutPath }
 if ($PreviewOnly) { $result | ConvertTo-Json; return }
-# A fixed Chrome executable and fixed dashboard URI. No %1 or user URL data
-# is interpolated into the command; other protocols/file associations are untouched.
+# A fixed launcher starts the loopback service and opens the fixed page in Chrome.
+# No URI arguments are interpolated; other browser/file associations are untouched.
 $key = [Microsoft.Win32.Registry]::CurrentUser.CreateSubKey($relativeKey)
 try {
     $key.SetValue('','URL:PRED Dashboard in Chrome',[Microsoft.Win32.RegistryValueKind]::String)
