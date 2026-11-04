@@ -1,0 +1,167 @@
+{
+  "ok": true,
+  "id": "5831114",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831114",
+  "verified_at_utc": "2026-11-04T06:04:29.772Z",
+  "general": {
+    "matchId": "5831114",
+    "matchName": "Slavia Prague-vs-Slovacko_Sun, Jul 26, 2026, 13:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D82333",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#D82333",
+        "away": "#183058"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "1",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Slavia Prague",
+      "id": 7787
+    },
+    "awayTeam": {
+      "name": "Slovacko",
+      "id": 2021
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Jul 26, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-07-26T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-26T13:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "26.07.2026 15:01:38",
+      "firstHalfEnded": "26.07.2026 15:51:35",
+      "secondHalfStarted": "26.07.2026 16:09:48",
+      "secondHalfEnded": "26.07.2026 16:57:23",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.07.2026 16:57:23"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "5 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7787",
+      "name": "Slavia Prague",
+      "score": 5
+    },
+    {
+      "id": "2021",
+      "name": "Slovacko",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 14,
+      "added": 0,
+      "display": "14"
+    },
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75"
+    },
+    {
+      "side": "home",
+      "minute": 16,
+      "added": 0,
+      "display": "16"
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1"
+    },
+    {
+      "side": "home",
+      "minute": 35,
+      "added": 0,
+      "display": "35"
+    },
+    {
+      "side": "away",
+      "minute": 12,
+      "added": 0,
+      "display": "12"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      0
+    ],
+    "All": [
+      5,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 60,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,123 @@
+# PRED — punct de reluare
+
+Actualizat 2026-11-04T08:12:57.873+02:00. Citeste AGENTS.md, CLAUDE.md, promptul master, DAILY_WORKFLOW.md, jurnalul cel mai nou, user_selections.csv si rapoartele automate canonice; aceste surse au prioritate fata de rezumat.
+
+4 noiembrie: fluxul08:00 a verificat alegerile3 noiembrie: QPR-Burnley Gol70 primul gol38 Succes; Derby-Norwich cornere1H6 Succes. Snapshoturile originale pastrate. Review Gol70 18/20; cornere18/20 univers,17/19 modele. Restante2 noiembrie cornere21/25 verificate, Radnicki-Zeleznicar reprogramat25 noiembrie oraTBD, Tenerife-AndorraAb/abandonat in furnizor contrazice eticheta vecheamanat; dovezi separate si fara modificarea arhivei Gol70.
+
+Azi29 ligi inventariate, 17 partide;17 modele Gol70 si16 cornere. Candidati analist: PSV-Brugge22:00RO Gol70 94,85% brut/90,68%stres; Kortrijk-Mechelen21:30RO cornere95,78%/90,42%. Principal individual cornere; nicio alegere noua a utilizatorului. Research partial: cupe inferioare fara istoric, Sabah cornere incomplete, verificare independenta Belgia incompleta, loturi neconfirmate. Vezi run_report_2026-11-04.json si rapoartele analitice.
+
+Dashboard dinamic2/3/4 noiembrie; alegerile reale primele, cu etichete numai din rezultate verificate. Chrome pred-dashboard://open, alternativa Previews/Pred_Research_Terminal/dist/index.html. Nu modifica browserul implicit.
+
+Pas urmator5 noiembrie: rezultate exacte ale celor17 partide, prioritar eventualele alegeri explicite viitoare; reincearca restantele/conflictul Tenerife; apoi research nou si dashboard. Nu infera alegeri din candidati si nu presupune pariuri. Task existent Pred_Daily_Research_0800 cu guard zilnic/catch-up, fara schimbari de programare. Nu repeta research la unlock daca rularea e partial/completed; livrarea esuata se reincearca separat.
+
+Modelele de productie, selection_engine si modificarile independente ale utilizatorului au ramas neatinse. Fara commit/push. Conversatiile vizibile disponibile se exporta local cu automation/export_project_conversation.mjs; transcripturile sunt private/ignorate deGit, fara garantie de acces la alte chaturi/dispozitive.
+
+
+## Verificare de incheiere4 noiembrie
+
+DashboardPASS:9 verificari in browser,0 exceptii. Run_report: reviewpartial, researchGol70partial, cornerepartial, dashboardcomplete. Excluderile cupelor spaniole sunt rectificate dupa RFEF (amanate3-5 noiembrie); LaLiga confirma abandonul Tenerife-Andorra. Exportul curent are2 mesaje disponibile, nu intreaga conversatie istorica. Nu s-au schimbat programarea, modelele, asocierile de browser sau Git.
+
+## Reluare interactiva — 08:24 RO
+
+Intrebarea utilizatorului: ce trebuia facut azi si daca agentul a facut.
+Executia este confirmata08:00:01–08:16. Ambele alegeri de ieri Succes;
+dashboardul are4 noiembrie, iar researchul este partial, cu lipsuri salvate.
+Publicarea prin exec resume a esuat deoarece IDE-ul detinea conversatia activa.
+Fallback-ul codex queue a acceptat raportul la08:24:09; chat_status=queued,
+nu delivered. Receiptul previne duplicatele, guard-ul nu repeta researchul.
+Nu afirma afisarea automata pana nu exista dovada in chat. Testele politicii
+si sintaxei au trecut. Exportul conversatiei principale are acum86 mesaje
+disponibile din4 surse, iar subarhivele celorlalte conversatii sunt pastrate.
+Pas imediat: utilizatorul poate consulta dashboardul si comunica alegerea de azi;
+nu transforma candidatii PSV/Kortrijk in alegeri proprii fara mesaj explicit.
+
+
+## Corectie UI la 4 noiembrie, dupa verificarea de dimineata
+
+Radarul urmeaza acum piata activa: PSV-Brugge pe Gol70 si Kortrijk-Mechelen
+pe cornere. Selectoare sincronizate deasupra radarului si in tabel; clickul
+si tastatura deschid piata selectata. Alegerile utilizatorului au prioritate
+numai pe piata proprie; niciun candidat nu a fost transformat in alegere.
+Verificare actualizata:15 cazuri browser PASS,0 exceptii, fara overflow mobil.
+Predictiile si rezultatele nu au fost schimbate. Utilizatorul trebuie sa
+reincarce index.html pentru a vedea corectia. Nu s-a facut commit/push nou.
+
+
+## Clarificarea finala a radarului si linkurilor
+
+La fiecare tab, axa VERTICALA arata probabilitatea pietei active. Gol70:
+PSV94,85% este punctul cel mai inalt; cornere: Kortrijk95,78% cel mai inalt.
+Axa orizontala arata cealalta piata; etichetele si selectia se sincronizeaza.
+Ultima verificare:17 cazuri browser PASS,0 exceptii. Linkul HTML foloseste
+calea Windows nativa C:..., fara slash initial; schema Chrome nu primeste
+slash in fata. Nu confunda versiunile anterioare ale axelor cu aceasta regula.
+
+
+## Preferinta finala URL - C:/
+
+Foloseste in mesaje exact C:/Users/.../index.html, fara slash initial si fara
+backslash; cererea explicita noua inlocuieste varianta nativa C: cu backslash.
+Chrome: pred-dashboard://open. Pe Desktop exista PRED Dashboard - Chrome.url,
+cu lansare directa in Chrome verificata prin Windows. Clickul pe un fisier
+.html sau .url in IDE poate deschide editorul; nu promite control asupra
+interceptarii linkurilor de catre IDE. Generatorul/prompturile sunt actualizate.
+
+## Rapoarte individuale de meci - 4 noiembrie 09:00 RO
+
+Solicitare: Raportul complet din fisa Porto-Napoli trebuie sa deschida numai
+raportul meciului. Rezolvat generic prin match-reports.mjs integrat in build:
+128 pagini statice data/piata/id, link Raportul meciului distinct de Raportul
+zilei. Contin numai date salvate pentru partida selectata, cu intrari/istoric,
+stres, estimare finala separata daca exista, rezultat separat si surse.
+Limitele contextuale sunt explicite; nu pretinde analiza tactica aprofundata
+pentru candidatii doar comparati. Fara modificari prospective sau research nou.
+QA:128 pagini/linkuri/invariante arhiva verificate,7 cazuri raport si17 regresii
+dashboard PASS,0 exceptii. Ctrl+F5 pentru versiunea noua. Fara commit/push nou.
+
+## Review explicat utilizatorului
+
+Utilizatorul a cerut analiza celor2 esecuri Gol70 si2 cornere din3 noiembrie.
+REVIEW.md existent a fost completat cu semnale prospective pentru fiecare,
+contrast model/istoric/AR20%, reusitele QPR/Derby si limitele cauzale.
+Date canonice:18/20 Gol70,17/19 modele cornere; ambele alegeri propriiSucces.
+Suma(1-p) brut2,20/2,12 vs2 esecuri observate pe fiecare piata; diagnostic
+intern, fara validare dintr-o zi. Nu exista audit tactic complet al celor4
+esecuri; ipotezele raman de testat. Dashboard reconstruit, predictii intacte,
+fara research nou sau schimbari de productie. Link review canonic:
+Analysis/Review_2026-11-03/REVIEW.md.
+
+## Cerinta noua: review obligatoriu inainte de scanare, din5 noiembrie
+
+La cererea explicita a utilizatorului, instructiunile executate de task cer
+etape distincte: rezultate -> analiza succeselor/failurilor/reusitelor la limita
+fata de snapshot -> REVIEW.md plus LESSONS_FOR_NEXT_SCAN.md salvate -> research
+si pickuri noi. Foloseste si lectiile relevante acumulate, explica aplicarea
+in rapoartele curente si salveaza review_handoff_at_ro/research_started_at_ro.
+Review partial permis cu limite explicite inainte de scanare; fara cauze
+inventate sau procente/ponderi/filtre modificate automat. Actualizate AGENTS,
+prompt master, DAILY_WORKFLOW si promptul/README automatizarii. Taskul existent
+citeste promptul de pe disc la rulare; ora/trigger-ele nu au fost schimbate.
+Pe5 noiembrie intai review4 noiembrie, abia apoi inventarul si selectiile5.
+
+## Acces raport individual din Istoric
+
+La cererea utilizatorului, renderHistory deschide acum raportul propriu
+data/piata/id din numele partidei sau Raportul meciului. Sursa rezultatului
+ramane separata; cardul Alegerea ta are si el acces direct. Selectorii Istoric
+determina raportul independent de data principala. Rapoartele arhivate leaga
+si review-ul zilei unde exista. Snapshoturile/rezultatele sunt nemodificate.
+QA20 cazuri browser PASS,0 exceptii,128 pagini/linkuri/invariante arhiva
+verificate. Necesita Ctrl+F5. Fara research nou, schimbari de model sau Git.
+
+## Deschidere HTML in editor din chat
+
+Utilizatorul confirma prin captura ca HTML local este interceptat ca fisier
+de editat de IDE, iar linkul Chrome nu apare activ. Nu promite ca un link
+Markdown de fisier lanseaza Chrome. Handlerul/Chrome/indexul/shortcutul sunt
+prezente; ruta Windows explicita: Win+R -> pred-dashboard://open -> Enter,
+sau shortcutul PRED Dashboard - Chrome.url din Desktop/Explorer. Nicio
+reconfigurare de browser sau automatizare nu a fost necesara.
+
+## Publicarea modificarilor autorizata
+
+Utilizatorul a autorizat explicit commit si push pe main in iionut81/pyBetTrainDC. Scope: dashboard, rapoarte/date analitice, rezultate, review, reguli si automatizare; fara productia modificata independent, transcripturi/configuratii private sau metadata privata. QA arhiva4/browser28/politica zilnica PASS; rapoarte20 PASS in ultima verificare. Commitul trebuie sa includa trailerul Codex. Verifica git log si HEAD vs origin/main pentru hash/starea finala; nu crea duplicate.

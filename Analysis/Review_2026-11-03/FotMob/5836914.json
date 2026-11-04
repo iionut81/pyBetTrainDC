@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "5836914",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836914",
+  "verified_at_utc": "2026-11-04T06:02:42.244Z",
+  "general": {
+    "matchId": "5836914",
+    "matchName": "Preston North End-vs-Sheffield United_Tue, Nov 3, 2026, 19:45 UTC",
+    "matchRound": "14",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1c549c",
+        "away": "#E30613"
+      },
+      "lightMode": {
+        "home": "#001850",
+        "away": "#E30613"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "Championship",
+    "leagueRoundName": "14",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Preston North End",
+      "id": 8411
+    },
+    "awayTeam": {
+      "name": "Sheffield United",
+      "id": 8657
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Nov 3, 2026, 19:45 UTC",
+    "matchTimeUTCDate": "2026-11-03T19:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-03T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "03.11.2026 20:45:24",
+      "firstHalfEnded": "03.11.2026 21:34:12",
+      "secondHalfStarted": "03.11.2026 21:50:48",
+      "secondHalfEnded": "03.11.2026 22:38:52",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.11.2026 22:38:52"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8411",
+      "name": "Preston North End",
+      "score": 2
+    },
+    {
+      "id": "8657",
+      "name": "Sheffield United",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 2,
+      "added": 0,
+      "display": "2",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 37,
+      "added": 0,
+      "display": "37",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      3,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

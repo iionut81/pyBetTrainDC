@@ -1,6 +1,6 @@
 #requires -Version 5.1
 [CmdletBinding()]
-param([switch]$PreviewOnly)
+param([switch]$PreviewOnly, [switch]$DesktopShortcut)
 $ErrorActionPreference = 'Stop'
 $projectDir = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 $indexFile = Join-Path $PSScriptRoot 'dist/index.html'
@@ -22,7 +22,12 @@ if ($existing) {
     finally { $existing.Dispose() }
 }
 $shortcutPath = Join-Path $PSScriptRoot 'Deschide PRED in Chrome.url'
+$desktopShortcutPath = Join-Path ([Environment]::GetFolderPath('Desktop')) 'PRED Dashboard - Chrome.url'
+if ($DesktopShortcut -and (Test-Path -LiteralPath $desktopShortcutPath) -and -not ([IO.File]::ReadAllText($desktopShortcutPath)).Contains('URL=pred-dashboard://open')) {
+    throw 'A different desktop shortcut already exists; refusing to replace it.'
+}
 $result = [ordered]@{protocol='pred-dashboard://open';chrome_exe=$chromeExe;index_file=$indexFile;index_uri=$fileUri;command=$command;shortcut=$shortcutPath;changes_default_browser=$false;accepts_uri_arguments=$false}
+if ($DesktopShortcut) { $result['desktop_shortcut'] = $desktopShortcutPath }
 if ($PreviewOnly) { $result | ConvertTo-Json; return }
 # A fixed Chrome executable and fixed dashboard URI. No %1 or user URL data
 # is interpolated into the command; other protocols/file associations are untouched.
@@ -38,6 +43,7 @@ try {
 } finally { $key.Dispose() }
 $shortcutText = "[InternetShortcut]`r`nURL=pred-dashboard://open`r`nIconFile=$chromeExe`r`nIconIndex=0`r`n"
 [IO.File]::WriteAllText($shortcutPath,$shortcutText,[Text.Encoding]::Unicode)
+if ($DesktopShortcut) { [IO.File]::WriteAllText($desktopShortcutPath,$shortcutText,[Text.Encoding]::Unicode) }
 $verify = [Microsoft.Win32.Registry]::CurrentUser.OpenSubKey($relativeKey+'\shell\open\command')
 try { if ($verify.GetValue('') -ne $command) { throw 'Protocol command verification failed.' } }
 finally { $verify.Dispose() }

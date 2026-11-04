@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "5943256",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943256",
+  "verified_at_utc": "2026-11-04T06:04:34.606Z",
+  "general": {
+    "matchId": "5943256",
+    "matchName": "Levadiakos-vs-Olympiacos_Sun, Sep 20, 2026, 14:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#4CAE6A",
+        "away": "#DC0D15"
+      },
+      "lightMode": {
+        "home": "#4CAE6A",
+        "away": "#DC0D15"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941071,
+    "leagueName": "Super League",
+    "leagueRoundName": "5",
+    "parentLeagueId": 135,
+    "countryCode": "GRE",
+    "homeTeam": {
+      "name": "Levadiakos",
+      "id": 4493
+    },
+    "awayTeam": {
+      "name": "Olympiacos",
+      "id": 8638
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-20T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 16:02:10",
+      "firstHalfEnded": "20.09.2026 16:47:11",
+      "secondHalfStarted": "20.09.2026 17:04:31",
+      "secondHalfEnded": "20.09.2026 17:53:33",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 17:53:33"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "4493",
+      "name": "Levadiakos",
+      "score": 0
+    },
+    {
+      "id": "8638",
+      "name": "Olympiacos",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      6
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      4,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

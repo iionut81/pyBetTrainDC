@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5868113",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868113",
+  "verified_at_utc": "2026-11-04T06:02:44.075Z",
+  "general": {
+    "matchId": "5868113",
+    "matchName": "Deportivo A Coruña-vs-Osasuna_Mon, Nov 2, 2026, 20:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#00599D",
+        "away": "#af1428"
+      },
+      "lightMode": {
+        "home": "#00599D",
+        "away": "#af1428"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "11",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Deportivo A Coruña",
+      "id": 9783
+    },
+    "awayTeam": {
+      "name": "Osasuna",
+      "id": 8371
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Nov 2, 2026, 20:00 UTC",
+    "matchTimeUTCDate": "2026-11-02T20:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-02T20:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.11.2026 21:02:59",
+      "firstHalfEnded": "02.11.2026 21:49:38",
+      "secondHalfStarted": "02.11.2026 22:06:15",
+      "secondHalfEnded": "02.11.2026 22:54:49",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.11.2026 22:54:49"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9783",
+      "name": "Deportivo A Coruña",
+      "score": 2
+    },
+    {
+      "id": "8371",
+      "name": "Osasuna",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 64,
+      "added": 0,
+      "display": "64",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      8,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

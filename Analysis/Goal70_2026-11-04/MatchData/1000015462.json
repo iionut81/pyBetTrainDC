@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "id": "1000015462",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015462",
+  "verified_at_utc": "2026-11-04T06:04:46.101Z",
+  "general": {
+    "matchId": "1000015462",
+    "matchName": "K. Lierse SK-vs-FC Liège_Sun, Sep 6, 2026, 14:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FEE500",
+        "away": "#00507a"
+      },
+      "lightMode": {
+        "home": "#dc9f00",
+        "away": "#012F57"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 264,
+    "leagueName": "Belgian Challenger Pro League",
+    "leagueRoundName": "4",
+    "parentLeagueId": 264,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "K. Lierse SK",
+      "id": 465631
+    },
+    "awayTeam": {
+      "name": "FC Liège",
+      "id": 6363
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-06T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 16:03:25",
+      "firstHalfEnded": "06.09.2026 16:49:28",
+      "secondHalfStarted": "06.09.2026 17:06:08",
+      "secondHalfEnded": "06.09.2026 17:54:11",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 17:54:11"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "465631",
+      "name": "K. Lierse SK",
+      "score": 0
+    },
+    {
+      "id": "6363",
+      "name": "FC Liège",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": [
+      2,
+      7
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      5,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

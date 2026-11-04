@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "5881180",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881180",
+  "verified_at_utc": "2026-11-04T06:04:22.896Z",
+  "general": {
+    "matchId": "5881180",
+    "matchName": "Borussia Dortmund-vs-Werder Bremen_Fri, Oct 9, 2026, 18:30 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFD900",
+        "away": "#009655"
+      },
+      "lightMode": {
+        "home": "#d8a000",
+        "away": "#007642"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 54,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "5",
+    "parentLeagueId": 54,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Borussia Dortmund",
+      "id": 9789
+    },
+    "awayTeam": {
+      "name": "Werder Bremen",
+      "id": 8697
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 9, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-10-09T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-09T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.10.2026 20:30:19",
+      "firstHalfEnded": "09.10.2026 21:18:47",
+      "secondHalfStarted": "09.10.2026 21:35:07",
+      "secondHalfEnded": "09.10.2026 22:28:00",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.10.2026 22:28:00"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9789",
+      "name": "Borussia Dortmund",
+      "score": 2
+    },
+    {
+      "id": "8697",
+      "name": "Werder Bremen",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 85,
+      "added": 0,
+      "display": "85",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      6,
+      2
+    ],
+    "All": [
+      9,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

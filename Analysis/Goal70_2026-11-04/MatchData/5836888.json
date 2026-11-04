@@ -1,0 +1,134 @@
+{
+  "ok": true,
+  "id": "5836888",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836888",
+  "verified_at_utc": "2026-11-04T06:04:39.450Z",
+  "general": {
+    "matchId": "5836888",
+    "matchName": "Cardiff City-vs-Birmingham City_Sat, Oct 24, 2026, 14:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#005CAA",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#005CAA",
+        "away": "#f4192e"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "English Football League - Championship",
+    "leagueRoundName": "12",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Cardiff City",
+      "id": 8344
+    },
+    "awayTeam": {
+      "name": "Birmingham City",
+      "id": 8658
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 24, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-24T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-24T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.10.2026 16:03:01",
+      "firstHalfEnded": "24.10.2026 16:49:10",
+      "secondHalfStarted": "24.10.2026 17:05:26",
+      "secondHalfEnded": "24.10.2026 17:55:16",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.10.2026 17:55:16"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8344",
+      "name": "Cardiff City",
+      "score": 1
+    },
+    {
+      "id": "8658",
+      "name": "Birmingham City",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      3,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

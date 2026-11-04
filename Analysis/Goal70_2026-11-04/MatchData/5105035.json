@@ -1,0 +1,181 @@
+{
+  "ok": true,
+  "id": "5105035",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5105035",
+  "verified_at_utc": "2026-11-04T06:04:33.584Z",
+  "general": {
+    "matchId": "5105035",
+    "matchName": "Bodø/Glimt-vs-Viking_Fri, Oct 30, 2026, 18:00 UTC",
+    "matchRound": "25",
+    "teamColors": {
+      "darkMode": {
+        "home": "#f8dc03",
+        "away": "#244d89"
+      },
+      "lightMode": {
+        "home": "#e09d00",
+        "away": "#132847"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "25",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Bodø/Glimt",
+      "id": 8402
+    },
+    "awayTeam": {
+      "name": "Viking",
+      "id": 8478
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 30, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-10-30T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-30T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.10.2026 19:00:59",
+      "firstHalfEnded": "30.10.2026 19:51:07",
+      "secondHalfStarted": "30.10.2026 20:06:55",
+      "secondHalfEnded": "30.10.2026 20:59:08",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.10.2026 20:59:08"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8402",
+      "name": "Bodø/Glimt",
+      "score": 3
+    },
+    {
+      "id": "8478",
+      "name": "Viking",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "home",
+      "minute": 15,
+      "added": 0,
+      "display": "15",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 39,
+      "added": 0,
+      "display": "39",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 13,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

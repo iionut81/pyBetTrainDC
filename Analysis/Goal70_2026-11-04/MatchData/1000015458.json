@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "1000015458",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015458",
+  "verified_at_utc": "2026-11-04T06:04:45.918Z",
+  "general": {
+    "matchId": "1000015458",
+    "matchName": "RFC Seraing-vs-K. Lierse SK_Sun, Aug 30, 2026, 17:15 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D41A27",
+        "away": "#FEE500"
+      },
+      "lightMode": {
+        "home": "#D41A27",
+        "away": "#dc9f00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 264,
+    "leagueName": "Belgian Challenger Pro League",
+    "leagueRoundName": "3",
+    "parentLeagueId": 264,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "RFC Seraing",
+      "id": 149408
+    },
+    "awayTeam": {
+      "name": "K. Lierse SK",
+      "id": 465631
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 17:15 UTC",
+    "matchTimeUTCDate": "2026-08-30T17:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T17:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 19:16:31",
+      "firstHalfEnded": "30.08.2026 20:07:14",
+      "secondHalfStarted": "30.08.2026 20:22:43",
+      "secondHalfEnded": "30.08.2026 21:12:51",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 21:12:51"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "149408",
+      "name": "RFC Seraing",
+      "score": 1
+    },
+    {
+      "id": "465631",
+      "name": "K. Lierse SK",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 15,
+      "added": 0,
+      "display": "15",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      0
+    ],
+    "All": [
+      4,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 21,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 28,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

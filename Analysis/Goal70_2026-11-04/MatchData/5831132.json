@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "5831132",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831132",
+  "verified_at_utc": "2026-11-04T06:04:36.284Z",
+  "general": {
+    "matchId": "5831132",
+    "matchName": "FC Zlin-vs-Bohemians 1905_Sat, Aug 8, 2026, 15:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FEC700",
+        "away": "#00834A"
+      },
+      "lightMode": {
+        "home": "#dd9e00",
+        "away": "#00834A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "3",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "FC Zlin",
+      "id": 1860
+    },
+    "awayTeam": {
+      "name": "Bohemians 1905",
+      "id": 1670
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 8, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-08-08T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-08T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.08.2026 17:00:37",
+      "firstHalfEnded": "08.08.2026 17:49:11",
+      "secondHalfStarted": "08.08.2026 18:04:15",
+      "secondHalfEnded": "08.08.2026 18:54:21",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.08.2026 18:54:21"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1860",
+      "name": "FC Zlin",
+      "score": 0
+    },
+    {
+      "id": "1670",
+      "name": "Bohemians 1905",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 9,
+      "added": 0,
+      "display": "9"
+    },
+    {
+      "side": "away",
+      "minute": 73,
+      "added": 0,
+      "display": "73"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      4,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

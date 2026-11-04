@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-11-04T08:28:16.146Z",
+  "checks": [
+    "Porto goal modal links to its own report, with the day report separate",
+    "Actual opened page is Porto goal report, without PSV analysis",
+    "Porto report contains saved inputs and ten observations for each team",
+    "Context limits and missingness explicitly disclosed",
+    "Match report is usable on mobile without page overflow",
+    "Same fixture corner report has a distinct market-specific link",
+    "Archived user choice also opens its own match report",
+    "History date differs from main date and both failed goal links use the history date",
+    "Each failed goal row retains a separate result source",
+    "Lyngby history click opens its own failed Gol70 report",
+    "Lyngby history click opens its own failed Gol70 report includes saved day review",
+    "Bodo history click opens its own goalless report",
+    "Bodo history click opens its own goalless report includes saved day review",
+    "User choice card exposes its own report and result source",
+    "Corner fail filter routes both matches to their archived corner reports",
+    "Watford history click opens failed ten-corner report",
+    "Watford history click opens failed ten-corner report includes saved day review",
+    "Changing history date updates the explicit user choice report",
+    "Every archived history row in both markets resolves to its own match report",
+    "History reports and user choice action remain available on mobile without page overflow"
+  ],
+  "exceptionCount": 0,
+  "scope": "all128 reports/links and archive invariants; dashboard and history actual clicks; archived failures/choices/date/market/source routing; mobile"
+}

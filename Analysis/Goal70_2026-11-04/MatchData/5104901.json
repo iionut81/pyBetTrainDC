@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5104901",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104901",
+  "verified_at_utc": "2026-11-04T06:04:32.042Z",
+  "general": {
+    "matchId": "5104901",
+    "matchName": "KFUM-vs-Viking_Sun, May 10, 2026, 15:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E60000",
+        "away": "#244d89"
+      },
+      "lightMode": {
+        "home": "#E60000",
+        "away": "#132847"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "8",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "KFUM",
+      "id": 2305
+    },
+    "awayTeam": {
+      "name": "Viking",
+      "id": 8478
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, May 10, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-05-10T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-10T15:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.05.2026 17:01:12",
+      "firstHalfEnded": "10.05.2026 17:51:31",
+      "secondHalfStarted": "10.05.2026 18:08:14",
+      "secondHalfEnded": "10.05.2026 18:56:28",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.05.2026 18:56:28"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2305",
+      "name": "KFUM",
+      "score": 0
+    },
+    {
+      "id": "8478",
+      "name": "Viking",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 2,
+      "added": 0,
+      "display": "2",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      4
+    ],
+    "SecondHalf": [
+      0,
+      2
+    ],
+    "All": [
+      4,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 42,
+      "card": "YellowRed",
+      "isHome": true
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "id": "5881212",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881212",
+  "verified_at_utc": "2026-11-04T06:04:29.030Z",
+  "general": {
+    "matchId": "5881212",
+    "matchName": "Schalke 04-vs-RB Leipzig_Sat, Oct 31, 2026, 14:30 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0942ad",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#083890",
+        "away": "#DD0741"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 54,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 54,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Schalke 04",
+      "id": 10189
+    },
+    "awayTeam": {
+      "name": "RB Leipzig",
+      "id": 178475
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 31, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-10-31T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-31T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "31.10.2026 15:30:50",
+      "firstHalfEnded": "31.10.2026 16:19:56",
+      "secondHalfStarted": "31.10.2026 16:36:43",
+      "secondHalfEnded": "31.10.2026 17:24:12",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "31.10.2026 17:24:12"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10189",
+      "name": "Schalke 04",
+      "score": 0
+    },
+    {
+      "id": "178475",
+      "name": "RB Leipzig",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 37,
+      "added": 0,
+      "display": "37",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 78,
+      "added": 0,
+      "display": "78",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      5
+    ],
+    "All": [
+      3,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

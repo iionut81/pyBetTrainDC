@@ -1,5 +1,12 @@
 # PRED Research Terminal — dashboard local cu istoric
 
+Radarul compara cele doua piete, cu piata ACTIVA pe axa verticala si cealalta
+pe axa orizontala: pe tabul Gol, PSV este la94,85% pe verticala; pe tabul cornere,
+Kortrijk este la95,78%. Etichetele axelor se schimba la selectia pietei. Evidentierea,
+eticheta si analiza deschisa urmeaza piata activa. Pentru acea piata sunt
+prioritare alegerile explicite ale utilizatorului, apoi candidatii analistului.
+Butoanele Gol70/Cornere de deasupra radarului si cele din tabel sunt sincronizate.
+
 Deschidere directa in Chrome: `pred-dashboard://open`. Handler Windows per-user
 instalat la cererea utilizatorului, fara modificarea browserului implicit.
 Comanda sa are numai executabilul Chrome si calea fixa a acestui index; nu
@@ -9,6 +16,12 @@ preia argumente din URI. Test real: titlul ferestrei este
 Shortcut Explorer: `Deschide PRED in Chrome.url`. Daca aplicatia de chat
 blocheaza linkurile cu scheme personalizate, foloseste acest shortcut din
 Explorer. Linkul obisnuit spre HTML poate continua sa fie deschis in editor.
+La cererea utilizatorului exista si shortcutul Desktop `PRED Dashboard - Chrome.url`,
+creat cu `install-chrome-link.ps1 -DesktopShortcut`. Dublu-click in Desktop/Explorer
+a fost verificat: deschide direct Chrome. Clickul pe fisier in IDE poate deschide
+continutul lui ca text; acest comportament apartine editorului.
+Linkurile HTML afisate trebuie sa inceapa exact cu `C:/Users/...`, fara `/`
+initial. Nu folosi forma cu backslash in mesajele catre utilizator.
 La mutarea pe alt calculator/folder ruleaza `install-chrome-link.ps1` acolo;
 `-PreviewOnly` arata exact handlerul fara instalare. Instalarea refuza
 inlocuirea unui protocol detinut de alta aplicatie. Detalii locale in
@@ -89,6 +102,26 @@ Procedura zilnica si schema rezultatelor sunt descrise in
 `Analysis/Selection_History/DAILY_WORKFLOW.md`. Procentele prospective si
 estimarea salvata la alegere nu se suprascriu la aflarea rezultatului.
 Un conflict de rezultat intre jurnal si dovezi opreste construirea.
+
+Din 4 noiembrie, fiecare fisa deschide `Raportul meciului`, o pagina HTML
+proprie pentru data, partida si piata selectate. `Raportul zilei` este un
+link separat. Build-ul genereaza automat `dist/reports/DATE/goal|corner/ID.html`
+din snapshoturile, intrarile si istoricul deja salvate; nu executa research
+si nu modifica predictiile. Raportul declara limitele contextuale, datele
+lipsa si distinctia screening/estimare finala/rezultat. Istoricul afisat
+foloseste numai observatii anterioare momentului predictiei.
+
+In Istoric, numele partidei si linkul `Raportul meciului` deschid acelasi
+raport dedicat pentru ziua si piata alese IN ISTORIC, independent de data
+principala a dashboardului. Cardurile alegerilor utilizatorului au acelasi
+acces. `Sursa rezultatului` ramane separata. Rapoartele arhivate includ linkul
+catre review-ul zilei, daca exista; concluziile ulterioare nu modifica predictia.
+
+Verificare pentru rapoarte, legaturi locale, integritatea arhivei si click real:
+
+```powershell
+node .\Previews\Pred_Research_Terminal\check-match-reports.mjs
+```
 
 Capturi reale din browser: `preview-desktop.png`, `preview-mobile.png`,
 `preview-history.png`, `preview-validation.png`. Verificarile functionale

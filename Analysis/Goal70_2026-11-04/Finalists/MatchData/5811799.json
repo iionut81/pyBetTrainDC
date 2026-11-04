@@ -1,0 +1,179 @@
+{
+  "ok": true,
+  "id": "5811799",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811799",
+  "verified_at_utc": "2026-11-04T06:07:58.027Z",
+  "general": {
+    "matchId": "5811799",
+    "matchName": "Zulte Waregem-vs-Club Brugge_Fri, Oct 30, 2026, 19:45 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#d7011d",
+        "away": "#006ad5"
+      },
+      "lightMode": {
+        "home": "#ba011a",
+        "away": "#0572FF"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "10",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Zulte Waregem",
+      "id": 10000
+    },
+    "awayTeam": {
+      "name": "Club Brugge",
+      "id": 8342
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 30, 2026, 19:45 UTC",
+    "matchTimeUTCDate": "2026-10-30T19:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-30T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.10.2026 20:46:24",
+      "firstHalfEnded": "30.10.2026 21:39:35",
+      "secondHalfStarted": "30.10.2026 21:55:09",
+      "secondHalfEnded": "30.10.2026 22:42:55",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.10.2026 22:42:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10000",
+      "name": "Zulte Waregem",
+      "score": 2
+    },
+    {
+      "id": "8342",
+      "name": "Club Brugge",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 59,
+      "added": 0,
+      "display": "59",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 34,
+      "added": 0,
+      "display": "34",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 36,
+      "added": 0,
+      "display": "36",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      8
+    ],
+    "SecondHalf": [
+      1,
+      6
+    ],
+    "All": [
+      2,
+      14
+    ]
+  },
+  "cards": [
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

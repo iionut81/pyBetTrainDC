@@ -1,0 +1,197 @@
+{
+  "ok": true,
+  "id": "6106251",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6106251",
+  "verified_at_utc": "2026-11-04T06:07:58.592Z",
+  "general": {
+    "matchId": "6106251",
+    "matchName": "Inter-vs-Club Brugge_Tue, Oct 13, 2026, 19:00 UTC",
+    "matchRound": "League Stage - Round 2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0039d0",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#010E80",
+        "away": "#0572FF"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 42,
+    "leagueName": "UEFA Champions League",
+    "leagueRoundName": "League Stage - Round 2",
+    "parentLeagueId": 42,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Inter",
+      "id": 8636
+    },
+    "awayTeam": {
+      "name": "Club Brugge",
+      "id": 8342
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Oct 13, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-13T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-13T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.10.2026 21:00:50",
+      "firstHalfEnded": "13.10.2026 21:47:21",
+      "secondHalfStarted": "13.10.2026 22:03:57",
+      "secondHalfEnded": "13.10.2026 22:56:12",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.10.2026 22:56:12"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8636",
+      "name": "Inter",
+      "score": 3
+    },
+    {
+      "id": "8342",
+      "name": "Club Brugge",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 44,
+      "added": 0,
+      "display": "44",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 81,
+      "added": 0,
+      "display": "81",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 30,
+      "added": 0,
+      "display": "30",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 39,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

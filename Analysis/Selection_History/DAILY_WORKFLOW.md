@@ -9,6 +9,18 @@ Nu cere un nou prompt, cote, lista de meciuri sau confirmarea inceperii.
 
 ## Analiza si inregistrare
 
+Ordine obligatorie din5 noiembrie2026, clarificata explicit la4 noiembrie:
+INAINTE de scanarea meciurilor curente, verifica rezultatele precedente,
+analizeaza succesele/esecurile si reusitele la limita fata de predictiile
+originale, apoi salveaza REVIEW.md si LESSONS_FOR_NEXT_SCAN.md in directorul
+Review al zilei analizate. Lectiile includ dovezi, semnale cunoscute anterior,
+cauze necunoscute, ipoteze de testat si verificari concrete pentru noul research.
+Citeste si lectiile relevante acumulate. Abia apoi urmeaza pasii de research
+de mai jos. Noul raport explica, cu dovezi, ce lectii au fost aplicate.
+Timestampurile predarii review-ului si inceperii scanarii raman in run_report.
+Daca exista lipsuri, salveaza review partial si limitele inainte de scanare;
+nu inventa rezultate sau cauze. Fara schimbari automate de model/procente.
+
 1. Citeste AGENTS.md, CLAUDE.md si promptul master. Pastreaza metoda Gol70 si
    cornere 1H, acoperirea integrala convenita, contextul finalistelor, sursele,
    excluderile si datele lipsa. Nu opri cercetarea la primul meci acceptabil.

@@ -1,0 +1,174 @@
+{
+  "ok": true,
+  "id": "5836870",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836870",
+  "verified_at_utc": "2026-11-04T06:04:40.162Z",
+  "general": {
+    "matchId": "5836870",
+    "matchName": "Lincoln City-vs-West Ham United_Wed, Oct 14, 2026, 19:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F80000",
+        "away": "#8B3249"
+      },
+      "lightMode": {
+        "home": "#F80000",
+        "away": "#7B2B3A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "Championship",
+    "leagueRoundName": "10",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Lincoln City",
+      "id": 8430
+    },
+    "awayTeam": {
+      "name": "West Ham United",
+      "id": 8654
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Oct 14, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-14T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-14T19:00:00.000Z",
+    "numberOfHomeRedCards": 2,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "14.10.2026 21:00:09",
+      "firstHalfEnded": "14.10.2026 21:48:19",
+      "secondHalfStarted": "14.10.2026 22:04:27",
+      "secondHalfEnded": "14.10.2026 22:52:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.10.2026 22:52:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 6",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8430",
+      "name": "Lincoln City",
+      "score": 0
+    },
+    {
+      "id": "8654",
+      "name": "West Ham United",
+      "score": 6
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 48,
+      "added": 0,
+      "display": "48",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      6
+    ],
+    "SecondHalf": [
+      1,
+      5
+    ],
+    "All": [
+      3,
+      11
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 23,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

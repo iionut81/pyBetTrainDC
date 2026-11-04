@@ -1,0 +1,124 @@
+{
+  "ok": true,
+  "id": "6106335",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6106335",
+  "verified_at_utc": "2026-11-04T06:02:41.251Z",
+  "general": {
+    "matchId": "6106335",
+    "matchName": "Shakhtar Donetsk-vs-Sporting CP_Tue, Nov 3, 2026, 17:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ff8f2e",
+        "away": "#106840"
+      },
+      "lightMode": {
+        "home": "#F0602B",
+        "away": "#106840"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943230,
+    "leagueName": "Champions League",
+    "leagueRoundName": "4",
+    "parentLeagueId": 42,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Shakhtar Donetsk",
+      "id": 9728
+    },
+    "awayTeam": {
+      "name": "Sporting CP",
+      "id": 9768
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Nov 3, 2026, 17:45 UTC",
+    "matchTimeUTCDate": "2026-11-03T17:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-03T17:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "03.11.2026 18:46:01",
+      "firstHalfEnded": "03.11.2026 19:31:15",
+      "secondHalfStarted": "03.11.2026 19:47:55",
+      "secondHalfEnded": "03.11.2026 20:36:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.11.2026 20:36:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9728",
+      "name": "Shakhtar Donetsk",
+      "score": 0
+    },
+    {
+      "id": "9768",
+      "name": "Sporting CP",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 59,
+      "added": 0,
+      "display": "59",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      7,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

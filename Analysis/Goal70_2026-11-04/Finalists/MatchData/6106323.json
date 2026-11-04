@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "6106323",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6106323",
+  "verified_at_utc": "2026-11-04T06:07:58.756Z",
+  "general": {
+    "matchId": "6106323",
+    "matchName": "RB Leipzig-vs-PSV Eindhoven_Tue, Oct 13, 2026, 19:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFFFFF",
+        "away": "#E00000"
+      },
+      "lightMode": {
+        "home": "#DD0741",
+        "away": "#001020"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943230,
+    "leagueName": "Champions League",
+    "leagueRoundName": "2",
+    "parentLeagueId": 42,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "RB Leipzig",
+      "id": 178475
+    },
+    "awayTeam": {
+      "name": "PSV Eindhoven",
+      "id": 8640
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Oct 13, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-13T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-13T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.10.2026 21:01:48",
+      "firstHalfEnded": "13.10.2026 21:49:02",
+      "secondHalfStarted": "13.10.2026 22:05:50",
+      "secondHalfEnded": "13.10.2026 22:55:20",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.10.2026 22:55:20"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "178475",
+      "name": "RB Leipzig",
+      "score": 1
+    },
+    {
+      "id": "8640",
+      "name": "PSV Eindhoven",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      6
+    ],
+    "SecondHalf": [
+      4,
+      6
+    ],
+    "All": [
+      6,
+      12
+    ]
+  },
+  "cards": [
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

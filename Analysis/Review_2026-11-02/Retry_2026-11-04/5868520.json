@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5868520",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868520",
+  "verified_at_utc": "2026-11-04T06:02:43.772Z",
+  "general": {
+    "matchId": "5868520",
+    "matchName": "Mallorca-vs-Cádiz_Mon, Nov 2, 2026, 20:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E20613",
+        "away": "#fde607"
+      },
+      "lightMode": {
+        "home": "#c2071f",
+        "away": "#1868B0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "12",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Mallorca",
+      "id": 8661
+    },
+    "awayTeam": {
+      "name": "Cádiz",
+      "id": 8385
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Nov 2, 2026, 20:00 UTC",
+    "matchTimeUTCDate": "2026-11-02T20:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-02T20:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.11.2026 21:03:39",
+      "firstHalfEnded": "02.11.2026 21:49:40",
+      "secondHalfStarted": "02.11.2026 22:06:10",
+      "secondHalfEnded": "02.11.2026 22:57:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.11.2026 22:57:17"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8661",
+      "name": "Mallorca",
+      "score": 2
+    },
+    {
+      "id": "8385",
+      "name": "Cádiz",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      0
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      10,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 5,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5836817",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836817",
+  "verified_at_utc": "2026-11-04T06:04:39.032Z",
+  "general": {
+    "matchId": "5836817",
+    "matchName": "Cardiff City-vs-Stoke City_Tue, Sep 8, 2026, 18:45 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#005CAA",
+        "away": "#D7172F"
+      },
+      "lightMode": {
+        "home": "#005CAA",
+        "away": "#D7172F"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "Championship",
+    "leagueRoundName": "6",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Cardiff City",
+      "id": 8344
+    },
+    "awayTeam": {
+      "name": "Stoke City",
+      "id": 10194
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Sep 8, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-08T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-08T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.09.2026 20:45:05",
+      "firstHalfEnded": "08.09.2026 21:31:07",
+      "secondHalfStarted": "08.09.2026 21:46:32",
+      "secondHalfEnded": "08.09.2026 22:34:44",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.09.2026 22:34:44"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8344",
+      "name": "Cardiff City",
+      "score": 1
+    },
+    {
+      "id": "10194",
+      "name": "Stoke City",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      4
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      7,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

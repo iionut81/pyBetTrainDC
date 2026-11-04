@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "6106297",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6106297",
+  "verified_at_utc": "2026-11-04T06:07:58.215Z",
+  "general": {
+    "matchId": "6106297",
+    "matchName": "Club Brugge-vs-Lens_Wed, Oct 21, 2026, 19:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#006ad5",
+        "away": "#FFCE00"
+      },
+      "lightMode": {
+        "home": "#0572FF",
+        "away": "#d89f00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943230,
+    "leagueName": "Champions League",
+    "leagueRoundName": "3",
+    "parentLeagueId": 42,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Club Brugge",
+      "id": 8342
+    },
+    "awayTeam": {
+      "name": "Lens",
+      "id": 8588
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Oct 21, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-21T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-21T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "21.10.2026 21:00:44",
+      "firstHalfEnded": "21.10.2026 21:49:35",
+      "secondHalfStarted": "21.10.2026 22:05:00",
+      "secondHalfEnded": "21.10.2026 22:52:14",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "21.10.2026 22:52:14"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8342",
+      "name": "Club Brugge",
+      "score": 3
+    },
+    {
+      "id": "8588",
+      "name": "Lens",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 3,
+      "display": "45+3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 72,
+      "added": 0,
+      "display": "72",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      3
+    ],
+    "All": [
+      1,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

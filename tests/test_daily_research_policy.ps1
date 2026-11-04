@@ -14,6 +14,10 @@ foreach ($case in $cases) {
     if ($actual -ne $case.expected) { throw "Decision mismatch at $($case.at): $actual, expected $($case.expected)" }
 }
 $zone = [TimeZoneInfo]::FindSystemTimeZoneById('GTB Standard Time')
+foreach ($status in @('delivered','queued','pending','failed')) {
+    $expectedRetry = $status -in @('pending','failed')
+    if ((Test-PredChatNeedsRetry -Status $status) -ne $expectedRetry) { throw "Invalid delivery retry decision for $status" }
+}
 foreach ($utc in @('2026-11-04T06:00:00Z','2027-07-01T05:00:00Z')) {
     $ro = [TimeZoneInfo]::ConvertTimeFromUtc(([datetime]::Parse($utc)).ToUniversalTime(),$zone)
     if ($ro.Hour -ne 8) { throw "Romanian DST/time-zone conversion failed: $utc" }

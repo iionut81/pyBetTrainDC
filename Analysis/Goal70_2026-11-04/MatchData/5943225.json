@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5943225",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943225",
+  "verified_at_utc": "2026-11-04T06:04:19.574Z",
+  "general": {
+    "matchId": "5943225",
+    "matchName": "AEK Athens-vs-Iraklis_Sat, Aug 22, 2026, 17:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FED300",
+        "away": "#214790"
+      },
+      "lightMode": {
+        "home": "#d99f00",
+        "away": "#214790"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941071,
+    "leagueName": "Super League",
+    "leagueRoundName": "1",
+    "parentLeagueId": 135,
+    "countryCode": "GRE",
+    "homeTeam": {
+      "name": "AEK Athens",
+      "id": 8563
+    },
+    "awayTeam": {
+      "name": "Iraklis",
+      "id": 8675
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-08-22T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 19:00:53",
+      "firstHalfEnded": "22.08.2026 19:48:05",
+      "secondHalfStarted": "22.08.2026 20:05:26",
+      "secondHalfEnded": "22.08.2026 20:56:46",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 20:56:46"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8563",
+      "name": "AEK Athens",
+      "score": 4
+    },
+    {
+      "id": "8675",
+      "name": "Iraklis",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      5,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

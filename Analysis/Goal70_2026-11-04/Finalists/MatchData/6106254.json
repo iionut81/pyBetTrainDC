@@ -1,0 +1,164 @@
+{
+  "ok": true,
+  "id": "6106254",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6106254",
+  "verified_at_utc": "2026-11-04T06:08:01.619Z",
+  "general": {
+    "matchId": "6106254",
+    "matchName": "Manchester City-vs-Paris Saint-Germain_Wed, Oct 14, 2026, 19:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#76b4e5",
+        "away": "#245593"
+      },
+      "lightMode": {
+        "home": "#69A8D8",
+        "away": "#273F6D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943230,
+    "leagueName": "Champions League",
+    "leagueRoundName": "2",
+    "parentLeagueId": 42,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Manchester City",
+      "id": 8456
+    },
+    "awayTeam": {
+      "name": "Paris Saint-Germain",
+      "id": 9847
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Oct 14, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-14T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-14T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "14.10.2026 21:03:23",
+      "firstHalfEnded": "14.10.2026 21:50:27",
+      "secondHalfStarted": "14.10.2026 22:06:01",
+      "secondHalfEnded": "14.10.2026 22:55:11",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.10.2026 22:55:11"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8456",
+      "name": "Manchester City",
+      "score": 2
+    },
+    {
+      "id": "9847",
+      "name": "Paris Saint-Germain",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 15,
+      "added": 0,
+      "display": "15",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      0
+    ],
+    "All": [
+      11,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

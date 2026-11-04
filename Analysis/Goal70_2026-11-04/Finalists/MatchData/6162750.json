@@ -1,0 +1,165 @@
+{
+  "ok": true,
+  "id": "6162750",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6162750",
+  "verified_at_utc": "2026-11-04T06:08:00.760Z",
+  "general": {
+    "matchId": "6162750",
+    "matchName": "RW Essen-vs-RB Leipzig_Tue, Oct 27, 2026, 17:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E00000",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#E00000",
+        "away": "#001038"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 936417,
+    "leagueName": "DFB Pokal",
+    "leagueRoundName": "2",
+    "parentLeagueId": 209,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "RW Essen",
+      "id": 8296
+    },
+    "awayTeam": {
+      "name": "RB Leipzig",
+      "id": 178475
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Oct 27, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-10-27T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-27T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "27.10.2026 18:00:51",
+      "firstHalfEnded": "27.10.2026 18:48:03",
+      "secondHalfStarted": "27.10.2026 19:04:07",
+      "secondHalfEnded": "27.10.2026 19:55:30",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "27.10.2026 19:55:30"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8296",
+      "name": "RW Essen",
+      "score": 1
+    },
+    {
+      "id": "178475",
+      "name": "RB Leipzig",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 9,
+      "added": 0,
+      "display": "9",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 78,
+      "added": 0,
+      "display": "78",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      5
+    ],
+    "All": [
+      5,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 44,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

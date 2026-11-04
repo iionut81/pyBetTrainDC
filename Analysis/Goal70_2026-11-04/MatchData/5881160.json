@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5881160",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881160",
+  "verified_at_utc": "2026-11-04T06:04:28.621Z",
+  "general": {
+    "matchId": "5881160",
+    "matchName": "Werder Bremen-vs-RB Leipzig_Sat, Sep 5, 2026, 13:30 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#009655",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#007642",
+        "away": "#DD0741"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 54,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "2",
+    "parentLeagueId": 54,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Werder Bremen",
+      "id": 8697
+    },
+    "awayTeam": {
+      "name": "RB Leipzig",
+      "id": 178475
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 13:30 UTC",
+    "matchTimeUTCDate": "2026-09-05T13:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T13:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 15:31:48",
+      "firstHalfEnded": "05.09.2026 16:20:07",
+      "secondHalfStarted": "05.09.2026 16:37:17",
+      "secondHalfEnded": "05.09.2026 17:28:57",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 17:28:57"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8697",
+      "name": "Werder Bremen",
+      "score": 3
+    },
+    {
+      "id": "178475",
+      "name": "RB Leipzig",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 5,
+      "display": "90+5",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      2,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

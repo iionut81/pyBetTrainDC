@@ -19,6 +19,16 @@ gol sau HTTP 400 nu dovedeste singur ca liga nu are partide.
 
 ## Scop si continuitate
 
+Clarificare4 noiembrie2026, aplicabila din5 noiembrie: inaintea scanarii si
+pickurilor noi urmeaza obligatoriu review-ul rezultatelor, analiza succeselor,
+esecurilor si reusitelor la limita fata de snapshoturile prospective, apoi
+salvarea lectiilor verificabile si a limitelor in
+Analysis/Review_YYYY-MM-DD/LESSONS_FOR_NEXT_SCAN.md (data predictiilor revizuite).
+Researchul zilei curente citeste aceste lectii si documenteaza verificarile
+concrete aplicate candidatilor. Detalii si ordinea in
+automation/daily_research_prompt.md. Nu modifica automat ponderi, procente,
+calibrare sau filtre dupa rezultate; ipotezele necesita testare separata.
+
 Actualizare de functionare confirmata la 3 noiembrie: urmeaza
 `Analysis/Selection_History/DAILY_WORKFLOW.md`. Salveaza fiecare zi si toate
 listele analizate, actualizeaza alegerile declarate de utilizator (inclusiv

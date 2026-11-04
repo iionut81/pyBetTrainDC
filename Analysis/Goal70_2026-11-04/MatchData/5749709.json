@@ -1,0 +1,124 @@
+{
+  "ok": true,
+  "id": "5749709",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749709",
+  "verified_at_utc": "2026-11-04T06:04:25.107Z",
+  "general": {
+    "matchId": "5749709",
+    "matchName": "Venezia-vs-Napoli_Sat, Oct 17, 2026, 13:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#006127",
+        "away": "#12A0D7"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#12A0D7"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "7",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Venezia",
+      "id": 7881
+    },
+    "awayTeam": {
+      "name": "Napoli",
+      "id": 9875
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 17, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-10-17T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-17T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.10.2026 15:01:10",
+      "firstHalfEnded": "17.10.2026 15:49:17",
+      "secondHalfStarted": "17.10.2026 16:04:19",
+      "secondHalfEnded": "17.10.2026 16:53:31",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.10.2026 16:53:31"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7881",
+      "name": "Venezia",
+      "score": 1
+    },
+    {
+      "id": "9875",
+      "name": "Napoli",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      5
+    ],
+    "SecondHalf": [
+      0,
+      7
+    ],
+    "All": [
+      0,
+      12
+    ]
+  },
+  "cards": [
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

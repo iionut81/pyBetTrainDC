@@ -5,6 +5,19 @@ GOAL_BY_70 and CORNERS_1H_UNDER_7_5, also read
 `Prompts/Football_Goal70_Corners1H_Master.md` before researching or ranking.
 The explicit user instructions in the conversation take priority over older prompts.
 
+- Conversation continuity explicitly requested 2026-11-03: at the beginning of
+  a new or resumed session read `Analysis/SESSION_RESUME.md`, then the latest
+  daily journal and canonical selections/results. After each user exchange,
+  save the request, decisions, changes, uncertainties and next step in the daily
+  journal; update the resume note when state changes. Synchronize locally
+  available visible messages with `node automation/export_project_conversation.mjs`.
+  This is project memory, separate from the app's chat history. Never claim a
+  complete transcript or access to other chats/computers without evidence.
+  Private transcript exports live in Analysis/Conversation_History/transcripts/
+  and are ignored by Git; do not publish them to the public repository without
+  explicit new authorization. Do not export hidden reasoning, system/developer
+  instructions, tool records, tokens or passwords.
+
 - Research autonomously across all leagues with usable history. Record coverage,
   exclusions and missing data before choosing finalists. Do not stop after finding
   the first acceptable match, and do not call a partial search a global daily top.
@@ -64,6 +77,18 @@ The explicit user instructions in the conversation take priority over older prom
   or `-Fail` only for verified outcomes, otherwise pending/postponed/void.
   Never turn an analyst candidate into a user choice automatically. Scheduling
   does not authorize bets, stakes, external messages, commits or model changes.
+- Order clarified 2026-11-04, effective 2026-11-05 onward: BEFORE starting
+  today's fixture scan/research or selecting picks, verify previous outcomes,
+  compare original prospective analyses with successes, failures and near misses
+  for BOTH markets, and save the review plus
+  `Analysis/Review_YYYY-MM-DD/LESSONS_FOR_NEXT_SCAN.md` (previous prediction date).
+  Include cumulative relevant lessons, evidence, known pre-match warning signs,
+  unknown causes and concrete checks for the new research. Today's reports must
+  explain which lessons were applied, with evidence and remaining uncertainty.
+  Record review handoff and research start timestamps. Missing outcomes remain
+  explicit; save a partial/unavailable review before proceeding when necessary.
+  This changes the existing task's instructions, not its schedule. Do not
+  automatically tune models, weights, probabilities or filters from daily results.
 - Dashboard workflow agreed 2026-11-03: read
   `Analysis/Selection_History/DAILY_WORKFLOW.md` when resuming daily work.
   Save each day's complete candidates, evidence, analyst finalists, explicit
@@ -98,6 +123,11 @@ The explicit user instructions in the conversation take priority over older prom
   installation is recorded in Previews/Pred_Research_Terminal/chrome-launcher.json.
   Keep the absolute HTML link as fallback when custom schemes are blocked by
   the chat client. Do not change the default browser or other associations.
+- Link format clarified 2026-11-04: never prepend '/' to a Windows file target
+  or URL scheme. Use the requested forward-slash Windows path beginning `C:/` for the
+  HTML fallback; keep `pred-dashboard://open` unchanged. The radar's vertical
+  axis must always show the ACTIVE market probability, with matching labels;
+  the other market is on the horizontal axis.
 
 Offline reproduction (PowerShell; does not fetch data or run production jobs):
 

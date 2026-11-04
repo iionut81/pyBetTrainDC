@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5831133",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831133",
+  "verified_at_utc": "2026-11-04T06:04:36.355Z",
+  "general": {
+    "matchId": "5831133",
+    "matchName": "Bohemians 1905-vs-Jablonec_Wed, Sep 2, 2026, 18:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#00834A",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#00834A",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "4",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Bohemians 1905",
+      "id": 1670
+    },
+    "awayTeam": {
+      "name": "Jablonec",
+      "id": 7758
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Wed, Sep 2, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-09-02T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-02T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.09.2026 20:01:53",
+      "firstHalfEnded": "02.09.2026 20:50:19",
+      "secondHalfStarted": "02.09.2026 21:06:39",
+      "secondHalfEnded": "02.09.2026 21:59:36",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.09.2026 21:59:36"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1670",
+      "name": "Bohemians 1905",
+      "score": 1
+    },
+    {
+      "id": "7758",
+      "name": "Jablonec",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 70,
+      "added": 0,
+      "display": "70"
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      3,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

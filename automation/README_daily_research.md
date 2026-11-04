@@ -10,14 +10,26 @@ GTB Standard Time (Bucuresti), deci calendarul urmeaza si ora de vara.
 1. Citeste arhiva analizelor si alegerile explicite ale utilizatorului pentru
    ziua precedenta; reincearca si rezultatele mai vechi inca neverificate.
 2. Verifica observatiile exacte din surse publice, salveaza rezultatul separat
-   de predictie, scrie bilantul si lectiile. Badge: Alegerea ta -Succes/-Fail;
+   de predictie si actualizeaza bilantul. Badge: Alegerea ta -Succes/-Fail;
    pana la verificare -In asteptare; amanarile/anularile raman distincte.
-3. Cerceteaza programul curent pentru GOAL_BY_70 si CORNERS_1H_UNDER_7_5,
+3. INAINTEA scanarii curente, analizeaza succesele/esecurile/reusitele la limita
+   fata de predictiile originale, salveaza REVIEW.md si LESSONS_FOR_NEXT_SCAN.md
+   in directorul Review al zilei revizuite. Citeste lectiile relevante acumulate.
+   Distinge dovezile, cauzele necunoscute si ipotezele; nu modifica modele sau
+   procente. Aceasta ordine este explicita din5 noiembrie2026. Lipsurile se
+   documenteaza intr-un review partial inainte de a continua.
+4. Cerceteaza programul curent pentru GOAL_BY_70 si CORNERS_1H_UNDER_7_5,
    pe intregul scop convenit in AGENTS.md si promptul master. Salveaza listele,
    dovezile, lipsurile si candidatii analistului. Utilizatorul decide alegerea.
-4. Reconstruieste dashboardul; scrie raportul de executie si rezumatul in romana.
-5. Continua conversatia utilizatorului prin Codex CLI `exec resume` pentru
+   Explica in rapoarte ce lectii au fost aplicate si cu ce dovezi; timestampurile
+   review_handoff_at_ro si research_started_at_ro documenteaza ordinea.
+5. Reconstruieste dashboardul; scrie raportul de executie si rezumatul in romana.
+6. Continua conversatia utilizatorului prin Codex CLI `exec resume` pentru
    publicarea rezumatului si a linkului absolut catre `dist/index.html`.
+7. Sincronizeaza local mesajele vizibile disponibile ale conversatiei, inclusiv
+   dupa publicarea raportului. Pastreaza punctul de reluare in
+   `Analysis/SESSION_RESUME.md` si arhiva privata in
+   `Analysis/Conversation_History/`. Nu publica transcrierile in GitHub.
 
 08:00 este ora de pornire; durata depinde de programul meciurilor si de surse.
 Un research partial este marcat partial. Un proces incheiat nu inseamna automat
@@ -55,6 +67,14 @@ ca toate datele au fost obtinute sau ca toate cele trei etape au reusit.
   date sau transcript. Confirma exit 0, raspuns nou si prezenta linkului HTML.
   Pastreaza `chat_delivery.json` sau `chat_delivery_error.txt`. Livrarea reala
   va fi verificata la prima rulare; acum s-au verificat destinatia si configuratia.
+
+Constatare din prima rulare, 4 noiembrie: researchul a pornit la08:00:01 si
+dashboardul a fost actualizat; livrarea prin exec resume a esuat cu
+`already has an active writer`, deoarece IDE-ul avea conversatia deschisa.
+La aceasta eroare se foloseste acum comanda nativa `codex queue`, fara a forta
+inchiderea sau deblocarea conversatiei. Acceptarea se salveaza ca `queued`,
+distinct de `delivered`, iar receiptul `chat_queued.json` previne mesaje duplicate.
+Un mesaj acceptat in coada nu este prezentat ca raspuns deja afisat in chat.
 
 ## Dovezi si inspectie
 

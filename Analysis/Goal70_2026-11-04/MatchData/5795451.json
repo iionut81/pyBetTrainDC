@@ -1,0 +1,110 @@
+{
+  "ok": true,
+  "id": "5795451",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795451",
+  "verified_at_utc": "2026-11-04T06:04:22.071Z",
+  "general": {
+    "matchId": "5795451",
+    "matchName": "Liverpool-vs-Fulham_Sat, Sep 12, 2026, 14:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#911712",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#911712",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 47,
+    "leagueName": "Premier League",
+    "leagueRoundName": "4",
+    "parentLeagueId": 47,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Liverpool",
+      "id": 8650
+    },
+    "awayTeam": {
+      "name": "Fulham",
+      "id": 9879
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-12T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 16:00:20",
+      "firstHalfEnded": "12.09.2026 16:46:55",
+      "secondHalfStarted": "12.09.2026 17:01:37",
+      "secondHalfEnded": "12.09.2026 17:51:12",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 17:51:12"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8650",
+      "name": "Liverpool",
+      "score": 0
+    },
+    {
+      "id": "9879",
+      "name": "Fulham",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      5
+    ],
+    "All": [
+      5,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

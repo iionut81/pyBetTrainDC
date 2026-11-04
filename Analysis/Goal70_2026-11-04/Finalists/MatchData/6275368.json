@@ -1,0 +1,162 @@
+{
+  "ok": true,
+  "id": "6275368",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6275368",
+  "verified_at_utc": "2026-11-04T06:08:00.894Z",
+  "general": {
+    "matchId": "6275368",
+    "matchName": "Manchester City-vs-Brighton & Hove Albion_Wed, Oct 28, 2026, 19:30 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#76b4e5",
+        "away": "#095bb6"
+      },
+      "lightMode": {
+        "home": "#69A8D8",
+        "away": "#0850A0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938221,
+    "leagueName": "EFL Cup",
+    "leagueRoundName": "4",
+    "parentLeagueId": 133,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Manchester City",
+      "id": 8456
+    },
+    "awayTeam": {
+      "name": "Brighton & Hove Albion",
+      "id": 10204
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Oct 28, 2026, 19:30 UTC",
+    "matchTimeUTCDate": "2026-10-28T19:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-28T19:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.10.2026 20:30:19",
+      "firstHalfEnded": "28.10.2026 21:18:39",
+      "secondHalfStarted": "28.10.2026 21:34:06",
+      "secondHalfEnded": "28.10.2026 22:23:36",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.10.2026 22:35:15"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "Pen",
+      "shortKey": "penalties_short",
+      "long": "Pen 4 - 3",
+      "longKey": "afterpenalties",
+      "penalties": [
+        4,
+        3
+      ]
+    },
+    "whoLostOnPenalties": "Brighton & Hove Albion",
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8456",
+      "name": "Manchester City",
+      "score": 2
+    },
+    {
+      "id": "10204",
+      "name": "Brighton & Hove Albion",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 72,
+      "added": 0,
+      "display": "72",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 30,
+      "added": 0,
+      "display": "30",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 47,
+      "added": 0,
+      "display": "47",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      6
+    ],
+    "All": [
+      3,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

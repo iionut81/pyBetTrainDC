@@ -16,6 +16,7 @@ function badge(m){
  if(state.market==='corner'&&!m.corner.eligible)return '<span class="table-badge missing">Lipsă date 1H</span>';
  if(state.market==='goal'&&m.userGoal)return userChoiceBadges(m.goal,'goal');
  if(state.market==='corner'&&m.userCorner)return userChoiceBadges(m.corner,'corner');
+ if(state.market==='goal'&&m.analystGoal)return '<span class="table-badge goal">Candidat analist</span>';
  if(state.market==='corner'&&m.analystCorner)return '<span class="table-badge corner">Candidat analist</span>';
  if(m.basis!=='same_league_current_season')return '<span class="table-badge projection">Proiecție internă</span>';
  return '<span class="table-badge">Istoric comparabil</span>';
@@ -32,29 +33,36 @@ function renderTable(){
  $$('.market-switch button').forEach(b=>{b.classList.toggle('active',b.dataset.market===state.market);b.setAttribute('aria-pressed',String(b.dataset.market===state.market));});
 }
 function renderRadar(){
- const rows=filteredMatches(),points=rows.filter(m=>m.corner.p!=null&&m.goal.p!=null);
+ const verticalMarket=state.market,horizontalMarket=state.market==='goal'?'corner':'goal';
+ const rows=filteredMatches(),points=rows.filter(m=>m[verticalMarket].p!=null&&m[horizontalMarket].p!=null);
+ const userPicked=DATA.matches.some(m=>m[state.market].userSelection);
+ const isFocused=m=>userPicked?Boolean(m[state.market].userSelection):Boolean(state.market==='goal'?m.analystGoal:m.analystCorner);
+ const focused=rows.filter(isFocused),marketLabel=state.market==='goal'?'Gol70':'Cornere 1H';
+ $('#radarFocus').textContent=focused.length?`${marketLabel} · ${userPicked?'Alegerea ta':'Candidat analist'}: ${focused.map(m=>m.home+'–'+m.away).join(', ')}`:`${marketLabel} · Nicio alegere sau candidat în filtrul curent.`;
+ $$('[data-legend-market]').forEach(legend=>legend.classList.toggle('market-focused',legend.dataset.legendMarket===state.market));
  const W=760,H=390,L=57,R=710,T=32,B=328;
- const supported=DATA.matches.filter(m=>m.goal.p!=null&&m.corner.p!=null);
- const xmin=Math.min(80,Math.floor(Math.min(...supported.map(m=>m.goal.p*100))/5)*5);
- const ymin=Math.min(70,Math.floor(Math.min(...supported.map(m=>m.corner.p*100))/5)*5);
+ const supported=DATA.matches.filter(m=>m[verticalMarket].p!=null&&m[horizontalMarket].p!=null);
+ const xmin=Math.min(horizontalMarket==='goal'?80:70,Math.floor(Math.min(...supported.map(m=>m[horizontalMarket].p*100))/5)*5);
+ const ymin=Math.min(verticalMarket==='goal'?80:70,Math.floor(Math.min(...supported.map(m=>m[verticalMarket].p*100))/5)*5);
  const x=p=>L+(p*100-xmin)/(100-xmin)*(R-L),y=p=>B-(p*100-ymin)/(100-ymin)*(B-T);
- let chart=`<svg class="radar-svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="Estimări brute Gol70 pe axa orizontală și cornere 1H pe axa verticală"><defs><radialGradient id="radarGlow"><stop offset="0" stop-color="#44e9c8" stop-opacity=".16"/><stop offset="1" stop-color="#44e9c8" stop-opacity="0"/></radialGradient><filter id="nodeGlow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="4"/></filter></defs><ellipse cx="570" cy="105" rx="170" ry="130" fill="url(#radarGlow)"/>`;
+ let chart=`<svg class="radar-svg" data-y-market="${verticalMarket}" data-x-market="${horizontalMarket}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Probabilitatea ${esc(marketName(verticalMarket))} pe axa verticală; ${esc(marketName(horizontalMarket))} pe axa orizontală"><defs><radialGradient id="radarGlow"><stop offset="0" stop-color="#44e9c8" stop-opacity=".16"/><stop offset="1" stop-color="#44e9c8" stop-opacity="0"/></radialGradient><filter id="nodeGlow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="4"/></filter></defs><ellipse cx="570" cy="105" rx="170" ry="130" fill="url(#radarGlow)"/>`;
  for(let value=ymin;value<=100;value+=5)chart+=`<line class="radar-grid" x1="${L}" y1="${y(value/100)}" x2="${R}" y2="${y(value/100)}"/><text class="radar-axis" x="${L-12}" y="${y(value/100)+4}" text-anchor="end">${value}%</text>`;
  for(let value=xmin;value<=100;value+=5)chart+=`<line class="radar-grid" x1="${x(value/100)}" y1="${T}" x2="${x(value/100)}" y2="${B}"/><text class="radar-axis" x="${x(value/100)}" y="${B+23}" text-anchor="middle">${value}%</text>`;
- chart+=`<text class="radar-axis-title" x="${L}" y="15">CORNERE 1H · MODEL BRUT ↑</text><text class="radar-axis-title" x="${R}" y="${B+47}" text-anchor="end">GOL PÂNĂ LA 70′ · MODEL BRUT →</text>`;
+ const axisTitle=market=>market==='goal'?'GOL PÂNĂ LA 70′':'CORNERE 1H';
+ chart+=`<text class="radar-axis-title" x="${L}" y="15">${axisTitle(verticalMarket)} · MODEL BRUT ↑</text><text class="radar-axis-title" x="${R}" y="${B+47}" text-anchor="end">${axisTitle(horizontalMarket)} · MODEL BRUT →</text>`;
  chart+=`<path d="M${L} ${T}v${B-T}h${R-L}" fill="none" stroke="#36535b"/>`;
  for(const m of points){
-  const cx=x(m.goal.p),cy=y(m.corner.p),chosen=m.userGoal||m.userCorner||m.analystCorner,color=m.userCorner||m.analystCorner?'#ba9cfa':m.userGoal?'#44e9c8':m.competition==='uefa.champions'?'#7896b0':'#479a91';
+  const cx=x(m[horizontalMarket].p),cy=y(m[verticalMarket].p),chosen=isFocused(m),color=chosen?(state.market==='goal'?'#44e9c8':'#ba9cfa'):m.competition==='uefa.champions'?'#7896b0':'#479a91';
   let label='';
   if(chosen){const right=cx<(L+R)/2;label=`<text class="node-label" x="${cx+(right?14:-14)}" y="${cy-15}" text-anchor="${right?'start':'end'}">${esc(m.home)}–${esc(m.away)}</text>`;}
-  chart+=`<g class="radar-node" data-radar-match="${esc(m.id)}" tabindex="0" role="button" aria-label="${esc(m.home)} — ${esc(m.away)}, Gol70 ${percent(m.goal.p)}, cornere ${percent(m.corner.p)}"><title>${esc(m.home)} — ${esc(m.away)} | Gol70 ${percent(m.goal.p)} | Cornere screening ${percent(m.corner.p)}</title><circle cx="${cx}" cy="${cy}" r="16" fill="${color}" opacity="${chosen?'.25':'.08'}" filter="url(#nodeGlow)"/>${chosen?`<circle class="outer-ring node-signal" cx="${cx}" cy="${cy}" r="22" stroke="${color}"/><circle class="outer-ring" cx="${cx}" cy="${cy}" r="12" stroke="${color}"/>`:''}<circle class="node-core" cx="${cx}" cy="${cy}" r="${chosen?5.5:4}" fill="${color}" stroke="${chosen?'#c7f5eb':'#0e242b'}" stroke-width="${chosen?1:1.5}"/>${label}</g>`;
+  chart+=`<g class="radar-node" data-radar-match="${esc(m.id)}" data-highlighted="${chosen}" data-radar-market="${state.market}" tabindex="0" role="button" aria-label="${esc(m.home)} — ${esc(m.away)}, Gol70 ${percent(m.goal.p)}, cornere ${percent(m.corner.p)}"><title>${esc(m.home)} — ${esc(m.away)} | Gol70 ${percent(m.goal.p)} | Cornere screening ${percent(m.corner.p)}</title><circle cx="${cx}" cy="${cy}" r="16" fill="${color}" opacity="${chosen?'.25':'.08'}" filter="url(#nodeGlow)"/>${chosen?`<circle class="outer-ring node-signal" cx="${cx}" cy="${cy}" r="22" stroke="${color}"/><circle class="outer-ring" cx="${cx}" cy="${cy}" r="12" stroke="${color}"/>`:''}<circle class="node-core" cx="${cx}" cy="${cy}" r="${chosen?5.5:4}" fill="${color}" stroke="${chosen?'#c7f5eb':'#0e242b'}" stroke-width="${chosen?1:1.5}"/>${label}</g>`;
  }
  chart+='</svg>';
  $('#radar').innerHTML=chart;
  $('#radarCount').textContent=`${points.length} puncte / ${rows.length} partide${rows.length!==points.length?' · '+(rows.length-points.length)+' fără date cornere':''}`;
 }
 function setLeague(league){state.league=league;$('#leagueSelect').value=league;$$('.league-pills button').forEach(b=>{b.classList.toggle('active',b.dataset.league===league);b.setAttribute('aria-pressed',String(b.dataset.league===league));});renderTable();renderRadar();}
-function setMarket(market){state.market=market;renderTable();renderRadar();}
+function setMarket(market){state.market=market;renderTable();renderRadar();$('.table-scroll').scrollTop=0;}
 function setView(view){
  state.view=view;
  $('#overviewView').classList.toggle('hidden',view!=='overview');
@@ -88,10 +96,10 @@ document.addEventListener('click',e=>{
  const detail=e.target.closest('[data-detail]');if(detail){showDetail(detail.dataset.detail,detail.dataset.market);return;}
  const market=e.target.closest('[data-market]');if(market){setMarket(market.dataset.market);return;}
  const row=e.target.closest('[data-match]');if(row){showDetail(row.dataset.match);return;}
- const node=e.target.closest('[data-radar-match]');if(node){showDetail(node.dataset.radarMatch,DATA.matches.find(m=>m.id===node.dataset.radarMatch)?.userCorner?'corner':state.market);return;}
+ const node=e.target.closest('[data-radar-match]');if(node){showDetail(node.dataset.radarMatch,state.market);return;}
  const result=e.target.closest('[data-result]');if(result){state.result=result.dataset.result;renderHistory();}
 });
-document.addEventListener('keydown',e=>{if(e.key!=='Enter'&&e.key!==' ')return;const row=e.target.closest('[data-match]'),node=e.target.closest('[data-radar-match]');if(row||node){e.preventDefault();showDetail(row?row.dataset.match:node.dataset.radarMatch,DATA.matches.find(m=>m.id===node?.dataset.radarMatch)?.userCorner?'corner':state.market);}});
+document.addEventListener('keydown',e=>{if(e.key!=='Enter'&&e.key!==' ')return;const row=e.target.closest('[data-match]'),node=e.target.closest('[data-radar-match]');if(row||node){e.preventDefault();showDetail(row?row.dataset.match:node.dataset.radarMatch,state.market);}});
 $('#searchInput').addEventListener('input',e=>{state.search=e.target.value;renderTable();renderRadar();});
 $('#leagueSelect').addEventListener('change',e=>setLeague(e.target.value));
 $('#dateSelect').addEventListener('change',e=>selectDay(e.target.value));

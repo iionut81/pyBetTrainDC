@@ -1,0 +1,1 @@
+Initial screening archived before publication. Corrected provider league IDs using public catalog: Cyprus 136, Turkey 2 165, Azerbaijan 262. Cyprus 171 was Svenska Cupen and Azerbaijan 114 Friendlies; neither is an accepted domestic league observation. Recompute all eligible fixtures; preserve original snapshots. No production model changes.

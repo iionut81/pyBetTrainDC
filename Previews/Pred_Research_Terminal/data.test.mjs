@@ -54,10 +54,12 @@ test('Real archive preserves both user choices, screening/final estimates and pa
  assert.equal(derby.corner.p,.963459827387227);
  assert.equal(derby.corner.final.p,.966128975612361);
  assert.equal(derby.corner.userSelection.p,.966128975612361);
- assert.equal(derby.corner.outcome.result,'pending');
+ assert.equal(derby.corner.outcome.result,'success');
+ assert.equal(derby.corner.outcome.corners,'6');
  assert.equal(today.matches.find(m=>m.id==='401880179').userGoal,true);
  assert.equal(past.metrics.goal.played,26);assert.equal(past.metrics.goal.fail,4);
- assert.equal(past.metrics.corner.played,1);assert.equal(past.metrics.corner.pending,25);
+ assert.equal(past.metrics.corner.played,25);assert.equal(past.metrics.corner.pending,0);
+ assert.equal(past.metrics.corner.success,21);assert.equal(past.metrics.corner.fail,4);
  assert.equal(past.metrics.corner.postponed,1);
 });
 test('Contradictory outcomes stop the build instead of silently choosing a source',t=>{

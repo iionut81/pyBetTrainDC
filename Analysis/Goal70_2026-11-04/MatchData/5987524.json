@@ -1,0 +1,126 @@
+{
+  "ok": true,
+  "id": "5987524",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5987524",
+  "verified_at_utc": "2026-11-04T06:06:47.686Z",
+  "general": {
+    "matchId": "5987524",
+    "matchName": "Sabah FK-vs-Imisli FK_Sat, Sep 19, 2026, 15:45 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#fa8bb7",
+        "away": "#DDDDDD"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#333333"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 262,
+    "leagueName": "Premier League",
+    "leagueRoundName": "6",
+    "parentLeagueId": 262,
+    "countryCode": "AZE",
+    "homeTeam": {
+      "name": "Sabah FK",
+      "id": 951893
+    },
+    "awayTeam": {
+      "name": "Imisli FK",
+      "id": 1786024
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 15:45 UTC",
+    "matchTimeUTCDate": "2026-09-19T15:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T15:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 17:46:48",
+      "firstHalfEnded": "19.09.2026 18:33:16",
+      "secondHalfStarted": "19.09.2026 18:49:05",
+      "secondHalfEnded": "19.09.2026 19:40:39",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 19:40:39"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "951893",
+      "name": "Sabah FK",
+      "score": 3
+    },
+    {
+      "id": "1786024",
+      "name": "Imisli FK",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 20,
+      "added": 0,
+      "display": "20"
+    },
+    {
+      "side": "home",
+      "minute": 35,
+      "added": 0,
+      "display": "35"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 5,
+      "display": "90+5"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 0,
+      "display": "90"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": null
+  },
+  "cards": [
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

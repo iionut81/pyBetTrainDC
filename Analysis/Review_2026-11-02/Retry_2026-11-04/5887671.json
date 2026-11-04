@@ -1,0 +1,134 @@
+{
+  "ok": true,
+  "id": "5887671",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887671",
+  "verified_at_utc": "2026-11-04T06:02:45.076Z",
+  "general": {
+    "matchId": "5887671",
+    "matchName": "Benfica-vs-Alverca_Mon, Nov 2, 2026, 20:15 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C00001",
+        "away": "#314F92"
+      },
+      "lightMode": {
+        "home": "#C00001",
+        "away": "#314F92"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "10",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Benfica",
+      "id": 9772
+    },
+    "awayTeam": {
+      "name": "Alverca",
+      "id": 9780
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Nov 2, 2026, 20:15 UTC",
+    "matchTimeUTCDate": "2026-11-02T20:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-02T20:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.11.2026 21:17:32",
+      "firstHalfEnded": "02.11.2026 22:05:34",
+      "secondHalfStarted": "02.11.2026 22:22:41",
+      "secondHalfEnded": "02.11.2026 23:11:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.11.2026 23:11:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9772",
+      "name": "Benfica",
+      "score": 1
+    },
+    {
+      "id": "9780",
+      "name": "Alverca",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      8,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

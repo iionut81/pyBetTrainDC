@@ -1,0 +1,119 @@
+{
+  "ok": true,
+  "id": "5811735",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811735",
+  "verified_at_utc": "2026-11-04T06:04:27.858Z",
+  "general": {
+    "matchId": "5811735",
+    "matchName": "Club Brugge-vs-Cercle Brugge_Sun, Aug 23, 2026, 16:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#006ad5",
+        "away": "#006a33"
+      },
+      "lightMode": {
+        "home": "#0572FF",
+        "away": "#00521f"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "3",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Club Brugge",
+      "id": 8342
+    },
+    "awayTeam": {
+      "name": "Cercle Brugge",
+      "id": 9984
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-08-23T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 18:33:59",
+      "firstHalfEnded": "23.08.2026 19:20:32",
+      "secondHalfStarted": "23.08.2026 19:37:09",
+      "secondHalfEnded": "23.08.2026 20:29:09",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 20:29:09"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8342",
+      "name": "Club Brugge",
+      "score": 1
+    },
+    {
+      "id": "9984",
+      "name": "Cercle Brugge",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      6,
+      1
+    ],
+    "All": [
+      9,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

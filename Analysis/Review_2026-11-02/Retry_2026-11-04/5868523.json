@@ -1,0 +1,191 @@
+{
+  "ok": true,
+  "id": "5868523",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868523",
+  "verified_at_utc": "2026-11-04T06:02:43.249Z",
+  "general": {
+    "matchId": "5868523",
+    "matchName": "Tenerife-vs-FC Andorra_Mon, Nov 2, 2026, 13:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004fbc",
+        "away": "#f4271f"
+      },
+      "lightMode": {
+        "home": "#0038A7",
+        "away": "#f4271f"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "12",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Tenerife",
+      "id": 9867
+    },
+    "awayTeam": {
+      "name": "FC Andorra",
+      "id": 494050
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Nov 2, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-11-02T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-02T13:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 2,
+    "halfs": {
+      "firstHalfStarted": "02.11.2026 14:02:31",
+      "firstHalfEnded": "02.11.2026 14:51:14",
+      "secondHalfStarted": "02.11.2026 15:08:50",
+      "secondHalfEnded": "02.11.2026 16:01:30",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.11.2026 16:01:30"
+    },
+    "cancelled": true,
+    "started": true,
+    "finished": true,
+    "reason": {
+      "short": "Ab",
+      "shortKey": "aborted_short",
+      "long": "Abandoned",
+      "longKey": "aborted"
+    },
+    "scoreStr": "2 - 2",
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9867",
+      "name": "Tenerife",
+      "score": 2
+    },
+    {
+      "id": "494050",
+      "name": "FC Andorra",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 39,
+      "added": 0,
+      "display": "39",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      1
+    ],
+    "All": [
+      0,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 26,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "YellowRed",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,4 +1,8 @@
 # Pure decision helper: no processes, files, scheduling or network access.
+function Test-PredChatNeedsRetry {
+    param([string]$Status)
+    return $Status -notin @('delivered','queued')
+}
 function Get-PredDailyDecision {
     param([datetime]$NowRo, [string]$NotBeforeDate, [bool]$AlreadyFinished, [bool]$ChatPending)
     $date = $NowRo.ToString('yyyy-MM-dd')

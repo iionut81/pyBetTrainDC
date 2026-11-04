@@ -59,8 +59,14 @@ try { $lock = [IO.File]::Open((Join-Path $autoDir 'daily_research.lock'), 'OpenO
 catch [IO.IOException] { Write-Output 'A PRED research run is already active; duplicate skipped.'; exit 0 }
 $utf8 = New-Object Text.UTF8Encoding($false)
 $completionFile = Join-Path $autoDir ('daily_completion_' + $today + '.json')
+function Sync-PredConversation {
+    try {
+        & $config.node_exe (Join-Path $projectDir 'automation/export_project_conversation.mjs') --thread $config.chat_thread_id
+        if ($LASTEXITCODE -ne 0) { Write-Warning 'Conversation export incomplete; native chat and analytical journals remain available.' }
+    } catch { Write-Warning ('Conversation export: ' + $_.Exception.Message) }
+}
 $completion = if (Test-Path -LiteralPath $completionFile) { Get-Content -LiteralPath $completionFile -Raw -Encoding UTF8 | ConvertFrom-Json } else { $null }
-$decision = Get-PredDailyDecision -NowRo $nowRo -NotBeforeDate $config.not_before_date -AlreadyFinished ([bool]$completion) -ChatPending ([bool]($completion -and $completion.chat_status -ne 'delivered'))
+$decision = Get-PredDailyDecision -NowRo $nowRo -NotBeforeDate $config.not_before_date -AlreadyFinished ([bool]$completion) -ChatPending ([bool]($completion -and (Test-PredChatNeedsRetry -Status $completion.chat_status)))
 if ($decision -in @('before_0800','not_started','already_finished')) {
     $lock.Dispose()
     Write-Output "Daily run skipped: $decision"
@@ -69,10 +75,10 @@ if ($decision -in @('before_0800','not_started','already_finished')) {
 if ($decision -eq 'deliver_only') {
     try {
         $delivery = Publish-PredDailyReport -CodexExe $codexExe -ThreadId $config.chat_thread_id -RunDir $completion.run_dir -ProjectDir $projectDir -Date $today
-        $completion.chat_status = 'delivered'
+        $completion.chat_status = $delivery.status
         $completion | ConvertTo-Json -Depth 8 | ForEach-Object { [IO.File]::WriteAllText($completionFile,$_,$utf8) }
         $delivery | ConvertTo-Json | ForEach-Object { [IO.File]::WriteAllText((Join-Path $completion.run_dir 'chat_delivery.json'),$_,$utf8) }
-    } finally { $lock.Dispose() }
+    } finally { Sync-PredConversation; $lock.Dispose() }
     exit 0
 }
 function Save-Status([string]$state,[string]$message) {
@@ -133,7 +139,7 @@ try {
     [IO.File]::WriteAllText($completionFile,($completion | ConvertTo-Json),$utf8)
     try {
         $delivery = Publish-PredDailyReport -CodexExe $codexExe -ThreadId $config.chat_thread_id -RunDir $runDir -ProjectDir $projectDir -Date $today
-        $completion.chat_status = 'delivered'
+        $completion.chat_status = $delivery.status
         [IO.File]::WriteAllText($completionFile,($completion | ConvertTo-Json),$utf8)
         [IO.File]::WriteAllText((Join-Path $runDir 'chat_delivery.json'),($delivery | ConvertTo-Json),$utf8)
     } catch {
@@ -144,4 +150,4 @@ try {
     Save-Status 'failed' $_.Exception.Message
     try { Rebuild-Dashboard } catch { Write-Warning $_.Exception.Message }
     throw
-} finally { if ($lock) { $lock.Dispose() } }
+} finally { Sync-PredConversation; if ($lock) { $lock.Dispose() } }

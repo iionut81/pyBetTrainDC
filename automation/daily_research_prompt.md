@@ -11,6 +11,18 @@ aceasta rulare programata si cercetarea AMBELOR piete. Nu autorizeaza pariuri,
 mize, cote de bookmaker, notificari externe, commit/push, schimbarea modelelor
 de productie sau a selection_engine/. Nu porni agenti paraleli.
 
+Pentru continuitate citeste si Analysis/SESSION_RESUME.md, apoi verifica datele
+canonice mai noi, care au prioritate fata de rezumat. La final actualizeaza
+punctul de reluare si jurnalul cu cereri, decizii, rezultate, limite si pasul
+urmator. Sincronizeaza mesajele disponibile cu
+`node automation/export_project_conversation.mjs`; exportul ramane local si
+nu include rationamente, instructiuni ascunse, unelte sau credentiale.
+
+Ordine obligatorie, clarificata de utilizator la 4 noiembrie, pentru rularile
+din 5 noiembrie 2026 inainte: rezultate -> analiza succeselor/esecurilor ->
+lectii salvate -> abia apoi scanarea, researchul si pickurile zilei curente.
+Nu incepe inventarul sau selectia zilei curente in paralel cu review-ul.
+
 ## Pasul 1: verifica ziua precedenta si restantele
 
 - Verifica data/ora reala in Europe/Bucharest. Citeste listele prospective,
@@ -31,16 +43,47 @@ de productie sau a selection_engine/. Nu porni agenti paraleli.
   de success/fail si se exclud din rata. Lipsa nu este zero. Pastreaza conflictele.
   Reincearca rezultatele restante la urmatoarele rulări; nu opri tot fluxul
   deoarece un singur rezultat nu se poate verifica.
-- Scrie REVIEW.md cu succese, esecuri, rezultate la limita si acoperire lipsa.
-  Compara ce prevedea analiza cu ce s-a intamplat: ipoteza tactica sustinuta,
-  variatie normala, eroare de date sau informatie omisa. Un succes nu dovedeste
-  singur ca argumentul era corect, iar un fail nu justifica o ajustare arbitrara.
-  Salveaza lectiile ca ipoteze verificabile prospectiv, fara recalibrare ad-hoc.
 - Reconstruieste dashboardul dupa acest pas. "Alegerea ta" primeste -Succes
   sau -Fail doar din rezultatele verificate; altfel -In asteptare/-Amanat/-Anulat.
 
-## Pasul 2: research complet pentru ziua curenta
+## Pasul 2: analiza si lectiile, inaintea oricarei scanari noi
 
+- Reciteste analizele PROSPECTIVE originale si lectiile relevante din review-urile
+  anterioare. Compara pentru ambele piete lista completa, candidatii analistului
+  si, separat, alegerile explicite ale utilizatorului. Include succesele,
+  fiecare fail verificat si reusitele aproape de prag, fara selectie convenabila.
+- Pentru fiecare fail arata ce se stia inainte de meci: model brut, AR20%,
+  frecvente si esantioane, rang original, competitie si riscuri documentate.
+  Pentru succese arata argumentele compatibile cu rezultatul, riscurile care
+  au ramas si ce NU poate fi validat dintr-o reusita. Nu atribui cauze tactice
+  numai din scor, primul gol sau numarul cornerelor; marcheaza cauza necunoscuta.
+- Scrie Analysis/Review_{{YESTERDAY}}/REVIEW.md cu bilant, comparatia ipotezelor
+  cu observatiile, erori de date/informatii omise, limite si surse. Distinge
+  constatarile demonstrate de ipoteze si de variatia posibila. Un rezultat
+  izolat nu demonstreaza nici cauza, nici calibrarea modelului.
+- INAINTE sa incepi scanarea zilei curente, salveaza
+  Analysis/Review_{{YESTERDAY}}/LESSONS_FOR_NEXT_SCAN.md. Include timestamp RO,
+  sursele prospective si de rezultat, lectiile relevante acumulate, verificarea
+  concreta ceruta pentru candidatii noi, statutul constatare/ipoteza/lipsa date
+  si ce ramane de testat. Prioritati: model versus frecventa istorica si AR20%,
+  intern versus Europa/cupa, GF70 propriu pe teren si primele goluri tardive/0-0,
+  dispersia cornerelor, exact7/>=8, schimbari de antrenor si loturi actuale.
+- Daca lipsesc rezultate sau ieri nu exista analiza, salveaza explicit review-ul
+  partial/not_available si lectiile verificabile deja disponibile. Nu inventa
+  explicatii si nu astepta nelimitat un rezultat indisponibil. Predarea scrisa
+  a constatarilor si limitelor trebuie totusi sa preceada scanarea noua.
+- Lectiile imbunatatesc verificarea si argumentarea. Nu crea automat praguri,
+  excluderi, procente, ponderi sau calibrari noi dupa o singura zi. Pastreaza
+  snapshoturile si modelele de productie; schimbarile de model necesita evaluare
+  separata si autorizare. Nu promite eliminarea esecurilor.
+
+## Pasul 3: research complet pentru ziua curenta si pickuri
+
+- Citeste mai intai LESSONS_FOR_NEXT_SCAN.md salvat la pasul2. In rapoartele
+  zilei curente include sectiunea "Lectii aplicate din review": pentru fiecare
+  lectie relevanta, verificarea efectuata, dovada noua si daca este aplicabila,
+  neaplicabila sau neverificata. Explica efectul asupra preferintei pentru
+  finalisti fara a rescrie clasamentul brut ori a aplica procente arbitrare.
 - Cerceteaza autonom pe internet programul zilei {{TODAY}} in primele ligi
   masculine ale primelor 20 asociatii UEFA (precizeaza anul clasamentului),
   plus Romania, Serbia si diviziile secunde europene urmarite. Include separat
@@ -73,7 +116,7 @@ de productie sau a selection_engine/. Nu porni agenti paraleli.
   {{TODAY}}.md. Nu suprascrie un snapshot prospectiv deja publicat: pastreaza
   reviziile cu timestamp, diferentele de sursa si motivul actualizarii.
 
-## Pasul 3: dashboard, verificare si predare
+## Pasul 4: dashboard, verificare si predare
 
 - Ruleaza node Previews/Pred_Research_Terminal/build.mjs. Verifica faptul ca
   datele de ieri si azi sunt navigabile, alegerile reale au etichetele corecte,
@@ -84,9 +127,12 @@ de productie sau a selection_engine/. Nu porni agenti paraleli.
 - Scrie Analysis/Automation/run_report_{{TODAY}}.json cu cheile:
   date, review_status, goal_research_status, corner_research_status,
   dashboard_status, missing_data, review_path, goal_path, corner_path.
+  Adauga lessons_path, review_handoff_at_ro si research_started_at_ro pentru
+  trasabilitatea ordinii: predarea lectiilor precede inceputul scanarii noi.
   Statusuri: complete, partial, blocked, not_available. Include sursele in
   rapoartele analitice. Nu confunda incheierea procesului cu cercetare completa.
-- Raspuns final in romana: rezultatele alegerilor de ieri, lectiile, candidatii
+- Raspuns final in romana: rezultatele alegerilor de ieri, linkul review-ului,
+  lectiile si verificarile aplicate azi, apoi candidatii
   de azi pentru cele doua piete, limitele si fisierele actualizate. Nu afirma
   profit sau pret disponibil. Include intotdeauna linkul Markdown absolut
   catre Previews/Pred_Research_Terminal/dist/index.html, cu tinta intre < >
@@ -101,3 +147,7 @@ de productie sau a selection_engine/. Nu porni agenti paraleli.
   Pastreaza si linkul HTML absolut ca alternativa pentru editor sau daca
   aplicatia de chat nu permite scheme personalizate. Nu modifica browserul
   implicit si nu reinstala handlerul la fiecare analiza.
+- Formatarea linkurilor, clarificata de utilizator: nu adauga '/' in fata
+  unei tinte. Foloseste exact formatul cerut C:/Users/... pentru HTML,
+  fara slash initial si fara file://. Nu transforma calea in C:\Users\... .
+  Pastreaza schema pred-dashboard://open exacta, fara '/' inaintea ei.
