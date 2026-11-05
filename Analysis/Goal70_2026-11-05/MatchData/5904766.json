@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5904766",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904766",
+  "verified_at_utc": "2026-11-05T06:08:49.613Z",
+  "general": {
+    "matchId": "5904766",
+    "matchName": "Samsunspor-vs-Trabzonspor_Sat, Oct 10, 2026, 13:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DE0102",
+        "away": "#6bace3"
+      },
+      "lightMode": {
+        "home": "#DE0102",
+        "away": "#6e2330"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "7",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Samsunspor",
+      "id": 9750
+    },
+    "awayTeam": {
+      "name": "Trabzonspor",
+      "id": 9752
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-10-10T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 15:00:31",
+      "firstHalfEnded": "10.10.2026 15:50:43",
+      "secondHalfStarted": "10.10.2026 16:07:34",
+      "secondHalfEnded": "10.10.2026 16:55:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 16:55:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9750",
+      "name": "Samsunspor",
+      "score": 0
+    },
+    {
+      "id": "9752",
+      "name": "Trabzonspor",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      4
+    ],
+    "SecondHalf": [
+      9,
+      1
+    ],
+    "All": [
+      9,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 7,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

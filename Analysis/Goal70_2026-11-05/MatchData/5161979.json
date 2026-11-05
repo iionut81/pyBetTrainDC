@@ -1,0 +1,165 @@
+{
+  "ok": true,
+  "id": "5161979",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5161979",
+  "verified_at_utc": "2026-11-05T06:09:00.621Z",
+  "general": {
+    "matchId": "5161979",
+    "matchName": "Riga FC-vs-FK Jelgava_Sat, May 16, 2026, 16:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#38A9FF",
+        "away": "#801828"
+      },
+      "lightMode": {
+        "home": "#38A9FF",
+        "away": "#801828"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 226,
+    "leagueName": "Latvian Virsliga",
+    "leagueRoundName": "13",
+    "parentLeagueId": 226,
+    "countryCode": "LVA",
+    "homeTeam": {
+      "name": "Riga FC",
+      "id": 624924
+    },
+    "awayTeam": {
+      "name": "FK Jelgava",
+      "id": 192962
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sat, May 16, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-05-16T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-16T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.05.2026 18:00:23",
+      "firstHalfEnded": "16.05.2026 18:47:40",
+      "secondHalfStarted": "16.05.2026 19:03:06",
+      "secondHalfEnded": "16.05.2026 19:53:24",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.05.2026 19:53:24"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "624924",
+      "name": "Riga FC",
+      "score": 2
+    },
+    {
+      "id": "192962",
+      "name": "FK Jelgava",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 67,
+      "added": 0,
+      "display": "67"
+    },
+    {
+      "side": "home",
+      "minute": 87,
+      "added": 0,
+      "display": "87"
+    },
+    {
+      "side": "away",
+      "minute": 11,
+      "added": 0,
+      "display": "11"
+    },
+    {
+      "side": "away",
+      "minute": 14,
+      "added": 0,
+      "display": "14"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      0
+    ],
+    "All": [
+      4,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5162027",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5162027",
+  "verified_at_utc": "2026-11-05T06:09:01.256Z",
+  "general": {
+    "matchId": "5162027",
+    "matchName": "Riga FC-vs-FK Tukums 2000_Sat, Jul 18, 2026, 16:00 UTC",
+    "matchRound": "23",
+    "teamColors": {
+      "darkMode": {
+        "home": "#38A9FF",
+        "away": "#DDDDDD"
+      },
+      "lightMode": {
+        "home": "#38A9FF",
+        "away": "#333333"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 226,
+    "leagueName": "Latvian Virsliga",
+    "leagueRoundName": "23",
+    "parentLeagueId": 226,
+    "countryCode": "LVA",
+    "homeTeam": {
+      "name": "Riga FC",
+      "id": 624924
+    },
+    "awayTeam": {
+      "name": "FK Tukums 2000",
+      "id": 197870
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sat, Jul 18, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-07-18T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-18T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.07.2026 18:00:59",
+      "firstHalfEnded": "18.07.2026 18:47:48",
+      "secondHalfStarted": "18.07.2026 19:03:13",
+      "secondHalfEnded": "18.07.2026 19:53:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.07.2026 19:53:17"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "624924",
+      "name": "Riga FC",
+      "score": 3
+    },
+    {
+      "id": "197870",
+      "name": "FK Tukums 2000",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 64,
+      "added": 0,
+      "display": "64"
+    },
+    {
+      "side": "home",
+      "minute": 86,
+      "added": 0,
+      "display": "86"
+    },
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88"
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      8,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      0
+    ],
+    "All": [
+      8,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 28,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

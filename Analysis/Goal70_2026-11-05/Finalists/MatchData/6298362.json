@@ -1,0 +1,124 @@
+{
+  "ok": true,
+  "id": "6298362",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6298362",
+  "verified_at_utc": "2026-11-05T06:10:21.876Z",
+  "general": {
+    "matchId": "6298362",
+    "matchName": "Esbjerg fB-vs-Nordsjælland_Wed, Oct 28, 2026, 16:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#005DA8",
+        "away": "#D8132E"
+      },
+      "lightMode": {
+        "home": "#005DA8",
+        "away": "#D8132E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 242,
+    "leagueName": "DBU Pokalen",
+    "leagueRoundName": "4",
+    "parentLeagueId": 242,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "Esbjerg fB",
+      "id": 8285
+    },
+    "awayTeam": {
+      "name": "Nordsjælland",
+      "id": 10202
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Oct 28, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-28T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-28T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.10.2026 17:01:06",
+      "firstHalfEnded": "28.10.2026 17:47:06",
+      "secondHalfStarted": "28.10.2026 18:03:41",
+      "secondHalfEnded": "28.10.2026 18:55:43",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.10.2026 18:55:43"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8285",
+      "name": "Esbjerg fB",
+      "score": 0
+    },
+    {
+      "id": "10202",
+      "name": "Nordsjælland",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      8,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

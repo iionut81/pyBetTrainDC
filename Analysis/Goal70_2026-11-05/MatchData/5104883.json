@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "5104883",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104883",
+  "verified_at_utc": "2026-11-05T06:09:03.917Z",
+  "general": {
+    "matchId": "5104883",
+    "matchName": "Rosenborg-vs-Brann_Sat, Apr 25, 2026, 16:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#DE1215"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#DE1215"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "6",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Rosenborg",
+      "id": 8422
+    },
+    "awayTeam": {
+      "name": "Brann",
+      "id": 8468
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Apr 25, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-04-25T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-25T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.04.2026 18:00:18",
+      "firstHalfEnded": "25.04.2026 18:48:40",
+      "secondHalfStarted": "25.04.2026 19:04:45",
+      "secondHalfEnded": "25.04.2026 19:54:15",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.04.2026 19:54:15"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8422",
+      "name": "Rosenborg",
+      "score": 1
+    },
+    {
+      "id": "8468",
+      "name": "Brann",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      7
+    ],
+    "SecondHalf": [
+      5,
+      4
+    ],
+    "All": [
+      7,
+      11
+    ]
+  },
+  "cards": [
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

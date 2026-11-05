@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5147568",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5147568",
+  "verified_at_utc": "2026-11-05T06:08:42.531Z",
+  "general": {
+    "matchId": "5147568",
+    "matchName": "VPS-vs-KuPS_Sat, Jun 13, 2026, 14:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#FEDC00"
+      },
+      "lightMode": {
+        "home": "#181018",
+        "away": "#e19c00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 919925,
+    "leagueName": "Veikkausliiga",
+    "leagueRoundName": "10",
+    "parentLeagueId": 51,
+    "countryCode": "FIN",
+    "homeTeam": {
+      "name": "VPS",
+      "id": 6597
+    },
+    "awayTeam": {
+      "name": "KuPS",
+      "id": 1693
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Jun 13, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-06-13T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-06-13T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "13.06.2026 16:01:39",
+      "firstHalfEnded": "13.06.2026 16:47:27",
+      "secondHalfStarted": "13.06.2026 17:05:46",
+      "secondHalfEnded": "13.06.2026 17:54:48",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.06.2026 17:54:48"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6597",
+      "name": "VPS",
+      "score": 1
+    },
+    {
+      "id": "1693",
+      "name": "KuPS",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 14,
+      "added": 0,
+      "display": "14"
+    },
+    {
+      "side": "away",
+      "minute": 72,
+      "added": 0,
+      "display": "72"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      9
+    ],
+    "SecondHalf": [
+      0,
+      1
+    ],
+    "All": [
+      2,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 82,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

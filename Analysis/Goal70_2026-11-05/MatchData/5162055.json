@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "id": "5162055",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5162055",
+  "verified_at_utc": "2026-11-05T06:09:01.572Z",
+  "general": {
+    "matchId": "5162055",
+    "matchName": "FK Liepāja-vs-Riga FC_Mon, Aug 31, 2026, 14:30 UTC",
+    "matchRound": "28",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C00030",
+        "away": "#38A9FF"
+      },
+      "lightMode": {
+        "home": "#C00030",
+        "away": "#38A9FF"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 226,
+    "leagueName": "Latvian Virsliga",
+    "leagueRoundName": "28",
+    "parentLeagueId": 226,
+    "countryCode": "LVA",
+    "homeTeam": {
+      "name": "FK Liepāja",
+      "id": 8016
+    },
+    "awayTeam": {
+      "name": "Riga FC",
+      "id": 624924
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Mon, Aug 31, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-08-31T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-31T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "31.08.2026 16:31:25",
+      "firstHalfEnded": "31.08.2026 17:20:41",
+      "secondHalfStarted": "31.08.2026 17:37:03",
+      "secondHalfEnded": "31.08.2026 18:28:06",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "31.08.2026 18:28:06"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8016",
+      "name": "FK Liepāja",
+      "score": 3
+    },
+    {
+      "id": "624924",
+      "name": "Riga FC",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 4,
+      "added": 0,
+      "display": "4"
+    },
+    {
+      "side": "home",
+      "minute": 27,
+      "added": 0,
+      "display": "27"
+    },
+    {
+      "side": "home",
+      "minute": 58,
+      "added": 0,
+      "display": "58"
+    },
+    {
+      "side": "away",
+      "minute": 17,
+      "added": 0,
+      "display": "17"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      5
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      2,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 6,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

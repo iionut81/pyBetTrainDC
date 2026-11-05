@@ -1,0 +1,176 @@
+{
+  "ok": true,
+  "id": "6106288",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6106288",
+  "verified_at_utc": "2026-11-05T06:02:52.405Z",
+  "general": {
+    "matchId": "6106288",
+    "matchName": "FC Porto-vs-Napoli_Wed, Nov 4, 2026, 20:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#005898",
+        "away": "#12A0D7"
+      },
+      "lightMode": {
+        "home": "#005898",
+        "away": "#12A0D7"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943230,
+    "leagueName": "Champions League",
+    "leagueRoundName": "4",
+    "parentLeagueId": 42,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "FC Porto",
+      "id": 9773
+    },
+    "awayTeam": {
+      "name": "Napoli",
+      "id": 9875
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Nov 4, 2026, 20:00 UTC",
+    "matchTimeUTCDate": "2026-11-04T20:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-04T20:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "04.11.2026 21:01:51",
+      "firstHalfEnded": "04.11.2026 21:49:35",
+      "secondHalfStarted": "04.11.2026 22:04:57",
+      "secondHalfEnded": "04.11.2026 22:53:33",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "04.11.2026 22:53:33"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9773",
+      "name": "FC Porto",
+      "score": 4
+    },
+    {
+      "id": "9875",
+      "name": "Napoli",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 71,
+      "added": 0,
+      "display": "71",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 0,
+      "display": "90",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      5,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 2,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 21,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

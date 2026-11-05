@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "5831157",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831157",
+  "verified_at_utc": "2026-11-05T06:04:50.828Z",
+  "general": {
+    "matchId": "5831157",
+    "matchName": "Hradec Králové-vs-Sparta Prague_Sun, Sep 6, 2026, 16:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#a12236"
+      },
+      "lightMode": {
+        "home": "#202018",
+        "away": "#8E192B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "7",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Hradec Králové",
+      "id": 1712
+    },
+    "awayTeam": {
+      "name": "Sparta Prague",
+      "id": 10247
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-09-06T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 18:01:39",
+      "firstHalfEnded": "06.09.2026 18:46:53",
+      "secondHalfStarted": "06.09.2026 19:01:53",
+      "secondHalfEnded": "06.09.2026 19:50:55",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 19:50:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1712",
+      "name": "Hradec Králové",
+      "score": 2
+    },
+    {
+      "id": "10247",
+      "name": "Sparta Prague",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 10,
+      "added": 0,
+      "display": "10"
+    },
+    {
+      "side": "home",
+      "minute": 25,
+      "added": 0,
+      "display": "25"
+    },
+    {
+      "side": "away",
+      "minute": 36,
+      "added": 0,
+      "display": "36"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      6
+    ],
+    "All": [
+      9,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

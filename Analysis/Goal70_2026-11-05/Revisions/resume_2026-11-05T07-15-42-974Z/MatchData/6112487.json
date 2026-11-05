@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "6112487",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112487",
+  "verified_at_utc": "2026-11-05T07:15:48.772Z",
+  "general": {
+    "matchId": "6112487",
+    "matchName": "Borac Banja Luka-vs-KuPS_Thu, Oct 22, 2026, 19:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ED1B23",
+        "away": "#FEDC00"
+      },
+      "lightMode": {
+        "home": "#ED1B23",
+        "away": "#e19c00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943231,
+    "leagueName": "Conference League",
+    "leagueRoundName": "2",
+    "parentLeagueId": 10216,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Borac Banja Luka",
+      "id": 10116
+    },
+    "awayTeam": {
+      "name": "KuPS",
+      "id": 1693
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Oct 22, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-22T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-22T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.10.2026 21:00:07",
+      "firstHalfEnded": "22.10.2026 21:47:33",
+      "secondHalfStarted": "22.10.2026 22:02:49",
+      "secondHalfEnded": "22.10.2026 22:53:12",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.10.2026 22:53:12"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10116",
+      "name": "Borac Banja Luka",
+      "score": 2
+    },
+    {
+      "id": "1693",
+      "name": "KuPS",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      8,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      10,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

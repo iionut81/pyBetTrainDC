@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "id": "6112328",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112328",
+  "verified_at_utc": "2026-11-05T06:10:19.135Z",
+  "general": {
+    "matchId": "6112328",
+    "matchName": "AFC Bournemouth-vs-Sturm Graz_Thu, Oct 15, 2026, 19:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D71921",
+        "away": "#eeeeee"
+      },
+      "lightMode": {
+        "home": "#D71921",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943229,
+    "leagueName": "Europa League",
+    "leagueRoundName": "2",
+    "parentLeagueId": 73,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "AFC Bournemouth",
+      "id": 8678
+    },
+    "awayTeam": {
+      "name": "Sturm Graz",
+      "id": 10014
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Oct 15, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-15T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-15T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.10.2026 21:00:52",
+      "firstHalfEnded": "15.10.2026 21:47:57",
+      "secondHalfStarted": "15.10.2026 22:03:31",
+      "secondHalfEnded": "15.10.2026 22:53:28",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.10.2026 22:53:28"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8678",
+      "name": "AFC Bournemouth",
+      "score": 3
+    },
+    {
+      "id": "10014",
+      "name": "Sturm Graz",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      6,
+      2
+    ],
+    "All": [
+      7,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

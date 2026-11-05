@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "id": "5781751",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781751",
+  "verified_at_utc": "2026-11-05T06:04:48.519Z",
+  "general": {
+    "matchId": "5781751",
+    "matchName": "NEC Nijmegen-vs-Go Ahead Eagles_Sun, Sep 20, 2026, 14:45 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ED1C24",
+        "away": "#FFD600"
+      },
+      "lightMode": {
+        "home": "#ED1C24",
+        "away": "#d3a100"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "7",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "NEC Nijmegen",
+      "id": 8464
+    },
+    "awayTeam": {
+      "name": "Go Ahead Eagles",
+      "id": 6433
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 14:45 UTC",
+    "matchTimeUTCDate": "2026-09-20T14:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T14:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 16:46:01",
+      "firstHalfEnded": "20.09.2026 17:30:30",
+      "secondHalfStarted": "20.09.2026 17:45:58",
+      "secondHalfEnded": "20.09.2026 18:36:00",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 18:36:00"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8464",
+      "name": "NEC Nijmegen",
+      "score": 1
+    },
+    {
+      "id": "6433",
+      "name": "Go Ahead Eagles",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 2,
+      "added": 0,
+      "display": "2",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 10,
+      "added": 0,
+      "display": "10",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      5
+    ],
+    "All": [
+      5,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

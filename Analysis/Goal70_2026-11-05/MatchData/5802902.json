@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "5802902",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802902",
+  "verified_at_utc": "2026-11-05T06:08:57.390Z",
+  "general": {
+    "matchId": "5802902",
+    "matchName": "Le Havre-vs-Monaco_Sun, Aug 23, 2026, 15:15 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#75b5de",
+        "away": "#C80C13"
+      },
+      "lightMode": {
+        "home": "#6fb0d8",
+        "away": "#C80C13"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "1",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Le Havre",
+      "id": 9746
+    },
+    "awayTeam": {
+      "name": "Monaco",
+      "id": 9829
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 15:15 UTC",
+    "matchTimeUTCDate": "2026-08-23T15:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T15:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 17:15:10",
+      "firstHalfEnded": "23.08.2026 18:04:42",
+      "secondHalfStarted": "23.08.2026 18:21:05",
+      "secondHalfEnded": "23.08.2026 19:10:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 19:10:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9746",
+      "name": "Le Havre",
+      "score": 0
+    },
+    {
+      "id": "9829",
+      "name": "Monaco",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 14,
+      "added": 0,
+      "display": "14",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      3
+    ],
+    "All": [
+      7,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

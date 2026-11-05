@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5845994",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5845994",
+  "verified_at_utc": "2026-11-05T06:05:01.373Z",
+  "general": {
+    "matchId": "5845994",
+    "matchName": "Austria Wien-vs-Sturm Graz_Sat, Oct 10, 2026, 17:30 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#564c9d",
+        "away": "#eeeeee"
+      },
+      "lightMode": {
+        "home": "#484090",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938366,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 38,
+    "countryCode": "AUT",
+    "homeTeam": {
+      "name": "Austria Wien",
+      "id": 10011
+    },
+    "awayTeam": {
+      "name": "Sturm Graz",
+      "id": 10014
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 17:30 UTC",
+    "matchTimeUTCDate": "2026-10-10T17:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T17:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 19:31:01",
+      "firstHalfEnded": "10.10.2026 20:18:14",
+      "secondHalfStarted": "10.10.2026 20:34:36",
+      "secondHalfEnded": "10.10.2026 21:24:27",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 21:24:27"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10011",
+      "name": "Austria Wien",
+      "score": 0
+    },
+    {
+      "id": "10014",
+      "name": "Sturm Graz",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      5
+    ],
+    "SecondHalf": [
+      3,
+      4
+    ],
+    "All": [
+      5,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

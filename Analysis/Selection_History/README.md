@@ -52,3 +52,6 @@ Fluxul zilnic si regulile dashboardului, confirmate la 3 noiembrie, sunt in
 `Previews/Pred_Research_Terminal/dist/index.html`; selectorul de data descopera
 toate zilele salvate la reconstruire. Dupa fiecare analiza, alegere comunicata
 sau verificare de rezultate, reconstruim interfata in aceeasi sesiune.
+
+
+5 noiembrie2026: [jurnal](2026-11-05.md), [review4 noiembrie](../Review_2026-11-04/REVIEW.md), [Gol70](../Goal70_2026-11-05/EUROPE_ALL_MATCHES.md), [cornere](../Corners1H_2026-11-05/ANALYSIS.md).35 partide,33/21 modele; research parțial. Candidați analistPalace–Hoffenheim șiCelta–Union; alegerile expliciteMjällby–Borac/Celta–Union sunt distincte, pending.

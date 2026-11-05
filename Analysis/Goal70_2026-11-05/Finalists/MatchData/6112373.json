@@ -1,0 +1,147 @@
+{
+  "ok": true,
+  "id": "6112373",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112373",
+  "verified_at_utc": "2026-11-05T06:10:18.616Z",
+  "general": {
+    "matchId": "6112373",
+    "matchName": "OFI Crete-vs-Hoffenheim_Thu, Sep 17, 2026, 16:45 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#0057a3"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#005098"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943229,
+    "leagueName": "Europa League",
+    "leagueRoundName": "1",
+    "parentLeagueId": 73,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "OFI Crete",
+      "id": 7753
+    },
+    "awayTeam": {
+      "name": "Hoffenheim",
+      "id": 8226
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Sep 17, 2026, 16:45 UTC",
+    "matchTimeUTCDate": "2026-09-17T16:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-17T16:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.09.2026 18:45:12",
+      "firstHalfEnded": "17.09.2026 19:32:28",
+      "secondHalfStarted": "17.09.2026 19:48:23",
+      "secondHalfEnded": "17.09.2026 20:37:23",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.09.2026 20:37:23"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7753",
+      "name": "OFI Crete",
+      "score": 2
+    },
+    {
+      "id": "8226",
+      "name": "Hoffenheim",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 30,
+      "added": 0,
+      "display": "30",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 84,
+      "added": 0,
+      "display": "84",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      3
+    ],
+    "SecondHalf": [
+      4,
+      5
+    ],
+    "All": [
+      4,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

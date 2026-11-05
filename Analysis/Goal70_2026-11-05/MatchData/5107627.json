@@ -1,0 +1,134 @@
+{
+  "ok": true,
+  "id": "5107627",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107627",
+  "verified_at_utc": "2026-11-05T06:08:46.569Z",
+  "general": {
+    "matchId": "5107627",
+    "matchName": "Västerås SK-vs-Mjällby_Sun, Oct 18, 2026, 12:00 UTC",
+    "matchRound": "24",
+    "teamColors": {
+      "darkMode": {
+        "home": "#197842",
+        "away": "#FCDF00"
+      },
+      "lightMode": {
+        "home": "#197842",
+        "away": "#e09d00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "24",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Västerås SK",
+      "id": 6194
+    },
+    "awayTeam": {
+      "name": "Mjällby",
+      "id": 8127
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 18, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-10-18T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-18T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.10.2026 14:01:29",
+      "firstHalfEnded": "18.10.2026 14:49:38",
+      "secondHalfStarted": "18.10.2026 15:04:42",
+      "secondHalfEnded": "18.10.2026 15:55:24",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.10.2026 15:55:24"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6194",
+      "name": "Västerås SK",
+      "score": 1
+    },
+    {
+      "id": "8127",
+      "name": "Mjällby",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 20,
+      "added": 0,
+      "display": "20",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      4,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 17,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

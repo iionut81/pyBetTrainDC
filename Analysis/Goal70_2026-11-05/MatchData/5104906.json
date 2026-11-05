@@ -1,0 +1,155 @@
+{
+  "ok": true,
+  "id": "5104906",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104906",
+  "verified_at_utc": "2026-11-05T06:09:04.171Z",
+  "general": {
+    "matchId": "5104906",
+    "matchName": "Brann-vs-KFUM_Sat, May 16, 2026, 12:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DE1215",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#DE1215",
+        "away": "#2465A6"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "9",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Brann",
+      "id": 8468
+    },
+    "awayTeam": {
+      "name": "KFUM",
+      "id": 2305
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, May 16, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-05-16T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-16T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "16.05.2026 14:01:22",
+      "firstHalfEnded": "16.05.2026 14:55:00",
+      "secondHalfStarted": "16.05.2026 15:10:46",
+      "secondHalfEnded": "16.05.2026 16:02:50",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.05.2026 16:02:50"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8468",
+      "name": "Brann",
+      "score": 2
+    },
+    {
+      "id": "2305",
+      "name": "KFUM",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 36,
+      "added": 0,
+      "display": "36",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      0
+    ],
+    "All": [
+      6,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 22,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 30,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5739479",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739479",
+  "verified_at_utc": "2026-11-05T06:08:35.509Z",
+  "general": {
+    "matchId": "5739479",
+    "matchName": "Viborg-vs-AGF_Fri, Aug 14, 2026, 17:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#007848",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#007848",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "4",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "Viborg",
+      "id": 9939
+    },
+    "awayTeam": {
+      "name": "AGF",
+      "id": 8071
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Aug 14, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-08-14T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-14T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "14.08.2026 19:01:56",
+      "firstHalfEnded": "14.08.2026 19:48:50",
+      "secondHalfStarted": "14.08.2026 20:04:22",
+      "secondHalfEnded": "14.08.2026 20:52:40",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.08.2026 20:52:40"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9939",
+      "name": "Viborg",
+      "score": 2
+    },
+    {
+      "id": "8071",
+      "name": "AGF",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      5
+    ],
+    "SecondHalf": [
+      1,
+      5
+    ],
+    "All": [
+      3,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

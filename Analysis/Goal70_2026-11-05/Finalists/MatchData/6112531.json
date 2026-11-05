@@ -1,0 +1,188 @@
+{
+  "ok": true,
+  "id": "6112531",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112531",
+  "verified_at_utc": "2026-11-05T06:10:22.898Z",
+  "general": {
+    "matchId": "6112531",
+    "matchName": "Nordsjælland-vs-CSKA Sofia_Thu, Oct 22, 2026, 16:45 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D8132E",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#D8132E",
+        "away": "#CA9913"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943231,
+    "leagueName": "Conference League",
+    "leagueRoundName": "2",
+    "parentLeagueId": 10216,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Nordsjælland",
+      "id": 10202
+    },
+    "awayTeam": {
+      "name": "CSKA Sofia",
+      "id": 10144
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Oct 22, 2026, 16:45 UTC",
+    "matchTimeUTCDate": "2026-10-22T16:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-22T16:45:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.10.2026 18:45:37",
+      "firstHalfEnded": "22.10.2026 19:35:02",
+      "secondHalfStarted": "22.10.2026 19:50:07",
+      "secondHalfEnded": "22.10.2026 20:41:40",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.10.2026 20:41:40"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10202",
+      "name": "Nordsjælland",
+      "score": 2
+    },
+    {
+      "id": "10144",
+      "name": "CSKA Sofia",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 8,
+      "added": 0,
+      "display": "8",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      5,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "YellowRed",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

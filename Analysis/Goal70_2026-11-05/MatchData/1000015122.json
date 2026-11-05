@@ -1,0 +1,174 @@
+{
+  "ok": true,
+  "id": "1000015122",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015122",
+  "verified_at_utc": "2026-11-05T06:08:41.320Z",
+  "general": {
+    "matchId": "1000015122",
+    "matchName": "FK Crvena Zvezda-vs-Partizan Beograd_Sun, Sep 6, 2026, 17:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D80017",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#D80017",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "FK Crvena Zvezda",
+      "id": 8687
+    },
+    "awayTeam": {
+      "name": "Partizan Beograd",
+      "id": 7998
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-06T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 19:04:28",
+      "firstHalfEnded": "06.09.2026 19:53:07",
+      "secondHalfStarted": "06.09.2026 20:11:53",
+      "secondHalfEnded": "06.09.2026 21:05:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 21:05:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8687",
+      "name": "FK Crvena Zvezda",
+      "score": 2
+    },
+    {
+      "id": "7998",
+      "name": "Partizan Beograd",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 17,
+      "added": 0,
+      "display": "17"
+    },
+    {
+      "side": "home",
+      "minute": 28,
+      "added": 0,
+      "display": "28"
+    },
+    {
+      "side": "away",
+      "minute": 1,
+      "added": 0,
+      "display": "1"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      2,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

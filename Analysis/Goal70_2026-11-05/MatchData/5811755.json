@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "5811755",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811755",
+  "verified_at_utc": "2026-11-05T06:04:41.109Z",
+  "general": {
+    "matchId": "5811755",
+    "matchName": "KV Mechelen-vs-Anderlecht_Fri, Sep 11, 2026, 18:45 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E42313",
+        "away": "#524d9d"
+      },
+      "lightMode": {
+        "home": "#E42313",
+        "away": "#3F2B72"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "6",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "KV Mechelen",
+      "id": 8203
+    },
+    "awayTeam": {
+      "name": "Anderlecht",
+      "id": 8635
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Sep 11, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-11T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-11T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "11.09.2026 20:47:38",
+      "firstHalfEnded": "11.09.2026 21:34:09",
+      "secondHalfStarted": "11.09.2026 21:50:22",
+      "secondHalfEnded": "11.09.2026 22:39:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.09.2026 22:39:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8203",
+      "name": "KV Mechelen",
+      "score": 0
+    },
+    {
+      "id": "8635",
+      "name": "Anderlecht",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      8,
+      2
+    ],
+    "All": [
+      10,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 5,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

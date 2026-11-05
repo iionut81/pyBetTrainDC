@@ -7,6 +7,12 @@ eticheta si analiza deschisa urmeaza piata activa. Pentru acea piata sunt
 prioritare alegerile explicite ale utilizatorului, apoi candidatii analistului.
 Butoanele Gol70/Cornere de deasupra radarului si cele din tabel sunt sincronizate.
 
+Panoul `Ce a ramas dupa meciuri` urmeaza aceeasi piata activa. Afiseaza
+ultimele rezultate verificate ale modelelor acelei piete; observatiile fara
+model prospectiv sunt raportate separat. `Vezi istoricul` pastreaza piata si
+ziua din panou, iar numarul de esecuri deschide direct filtrul corespunzator.
+Daca ziua curenta nu are rezultate, panoul indica explicit ultima zi verificata.
+
 Deschidere directa in Chrome: `pred-dashboard://open`. Handler Windows per-user
 instalat la cererea utilizatorului, fara modificarea browserului implicit.
 Comanda sa foloseste lansatorul fix open-dashboard.ps1, care porneste serviciul

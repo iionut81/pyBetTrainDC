@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "1000015287",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015287",
+  "verified_at_utc": "2026-11-05T06:08:33.815Z",
+  "general": {
+    "matchId": "1000015287",
+    "matchName": "Ironi Tiberias-vs-Hapoel Beer Sheva_Sat, Oct 10, 2026, 16:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DDDDDD",
+        "away": "#C80828"
+      },
+      "lightMode": {
+        "home": "#333333",
+        "away": "#C80828"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 127,
+    "leagueName": "Israeli Ligat Ha'al",
+    "leagueRoundName": "6",
+    "parentLeagueId": 127,
+    "countryCode": "ISR",
+    "homeTeam": {
+      "name": "Ironi Tiberias",
+      "id": 543580
+    },
+    "awayTeam": {
+      "name": "Hapoel Beer Sheva",
+      "id": 9754
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-10T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 18:04:03",
+      "firstHalfEnded": "10.10.2026 18:51:09",
+      "secondHalfStarted": "10.10.2026 19:07:23",
+      "secondHalfEnded": "10.10.2026 19:59:00",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 19:59:00"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "543580",
+      "name": "Ironi Tiberias",
+      "score": 0
+    },
+    {
+      "id": "9754",
+      "name": "Hapoel Beer Sheva",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 52,
+      "added": 0,
+      "display": "52"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 7,
+      "display": "90+7"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      1,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

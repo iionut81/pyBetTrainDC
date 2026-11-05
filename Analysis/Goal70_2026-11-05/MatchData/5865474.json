@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "id": "5865474",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5865474",
+  "verified_at_utc": "2026-11-05T06:08:32.056Z",
+  "general": {
+    "matchId": "5865474",
+    "matchName": "Ferencváros-vs-Debrecen_Sat, Oct 10, 2026, 15:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#008040",
+        "away": "#D40D1E"
+      },
+      "lightMode": {
+        "home": "#008040",
+        "away": "#D40D1E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 212,
+    "leagueName": "NB I",
+    "leagueRoundName": "9",
+    "parentLeagueId": 212,
+    "countryCode": "HUN",
+    "homeTeam": {
+      "name": "Ferencváros",
+      "id": 8222
+    },
+    "awayTeam": {
+      "name": "Debrecen",
+      "id": 8369
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-10-10T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 17:01:52",
+      "firstHalfEnded": "10.10.2026 17:49:46",
+      "secondHalfStarted": "10.10.2026 18:03:52",
+      "secondHalfEnded": "10.10.2026 18:56:02",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 18:56:02"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8222",
+      "name": "Ferencváros",
+      "score": 1
+    },
+    {
+      "id": "8369",
+      "name": "Debrecen",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 65,
+      "added": 0,
+      "display": "65"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 5,
+      "display": "90+5"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": [
+      1,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 5,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

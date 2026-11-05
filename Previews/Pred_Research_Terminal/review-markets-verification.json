@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-11-05T09:40:48.782Z",
+  "checks": [
+    "Goal review uses the goal market and verified day",
+    "Goal review identifies Rennes failure, not the corner failure",
+    "Corner switch updates review label and modeled sample immediately",
+    "Corner review identifies the actual eight-corner failure",
+    "Unmodeled observation is reported separately from model success rate",
+    "Review history link selects the actual corner market and date",
+    "Failure link opens only the relevant corner failure",
+    "Switching from the table restores goal review and goal failure link",
+    "Previous day corner review shows both failures among nineteen models",
+    "Both failure tooltips describe corner totals",
+    "Fallback date depends on availability for the active market",
+    "Empty market cannot retain stale goal results",
+    "Pending current day falls back to latest verified corner day",
+    "Market-specific review is accessible on mobile without page overflow"
+  ],
+  "exceptions": 0,
+  "scope": "market-specific review, model-only counts, actual failures, history routing, date fallback and mobile; no data changes"
+}

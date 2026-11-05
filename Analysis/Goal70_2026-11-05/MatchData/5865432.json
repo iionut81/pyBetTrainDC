@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5865432",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5865432",
+  "verified_at_utc": "2026-11-05T06:08:31.829Z",
+  "general": {
+    "matchId": "5865432",
+    "matchName": "Ferencvaros-vs-Vasas Budapest_Sun, Aug 2, 2026, 15:30 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#008040",
+        "away": "#0860A8"
+      },
+      "lightMode": {
+        "home": "#008040",
+        "away": "#0860A8"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 212,
+    "leagueName": "NB I",
+    "leagueRoundName": "2",
+    "parentLeagueId": 212,
+    "countryCode": "HUN",
+    "homeTeam": {
+      "name": "Ferencvaros",
+      "id": 8222
+    },
+    "awayTeam": {
+      "name": "Vasas Budapest",
+      "id": 1602
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sun, Aug 2, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-08-02T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-02T15:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "02.08.2026 17:32:30",
+      "firstHalfEnded": "02.08.2026 18:20:52",
+      "secondHalfStarted": "02.08.2026 18:34:51",
+      "secondHalfEnded": "02.08.2026 19:25:07",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.08.2026 19:25:07"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8222",
+      "name": "Ferencvaros",
+      "score": 0
+    },
+    {
+      "id": "1602",
+      "name": "Vasas Budapest",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": [
+      2,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 5,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

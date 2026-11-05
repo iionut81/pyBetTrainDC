@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5781698",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781698",
+  "verified_at_utc": "2026-11-05T06:04:48.061Z",
+  "general": {
+    "matchId": "5781698",
+    "matchName": "NEC Nijmegen-vs-Telstar_Sat, Aug 8, 2026, 14:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ED1C24",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#ED1C24",
+        "away": "#0076BF"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "1",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "NEC Nijmegen",
+      "id": 8464
+    },
+    "awayTeam": {
+      "name": "Telstar",
+      "id": 6414
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 8, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-08-08T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-08T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.08.2026 16:30:38",
+      "firstHalfEnded": "08.08.2026 17:17:37",
+      "secondHalfStarted": "08.08.2026 17:34:09",
+      "secondHalfEnded": "08.08.2026 18:25:25",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.08.2026 18:25:25"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8464",
+      "name": "NEC Nijmegen",
+      "score": 1
+    },
+    {
+      "id": "6414",
+      "name": "Telstar",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 1,
+      "added": 0,
+      "display": "1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      3
+    ],
+    "SecondHalf": [
+      6,
+      0
+    ],
+    "All": [
+      13,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

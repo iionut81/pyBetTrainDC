@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5803969",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803969",
+  "verified_at_utc": "2026-11-05T06:04:44.311Z",
+  "general": {
+    "matchId": "5803969",
+    "matchName": "Jagiellonia Białystok-vs-Śląsk Wrocław_Sun, Sep 6, 2026, 18:15 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D81921",
+        "away": "#138445"
+      },
+      "lightMode": {
+        "home": "#D81921",
+        "away": "#006643"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "7",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Jagiellonia Białystok",
+      "id": 1957
+    },
+    "awayTeam": {
+      "name": "Śląsk Wrocław",
+      "id": 8025
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 18:15 UTC",
+    "matchTimeUTCDate": "2026-09-06T18:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T18:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 20:18:15",
+      "firstHalfEnded": "06.09.2026 21:05:48",
+      "secondHalfStarted": "06.09.2026 21:22:16",
+      "secondHalfEnded": "06.09.2026 22:13:42",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 22:13:42"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1957",
+      "name": "Jagiellonia Białystok",
+      "score": 2
+    },
+    {
+      "id": "8025",
+      "name": "Śląsk Wrocław",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 41,
+      "added": 0,
+      "display": "41",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 81,
+      "added": 0,
+      "display": "81",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      5
+    ],
+    "SecondHalf": [
+      0,
+      2
+    ],
+    "All": [
+      4,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

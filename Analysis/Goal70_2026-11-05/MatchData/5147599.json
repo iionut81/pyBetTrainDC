@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "id": "5147599",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5147599",
+  "verified_at_utc": "2026-11-05T06:08:42.778Z",
+  "general": {
+    "matchId": "5147599",
+    "matchName": "SJK-vs-KuPS_Sat, Jul 18, 2026, 14:00 UTC",
+    "matchRound": "16",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C2B252",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#e19c00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 919925,
+    "leagueName": "Veikkausliiga",
+    "leagueRoundName": "16",
+    "parentLeagueId": 51,
+    "countryCode": "FIN",
+    "homeTeam": {
+      "name": "SJK",
+      "id": 162162
+    },
+    "awayTeam": {
+      "name": "KuPS",
+      "id": 1693
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Jul 18, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-07-18T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-18T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.07.2026 16:02:11",
+      "firstHalfEnded": "18.07.2026 16:45:58",
+      "secondHalfStarted": "18.07.2026 17:03:33",
+      "secondHalfEnded": "18.07.2026 17:51:44",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.07.2026 17:51:44"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "162162",
+      "name": "SJK",
+      "score": 0
+    },
+    {
+      "id": "1693",
+      "name": "KuPS",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 24,
+      "added": 0,
+      "display": "24"
+    },
+    {
+      "side": "away",
+      "minute": 32,
+      "added": 0,
+      "display": "32"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      4
+    ],
+    "All": [
+      8,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

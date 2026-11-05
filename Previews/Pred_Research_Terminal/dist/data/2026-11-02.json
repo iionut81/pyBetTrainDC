@@ -1004,7 +1004,7 @@
           "minute": "3",
           "corners": "",
           "score": "2-2",
-          "source": "https://www.fotmob.com/matches/tenerife-vs-fc-andorra/1mbsjawm#5868523",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868523 | https://www.laliga.com/es-NG/partido/temporada-2026-2027-laliga-hypermotion-cd-tenerife-fc-andorra-12 | https://as.com/futbol/segunda/el-tenerife-andorra-se-da-por-finalizado-no-se-tendra-que-reanudar-f202611-n/",
           "verifiedAt": "2026-11-03T07:58:17.0958722Z"
         },
         "report": "reports/2026-11-02/goal/401883144.html"
@@ -1021,12 +1021,12 @@
         "source": "https://www.fotmob.com/matches/tenerife-vs-fc-andorra/1mbsjawm#5868523",
         "eligible": true,
         "outcome": {
-          "result": "void",
+          "result": "success",
           "minute": "",
-          "corners": "",
-          "score": "",
-          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868523",
-          "verifiedAt": "2026-11-04T08:02:43.249+02:00"
+          "corners": "2",
+          "score": "2-2",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868523 | https://www.laliga.com/es-NG/partido/temporada-2026-2027-laliga-hypermotion-cd-tenerife-fc-andorra-12 | https://as.com/futbol/segunda/el-tenerife-andorra-se-da-por-finalizado-no-se-tendra-que-reanudar-f202611-n/",
+          "verifiedAt": "2026-11-05T08:03:59.214+02:00"
         },
         "report": "reports/2026-11-02/corner/401883144.html"
       },
@@ -1864,7 +1864,7 @@
         "minute": "3",
         "corners": "",
         "score": "2-2",
-        "source": "https://www.fotmob.com/matches/tenerife-vs-fc-andorra/1mbsjawm#5868523",
+        "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868523 | https://www.laliga.com/es-NG/partido/temporada-2026-2027-laliga-hypermotion-cd-tenerife-fc-andorra-12 | https://as.com/futbol/segunda/el-tenerife-andorra-se-da-por-finalizado-no-se-tendra-que-reanudar-f202611-n/",
         "verifiedAt": "2026-11-03T07:58:17.0958722Z",
         "rank": 17
       },
@@ -2057,12 +2057,12 @@
         "home": "Tenerife",
         "away": "FC Andorra",
         "p": 0.968037093997247,
-        "result": "void",
+        "result": "success",
         "minute": "",
-        "corners": "",
-        "score": "",
-        "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868523",
-        "verifiedAt": "2026-11-04T08:02:43.249+02:00",
+        "corners": "2",
+        "score": "2-2",
+        "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868523 | https://www.laliga.com/es-NG/partido/temporada-2026-2027-laliga-hypermotion-cd-tenerife-fc-andorra-12 | https://as.com/futbol/segunda/el-tenerife-andorra-se-da-por-finalizado-no-se-tendra-que-reanudar-f202611-n/",
+        "verifiedAt": "2026-11-05T08:03:59.214+02:00",
         "rank": 5
       },
       {
@@ -2368,15 +2368,15 @@
     },
     "corner": {
       "total": 27,
-      "played": 25,
-      "success": 21,
+      "played": 26,
+      "success": 22,
       "fail": 4,
       "postponed": 1,
       "pending": 0,
-      "hit_rate": 0.84,
-      "mean_predicted_probability": 0.9088854972000749,
-      "brier": 0.12474795297864524,
-      "scored": 25
+      "hit_rate": 0.8461538461538461,
+      "mean_predicted_probability": 0.9111605586153507,
+      "brier": 0.1199892481471643,
+      "scored": 26
     }
   },
   "userSelections": [

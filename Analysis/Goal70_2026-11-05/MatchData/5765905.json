@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5765905",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765905",
+  "verified_at_utc": "2026-11-05T06:08:44.781Z",
+  "general": {
+    "matchId": "5765905",
+    "matchName": "HNK Gorica-vs-Hajduk Split_Sun, Aug 16, 2026, 19:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D02422",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#D02422",
+        "away": "#034EA2"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "3",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "HNK Gorica",
+      "id": 206560
+    },
+    "awayTeam": {
+      "name": "Hajduk Split",
+      "id": 10154
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 16, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-16T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-16T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.08.2026 21:01:51",
+      "firstHalfEnded": "16.08.2026 21:48:42",
+      "secondHalfStarted": "16.08.2026 22:07:46",
+      "secondHalfEnded": "16.08.2026 23:00:06",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.08.2026 23:00:06"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "206560",
+      "name": "HNK Gorica",
+      "score": 1
+    },
+    {
+      "id": "10154",
+      "name": "Hajduk Split",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 78,
+      "added": 0,
+      "display": "78"
+    },
+    {
+      "side": "away",
+      "minute": 3,
+      "added": 0,
+      "display": "3"
+    },
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      3,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

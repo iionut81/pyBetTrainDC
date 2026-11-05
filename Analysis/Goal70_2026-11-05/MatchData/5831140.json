@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "5831140",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831140",
+  "verified_at_utc": "2026-11-05T06:04:50.627Z",
+  "general": {
+    "matchId": "5831140",
+    "matchName": "Sparta Prague-vs-Teplice_Sat, Aug 15, 2026, 15:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#a12236",
+        "away": "#FAC118"
+      },
+      "lightMode": {
+        "home": "#8E192B",
+        "away": "#da9f00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "4",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Sparta Prague",
+      "id": 10247
+    },
+    "awayTeam": {
+      "name": "Teplice",
+      "id": 4721
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 15, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-08-15T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-15T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "15.08.2026 17:00:58",
+      "firstHalfEnded": "15.08.2026 17:46:38",
+      "secondHalfStarted": "15.08.2026 18:04:22",
+      "secondHalfEnded": "15.08.2026 18:49:42",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.08.2026 18:49:42"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10247",
+      "name": "Sparta Prague",
+      "score": 4
+    },
+    {
+      "id": "4721",
+      "name": "Teplice",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 9,
+      "added": 0,
+      "display": "9"
+    },
+    {
+      "side": "home",
+      "minute": 36,
+      "added": 0,
+      "display": "36"
+    },
+    {
+      "side": "home",
+      "minute": 39,
+      "added": 0,
+      "display": "39"
+    },
+    {
+      "side": "home",
+      "minute": 84,
+      "added": 0,
+      "display": "84"
+    },
+    {
+      "side": "away",
+      "minute": 25,
+      "added": 0,
+      "display": "25"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      5
+    ],
+    "All": [
+      10,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

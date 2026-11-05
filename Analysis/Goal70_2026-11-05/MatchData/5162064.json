@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5162064",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5162064",
+  "verified_at_utc": "2026-11-05T06:09:01.681Z",
+  "general": {
+    "matchId": "5162064",
+    "matchName": "Riga FC-vs-Auda_Fri, Sep 11, 2026, 15:00 UTC",
+    "matchRound": "30",
+    "teamColors": {
+      "darkMode": {
+        "home": "#38A9FF",
+        "away": "#00923E"
+      },
+      "lightMode": {
+        "home": "#38A9FF",
+        "away": "#00923E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 226,
+    "leagueName": "Latvian Virsliga",
+    "leagueRoundName": "30",
+    "parentLeagueId": 226,
+    "countryCode": "LVA",
+    "homeTeam": {
+      "name": "Riga FC",
+      "id": 624924
+    },
+    "awayTeam": {
+      "name": "Auda",
+      "id": 2106
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Fri, Sep 11, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-09-11T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-11T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "11.09.2026 17:01:55",
+      "firstHalfEnded": "11.09.2026 17:49:07",
+      "secondHalfStarted": "11.09.2026 18:05:44",
+      "secondHalfEnded": "11.09.2026 18:55:25",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.09.2026 18:55:25"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "624924",
+      "name": "Riga FC",
+      "score": 2
+    },
+    {
+      "id": "2106",
+      "name": "Auda",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 38,
+      "added": 0,
+      "display": "38"
+    },
+    {
+      "side": "home",
+      "minute": 66,
+      "added": 0,
+      "display": "66"
+    },
+    {
+      "side": "away",
+      "minute": 76,
+      "added": 0,
+      "display": "76"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      0
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

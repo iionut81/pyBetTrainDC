@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "6112356",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112356",
+  "verified_at_utc": "2026-11-05T06:10:16.465Z",
+  "general": {
+    "matchId": "6112356",
+    "matchName": "Beşiktaş-vs-Crystal Palace_Thu, Oct 22, 2026, 19:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#0055A5"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#0055A5"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943229,
+    "leagueName": "Europa League",
+    "leagueRoundName": "3",
+    "parentLeagueId": 73,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Beşiktaş",
+      "id": 10188
+    },
+    "awayTeam": {
+      "name": "Crystal Palace",
+      "id": 9826
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Oct 22, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-22T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-22T19:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.10.2026 21:02:22",
+      "firstHalfEnded": "22.10.2026 21:50:33",
+      "secondHalfStarted": "22.10.2026 22:06:14",
+      "secondHalfEnded": "22.10.2026 22:56:40",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.10.2026 22:56:40"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10188",
+      "name": "Beşiktaş",
+      "score": 2
+    },
+    {
+      "id": "9826",
+      "name": "Crystal Palace",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 73,
+      "added": 0,
+      "display": "73",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      0,
+      0
+    ],
+    "All": [
+      1,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "YellowRed",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

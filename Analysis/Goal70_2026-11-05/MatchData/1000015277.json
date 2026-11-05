@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "id": "1000015277",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015277",
+  "verified_at_utc": "2026-11-05T06:08:33.251Z",
+  "general": {
+    "matchId": "1000015277",
+    "matchName": "Hapoel Beer Sheva-vs-Hapoel Ironi Kiryat Shmona_Sat, Sep 19, 2026, 17:15 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C80828",
+        "away": "#383880"
+      },
+      "lightMode": {
+        "home": "#C80828",
+        "away": "#383880"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 127,
+    "leagueName": "Israeli Ligat Ha'al",
+    "leagueRoundName": "5",
+    "parentLeagueId": 127,
+    "countryCode": "ISR",
+    "homeTeam": {
+      "name": "Hapoel Beer Sheva",
+      "id": 9754
+    },
+    "awayTeam": {
+      "name": "Hapoel Ironi Kiryat Shmona",
+      "id": 2095
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 17:15 UTC",
+    "matchTimeUTCDate": "2026-09-19T17:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T17:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 19:16:14",
+      "firstHalfEnded": "19.09.2026 20:04:18",
+      "secondHalfStarted": "19.09.2026 20:20:04",
+      "secondHalfEnded": "19.09.2026 21:09:10",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 21:09:10"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9754",
+      "name": "Hapoel Beer Sheva",
+      "score": 1
+    },
+    {
+      "id": "2095",
+      "name": "Hapoel Ironi Kiryat Shmona",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 19,
+      "added": 0,
+      "display": "19"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      6,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 7,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

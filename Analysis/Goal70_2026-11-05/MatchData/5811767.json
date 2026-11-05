@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5811767",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811767",
+  "verified_at_utc": "2026-11-05T06:04:41.151Z",
+  "general": {
+    "matchId": "5811767",
+    "matchName": "Anderlecht-vs-Zulte Waregem_Sat, Sep 19, 2026, 18:45 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#524d9d",
+        "away": "#d7011d"
+      },
+      "lightMode": {
+        "home": "#3F2B72",
+        "away": "#ba011a"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "7",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Anderlecht",
+      "id": 8635
+    },
+    "awayTeam": {
+      "name": "Zulte Waregem",
+      "id": 10000
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-19T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 20:47:32",
+      "firstHalfEnded": "19.09.2026 21:34:05",
+      "secondHalfStarted": "19.09.2026 21:51:32",
+      "secondHalfEnded": "19.09.2026 22:41:37",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 22:41:37"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8635",
+      "name": "Anderlecht",
+      "score": 3
+    },
+    {
+      "id": "10000",
+      "name": "Zulte Waregem",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 48,
+      "added": 0,
+      "display": "48",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      0
+    ],
+    "All": [
+      8,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

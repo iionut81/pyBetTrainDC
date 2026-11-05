@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5749731",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749731",
+  "verified_at_utc": "2026-11-05T06:08:37.455Z",
+  "general": {
+    "matchId": "5749731",
+    "matchName": "Atalanta-vs-Parma_Mon, Nov 2, 2026, 19:45 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0D68B1",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#004ca6",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "10",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Atalanta",
+      "id": 8524
+    },
+    "awayTeam": {
+      "name": "Parma",
+      "id": 10167
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Nov 2, 2026, 19:45 UTC",
+    "matchTimeUTCDate": "2026-11-02T19:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-02T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.11.2026 20:45:53",
+      "firstHalfEnded": "02.11.2026 21:33:32",
+      "secondHalfStarted": "02.11.2026 21:49:02",
+      "secondHalfEnded": "02.11.2026 22:37:37",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.11.2026 22:37:37"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8524",
+      "name": "Atalanta",
+      "score": 0
+    },
+    {
+      "id": "10167",
+      "name": "Parma",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 41,
+      "added": 0,
+      "display": "41",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 47,
+      "added": 0,
+      "display": "47",
+      "period": "SecondHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 58,
+      "added": 0,
+      "display": "58",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      8,
+      4
+    ]
+  },
+  "cards": [],
+  "formations": {}
+}

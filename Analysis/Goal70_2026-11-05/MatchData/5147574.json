@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5147574",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5147574",
+  "verified_at_utc": "2026-11-05T06:08:42.788Z",
+  "general": {
+    "matchId": "5147574",
+    "matchName": "TPS-vs-KuPS_Wed, Jun 17, 2026, 15:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#FEDC00"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#e19c00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 919925,
+    "leagueName": "Veikkausliiga",
+    "leagueRoundName": "11",
+    "parentLeagueId": 51,
+    "countryCode": "FIN",
+    "homeTeam": {
+      "name": "TPS",
+      "id": 6633
+    },
+    "awayTeam": {
+      "name": "KuPS",
+      "id": 1693
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Wed, Jun 17, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-06-17T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-06-17T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.06.2026 17:00:25",
+      "firstHalfEnded": "17.06.2026 17:46:29",
+      "secondHalfStarted": "17.06.2026 18:05:06",
+      "secondHalfEnded": "17.06.2026 18:53:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.06.2026 18:53:39"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6633",
+      "name": "TPS",
+      "score": 1
+    },
+    {
+      "id": "1693",
+      "name": "KuPS",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 78,
+      "added": 0,
+      "display": "78"
+    },
+    {
+      "side": "away",
+      "minute": 29,
+      "added": 0,
+      "display": "29"
+    },
+    {
+      "side": "away",
+      "minute": 72,
+      "added": 0,
+      "display": "72"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

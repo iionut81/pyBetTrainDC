@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "id": "1000015290",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015290",
+  "verified_at_utc": "2026-11-05T06:08:33.451Z",
+  "general": {
+    "matchId": "1000015290",
+    "matchName": "Hapoel Beer Sheva-vs-Hapoel Jerusalem FC_Sun, Oct 18, 2026, 17:15 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C80828",
+        "away": "#585050"
+      },
+      "lightMode": {
+        "home": "#C80828",
+        "away": "#585050"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 127,
+    "leagueName": "Israeli Ligat Ha'al",
+    "leagueRoundName": "7",
+    "parentLeagueId": 127,
+    "countryCode": "ISR",
+    "homeTeam": {
+      "name": "Hapoel Beer Sheva",
+      "id": 9754
+    },
+    "awayTeam": {
+      "name": "Hapoel Jerusalem FC",
+      "id": 459591
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 18, 2026, 17:15 UTC",
+    "matchTimeUTCDate": "2026-10-18T17:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-18T17:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "18.10.2026 19:16:24",
+      "firstHalfEnded": "18.10.2026 20:04:34",
+      "secondHalfStarted": "18.10.2026 20:21:15",
+      "secondHalfEnded": "18.10.2026 21:15:45",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.10.2026 21:15:45"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9754",
+      "name": "Hapoel Beer Sheva",
+      "score": 2
+    },
+    {
+      "id": "459591",
+      "name": "Hapoel Jerusalem FC",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74"
+    },
+    {
+      "side": "home",
+      "minute": 84,
+      "added": 0,
+      "display": "84"
+    },
+    {
+      "side": "away",
+      "minute": 35,
+      "added": 0,
+      "display": "35"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      0
+    ],
+    "All": [
+      6,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

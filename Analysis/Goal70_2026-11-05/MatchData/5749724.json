@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "id": "5749724",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749724",
+  "verified_at_utc": "2026-11-05T06:04:53.500Z",
+  "general": {
+    "matchId": "5749724",
+    "matchName": "Genoa-vs-Juventus_Wed, Oct 28, 2026, 19:45 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#CB1111",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#CB1111",
+        "away": "#000001"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "9",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Genoa",
+      "id": 10233
+    },
+    "awayTeam": {
+      "name": "Juventus",
+      "id": 9885
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Oct 28, 2026, 19:45 UTC",
+    "matchTimeUTCDate": "2026-10-28T19:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-28T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.10.2026 20:46:30",
+      "firstHalfEnded": "28.10.2026 21:33:40",
+      "secondHalfStarted": "28.10.2026 21:50:08",
+      "secondHalfEnded": "28.10.2026 22:39:19",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.10.2026 22:39:19"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10233",
+      "name": "Genoa",
+      "score": 2
+    },
+    {
+      "id": "9885",
+      "name": "Juventus",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 28,
+      "added": 0,
+      "display": "28",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      6
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      6,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

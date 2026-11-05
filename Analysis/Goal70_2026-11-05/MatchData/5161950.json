@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5161950",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5161950",
+  "verified_at_utc": "2026-11-05T06:09:00.196Z",
+  "general": {
+    "matchId": "5161950",
+    "matchName": "Grobiņa-vs-Riga FC_Sat, Apr 18, 2026, 11:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DDDDDD",
+        "away": "#38A9FF"
+      },
+      "lightMode": {
+        "home": "#333333",
+        "away": "#38A9FF"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 226,
+    "leagueName": "Latvian Virsliga",
+    "leagueRoundName": "7",
+    "parentLeagueId": 226,
+    "countryCode": "LVA",
+    "homeTeam": {
+      "name": "Grobiņa",
+      "id": 662738
+    },
+    "awayTeam": {
+      "name": "Riga FC",
+      "id": 624924
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sat, Apr 18, 2026, 11:00 UTC",
+    "matchTimeUTCDate": "2026-04-18T11:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-18T11:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.04.2026 13:00:48",
+      "firstHalfEnded": "18.04.2026 13:46:06",
+      "secondHalfStarted": "18.04.2026 14:00:29",
+      "secondHalfEnded": "18.04.2026 14:45:41",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.04.2026 14:45:41"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "662738",
+      "name": "Grobiņa",
+      "score": 0
+    },
+    {
+      "id": "624924",
+      "name": "Riga FC",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 18,
+      "added": 0,
+      "display": "18"
+    },
+    {
+      "side": "away",
+      "minute": 36,
+      "added": 0,
+      "display": "36"
+    },
+    {
+      "side": "away",
+      "minute": 40,
+      "added": 0,
+      "display": "40"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      5
+    ],
+    "SecondHalf": [
+      0,
+      4
+    ],
+    "All": [
+      0,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 13,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

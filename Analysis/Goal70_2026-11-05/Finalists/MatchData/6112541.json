@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "6112541",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112541",
+  "verified_at_utc": "2026-11-05T06:10:21.212Z",
+  "general": {
+    "matchId": "6112541",
+    "matchName": "CSKA Sofia-vs-Monaco_Thu, Oct 15, 2026, 16:45 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D80800",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#D80800",
+        "away": "#E09608"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943231,
+    "leagueName": "Conference League",
+    "leagueRoundName": "1",
+    "parentLeagueId": 10216,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "CSKA Sofia",
+      "id": 10144
+    },
+    "awayTeam": {
+      "name": "Monaco",
+      "id": 9829
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Oct 15, 2026, 16:45 UTC",
+    "matchTimeUTCDate": "2026-10-15T16:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-15T16:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.10.2026 18:45:57",
+      "firstHalfEnded": "15.10.2026 19:32:47",
+      "secondHalfStarted": "15.10.2026 19:49:25",
+      "secondHalfEnded": "15.10.2026 20:39:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.10.2026 20:39:56"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10144",
+      "name": "CSKA Sofia",
+      "score": 1
+    },
+    {
+      "id": "9829",
+      "name": "Monaco",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 44,
+      "added": 0,
+      "display": "44",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      0
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      12,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

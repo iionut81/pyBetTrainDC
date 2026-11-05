@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "5161999",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5161999",
+  "verified_at_utc": "2026-11-05T06:09:00.849Z",
+  "general": {
+    "matchId": "5161999",
+    "matchName": "Ogre United-vs-Riga FC_Sat, Jun 13, 2026, 11:00 UTC",
+    "matchRound": "17",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DDDDDD",
+        "away": "#38A9FF"
+      },
+      "lightMode": {
+        "home": "#333333",
+        "away": "#38A9FF"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 226,
+    "leagueName": "Latvian Virsliga",
+    "leagueRoundName": "17",
+    "parentLeagueId": 226,
+    "countryCode": "LVA",
+    "homeTeam": {
+      "name": "Ogre United",
+      "id": 1899459
+    },
+    "awayTeam": {
+      "name": "Riga FC",
+      "id": 624924
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sat, Jun 13, 2026, 11:00 UTC",
+    "matchTimeUTCDate": "2026-06-13T11:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-06-13T11:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.06.2026 13:00:10",
+      "firstHalfEnded": "13.06.2026 13:48:39",
+      "secondHalfStarted": "13.06.2026 14:03:33",
+      "secondHalfEnded": "13.06.2026 14:50:37",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.06.2026 14:50:37"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1899459",
+      "name": "Ogre United",
+      "score": 1
+    },
+    {
+      "id": "624924",
+      "name": "Riga FC",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57"
+    },
+    {
+      "side": "away",
+      "minute": 17,
+      "added": 0,
+      "display": "17"
+    },
+    {
+      "side": "away",
+      "minute": 32,
+      "added": 0,
+      "display": "32"
+    },
+    {
+      "side": "away",
+      "minute": 48,
+      "added": 0,
+      "display": "48"
+    },
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      5
+    ],
+    "All": [
+      4,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

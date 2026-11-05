@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "5802922",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802922",
+  "verified_at_utc": "2026-11-05T06:04:49.937Z",
+  "general": {
+    "matchId": "5802922",
+    "matchName": "Lyon-vs-Auxerre_Fri, Sep 4, 2026, 17:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#055DC6"
+      },
+      "lightMode": {
+        "home": "#0160A0",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "3",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Lyon",
+      "id": 9748
+    },
+    "awayTeam": {
+      "name": "Auxerre",
+      "id": 8583
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Sep 4, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-04T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-04T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "04.09.2026 19:00:17",
+      "firstHalfEnded": "04.09.2026 19:51:29",
+      "secondHalfStarted": "04.09.2026 20:06:41",
+      "secondHalfEnded": "04.09.2026 20:56:45",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "04.09.2026 20:56:45"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9748",
+      "name": "Lyon",
+      "score": 3
+    },
+    {
+      "id": "8583",
+      "name": "Auxerre",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 28,
+      "added": 0,
+      "display": "28",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 42,
+      "added": 0,
+      "display": "42",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      8,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      9,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 26,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

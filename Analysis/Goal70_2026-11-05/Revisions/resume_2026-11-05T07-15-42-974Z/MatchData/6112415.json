@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "6112415",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112415",
+  "verified_at_utc": "2026-11-05T07:15:49.408Z",
+  "general": {
+    "matchId": "6112415",
+    "matchName": "Panathinaikos-vs-Borac Banja Luka_Thu, Oct 15, 2026, 16:45 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#206830",
+        "away": "#ED1B23"
+      },
+      "lightMode": {
+        "home": "#206830",
+        "away": "#ED1B23"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943231,
+    "leagueName": "Conference League",
+    "leagueRoundName": "1",
+    "parentLeagueId": 10216,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Panathinaikos",
+      "id": 10200
+    },
+    "awayTeam": {
+      "name": "Borac Banja Luka",
+      "id": 10116
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Oct 15, 2026, 16:45 UTC",
+    "matchTimeUTCDate": "2026-10-15T16:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-15T16:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.10.2026 18:45:45",
+      "firstHalfEnded": "15.10.2026 19:34:25",
+      "secondHalfStarted": "15.10.2026 19:50:52",
+      "secondHalfEnded": "15.10.2026 20:39:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.10.2026 20:39:35"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10200",
+      "name": "Panathinaikos",
+      "score": 2
+    },
+    {
+      "id": "10116",
+      "name": "Borac Banja Luka",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 10,
+      "added": 0,
+      "display": "10",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 70,
+      "added": 0,
+      "display": "70",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      0
+    ],
+    "SecondHalf": [
+      6,
+      0
+    ],
+    "All": [
+      11,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 6,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 10,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

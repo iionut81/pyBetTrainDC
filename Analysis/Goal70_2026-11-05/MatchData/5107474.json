@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5107474",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107474",
+  "verified_at_utc": "2026-11-05T06:08:45.481Z",
+  "general": {
+    "matchId": "5107474",
+    "matchName": "Mjällby-vs-Halmstads BK_Mon, Apr 27, 2026, 17:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FCDF00",
+        "away": "#205287"
+      },
+      "lightMode": {
+        "home": "#e09d00",
+        "away": "#205287"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "5",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Mjällby",
+      "id": 8127
+    },
+    "awayTeam": {
+      "name": "Halmstads BK",
+      "id": 8310
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Apr 27, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-04-27T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-27T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "27.04.2026 19:01:29",
+      "firstHalfEnded": "27.04.2026 19:47:32",
+      "secondHalfStarted": "27.04.2026 20:02:55",
+      "secondHalfEnded": "27.04.2026 20:50:58",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "27.04.2026 20:50:58"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8127",
+      "name": "Mjällby",
+      "score": 2
+    },
+    {
+      "id": "8310",
+      "name": "Halmstads BK",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 84,
+      "added": 0,
+      "display": "84",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      8,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

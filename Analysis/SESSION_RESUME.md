@@ -143,3 +143,65 @@ CSV-ul recitit are acum DOUA alegeri4 noiembrie, ambele inregistrate explicit pr
 ## Publicarea versiunii cu alegeri din dashboard
 
 Utilizatorul a cerut commit si push pentru versiunea actuala si alegerile noi. CSV-ul canonic confirma pentru4 noiembrie: Bristol City-Wolverhampton Wanderers GOAL_BY_70 si Kortrijk-KV Mechelen CORNERS_1H_UNDER_7_5, ambele introduse explicit prin dashboard si in asteptarea rezultatului. Se publica butoanele, serviciul local, launcherul portabil, testele, documentatia, istoricul canonic si jurnalul de evenimente. Configuratiile private, transcripturile, runtime si modificarile independente de productie raman excluse. Pentru hash si confirmarea push-ului consulta git log/origin main; nu infera ca este nevoie de un commit duplicat la reluare.
+
+## Link public cerut - copie gata, publicare in asteptarea confirmarii
+
+Utilizatorul a cerut un link accesibil altcuiva. Creat si verificat local exportul read-only Previews/Pred_Public_Dashboard/:3 zile2-4 noiembrie,64 partide,153 resurse,3,25MiB,6 verificari browser PASS,0 exceptii, fara overflow mobil. Sursa exclusiv origin/main253a39e, fara conversatii/jurnale, configuratii private, API/launcher local sau posibilitatea de a modifica alegeri. Rapoartele Markdown sunt convertite in HTML. Scan local fara credentiale/cai personale.
+
+Sites create_site a creat proiectul PRIVAT appgprj_6aeb2558d01c81a49e962873fff7426a, slug pred-research-iionut81. ID-ul exact este persistat in Previews/Pred_Public_Dashboard/.openai/hosting.json. NU crea alt proiect. Nu exista surse incarcate, saved_version sau deployment. expected_url nu este link public verificat.
+
+Verificarea automata de aprobare a RESPINS executarea site-workflow.mjs pentru pregatirea surselor externe: utilizatorul a cerut link public, dar reviewer cere autorizare explicita a furnizorului Sites si a datelor/alegerilor/istoricului expuse. Nu ocoli refuzul prin alta comanda sau alt serviciu. Am terminat pregatirea/QA locala si am cerut acord explicit prin request_user_input_async, optiuni Da publica pe Sites / Prefer GitHub Pages, cu descrierea datelor2-4 noiembrie si alegerilor Bristol-Wolverhampton/Kortrijk-Mechelen. Publicarea ramane blocata pana la raspuns. Nu expune credentialele temporare; la reluare reinnoieste-le pentru acelasi ID daca au expirat. Orice commit nou trebuie sa contina trailerul Codex; helperul poate crea automat commit fara trailer, deci pregateste/verifica manual commitul inainte de saveSource cand se autorizeaza publicarea.
+
+## Cerere reiterata pentru link - publicare respinsa din nou
+
+Utilizatorul spune Nu vad link-ul, da-mi-l. Am verificat get_site pentru acelasi proiect: version0, current_live_url null; available_access_modes sunt numai custom si workspace_all, deci acest cont Sites nu permite acces public. Reincercarea ACELEIASI comenzi site-workflow, justificata prin reiterarea cererii si exportul numai din date deja publice, a fost respinsa din nou de auto-review: reiterarea linkului nu autorizeaza explicit furnizorul si payloadul. Nu repeta comanda si nu ocoli refuzul. Nu s-au incarcat surse sau publicat site.
+
+Am cerut o NOUA confirmare explicita prin request_user_input_async pentru GitHub Pages, acces public, copie read-only2-4 noiembrie si alegerile Bristol-Wolverhampton/Kortrijk-Mechelen, fara conversatii/configuratii. Optiuni Da publica pe GitHub Pages / Nu publica. Asteapta raspunsul explicit. Exportul local gata/testat ramane in Previews/Pred_Public_Dashboard/dist. Orice flux GitHub Pages ar trebui sa foloseasca exact acel export verificat, numai dupa autorizare. Nu da expected_url Sites ca link activ.
+
+## GitHub Pages PUBLICAT dupa aprobarea explicita
+
+Utilizatorul a raspuns explicit Da publica pe GitHub Pages la intrebarea cu furnizorul/payloadul complet. S-a publicat numai exportul read-only verificat din origin/main253a39e,3 zile2-4 noiembrie,64 partide,153 fisiere plus.nojekyll, fara configuratii/transcripturi/launcher/API de scriere. GitHub Pages este public pe https://iionut81.github.io/pyBetTrainDC/ . Ramura gh-pages, commit2e01ad5120a97aafc687f12535af071b2ee21b03, trailer Codex verificat, identitatea autorului pastrata. Main si datele locale nu au fost schimbate de publicarea separata.
+
+API Pages confirma status built, source gh-pages /, public true; build latest coincide cu commitul. Verificate fara autentificare HTTP200: radacina, pagina dashboardului, raport individual Lyngby3 noiembrie, review3 noiembrie si publication.json. Web search/open a returnat eroare interna a uneltei pentru pagina, dar fetch HTTP direct a confirmat toate5 adresele; QA browser locala a exportului6 verificari PASS inclusiv mobil. Nu exista link Sites public; proiectul Sites ramane privat/version0 si nefolosit.
+
+Site-ul arata ultima copie publicata; actualizarile locale si noile alegeri nu se publica automat. Nu crea automat job/push zilnic fara o cerere separata. Pentru actualizare autorizata foloseste ramura gh-pages existenta si pastreaza istoricul, fara force push. Checkoutul separat de publicare si starea sunt in Previews/Pred_Research_Terminal/.runtime/pages-publish-state.json (local, ignoratGit). Furnizeaza utilizatorului linkul public verificat, nu mai cere acordul pentru publicarea deja realizata.
+
+# Jurnal5 noiembrie2026 - verificare ceruta de utilizator
+
+Utilizatorul intreaba daca agentul a executat ce trebuia azi. Verificare directa la aproximativ08:53RO: rularea a inceput08:00:02; review4 noiembrie, rezultatele si lectiile au fost salvate inainte de scanare (predare08:03:59). Alegerile explicite Bristol-Wolverhampton Gol70 primul gol34 si Kortrijk-Mechelen corner1H0 sunt ambele success in CSV, fara inferarea unui profit. Wrexham revocat nu este alegere activa. Gol70 lista16/17; cornere15/16 modele,16/17 observatii totale.
+
+Exista date de research pentru35 partide,33 modele Gol70 si21 cornere; lipsesc raportul final, finalistele contextuale si arhivele canonice de azi. Dashboardul fusese regenerat08:03 cu rezultateieri, latestDate4 noiembrie. Task Scheduler arata Ready, LastTaskResult0xC000013A, ultima pornire raportata08:45:56; nu exista proces de agent zilnic pornit azi. Statusul running ramas din08:00 era stale; corectat failed cu dovada in Runs/2026-11-05_080002/status_observed_interruption.json. Cauza exacta a intreruperii nu este demonstrata. Nu s-a lansat alta cercetare si nu s-a schimbat programarea.
+
+Pas urmator: reluare din fisierele deja salvate, dupa confirmarea lipsei unei alte executii; completarile/contextul final, arhivarea candidatilor si dashboard5 noiembrie sunt restante. Nu prezenta datele partiale ca top global sau recomandari finale. Site-ul public ramane copia publicata anterior, fara actualizare automata.
+
+## Corectie panou rezultate pe tabul Cornere
+
+Utilizatorul arata ca tabul Cornere nu afiseaza esecurile proprii. Cauza confirmata: renderReview folosea hardcodat metrics.goal/reviews.goal, iar setMarket actualiza numai radarul/tabelul. Corectat sa urmeze piata activa, ultima zi cu rezultate verificate pentru acea piata, propriile esecuri si tooltipuri cu observatia relevanta. Vezi istoricul si numarul de esecuri deschid acum data/piata/filtrul corect. Datele lipsa si zilele fara rezultate nu pastreaza accidental panoul Gol70.
+
+Bilantul principal numara numai modele prospective; partidele fara model sunt separate. Pentru4 noiembrie Cornere:15/16 modele reusite93,75%, un esec Fenerbahce-Liverpool8 cornere1H; toate observatiile16/17, cu Viking-Sabah fara model. Pentru3 noiembrie Cornere:17/19 modele, doua esecuri Villarreal-PSG8 si Watford-Lincoln10. Modelele, predictiile, alegerile si rezultatele canonice nu au fost schimbate (hashuri verificate).
+
+QA:14 verificari browser specifice PASS,28 regresii dashboard PASS,4 teste arhiva PASS,0 exceptii, fara overflow mobil. Asteptarile vechi ale testelor pentru Tenerife au fost aduse la reconcilierea deja salvata azi (22/26cornere2 noiembrie); nu s-au modificat rezultatele pentru a trece testul. Dashboard local reconstruit:4 zile,35 partide arhivate pe5 noiembrie; asta nu confirma singur finalizarea researchului/contextului. Dovezi review-markets-verification.json si preview-review-corners.png. Fara research nou, programare, commit/push sau actualizare GitHub Pages. Ctrl+F5 in dashboardul local pentru corectie.
+
+
+## Reluarea autorizată a agentului zilnic — 2026-11-05T09:20:31.458+02:00
+
+Cerere: încheierea fluxului5 noiembrie din datele deja salvate, fără agenți paraleli, cote bookmaker, pariuri, schimbări de modele, programare sauGit. Review și lecții predate2026-11-05T08:03:59.216+02:00, scanare2026-11-05T08:04:13.715+02:00; ordinea este păstrată. Confirmare nouă a alegerilor de ieri: Bristol–Wolves primul gol34, Kortrijk–Mechelen0 cornere1H, ambele success; dovezi înAnalysis/Goal70_2026-11-05/Revisions/resume_2026-11-05T07-15-42-974Z/PreviousChoices. Lista ieri16/17 Gol70,15/16 modele cornere (16/17 observații totale). Cauzele tactice ale failurilor sunt necunoscute.
+
+Inventar29 ligi fără partide interne;35 europene,33 modele Gol70 și21 cornere,844 istorice. Research parțial: două mapări lipsă,14 modele cornere lipsă, confirmarea ESPNFirstHalf incompletă și loturi neconfirmate. Raportele complete cu liste/excluderi înGoal70_2026-11-05/EUROPE_ALL_MATCHES.md șiCorners1H_2026-11-05/ANALYSIS.md; surse și lecții aplicate în ambele.
+
+Candidat analist Gol70 Palace–Hoffenheim19:45,94,06% brut/89,55%stres, rang2; liderul brutThun94,86% rămâne rang1. Candidat cornere și principal individualCelta–Union22:00,97,47%/93,91%, necalibrat, fără combinație. Selecțiile explicite canonice de azi Mjällby–Borac Gol70 șiCelta–Unioncornere sunt păstrate pending, fără modificarea CSV-ului de utilizator. Mjällby are avertismente0–0recent, GF70acasă7/14 și stadionOlympia diferit; snapshotul89,86%/83,98% nu este rescris.
+
+Toate35 statusurile neînceput sunt reverificate online la reluare; prima încercare locală fără rețea a fost arhivată ca eroare, urmată de răspunsuri valide. Originalele înaintea contextului sunt înAnalysis/Goal70_2026-11-05/Revisions/context_2026-11-05T09-20-31-458+02-00; doar roluri și aliasuri de schemă adăugate. Urmează rebuild/QA/export local și raportare; la6 noiembrie se verifică rezultatele și se reîncearcă restanțele. Site-ul public nu se actualizează automat.
+
+
+## Predare finală — 2026-11-05T09:27:42.668+02:00
+
+Dashboard reconstruit:4 zile, data curentă5 noiembrie,35 partide și198 rapoarte meci/piață. VerificăriPASS:4 teste de arhivă;8 verificări în browser,0 excepții, navigare4/5 noiembrie, alegerile reale primele pe piața proprie, rezultate azi pending, lipsuri păstrate null și fără overflow mobil. Probabilitățile/rangurile/timestampurile originale au fost comparate cu revizia anterioară și sunt intacte. CSV-ul utilizatorului nu a fost scris de reluare; la închidere are2 alegeri explicite pentru azi.
+
+run_report_2026-11-05.json: review complete, Gol70 partial, cornere partial, dashboard complete. Export local al conversației:2 mesaje disponibile din1 sursă pentru execuția curentă; nu transcript complet al conversațiilor proiectului. Primele încercări QA au cerut corectarea verificării proprietății outcome și accesul browserului dincolo de sandbox; testul final de mai sus este cel valid. Fără modificarea modelelor, selection_engine, programării, commit/push sau publicăriiGitHubPages.
+
+Pas următor6 noiembrie: verificarea exactă a primului gol Mjällby–Borac și FirstHalf Celta–Union, apoi toate cele35 partide și review/lecții înaintea unui inventar nou. Radnicki–Zeleznicar rămâne reprogramat25 noiembrie. La consultare se reîncarcă dashboardul local.
+
+## Commit/push autorizat: Corner tab push
+
+Utilizatorul a cerut commit si push cu mesajul exact Corner tab push. Scope selectat: review si lectii4 noiembrie, analizele/istoricul/alegerile5 noiembrie, corectia panoului Cornere, dashboardul generat si dovezile/testele relevante. Include sursele locale ale exportului read-only deja folosit pentru GitHub Pages, fara proiectul/configuratia privata Sites sau o republicare Pages. Nu include productia modificata independent, transcripturi, configuratii private sau runtime. Verificari actuale:4 teste arhiva PASS,14 verificari browser ale panoului PASS, hashuri rezultate/alegeri intacte;33 modeleGol70/21cornere din35partide, doua alegeri explicite Mjallby-Borac si Celta-Union pending. Cont GitHub confirmat iionut81. Publicarea se face pe main; hashul/starea finala se verifica in git log si pe origin/main. Nu se porneste research sau un job nou si nu se publica automat gh-pages.

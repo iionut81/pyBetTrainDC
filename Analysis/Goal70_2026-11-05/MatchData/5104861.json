@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5104861",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104861",
+  "verified_at_utc": "2026-11-05T06:04:44.946Z",
+  "general": {
+    "matchId": "5104861",
+    "matchName": "Molde-vs-Lillestrøm_Mon, Apr 6, 2026, 15:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0068b0",
+        "away": "#fede02"
+      },
+      "lightMode": {
+        "home": "#0D47A0",
+        "away": "#dba000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "3",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Molde",
+      "id": 9917
+    },
+    "awayTeam": {
+      "name": "Lillestrøm",
+      "id": 8476
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Apr 6, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-04-06T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-06T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.04.2026 17:00:11",
+      "firstHalfEnded": "06.04.2026 17:49:39",
+      "secondHalfStarted": "06.04.2026 18:05:18",
+      "secondHalfEnded": "06.04.2026 18:58:04",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.04.2026 18:58:04"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9917",
+      "name": "Molde",
+      "score": 0
+    },
+    {
+      "id": "8476",
+      "name": "Lillestrøm",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      6,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "1000015257",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015257",
+  "verified_at_utc": "2026-11-05T06:08:33.088Z",
+  "general": {
+    "matchId": "1000015257",
+    "matchName": "Hapoel Ramat Gan-vs-Hapoel Beer Sheva_Sat, Aug 29, 2026, 17:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C02020",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#C02020",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 127,
+    "leagueName": "Israeli Ligat Ha'al",
+    "leagueRoundName": "2",
+    "parentLeagueId": 127,
+    "countryCode": "ISR",
+    "homeTeam": {
+      "name": "Hapoel Ramat Gan",
+      "id": 89753
+    },
+    "awayTeam": {
+      "name": "Hapoel Beer Sheva",
+      "id": 9754
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 29, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-08-29T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-29T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "29.08.2026 19:04:33",
+      "firstHalfEnded": "29.08.2026 19:54:06",
+      "secondHalfStarted": "29.08.2026 20:09:56",
+      "secondHalfEnded": "29.08.2026 20:59:21",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "29.08.2026 20:59:21"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "89753",
+      "name": "Hapoel Ramat Gan",
+      "score": 1
+    },
+    {
+      "id": "9754",
+      "name": "Hapoel Beer Sheva",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 76,
+      "added": 0,
+      "display": "76"
+    },
+    {
+      "side": "away",
+      "minute": 61,
+      "added": 0,
+      "display": "61"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      4
+    ],
+    "SecondHalf": [
+      3,
+      5
+    ],
+    "All": [
+      6,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

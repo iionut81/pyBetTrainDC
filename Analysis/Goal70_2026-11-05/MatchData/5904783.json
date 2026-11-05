@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5904783",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904783",
+  "verified_at_utc": "2026-11-05T06:05:00.383Z",
+  "general": {
+    "matchId": "5904783",
+    "matchName": "Beşiktaş-vs-Başakşehir_Mon, Oct 26, 2026, 16:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#FC5000"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#FC5000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "9",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Beşiktaş",
+      "id": 10188
+    },
+    "awayTeam": {
+      "name": "Başakşehir",
+      "id": 1933
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Oct 26, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-26T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-26T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "26.10.2026 17:00:24",
+      "firstHalfEnded": "26.10.2026 17:46:43",
+      "secondHalfStarted": "26.10.2026 18:03:07",
+      "secondHalfEnded": "26.10.2026 18:51:48",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.10.2026 18:51:48"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10188",
+      "name": "Beşiktaş",
+      "score": 2
+    },
+    {
+      "id": "1933",
+      "name": "Başakşehir",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      5,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

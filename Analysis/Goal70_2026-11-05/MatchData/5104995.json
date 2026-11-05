@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5104995",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104995",
+  "verified_at_utc": "2026-11-05T06:04:46.491Z",
+  "general": {
+    "matchId": "5104995",
+    "matchName": "Brann-vs-Lillestrøm_Sat, Sep 5, 2026, 16:00 UTC",
+    "matchRound": "20",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DE1215",
+        "away": "#fede02"
+      },
+      "lightMode": {
+        "home": "#DE1215",
+        "away": "#dba000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "20",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Brann",
+      "id": 8468
+    },
+    "awayTeam": {
+      "name": "Lillestrøm",
+      "id": 8476
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-09-05T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 18:02:01",
+      "firstHalfEnded": "05.09.2026 19:00:06",
+      "secondHalfStarted": "05.09.2026 19:14:44",
+      "secondHalfEnded": "05.09.2026 20:05:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 20:05:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8468",
+      "name": "Brann",
+      "score": 1
+    },
+    {
+      "id": "8476",
+      "name": "Lillestrøm",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 6,
+      "added": 0,
+      "display": "6",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      10,
+      0
+    ],
+    "All": [
+      12,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

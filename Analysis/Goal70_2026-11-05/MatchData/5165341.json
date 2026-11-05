@@ -1,0 +1,120 @@
+{
+  "ok": true,
+  "id": "5165341",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5165341",
+  "verified_at_utc": "2026-11-05T06:08:52.476Z",
+  "general": {
+    "matchId": "5165341",
+    "matchName": "Iberia 1999-vs-Dila Gori_Thu, Sep 17, 2026, 16:00 UTC",
+    "matchRound": "20",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#D52125"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#D52125"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 439,
+    "leagueName": "Erovnuli Liga",
+    "leagueRoundName": "20",
+    "parentLeagueId": 439,
+    "countryCode": "GEO",
+    "homeTeam": {
+      "name": "Iberia 1999",
+      "id": 480291
+    },
+    "awayTeam": {
+      "name": "Dila Gori",
+      "id": 2217
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Thu, Sep 17, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-09-17T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-17T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "17.09.2026 17:58:45",
+      "firstHalfEnded": "17.09.2026 18:47:11",
+      "secondHalfStarted": "17.09.2026 19:03:39",
+      "secondHalfEnded": "17.09.2026 19:58:50",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.09.2026 19:58:50"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "480291",
+      "name": "Iberia 1999",
+      "score": 2
+    },
+    {
+      "id": "2217",
+      "name": "Dila Gori",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 8,
+      "display": "90+8"
+    },
+    {
+      "side": "away",
+      "minute": 82,
+      "added": 0,
+      "display": "82"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": null
+  },
+  "cards": [
+    {
+      "time": 58,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

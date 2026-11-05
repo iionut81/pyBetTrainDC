@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "id": "6275374",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6275374",
+  "verified_at_utc": "2026-11-05T06:10:18.719Z",
+  "general": {
+    "matchId": "6275374",
+    "matchName": "AFC Bournemouth-vs-Aston Villa_Wed, Oct 28, 2026, 19:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D71921",
+        "away": "#9d2358"
+      },
+      "lightMode": {
+        "home": "#D71921",
+        "away": "#7D1142"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938221,
+    "leagueName": "EFL Cup",
+    "leagueRoundName": "4",
+    "parentLeagueId": 133,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "AFC Bournemouth",
+      "id": 8678
+    },
+    "awayTeam": {
+      "name": "Aston Villa",
+      "id": 10252
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Oct 28, 2026, 19:45 UTC",
+    "matchTimeUTCDate": "2026-10-28T19:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-28T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.10.2026 20:45:15",
+      "firstHalfEnded": "28.10.2026 21:32:02",
+      "secondHalfStarted": "28.10.2026 21:47:21",
+      "secondHalfEnded": "28.10.2026 22:35:23",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.10.2026 22:35:23"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8678",
+      "name": "AFC Bournemouth",
+      "score": 3
+    },
+    {
+      "id": "10252",
+      "name": "Aston Villa",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 7,
+      "added": 0,
+      "display": "7",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 69,
+      "added": 0,
+      "display": "69",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      6,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 12,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 16,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

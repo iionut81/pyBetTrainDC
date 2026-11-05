@@ -1,0 +1,193 @@
+{
+  "ok": true,
+  "id": "1000015302",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015302",
+  "verified_at_utc": "2026-11-05T06:08:33.568Z",
+  "general": {
+    "matchId": "1000015302",
+    "matchName": "Maccabi Haifa-vs-Hapoel Beer Sheva_Mon, Oct 26, 2026, 17:30 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0f6f39",
+        "away": "#C80828"
+      },
+      "lightMode": {
+        "home": "#0f6f39",
+        "away": "#C80828"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 127,
+    "leagueName": "Israeli Ligat Ha'al",
+    "leagueRoundName": "8",
+    "parentLeagueId": 127,
+    "countryCode": "ISR",
+    "homeTeam": {
+      "name": "Maccabi Haifa",
+      "id": 10185
+    },
+    "awayTeam": {
+      "name": "Hapoel Beer Sheva",
+      "id": 9754
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Oct 26, 2026, 17:30 UTC",
+    "matchTimeUTCDate": "2026-10-26T17:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-26T17:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "26.10.2026 18:30:16",
+      "firstHalfEnded": "26.10.2026 19:19:16",
+      "secondHalfStarted": "26.10.2026 19:35:08",
+      "secondHalfEnded": "26.10.2026 20:22:45",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.10.2026 20:22:45"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 5",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10185",
+      "name": "Maccabi Haifa",
+      "score": 2
+    },
+    {
+      "id": "9754",
+      "name": "Hapoel Beer Sheva",
+      "score": 5
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 77,
+      "added": 0,
+      "display": "77"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2"
+    },
+    {
+      "side": "away",
+      "minute": 50,
+      "added": 0,
+      "display": "50"
+    },
+    {
+      "side": "away",
+      "minute": 56,
+      "added": 0,
+      "display": "56"
+    },
+    {
+      "side": "away",
+      "minute": 54,
+      "added": 0,
+      "display": "54"
+    },
+    {
+      "side": "away",
+      "minute": 79,
+      "added": 0,
+      "display": "79"
+    },
+    {
+      "side": "away",
+      "minute": 82,
+      "added": 0,
+      "display": "82"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      4
+    ],
+    "All": [
+      9,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 5,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 55,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

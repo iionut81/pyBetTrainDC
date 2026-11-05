@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5105011",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5105011",
+  "verified_at_utc": "2026-11-05T06:09:04.814Z",
+  "general": {
+    "matchId": "5105011",
+    "matchName": "Brann-vs-Bodø/Glimt_Sun, Sep 20, 2026, 17:15 UTC",
+    "matchRound": "22",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DE1215",
+        "away": "#f8dc03"
+      },
+      "lightMode": {
+        "home": "#DE1215",
+        "away": "#e09d00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "22",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Brann",
+      "id": 8468
+    },
+    "awayTeam": {
+      "name": "Bodø/Glimt",
+      "id": 8402
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 17:15 UTC",
+    "matchTimeUTCDate": "2026-09-20T17:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T17:15:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 19:16:23",
+      "firstHalfEnded": "20.09.2026 20:04:39",
+      "secondHalfStarted": "20.09.2026 20:20:03",
+      "secondHalfEnded": "20.09.2026 21:10:25",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 21:10:25"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8468",
+      "name": "Brann",
+      "score": 2
+    },
+    {
+      "id": "8402",
+      "name": "Bodø/Glimt",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 58,
+      "added": 0,
+      "display": "58",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 14,
+      "added": 0,
+      "display": "14",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      0,
+      5
+    ],
+    "All": [
+      3,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

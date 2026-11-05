@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5831155",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831155",
+  "verified_at_utc": "2026-11-05T06:04:50.693Z",
+  "general": {
+    "matchId": "5831155",
+    "matchName": "Sparta Prague-vs-Slavia Prague_Sun, Aug 30, 2026, 18:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#a12236",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#8E192B",
+        "away": "#C6A464"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "6",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Sparta Prague",
+      "id": 10247
+    },
+    "awayTeam": {
+      "name": "Slavia Prague",
+      "id": 7787
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-08-30T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 20:02:43",
+      "firstHalfEnded": "30.08.2026 20:49:39",
+      "secondHalfStarted": "30.08.2026 21:06:42",
+      "secondHalfEnded": "30.08.2026 21:54:43",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 21:54:43"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10247",
+      "name": "Sparta Prague",
+      "score": 0
+    },
+    {
+      "id": "7787",
+      "name": "Slavia Prague",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 11,
+      "added": 0,
+      "display": "11"
+    },
+    {
+      "side": "away",
+      "minute": 59,
+      "added": 0,
+      "display": "59"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      7,
+      1
+    ],
+    "All": [
+      13,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

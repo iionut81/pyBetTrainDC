@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5739487",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739487",
+  "verified_at_utc": "2026-11-05T06:08:39.668Z",
+  "general": {
+    "matchId": "5739487",
+    "matchName": "FC Midtjylland-vs-Randers FC_Sun, Aug 23, 2026, 12:05 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#BF0C0D",
+        "away": "#7eb2e7"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#73A8DC"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "5",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "FC Midtjylland",
+      "id": 8113
+    },
+    "awayTeam": {
+      "name": "Randers FC",
+      "id": 8410
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 12:05 UTC",
+    "matchTimeUTCDate": "2026-08-23T12:05:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T12:05:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 14:05:19",
+      "firstHalfEnded": "23.08.2026 14:51:52",
+      "secondHalfStarted": "23.08.2026 15:08:09",
+      "secondHalfEnded": "23.08.2026 15:56:22",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 15:56:22"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8113",
+      "name": "FC Midtjylland",
+      "score": 1
+    },
+    {
+      "id": "8410",
+      "name": "Randers FC",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 28,
+      "added": 0,
+      "display": "28",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      4
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      10,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

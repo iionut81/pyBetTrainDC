@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "id": "6162747",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6162747",
+  "verified_at_utc": "2026-11-05T06:10:17.841Z",
+  "general": {
+    "matchId": "6162747",
+    "matchName": "Holstein Kiel-vs-Hoffenheim_Wed, Oct 28, 2026, 19:45 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1a5889",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#085080",
+        "away": "#F87B12"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 936417,
+    "leagueName": "DFB Pokal",
+    "leagueRoundName": "2",
+    "parentLeagueId": 209,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Holstein Kiel",
+      "id": 8150
+    },
+    "awayTeam": {
+      "name": "Hoffenheim",
+      "id": 8226
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Oct 28, 2026, 19:45 UTC",
+    "matchTimeUTCDate": "2026-10-28T19:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-28T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.10.2026 20:45:10",
+      "firstHalfEnded": "28.10.2026 21:39:39",
+      "secondHalfStarted": "28.10.2026 21:55:46",
+      "secondHalfEnded": "28.10.2026 22:42:41",
+      "firstExtraHalfStarted": "28.10.2026 22:47:25",
+      "secondExtraHalfStarted": "28.10.2026 23:06:23",
+      "gameEnded": "28.10.2026 22:42:41"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "Pen",
+      "shortKey": "penalties_short",
+      "long": "Pen 4 - 3",
+      "longKey": "afterpenalties",
+      "penalties": [
+        4,
+        3
+      ]
+    },
+    "whoLostOnPenalties": "Hoffenheim",
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8150",
+      "name": "Holstein Kiel",
+      "score": 1
+    },
+    {
+      "id": "8226",
+      "name": "Hoffenheim",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 23,
+      "added": 0,
+      "display": "23",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      5
+    ],
+    "SecondHalf": [
+      5,
+      3
+    ],
+    "All": [
+      6,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 105,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 106,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 117,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

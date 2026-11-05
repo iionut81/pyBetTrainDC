@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "id": "6106401",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6106401",
+  "verified_at_utc": "2026-11-05T06:02:52.111Z",
+  "general": {
+    "matchId": "6106401",
+    "matchName": "AEK Athens-vs-Real Madrid_Wed, Nov 4, 2026, 17:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FED300",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#d99f00",
+        "away": "#085098"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943230,
+    "leagueName": "Champions League",
+    "leagueRoundName": "4",
+    "parentLeagueId": 42,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "AEK Athens",
+      "id": 8563
+    },
+    "awayTeam": {
+      "name": "Real Madrid",
+      "id": 8633
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Nov 4, 2026, 17:45 UTC",
+    "matchTimeUTCDate": "2026-11-04T17:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-04T17:45:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "04.11.2026 18:47:34",
+      "firstHalfEnded": "04.11.2026 19:33:39",
+      "secondHalfStarted": "04.11.2026 19:49:40",
+      "secondHalfEnded": "04.11.2026 20:39:32",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "04.11.2026 20:39:32"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8563",
+      "name": "AEK Athens",
+      "score": 2
+    },
+    {
+      "id": "8633",
+      "name": "Real Madrid",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 78,
+      "added": 0,
+      "display": "78",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      3
+    ],
+    "SecondHalf": [
+      0,
+      4
+    ],
+    "All": [
+      0,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

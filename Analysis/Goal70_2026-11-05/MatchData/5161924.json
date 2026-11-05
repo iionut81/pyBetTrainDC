@@ -1,0 +1,167 @@
+{
+  "ok": true,
+  "id": "5161924",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5161924",
+  "verified_at_utc": "2026-11-05T06:09:00.021Z",
+  "general": {
+    "matchId": "5161924",
+    "matchName": "Riga FC-vs-BFC Daugavpils_Sat, Mar 14, 2026, 14:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#38A9FF",
+        "away": "#1B6AB7"
+      },
+      "lightMode": {
+        "home": "#38A9FF",
+        "away": "#1B6AB7"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 226,
+    "leagueName": "Latvian Virsliga",
+    "leagueRoundName": "2",
+    "parentLeagueId": 226,
+    "countryCode": "LVA",
+    "homeTeam": {
+      "name": "Riga FC",
+      "id": 624924
+    },
+    "awayTeam": {
+      "name": "BFC Daugavpils",
+      "id": 197864
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sat, Mar 14, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-03-14T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-03-14T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "14.03.2026 15:00:48",
+      "firstHalfEnded": "14.03.2026 15:49:22",
+      "secondHalfStarted": "14.03.2026 16:05:32",
+      "secondHalfEnded": "14.03.2026 16:54:06",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.03.2026 16:54:06"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "624924",
+      "name": "Riga FC",
+      "score": 4
+    },
+    {
+      "id": "197864",
+      "name": "BFC Daugavpils",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 30,
+      "added": 0,
+      "display": "30"
+    },
+    {
+      "side": "home",
+      "minute": 47,
+      "added": 0,
+      "display": "47"
+    },
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37"
+    },
+    {
+      "side": "home",
+      "minute": 60,
+      "added": 0,
+      "display": "60"
+    },
+    {
+      "side": "away",
+      "minute": 52,
+      "added": 0,
+      "display": "52"
+    },
+    {
+      "side": "away",
+      "minute": 54,
+      "added": 0,
+      "display": "54"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      6,
+      3
+    ],
+    "All": [
+      8,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

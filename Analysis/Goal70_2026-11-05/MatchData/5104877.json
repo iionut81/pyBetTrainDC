@@ -1,0 +1,162 @@
+{
+  "ok": true,
+  "id": "5104877",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104877",
+  "verified_at_utc": "2026-11-05T06:04:45.331Z",
+  "general": {
+    "matchId": "5104877",
+    "matchName": "Vålerenga-vs-Lillestrøm_Sun, Apr 19, 2026, 12:30 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#333bb3",
+        "away": "#fede02"
+      },
+      "lightMode": {
+        "home": "#283090",
+        "away": "#dba000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "5",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Vålerenga",
+      "id": 8007
+    },
+    "awayTeam": {
+      "name": "Lillestrøm",
+      "id": 8476
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Apr 19, 2026, 12:30 UTC",
+    "matchTimeUTCDate": "2026-04-19T12:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-19T12:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.04.2026 14:32:00",
+      "firstHalfEnded": "19.04.2026 15:23:16",
+      "secondHalfStarted": "19.04.2026 15:38:27",
+      "secondHalfEnded": "19.04.2026 16:38:36",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.04.2026 16:38:36"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8007",
+      "name": "Vålerenga",
+      "score": 0
+    },
+    {
+      "id": "8476",
+      "name": "Lillestrøm",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 12,
+      "display": "90+12",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      3
+    ],
+    "SecondHalf": [
+      9,
+      3
+    ],
+    "All": [
+      13,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 39,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

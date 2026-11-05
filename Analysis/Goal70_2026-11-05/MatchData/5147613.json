@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "id": "5147613",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5147613",
+  "verified_at_utc": "2026-11-05T06:08:42.982Z",
+  "general": {
+    "matchId": "5147613",
+    "matchName": "IF Gnistan-vs-KuPS_Sat, Aug 1, 2026, 16:00 UTC",
+    "matchRound": "18",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFF108",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#dc9e00",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 919925,
+    "leagueName": "Veikkausliiga",
+    "leagueRoundName": "18",
+    "parentLeagueId": 51,
+    "countryCode": "FIN",
+    "homeTeam": {
+      "name": "IF Gnistan",
+      "id": 2361
+    },
+    "awayTeam": {
+      "name": "KuPS",
+      "id": 1693
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 1, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-08-01T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-01T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.08.2026 18:06:21",
+      "firstHalfEnded": "01.08.2026 18:49:21",
+      "secondHalfStarted": "01.08.2026 19:06:32",
+      "secondHalfEnded": "01.08.2026 19:55:15",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.08.2026 19:55:15"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2361",
+      "name": "IF Gnistan",
+      "score": 0
+    },
+    {
+      "id": "1693",
+      "name": "KuPS",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 1,
+      "added": 0,
+      "display": "1"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      8,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 5,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "6112324",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112324",
+  "verified_at_utc": "2026-11-05T06:10:16.776Z",
+  "general": {
+    "matchId": "6112324",
+    "matchName": "Crystal Palace-vs-Lech Poznań_Thu, Sep 17, 2026, 19:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0055A5",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#0055A5",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943229,
+    "leagueName": "Europa League",
+    "leagueRoundName": "1",
+    "parentLeagueId": 73,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Crystal Palace",
+      "id": 9826
+    },
+    "awayTeam": {
+      "name": "Lech Poznań",
+      "id": 2182
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Sep 17, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-09-17T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-17T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "17.09.2026 21:01:04",
+      "firstHalfEnded": "17.09.2026 21:48:13",
+      "secondHalfStarted": "17.09.2026 22:03:51",
+      "secondHalfEnded": "17.09.2026 22:51:44",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.09.2026 22:51:44"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9826",
+      "name": "Crystal Palace",
+      "score": 4
+    },
+    {
+      "id": "2182",
+      "name": "Lech Poznań",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 10,
+      "added": 0,
+      "display": "10",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 34,
+      "added": 0,
+      "display": "34",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      6,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "YellowRed",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

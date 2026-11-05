@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "id": "5804263",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804263",
+  "verified_at_utc": "2026-11-05T06:08:47.814Z",
+  "general": {
+    "matchId": "5804263",
+    "matchName": "Thun-vs-Grasshopper_Sat, Sep 12, 2026, 16:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E30513",
+        "away": "#0E70B3"
+      },
+      "lightMode": {
+        "home": "#E30513",
+        "away": "#0E70B3"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937880,
+    "leagueName": "Super League",
+    "leagueRoundName": "8",
+    "parentLeagueId": 69,
+    "countryCode": "SUI",
+    "homeTeam": {
+      "name": "Thun",
+      "id": 10191
+    },
+    "awayTeam": {
+      "name": "Grasshopper",
+      "id": 9956
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-09-12T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T16:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 18:02:29",
+      "firstHalfEnded": "12.09.2026 18:47:44",
+      "secondHalfStarted": "12.09.2026 19:03:38",
+      "secondHalfEnded": "12.09.2026 19:52:16",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 19:52:16"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10191",
+      "name": "Thun",
+      "score": 0
+    },
+    {
+      "id": "9956",
+      "name": "Grasshopper",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 23,
+      "added": 0,
+      "display": "23",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      3
+    ],
+    "SecondHalf": [
+      6,
+      2
+    ],
+    "All": [
+      10,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 38,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

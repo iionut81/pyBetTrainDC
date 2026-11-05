@@ -45,7 +45,7 @@ test('A later verified result changes history, never the prospective probability
  assert.equal(day.matches[0].corner.p,.9);
  assert.deepEqual(fs.readFileSync(path.join(root,file)),frozen);
 });
-test('Real archive preserves both user choices, screening/final estimates and partial corner verification',()=>{
+test('Real archive preserves both user choices, screening/final estimates and reconciled corner results',()=>{
  const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
  const archive=loadArchive(root),today=archive.days.find(d=>d.date==='2026-11-03'),past=archive.days.find(d=>d.date==='2026-11-02');
  assert.equal(today.coverage.total,20);assert.equal(today.coverage.corner,19);
@@ -58,8 +58,8 @@ test('Real archive preserves both user choices, screening/final estimates and pa
  assert.equal(derby.corner.outcome.corners,'6');
  assert.equal(today.matches.find(m=>m.id==='401880179').userGoal,true);
  assert.equal(past.metrics.goal.played,26);assert.equal(past.metrics.goal.fail,4);
- assert.equal(past.metrics.corner.played,25);assert.equal(past.metrics.corner.pending,0);
- assert.equal(past.metrics.corner.success,21);assert.equal(past.metrics.corner.fail,4);
+ assert.equal(past.metrics.corner.played,26);assert.equal(past.metrics.corner.pending,0);
+ assert.equal(past.metrics.corner.success,22);assert.equal(past.metrics.corner.fail,4);
  assert.equal(past.metrics.corner.postponed,1);
 });
 test('Contradictory outcomes stop the build instead of silently choosing a source',t=>{

@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "id": "6112534",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112534",
+  "verified_at_utc": "2026-11-05T06:10:22.781Z",
+  "general": {
+    "matchId": "6112534",
+    "matchName": "AGF-vs-Egnatia_Thu, Oct 22, 2026, 19:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#2FAE4C"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#2FAE4C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943231,
+    "leagueName": "Conference League",
+    "leagueRoundName": "2",
+    "parentLeagueId": 10216,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "AGF",
+      "id": 8071
+    },
+    "awayTeam": {
+      "name": "Egnatia",
+      "id": 10039
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Oct 22, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-22T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-22T19:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.10.2026 21:00:58",
+      "firstHalfEnded": "22.10.2026 21:49:30",
+      "secondHalfStarted": "22.10.2026 22:05:52",
+      "secondHalfEnded": "22.10.2026 22:54:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.10.2026 22:54:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8071",
+      "name": "AGF",
+      "score": 1
+    },
+    {
+      "id": "10039",
+      "name": "Egnatia",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      5,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 16,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

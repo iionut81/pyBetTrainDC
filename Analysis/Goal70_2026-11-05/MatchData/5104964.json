@@ -1,0 +1,171 @@
+{
+  "ok": true,
+  "id": "5104964",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104964",
+  "verified_at_utc": "2026-11-05T06:09:04.505Z",
+  "general": {
+    "matchId": "5104964",
+    "matchName": "Brann-vs-Rosenborg_Sun, Aug 2, 2026, 17:15 UTC",
+    "matchRound": "16",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DE1215",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#DE1215",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "16",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Brann",
+      "id": 8468
+    },
+    "awayTeam": {
+      "name": "Rosenborg",
+      "id": 8422
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 2, 2026, 17:15 UTC",
+    "matchTimeUTCDate": "2026-08-02T17:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-02T17:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.08.2026 19:16:09",
+      "firstHalfEnded": "02.08.2026 20:02:35",
+      "secondHalfStarted": "02.08.2026 20:18:36",
+      "secondHalfEnded": "02.08.2026 21:10:43",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.08.2026 21:10:43"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8468",
+      "name": "Brann",
+      "score": 3
+    },
+    {
+      "id": "8422",
+      "name": "Rosenborg",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 14,
+      "added": 0,
+      "display": "14",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      7
+    ],
+    "SecondHalf": [
+      4,
+      5
+    ],
+    "All": [
+      5,
+      12
+    ]
+  },
+  "cards": [
+    {
+      "time": 2,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

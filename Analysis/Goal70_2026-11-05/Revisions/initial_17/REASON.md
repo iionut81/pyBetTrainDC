@@ -1,0 +1,1 @@
+Unpublished initial screening preserved. Official UEFA and provider global catalog expose18 Conference fixtures under primaryId10216, not old525. Add all18 and domestic history leagues for European participants. Recalculate complete discovered universe before ranking.

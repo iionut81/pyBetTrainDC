@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "id": "5765931",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765931",
+  "verified_at_utc": "2026-11-05T06:08:45.161Z",
+  "general": {
+    "matchId": "5765931",
+    "matchName": "Rijeka-vs-Hajduk Split_Sun, Sep 20, 2026, 15:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#58B6E7",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#53b2e3",
+        "away": "#034EA2"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "8",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "Rijeka",
+      "id": 10162
+    },
+    "awayTeam": {
+      "name": "Hajduk Split",
+      "id": 10154
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-09-20T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 17:01:42",
+      "firstHalfEnded": "20.09.2026 17:52:12",
+      "secondHalfStarted": "20.09.2026 18:09:30",
+      "secondHalfEnded": "20.09.2026 18:58:21",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 18:58:21"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10162",
+      "name": "Rijeka",
+      "score": 3
+    },
+    {
+      "id": "10154",
+      "name": "Hajduk Split",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 35,
+      "added": 0,
+      "display": "35"
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 3,
+      "display": "45+3"
+    },
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      3
+    ],
+    "SecondHalf": [
+      0,
+      1
+    ],
+    "All": [
+      0,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

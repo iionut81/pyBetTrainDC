@@ -1,0 +1,177 @@
+{
+  "ok": true,
+  "id": "5161961",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5161961",
+  "verified_at_utc": "2026-11-05T06:09:00.462Z",
+  "general": {
+    "matchId": "5161961",
+    "matchName": "RFS-vs-Riga FC_Tue, Apr 28, 2026, 17:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#006EB7",
+        "away": "#38A9FF"
+      },
+      "lightMode": {
+        "home": "#004880",
+        "away": "#38A9FF"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 226,
+    "leagueName": "Latvian Virsliga",
+    "leagueRoundName": "9",
+    "parentLeagueId": 226,
+    "countryCode": "LVA",
+    "homeTeam": {
+      "name": "RFS",
+      "id": 248871
+    },
+    "awayTeam": {
+      "name": "Riga FC",
+      "id": 624924
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Tue, Apr 28, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-04-28T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-28T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.04.2026 19:01:54",
+      "firstHalfEnded": "28.04.2026 19:47:55",
+      "secondHalfStarted": "28.04.2026 20:05:02",
+      "secondHalfEnded": "28.04.2026 20:53:02",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.04.2026 20:53:02"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "248871",
+      "name": "RFS",
+      "score": 3
+    },
+    {
+      "id": "624924",
+      "name": "Riga FC",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 13,
+      "added": 0,
+      "display": "13"
+    },
+    {
+      "side": "home",
+      "minute": 16,
+      "added": 0,
+      "display": "16"
+    },
+    {
+      "side": "home",
+      "minute": 65,
+      "added": 0,
+      "display": "65"
+    },
+    {
+      "side": "away",
+      "minute": 38,
+      "added": 0,
+      "display": "38"
+    },
+    {
+      "side": "away",
+      "minute": 63,
+      "added": 0,
+      "display": "63"
+    },
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      0
+    ],
+    "All": [
+      1,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 22,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

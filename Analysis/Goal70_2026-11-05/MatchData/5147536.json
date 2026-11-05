@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5147536",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5147536",
+  "verified_at_utc": "2026-11-05T06:08:42.148Z",
+  "general": {
+    "matchId": "5147536",
+    "matchName": "AC Oulu-vs-KuPS_Sat, May 2, 2026, 16:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#005b89",
+        "away": "#FEDC00"
+      },
+      "lightMode": {
+        "home": "#00394F",
+        "away": "#e19c00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 919925,
+    "leagueName": "Veikkausliiga",
+    "leagueRoundName": "5",
+    "parentLeagueId": 51,
+    "countryCode": "FIN",
+    "homeTeam": {
+      "name": "AC Oulu",
+      "id": 4449
+    },
+    "awayTeam": {
+      "name": "KuPS",
+      "id": 1693
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, May 2, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-05-02T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-02T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "02.05.2026 18:01:47",
+      "firstHalfEnded": "02.05.2026 18:47:05",
+      "secondHalfStarted": "02.05.2026 19:04:43",
+      "secondHalfEnded": "02.05.2026 19:55:16",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.05.2026 19:55:16"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "4449",
+      "name": "AC Oulu",
+      "score": 2
+    },
+    {
+      "id": "1693",
+      "name": "KuPS",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 4,
+      "added": 0,
+      "display": "4"
+    },
+    {
+      "side": "home",
+      "minute": 71,
+      "added": 0,
+      "display": "71"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      5
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      7,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

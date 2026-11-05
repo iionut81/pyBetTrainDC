@@ -1,0 +1,134 @@
+{
+  "ok": true,
+  "id": "5804255",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804255",
+  "verified_at_utc": "2026-11-05T06:08:55.381Z",
+  "general": {
+    "matchId": "5804255",
+    "matchName": "Lugano-vs-Servette_Thu, Sep 3, 2026, 18:30 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F8F8FA",
+        "away": "#a0002c"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#900028"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937880,
+    "leagueName": "Super League",
+    "leagueRoundName": "6",
+    "parentLeagueId": 69,
+    "countryCode": "SUI",
+    "homeTeam": {
+      "name": "Lugano",
+      "id": 7896
+    },
+    "awayTeam": {
+      "name": "Servette",
+      "id": 9777
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Sep 3, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-09-03T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-03T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "03.09.2026 20:31:03",
+      "firstHalfEnded": "03.09.2026 21:19:28",
+      "secondHalfStarted": "03.09.2026 21:35:20",
+      "secondHalfEnded": "03.09.2026 22:25:43",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.09.2026 22:25:43"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7896",
+      "name": "Lugano",
+      "score": 1
+    },
+    {
+      "id": "9777",
+      "name": "Servette",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      8,
+      1
+    ],
+    "All": [
+      11,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 28,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

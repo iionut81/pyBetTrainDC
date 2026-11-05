@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "5147531",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5147531",
+  "verified_at_utc": "2026-11-05T06:08:42.069Z",
+  "general": {
+    "matchId": "5147531",
+    "matchName": "KuPS-vs-HJK_Sun, Apr 26, 2026, 13:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FEDC00",
+        "away": "#2151a6"
+      },
+      "lightMode": {
+        "home": "#e19c00",
+        "away": "#004698"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 919925,
+    "leagueName": "Veikkausliiga",
+    "leagueRoundName": "4",
+    "parentLeagueId": 51,
+    "countryCode": "FIN",
+    "homeTeam": {
+      "name": "KuPS",
+      "id": 1693
+    },
+    "awayTeam": {
+      "name": "HJK",
+      "id": 9861
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Apr 26, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-04-26T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-26T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "26.04.2026 15:00:38",
+      "firstHalfEnded": "26.04.2026 15:45:43",
+      "secondHalfStarted": "26.04.2026 16:03:41",
+      "secondHalfEnded": "26.04.2026 16:55:08",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.04.2026 16:55:08"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1693",
+      "name": "KuPS",
+      "score": 1
+    },
+    {
+      "id": "9861",
+      "name": "HJK",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 2,
+      "added": 0,
+      "display": "2"
+    },
+    {
+      "side": "away",
+      "minute": 47,
+      "added": 0,
+      "display": "47"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      1
+    ],
+    "SecondHalf": [
+      7,
+      1
+    ],
+    "All": [
+      14,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

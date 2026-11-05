@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5868013",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868013",
+  "verified_at_utc": "2026-11-05T06:04:56.566Z",
+  "general": {
+    "matchId": "5868013",
+    "matchName": "Celta Vigo-vs-Osasuna_Thu, Aug 27, 2026, 18:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#6fb5e8",
+        "away": "#af1428"
+      },
+      "lightMode": {
+        "home": "#67ade0",
+        "away": "#af1428"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "1",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Celta Vigo",
+      "id": 9910
+    },
+    "awayTeam": {
+      "name": "Osasuna",
+      "id": 8371
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Aug 27, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-27T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-27T18:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "27.08.2026 20:31:27",
+      "firstHalfEnded": "27.08.2026 21:18:45",
+      "secondHalfStarted": "27.08.2026 21:34:30",
+      "secondHalfEnded": "27.08.2026 22:28:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "27.08.2026 22:28:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9910",
+      "name": "Celta Vigo",
+      "score": 1
+    },
+    {
+      "id": "8371",
+      "name": "Osasuna",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 14,
+      "added": 0,
+      "display": "14",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 64,
+      "added": 0,
+      "display": "64",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 51,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "6145878",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6145878",
+  "verified_at_utc": "2026-11-05T06:08:43.768Z",
+  "general": {
+    "matchId": "6145878",
+    "matchName": "FC Inter Turku-vs-KuPS_Sun, Oct 11, 2026, 12:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2059A6",
+        "away": "#FEDC00"
+      },
+      "lightMode": {
+        "home": "#003c73",
+        "away": "#e19c00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 945694,
+    "leagueName": "Veikkausliiga Championship Group",
+    "leagueRoundName": "5",
+    "parentLeagueId": 51,
+    "countryCode": "FIN",
+    "homeTeam": {
+      "name": "FC Inter Turku",
+      "id": 6550
+    },
+    "awayTeam": {
+      "name": "KuPS",
+      "id": 1693
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 11, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-10-11T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-11T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "11.10.2026 14:02:59",
+      "firstHalfEnded": "11.10.2026 14:49:55",
+      "secondHalfStarted": "11.10.2026 15:08:17",
+      "secondHalfEnded": "11.10.2026 15:56:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.10.2026 15:56:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6550",
+      "name": "FC Inter Turku",
+      "score": 1
+    },
+    {
+      "id": "1693",
+      "name": "KuPS",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 79,
+      "added": 0,
+      "display": "79"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      0
+    ],
+    "All": [
+      3,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 5,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 12,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

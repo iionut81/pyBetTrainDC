@@ -1,0 +1,123 @@
+{
+  "ok": true,
+  "id": "5888078",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5888078",
+  "verified_at_utc": "2026-11-05T06:08:34.631Z",
+  "general": {
+    "matchId": "5888078",
+    "matchName": "Tondela-vs-Torreense_Sat, Oct 10, 2026, 10:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FEEA00",
+        "away": "#951A2F"
+      },
+      "lightMode": {
+        "home": "#e19c00",
+        "away": "#951A2F"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 185,
+    "leagueName": "Liga Portugal 2",
+    "leagueRoundName": "7",
+    "parentLeagueId": 185,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Tondela",
+      "id": 188163
+    },
+    "awayTeam": {
+      "name": "Torreense",
+      "id": 212820
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 10:00 UTC",
+    "matchTimeUTCDate": "2026-10-10T10:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T10:00:00.000Z",
+    "numberOfHomeRedCards": 2,
+    "numberOfAwayRedCards": 2,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 12:04:34",
+      "firstHalfEnded": "10.10.2026 12:51:44",
+      "secondHalfStarted": "10.10.2026 13:09:25",
+      "secondHalfEnded": "10.10.2026 14:07:33",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 14:07:33"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "188163",
+      "name": "Tondela",
+      "score": 1
+    },
+    {
+      "id": "212820",
+      "name": "Torreense",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 10,
+      "display": "90+10"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": null
+  },
+  "cards": [
+    {
+      "time": 57,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 57,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

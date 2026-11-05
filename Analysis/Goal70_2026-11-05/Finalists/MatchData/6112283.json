@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "6112283",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112283",
+  "verified_at_utc": "2026-11-05T06:10:21.301Z",
+  "general": {
+    "matchId": "6112283",
+    "matchName": "Viktoria Plzeň-vs-Union St.Gilloise_Thu, Sep 17, 2026, 19:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DF041C",
+        "away": "#F6E000"
+      },
+      "lightMode": {
+        "home": "#DF041C",
+        "away": "#daa000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943229,
+    "leagueName": "Europa League",
+    "leagueRoundName": "1",
+    "parentLeagueId": 73,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Viktoria Plzeň",
+      "id": 6033
+    },
+    "awayTeam": {
+      "name": "Union St.Gilloise",
+      "id": 7978
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Sep 17, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-09-17T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-17T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.09.2026 21:01:30",
+      "firstHalfEnded": "17.09.2026 21:48:18",
+      "secondHalfStarted": "17.09.2026 22:05:07",
+      "secondHalfEnded": "17.09.2026 22:53:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.09.2026 22:53:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6033",
+      "name": "Viktoria Plzeň",
+      "score": 0
+    },
+    {
+      "id": "7978",
+      "name": "Union St.Gilloise",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 18,
+      "added": 0,
+      "display": "18",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 44,
+      "added": 0,
+      "display": "44",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 59,
+      "added": 0,
+      "display": "59",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      5,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 16,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,173 @@
+{
+  "ok": true,
+  "id": "1000015303",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015303",
+  "verified_at_utc": "2026-11-05T06:08:33.602Z",
+  "general": {
+    "matchId": "1000015303",
+    "matchName": "Maccabi Petach Tikva-vs-Hapoel Beer Sheva_Sun, Nov 1, 2026, 18:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004EA2",
+        "away": "#C80828"
+      },
+      "lightMode": {
+        "home": "#004EA2",
+        "away": "#C80828"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 127,
+    "leagueName": "Ligat ha'Al",
+    "leagueRoundName": "9",
+    "parentLeagueId": 127,
+    "countryCode": "ISR",
+    "homeTeam": {
+      "name": "Maccabi Petach Tikva",
+      "id": 7929
+    },
+    "awayTeam": {
+      "name": "Hapoel Beer Sheva",
+      "id": 9754
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-11-01T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 19:02:00",
+      "firstHalfEnded": "01.11.2026 19:53:06",
+      "secondHalfStarted": "01.11.2026 20:09:51",
+      "secondHalfEnded": "01.11.2026 20:59:55",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 20:59:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 5",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7929",
+      "name": "Maccabi Petach Tikva",
+      "score": 2
+    },
+    {
+      "id": "9754",
+      "name": "Hapoel Beer Sheva",
+      "score": 5
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29"
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1"
+    },
+    {
+      "side": "away",
+      "minute": 15,
+      "added": 0,
+      "display": "15"
+    },
+    {
+      "side": "away",
+      "minute": 71,
+      "added": 0,
+      "display": "71"
+    },
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65"
+    },
+    {
+      "side": "away",
+      "minute": 85,
+      "added": 0,
+      "display": "85"
+    },
+    {
+      "side": "away",
+      "minute": 89,
+      "added": 0,
+      "display": "89"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      1,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

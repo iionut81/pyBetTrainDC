@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5831198",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831198",
+  "verified_at_utc": "2026-11-05T06:09:02.548Z",
+  "general": {
+    "matchId": "5831198",
+    "matchName": "Hradec Králové-vs-Jablonec_Sun, Oct 25, 2026, 12:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#00874C"
+      },
+      "lightMode": {
+        "home": "#202018",
+        "away": "#00874C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "12",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Hradec Králové",
+      "id": 1712
+    },
+    "awayTeam": {
+      "name": "Jablonec",
+      "id": 7758
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-10-25T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 13:01:37",
+      "firstHalfEnded": "25.10.2026 13:47:38",
+      "secondHalfStarted": "25.10.2026 14:02:59",
+      "secondHalfEnded": "25.10.2026 14:54:43",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 14:54:43"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1712",
+      "name": "Hradec Králové",
+      "score": 1
+    },
+    {
+      "id": "7758",
+      "name": "Jablonec",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 70,
+      "added": 0,
+      "display": "70"
+    },
+    {
+      "side": "away",
+      "minute": 34,
+      "added": 0,
+      "display": "34"
+    },
+    {
+      "side": "away",
+      "minute": 49,
+      "added": 0,
+      "display": "49"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      7
+    ],
+    "All": [
+      2,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

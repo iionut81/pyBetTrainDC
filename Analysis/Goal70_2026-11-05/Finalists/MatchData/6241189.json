@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "6241189",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6241189",
+  "verified_at_utc": "2026-11-05T06:10:15.692Z",
+  "general": {
+    "matchId": "6241189",
+    "matchName": "Heart of Midlothian-vs-Hibernian_Sun, Nov 1, 2026, 15:00 UTC",
+    "matchRound": "1/2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#922e46",
+        "away": "#007040"
+      },
+      "lightMode": {
+        "home": "#691B32",
+        "away": "#007040"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 942036,
+    "leagueName": "League Cup",
+    "leagueRoundName": "1/2",
+    "parentLeagueId": 180,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "Heart of Midlothian",
+      "id": 9860
+    },
+    "awayTeam": {
+      "name": "Hibernian",
+      "id": 10251
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-11-01T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 16:05:01",
+      "firstHalfEnded": "01.11.2026 16:51:29",
+      "secondHalfStarted": "01.11.2026 17:09:38",
+      "secondHalfEnded": "01.11.2026 17:57:50",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 17:57:50"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9860",
+      "name": "Heart of Midlothian",
+      "score": 1
+    },
+    {
+      "id": "10251",
+      "name": "Hibernian",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 4,
+      "added": 0,
+      "display": "4"
+    },
+    {
+      "side": "away",
+      "minute": 19,
+      "added": 0,
+      "display": "19"
+    },
+    {
+      "side": "away",
+      "minute": 42,
+      "added": 0,
+      "display": "42"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": [
+      9,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

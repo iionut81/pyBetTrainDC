@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5802947",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802947",
+  "verified_at_utc": "2026-11-05T06:04:50.356Z",
+  "general": {
+    "matchId": "5802947",
+    "matchName": "Lens-vs-Lyon_Fri, Oct 9, 2026, 18:45 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFCE00",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#d89f00",
+        "away": "#0160A0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "6",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Lens",
+      "id": 8588
+    },
+    "awayTeam": {
+      "name": "Lyon",
+      "id": 9748
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 9, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-10-09T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-09T18:45:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.10.2026 20:45:23",
+      "firstHalfEnded": "09.10.2026 21:31:51",
+      "secondHalfStarted": "09.10.2026 21:49:41",
+      "secondHalfEnded": "09.10.2026 22:40:07",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.10.2026 22:40:07"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8588",
+      "name": "Lens",
+      "score": 2
+    },
+    {
+      "id": "9748",
+      "name": "Lyon",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 36,
+      "added": 0,
+      "display": "36",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 85,
+      "added": 0,
+      "display": "85",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      7,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "id": "5147546",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5147546",
+  "verified_at_utc": "2026-11-05T06:08:42.492Z",
+  "general": {
+    "matchId": "5147546",
+    "matchName": "IFK Mariehamn-vs-KuPS_Sat, May 16, 2026, 14:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#FEDC00"
+      },
+      "lightMode": {
+        "home": "#3A8C68",
+        "away": "#e19c00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 919925,
+    "leagueName": "Veikkausliiga",
+    "leagueRoundName": "7",
+    "parentLeagueId": 51,
+    "countryCode": "FIN",
+    "homeTeam": {
+      "name": "IFK Mariehamn",
+      "id": 6634
+    },
+    "awayTeam": {
+      "name": "KuPS",
+      "id": 1693
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, May 16, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-05-16T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-16T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.05.2026 16:01:21",
+      "firstHalfEnded": "16.05.2026 16:48:52",
+      "secondHalfStarted": "16.05.2026 17:07:05",
+      "secondHalfEnded": "16.05.2026 17:55:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.05.2026 17:55:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6634",
+      "name": "IFK Mariehamn",
+      "score": 1
+    },
+    {
+      "id": "1693",
+      "name": "KuPS",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 42,
+      "added": 0,
+      "display": "42"
+    },
+    {
+      "side": "away",
+      "minute": 35,
+      "added": 0,
+      "display": "35"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      5
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      1,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

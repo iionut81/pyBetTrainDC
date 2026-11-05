@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "1000015251",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015251",
+  "verified_at_utc": "2026-11-05T06:08:33.119Z",
+  "general": {
+    "matchId": "1000015251",
+    "matchName": "Hapoel Beer Sheva-vs-Hapoel Haifa_Wed, Sep 2, 2026, 17:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C80828",
+        "away": "#0060EF"
+      },
+      "lightMode": {
+        "home": "#C80828",
+        "away": "#003080"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 127,
+    "leagueName": "Israeli Ligat Ha'al",
+    "leagueRoundName": "1",
+    "parentLeagueId": 127,
+    "countryCode": "ISR",
+    "homeTeam": {
+      "name": "Hapoel Beer Sheva",
+      "id": 9754
+    },
+    "awayTeam": {
+      "name": "Hapoel Haifa",
+      "id": 8301
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Wed, Sep 2, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-02T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-02T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.09.2026 19:01:44",
+      "firstHalfEnded": "02.09.2026 19:49:40",
+      "secondHalfStarted": "02.09.2026 20:05:37",
+      "secondHalfEnded": "02.09.2026 20:56:43",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.09.2026 20:56:43"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9754",
+      "name": "Hapoel Beer Sheva",
+      "score": 2
+    },
+    {
+      "id": "8301",
+      "name": "Hapoel Haifa",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 24,
+      "added": 0,
+      "display": "24"
+    },
+    {
+      "side": "home",
+      "minute": 66,
+      "added": 0,
+      "display": "66"
+    },
+    {
+      "side": "away",
+      "minute": 50,
+      "added": 0,
+      "display": "50"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 6,
+      "display": "90+6"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      4,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5881214",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881214",
+  "verified_at_utc": "2026-11-05T06:10:17.680Z",
+  "general": {
+    "matchId": "5881214",
+    "matchName": "Werder Bremen-vs-Hoffenheim_Sat, Oct 31, 2026, 14:30 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#009655",
+        "away": "#0057a3"
+      },
+      "lightMode": {
+        "home": "#007642",
+        "away": "#005098"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 54,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 54,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Werder Bremen",
+      "id": 8697
+    },
+    "awayTeam": {
+      "name": "Hoffenheim",
+      "id": 8226
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 31, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-10-31T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-31T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "31.10.2026 15:30:11",
+      "firstHalfEnded": "31.10.2026 16:17:31",
+      "secondHalfStarted": "31.10.2026 16:34:42",
+      "secondHalfEnded": "31.10.2026 17:23:54",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "31.10.2026 17:23:54"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8697",
+      "name": "Werder Bremen",
+      "score": 2
+    },
+    {
+      "id": "8226",
+      "name": "Hoffenheim",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      6,
+      2
+    ],
+    "All": [
+      8,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

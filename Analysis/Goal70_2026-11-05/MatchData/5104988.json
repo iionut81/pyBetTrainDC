@@ -1,0 +1,130 @@
+{
+  "ok": true,
+  "id": "5104988",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104988",
+  "verified_at_utc": "2026-11-05T06:09:04.915Z",
+  "general": {
+    "matchId": "5104988",
+    "matchName": "Sandefjord-vs-Brann_Sun, Aug 30, 2026, 15:00 UTC",
+    "matchRound": "19",
+    "teamColors": {
+      "darkMode": {
+        "home": "#035db8",
+        "away": "#DE1215"
+      },
+      "lightMode": {
+        "home": "#104070",
+        "away": "#DE1215"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "19",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Sandefjord",
+      "id": 8609
+    },
+    "awayTeam": {
+      "name": "Brann",
+      "id": 8468
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-08-30T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 17:01:42",
+      "firstHalfEnded": "30.08.2026 17:46:56",
+      "secondHalfStarted": "30.08.2026 18:02:23",
+      "secondHalfEnded": "30.08.2026 18:51:49",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 18:51:49"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8609",
+      "name": "Sandefjord",
+      "score": 0
+    },
+    {
+      "id": "8468",
+      "name": "Brann",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

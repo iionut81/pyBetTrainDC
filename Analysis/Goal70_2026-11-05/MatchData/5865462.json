@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5865462",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5865462",
+  "verified_at_utc": "2026-11-05T06:08:31.923Z",
+  "general": {
+    "matchId": "5865462",
+    "matchName": "Ferencváros-vs-Újpest_Sun, Sep 6, 2026, 15:45 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#008040",
+        "away": "#7730ab"
+      },
+      "lightMode": {
+        "home": "#008040",
+        "away": "#6A1C9B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 212,
+    "leagueName": "NB I",
+    "leagueRoundName": "7",
+    "parentLeagueId": 212,
+    "countryCode": "HUN",
+    "homeTeam": {
+      "name": "Ferencváros",
+      "id": 8222
+    },
+    "awayTeam": {
+      "name": "Újpest",
+      "id": 8043
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 15:45 UTC",
+    "matchTimeUTCDate": "2026-09-06T15:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T15:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 17:46:06",
+      "firstHalfEnded": "06.09.2026 18:34:24",
+      "secondHalfStarted": "06.09.2026 18:50:07",
+      "secondHalfEnded": "06.09.2026 19:38:57",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 19:38:57"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8222",
+      "name": "Ferencváros",
+      "score": 2
+    },
+    {
+      "id": "8043",
+      "name": "Újpest",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 20,
+      "added": 0,
+      "display": "20"
+    },
+    {
+      "side": "home",
+      "minute": 44,
+      "added": 0,
+      "display": "44"
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1"
+    },
+    {
+      "side": "away",
+      "minute": 55,
+      "added": 0,
+      "display": "55"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": [
+      5,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

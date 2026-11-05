@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "id": "5836921",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836921",
+  "verified_at_utc": "2026-11-05T06:02:53.007Z",
+  "general": {
+    "matchId": "5836921",
+    "matchName": "Wrexham-vs-Middlesbrough_Wed, Nov 4, 2026, 19:45 UTC",
+    "matchRound": "14",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E5131C",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#E5131C",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "Championship",
+    "leagueRoundName": "14",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Wrexham",
+      "id": 9841
+    },
+    "awayTeam": {
+      "name": "Middlesbrough",
+      "id": 8549
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Nov 4, 2026, 19:45 UTC",
+    "matchTimeUTCDate": "2026-11-04T19:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-04T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "04.11.2026 20:45:13",
+      "firstHalfEnded": "04.11.2026 21:31:23",
+      "secondHalfStarted": "04.11.2026 21:48:34",
+      "secondHalfEnded": "04.11.2026 22:37:46",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "04.11.2026 22:37:46"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9841",
+      "name": "Wrexham",
+      "score": 2
+    },
+    {
+      "id": "8549",
+      "name": "Middlesbrough",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 70,
+      "added": 0,
+      "display": "70",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 84,
+      "added": 0,
+      "display": "84",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      0
+    ],
+    "All": [
+      3,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

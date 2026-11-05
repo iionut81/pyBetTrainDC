@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5802925",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802925",
+  "verified_at_utc": "2026-11-05T06:10:21.491Z",
+  "general": {
+    "matchId": "5802925",
+    "matchName": "Paris Saint-Germain-vs-Monaco_Fri, Sep 4, 2026, 19:05 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#245593",
+        "away": "#C80C13"
+      },
+      "lightMode": {
+        "home": "#273F6D",
+        "away": "#C80C13"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "3",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Paris Saint-Germain",
+      "id": 9847
+    },
+    "awayTeam": {
+      "name": "Monaco",
+      "id": 9829
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Sep 4, 2026, 19:05 UTC",
+    "matchTimeUTCDate": "2026-09-04T19:05:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-04T19:05:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "04.09.2026 21:05:11",
+      "firstHalfEnded": "04.09.2026 21:52:42",
+      "secondHalfStarted": "04.09.2026 22:09:17",
+      "secondHalfEnded": "04.09.2026 23:00:25",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "04.09.2026 23:00:25"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9847",
+      "name": "Paris Saint-Germain",
+      "score": 1
+    },
+    {
+      "id": "9829",
+      "name": "Monaco",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 58,
+      "added": 0,
+      "display": "58",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 72,
+      "added": 0,
+      "display": "72",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      5,
+      0
+    ],
+    "All": [
+      6,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

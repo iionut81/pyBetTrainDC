@@ -1,0 +1,177 @@
+{
+  "ok": true,
+  "id": "5765928",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765928",
+  "verified_at_utc": "2026-11-05T06:05:02.574Z",
+  "general": {
+    "matchId": "5765928",
+    "matchName": "Osijek-vs-Dinamo Zagreb_Sat, Sep 12, 2026, 15:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0092DC",
+        "away": "#1f49b1"
+      },
+      "lightMode": {
+        "home": "#005197",
+        "away": "#E11D1B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "7",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "Osijek",
+      "id": 10157
+    },
+    "awayTeam": {
+      "name": "Dinamo Zagreb",
+      "id": 10156
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-09-12T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 17:02:14",
+      "firstHalfEnded": "12.09.2026 17:50:06",
+      "secondHalfStarted": "12.09.2026 18:06:55",
+      "secondHalfEnded": "12.09.2026 18:57:07",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 18:57:07"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10157",
+      "name": "Osijek",
+      "score": 4
+    },
+    {
+      "id": "10156",
+      "name": "Dinamo Zagreb",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 13,
+      "added": 0,
+      "display": "13"
+    },
+    {
+      "side": "home",
+      "minute": 35,
+      "added": 0,
+      "display": "35"
+    },
+    {
+      "side": "home",
+      "minute": 60,
+      "added": 0,
+      "display": "60"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 6,
+      "display": "90+6"
+    },
+    {
+      "side": "away",
+      "minute": 62,
+      "added": 0,
+      "display": "62"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      2,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 2,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 22,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

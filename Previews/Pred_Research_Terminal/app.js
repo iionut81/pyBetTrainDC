@@ -62,7 +62,7 @@ function renderRadar(){
  $('#radarCount').textContent=`${points.length} puncte / ${rows.length} partide${rows.length!==points.length?' · '+(rows.length-points.length)+' fără date cornere':''}`;
 }
 function setLeague(league){state.league=league;$('#leagueSelect').value=league;$$('.league-pills button').forEach(b=>{b.classList.toggle('active',b.dataset.league===league);b.setAttribute('aria-pressed',String(b.dataset.league===league));});renderTable();renderRadar();}
-function setMarket(market){state.market=market;renderTable();renderRadar();$('.table-scroll').scrollTop=0;}
+function setMarket(market){state.market=market;renderTable();renderRadar();renderReview();$('.table-scroll').scrollTop=0;}
 function setView(view){
  state.view=view;
  $('#overviewView').classList.toggle('hidden',view!=='overview');
@@ -92,6 +92,7 @@ function exportCsv(){
 document.addEventListener('click',e=>{
  const choice=e.target.closest('[data-choice]');if(choice){e.preventDefault();saveChoice(choice.dataset.choice,choice.dataset.choiceMarket,choice.dataset.choiceAction);return;}
  if(e.target.closest('a'))return;
+ const review=e.target.closest('[data-review-history]');if(review){state.historyDate=review.dataset.reviewDate;state.historyMarket=review.dataset.reviewMarket;state.result=review.dataset.reviewHistory;renderHistory();setView('history');return;}
  const historyMarket=e.target.closest('[data-history-market]');if(historyMarket){state.historyMarket=historyMarket.dataset.historyMarket;state.result='all';renderHistory();return;}
  const view=e.target.closest('[data-view]');if(view){setView(view.dataset.view);return;}
  const league=e.target.closest('[data-league]');if(league){setLeague(league.dataset.league);return;}

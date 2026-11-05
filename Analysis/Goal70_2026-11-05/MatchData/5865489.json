@@ -1,0 +1,122 @@
+{
+  "ok": true,
+  "id": "5865489",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5865489",
+  "verified_at_utc": "2026-11-05T06:08:32.088Z",
+  "general": {
+    "matchId": "5865489",
+    "matchName": "Ferencváros-vs-Paksi SE_Sun, Nov 1, 2026, 15:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#008040",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#008040",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 212,
+    "leagueName": "NB I",
+    "leagueRoundName": "12",
+    "parentLeagueId": 212,
+    "countryCode": "HUN",
+    "homeTeam": {
+      "name": "Ferencváros",
+      "id": 8222
+    },
+    "awayTeam": {
+      "name": "Paksi SE",
+      "id": 7986
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-11-01T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 16:00:58",
+      "firstHalfEnded": "01.11.2026 16:46:08",
+      "secondHalfStarted": "01.11.2026 17:02:08",
+      "secondHalfEnded": "01.11.2026 17:51:45",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 17:51:45"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8222",
+      "name": "Ferencváros",
+      "score": 2
+    },
+    {
+      "id": "7986",
+      "name": "Paksi SE",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 59,
+      "added": 0,
+      "display": "59"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": [
+      10,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}
