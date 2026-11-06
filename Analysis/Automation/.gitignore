@@ -1,14 +1,7 @@
-Runs/**/agent.log
-Runs/**/diagnostics.log
-*.lock
-daily_status.json
-scheduled_task.xml
-schedule_verification.json
-chat_destination_verification.json
+# Process output may contain private prompts/tool traces; never publish it.
 Runs/
-
-# Local publication manifests and temporary browser harnesses
-.commit_paths_*.json
-.dashboard_daily_runtime_*.mjs
-.match_reports_runtime.mjs
+Repairs/
+daily_status.json
+daily_research.lock
 daily_completion_*.json
+scheduled_task.xml

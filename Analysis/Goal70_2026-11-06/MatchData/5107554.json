@@ -1,0 +1,147 @@
+{
+  "ok": true,
+  "id": "5107554",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107554",
+  "verified_at_utc": "2026-11-06T06:30:54.954Z",
+  "general": {
+    "matchId": "5107554",
+    "matchName": "Elfsborg-vs-Mjällby_Thu, May 21, 2026, 17:00 UTC",
+    "matchRound": "15",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F6E708",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#e09d00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "15",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Elfsborg",
+      "id": 8014
+    },
+    "awayTeam": {
+      "name": "Mjällby",
+      "id": 8127
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, May 21, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-05-21T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-21T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "21.05.2026 19:01:18",
+      "firstHalfEnded": "21.05.2026 19:47:25",
+      "secondHalfStarted": "21.05.2026 20:02:16",
+      "secondHalfEnded": "21.05.2026 20:54:03",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "21.05.2026 20:54:03"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8014",
+      "name": "Elfsborg",
+      "score": 1
+    },
+    {
+      "id": "8127",
+      "name": "Mjällby",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 7,
+      "added": 0,
+      "display": "7",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      4,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

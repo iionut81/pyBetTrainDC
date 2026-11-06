@@ -35,6 +35,41 @@ GTB Standard Time (Bucuresti), deci calendarul urmeaza si ora de vara.
 Un research partial este marcat partial. Un proces incheiat nu inseamna automat
 ca toate datele au fost obtinute sau ca toate cele trei etape au reusit.
 
+## Recuperare si diagnostic, corectie 6 noiembrie 2026
+
+`monitored_process.ps1` scrie stdout/stderr pe parcurs, inclusiv fragmente fara
+newline. Fisierele private sunt in `Analysis/Automation/Runs/` (ignorat Git).
+La fiecare 10 secunde salveaza atomic heartbeat, PID si ora crearii procesului,
+plus dimensiunile logurilor. Heartbeat inseamna proces supravegheat, nu progres
+analitic sau research complet. Nu publica logurile brute in repository/chat.
+
+In timpul executiei se solicita temporar `ES_SYSTEM_REQUIRED`; nu se schimba
+planul de alimentare sau ecranul. Se elibereaza la final. Aceasta cerere poate
+preveni suspendarea din inactivitate; nu anuleaza inchiderea capacului, sleep
+explicit sau politicile Windows/Modern Standby. Nicio garantie ca laptopul
+inchis/deconectat continua sa execute cercetarea.
+
+Aceeasi sarcina are 3 reincercari la 5 minute dupa esec. Declansatoarele si
+ora08:00 se pastreaza. `repair_daily_research_task.ps1` modifica numai
+RestartOnFailure al sarcinii deja existente si salveaza XML inainte/dupa;
+nu porneste research si nu creeaza alte sarcini. `-PreviewOnly` doar afiseaza.
+
+La reluare, lock-ul este completat cu verificarea PID+ora creare: un copil
+ramas activ impiedica pornirea unui al doilea agent; un PID reciclat nu o
+blocheaza. Statusurile anterioare sunt arhivate, promptul cere reutilizarea
+checkpointurilor si revalidarea erorilor, fara rescrierea predictiilor. O
+recuperare manuala poate publica o rezervare temporara cu PID/expirare.
+Fisierul completion existent continua sa previna repetarea unei zile incheiate.
+O recuperare manuala in conversatia deja activa poate salva chat_status
+`not_required_manual`: raportarea apartine acelei conversatii, nu unei livrari
+automate separate. Nu este confirmare de livrare si nu declanseaza un mesaj duplicat.
+
+Test izolat (procese Node fictive, fara retea/research/modificari de task):
+`powershell -NoProfile -File automation/test_monitored_process.ps1`.
+Acopera log inaintea iesirii, heartbeat, identitatea procesului, iesire cu eroare,
+timeout si sintaxa runnerului. O intrerupere reala Windows ramane de observat
+la urmatoarea executie; testele nu demonstreaza cauza incidentului initial.
+
 ## Implementare si conditii
 
 - Runner: `run_daily_research.ps1`; prompt: `daily_research_prompt.md`.

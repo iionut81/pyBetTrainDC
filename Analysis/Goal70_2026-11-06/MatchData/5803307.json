@@ -1,0 +1,124 @@
+{
+  "ok": true,
+  "id": "5803307",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803307",
+  "verified_at_utc": "2026-11-06T06:30:36.163Z",
+  "general": {
+    "matchId": "5803307",
+    "matchName": "Rodez-vs-Dunkerque_Fri, Oct 30, 2026, 19:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#a81338",
+        "away": "#0058A0"
+      },
+      "lightMode": {
+        "home": "#A40C35",
+        "away": "#132335"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 110,
+    "leagueName": "Ligue 2",
+    "leagueRoundName": "11",
+    "parentLeagueId": 110,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Rodez",
+      "id": 4120
+    },
+    "awayTeam": {
+      "name": "Dunkerque",
+      "id": 47214
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 30, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-30T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-30T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.10.2026 20:01:16",
+      "firstHalfEnded": "30.10.2026 20:47:29",
+      "secondHalfStarted": "30.10.2026 21:02:47",
+      "secondHalfEnded": "30.10.2026 21:50:31",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.10.2026 21:50:31"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "4120",
+      "name": "Rodez",
+      "score": 1
+    },
+    {
+      "id": "47214",
+      "name": "Dunkerque",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      5,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

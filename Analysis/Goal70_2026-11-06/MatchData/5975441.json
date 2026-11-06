@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "5975441",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5975441",
+  "verified_at_utc": "2026-11-06T06:30:22.111Z",
+  "general": {
+    "matchId": "5975441",
+    "matchName": "Omonia Aradippou-vs-APOEL Nicosia_Sun, Nov 1, 2026, 17:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DDDDDD",
+        "away": "#1d539f"
+      },
+      "lightMode": {
+        "home": "#333333",
+        "away": "#d9a000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 942063,
+    "leagueName": "Cyprus League",
+    "leagueRoundName": "8",
+    "parentLeagueId": 136,
+    "countryCode": "CYP",
+    "homeTeam": {
+      "name": "Omonia Aradippou",
+      "id": 154798
+    },
+    "awayTeam": {
+      "name": "APOEL Nicosia",
+      "id": 8621
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-11-01T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T17:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 18:01:57",
+      "firstHalfEnded": "01.11.2026 18:51:08",
+      "secondHalfStarted": "01.11.2026 19:08:40",
+      "secondHalfEnded": "01.11.2026 20:01:15",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 20:01:15"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "154798",
+      "name": "Omonia Aradippou",
+      "score": 1
+    },
+    {
+      "id": "8621",
+      "name": "APOEL Nicosia",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 72,
+      "added": 0,
+      "display": "72"
+    },
+    {
+      "side": "away",
+      "minute": 77,
+      "added": 0,
+      "display": "77"
+    },
+    {
+      "side": "away",
+      "minute": 89,
+      "added": 0,
+      "display": "89"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 1,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 26,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 28,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 36,
+      "card": "YellowRed",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

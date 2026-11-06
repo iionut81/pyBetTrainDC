@@ -178,3 +178,22 @@ predictii, zero distinct de missing, alegeri si conflicte):
 ```powershell
 node --test .\Previews\Pred_Research_Terminal\data.test.mjs
 ```
+
+### Rezultate în Dashboard și Istoric — clarificare 6 noiembrie
+
+Bilanțul din Dashboard respectă strict data principală selectată și piața
+activă. Dacă acea zi nu are rezultate verificate, afișează data și mesajul
+„Rezultatele urmează”, fără procent de reușită sau rezultate din ziua precedentă.
+Rezultatele parțiale includ exclusiv meciurile verificate ale zilei selectate.
+Pentru zilele precedente se folosește selectorul de dată sau pagina Istoric.
+
+Bilanțul principal și bara verde/roșie includ toate partidele cu rezultat
+verificat pentru piața și ziua afișate, exact ca în Istoric. Performanța
+meciurilor cu probabilitate salvată înainte de joc apare separat. Un rezultat
+fără model rămâne vizibil, inclusiv eșecurile și linkurile spre raport, dar nu
+devine retrospectiv o predicție. Istoricul etichetează distinct partidele
+inventariate și numărul celor cu model prospectiv.
+
+Exemplu 5 noiembrie, cornere: toate rezultatele34/35, un eșec
+Panathinaikos–CSKA Sofia12cornere1H; separat, modelele21/21. Teste browser:
+`node Previews/Pred_Research_Terminal/check-review-markets.mjs`.

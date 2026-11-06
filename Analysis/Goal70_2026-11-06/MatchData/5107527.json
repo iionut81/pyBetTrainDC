@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5107527",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107527",
+  "verified_at_utc": "2026-11-06T06:30:55.528Z",
+  "general": {
+    "matchId": "5107527",
+    "matchName": "GAIS-vs-Elfsborg_Sun, Jul 12, 2026, 14:30 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#008840",
+        "away": "#F6E708"
+      },
+      "lightMode": {
+        "home": "#008840",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "12",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "GAIS",
+      "id": 8297
+    },
+    "awayTeam": {
+      "name": "Elfsborg",
+      "id": 8014
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Jul 12, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-07-12T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-12T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.07.2026 16:30:33",
+      "firstHalfEnded": "12.07.2026 17:15:43",
+      "secondHalfStarted": "12.07.2026 17:31:28",
+      "secondHalfEnded": "12.07.2026 18:19:55",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.07.2026 18:19:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8297",
+      "name": "GAIS",
+      "score": 1
+    },
+    {
+      "id": "8014",
+      "name": "Elfsborg",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      4
+    ],
+    "All": [
+      6,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

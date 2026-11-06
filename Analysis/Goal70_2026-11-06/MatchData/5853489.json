@@ -1,0 +1,169 @@
+{
+  "ok": true,
+  "id": "5853489",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853489",
+  "verified_at_utc": "2026-11-06T06:30:45.081Z",
+  "general": {
+    "matchId": "5853489",
+    "matchName": "Dinamo București-vs-FCSB_Sat, Sep 5, 2026, 17:30 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#AF1A2E",
+        "away": "#005798"
+      },
+      "lightMode": {
+        "home": "#AF1A2E",
+        "away": "#072C52"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "Dinamo București",
+      "id": 10271
+    },
+    "awayTeam": {
+      "name": "FCSB",
+      "id": 9723
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 17:30 UTC",
+    "matchTimeUTCDate": "2026-09-05T17:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T17:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 19:31:05",
+      "firstHalfEnded": "05.09.2026 20:25:30",
+      "secondHalfStarted": "05.09.2026 20:41:35",
+      "secondHalfEnded": "05.09.2026 21:32:03",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 21:32:03"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10271",
+      "name": "Dinamo București",
+      "score": 2
+    },
+    {
+      "id": "9723",
+      "name": "FCSB",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 36,
+      "added": 0,
+      "display": "36"
+    },
+    {
+      "side": "home",
+      "minute": 78,
+      "added": 0,
+      "display": "78"
+    },
+    {
+      "side": "away",
+      "minute": 84,
+      "added": 0,
+      "display": "84"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      7,
+      4
+    ],
+    "All": [
+      8,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 31,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "YellowRed",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5803941",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803941",
+  "verified_at_utc": "2026-11-06T06:30:25.300Z",
+  "general": {
+    "matchId": "5803941",
+    "matchName": "Cracovia-vs-Raków Częstochowa_Sun, Aug 16, 2026, 15:30 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E21A22",
+        "away": "#164DA3"
+      },
+      "lightMode": {
+        "home": "#c7000f",
+        "away": "#164DA3"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "4",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Cracovia",
+      "id": 2186
+    },
+    "awayTeam": {
+      "name": "Raków Częstochowa",
+      "id": 4024
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 16, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-08-16T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-16T15:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.08.2026 17:35:15",
+      "firstHalfEnded": "16.08.2026 18:23:23",
+      "secondHalfStarted": "16.08.2026 18:39:53",
+      "secondHalfEnded": "16.08.2026 19:30:33",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.08.2026 19:30:33"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2186",
+      "name": "Cracovia",
+      "score": 2
+    },
+    {
+      "id": "4024",
+      "name": "Raków Częstochowa",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      7,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

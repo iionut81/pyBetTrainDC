@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "5765907",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765907",
+  "verified_at_utc": "2026-11-06T06:30:28.091Z",
+  "general": {
+    "matchId": "5765907",
+    "matchName": "Osijek-vs-NK Lokomotiva_Sat, Aug 15, 2026, 19:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0092DC",
+        "away": "#0f588e"
+      },
+      "lightMode": {
+        "home": "#005197",
+        "away": "#B79248"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "3",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "Osijek",
+      "id": 10157
+    },
+    "awayTeam": {
+      "name": "NK Lokomotiva",
+      "id": 175388
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 15, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-15T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-15T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "15.08.2026 21:00:22",
+      "firstHalfEnded": "15.08.2026 21:48:14",
+      "secondHalfStarted": "15.08.2026 22:05:16",
+      "secondHalfEnded": "15.08.2026 22:55:11",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.08.2026 22:55:11"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10157",
+      "name": "Osijek",
+      "score": 1
+    },
+    {
+      "id": "175388",
+      "name": "NK Lokomotiva",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 0,
+      "display": "90"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      9,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

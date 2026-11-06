@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "id": "5908616",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908616",
+  "verified_at_utc": "2026-11-06T06:30:48.065Z",
+  "general": {
+    "matchId": "5908616",
+    "matchName": "Antalyaspor-vs-Sivasspor_Sun, Sep 6, 2026, 17:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C01018",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#C01018",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "6",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Antalyaspor",
+      "id": 1931
+    },
+    "awayTeam": {
+      "name": "Sivasspor",
+      "id": 6265
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-06T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 19:00:56",
+      "firstHalfEnded": "06.09.2026 19:50:08",
+      "secondHalfStarted": "06.09.2026 20:06:58",
+      "secondHalfEnded": "06.09.2026 20:55:30",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 20:55:30"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1931",
+      "name": "Antalyaspor",
+      "score": 1
+    },
+    {
+      "id": "6265",
+      "name": "Sivasspor",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 38,
+      "added": 0,
+      "display": "38"
+    },
+    {
+      "side": "away",
+      "minute": 20,
+      "added": 0,
+      "display": "20"
+    },
+    {
+      "side": "away",
+      "minute": 61,
+      "added": 0,
+      "display": "61"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      0
+    ],
+    "All": [
+      8,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

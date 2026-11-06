@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "6428918",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6428918",
+  "verified_at_utc": "2026-11-06T06:37:42.705Z",
+  "general": {
+    "matchId": "6428918",
+    "matchName": "Sporting Hortaleza-vs-Sevilla_Thu, Oct 29, 2026, 20:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DDDDDD",
+        "away": "#C90F20"
+      },
+      "lightMode": {
+        "home": "#333333",
+        "away": "#C90F20"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 138,
+    "leagueName": "Copa del Rey",
+    "leagueRoundName": "1",
+    "parentLeagueId": 138,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Sporting Hortaleza",
+      "id": 2360741
+    },
+    "awayTeam": {
+      "name": "Sevilla",
+      "id": 8302
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Oct 29, 2026, 20:00 UTC",
+    "matchTimeUTCDate": "2026-10-29T20:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-29T20:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "29.10.2026 21:04:07",
+      "firstHalfEnded": "29.10.2026 21:51:08",
+      "secondHalfStarted": "29.10.2026 22:04:58",
+      "secondHalfEnded": "29.10.2026 22:51:51",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "29.10.2026 22:51:51"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2360741",
+      "name": "Sporting Hortaleza",
+      "score": 0
+    },
+    {
+      "id": "8302",
+      "name": "Sevilla",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      5
+    ],
+    "All": [
+      3,
+      9
+    ]
+  },
+  "cards": [],
+  "formations": {}
+}

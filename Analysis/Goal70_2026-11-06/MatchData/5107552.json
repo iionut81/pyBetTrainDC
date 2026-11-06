@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "5107552",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107552",
+  "verified_at_utc": "2026-11-06T06:30:52.674Z",
+  "general": {
+    "matchId": "5107552",
+    "matchName": "GAIS-vs-Hammarby_Wed, May 20, 2026, 17:00 UTC",
+    "matchRound": "15",
+    "teamColors": {
+      "darkMode": {
+        "home": "#008840",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#008840",
+        "away": "#DA9E00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "15",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "GAIS",
+      "id": 8297
+    },
+    "awayTeam": {
+      "name": "Hammarby",
+      "id": 8248
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, May 20, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-05-20T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-20T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "20.05.2026 19:01:26",
+      "firstHalfEnded": "20.05.2026 19:48:06",
+      "secondHalfStarted": "20.05.2026 20:03:13",
+      "secondHalfEnded": "20.05.2026 20:53:14",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.05.2026 20:53:14"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8297",
+      "name": "GAIS",
+      "score": 2
+    },
+    {
+      "id": "8248",
+      "name": "Hammarby",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 26,
+      "added": 0,
+      "display": "26",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 81,
+      "added": 0,
+      "display": "81",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      2,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 71,
+      "card": "YellowRed",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

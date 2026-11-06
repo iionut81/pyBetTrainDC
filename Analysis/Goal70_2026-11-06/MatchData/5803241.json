@@ -1,0 +1,130 @@
+{
+  "ok": true,
+  "id": "5803241",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803241",
+  "verified_at_utc": "2026-11-06T06:30:32.589Z",
+  "general": {
+    "matchId": "5803241",
+    "matchName": "Montpellier-vs-Boulogne_Fri, Aug 28, 2026, 18:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#4967a6",
+        "away": "#B51B1E"
+      },
+      "lightMode": {
+        "home": "#40547D",
+        "away": "#B51B1E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 110,
+    "leagueName": "Ligue 2",
+    "leagueRoundName": "4",
+    "parentLeagueId": 110,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Montpellier",
+      "id": 10249
+    },
+    "awayTeam": {
+      "name": "Boulogne",
+      "id": 4170
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Aug 28, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-08-28T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-28T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "28.08.2026 20:01:01",
+      "firstHalfEnded": "28.08.2026 20:49:41",
+      "secondHalfStarted": "28.08.2026 21:03:29",
+      "secondHalfEnded": "28.08.2026 21:53:21",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.08.2026 21:53:21"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10249",
+      "name": "Montpellier",
+      "score": 0
+    },
+    {
+      "id": "4170",
+      "name": "Boulogne",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      7,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

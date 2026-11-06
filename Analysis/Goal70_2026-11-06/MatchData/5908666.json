@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5908666",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908666",
+  "verified_at_utc": "2026-11-06T06:30:49.158Z",
+  "general": {
+    "matchId": "5908666",
+    "matchName": "Bursaspor-vs-Pendikspor_Mon, Oct 19, 2026, 17:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#088040",
+        "away": "#C21E16"
+      },
+      "lightMode": {
+        "home": "#088040",
+        "away": "#C21E16"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "11",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Bursaspor",
+      "id": 10270
+    },
+    "awayTeam": {
+      "name": "Pendikspor",
+      "id": 95745
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Oct 19, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-10-19T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-19T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.10.2026 19:01:31",
+      "firstHalfEnded": "19.10.2026 19:50:01",
+      "secondHalfStarted": "19.10.2026 20:06:35",
+      "secondHalfEnded": "19.10.2026 20:55:09",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.10.2026 20:55:09"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10270",
+      "name": "Bursaspor",
+      "score": 2
+    },
+    {
+      "id": "95745",
+      "name": "Pendikspor",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 10,
+      "added": 0,
+      "display": "10"
+    },
+    {
+      "side": "home",
+      "minute": 62,
+      "added": 0,
+      "display": "62"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      7,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,172 @@
+{
+  "ok": true,
+  "id": "5908910",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908910",
+  "verified_at_utc": "2026-11-06T06:30:50.913Z",
+  "general": {
+    "matchId": "5908910",
+    "matchName": "Iğdır FK-vs-Manisa Futbol Kulübü_Thu, Sep 3, 2026, 14:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#048F3A",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#048F3A",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "5",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Iğdır FK",
+      "id": 1281818
+    },
+    "awayTeam": {
+      "name": "Manisa Futbol Kulübü",
+      "id": 658812
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Thu, Sep 3, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-03T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-03T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "03.09.2026 16:00:36",
+      "firstHalfEnded": "03.09.2026 16:52:44",
+      "secondHalfStarted": "03.09.2026 17:10:30",
+      "secondHalfEnded": "03.09.2026 17:58:51",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.09.2026 17:58:51"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1281818",
+      "name": "Iğdır FK",
+      "score": 4
+    },
+    {
+      "id": "658812",
+      "name": "Manisa Futbol Kulübü",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 9,
+      "added": 0,
+      "display": "9"
+    },
+    {
+      "side": "home",
+      "minute": 16,
+      "added": 0,
+      "display": "16"
+    },
+    {
+      "side": "home",
+      "minute": 25,
+      "added": 0,
+      "display": "25"
+    },
+    {
+      "side": "home",
+      "minute": 65,
+      "added": 0,
+      "display": "65"
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 7,
+      "display": "45+7"
+    },
+    {
+      "side": "away",
+      "minute": 89,
+      "added": 0,
+      "display": "89"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      4
+    ],
+    "All": [
+      7,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

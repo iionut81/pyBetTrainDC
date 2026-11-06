@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5853506",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853506",
+  "verified_at_utc": "2026-11-06T06:30:44.355Z",
+  "general": {
+    "matchId": "5853506",
+    "matchName": "Rapid București-vs-FC Argeș Pitesti_Fri, Sep 18, 2026, 18:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#843037",
+        "away": "#6A3694"
+      },
+      "lightMode": {
+        "home": "#843037",
+        "away": "#6A3694"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "10",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "Rapid București",
+      "id": 9738
+    },
+    "awayTeam": {
+      "name": "FC Argeș Pitesti",
+      "id": 9732
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Fri, Sep 18, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-09-18T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-18T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.09.2026 20:01:15",
+      "firstHalfEnded": "18.09.2026 20:48:15",
+      "secondHalfStarted": "18.09.2026 21:05:24",
+      "secondHalfEnded": "18.09.2026 21:55:30",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.09.2026 21:55:30"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9738",
+      "name": "Rapid București",
+      "score": 3
+    },
+    {
+      "id": "9732",
+      "name": "FC Argeș Pitesti",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 21,
+      "added": 0,
+      "display": "21"
+    },
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 5,
+      "display": "90+5"
+    },
+    {
+      "side": "away",
+      "minute": 68,
+      "added": 0,
+      "display": "68"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      3
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      10,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,134 @@
+{
+  "ok": true,
+  "id": "6298366",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6298366",
+  "verified_at_utc": "2026-11-06T06:37:42.720Z",
+  "general": {
+    "matchId": "6298366",
+    "matchName": "Lyngby-vs-Randers FC_Tue, Nov 3, 2026, 17:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0048bc",
+        "away": "#7eb2e7"
+      },
+      "lightMode": {
+        "home": "#003A96",
+        "away": "#73A8DC"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 242,
+    "leagueName": "DBU Pokalen",
+    "leagueRoundName": "4",
+    "parentLeagueId": 242,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "Lyngby",
+      "id": 9907
+    },
+    "awayTeam": {
+      "name": "Randers FC",
+      "id": 8410
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Nov 3, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-11-03T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-03T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "03.11.2026 18:01:00",
+      "firstHalfEnded": "03.11.2026 18:48:13",
+      "secondHalfStarted": "03.11.2026 19:03:49",
+      "secondHalfEnded": "03.11.2026 19:54:37",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.11.2026 19:54:37"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9907",
+      "name": "Lyngby",
+      "score": 1
+    },
+    {
+      "id": "8410",
+      "name": "Randers FC",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      4
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      5,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

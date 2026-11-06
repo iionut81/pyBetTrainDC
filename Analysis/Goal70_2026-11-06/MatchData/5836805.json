@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5836805",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836805",
+  "verified_at_utc": "2026-11-06T06:30:57.470Z",
+  "general": {
+    "matchId": "5836805",
+    "matchName": "Millwall-vs-Bolton Wanderers_Sat, Sep 5, 2026, 14:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0b4299",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#003078",
+        "away": "#2ab1df"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "English Football League - Championship",
+    "leagueRoundName": "5",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Millwall",
+      "id": 10004
+    },
+    "awayTeam": {
+      "name": "Bolton Wanderers",
+      "id": 8559
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-05T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T14:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 16:00:08",
+      "firstHalfEnded": "05.09.2026 16:46:18",
+      "secondHalfStarted": "05.09.2026 17:02:55",
+      "secondHalfEnded": "05.09.2026 17:53:03",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 17:53:03"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10004",
+      "name": "Millwall",
+      "score": 4
+    },
+    {
+      "id": "8559",
+      "name": "Bolton Wanderers",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      6
+    ],
+    "All": [
+      4,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "5765894",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765894",
+  "verified_at_utc": "2026-11-06T06:30:28.651Z",
+  "general": {
+    "matchId": "5765894",
+    "matchName": "Rijeka-vs-Rudes_Sun, Aug 2, 2026, 19:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#58B6E7",
+        "away": "#0054a9"
+      },
+      "lightMode": {
+        "home": "#53b2e3",
+        "away": "#2E318E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "1",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "Rijeka",
+      "id": 10162
+    },
+    "awayTeam": {
+      "name": "Rudes",
+      "id": 187866
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 2, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-02T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-02T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.08.2026 21:00:41",
+      "firstHalfEnded": "02.08.2026 21:48:21",
+      "secondHalfStarted": "02.08.2026 22:02:28",
+      "secondHalfEnded": "02.08.2026 22:50:52",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.08.2026 22:50:52"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10162",
+      "name": "Rijeka",
+      "score": 2
+    },
+    {
+      "id": "187866",
+      "name": "Rudes",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31"
+    },
+    {
+      "side": "home",
+      "minute": 62,
+      "added": 0,
+      "display": "62"
+    },
+    {
+      "side": "away",
+      "minute": 70,
+      "added": 0,
+      "display": "70"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      7,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

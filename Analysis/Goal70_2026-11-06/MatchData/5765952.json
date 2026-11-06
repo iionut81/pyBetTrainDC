@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5765952",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765952",
+  "verified_at_utc": "2026-11-06T06:30:29.279Z",
+  "general": {
+    "matchId": "5765952",
+    "matchName": "Rudeš-vs-Dinamo Zagreb_Sat, Oct 31, 2026, 17:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0054a9",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#2E318E",
+        "away": "#E11D1B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "12",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "Rudeš",
+      "id": 187866
+    },
+    "awayTeam": {
+      "name": "Dinamo Zagreb",
+      "id": 10156
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Oct 31, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-10-31T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-31T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "31.10.2026 18:01:48",
+      "firstHalfEnded": "31.10.2026 18:51:29",
+      "secondHalfStarted": "31.10.2026 19:05:59",
+      "secondHalfEnded": "31.10.2026 20:02:33",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "31.10.2026 20:02:33"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "187866",
+      "name": "Rudeš",
+      "score": 1
+    },
+    {
+      "id": "10156",
+      "name": "Dinamo Zagreb",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 30,
+      "added": 0,
+      "display": "30"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      4
+    ],
+    "SecondHalf": [
+      1,
+      5
+    ],
+    "All": [
+      7,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

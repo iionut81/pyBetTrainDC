@@ -1,0 +1,165 @@
+{
+  "ok": true,
+  "id": "5765900",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765900",
+  "verified_at_utc": "2026-11-06T06:30:27.618Z",
+  "general": {
+    "matchId": "5765900",
+    "matchName": "NK Lokomotiva-vs-HNK Gorica_Sat, Aug 8, 2026, 19:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0f588e",
+        "away": "#D02422"
+      },
+      "lightMode": {
+        "home": "#205088",
+        "away": "#D02422"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "2",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "NK Lokomotiva",
+      "id": 175388
+    },
+    "awayTeam": {
+      "name": "HNK Gorica",
+      "id": 206560
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 8, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-08T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-08T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.08.2026 21:01:06",
+      "firstHalfEnded": "08.08.2026 21:48:17",
+      "secondHalfStarted": "08.08.2026 22:06:31",
+      "secondHalfEnded": "08.08.2026 22:55:10",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.08.2026 22:55:10"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "175388",
+      "name": "NK Lokomotiva",
+      "score": 3
+    },
+    {
+      "id": "206560",
+      "name": "HNK Gorica",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 12,
+      "added": 0,
+      "display": "12"
+    },
+    {
+      "side": "home",
+      "minute": 40,
+      "added": 0,
+      "display": "40"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4"
+    },
+    {
+      "side": "away",
+      "minute": 60,
+      "added": 0,
+      "display": "60"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      7,
+      1
+    ],
+    "All": [
+      9,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

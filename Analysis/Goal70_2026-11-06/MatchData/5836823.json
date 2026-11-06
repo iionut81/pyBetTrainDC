@@ -1,0 +1,134 @@
+{
+  "ok": true,
+  "id": "5836823",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836823",
+  "verified_at_utc": "2026-11-06T06:30:56.824Z",
+  "general": {
+    "matchId": "5836823",
+    "matchName": "Derby County-vs-West Bromwich Albion_Wed, Sep 9, 2026, 18:45 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#1d549d"
+      },
+      "lightMode": {
+        "home": "#201E1F",
+        "away": "#018B4B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "English Football League - Championship",
+    "leagueRoundName": "6",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Derby County",
+      "id": 10170
+    },
+    "awayTeam": {
+      "name": "West Bromwich Albion",
+      "id": 8659
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Sep 9, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-09T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-09T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "09.09.2026 20:45:05",
+      "firstHalfEnded": "09.09.2026 21:33:08",
+      "secondHalfStarted": "09.09.2026 21:49:15",
+      "secondHalfEnded": "09.09.2026 22:39:27",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.09.2026 22:39:27"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10170",
+      "name": "Derby County",
+      "score": 0
+    },
+    {
+      "id": "8659",
+      "name": "West Bromwich Albion",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 16,
+      "added": 0,
+      "display": "16",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      8,
+      2
+    ],
+    "All": [
+      11,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 10,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 26,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 34,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

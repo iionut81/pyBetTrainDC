@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "id": "5908672",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908672",
+  "verified_at_utc": "2026-11-06T06:30:50.220Z",
+  "general": {
+    "matchId": "5908672",
+    "matchName": "Sivasspor-vs-Sarıyer_Sat, Oct 17, 2026, 13:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#9D0600",
+        "away": "#003CBE"
+      },
+      "lightMode": {
+        "home": "#9D0600",
+        "away": "#003CBE"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "11",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Sivasspor",
+      "id": 6265
+    },
+    "awayTeam": {
+      "name": "Sarıyer",
+      "id": 2090
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Oct 17, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-10-17T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-17T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.10.2026 15:00:20",
+      "firstHalfEnded": "17.10.2026 15:47:56",
+      "secondHalfStarted": "17.10.2026 16:03:45",
+      "secondHalfEnded": "17.10.2026 16:56:10",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.10.2026 16:56:10"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6265",
+      "name": "Sivasspor",
+      "score": 1
+    },
+    {
+      "id": "2090",
+      "name": "Sarıyer",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 30,
+      "added": 0,
+      "display": "30"
+    },
+    {
+      "side": "away",
+      "minute": 1,
+      "added": 0,
+      "display": "1"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      4,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

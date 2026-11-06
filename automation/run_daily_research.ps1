@@ -6,6 +6,7 @@ $projectDir = Split-Path -Parent $PSScriptRoot
 $configFile = if ($ConfigPath) { $ConfigPath } else { Join-Path $PSScriptRoot 'daily_research_config.json' }
 $config = Get-Content -LiteralPath $configFile -Raw -Encoding UTF8 | ConvertFrom-Json
 . (Join-Path $PSScriptRoot 'daily_research_policy.ps1')
+. (Join-Path $PSScriptRoot 'monitored_process.ps1')
 . (Join-Path $PSScriptRoot 'publish_daily_research.ps1')
 $codexExe = $config.codex_exe
 if (-not (Test-Path -LiteralPath $codexExe)) {
@@ -57,6 +58,18 @@ $autoDir = Join-Path $projectDir 'Analysis/Automation'
 [IO.Directory]::CreateDirectory($autoDir) | Out-Null
 try { $lock = [IO.File]::Open((Join-Path $autoDir 'daily_research.lock'), 'OpenOrCreate', 'ReadWrite', 'None') }
 catch [IO.IOException] { Write-Output 'A PRED research run is already active; duplicate skipped.'; exit 0 }
+$previousStatusFile = Join-Path $autoDir 'daily_status.json'
+$previousStatus = if (Test-Path -LiteralPath $previousStatusFile) { Get-Content -LiteralPath $previousStatusFile -Raw -Encoding UTF8 | ConvertFrom-Json } else { $null }
+# An interrupted runner can leave a live orphan. The file lock alone cannot
+# detect it. Compare PID AND creation time, so a reused PID cannot block recovery.
+if ($previousStatus -and $previousStatus.run_date -eq $today -and
+    ((Test-PredProcessIdentity $previousStatus.worker_pid $previousStatus.worker_started_at_utc) -or
+     ($previousStatus.manual_owner_expires_at_utc -and [datetime]::Parse($previousStatus.manual_owner_expires_at_utc).ToUniversalTime() -gt [DateTime]::UtcNow -and
+      (Test-PredProcessIdentity $previousStatus.manual_owner_pid $previousStatus.manual_owner_started_at_utc)))) {
+    $lock.Dispose()
+    Write-Output 'A verified daily worker/manual recovery is still alive; duplicate skipped.'
+    exit 0
+}
 $utf8 = New-Object Text.UTF8Encoding($false)
 $completionFile = Join-Path $autoDir ('daily_completion_' + $today + '.json')
 function Sync-PredConversation {
@@ -81,13 +94,13 @@ if ($decision -eq 'deliver_only') {
     } finally { Sync-PredConversation; $lock.Dispose() }
     exit 0
 }
-function Save-Status([string]$state,[string]$message) {
+function Save-Status([string]$state,[string]$message,$Heartbeat) {
     $status = [ordered]@{task_name=$config.task_name;schedule='08:00 daily';timezone='Europe/Bucharest';
         status=$state;run_date=$today;review_date=$yesterday;updated_at_utc=[DateTime]::UtcNow.ToString('o');
         message=$message;run_dir=$runDir;local_computer_required=$true}
-    $text = $status | ConvertTo-Json -Depth 6
-    [IO.File]::WriteAllText((Join-Path $autoDir 'daily_status.json'),$text,$utf8)
-    [IO.File]::WriteAllText((Join-Path $runDir 'run.json'),$text,$utf8)
+    if ($Heartbeat) { foreach ($key in $Heartbeat.Keys) { $status[$key] = $Heartbeat[$key] } }
+    Write-PredAtomicJson (Join-Path $autoDir 'daily_status.json') $status
+    Write-PredAtomicJson (Join-Path $runDir 'run.json') $status
 }
 function Rebuild-Dashboard {
     & $config.node_exe (Join-Path $projectDir 'Previews/Pred_Research_Terminal/build.mjs')
@@ -95,6 +108,10 @@ function Rebuild-Dashboard {
 }
 try {
     [IO.Directory]::CreateDirectory($runDir) | Out-Null
+    if ($previousStatus -and $previousStatus.run_date -eq $today) {
+        Write-PredAtomicJson (Join-Path $runDir 'previous_attempt.json') $previousStatus
+        $prompt += "`nRECUPERARE: Exista o incercare anterioara pentru azi, fara proces activ. Reia din fisierele deja salvate. Pastreaza review-ul si timestampurile valide, verifica lectiile inaintea completarii researchului, reutilizeaza descarcarile valide si reincearca erorile. Nu suprascrie snapshoturi prospective; salveaza revizii. Nu porni alti agenti sau procese de research concurente.`n"
+    }
     [IO.File]::WriteAllText((Join-Path $runDir 'prompt.md'),$prompt,$utf8)
     Save-Status 'running' 'Review previous outcomes, then research both markets.'
     Rebuild-Dashboard
@@ -113,19 +130,12 @@ try {
     $info.RedirectStandardOutput = $true
     $info.RedirectStandardError = $true
     if ($info.PSObject.Properties.Name -contains 'StandardInputEncoding') { $info.StandardInputEncoding = $utf8 }
-    $process = New-Object Diagnostics.Process
-    $process.StartInfo = $info
-    if (-not $process.Start()) { throw 'Could not start Codex.' }
-    $stdout = $process.StandardOutput.ReadToEndAsync()
-    $stderr = $process.StandardError.ReadToEndAsync()
-    $promptBytes = $utf8.GetBytes($prompt + "`n")
-    $process.StandardInput.BaseStream.Write($promptBytes,0,$promptBytes.Length)
-    $process.StandardInput.BaseStream.Flush()
-    $process.StandardInput.Close()
-    $process.WaitForExit()
-    [IO.File]::WriteAllText((Join-Path $runDir 'agent.log'),$stdout.Result,$utf8)
-    [IO.File]::WriteAllText((Join-Path $runDir 'diagnostics.log'),$stderr.Result,$utf8)
-    if ($process.ExitCode -ne 0) { throw ('Codex exited with code ' + $process.ExitCode) }
+    $info.StandardOutputEncoding = $utf8
+    $info.StandardErrorEncoding = $utf8
+    $agentExitCode = Invoke-PredMonitoredProcess -StartInfo $info -InputText $prompt `
+        -StdoutPath (Join-Path $runDir 'agent.log') -StderrPath (Join-Path $runDir 'diagnostics.log') `
+        -OnHeartbeat { param($beat) Save-Status 'running' 'Review/research executing; heartbeat is liveness, not progress or completion.' $beat }
+    if ($agentExitCode -ne 0) { throw ('Codex exited with code ' + $agentExitCode + '; streaming diagnostics preserved.') }
     $reportFile = Join-Path $autoDir ('run_report_' + $today + '.json')
     $report = if (Test-Path -LiteralPath $reportFile) { Get-Content -LiteralPath $reportFile -Raw -Encoding UTF8 | ConvertFrom-Json } else { $null }
     $freshReport = $report -and (Get-Item -LiteralPath $reportFile).LastWriteTimeUtc -ge $agentStartedAtUtc

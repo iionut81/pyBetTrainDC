@@ -1,0 +1,220 @@
+{
+  "created_at_utc": "2026-11-06T07:06:50.165Z",
+  "prediction_dates": "2026-11-02 through 2026-11-05",
+  "interpretation": "Retrospective exploratory descriptions, thresholds not validated for selection; four days with overlapping teams/historical samples. No new filters or probability changes.",
+  "archived": 99,
+  "excluded": 1,
+  "all_verified": {
+    "n": 98,
+    "wins": 86,
+    "fails": 12,
+    "rate": 0.8775510204081632
+  },
+  "modeled": {
+    "n": 96,
+    "wins": 85,
+    "fails": 11,
+    "rate": 0.8854166666666666
+  },
+  "without_model": {
+    "n": 2,
+    "wins": 1,
+    "fails": 1,
+    "rate": 0.5
+  },
+  "user_choices": {
+    "n": 4,
+    "wins": 4,
+    "fails": 0,
+    "rate": 1
+  },
+  "analyst_finalists": {
+    "n": 5,
+    "wins": 5,
+    "fails": 0,
+    "rate": 1
+  },
+  "profiles": [
+    {
+      "profile": "Model brut ≥90%",
+      "n": 34,
+      "wins": 33,
+      "fails": 1,
+      "rate": 0.9705882352941176
+    },
+    {
+      "profile": "Model brut <90%",
+      "n": 62,
+      "wins": 52,
+      "fails": 10,
+      "rate": 0.8387096774193549
+    },
+    {
+      "profile": "Ambele GF70/meci pe teren ≥1",
+      "n": 44,
+      "wins": 41,
+      "fails": 3,
+      "rate": 0.9318181818181818
+    },
+    {
+      "profile": "Cel puțin una GF70/meci pe teren <1",
+      "n": 52,
+      "wins": 44,
+      "fails": 8,
+      "rate": 0.8461538461538461
+    },
+    {
+      "profile": "Frecvență istorică Gol70 pe teren ≥90%",
+      "n": 61,
+      "wins": 56,
+      "fails": 5,
+      "rate": 0.9180327868852459
+    },
+    {
+      "profile": "Frecvență istorică Gol70 pe teren <90%",
+      "n": 35,
+      "wins": 29,
+      "fails": 6,
+      "rate": 0.8285714285714286
+    },
+    {
+      "profile": "Același campionat ca baza modelului",
+      "n": 43,
+      "wins": 39,
+      "fails": 4,
+      "rate": 0.9069767441860465
+    },
+    {
+      "profile": "Proiecție în Europa/cupă",
+      "n": 53,
+      "wins": 46,
+      "fails": 7,
+      "rate": 0.8679245283018868
+    }
+  ],
+  "daily": [
+    {
+      "date": "2026-11-02",
+      "both_ge1": {
+        "n": 7,
+        "wins": 7,
+        "fails": 0,
+        "rate": 1
+      },
+      "other": {
+        "n": 19,
+        "wins": 15,
+        "fails": 4,
+        "rate": 0.7894736842105263
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "both_ge1": {
+        "n": 11,
+        "wins": 11,
+        "fails": 0,
+        "rate": 1
+      },
+      "other": {
+        "n": 9,
+        "wins": 7,
+        "fails": 2,
+        "rate": 0.7777777777777778
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "both_ge1": {
+        "n": 9,
+        "wins": 9,
+        "fails": 0,
+        "rate": 1
+      },
+      "other": {
+        "n": 8,
+        "wins": 7,
+        "fails": 1,
+        "rate": 0.875
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "both_ge1": {
+        "n": 17,
+        "wins": 14,
+        "fails": 3,
+        "rate": 0.8235294117647058
+      },
+      "other": {
+        "n": 16,
+        "wins": 15,
+        "fails": 1,
+        "rate": 0.9375
+      }
+    }
+  ],
+  "timing": {
+    "success_through30": 53,
+    "success31through45plus": 14,
+    "success46through70": 19,
+    "failed_nil_nil": 6,
+    "failed_late_goal": 6
+  },
+  "failures_with_known_rates": 11,
+  "failures_with_one_own_GF70_below1": 8,
+  "inputs": [
+    {
+      "file": "Analysis/Selection_History/2026-11-02_goal70_candidates.csv",
+      "sha256": "c39f2dd8d361acbfdf90fc496818f1b063acbeedf6aa4292e2b4af16dc6cf145"
+    },
+    {
+      "file": "Analysis/Goal70_2026-11-02/Europe_Combined/all_models.csv",
+      "sha256": "2a50c7596f14f021f561341fd17b6aab5c917e68241c95a2123d02cc409dc17e"
+    },
+    {
+      "file": "Analysis/Review_2026-11-02/goal70_outcomes.csv",
+      "sha256": "a447ff1761bb651f26387d2b1b9c570eecce60e67de695c6e89c71c50bbb7d9e"
+    },
+    {
+      "file": "Analysis/Selection_History/2026-11-03_goal70_candidates.csv",
+      "sha256": "dadff90a73534d40f0ac0b26fe99ed9fbc60406662fd3a1e5f4e3e07a07fc3cd"
+    },
+    {
+      "file": "Analysis/Goal70_2026-11-03/all_models.csv",
+      "sha256": "3bc194ff59476cbe9e08cdc48c9eda4c3264918b2af8aef5ede7d28c3bd0201a"
+    },
+    {
+      "file": "Analysis/Review_2026-11-03/goal70_outcomes.csv",
+      "sha256": "7d7f9778d4a62d2ee7fc58e819ba07f762597b870c191b5396665b5af87eb503"
+    },
+    {
+      "file": "Analysis/Selection_History/2026-11-04_goal70_candidates.csv",
+      "sha256": "bcb4aa6fc660923aaa900e81aeae37bb66c192ceab834e680d7c60e57970a655"
+    },
+    {
+      "file": "Analysis/Goal70_2026-11-04/all_models.csv",
+      "sha256": "bcb4aa6fc660923aaa900e81aeae37bb66c192ceab834e680d7c60e57970a655"
+    },
+    {
+      "file": "Analysis/Review_2026-11-04/goal70_outcomes.csv",
+      "sha256": "b6d08038ab34269b3d57494e432910a03da214c0a63908bb553962270701b16e"
+    },
+    {
+      "file": "Analysis/Selection_History/2026-11-05_goal70_candidates.csv",
+      "sha256": "d1a2ffc0d3bf7074da504326b866bba59e547424953549367a29eb0da67a08c2"
+    },
+    {
+      "file": "Analysis/Goal70_2026-11-05/all_models.csv",
+      "sha256": "d1a2ffc0d3bf7074da504326b866bba59e547424953549367a29eb0da67a08c2"
+    },
+    {
+      "file": "Analysis/Review_2026-11-05/goal70_outcomes.csv",
+      "sha256": "dd9835ae46affeba30081871c148cda6f47bef3ab96b00f6e21778a528efa440"
+    },
+    {
+      "file": "Analysis/Selection_History/user_selections.csv",
+      "sha256": "339ced6f7876ef3e3e4d3a23ef836b08b456a1eaa94bd679511aa9d652804a4f"
+    }
+  ]
+}

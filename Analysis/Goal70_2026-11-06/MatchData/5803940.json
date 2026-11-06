@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5803940",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803940",
+  "verified_at_utc": "2026-11-06T06:30:23.543Z",
+  "general": {
+    "matchId": "5803940",
+    "matchName": "Wisła Kraków-vs-Wisła Płock_Fri, Aug 7, 2026, 18:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DA241C",
+        "away": "#085AA6"
+      },
+      "lightMode": {
+        "home": "#DA241C",
+        "away": "#085AA6"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "3",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Wisła Kraków",
+      "id": 10265
+    },
+    "awayTeam": {
+      "name": "Wisła Płock",
+      "id": 8243
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Aug 7, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-07T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-07T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.08.2026 20:30:19",
+      "firstHalfEnded": "07.08.2026 21:16:47",
+      "secondHalfStarted": "07.08.2026 21:33:59",
+      "secondHalfEnded": "07.08.2026 22:24:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.08.2026 22:24:17"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10265",
+      "name": "Wisła Kraków",
+      "score": 2
+    },
+    {
+      "id": "8243",
+      "name": "Wisła Płock",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 14,
+      "added": 0,
+      "display": "14",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 36,
+      "added": 0,
+      "display": "36",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 28,
+      "added": 0,
+      "display": "28",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      4
+    ],
+    "SecondHalf": [
+      1,
+      6
+    ],
+    "All": [
+      4,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

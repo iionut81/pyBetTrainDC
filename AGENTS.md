@@ -140,6 +140,29 @@ The explicit user instructions in the conversation take priority over older prom
   HTML fallback; keep `pred-dashboard://open` unchanged. The radar's vertical
   axis must always show the ACTIVE market probability, with matching labels;
   the other market is on the horizontal axis.
+- Recovery repair authorized 2026-11-06: keep the SAME daily Windows task and
+  its 08:00/catch-up triggers. It retries failures 3 times at 5-minute intervals.
+  `automation/monitored_process.ps1` streams private output, records atomic
+  heartbeats/PID+creation-time, prevents idle sleep only during the child run,
+  and guards against a surviving orphan/duplicate. Reuse valid checkpoints on
+  interruption; preserve original predictions. Logs in Analysis/Automation/Runs/
+  and task XML in Repairs/ are private/ignored. Heartbeats are not progress or
+  completion. Explicit sleep/lid/system policies may override the temporary
+  power request. See Analysis/Automation/REPAIR_2026-11-06.md; the exact origin
+  of the initial termination signal remains unconfirmed.
+
+- Dashboard results clarified 2026-11-06: the main review total, result strip
+  and failure link include ALL verified outcomes, matching History for the
+  same day/market. Show prospective model performance separately. Never hide
+  an unmodeled failure or invent a prior probability for it. History labels
+  inventoried fixtures and prospective models distinctly. Example Nov5 corners:
+  all34/35, Panathinaikos-CSKA Sofia12corners fail, separately models21/21.
+- Dashboard date scope clarified 2026-11-06: the overview review panel must
+  use ONLY the selected dashboard date and active market. Never fall back to
+  previous-day outcomes when the selected day has no verified results. Show a
+  dated pending state without a success percentage or an older failure strip.
+  Partial results count only verified outcomes of that date. Previous results
+  remain available through the date selector and History.
 
 Offline reproduction (PowerShell; does not fetch data or run production jobs):
 

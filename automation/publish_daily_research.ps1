@@ -50,18 +50,16 @@ $summary
     $info.RedirectStandardOutput = $true
     $info.RedirectStandardError = $true
     if ($info.PSObject.Properties.Name -contains 'StandardInputEncoding') { $info.StandardInputEncoding = $utf8 }
+    $info.StandardOutputEncoding = $utf8
+    $info.StandardErrorEncoding = $utf8
     $deliveryStartedAtUtc = [DateTime]::UtcNow
-    $process = [Diagnostics.Process]::Start($info)
-    $stdout = $process.StandardOutput.ReadToEndAsync()
-    $stderr = $process.StandardError.ReadToEndAsync()
-    $messageBytes = $utf8.GetBytes($message + "`n")
-    $process.StandardInput.BaseStream.Write($messageBytes,0,$messageBytes.Length)
-    $process.StandardInput.BaseStream.Flush()
-    $process.StandardInput.Close()
-    $process.WaitForExit()
-    $deliveryLog = $stdout.Result + "`n" + $stderr.Result
+    . (Join-Path $PSScriptRoot 'monitored_process.ps1')
+    $deliveryExitCode = Invoke-PredMonitoredProcess -StartInfo $info -InputText $message `
+        -StdoutPath (Join-Path $RunDir 'chat_stdout.log') -StderrPath (Join-Path $RunDir 'chat_stderr.log') `
+        -TimeoutSeconds 600 -OnHeartbeat { param($beat) Write-PredAtomicJson (Join-Path $RunDir 'chat_heartbeat.json') $beat }
+    $deliveryLog = [IO.File]::ReadAllText((Join-Path $RunDir 'chat_stdout.log'),$utf8) + "`n" + [IO.File]::ReadAllText((Join-Path $RunDir 'chat_stderr.log'),$utf8)
     [IO.File]::WriteAllText((Join-Path $RunDir 'chat_delivery.log'),$deliveryLog,$utf8)
-    if ($process.ExitCode -ne 0 -and $deliveryLog.Contains('already has an active writer')) {
+    if ($deliveryExitCode -ne 0 -and $deliveryLog.Contains('already has an active writer')) {
         # An open IDE owns this thread. Queue via the supported CLI instead of
         # opening a second writer or changing the existing session's lease.
         $queueArgs = @('--cd',$ProjectDir,'queue','--thread',$ThreadId,'--message',$message)
@@ -83,7 +81,7 @@ $summary
         [IO.File]::WriteAllText($queuedReceipt,($receipt | ConvertTo-Json),$utf8)
         return $receipt
     }
-    if ($process.ExitCode -ne 0 -or -not (Test-Path -LiteralPath $reply)) { throw 'Chat delivery failed; report remains saved for a later retry.' }
+    if ($deliveryExitCode -ne 0 -or -not (Test-Path -LiteralPath $reply)) { throw 'Chat delivery failed; report remains saved for a later retry.' }
     if ((Get-Item -LiteralPath $reply).LastWriteTimeUtc -lt $deliveryStartedAtUtc) { throw 'No fresh chat reply was produced.' }
     $answer = [IO.File]::ReadAllText($reply,$utf8)
     if (-not $answer.Contains($indexPath)) { throw 'Chat reply did not contain the required dashboard link.' }

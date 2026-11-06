@@ -1,0 +1,119 @@
+{
+  "ok": true,
+  "id": "5749713",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749713",
+  "verified_at_utc": "2026-11-06T06:30:14.257Z",
+  "general": {
+    "matchId": "5749713",
+    "matchName": "Genoa-vs-Venezia_Sun, Oct 25, 2026, 14:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#CB1111",
+        "away": "#006127"
+      },
+      "lightMode": {
+        "home": "#CB1111",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "8",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Genoa",
+      "id": 10233
+    },
+    "awayTeam": {
+      "name": "Venezia",
+      "id": 7881
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-25T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 15:01:41",
+      "firstHalfEnded": "25.10.2026 15:47:52",
+      "secondHalfStarted": "25.10.2026 16:04:03",
+      "secondHalfEnded": "25.10.2026 16:54:16",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 16:54:16"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10233",
+      "name": "Genoa",
+      "score": 1
+    },
+    {
+      "id": "7881",
+      "name": "Venezia",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 25,
+      "added": 0,
+      "display": "25",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      8
+    ],
+    "All": [
+      2,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

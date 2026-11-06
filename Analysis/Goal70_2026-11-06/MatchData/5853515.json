@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "id": "5853515",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853515",
+  "verified_at_utc": "2026-11-06T06:30:44.461Z",
+  "general": {
+    "matchId": "5853515",
+    "matchName": "FC Argeș Pitesti-vs-CFR Cluj_Mon, Oct 12, 2026, 15:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#6A3694",
+        "away": "#94273F"
+      },
+      "lightMode": {
+        "home": "#6A3694",
+        "away": "#94273F"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "11",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "FC Argeș Pitesti",
+      "id": 9732
+    },
+    "awayTeam": {
+      "name": "CFR Cluj",
+      "id": 9731
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Oct 12, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-10-12T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-12T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.10.2026 17:02:51",
+      "firstHalfEnded": "12.10.2026 17:49:21",
+      "secondHalfStarted": "12.10.2026 18:06:23",
+      "secondHalfEnded": "12.10.2026 18:54:15",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.10.2026 18:54:15"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9732",
+      "name": "FC Argeș Pitesti",
+      "score": 0
+    },
+    {
+      "id": "9731",
+      "name": "CFR Cluj",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 58,
+      "added": 0,
+      "display": "58"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      7,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "id": "5803277",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803277",
+  "verified_at_utc": "2026-11-06T06:30:37.626Z",
+  "general": {
+    "matchId": "5803277",
+    "matchName": "Nantes-vs-Reims_Sat, Oct 10, 2026, 12:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#f5e744",
+        "away": "#FF4C4C"
+      },
+      "lightMode": {
+        "home": "#d1a302",
+        "away": "#FF4C4C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 110,
+    "leagueName": "Ligue 2",
+    "leagueRoundName": "8",
+    "parentLeagueId": 110,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Nantes",
+      "id": 9830
+    },
+    "awayTeam": {
+      "name": "Reims",
+      "id": 9837
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-10-10T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 14:01:09",
+      "firstHalfEnded": "10.10.2026 14:46:33",
+      "secondHalfStarted": "10.10.2026 15:03:00",
+      "secondHalfEnded": "10.10.2026 15:50:07",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 15:50:07"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9830",
+      "name": "Nantes",
+      "score": 0
+    },
+    {
+      "id": "9837",
+      "name": "Reims",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      6,
+      5
+    ],
+    "All": [
+      7,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

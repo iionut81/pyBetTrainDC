@@ -1,0 +1,170 @@
+{
+  "ok": true,
+  "id": "5853528",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853528",
+  "verified_at_utc": "2026-11-06T06:30:45.429Z",
+  "general": {
+    "matchId": "5853528",
+    "matchName": "CFR Cluj-vs-Dinamo București_Sun, Oct 25, 2026, 17:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#94273F",
+        "away": "#DEDBCE"
+      },
+      "lightMode": {
+        "home": "#94273F",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "13",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "CFR Cluj",
+      "id": 9731
+    },
+    "awayTeam": {
+      "name": "Dinamo București",
+      "id": 10271
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-10-25T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 18:02:34",
+      "firstHalfEnded": "25.10.2026 18:48:27",
+      "secondHalfStarted": "25.10.2026 19:04:27",
+      "secondHalfEnded": "25.10.2026 19:52:34",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 19:52:34"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9731",
+      "name": "CFR Cluj",
+      "score": 2
+    },
+    {
+      "id": "10271",
+      "name": "Dinamo București",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 26,
+      "added": 0,
+      "display": "26"
+    },
+    {
+      "side": "home",
+      "minute": 61,
+      "added": 0,
+      "display": "61"
+    },
+    {
+      "side": "away",
+      "minute": 78,
+      "added": 0,
+      "display": "78"
+    },
+    {
+      "side": "away",
+      "minute": 81,
+      "added": 0,
+      "display": "81"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      4
+    ],
+    "SecondHalf": [
+      3,
+      5
+    ],
+    "All": [
+      4,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 1,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

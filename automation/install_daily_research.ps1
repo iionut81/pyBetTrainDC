@@ -31,7 +31,7 @@ $unlock = New-CimInstance -CimClass $sessionClass -ClientOnly -Property @{Enable
 $network = New-CimInstance -CimClass $eventClass -ClientOnly -Property @{Enabled=$true;StartBoundary=$startBoundary;Subscription="<QueryList><Query Id='0' Path='Microsoft-Windows-NetworkProfile/Operational'><Select Path='Microsoft-Windows-NetworkProfile/Operational'>*[System[EventID=10000]]</Select></Query></QueryList>"}
 $wake = New-CimInstance -CimClass $eventClass -ClientOnly -Property @{Enabled=$true;StartBoundary=$startBoundary;Subscription="<QueryList><Query Id='0' Path='System'><Select Path='System'>*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]</Select></Query></QueryList>"}
 $principal = New-ScheduledTaskPrincipal -UserId $userId -LogonType Interactive -RunLevel Limited
-$settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -RunOnlyIfNetworkAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Hours 4)
+$settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -RunOnlyIfNetworkAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Hours 4) -RestartCount 3 -RestartInterval (New-TimeSpan -Minutes 5)
 $definition = New-ScheduledTask -Action $action -Trigger @($trigger,$logon,$unlock,$network,$wake) -Principal $principal -Settings $settings -Description 'PRED daily 08:00 Europe/Bucharest, or catch up at logon/unlock/network/wake; once-per-day review then both markets, dashboard and link in the user chat.'
 $existing = Get-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue
 if ($existing) {
