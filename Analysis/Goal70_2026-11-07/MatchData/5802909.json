@@ -1,0 +1,120 @@
+{
+  "ok": true,
+  "id": "5802909",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802909",
+  "verified_at_utc": "2026-11-07T06:56:00.890Z",
+  "general": {
+    "matchId": "5802909",
+    "matchName": "Troyes-vs-Paris FC_Sat, Aug 22, 2026, 18:45 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2d56ae",
+        "away": "#66cdff"
+      },
+      "lightMode": {
+        "home": "#2A50A1",
+        "away": "#0C1C3D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "1",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Troyes",
+      "id": 10242
+    },
+    "awayTeam": {
+      "name": "Paris FC",
+      "id": 6379
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-08-22T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 20:45:15",
+      "firstHalfEnded": "22.08.2026 21:30:50",
+      "secondHalfStarted": "22.08.2026 21:47:59",
+      "secondHalfEnded": "22.08.2026 22:38:21",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 22:38:21"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10242",
+      "name": "Troyes",
+      "score": 0
+    },
+    {
+      "id": "6379",
+      "name": "Paris FC",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": [
+      4,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      6,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

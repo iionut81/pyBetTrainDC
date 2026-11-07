@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5967108",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5967108",
+  "verified_at_utc": "2026-11-07T06:56:37.413Z",
+  "general": {
+    "matchId": "5967108",
+    "matchName": "Hellas Verona-vs-Catanzaro_Fri, Oct 16, 2026, 18:30 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#00449f",
+        "away": "#C10909"
+      },
+      "lightMode": {
+        "home": "#002F6C",
+        "away": "#C10909"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941726,
+    "leagueName": "Serie B",
+    "leagueRoundName": "7",
+    "parentLeagueId": 86,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Hellas Verona",
+      "id": 9876
+    },
+    "awayTeam": {
+      "name": "Catanzaro",
+      "id": 10168
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 16, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-10-16T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-16T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.10.2026 20:32:31",
+      "firstHalfEnded": "16.10.2026 21:18:49",
+      "secondHalfStarted": "16.10.2026 21:35:04",
+      "secondHalfEnded": "16.10.2026 22:25:22",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.10.2026 22:25:22"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9876",
+      "name": "Hellas Verona",
+      "score": 2
+    },
+    {
+      "id": "10168",
+      "name": "Catanzaro",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      9,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      0
+    ],
+    "All": [
+      12,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

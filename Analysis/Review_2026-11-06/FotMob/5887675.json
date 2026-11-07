@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "5887675",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887675",
+  "verified_at_utc": "2026-11-07T06:53:49.821Z",
+  "general": {
+    "matchId": "5887675",
+    "matchName": "Famalicão-vs-Arouca_Fri, Nov 6, 2026, 20:45 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#E5D302"
+      },
+      "lightMode": {
+        "home": "#232949",
+        "away": "#cca702"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "11",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Famalicão",
+      "id": 1634
+    },
+    "awayTeam": {
+      "name": "Arouca",
+      "id": 158085
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Nov 6, 2026, 20:45 UTC",
+    "matchTimeUTCDate": "2026-11-06T20:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-06T20:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.11.2026 21:45:23",
+      "firstHalfEnded": "06.11.2026 22:30:43",
+      "secondHalfStarted": "06.11.2026 22:47:01",
+      "secondHalfEnded": "06.11.2026 23:40:05",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.11.2026 23:40:05"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1634",
+      "name": "Famalicão",
+      "score": 1
+    },
+    {
+      "id": "158085",
+      "name": "Arouca",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 6,
+      "display": "90+6",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      0
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      9,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

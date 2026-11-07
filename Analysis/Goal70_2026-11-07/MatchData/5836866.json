@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5836866",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836866",
+  "verified_at_utc": "2026-11-07T06:59:57.203Z",
+  "general": {
+    "matchId": "5836866",
+    "matchName": "Millwall-vs-Swansea City_Tue, Oct 13, 2026, 18:45 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0b4299",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#003078",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "Championship",
+    "leagueRoundName": "10",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Millwall",
+      "id": 10004
+    },
+    "awayTeam": {
+      "name": "Swansea City",
+      "id": 10003
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Oct 13, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-10-13T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-13T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.10.2026 20:45:05",
+      "firstHalfEnded": "13.10.2026 21:31:16",
+      "secondHalfStarted": "13.10.2026 21:46:07",
+      "secondHalfEnded": "13.10.2026 22:39:11",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.10.2026 22:39:11"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10004",
+      "name": "Millwall",
+      "score": 0
+    },
+    {
+      "id": "10003",
+      "name": "Swansea City",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 0,
+      "display": "90",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      1
+    ],
+    "SecondHalf": [
+      6,
+      1
+    ],
+    "All": [
+      13,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

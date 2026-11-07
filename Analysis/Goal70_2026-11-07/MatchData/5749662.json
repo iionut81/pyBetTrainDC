@@ -1,0 +1,134 @@
+{
+  "ok": true,
+  "id": "5749662",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749662",
+  "verified_at_utc": "2026-11-07T06:56:01.833Z",
+  "general": {
+    "matchId": "5749662",
+    "matchName": "Cagliari-vs-Lecce_Mon, Sep 7, 2026, 16:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#B51F2B",
+        "away": "#FFF200"
+      },
+      "lightMode": {
+        "home": "#B51F2B",
+        "away": "#DA9E00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "3",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Cagliari",
+      "id": 8529
+    },
+    "awayTeam": {
+      "name": "Lecce",
+      "id": 9888
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Sep 7, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-09-07T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-07T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.09.2026 18:30:43",
+      "firstHalfEnded": "07.09.2026 19:17:52",
+      "secondHalfStarted": "07.09.2026 19:33:13",
+      "secondHalfEnded": "07.09.2026 20:25:27",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.09.2026 20:25:27"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8529",
+      "name": "Cagliari",
+      "score": 1
+    },
+    {
+      "id": "9888",
+      "name": "Lecce",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      7,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

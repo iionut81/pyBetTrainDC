@@ -77,7 +77,7 @@ try{
  await sleep(3300);
  const historyScreenshot=await page('Page.captureScreenshot',{format:'png',captureBeyondViewport:false});fs.writeFileSync(path.join(here,'preview-history.png'),Buffer.from(historyScreenshot.data,'base64'));
  await evaluate(`document.querySelector('[data-view="validation"]').click()`);
- await check('Pilot checkpoints reflect the actual number of reviewed days',`document.querySelectorAll('#pilotGrid span').length===Math.max(30,completedDays())&&document.querySelectorAll('#pilotGrid .verified').length===completedDays()`);
+ await check('Evaluation calendar reflects actual result days and remaining pilot days',`document.querySelectorAll('#validationView [data-day]').length===completedDays()&&document.querySelectorAll('#validationView .day.future').length===Math.max(0,30-completedDays())&&window.PRED_EVALUATION.days.length===completedDays()`);
  const validationScreenshot=await page('Page.captureScreenshot',{format:'png',captureBeyondViewport:false});fs.writeFileSync(path.join(here,'preview-validation.png'),Buffer.from(validationScreenshot.data,'base64'));
  await evaluate(`document.querySelector('[data-view="overview"]').click();document.querySelector('[data-league="all"]').click();document.querySelector('.market-switch [data-market="goal"]').click()`);
  await page('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true});await sleep(200);

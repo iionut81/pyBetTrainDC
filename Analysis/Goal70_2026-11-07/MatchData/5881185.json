@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "id": "5881185",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881185",
+  "verified_at_utc": "2026-11-07T06:55:57.436Z",
+  "general": {
+    "matchId": "5881185",
+    "matchName": "Paderborn-vs-VfB Stuttgart_Sat, Oct 10, 2026, 13:30 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004A99",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#004A99",
+        "away": "#D30029"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 54,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "5",
+    "parentLeagueId": 54,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Paderborn",
+      "id": 8460
+    },
+    "awayTeam": {
+      "name": "VfB Stuttgart",
+      "id": 10269
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 13:30 UTC",
+    "matchTimeUTCDate": "2026-10-10T13:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T13:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 15:30:17",
+      "firstHalfEnded": "10.10.2026 16:16:41",
+      "secondHalfStarted": "10.10.2026 16:34:16",
+      "secondHalfEnded": "10.10.2026 17:22:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 17:22:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8460",
+      "name": "Paderborn",
+      "score": 0
+    },
+    {
+      "id": "10269",
+      "name": "VfB Stuttgart",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 25,
+      "added": 0,
+      "display": "25",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      7,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

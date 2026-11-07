@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5803980",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803980",
+  "verified_at_utc": "2026-11-07T06:56:14.050Z",
+  "general": {
+    "matchId": "5803980",
+    "matchName": "Radomiak Radom-vs-Piast Gliwice_Mon, Sep 14, 2026, 17:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#09883C",
+        "away": "#0850A0"
+      },
+      "lightMode": {
+        "home": "#09883C",
+        "away": "#0850A0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "8",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Radomiak Radom",
+      "id": 5769
+    },
+    "awayTeam": {
+      "name": "Piast Gliwice",
+      "id": 8028
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Sep 14, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-14T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-14T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "14.09.2026 19:01:34",
+      "firstHalfEnded": "14.09.2026 19:50:06",
+      "secondHalfStarted": "14.09.2026 20:06:48",
+      "secondHalfEnded": "14.09.2026 20:55:40",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.09.2026 20:55:40"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "5769",
+      "name": "Radomiak Radom",
+      "score": 0
+    },
+    {
+      "id": "8028",
+      "name": "Piast Gliwice",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      2
+    ],
+    "SecondHalf": [
+      7,
+      2
+    ],
+    "All": [
+      14,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 13,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 46,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

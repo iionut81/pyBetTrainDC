@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "1000015077",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015077",
+  "verified_at_utc": "2026-11-07T07:00:00.551Z",
+  "general": {
+    "matchId": "1000015077",
+    "matchName": "FK IMT Beograd-vs-FK Zemun_Sat, Jul 25, 2026, 18:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FD0000",
+        "away": "#017538"
+      },
+      "lightMode": {
+        "home": "#FD0000",
+        "away": "#017538"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "2",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "FK IMT Beograd",
+      "id": 568569
+    },
+    "awayTeam": {
+      "name": "FK Zemun",
+      "id": 6231
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Jul 25, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-07-25T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-25T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "25.07.2026 20:00:55",
+      "firstHalfEnded": "25.07.2026 20:50:08",
+      "secondHalfStarted": "25.07.2026 21:05:43",
+      "secondHalfEnded": "25.07.2026 21:50:55",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.07.2026 21:50:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "568569",
+      "name": "FK IMT Beograd",
+      "score": 4
+    },
+    {
+      "id": "6231",
+      "name": "FK Zemun",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 40,
+      "added": 0,
+      "display": "40"
+    },
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56"
+    },
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63"
+    },
+    {
+      "side": "home",
+      "minute": 78,
+      "added": 0,
+      "display": "78"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      11,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 36,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5803949",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803949",
+  "verified_at_utc": "2026-11-07T06:56:14.377Z",
+  "general": {
+    "matchId": "5803949",
+    "matchName": "Zagłębie Lubin-vs-Śląsk Wrocław_Sat, Aug 15, 2026, 12:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#EB6F08",
+        "away": "#138445"
+      },
+      "lightMode": {
+        "home": "#EB6F08",
+        "away": "#006643"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "4",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Zagłębie Lubin",
+      "id": 8021
+    },
+    "awayTeam": {
+      "name": "Śląsk Wrocław",
+      "id": 8025
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 15, 2026, 12:45 UTC",
+    "matchTimeUTCDate": "2026-08-15T12:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-15T12:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.08.2026 14:46:58",
+      "firstHalfEnded": "15.08.2026 15:34:28",
+      "secondHalfStarted": "15.08.2026 15:50:43",
+      "secondHalfEnded": "15.08.2026 16:50:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.08.2026 16:50:56"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8021",
+      "name": "Zagłębie Lubin",
+      "score": 2
+    },
+    {
+      "id": "8025",
+      "name": "Śląsk Wrocław",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 52,
+      "added": 0,
+      "display": "52",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 85,
+      "added": 0,
+      "display": "85",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 34,
+      "added": 0,
+      "display": "34",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      0
+    ],
+    "All": [
+      8,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 10,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 22,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

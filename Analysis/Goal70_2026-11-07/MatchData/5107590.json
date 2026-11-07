@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "5107590",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107590",
+  "verified_at_utc": "2026-11-06T06:30:53.614Z",
+  "general": {
+    "matchId": "5107590",
+    "matchName": "Örgryte-vs-Hammarby_Sun, Sep 6, 2026, 12:00 UTC",
+    "matchRound": "20",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ae0020",
+        "away": "#00AD5E"
+      },
+      "lightMode": {
+        "home": "#7D0105",
+        "away": "#00AD5E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "20",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Örgryte",
+      "id": 10002
+    },
+    "awayTeam": {
+      "name": "Hammarby",
+      "id": 8248
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-09-06T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 14:01:34",
+      "firstHalfEnded": "06.09.2026 14:47:51",
+      "secondHalfStarted": "06.09.2026 15:03:03",
+      "secondHalfEnded": "06.09.2026 15:57:23",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 15:57:23"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10002",
+      "name": "Örgryte",
+      "score": 1
+    },
+    {
+      "id": "8248",
+      "name": "Hammarby",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 18,
+      "added": 0,
+      "display": "18",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      6
+    ],
+    "SecondHalf": [
+      0,
+      2
+    ],
+    "All": [
+      2,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5107590.json"
+}

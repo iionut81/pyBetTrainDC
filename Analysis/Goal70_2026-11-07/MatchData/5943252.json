@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "5943252",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943252",
+  "verified_at_utc": "2026-11-07T06:56:41.116Z",
+  "general": {
+    "matchId": "5943252",
+    "matchName": "PAOK Thessaloniki-vs-Aris Thessaloniki_Sun, Sep 13, 2026, 18:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#FFC722"
+      },
+      "lightMode": {
+        "home": "#1A1A1A",
+        "away": "#d7a100"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941071,
+    "leagueName": "Super League",
+    "leagueRoundName": "4",
+    "parentLeagueId": 135,
+    "countryCode": "GRE",
+    "homeTeam": {
+      "name": "PAOK Thessaloniki",
+      "id": 8619
+    },
+    "awayTeam": {
+      "name": "Aris Thessaloniki",
+      "id": 8239
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-09-13T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 20:02:46",
+      "firstHalfEnded": "13.09.2026 20:50:35",
+      "secondHalfStarted": "13.09.2026 21:08:25",
+      "secondHalfEnded": "13.09.2026 21:56:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 21:56:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8619",
+      "name": "PAOK Thessaloniki",
+      "score": 2
+    },
+    {
+      "id": "8239",
+      "name": "Aris Thessaloniki",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 42,
+      "added": 0,
+      "display": "42",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      3,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

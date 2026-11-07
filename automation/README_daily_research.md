@@ -113,6 +113,12 @@ Un mesaj acceptat in coada nu este prezentat ca raspuns deja afisat in chat.
 
 ## Dovezi si inspectie
 
+Remediere7noiembrie: salvarea atomică a stării reîncearcă finit erorileIO.
+O eroareIO de heartbeat persistentă emite avertisment și se reîncearcă la
+următorul interval, fără oprirea copilului de research. Ultima stare validă
+poate deveni veche; nu trebuie confundată cu progresul sau finalizarea.
+Detalii și limite: `Analysis/Automation/REPAIR_2026-11-07.md`.
+
 - `Analysis/Automation/daily_status.json`: programare/starea ultimei rulari.
 - `Analysis/Automation/scheduled_task.xml`: definitia exportata din Windows.
 - `Analysis/Automation/preflight_verification.json`: test valid exit 0/READY

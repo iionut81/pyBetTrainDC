@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5803302",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803302",
+  "verified_at_utc": "2026-11-06T06:30:33.108Z",
+  "general": {
+    "matchId": "5803302",
+    "matchName": "Laval-vs-Boulogne_Fri, Oct 30, 2026, 19:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#EC6608",
+        "away": "#B51B1E"
+      },
+      "lightMode": {
+        "home": "#EC6608",
+        "away": "#B51B1E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 110,
+    "leagueName": "Ligue 2",
+    "leagueRoundName": "11",
+    "parentLeagueId": 110,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Laval",
+      "id": 7853
+    },
+    "awayTeam": {
+      "name": "Boulogne",
+      "id": 4170
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 30, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-30T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-30T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "30.10.2026 20:00:48",
+      "firstHalfEnded": "30.10.2026 20:49:02",
+      "secondHalfStarted": "30.10.2026 21:03:14",
+      "secondHalfEnded": "30.10.2026 21:52:47",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.10.2026 21:52:47"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7853",
+      "name": "Laval",
+      "score": 1
+    },
+    {
+      "id": "4170",
+      "name": "Boulogne",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 34,
+      "added": 0,
+      "display": "34",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      3,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 28,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 43,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5803302.json"
+}

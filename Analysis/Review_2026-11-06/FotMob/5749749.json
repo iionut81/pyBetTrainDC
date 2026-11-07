@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5749749",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749749",
+  "verified_at_utc": "2026-11-07T06:53:48.391Z",
+  "general": {
+    "matchId": "5749749",
+    "matchName": "Venezia-vs-Udinese_Fri, Nov 6, 2026, 19:45 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#006127",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#907850"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "11",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Venezia",
+      "id": 7881
+    },
+    "awayTeam": {
+      "name": "Udinese",
+      "id": 8600
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Nov 6, 2026, 19:45 UTC",
+    "matchTimeUTCDate": "2026-11-06T19:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-06T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.11.2026 20:47:58",
+      "firstHalfEnded": "06.11.2026 21:33:34",
+      "secondHalfStarted": "06.11.2026 21:48:35",
+      "secondHalfEnded": "06.11.2026 22:39:15",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.11.2026 22:39:15"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7881",
+      "name": "Venezia",
+      "score": 2
+    },
+    {
+      "id": "8600",
+      "name": "Udinese",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 65,
+      "added": 0,
+      "display": "65",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      7
+    ],
+    "All": [
+      3,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

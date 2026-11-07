@@ -1,0 +1,163 @@
+{
+  "ok": true,
+  "id": "5975416",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5975416",
+  "verified_at_utc": "2026-11-07T06:56:12.943Z",
+  "general": {
+    "matchId": "5975416",
+    "matchName": "Olympiakos Nicosia-vs-Aris Limassol_Sun, Oct 11, 2026, 16:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DDDDDD",
+        "away": "#08834D"
+      },
+      "lightMode": {
+        "home": "#333333",
+        "away": "#08834D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 942063,
+    "leagueName": "Cyprus League",
+    "leagueRoundName": "5",
+    "parentLeagueId": 136,
+    "countryCode": "CYP",
+    "homeTeam": {
+      "name": "Olympiakos Nicosia",
+      "id": 5771
+    },
+    "awayTeam": {
+      "name": "Aris Limassol",
+      "id": 2136
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sun, Oct 11, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-11T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-11T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "11.10.2026 18:03:07",
+      "firstHalfEnded": "11.10.2026 18:51:05",
+      "secondHalfStarted": "11.10.2026 19:09:28",
+      "secondHalfEnded": "11.10.2026 20:01:24",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.10.2026 20:01:24"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "5771",
+      "name": "Olympiakos Nicosia",
+      "score": 1
+    },
+    {
+      "id": "2136",
+      "name": "Aris Limassol",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75"
+    },
+    {
+      "side": "away",
+      "minute": 40,
+      "added": 0,
+      "display": "40"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": [
+      8,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

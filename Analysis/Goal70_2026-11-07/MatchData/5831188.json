@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "id": "5831188",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831188",
+  "verified_at_utc": "2026-11-04T06:04:30.439Z",
+  "general": {
+    "matchId": "5831188",
+    "matchName": "FC Zlín-vs-Slavia Prague_Fri, Oct 9, 2026, 16:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FEC700",
+        "away": "#D82333"
+      },
+      "lightMode": {
+        "home": "#dd9e00",
+        "away": "#D82333"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "10",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "FC Zlín",
+      "id": 1860
+    },
+    "awayTeam": {
+      "name": "Slavia Prague",
+      "id": 7787
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Fri, Oct 9, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-09T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-09T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.10.2026 18:01:31",
+      "firstHalfEnded": "09.10.2026 18:47:49",
+      "secondHalfStarted": "09.10.2026 19:03:12",
+      "secondHalfEnded": "09.10.2026 19:54:31",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.10.2026 19:54:31"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1860",
+      "name": "FC Zlín",
+      "score": 0
+    },
+    {
+      "id": "7787",
+      "name": "Slavia Prague",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 16,
+      "added": 0,
+      "display": "16"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      7
+    ],
+    "All": [
+      2,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5831188.json"
+}

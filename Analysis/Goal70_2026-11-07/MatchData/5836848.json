@@ -1,0 +1,130 @@
+{
+  "ok": true,
+  "id": "5836848",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836848",
+  "verified_at_utc": "2026-11-04T06:04:43.377Z",
+  "general": {
+    "matchId": "5836848",
+    "matchName": "Wolverhampton Wanderers-vs-West Bromwich Albion_Sun, Sep 20, 2026, 11:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FBA71B",
+        "away": "#1d549d"
+      },
+      "lightMode": {
+        "home": "#e89700",
+        "away": "#002F68"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "English Football League - Championship",
+    "leagueRoundName": "8",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Wolverhampton Wanderers",
+      "id": 8602
+    },
+    "awayTeam": {
+      "name": "West Bromwich Albion",
+      "id": 8659
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 11:00 UTC",
+    "matchTimeUTCDate": "2026-09-20T11:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T11:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 13:00:08",
+      "firstHalfEnded": "20.09.2026 13:50:14",
+      "secondHalfStarted": "20.09.2026 14:05:15",
+      "secondHalfEnded": "20.09.2026 14:57:45",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 14:57:45"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8602",
+      "name": "Wolverhampton Wanderers",
+      "score": 1
+    },
+    {
+      "id": "8659",
+      "name": "West Bromwich Albion",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      6
+    ],
+    "All": [
+      8,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5836848.json"
+}

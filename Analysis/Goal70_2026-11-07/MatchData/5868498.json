@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5868498",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868498",
+  "verified_at_utc": "2026-11-07T06:56:25.944Z",
+  "general": {
+    "matchId": "5868498",
+    "matchName": "Leganés-vs-Córdoba_Fri, Oct 16, 2026, 18:30 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0057B7",
+        "away": "#007D48"
+      },
+      "lightMode": {
+        "home": "#0057B7",
+        "away": "#007D48"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "10",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Leganés",
+      "id": 7854
+    },
+    "awayTeam": {
+      "name": "Córdoba",
+      "id": 7869
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 16, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-10-16T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-16T18:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.10.2026 20:31:52",
+      "firstHalfEnded": "16.10.2026 21:16:53",
+      "secondHalfStarted": "16.10.2026 21:33:18",
+      "secondHalfEnded": "16.10.2026 22:23:32",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.10.2026 22:23:32"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7854",
+      "name": "Leganés",
+      "score": 0
+    },
+    {
+      "id": "7869",
+      "name": "Córdoba",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      6
+    ],
+    "All": [
+      4,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "YellowRed",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

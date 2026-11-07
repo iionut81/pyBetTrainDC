@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "id": "6003655",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6003655",
+  "verified_at_utc": "2026-11-07T07:00:47.579Z",
+  "general": {
+    "matchId": "6003655",
+    "matchName": "Parma-vs-Cremonese_Tue, Sep 1, 2026, 16:00 UTC",
+    "matchRound": "1/16",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#C8091D"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#C8091D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938423,
+    "leagueName": "Coppa Italia",
+    "leagueRoundName": "1/16",
+    "parentLeagueId": 141,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Parma",
+      "id": 10167
+    },
+    "awayTeam": {
+      "name": "Cremonese",
+      "id": 7801
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Sep 1, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-09-01T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-01T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.09.2026 18:01:01",
+      "firstHalfEnded": "01.09.2026 18:47:42",
+      "secondHalfStarted": "01.09.2026 19:04:06",
+      "secondHalfEnded": "01.09.2026 19:53:33",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.09.2026 19:53:33"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10167",
+      "name": "Parma",
+      "score": 0
+    },
+    {
+      "id": "7801",
+      "name": "Cremonese",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 5,
+      "added": 0,
+      "display": "5",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 41,
+      "added": 0,
+      "display": "41",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      8
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      10,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

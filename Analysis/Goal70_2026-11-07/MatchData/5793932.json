@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5793932",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793932",
+  "verified_at_utc": "2026-11-07T06:56:33.359Z",
+  "general": {
+    "matchId": "5793932",
+    "matchName": "St. Johnstone-vs-Hibernian_Sun, Sep 6, 2026, 14:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2659C2",
+        "away": "#007040"
+      },
+      "lightMode": {
+        "home": "#2659C2",
+        "away": "#007040"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "6",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "St. Johnstone",
+      "id": 8467
+    },
+    "awayTeam": {
+      "name": "Hibernian",
+      "id": 10251
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-06T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 16:00:55",
+      "firstHalfEnded": "06.09.2026 16:49:21",
+      "secondHalfStarted": "06.09.2026 17:04:10",
+      "secondHalfEnded": "06.09.2026 17:52:23",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 17:52:23"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8467",
+      "name": "St. Johnstone",
+      "score": 2
+    },
+    {
+      "id": "10251",
+      "name": "Hibernian",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 17,
+      "added": 0,
+      "display": "17",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 41,
+      "added": 0,
+      "display": "41",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      7
+    ],
+    "All": [
+      2,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

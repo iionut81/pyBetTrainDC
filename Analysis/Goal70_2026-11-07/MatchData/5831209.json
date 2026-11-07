@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5831209",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831209",
+  "verified_at_utc": "2026-11-07T06:56:05.110Z",
+  "general": {
+    "matchId": "5831209",
+    "matchName": "Mladá Boleslav-vs-Hradec Králové_Sun, Nov 1, 2026, 12:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#3C69A0",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#3C69A0",
+        "away": "#202018"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "13",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Mladá Boleslav",
+      "id": 10180
+    },
+    "awayTeam": {
+      "name": "Hradec Králové",
+      "id": 1712
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-11-01T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 13:01:14",
+      "firstHalfEnded": "01.11.2026 13:48:23",
+      "secondHalfStarted": "01.11.2026 14:04:18",
+      "secondHalfEnded": "01.11.2026 14:53:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 14:53:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10180",
+      "name": "Mladá Boleslav",
+      "score": 3
+    },
+    {
+      "id": "1712",
+      "name": "Hradec Králové",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80"
+    },
+    {
+      "side": "home",
+      "minute": 87,
+      "added": 0,
+      "display": "87"
+    },
+    {
+      "side": "home",
+      "minute": 82,
+      "added": 0,
+      "display": "82"
+    },
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      3
+    ],
+    "SecondHalf": [
+      4,
+      4
+    ],
+    "All": [
+      8,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

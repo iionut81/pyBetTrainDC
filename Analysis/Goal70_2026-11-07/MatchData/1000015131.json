@@ -1,0 +1,155 @@
+{
+  "ok": true,
+  "id": "1000015131",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015131",
+  "verified_at_utc": "2026-11-07T07:00:03.518Z",
+  "general": {
+    "matchId": "1000015131",
+    "matchName": "Radnički Niš-vs-OFK Beograd_Sun, Sep 13, 2026, 14:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F01008",
+        "away": "#025098"
+      },
+      "lightMode": {
+        "home": "#F01008",
+        "away": "#025098"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "9",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Radnički Niš",
+      "id": 6410
+    },
+    "awayTeam": {
+      "name": "OFK Beograd",
+      "id": 8692
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-13T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 16:01:25",
+      "firstHalfEnded": "13.09.2026 16:49:35",
+      "secondHalfStarted": "13.09.2026 17:04:41",
+      "secondHalfEnded": "13.09.2026 17:53:47",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 17:53:47"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6410",
+      "name": "Radnički Niš",
+      "score": 3
+    },
+    {
+      "id": "8692",
+      "name": "OFK Beograd",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 7,
+      "added": 0,
+      "display": "7"
+    },
+    {
+      "side": "home",
+      "minute": 61,
+      "added": 0,
+      "display": "61"
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80"
+    },
+    {
+      "side": "away",
+      "minute": 52,
+      "added": 0,
+      "display": "52"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      0
+    ],
+    "All": [
+      3,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

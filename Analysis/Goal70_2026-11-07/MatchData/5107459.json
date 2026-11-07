@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "5107459",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107459",
+  "verified_at_utc": "2026-11-07T06:59:49.727Z",
+  "general": {
+    "matchId": "5107459",
+    "matchName": "Sirius-vs-Västerås SK_Sat, Apr 18, 2026, 13:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#175b9e",
+        "away": "#197842"
+      },
+      "lightMode": {
+        "home": "#2a497f",
+        "away": "#197842"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "3",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Sirius",
+      "id": 6694
+    },
+    "awayTeam": {
+      "name": "Västerås SK",
+      "id": 6194
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Apr 18, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-04-18T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-18T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.04.2026 15:00:58",
+      "firstHalfEnded": "18.04.2026 15:48:03",
+      "secondHalfStarted": "18.04.2026 16:03:55",
+      "secondHalfEnded": "18.04.2026 16:55:22",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.04.2026 16:55:22"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6694",
+      "name": "Sirius",
+      "score": 4
+    },
+    {
+      "id": "6194",
+      "name": "Västerås SK",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 8,
+      "added": 0,
+      "display": "8",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 53,
+      "added": 0,
+      "display": "53",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      6
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      4,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

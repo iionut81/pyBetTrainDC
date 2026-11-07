@@ -1,0 +1,162 @@
+{
+  "ok": true,
+  "id": "5831119",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831119",
+  "verified_at_utc": "2026-11-07T06:56:05.830Z",
+  "general": {
+    "matchId": "5831119",
+    "matchName": "Slovan Liberec-vs-Teplice_Sat, Aug 1, 2026, 15:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1D8BCB",
+        "away": "#FAC118"
+      },
+      "lightMode": {
+        "home": "#1D8BCB",
+        "away": "#da9f00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "2",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Slovan Liberec",
+      "id": 10245
+    },
+    "awayTeam": {
+      "name": "Teplice",
+      "id": 4721
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 1, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-08-01T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-01T15:00:00.000Z",
+    "numberOfHomeRedCards": 2,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.08.2026 17:05:27",
+      "firstHalfEnded": "01.08.2026 17:50:38",
+      "secondHalfStarted": "01.08.2026 18:09:38",
+      "secondHalfEnded": "01.08.2026 18:58:07",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.08.2026 18:58:07"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10245",
+      "name": "Slovan Liberec",
+      "score": 0
+    },
+    {
+      "id": "4721",
+      "name": "Teplice",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 61,
+      "added": 0,
+      "display": "61"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      5
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      3,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 2,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 16,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 39,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

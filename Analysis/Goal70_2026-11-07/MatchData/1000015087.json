@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "id": "1000015087",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015087",
+  "verified_at_utc": "2026-11-07T07:00:02.692Z",
+  "general": {
+    "matchId": "1000015087",
+    "matchName": "Čukarički-vs-FK Radnički 1923_Sat, Aug 1, 2026, 18:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#E11C24"
+      },
+      "lightMode": {
+        "home": "#1e1e1e",
+        "away": "#E11C24"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "3",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Čukarički",
+      "id": 6374
+    },
+    "awayTeam": {
+      "name": "FK Radnički 1923",
+      "id": 1675
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 1, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-01T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-01T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.08.2026 20:31:35",
+      "firstHalfEnded": "01.08.2026 21:19:36",
+      "secondHalfStarted": "01.08.2026 21:35:54",
+      "secondHalfEnded": "01.08.2026 22:22:57",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.08.2026 22:22:57"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6374",
+      "name": "Čukarički",
+      "score": 3
+    },
+    {
+      "id": "1675",
+      "name": "FK Radnički 1923",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 4,
+      "added": 0,
+      "display": "4"
+    },
+    {
+      "side": "home",
+      "minute": 26,
+      "added": 0,
+      "display": "26"
+    },
+    {
+      "side": "home",
+      "minute": 33,
+      "added": 0,
+      "display": "33"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      7
+    ],
+    "SecondHalf": [
+      0,
+      2
+    ],
+    "All": [
+      1,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -89,16 +89,7 @@ function renderHistory(){
  $$('[data-result]').forEach(b=>{b.classList.toggle('active',b.dataset.result===state.result);b.setAttribute('aria-pressed',String(b.dataset.result===state.result));});
  $$('[data-history-market]').forEach(b=>{b.classList.toggle('active',b.dataset.historyMarket===market);b.setAttribute('aria-pressed',String(b.dataset.historyMarket===market));});
 }
-function renderValidation(){
- const days=completedDays();
- const panels=['goal','corner'].map(market=>{
-  const rows=ARCHIVE.days.flatMap(d=>d.reviews[market]).filter(r=>r.result==='success'||r.result==='fail');
-  const n=rows.length,win=rows.filter(r=>r.result==='success').length,scored=rows.filter(r=>r.p!=null),mean=scored.length?scored.reduce((s,r)=>s+r.p,0)/scored.length:null,brier=scored.length?scored.reduce((s,r)=>s+(r.p-(r.result==='success'?1:0))**2,0)/scored.length:null;
-  const chosen=ARCHIVE.days.flatMap(d=>d.matches.filter(m=>m[market].userSelection).map(m=>m[market])).filter(v=>['success','fail'].includes(v.outcome.result)),chosenWins=chosen.filter(v=>v.outcome.result==='success').length;
-  return `<article class="panel"><header class="panel-heading"><div><span class="eyebrow">${market==='goal'?'GOL70':'CORNERE 1H'} · TOATE ZILELE SALVATE</span><h2>Model vs. observație</h2></div></header><div class="validation-row"><span>Probabilitate medie · screening</span><strong>${percent(mean)}</strong></div><div class="compare-bar"><i style="width:${(mean||0)*100}%"></i></div><div class="validation-row"><span>Rată observată · ${n} rezultate verificate</span><strong class="teal">${n?percent(win/n):'—'}</strong></div><div class="compare-bar actual"><i style="width:${n?win/n*100:0}%"></i></div><div class="validation-row"><span>Scor Brier · ${scored.length} probabilități</span><strong>${brier==null?'—':brier.toLocaleString('ro-RO',{minimumFractionDigits:4,maximumFractionDigits:4})}</strong></div><div class="validation-row"><span>Alegerile tale · rezultate verificate</span><strong>${chosenWins}/${chosen.length}</strong></div><p class="panel-disclaimer">Doar rezultate verificate; datele lipsă și amânările sunt excluse. Media și Brier folosesc screeningul original. Selecțiile tale sunt raportate separat; un eșantion mic nu validează modelul.</p></article>`;
- }).join('');
- $('#validationView').innerHTML=`<div class="validation-banner"><span class="eyebrow amber">EVALUARE PROSPECTIVĂ</span><h2>Încrederea se măsoară.<br><span>Nu se declară.</span></h2><p>${days===1?'O zi verificată':days+' zile cu rezultate verificate'}. Pot exista zile verificate parțial. Modelul rămâne necalibrat.</p><div class="pilot-grid" id="pilotGrid" aria-label="${days} zile cu rezultate din ținta pilot de 30">${Array.from({length:Math.max(30,days)},(_,i)=>`<span class="${i<days?'verified':''}" title="${i<days?'Zi cu rezultate verificate':'Zi de evaluare necompletată'}"></span>`).join('')}</div><div class="pilot-label"><span>${days} zile cu rezultate</span><span>Primul bilanț: 30 zile</span></div></div><div class="validation-grid">${panels}</div>`;
-}
+function renderValidation(){ModelEvaluation.mount(ARCHIVE);}
 function showDetail(id,market=state.market){
  const m=DATA.matches.find(m=>m.id===id);if(!m)return;
  const sample=m[market],v=choiceValue(m,market),user=sample.userSelection;

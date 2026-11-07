@@ -1,0 +1,157 @@
+{
+  "ok": true,
+  "id": "5804222",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804222",
+  "verified_at_utc": "2026-11-05T06:08:47.580Z",
+  "general": {
+    "matchId": "5804222",
+    "matchName": "Luzern-vs-Thun_Sat, Jul 25, 2026, 18:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0a4ac1",
+        "away": "#E30513"
+      },
+      "lightMode": {
+        "home": "#083890",
+        "away": "#E30513"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937880,
+    "leagueName": "Super League",
+    "leagueRoundName": "1",
+    "parentLeagueId": 69,
+    "countryCode": "SUI",
+    "homeTeam": {
+      "name": "Luzern",
+      "id": 10199
+    },
+    "awayTeam": {
+      "name": "Thun",
+      "id": 10191
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Jul 25, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-07-25T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-25T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.07.2026 20:31:27",
+      "firstHalfEnded": "25.07.2026 21:19:48",
+      "secondHalfStarted": "25.07.2026 21:34:13",
+      "secondHalfEnded": "25.07.2026 22:24:09",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.07.2026 22:24:09"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10199",
+      "name": "Luzern",
+      "score": 1
+    },
+    {
+      "id": "10191",
+      "name": "Thun",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 2,
+      "added": 0,
+      "display": "2",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 8,
+      "added": 0,
+      "display": "8",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 51,
+      "added": 0,
+      "display": "51"
+    },
+    {
+      "side": "away",
+      "minute": 84,
+      "added": 0,
+      "display": "84",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      6,
+      5
+    ],
+    "All": [
+      12,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5804222.json"
+}

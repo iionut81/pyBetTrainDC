@@ -1,0 +1,155 @@
+{
+  "ok": true,
+  "id": "5908575",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908575",
+  "verified_at_utc": "2026-11-07T06:59:47.332Z",
+  "general": {
+    "matchId": "5908575",
+    "matchName": "Pendikspor-vs-Batman Petrolspor_Mon, Aug 10, 2026, 18:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C21E16",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#C21E16",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "1",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Pendikspor",
+      "id": 95745
+    },
+    "awayTeam": {
+      "name": "Batman Petrolspor",
+      "id": 163008
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Aug 10, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-10T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-10T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "10.08.2026 20:30:03",
+      "firstHalfEnded": "10.08.2026 21:18:15",
+      "secondHalfStarted": "10.08.2026 21:34:41",
+      "secondHalfEnded": "10.08.2026 22:29:05",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.08.2026 22:29:05"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "95745",
+      "name": "Pendikspor",
+      "score": 2
+    },
+    {
+      "id": "163008",
+      "name": "Batman Petrolspor",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 9,
+      "display": "90+9"
+    },
+    {
+      "side": "away",
+      "minute": 32,
+      "added": 0,
+      "display": "32"
+    },
+    {
+      "side": "away",
+      "minute": 80,
+      "added": 0,
+      "display": "80"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      4,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

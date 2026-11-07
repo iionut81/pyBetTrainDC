@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "id": "1000015115",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015115",
+  "verified_at_utc": "2026-11-05T06:08:41.241Z",
+  "general": {
+    "matchId": "1000015115",
+    "matchName": "FK Zemun-vs-FK Crvena Zvezda_Sun, Aug 30, 2026, 18:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#017538",
+        "away": "#D80017"
+      },
+      "lightMode": {
+        "home": "#017538",
+        "away": "#D80017"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "7",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "FK Zemun",
+      "id": 6231
+    },
+    "awayTeam": {
+      "name": "FK Crvena Zvezda",
+      "id": 8687
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-08-30T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 19:59:42",
+      "firstHalfEnded": "30.08.2026 20:47:50",
+      "secondHalfStarted": "30.08.2026 21:01:26",
+      "secondHalfEnded": "30.08.2026 21:49:41",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 21:49:41"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6231",
+      "name": "FK Zemun",
+      "score": 0
+    },
+    {
+      "id": "8687",
+      "name": "FK Crvena Zvezda",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      4,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/1000015115.json"
+}

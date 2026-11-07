@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5803901",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803901",
+  "verified_at_utc": "2026-11-07T06:56:14.277Z",
+  "general": {
+    "matchId": "5803901",
+    "matchName": "Górnik Zabrze-vs-Śląsk Wrocław_Sat, Jul 25, 2026, 15:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#138445"
+      },
+      "lightMode": {
+        "home": "#26419A",
+        "away": "#006643"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "1",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Górnik Zabrze",
+      "id": 8020
+    },
+    "awayTeam": {
+      "name": "Śląsk Wrocław",
+      "id": 8025
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Jul 25, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-07-25T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-25T15:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.07.2026 17:31:54",
+      "firstHalfEnded": "25.07.2026 18:18:05",
+      "secondHalfStarted": "25.07.2026 18:35:48",
+      "secondHalfEnded": "25.07.2026 19:25:27",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.07.2026 19:25:27"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8020",
+      "name": "Górnik Zabrze",
+      "score": 2
+    },
+    {
+      "id": "8025",
+      "name": "Śląsk Wrocław",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 65,
+      "added": 0,
+      "display": "65",
+      "period": "SecondHalf",
+      "own_goal": true
+    },
+    {
+      "side": "home",
+      "minute": 78,
+      "added": 0,
+      "display": "78",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 8,
+      "added": 0,
+      "display": "8",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      5
+    ],
+    "All": [
+      8,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

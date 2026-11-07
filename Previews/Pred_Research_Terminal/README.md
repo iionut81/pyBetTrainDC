@@ -197,3 +197,33 @@ inventariate și numărul celor cu model prospectiv.
 Exemplu 5 noiembrie, cornere: toate rezultatele34/35, un eșec
 Panathinaikos–CSKA Sofia12cornere1H; separat, modelele21/21. Teste browser:
 `node Previews/Pred_Research_Terminal/check-review-markets.mjs`.
+
+### Evaluarea modelului — History board, 7 noiembrie
+
+Tabul Evaluarea modelului include calendarul pilot și graficul aprobate în
+preview. Se actualizează din arhiva salvată la fiecare rebuild și la
+reîmprospătarea alegerilor locale. Filtrele evaluării sunt independente de
+piața/filtrele radarului și tabelului principal.
+
+Rata observată, probabilitatea medie și scorul Brier folosesc exact aceleași
+predicții cu probabilitate și rezultat verificat. Sunt disponibile separat
+toate predicțiile cu model, propunerile analistului și alegerile utilizatorului;
+pentru ultimele se folosește probabilitatea salvată la alegere. Rezultatele fără
+model rămân în Dashboard/Istoric, fără să fie transformate în predicții.
+
+Graficul poate fi zilnic/cumulat, cu rată de reușită (axa0–100%) sau Brier
+(axa0–1, mai mic înseamnă eroare mai mică). Punctele procentuale sunt diferența
+rată observată minus probabilitate medie. Calendarul arată succese/eșecuri,
+nu etichetează o zi verificată drept zi fără eșecuri. Treizeci de zile sunt un
+bilanț pilot, nu o garanție de validare sau îmbunătățire a modelului.
+
+Click pe numărul de succese/eșecuri deschide lista exactă pentru ziua, piața
+și grupul ales; fiecare meci trimite la raportul său dedicat. Listele fără
+rezultate au stare goală explicită. Rapoartele se deschid în tab separat.
+
+Surse UI: `evaluation.js`, `evaluation.css`, incluse în HTMLul autonom de
+`build.mjs`. Nu depind de folderul preview. Verificare dedicată:
+
+```powershell
+node Previews/Pred_Research_Terminal/check-evaluation.mjs
+```

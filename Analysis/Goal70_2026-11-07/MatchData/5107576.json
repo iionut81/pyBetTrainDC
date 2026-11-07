@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "id": "5107576",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107576",
+  "verified_at_utc": "2026-11-07T06:59:49.172Z",
+  "general": {
+    "matchId": "5107576",
+    "matchName": "Örgryte-vs-Halmstads BK_Sat, Aug 22, 2026, 13:00 UTC",
+    "matchRound": "18",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ae0020",
+        "away": "#205287"
+      },
+      "lightMode": {
+        "home": "#7D0105",
+        "away": "#205287"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "18",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Örgryte",
+      "id": 10002
+    },
+    "awayTeam": {
+      "name": "Halmstads BK",
+      "id": 8310
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-08-22T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 15:01:23",
+      "firstHalfEnded": "22.08.2026 15:46:35",
+      "secondHalfStarted": "22.08.2026 16:02:05",
+      "secondHalfEnded": "22.08.2026 16:51:22",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 16:51:22"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10002",
+      "name": "Örgryte",
+      "score": 1
+    },
+    {
+      "id": "8310",
+      "name": "Halmstads BK",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      5
+    ],
+    "SecondHalf": [
+      1,
+      5
+    ],
+    "All": [
+      3,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5908618",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908618",
+  "verified_at_utc": "2026-11-06T06:30:50.861Z",
+  "general": {
+    "matchId": "5908618",
+    "matchName": "İstanbulspor-vs-Iğdır FK_Mon, Sep 7, 2026, 14:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F5E128",
+        "away": "#048F3A"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#048F3A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "6",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "İstanbulspor",
+      "id": 106560
+    },
+    "awayTeam": {
+      "name": "Iğdır FK",
+      "id": 1281818
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Sep 7, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-07T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-07T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.09.2026 16:00:25",
+      "firstHalfEnded": "07.09.2026 16:47:27",
+      "secondHalfStarted": "07.09.2026 17:04:38",
+      "secondHalfEnded": "07.09.2026 17:59:04",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.09.2026 17:59:04"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "106560",
+      "name": "İstanbulspor",
+      "score": 1
+    },
+    {
+      "id": "1281818",
+      "name": "Iğdır FK",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 6,
+      "display": "90+6"
+    },
+    {
+      "side": "away",
+      "minute": 28,
+      "added": 0,
+      "display": "28"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 8,
+      "display": "90+8"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      9,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5908618.json"
+}

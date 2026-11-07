@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "id": "5802932",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802932",
+  "verified_at_utc": "2026-11-07T06:56:01.404Z",
+  "general": {
+    "matchId": "5802932",
+    "matchName": "Lille-vs-Troyes_Sun, Sep 13, 2026, 13:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E01D13",
+        "away": "#2d56ae"
+      },
+      "lightMode": {
+        "home": "#E01D13",
+        "away": "#2A50A1"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "4",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Lille",
+      "id": 8639
+    },
+    "awayTeam": {
+      "name": "Troyes",
+      "id": 10242
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-09-13T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 15:00:42",
+      "firstHalfEnded": "13.09.2026 15:49:48",
+      "secondHalfStarted": "13.09.2026 16:05:12",
+      "secondHalfEnded": "13.09.2026 16:55:10",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 16:55:10"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8639",
+      "name": "Lille",
+      "score": 2
+    },
+    {
+      "id": "10242",
+      "name": "Troyes",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 18,
+      "added": 0,
+      "display": "18",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      2,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

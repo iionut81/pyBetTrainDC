@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "id": "1000015144",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015144",
+  "verified_at_utc": "2026-11-07T07:00:03.684Z",
+  "general": {
+    "matchId": "1000015144",
+    "matchName": "Radnički Niš-vs-Vojvodina_Sun, Oct 11, 2026, 13:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F01008",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#F01008",
+        "away": "#283C9A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Serbian Super Liga",
+    "leagueRoundName": "11",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Radnički Niš",
+      "id": 6410
+    },
+    "awayTeam": {
+      "name": "Vojvodina",
+      "id": 6406
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 11, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-10-11T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-11T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "11.10.2026 15:01:50",
+      "firstHalfEnded": "11.10.2026 15:49:05",
+      "secondHalfStarted": "11.10.2026 16:06:21",
+      "secondHalfEnded": "11.10.2026 16:51:31",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.10.2026 16:51:31"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6410",
+      "name": "Radnički Niš",
+      "score": 1
+    },
+    {
+      "id": "6406",
+      "name": "Vojvodina",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 0,
+      "display": "90"
+    },
+    {
+      "side": "away",
+      "minute": 19,
+      "added": 0,
+      "display": "19"
+    },
+    {
+      "side": "away",
+      "minute": 31,
+      "added": 0,
+      "display": "31"
+    },
+    {
+      "side": "away",
+      "minute": 50,
+      "added": 0,
+      "display": "50"
+    },
+    {
+      "side": "away",
+      "minute": 70,
+      "added": 0,
+      "display": "70"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      0
+    ],
+    "All": [
+      6,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 21,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

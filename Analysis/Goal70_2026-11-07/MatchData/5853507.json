@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "id": "5853507",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853507",
+  "verified_at_utc": "2026-11-07T06:59:41.415Z",
+  "general": {
+    "matchId": "5853507",
+    "matchName": "FC Voluntari-vs-Universitatea Cluj_Sun, Sep 20, 2026, 11:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#56C7DD",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#29A3B9",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "10",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "FC Voluntari",
+      "id": 405332
+    },
+    "awayTeam": {
+      "name": "Universitatea Cluj",
+      "id": 89022
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 11:00 UTC",
+    "matchTimeUTCDate": "2026-09-20T11:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T11:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 13:03:30",
+      "firstHalfEnded": "20.09.2026 13:49:44",
+      "secondHalfStarted": "20.09.2026 14:05:23",
+      "secondHalfEnded": "20.09.2026 14:56:08",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 14:56:08"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "405332",
+      "name": "FC Voluntari",
+      "score": 0
+    },
+    {
+      "id": "89022",
+      "name": "Universitatea Cluj",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 73,
+      "added": 0,
+      "display": "73"
+    },
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      3
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      8,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

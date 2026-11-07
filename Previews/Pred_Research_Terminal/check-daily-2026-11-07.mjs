@@ -1,0 +1,34 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {pathToFileURL} from 'node:url';
+const here=path.resolve('Previews/Pred_Research_Terminal');
+let s=fs.readFileSync(path.join(here,'check-preview.mjs'),'utf8');
+s=s.slice(0,s.indexOf(" await check('Dashboard opens"));
+s=s.replace("const here=path.dirname(fileURLToPath(import.meta.url));",'const here='+JSON.stringify(here)+';');
+s+=`
+ await check('Latest dashboard shows November7 and all102 inventoried fixtures', 'DATA.date==="2026-11-07"&&DATA.matches.length===102&&document.querySelector("#dateSelect").value==="2026-11-07"');
+ await check('Model coverage remains101goal and83corners without invented observations', 'DATA.coverage.goal===101&&DATA.coverage.corner===83');
+ await check('Analyst goal candidate is Luzern, distinct from rank1 Excelsior', 'document.querySelector(".goal-card").textContent.includes("Luzern")&&document.querySelector(".goal-card .badge").textContent==="CANDIDAT ANALIST"&&[...DATA.matches].sort((a,b)=>(b.goal.p??-1)-(a.goal.p??-1)).findIndex(m=>m.id==="5804293")===3');
+ await check('Analyst corner candidate is Istra, distinct from rank1 Parma', 'document.querySelector(".corner-card").textContent.includes("Istra")&&document.querySelector(".corner-card .badge").textContent==="CANDIDAT ANALIST"&&[...DATA.matches].sort((a,b)=>(b.corner.p??-1)-(a.corner.p??-1)).findIndex(m=>m.id==="5765955")===1');
+ await check('Current goal review contains no previous-day results or failures', 'document.querySelector("#reviewPanel").dataset.reviewDate==="2026-11-07"&&!document.querySelector("#outcomeStrip")&&document.querySelector("#reviewPanel").textContent.includes("Rezultatele urmează")');
+ await evaluate('setMarket("corner")');
+ await check('Current corner review stays on November7 with no results', 'document.querySelector("#reviewPanel").dataset.market==="corner"&&document.querySelector("#reviewPanel").dataset.reviewDate==="2026-11-07"&&!document.querySelector("#outcomeStrip")');
+ await check('Both finalists open a report for the correct date and market', 'DATA.matches.find(m=>m.id==="5804293").goal.report==="reports/2026-11-07/goal/5804293.html"&&DATA.matches.find(m=>m.id==="5765955").corner.report==="reports/2026-11-07/corner/5765955.html"');
+ await evaluate('selectDay("2026-11-06");setMarket("goal")');
+ await check('Yesterday goal review displays26of33 and seven failures', 'document.querySelectorAll("#outcomeStrip span").length===33&&document.querySelectorAll("#outcomeStrip .failed").length===7&&document.querySelector(".goal-card").textContent.includes("57")&&document.querySelector(".goal-card .choice-result").textContent==="-Succes"');
+ await evaluate('setMarket("corner")');
+ await check('Yesterday corner review displays29of31 and both actual failures', 'document.querySelectorAll("#outcomeStrip span").length===31&&document.querySelectorAll("#outcomeStrip .failed").length===2&&document.querySelector(".corner-card").textContent.includes("Grenoble")&&document.querySelector(".corner-card .choice-result").textContent==="-Succes"&&document.querySelector(".corner-card").textContent.includes("total 1H 2")');
+ await evaluate('document.querySelector("#reviewPanel [data-review-history=fail]").click()');
+ await check('Corner failures open yesterday history for Motor and Arges only', 'state.historyDate==="2026-11-06"&&state.historyMarket==="corner"&&document.querySelectorAll("#historyBody tr").length===2&&document.querySelector("#historyBody").textContent.includes("Motor")&&document.querySelector("#historyBody").textContent.includes("Argeș")');
+ await evaluate('setView("overview");selectDay("2026-11-07");setMarket("goal")');
+ await check('Returning to today clears all yesterday failure UI', '!document.querySelector("#outcomeStrip")&&!document.querySelector("#reviewPanel [data-review-history=fail]")&&document.querySelector("#reviewPanel").dataset.reviewDate==="2026-11-07"');
+ const desktop=await page('Page.captureScreenshot',{format:'png',captureBeyondViewport:false});fs.writeFileSync(path.join(here,'preview-daily-2026-11-07.png'),Buffer.from(desktop.data,'base64'));
+ await page('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true});
+ await check('Mobile dashboard has no page overflow', 'document.documentElement.scrollWidth<=390');
+ if(errors.length)throw Error(JSON.stringify(errors));
+ const result={status:'PASS',date:'2026-11-07',checked_at_utc:new Date().toISOString(),checks,exceptions:errors.length};
+ fs.writeFileSync(path.join(here,'daily-verification-2026-11-07.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));
+}catch(error){console.error('Browser diagnostics:',browserErrors);throw error;}finally{if(ws?.readyState===WebSocket.OPEN){try{await send('Browser.close');}catch{}ws.close();}if(proc.exitCode===null)proc.kill();}
+`;
+fs.mkdirSync(path.join(here,'.runtime'),{recursive:true});
+const runtime=path.join(here,'.runtime','daily-2026-11-07-runtime.mjs');fs.writeFileSync(runtime,s);await import(pathToFileURL(runtime).href);

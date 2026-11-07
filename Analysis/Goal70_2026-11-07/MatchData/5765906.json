@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "id": "5765906",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765906",
+  "verified_at_utc": "2026-11-07T06:56:21.603Z",
+  "general": {
+    "matchId": "5765906",
+    "matchName": "NK Istra 1961-vs-Slaven_Sat, Aug 15, 2026, 16:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#087828",
+        "away": "#135697"
+      },
+      "lightMode": {
+        "home": "#087828",
+        "away": "#005090"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "3",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "NK Istra 1961",
+      "id": 6038
+    },
+    "awayTeam": {
+      "name": "Slaven",
+      "id": 1581
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 15, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-08-15T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-15T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "15.08.2026 18:30:34",
+      "firstHalfEnded": "15.08.2026 19:19:26",
+      "secondHalfStarted": "15.08.2026 19:34:44",
+      "secondHalfEnded": "15.08.2026 20:22:06",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.08.2026 20:22:06"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6038",
+      "name": "NK Istra 1961",
+      "score": 3
+    },
+    {
+      "id": "1581",
+      "name": "Slaven",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 16,
+      "added": 0,
+      "display": "16"
+    },
+    {
+      "side": "home",
+      "minute": 35,
+      "added": 0,
+      "display": "35"
+    },
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 13,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "id": "5107533",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107533",
+  "verified_at_utc": "2026-11-07T06:59:53.061Z",
+  "general": {
+    "matchId": "5107533",
+    "matchName": "AIK-vs-GAIS_Sat, Jul 18, 2026, 13:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#EACF4A",
+        "away": "#008840"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#008840"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "13",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "AIK",
+      "id": 8349
+    },
+    "awayTeam": {
+      "name": "GAIS",
+      "id": 8297
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Jul 18, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-07-18T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-18T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.07.2026 15:01:56",
+      "firstHalfEnded": "18.07.2026 15:48:01",
+      "secondHalfStarted": "18.07.2026 16:03:30",
+      "secondHalfEnded": "18.07.2026 16:52:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.07.2026 16:52:17"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8349",
+      "name": "AIK",
+      "score": 2
+    },
+    {
+      "id": "8297",
+      "name": "GAIS",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 58,
+      "added": 0,
+      "display": "58",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      4,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

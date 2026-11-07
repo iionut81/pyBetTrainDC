@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "5831125",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831125",
+  "verified_at_utc": "2026-11-07T06:56:05.728Z",
+  "general": {
+    "matchId": "5831125",
+    "matchName": "FC Zbrojovka Brno-vs-Slovan Liberec_Fri, Aug 7, 2026, 17:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#c4201b",
+        "away": "#1D8BCB"
+      },
+      "lightMode": {
+        "home": "#c4201b",
+        "away": "#1D8BCB"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "3",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "FC Zbrojovka Brno",
+      "id": 1673
+    },
+    "awayTeam": {
+      "name": "Slovan Liberec",
+      "id": 10245
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Fri, Aug 7, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-08-07T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-07T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.08.2026 19:01:26",
+      "firstHalfEnded": "07.08.2026 19:51:59",
+      "secondHalfStarted": "07.08.2026 20:07:47",
+      "secondHalfEnded": "07.08.2026 20:56:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.08.2026 20:56:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1673",
+      "name": "FC Zbrojovka Brno",
+      "score": 0
+    },
+    {
+      "id": "10245",
+      "name": "Slovan Liberec",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 61,
+      "added": 0,
+      "display": "61"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      2,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

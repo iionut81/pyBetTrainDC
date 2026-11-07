@@ -1,0 +1,124 @@
+{
+  "ok": true,
+  "id": "5107652",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107652",
+  "verified_at_utc": "2026-11-07T06:59:51.026Z",
+  "general": {
+    "matchId": "5107652",
+    "matchName": "Västerås SK-vs-Brommapojkarna_Sun, Nov 1, 2026, 15:30 UTC",
+    "matchRound": "27",
+    "teamColors": {
+      "darkMode": {
+        "home": "#197842",
+        "away": "#D21A0E"
+      },
+      "lightMode": {
+        "home": "#197842",
+        "away": "#D21A0E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Allsvenskan",
+    "leagueRoundName": "27",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Västerås SK",
+      "id": 6194
+    },
+    "awayTeam": {
+      "name": "Brommapojkarna",
+      "id": 8501
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-11-01T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T15:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 16:31:04",
+      "firstHalfEnded": "01.11.2026 17:16:10",
+      "secondHalfStarted": "01.11.2026 17:31:53",
+      "secondHalfEnded": "01.11.2026 18:20:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 18:20:56"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6194",
+      "name": "Västerås SK",
+      "score": 1
+    },
+    {
+      "id": "8501",
+      "name": "Brommapojkarna",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 77,
+      "added": 0,
+      "display": "77",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      7
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      5,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

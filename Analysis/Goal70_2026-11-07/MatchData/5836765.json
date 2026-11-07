@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5836765",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836765",
+  "verified_at_utc": "2026-11-04T06:04:38.626Z",
+  "general": {
+    "matchId": "5836765",
+    "matchName": "Cardiff City-vs-Wrexham_Mon, Aug 17, 2026, 19:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#005CAA",
+        "away": "#E5131C"
+      },
+      "lightMode": {
+        "home": "#005CAA",
+        "away": "#E5131C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "English Football League - Championship",
+    "leagueRoundName": "1",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Cardiff City",
+      "id": 8344
+    },
+    "awayTeam": {
+      "name": "Wrexham",
+      "id": 9841
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Aug 17, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-17T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-17T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.08.2026 21:00:47",
+      "firstHalfEnded": "17.08.2026 21:48:14",
+      "secondHalfStarted": "17.08.2026 22:04:21",
+      "secondHalfEnded": "17.08.2026 22:58:14",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.08.2026 22:58:14"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8344",
+      "name": "Cardiff City",
+      "score": 1
+    },
+    {
+      "id": "9841",
+      "name": "Wrexham",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 8,
+      "display": "90+8",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      6
+    ],
+    "SecondHalf": [
+      7,
+      3
+    ],
+    "All": [
+      9,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5836765.json"
+}

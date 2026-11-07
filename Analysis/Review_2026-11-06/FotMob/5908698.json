@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5908698",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908698",
+  "verified_at_utc": "2026-11-07T06:53:51.133Z",
+  "general": {
+    "matchId": "5908698",
+    "matchName": "Sarıyer-vs-Iğdır FK_Fri, Nov 6, 2026, 17:00 UTC",
+    "matchRound": "14",
+    "teamColors": {
+      "darkMode": {
+        "home": "#003CBE",
+        "away": "#048F3A"
+      },
+      "lightMode": {
+        "home": "#003CBE",
+        "away": "#048F3A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "1. Lig",
+    "leagueRoundName": "14",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Sarıyer",
+      "id": 2090
+    },
+    "awayTeam": {
+      "name": "Iğdır FK",
+      "id": 1281818
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Fri, Nov 6, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-11-06T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-06T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.11.2026 17:59:59",
+      "firstHalfEnded": "06.11.2026 18:47:16",
+      "secondHalfStarted": "06.11.2026 19:03:46",
+      "secondHalfEnded": "06.11.2026 19:55:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.11.2026 19:55:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2090",
+      "name": "Sarıyer",
+      "score": 1
+    },
+    {
+      "id": "1281818",
+      "name": "Iğdır FK",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 66,
+      "added": 0,
+      "display": "66"
+    },
+    {
+      "side": "away",
+      "minute": 72,
+      "added": 0,
+      "display": "72"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

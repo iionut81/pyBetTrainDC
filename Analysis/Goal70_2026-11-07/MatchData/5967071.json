@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5967071",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5967071",
+  "verified_at_utc": "2026-11-07T06:56:37.069Z",
+  "general": {
+    "matchId": "5967071",
+    "matchName": "Catanzaro-vs-Carrarese_Sat, Sep 12, 2026, 15:15 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C10909",
+        "away": "#0079C1"
+      },
+      "lightMode": {
+        "home": "#C10909",
+        "away": "#0079C1"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941726,
+    "leagueName": "Serie B",
+    "leagueRoundName": "4",
+    "parentLeagueId": 86,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Catanzaro",
+      "id": 10168
+    },
+    "awayTeam": {
+      "name": "Carrarese",
+      "id": 6488
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 15:15 UTC",
+    "matchTimeUTCDate": "2026-09-12T15:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T15:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 17:17:57",
+      "firstHalfEnded": "12.09.2026 18:06:13",
+      "secondHalfStarted": "12.09.2026 18:19:30",
+      "secondHalfEnded": "12.09.2026 19:08:22",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 19:08:22"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10168",
+      "name": "Catanzaro",
+      "score": 1
+    },
+    {
+      "id": "6488",
+      "name": "Carrarese",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      2,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

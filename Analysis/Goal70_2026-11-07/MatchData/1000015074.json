@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "id": "1000015074",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015074",
+  "verified_at_utc": "2026-11-07T07:00:01.473Z",
+  "general": {
+    "matchId": "1000015074",
+    "matchName": "Čukarički-vs-FK IMT Beograd_Sun, Jul 19, 2026, 17:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#FD0000"
+      },
+      "lightMode": {
+        "home": "#1e1e1e",
+        "away": "#FD0000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "1",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Čukarički",
+      "id": 6374
+    },
+    "awayTeam": {
+      "name": "FK IMT Beograd",
+      "id": 568569
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Jul 19, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-07-19T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-19T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.07.2026 19:03:16",
+      "firstHalfEnded": "19.07.2026 19:51:01",
+      "secondHalfStarted": "19.07.2026 20:09:45",
+      "secondHalfEnded": "19.07.2026 21:01:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.07.2026 21:01:17"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6374",
+      "name": "Čukarički",
+      "score": 0
+    },
+    {
+      "id": "568569",
+      "name": "FK IMT Beograd",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 42,
+      "added": 0,
+      "display": "42"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      2,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 13,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

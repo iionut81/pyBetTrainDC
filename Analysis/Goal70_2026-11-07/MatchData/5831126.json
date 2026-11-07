@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "5831126",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831126",
+  "verified_at_utc": "2026-11-07T06:56:04.957Z",
+  "general": {
+    "matchId": "5831126",
+    "matchName": "Hradec Kralove-vs-Banik Ostrava_Sun, Aug 9, 2026, 15:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#1868A0"
+      },
+      "lightMode": {
+        "home": "#202018",
+        "away": "#1868A0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "3",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Hradec Kralove",
+      "id": 1712
+    },
+    "awayTeam": {
+      "name": "Banik Ostrava",
+      "id": 6362
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 9, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-08-09T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-09T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "09.08.2026 17:02:00",
+      "firstHalfEnded": "09.08.2026 17:49:39",
+      "secondHalfStarted": "09.08.2026 18:05:23",
+      "secondHalfEnded": "09.08.2026 18:57:06",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.08.2026 18:57:06"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1712",
+      "name": "Hradec Kralove",
+      "score": 2
+    },
+    {
+      "id": "6362",
+      "name": "Banik Ostrava",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 27,
+      "added": 0,
+      "display": "27"
+    },
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63"
+    },
+    {
+      "side": "away",
+      "minute": 53,
+      "added": 0,
+      "display": "53"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      3,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 6,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

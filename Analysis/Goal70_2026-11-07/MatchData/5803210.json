@@ -1,0 +1,116 @@
+{
+  "ok": true,
+  "id": "5803210",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803210",
+  "verified_at_utc": "2026-11-06T06:30:37.092Z",
+  "general": {
+    "matchId": "5803210",
+    "matchName": "Clermont Foot-vs-Reims_Sat, Aug 8, 2026, 18:45 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#AF1C41",
+        "away": "#FF4C4C"
+      },
+      "lightMode": {
+        "home": "#AF1C41",
+        "away": "#FF4C4C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 110,
+    "leagueName": "Ligue 2",
+    "leagueRoundName": "1",
+    "parentLeagueId": 110,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Clermont Foot",
+      "id": 8311
+    },
+    "awayTeam": {
+      "name": "Reims",
+      "id": 9837
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 8, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-08-08T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-08T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.08.2026 20:46:15",
+      "firstHalfEnded": "08.08.2026 21:31:35",
+      "secondHalfStarted": "08.08.2026 21:47:31",
+      "secondHalfEnded": "08.08.2026 22:39:09",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.08.2026 22:39:09"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8311",
+      "name": "Clermont Foot",
+      "score": 0
+    },
+    {
+      "id": "9837",
+      "name": "Reims",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      3,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5803210.json"
+}

@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "id": "5868128",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868128",
+  "verified_at_utc": "2026-11-07T06:53:48.333Z",
+  "general": {
+    "matchId": "5868128",
+    "matchName": "Sevilla-vs-Deportivo Alavés_Fri, Nov 6, 2026, 20:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFFFFF",
+        "away": "#0351A3"
+      },
+      "lightMode": {
+        "home": "#C90F20",
+        "away": "#0351A3"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "12",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Sevilla",
+      "id": 8302
+    },
+    "awayTeam": {
+      "name": "Deportivo Alavés",
+      "id": 9866
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Nov 6, 2026, 20:00 UTC",
+    "matchTimeUTCDate": "2026-11-06T20:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-06T20:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.11.2026 21:01:58",
+      "firstHalfEnded": "06.11.2026 21:51:30",
+      "secondHalfStarted": "06.11.2026 22:08:18",
+      "secondHalfEnded": "06.11.2026 22:57:34",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.11.2026 22:57:34"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8302",
+      "name": "Sevilla",
+      "score": 0
+    },
+    {
+      "id": "9866",
+      "name": "Deportivo Alavés",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      5,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 47,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,24 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+import {loadArchive} from '../Pred_Research_Terminal/data.mjs';
+import {matchReportHref} from '../Pred_Research_Terminal/match-reports.mjs';
+const here=path.dirname(fileURLToPath(import.meta.url)),root=path.resolve(here,'../..');
+const a=loadArchive(root);
+const protectedPaths=['Previews/Pred_Research_Terminal/dist/index.html','Previews/Pred_Research_Terminal/views.js','Previews/Pred_Research_Terminal/style.css','Analysis/Selection_History/user_selections.csv'];
+const hashes=()=>Object.fromEntries(protectedPaths.map(p=>[p,crypto.createHash('sha256').update(fs.readFileSync(path.join(root,p))).digest('hex')]));
+const before=hashes();
+const days=a.days.map(d=>({date:d.date,markets:Object.fromEntries(['goal','corner'].map(market=>[market,d.reviews[market].map(r=>{
+ const m=d.matches.find(m=>m.id===r.id||m.ids.includes(r.id));
+ const report=m?matchReportHref(d.date,market,m.id):null;
+ const exists=report&&fs.existsSync(path.join(root,'Previews/Pred_Research_Terminal/dist',report));
+ return {id:r.id,p:r.p,result:r.result,home:r.home,away:r.away,minute:r.minute??'',corners:r.corners??'',score:r.score??'',source:r.source??'',report:exists?'../'+report:null,analyst:!!(market==='goal'?m?.analystGoal:m?.analystCorner),user:!!m?.[market].userSelection,userP:m?.[market].userSelection?.p??null};
+})]))}));
+const data={generatedAt:new Date().toISOString(),days};
+const html=fs.readFileSync(path.join(here,'index.template.html'),'utf8').replace('/* DATA */',()=>JSON.stringify(data).replace(/</g,'\\u003c'));
+const out=path.join(root,'Previews/Pred_Research_Terminal/dist/proposals/model-evolution.html');
+fs.mkdirSync(path.dirname(out),{recursive:true});fs.writeFileSync(out,html);
+const after=hashes();if(JSON.stringify(before)!==JSON.stringify(after))throw Error('Preview altered main dashboard or canonical selections');
+fs.writeFileSync(path.join(here,'build-verification.json'),JSON.stringify({status:'PASS',standalone_preview:true,main_dashboard_unchanged:true,protected_files:before,generated_at_utc:data.generatedAt,output:path.relative(root,out)},null,2));
+console.log('Standalone model evaluation preview built; main dashboard and selections unchanged.');

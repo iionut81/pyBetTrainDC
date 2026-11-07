@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "1000015121",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015121",
+  "verified_at_utc": "2026-11-07T07:00:02.014Z",
+  "general": {
+    "matchId": "1000015121",
+    "matchName": "OFK Beograd-vs-FK IMT Beograd_Mon, Sep 7, 2026, 18:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#025098",
+        "away": "#FD0000"
+      },
+      "lightMode": {
+        "home": "#025098",
+        "away": "#FD0000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "OFK Beograd",
+      "id": 8692
+    },
+    "awayTeam": {
+      "name": "FK IMT Beograd",
+      "id": 568569
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Sep 7, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-09-07T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-07T18:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "07.09.2026 20:03:14",
+      "firstHalfEnded": "07.09.2026 20:52:40",
+      "secondHalfStarted": "07.09.2026 21:08:44",
+      "secondHalfEnded": "07.09.2026 21:56:51",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.09.2026 21:56:51"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8692",
+      "name": "OFK Beograd",
+      "score": 1
+    },
+    {
+      "id": "568569",
+      "name": "FK IMT Beograd",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 32,
+      "added": 0,
+      "display": "32"
+    },
+    {
+      "side": "away",
+      "minute": 88,
+      "added": 0,
+      "display": "88"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      2
+    ],
+    "All": [
+      2,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 78,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

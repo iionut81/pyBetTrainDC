@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "5831150",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831150",
+  "verified_at_utc": "2026-11-07T06:56:04.158Z",
+  "general": {
+    "matchId": "5831150",
+    "matchName": "FC Zbrojovka Brno-vs-FC Zlín_Sat, Aug 29, 2026, 15:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#c4201b",
+        "away": "#FEC700"
+      },
+      "lightMode": {
+        "home": "#c4201b",
+        "away": "#dd9e00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "6",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "FC Zbrojovka Brno",
+      "id": 1673
+    },
+    "awayTeam": {
+      "name": "FC Zlín",
+      "id": 1860
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 29, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-08-29T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-29T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "29.08.2026 17:02:21",
+      "firstHalfEnded": "29.08.2026 17:49:08",
+      "secondHalfStarted": "29.08.2026 18:06:03",
+      "secondHalfEnded": "29.08.2026 19:01:05",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "29.08.2026 19:01:05"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1673",
+      "name": "FC Zbrojovka Brno",
+      "score": 3
+    },
+    {
+      "id": "1860",
+      "name": "FC Zlín",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 23,
+      "added": 0,
+      "display": "23"
+    },
+    {
+      "side": "home",
+      "minute": 59,
+      "added": 0,
+      "display": "59"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3"
+    },
+    {
+      "side": "away",
+      "minute": 58,
+      "added": 0,
+      "display": "58"
+    },
+    {
+      "side": "away",
+      "minute": 86,
+      "added": 0,
+      "display": "86"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      6,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5107534",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107534",
+  "verified_at_utc": "2026-11-06T06:30:53.063Z",
+  "general": {
+    "matchId": "5107534",
+    "matchName": "Hammarby-vs-Degerfors_Sun, Jul 19, 2026, 14:30 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#00AD5E",
+        "away": "#F72F3A"
+      },
+      "lightMode": {
+        "home": "#00AD5E",
+        "away": "#F72F3A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "13",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Hammarby",
+      "id": 8248
+    },
+    "awayTeam": {
+      "name": "Degerfors",
+      "id": 6544
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Jul 19, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-07-19T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-19T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.07.2026 16:30:16",
+      "firstHalfEnded": "19.07.2026 17:15:46",
+      "secondHalfStarted": "19.07.2026 17:31:32",
+      "secondHalfEnded": "19.07.2026 18:19:47",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.07.2026 18:19:47"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8248",
+      "name": "Hammarby",
+      "score": 4
+    },
+    {
+      "id": "6544",
+      "name": "Degerfors",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 69,
+      "added": 0,
+      "display": "69",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 73,
+      "added": 0,
+      "display": "73",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      6,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5107534.json"
+}

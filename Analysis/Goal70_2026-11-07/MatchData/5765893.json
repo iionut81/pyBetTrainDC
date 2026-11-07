@@ -1,0 +1,157 @@
+{
+  "ok": true,
+  "id": "5765893",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765893",
+  "verified_at_utc": "2026-11-06T06:30:27.633Z",
+  "general": {
+    "matchId": "5765893",
+    "matchName": "NK Istra 1961-vs-NK Lokomotiva_Sat, Aug 1, 2026, 16:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#087828",
+        "away": "#0f588e"
+      },
+      "lightMode": {
+        "home": "#087828",
+        "away": "#205088"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "1",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "NK Istra 1961",
+      "id": 6038
+    },
+    "awayTeam": {
+      "name": "NK Lokomotiva",
+      "id": 175388
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 1, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-08-01T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-01T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.08.2026 18:38:53",
+      "firstHalfEnded": "01.08.2026 19:24:32",
+      "secondHalfStarted": "01.08.2026 19:39:43",
+      "secondHalfEnded": "01.08.2026 20:32:25",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.08.2026 20:32:25"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6038",
+      "name": "NK Istra 1961",
+      "score": 2
+    },
+    {
+      "id": "175388",
+      "name": "NK Lokomotiva",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 30,
+      "added": 0,
+      "display": "30"
+    },
+    {
+      "side": "home",
+      "minute": 58,
+      "added": 0,
+      "display": "58"
+    },
+    {
+      "side": "away",
+      "minute": 25,
+      "added": 0,
+      "display": "25"
+    },
+    {
+      "side": "away",
+      "minute": 42,
+      "added": 0,
+      "display": "42"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      7,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5765893.json"
+}

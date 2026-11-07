@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "id": "5781767",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781767",
+  "verified_at_utc": "2026-11-05T06:08:53.366Z",
+  "general": {
+    "matchId": "5781767",
+    "matchName": "Fortuna Sittard-vs-FC Twente_Sat, Oct 10, 2026, 18:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFE21C",
+        "away": "#CA0216"
+      },
+      "lightMode": {
+        "home": "#00684B",
+        "away": "#CA0216"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "8",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "Fortuna Sittard",
+      "id": 6422
+    },
+    "awayTeam": {
+      "name": "FC Twente",
+      "id": 8611
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-10-10T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 20:04:50",
+      "firstHalfEnded": "10.10.2026 20:50:22",
+      "secondHalfStarted": "10.10.2026 21:07:32",
+      "secondHalfEnded": "10.10.2026 21:56:11",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 21:56:11"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6422",
+      "name": "Fortuna Sittard",
+      "score": 1
+    },
+    {
+      "id": "8611",
+      "name": "FC Twente",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 9,
+      "added": 0,
+      "display": "9",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 34,
+      "added": 0,
+      "display": "34",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      6
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      5,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5781767.json"
+}

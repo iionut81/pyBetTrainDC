@@ -1,0 +1,121 @@
+{
+  "ok": true,
+  "id": "5795494",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795494",
+  "verified_at_utc": "2026-11-05T06:05:02.155Z",
+  "general": {
+    "matchId": "5795494",
+    "matchName": "Sunderland-vs-Leeds United_Sun, Oct 25, 2026, 16:30 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DC0814",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#DC0814",
+        "away": "#0060AA"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 47,
+    "leagueName": "Premier League",
+    "leagueRoundName": "8",
+    "parentLeagueId": 47,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Sunderland",
+      "id": 8472
+    },
+    "awayTeam": {
+      "name": "Leeds United",
+      "id": 8463
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-10-25T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 17:30:34",
+      "firstHalfEnded": "25.10.2026 18:16:51",
+      "secondHalfStarted": "25.10.2026 18:32:21",
+      "secondHalfEnded": "25.10.2026 19:23:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 19:23:35"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8472",
+      "name": "Sunderland",
+      "score": 0
+    },
+    {
+      "id": "8463",
+      "name": "Leeds United",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      4
+    ],
+    "All": [
+      4,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 39,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5795494.json"
+}

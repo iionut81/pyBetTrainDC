@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5943688",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943688",
+  "verified_at_utc": "2026-11-04T06:04:35.415Z",
+  "general": {
+    "matchId": "5943688",
+    "matchName": "Baník Ostrava-vs-Artis Brno_Sun, Aug 16, 2026, 13:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1868A0",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#1868A0",
+        "away": "#CE2727"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "4",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Baník Ostrava",
+      "id": 6362
+    },
+    "awayTeam": {
+      "name": "Artis Brno",
+      "id": 106189
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 16, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-08-16T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-16T13:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.08.2026 15:01:16",
+      "firstHalfEnded": "16.08.2026 15:57:48",
+      "secondHalfStarted": "16.08.2026 15:56:31",
+      "secondHalfEnded": "16.08.2026 17:00:02",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.08.2026 17:00:02"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6362",
+      "name": "Baník Ostrava",
+      "score": 1
+    },
+    {
+      "id": "106189",
+      "name": "Artis Brno",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 8,
+      "added": 0,
+      "display": "8"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      2,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 17,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5943688.json"
+}

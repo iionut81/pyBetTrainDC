@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "id": "5804011",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804011",
+  "verified_at_utc": "2026-11-06T06:30:23.973Z",
+  "general": {
+    "matchId": "5804011",
+    "matchName": "Wisła Płock-vs-Radomiak Radom_Mon, Oct 19, 2026, 17:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#085AA6",
+        "away": "#09883C"
+      },
+      "lightMode": {
+        "home": "#085AA6",
+        "away": "#09883C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "11",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Wisła Płock",
+      "id": 8243
+    },
+    "awayTeam": {
+      "name": "Radomiak Radom",
+      "id": 5769
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Oct 19, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-10-19T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-19T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.10.2026 19:00:57",
+      "firstHalfEnded": "19.10.2026 19:48:25",
+      "secondHalfStarted": "19.10.2026 20:04:41",
+      "secondHalfEnded": "19.10.2026 20:57:51",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.10.2026 20:57:51"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8243",
+      "name": "Wisła Płock",
+      "score": 1
+    },
+    {
+      "id": "5769",
+      "name": "Radomiak Radom",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 15,
+      "added": 0,
+      "display": "15",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      2,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5804011.json"
+}

@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5831110",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831110",
+  "verified_at_utc": "2026-11-07T06:56:04.837Z",
+  "general": {
+    "matchId": "5831110",
+    "matchName": "Hradec Kralove-vs-Pardubice_Sun, Jul 26, 2026, 18:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#DF0006"
+      },
+      "lightMode": {
+        "home": "#202018",
+        "away": "#DF0006"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "1",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Hradec Kralove",
+      "id": 1712
+    },
+    "awayTeam": {
+      "name": "Pardubice",
+      "id": 2406
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Jul 26, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-07-26T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-26T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "26.07.2026 20:01:31",
+      "firstHalfEnded": "26.07.2026 20:48:33",
+      "secondHalfStarted": "26.07.2026 21:05:27",
+      "secondHalfEnded": "26.07.2026 21:53:50",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.07.2026 21:53:50"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1712",
+      "name": "Hradec Kralove",
+      "score": 2
+    },
+    {
+      "id": "2406",
+      "name": "Pardubice",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 44,
+      "added": 0,
+      "display": "44"
+    },
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56"
+    },
+    {
+      "side": "away",
+      "minute": 60,
+      "added": 0,
+      "display": "60"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      3,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

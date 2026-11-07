@@ -1,0 +1,155 @@
+{
+  "ok": true,
+  "id": "5908620",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908620",
+  "verified_at_utc": "2026-11-06T06:30:48.853Z",
+  "general": {
+    "matchId": "5908620",
+    "matchName": "Manisa Futbol Kulübü-vs-Bursaspor_Mon, Sep 7, 2026, 17:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#088040"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#088040"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "6",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Manisa Futbol Kulübü",
+      "id": 658812
+    },
+    "awayTeam": {
+      "name": "Bursaspor",
+      "id": 10270
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Sep 7, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-07T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-07T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.09.2026 18:59:54",
+      "firstHalfEnded": "07.09.2026 19:47:00",
+      "secondHalfStarted": "07.09.2026 20:03:47",
+      "secondHalfEnded": "07.09.2026 20:54:06",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.09.2026 20:54:06"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "658812",
+      "name": "Manisa Futbol Kulübü",
+      "score": 1
+    },
+    {
+      "id": "10270",
+      "name": "Bursaspor",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 20,
+      "added": 0,
+      "display": "20"
+    },
+    {
+      "side": "away",
+      "minute": 27,
+      "added": 0,
+      "display": "27"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      4,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5908620.json"
+}

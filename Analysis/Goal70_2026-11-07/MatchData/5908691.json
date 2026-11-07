@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "5908691",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908691",
+  "verified_at_utc": "2026-11-06T06:30:50.540Z",
+  "general": {
+    "matchId": "5908691",
+    "matchName": "Van Spor Kulübü-vs-Sarıyer_Sat, Oct 31, 2026, 10:30 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D91914",
+        "away": "#003CBE"
+      },
+      "lightMode": {
+        "home": "#D91914",
+        "away": "#003CBE"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "1. Lig",
+    "leagueRoundName": "13",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Van Spor Kulübü",
+      "id": 146408
+    },
+    "awayTeam": {
+      "name": "Sarıyer",
+      "id": 2090
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Oct 31, 2026, 10:30 UTC",
+    "matchTimeUTCDate": "2026-10-31T10:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-31T10:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "31.10.2026 11:30:16",
+      "firstHalfEnded": "31.10.2026 12:15:31",
+      "secondHalfStarted": "31.10.2026 12:31:18",
+      "secondHalfEnded": "31.10.2026 13:20:25",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "31.10.2026 13:20:25"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "146408",
+      "name": "Van Spor Kulübü",
+      "score": 1
+    },
+    {
+      "id": "2090",
+      "name": "Sarıyer",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      5,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5908691.json"
+}

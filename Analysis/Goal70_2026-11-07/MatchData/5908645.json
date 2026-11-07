@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5908645",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908645",
+  "verified_at_utc": "2026-11-07T06:59:46.919Z",
+  "general": {
+    "matchId": "5908645",
+    "matchName": "Fatih Karagümrük-vs-Muğlaspor_Sun, Oct 11, 2026, 13:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#B41D2C",
+        "away": "#11863E"
+      },
+      "lightMode": {
+        "home": "#B41D2C",
+        "away": "#11863E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "9",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Fatih Karagümrük",
+      "id": 2088
+    },
+    "awayTeam": {
+      "name": "Muğlaspor",
+      "id": 178387
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 11, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-10-11T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-11T13:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "11.10.2026 15:00:36",
+      "firstHalfEnded": "11.10.2026 15:46:51",
+      "secondHalfStarted": "11.10.2026 16:02:35",
+      "secondHalfEnded": "11.10.2026 16:50:47",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.10.2026 16:50:47"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2088",
+      "name": "Fatih Karagümrük",
+      "score": 1
+    },
+    {
+      "id": "178387",
+      "name": "Muğlaspor",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31"
+    },
+    {
+      "side": "away",
+      "minute": 44,
+      "added": 0,
+      "display": "44"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      6
+    ],
+    "All": [
+      2,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

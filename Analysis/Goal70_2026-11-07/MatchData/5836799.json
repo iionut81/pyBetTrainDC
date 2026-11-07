@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "id": "5836799",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836799",
+  "verified_at_utc": "2026-11-04T06:04:40.515Z",
+  "general": {
+    "matchId": "5836799",
+    "matchName": "Millwall-vs-Wrexham_Wed, Sep 2, 2026, 18:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0b4299",
+        "away": "#E5131C"
+      },
+      "lightMode": {
+        "home": "#003078",
+        "away": "#E5131C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "English Football League - Championship",
+    "leagueRoundName": "4",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Millwall",
+      "id": 10004
+    },
+    "awayTeam": {
+      "name": "Wrexham",
+      "id": 9841
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Sep 2, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-02T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-02T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.09.2026 20:45:53",
+      "firstHalfEnded": "02.09.2026 21:34:46",
+      "secondHalfStarted": "02.09.2026 21:50:09",
+      "secondHalfEnded": "02.09.2026 22:40:10",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.09.2026 22:40:10"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10004",
+      "name": "Millwall",
+      "score": 0
+    },
+    {
+      "id": "9841",
+      "name": "Wrexham",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 28,
+      "added": 0,
+      "display": "28",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 52,
+      "added": 0,
+      "display": "52",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 69,
+      "added": 0,
+      "display": "69",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      0,
+      2
+    ],
+    "All": [
+      1,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5836799.json"
+}

@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "id": "5853467",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853467",
+  "verified_at_utc": "2026-11-06T06:30:44.746Z",
+  "general": {
+    "matchId": "5853467",
+    "matchName": "Rapid Bucuresti-vs-Dinamo Bucuresti_Sat, Aug 15, 2026, 18:30 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#843037",
+        "away": "#DEDBCE"
+      },
+      "lightMode": {
+        "home": "#843037",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "5",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "Rapid Bucuresti",
+      "id": 9738
+    },
+    "awayTeam": {
+      "name": "Dinamo Bucuresti",
+      "id": 10271
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 15, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-15T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-15T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.08.2026 20:31:32",
+      "firstHalfEnded": "15.08.2026 21:19:18",
+      "secondHalfStarted": "15.08.2026 21:36:02",
+      "secondHalfEnded": "15.08.2026 22:23:54",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.08.2026 22:23:54"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9738",
+      "name": "Rapid Bucuresti",
+      "score": 0
+    },
+    {
+      "id": "10271",
+      "name": "Dinamo Bucuresti",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 73,
+      "added": 0,
+      "display": "73"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      7,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5853467.json"
+}

@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "id": "5908652",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908652",
+  "verified_at_utc": "2026-11-07T06:59:46.294Z",
+  "general": {
+    "matchId": "5908652",
+    "matchName": "Sivasspor-vs-Pendikspor_Fri, Oct 9, 2026, 14:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#9D0600",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#9D0600",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "9",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Sivasspor",
+      "id": 6265
+    },
+    "awayTeam": {
+      "name": "Pendikspor",
+      "id": 95745
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Fri, Oct 9, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-09T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-09T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "09.10.2026 15:59:35",
+      "firstHalfEnded": "09.10.2026 16:47:41",
+      "secondHalfStarted": "09.10.2026 17:04:09",
+      "secondHalfEnded": "09.10.2026 17:52:19",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.10.2026 17:52:19"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6265",
+      "name": "Sivasspor",
+      "score": 4
+    },
+    {
+      "id": "95745",
+      "name": "Pendikspor",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 21,
+      "added": 0,
+      "display": "21"
+    },
+    {
+      "side": "home",
+      "minute": 55,
+      "added": 0,
+      "display": "55"
+    },
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63"
+    },
+    {
+      "side": "home",
+      "minute": 67,
+      "added": 0,
+      "display": "67"
+    },
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      5,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 57,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

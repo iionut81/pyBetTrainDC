@@ -1,0 +1,147 @@
+{
+  "ok": true,
+  "id": "5107440",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107440",
+  "verified_at_utc": "2026-11-07T06:59:48.215Z",
+  "general": {
+    "matchId": "5107440",
+    "matchName": "Örgryte-vs-Malmö FF_Sun, Apr 5, 2026, 14:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ae0020",
+        "away": "#3991CC"
+      },
+      "lightMode": {
+        "home": "#7D0105",
+        "away": "#3991CC"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "1",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Örgryte",
+      "id": 10002
+    },
+    "awayTeam": {
+      "name": "Malmö FF",
+      "id": 10237
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Apr 5, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-04-05T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-05T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.04.2026 16:31:55",
+      "firstHalfEnded": "05.04.2026 17:44:06",
+      "secondHalfStarted": "05.04.2026 18:00:31",
+      "secondHalfEnded": "05.04.2026 18:50:14",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.04.2026 18:50:14"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10002",
+      "name": "Örgryte",
+      "score": 1
+    },
+    {
+      "id": "10237",
+      "name": "Malmö FF",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 73,
+      "added": 0,
+      "display": "73",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      5
+    ],
+    "SecondHalf": [
+      0,
+      5
+    ],
+    "All": [
+      5,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

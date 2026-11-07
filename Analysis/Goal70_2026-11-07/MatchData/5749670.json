@@ -1,0 +1,130 @@
+{
+  "ok": true,
+  "id": "5749670",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749670",
+  "verified_at_utc": "2026-11-05T06:08:37.188Z",
+  "general": {
+    "matchId": "5749670",
+    "matchName": "Atalanta-vs-Cagliari_Sat, Sep 12, 2026, 18:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0D68B1",
+        "away": "#B51F2B"
+      },
+      "lightMode": {
+        "home": "#004ca6",
+        "away": "#B51F2B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "4",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Atalanta",
+      "id": 8524
+    },
+    "awayTeam": {
+      "name": "Cagliari",
+      "id": 8529
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-12T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 20:45:12",
+      "firstHalfEnded": "12.09.2026 21:32:02",
+      "secondHalfStarted": "12.09.2026 21:47:56",
+      "secondHalfEnded": "12.09.2026 22:38:11",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 22:38:11"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8524",
+      "name": "Atalanta",
+      "score": 1
+    },
+    {
+      "id": "8529",
+      "name": "Cagliari",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 41,
+      "added": 0,
+      "display": "41",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 61,
+      "added": 0,
+      "display": "61",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      3,
+      2
+    ]
+  },
+  "cards": [],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5749670.json"
+}

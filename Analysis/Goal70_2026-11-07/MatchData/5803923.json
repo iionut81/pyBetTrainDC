@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "id": "5803923",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803923",
+  "verified_at_utc": "2026-11-06T06:30:25.069Z",
+  "general": {
+    "matchId": "5803923",
+    "matchName": "Cracovia-vs-Pogoń Szczecin_Mon, Aug 3, 2026, 17:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E21A22",
+        "away": "#1753a4"
+      },
+      "lightMode": {
+        "home": "#c7000f",
+        "away": "#102457"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "2",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Cracovia",
+      "id": 2186
+    },
+    "awayTeam": {
+      "name": "Pogoń Szczecin",
+      "id": 8023
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Aug 3, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-08-03T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-03T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "03.08.2026 19:05:22",
+      "firstHalfEnded": "03.08.2026 19:52:21",
+      "secondHalfStarted": "03.08.2026 20:09:29",
+      "secondHalfEnded": "03.08.2026 21:01:26",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.08.2026 21:01:26"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2186",
+      "name": "Cracovia",
+      "score": 0
+    },
+    {
+      "id": "8023",
+      "name": "Pogoń Szczecin",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 46,
+      "added": 0,
+      "display": "46",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      5
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      6,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 9,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5803923.json"
+}

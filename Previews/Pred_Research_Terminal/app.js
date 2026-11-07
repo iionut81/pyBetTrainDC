@@ -70,10 +70,11 @@ function setView(view){
  $('#historyView').classList.toggle('hidden',view!=='history');
  $('#validationView').classList.toggle('hidden',view!=='validation');
  $('.kpi-grid').classList.toggle('hidden',['history','validation'].includes(view));
- const copy={overview:['Din date, în decizii.','Gol până la 70′. Cornere la pauză. Fiecare alegere, verificabilă.'],matches:[`Toate cele ${DATA.matches.length} de partide.`,'Filtrează, compară și deschide dovezile din spatele fiecărei estimări.'],history:['Istoricul rămâne întreg.','Alege ziua și piața. Estimările originale sunt păstrate.'],validation:['Mai întâi măsurăm.','Calitatea datelor, calibrarea și performanța selecțiilor se evaluează separat.']}[view];
+ const copy={overview:['Din date, în decizii.','Gol până la 70′. Cornere la pauză. Fiecare alegere, verificabilă.'],matches:[`Toate cele ${DATA.matches.length} de partide.`,'Filtrează, compară și deschide dovezile din spatele fiecărei estimări.'],history:['Istoricul rămâne întreg.','Alege ziua și piața. Estimările originale sunt păstrate.'],validation:['Evoluția, susținută de rezultate.','Urmărim diferența dintre ce a estimat modelul și ce s-a întâmplat pe teren.']}[view];
  $('#pageTitle').textContent=copy[0];$('#pageSubtitle').textContent=copy[1];
  $('#dateSelect').value=DATA.date;
  $('#snapshotTime').textContent=DATA.snapshotAt;
+ if(view==='validation')renderValidation();
  $$('.nav-icon').forEach(b=>{b.classList.toggle('active',b.dataset.view===view);if(b.dataset.view===view)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
  if(view==='matches')$('.table-scroll').style.maxHeight='65vh';else $('.table-scroll').style.maxHeight='';
  window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});

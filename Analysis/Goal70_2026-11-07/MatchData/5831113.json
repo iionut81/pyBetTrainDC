@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "id": "5831113",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831113",
+  "verified_at_utc": "2026-11-05T06:04:47.077Z",
+  "general": {
+    "matchId": "5831113",
+    "matchName": "Viktoria Plzen-vs-Slovan Liberec_Sat, Jul 25, 2026, 15:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DF041C",
+        "away": "#1D8BCB"
+      },
+      "lightMode": {
+        "home": "#DF041C",
+        "away": "#1D8BCB"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "1",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Viktoria Plzen",
+      "id": 6033
+    },
+    "awayTeam": {
+      "name": "Slovan Liberec",
+      "id": 10245
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Jul 25, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-07-25T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-25T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.07.2026 17:02:16",
+      "firstHalfEnded": "25.07.2026 17:48:59",
+      "secondHalfStarted": "25.07.2026 18:04:35",
+      "secondHalfEnded": "25.07.2026 18:54:55",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.07.2026 18:54:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6033",
+      "name": "Viktoria Plzen",
+      "score": 1
+    },
+    {
+      "id": "10245",
+      "name": "Slovan Liberec",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 51,
+      "added": 0,
+      "display": "51"
+    },
+    {
+      "side": "away",
+      "minute": 27,
+      "added": 0,
+      "display": "27"
+    },
+    {
+      "side": "away",
+      "minute": 76,
+      "added": 0,
+      "display": "76"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 5,
+      "display": "90+5"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      5,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 47,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5831113.json"
+}

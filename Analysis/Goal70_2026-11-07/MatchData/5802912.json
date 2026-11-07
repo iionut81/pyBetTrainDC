@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5802912",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802912",
+  "verified_at_utc": "2026-11-07T06:56:01.368Z",
+  "general": {
+    "matchId": "5802912",
+    "matchName": "Lorient-vs-Troyes_Sat, Aug 29, 2026, 18:45 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F05330",
+        "away": "#2d56ae"
+      },
+      "lightMode": {
+        "home": "#F05330",
+        "away": "#2A50A1"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "2",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Lorient",
+      "id": 8689
+    },
+    "awayTeam": {
+      "name": "Troyes",
+      "id": 10242
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 29, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-08-29T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-29T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "29.08.2026 20:45:41",
+      "firstHalfEnded": "29.08.2026 21:32:48",
+      "secondHalfStarted": "29.08.2026 21:49:22",
+      "secondHalfEnded": "29.08.2026 22:37:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "29.08.2026 22:37:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8689",
+      "name": "Lorient",
+      "score": 1
+    },
+    {
+      "id": "10242",
+      "name": "Troyes",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      2,
+      5
+    ]
+  },
+  "cards": [],
+  "formations": {}
+}

@@ -1,0 +1,147 @@
+{
+  "ok": true,
+  "id": "1000015120",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015120",
+  "verified_at_utc": "2026-11-07T07:00:03.485Z",
+  "general": {
+    "matchId": "1000015120",
+    "matchName": "Mladost Lučani-vs-Radnički Niš_Sat, Sep 5, 2026, 18:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2E5EC2",
+        "away": "#F01008"
+      },
+      "lightMode": {
+        "home": "#2E5EC2",
+        "away": "#F01008"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Mladost Lučani",
+      "id": 1739
+    },
+    "awayTeam": {
+      "name": "Radnički Niš",
+      "id": 6410
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-09-05T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 20:01:37",
+      "firstHalfEnded": "05.09.2026 20:48:55",
+      "secondHalfStarted": "05.09.2026 21:05:30",
+      "secondHalfEnded": "05.09.2026 21:54:23",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 21:54:23"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1739",
+      "name": "Mladost Lučani",
+      "score": 1
+    },
+    {
+      "id": "6410",
+      "name": "Radnički Niš",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 12,
+      "added": 0,
+      "display": "12"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      5
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      5,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 4,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 21,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 36,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

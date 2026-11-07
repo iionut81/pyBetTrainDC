@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "id": "5107564",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107564",
+  "verified_at_utc": "2026-11-07T06:59:53.234Z",
+  "general": {
+    "matchId": "5107564",
+    "matchName": "Halmstads BK-vs-GAIS_Sun, Aug 9, 2026, 14:30 UTC",
+    "matchRound": "16",
+    "teamColors": {
+      "darkMode": {
+        "home": "#205287",
+        "away": "#008840"
+      },
+      "lightMode": {
+        "home": "#205287",
+        "away": "#008840"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "16",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Halmstads BK",
+      "id": 8310
+    },
+    "awayTeam": {
+      "name": "GAIS",
+      "id": 8297
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 9, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-08-09T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-09T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.08.2026 16:30:45",
+      "firstHalfEnded": "09.08.2026 17:15:48",
+      "secondHalfStarted": "09.08.2026 17:31:10",
+      "secondHalfEnded": "09.08.2026 18:19:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.08.2026 18:19:17"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8310",
+      "name": "Halmstads BK",
+      "score": 0
+    },
+    {
+      "id": "8297",
+      "name": "GAIS",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 77,
+      "added": 0,
+      "display": "77",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      5
+    ],
+    "All": [
+      7,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

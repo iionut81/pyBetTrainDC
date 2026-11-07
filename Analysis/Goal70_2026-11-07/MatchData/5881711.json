@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "id": "5881711",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881711",
+  "verified_at_utc": "2026-11-06T06:30:16.493Z",
+  "general": {
+    "matchId": "5881711",
+    "matchName": "Greuther Fürth-vs-Holstein Kiel_Sun, Nov 1, 2026, 12:30 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#078445",
+        "away": "#1a5889"
+      },
+      "lightMode": {
+        "home": "#078445",
+        "away": "#085080"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 146,
+    "leagueName": "2. Bundesliga",
+    "leagueRoundName": "10",
+    "parentLeagueId": 146,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Greuther Fürth",
+      "id": 8357
+    },
+    "awayTeam": {
+      "name": "Holstein Kiel",
+      "id": 8150
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 12:30 UTC",
+    "matchTimeUTCDate": "2026-11-01T12:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T12:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 13:30:47",
+      "firstHalfEnded": "01.11.2026 14:16:22",
+      "secondHalfStarted": "01.11.2026 14:34:28",
+      "secondHalfEnded": "01.11.2026 15:20:57",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 15:20:57"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8357",
+      "name": "Greuther Fürth",
+      "score": 1
+    },
+    {
+      "id": "8150",
+      "name": "Holstein Kiel",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      6,
+      4
+    ],
+    "All": [
+      9,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 22,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5881711.json"
+}

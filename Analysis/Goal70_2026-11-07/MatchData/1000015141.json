@@ -1,0 +1,134 @@
+{
+  "ok": true,
+  "id": "1000015141",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015141",
+  "verified_at_utc": "2026-11-07T07:00:01.259Z",
+  "general": {
+    "matchId": "1000015141",
+    "matchName": "FK Zemun-vs-Železničar Pančevo_Sun, Oct 11, 2026, 17:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#017538",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#017538",
+        "away": "#212D3D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "11",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "FK Zemun",
+      "id": 6231
+    },
+    "awayTeam": {
+      "name": "Železničar Pančevo",
+      "id": 676141
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 11, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-10-11T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-11T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "11.10.2026 19:00:12",
+      "firstHalfEnded": "11.10.2026 19:47:18",
+      "secondHalfStarted": "11.10.2026 20:03:21",
+      "secondHalfEnded": "11.10.2026 20:51:22",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.10.2026 20:51:22"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6231",
+      "name": "FK Zemun",
+      "score": 0
+    },
+    {
+      "id": "676141",
+      "name": "Železničar Pančevo",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 0,
+      "display": "45"
+    },
+    {
+      "side": "away",
+      "minute": 56,
+      "added": 0,
+      "display": "56"
+    },
+    {
+      "side": "away",
+      "minute": 73,
+      "added": 0,
+      "display": "73"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      2,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

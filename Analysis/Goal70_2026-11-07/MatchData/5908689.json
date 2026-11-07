@@ -1,0 +1,176 @@
+{
+  "ok": true,
+  "id": "5908689",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908689",
+  "verified_at_utc": "2026-11-07T06:59:44.621Z",
+  "general": {
+    "matchId": "5908689",
+    "matchName": "Esenler Erokspor-vs-Keçiörengücü_Fri, Oct 30, 2026, 17:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#3E8F15",
+        "away": "#7e368f"
+      },
+      "lightMode": {
+        "home": "#3E8F15",
+        "away": "#601872"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "1. Lig",
+    "leagueRoundName": "13",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Esenler Erokspor",
+      "id": 863838
+    },
+    "awayTeam": {
+      "name": "Keçiörengücü",
+      "id": 8387
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Fri, Oct 30, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-10-30T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-30T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.10.2026 18:00:44",
+      "firstHalfEnded": "30.10.2026 18:49:49",
+      "secondHalfStarted": "30.10.2026 19:06:52",
+      "secondHalfEnded": "30.10.2026 19:56:01",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.10.2026 19:56:01"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "863838",
+      "name": "Esenler Erokspor",
+      "score": 3
+    },
+    {
+      "id": "8387",
+      "name": "Keçiörengücü",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 51,
+      "added": 0,
+      "display": "51"
+    },
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53"
+    },
+    {
+      "side": "home",
+      "minute": 64,
+      "added": 0,
+      "display": "64"
+    },
+    {
+      "side": "away",
+      "minute": 15,
+      "added": 0,
+      "display": "15"
+    },
+    {
+      "side": "away",
+      "minute": 78,
+      "added": 0,
+      "display": "78"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      7,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 21,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

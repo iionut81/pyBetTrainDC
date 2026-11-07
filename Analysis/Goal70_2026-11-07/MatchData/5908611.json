@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "5908611",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908611",
+  "verified_at_utc": "2026-11-07T06:59:46.165Z",
+  "general": {
+    "matchId": "5908611",
+    "matchName": "Batman Petrolspor-vs-Sivasspor_Sat, Aug 29, 2026, 18:30 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#AB1111",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#AB1111",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "4",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Batman Petrolspor",
+      "id": 163008
+    },
+    "awayTeam": {
+      "name": "Sivasspor",
+      "id": 6265
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 29, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-29T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-29T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "29.08.2026 20:30:31",
+      "firstHalfEnded": "29.08.2026 21:20:52",
+      "secondHalfStarted": "29.08.2026 21:36:57",
+      "secondHalfEnded": "29.08.2026 22:28:36",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "29.08.2026 22:28:36"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "163008",
+      "name": "Batman Petrolspor",
+      "score": 2
+    },
+    {
+      "id": "6265",
+      "name": "Sivasspor",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4"
+    },
+    {
+      "side": "away",
+      "minute": 32,
+      "added": 0,
+      "display": "32"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      6,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 47,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

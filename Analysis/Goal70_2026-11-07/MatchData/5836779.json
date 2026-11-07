@@ -1,0 +1,130 @@
+{
+  "ok": true,
+  "id": "5836779",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836779",
+  "verified_at_utc": "2026-11-06T06:30:57.414Z",
+  "general": {
+    "matchId": "5836779",
+    "matchName": "Bolton Wanderers-vs-Lincoln City_Sat, Aug 29, 2026, 14:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#F80000"
+      },
+      "lightMode": {
+        "home": "#313453",
+        "away": "#F80000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "English Football League - Championship",
+    "leagueRoundName": "3",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Bolton Wanderers",
+      "id": 8559
+    },
+    "awayTeam": {
+      "name": "Lincoln City",
+      "id": 8430
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 29, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-08-29T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-29T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "29.08.2026 16:00:16",
+      "firstHalfEnded": "29.08.2026 16:46:28",
+      "secondHalfStarted": "29.08.2026 17:02:22",
+      "secondHalfEnded": "29.08.2026 17:53:22",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "29.08.2026 17:53:22"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8559",
+      "name": "Bolton Wanderers",
+      "score": 0
+    },
+    {
+      "id": "8430",
+      "name": "Lincoln City",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 66,
+      "added": 0,
+      "display": "66",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      0
+    ],
+    "SecondHalf": [
+      9,
+      2
+    ],
+    "All": [
+      14,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5836779.json"
+}

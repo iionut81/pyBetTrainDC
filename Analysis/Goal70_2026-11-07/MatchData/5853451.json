@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "id": "5853451",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853451",
+  "verified_at_utc": "2026-11-07T06:59:41.933Z",
+  "general": {
+    "matchId": "5853451",
+    "matchName": "FCSB-vs-FCV Farul Constanta_Mon, Aug 3, 2026, 18:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D9231B",
+        "away": "#0050A8"
+      },
+      "lightMode": {
+        "home": "#D9231B",
+        "away": "#0050A8"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "3",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "FCSB",
+      "id": 9723
+    },
+    "awayTeam": {
+      "name": "FCV Farul Constanta",
+      "id": 210132
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Aug 3, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-03T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-03T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "03.08.2026 20:31:21",
+      "firstHalfEnded": "03.08.2026 21:17:55",
+      "secondHalfStarted": "03.08.2026 21:33:31",
+      "secondHalfEnded": "03.08.2026 22:22:45",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.08.2026 22:22:45"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9723",
+      "name": "FCSB",
+      "score": 2
+    },
+    {
+      "id": "210132",
+      "name": "FCV Farul Constanta",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56"
+    },
+    {
+      "side": "home",
+      "minute": 86,
+      "added": 0,
+      "display": "86"
+    },
+    {
+      "side": "away",
+      "minute": 21,
+      "added": 0,
+      "display": "21"
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 6,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 28,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

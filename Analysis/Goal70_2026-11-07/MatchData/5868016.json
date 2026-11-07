@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5868016",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868016",
+  "verified_at_utc": "2026-11-07T06:55:59.988Z",
+  "general": {
+    "matchId": "5868016",
+    "matchName": "Barcelona-vs-Athletic Club_Thu, Aug 27, 2026, 19:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ab2151",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#971e48",
+        "away": "#E2001A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "1",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Barcelona",
+      "id": 8634
+    },
+    "awayTeam": {
+      "name": "Athletic Club",
+      "id": 8315
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Aug 27, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-27T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-27T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "27.08.2026 21:05:47",
+      "firstHalfEnded": "27.08.2026 21:55:38",
+      "secondHalfStarted": "27.08.2026 22:13:00",
+      "secondHalfEnded": "27.08.2026 23:02:10",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "27.08.2026 23:02:10"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8634",
+      "name": "Barcelona",
+      "score": 2
+    },
+    {
+      "id": "8315",
+      "name": "Athletic Club",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      3
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      12,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "5831146",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831146",
+  "verified_at_utc": "2026-11-04T06:04:30.299Z",
+  "general": {
+    "matchId": "5831146",
+    "matchName": "Slavia Prague-vs-Bohemians 1905_Sat, Aug 22, 2026, 18:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D82333",
+        "away": "#00834A"
+      },
+      "lightMode": {
+        "home": "#D82333",
+        "away": "#00834A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "5",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Slavia Prague",
+      "id": 7787
+    },
+    "awayTeam": {
+      "name": "Bohemians 1905",
+      "id": 1670
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-08-22T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 20:02:46",
+      "firstHalfEnded": "22.08.2026 20:47:11",
+      "secondHalfStarted": "22.08.2026 21:03:43",
+      "secondHalfEnded": "22.08.2026 21:55:55",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 21:55:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7787",
+      "name": "Slavia Prague",
+      "score": 2
+    },
+    {
+      "id": "1670",
+      "name": "Bohemians 1905",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 23,
+      "added": 0,
+      "display": "23"
+    },
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75"
+    },
+    {
+      "side": "away",
+      "minute": 30,
+      "added": 0,
+      "display": "30"
+    },
+    {
+      "side": "away",
+      "minute": 89,
+      "added": 0,
+      "display": "89"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      9,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      11,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5831146.json"
+}

@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "id": "5831194",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831194",
+  "verified_at_utc": "2026-11-07T06:56:05.360Z",
+  "general": {
+    "matchId": "5831194",
+    "matchName": "Sigma Olomouc-vs-Slovan Liberec_Sat, Oct 17, 2026, 16:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0057a0",
+        "away": "#1D8BCB"
+      },
+      "lightMode": {
+        "home": "#004580",
+        "away": "#1D8BCB"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "11",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Sigma Olomouc",
+      "id": 6461
+    },
+    "awayTeam": {
+      "name": "Slovan Liberec",
+      "id": 10245
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Oct 17, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-17T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-17T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.10.2026 18:00:59",
+      "firstHalfEnded": "17.10.2026 18:46:58",
+      "secondHalfStarted": "17.10.2026 19:02:18",
+      "secondHalfEnded": "17.10.2026 19:54:30",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.10.2026 19:54:30"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6461",
+      "name": "Sigma Olomouc",
+      "score": 1
+    },
+    {
+      "id": "10245",
+      "name": "Slovan Liberec",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 11,
+      "added": 0,
+      "display": "11"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      8
+    ],
+    "All": [
+      4,
+      11
+    ]
+  },
+  "cards": [
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

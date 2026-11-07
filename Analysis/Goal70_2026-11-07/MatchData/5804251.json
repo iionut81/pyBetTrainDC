@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5804251",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804251",
+  "verified_at_utc": "2026-11-07T06:59:37.442Z",
+  "general": {
+    "matchId": "5804251",
+    "matchName": "Grasshopper-vs-St. Gallen_Wed, Sep 2, 2026, 18:30 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0E70B3",
+        "away": "#097D35"
+      },
+      "lightMode": {
+        "home": "#0E70B3",
+        "away": "#097D35"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937880,
+    "leagueName": "Super League",
+    "leagueRoundName": "6",
+    "parentLeagueId": 69,
+    "countryCode": "SUI",
+    "homeTeam": {
+      "name": "Grasshopper",
+      "id": 9956
+    },
+    "awayTeam": {
+      "name": "St. Gallen",
+      "id": 10190
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Sep 2, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-09-02T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-02T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.09.2026 20:31:11",
+      "firstHalfEnded": "02.09.2026 21:16:18",
+      "secondHalfStarted": "02.09.2026 21:31:32",
+      "secondHalfEnded": "02.09.2026 22:20:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.09.2026 22:20:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9956",
+      "name": "Grasshopper",
+      "score": 2
+    },
+    {
+      "id": "10190",
+      "name": "St. Gallen",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 36,
+      "added": 0,
+      "display": "36",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 69,
+      "added": 0,
+      "display": "69",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      4,
+      11
+    ],
+    "All": [
+      7,
+      14
+    ]
+  },
+  "cards": [
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

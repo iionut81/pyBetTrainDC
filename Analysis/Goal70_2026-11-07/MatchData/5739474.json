@@ -1,0 +1,124 @@
+{
+  "ok": true,
+  "id": "5739474",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739474",
+  "verified_at_utc": "2026-11-07T06:59:43.539Z",
+  "general": {
+    "matchId": "5739474",
+    "matchName": "OB-vs-Sønderjyske_Mon, Aug 3, 2026, 17:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#205898",
+        "away": "#6CACE4"
+      },
+      "lightMode": {
+        "home": "#205898",
+        "away": "#6CACE4"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "2",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "OB",
+      "id": 8414
+    },
+    "awayTeam": {
+      "name": "Sønderjyske",
+      "id": 8487
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Aug 3, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-08-03T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-03T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "03.08.2026 19:03:28",
+      "firstHalfEnded": "03.08.2026 20:01:39",
+      "secondHalfStarted": "03.08.2026 20:06:11",
+      "secondHalfEnded": "03.08.2026 20:54:34",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.08.2026 20:54:34"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8414",
+      "name": "OB",
+      "score": 1
+    },
+    {
+      "id": "8487",
+      "name": "Sønderjyske",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 81,
+      "added": 0,
+      "display": "81",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      6
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      7,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

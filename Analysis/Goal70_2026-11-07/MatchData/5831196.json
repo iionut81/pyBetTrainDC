@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5831196",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831196",
+  "verified_at_utc": "2026-11-07T06:56:04.552Z",
+  "general": {
+    "matchId": "5831196",
+    "matchName": "Slovácko-vs-FC Zbrojovka Brno_Sun, Oct 18, 2026, 11:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#c4201b"
+      },
+      "lightMode": {
+        "home": "#183058",
+        "away": "#c4201b"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "11",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Slovácko",
+      "id": 2021
+    },
+    "awayTeam": {
+      "name": "FC Zbrojovka Brno",
+      "id": 1673
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 18, 2026, 11:00 UTC",
+    "matchTimeUTCDate": "2026-10-18T11:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-18T11:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.10.2026 13:01:43",
+      "firstHalfEnded": "18.10.2026 13:50:32",
+      "secondHalfStarted": "18.10.2026 14:06:19",
+      "secondHalfEnded": "18.10.2026 14:54:44",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.10.2026 14:54:44"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2021",
+      "name": "Slovácko",
+      "score": 1
+    },
+    {
+      "id": "1673",
+      "name": "FC Zbrojovka Brno",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4"
+    },
+    {
+      "side": "away",
+      "minute": 40,
+      "added": 0,
+      "display": "40"
+    },
+    {
+      "side": "away",
+      "minute": 75,
+      "added": 0,
+      "display": "75"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      8,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

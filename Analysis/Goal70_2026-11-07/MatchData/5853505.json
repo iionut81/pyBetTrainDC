@@ -1,0 +1,141 @@
+{
+  "ok": true,
+  "id": "5853505",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853505",
+  "verified_at_utc": "2026-11-06T06:30:45.194Z",
+  "general": {
+    "matchId": "5853505",
+    "matchName": "Dinamo București-vs-FCV Farul Constanța_Sun, Sep 20, 2026, 17:30 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#AF1A2E",
+        "away": "#0050A8"
+      },
+      "lightMode": {
+        "home": "#AF1A2E",
+        "away": "#0050A8"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "10",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "Dinamo București",
+      "id": 10271
+    },
+    "awayTeam": {
+      "name": "FCV Farul Constanța",
+      "id": 210132
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 17:30 UTC",
+    "matchTimeUTCDate": "2026-09-20T17:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T17:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 19:32:46",
+      "firstHalfEnded": "20.09.2026 20:19:30",
+      "secondHalfStarted": "20.09.2026 20:36:56",
+      "secondHalfEnded": "20.09.2026 21:22:26",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 21:22:26"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10271",
+      "name": "Dinamo București",
+      "score": 4
+    },
+    {
+      "id": "210132",
+      "name": "FCV Farul Constanța",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 12,
+      "added": 0,
+      "display": "12"
+    },
+    {
+      "side": "home",
+      "minute": 43,
+      "added": 0,
+      "display": "43"
+    },
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54"
+    },
+    {
+      "side": "home",
+      "minute": 85,
+      "added": 0,
+      "display": "85"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      3,
+      0
+    ],
+    "All": [
+      5,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5853505.json"
+}

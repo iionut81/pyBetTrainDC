@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "id": "5904714",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904714",
+  "verified_at_utc": "2026-11-06T06:30:40.496Z",
+  "general": {
+    "matchId": "5904714",
+    "matchName": "Eyüpspor-vs-Gaziantep FK_Sun, Aug 23, 2026, 16:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FEA917",
+        "away": "#a21f21"
+      },
+      "lightMode": {
+        "home": "#e99700",
+        "away": "#a21f21"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "2",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Eyüpspor",
+      "id": 4681
+    },
+    "awayTeam": {
+      "name": "Gaziantep FK",
+      "id": 4081
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-08-23T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 18:01:09",
+      "firstHalfEnded": "23.08.2026 18:49:26",
+      "secondHalfStarted": "23.08.2026 19:03:27",
+      "secondHalfEnded": "23.08.2026 19:53:21",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 19:53:21"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "4681",
+      "name": "Eyüpspor",
+      "score": 0
+    },
+    {
+      "id": "4081",
+      "name": "Gaziantep FK",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      0
+    ],
+    "All": [
+      4,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 28,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 64,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5904714.json"
+}

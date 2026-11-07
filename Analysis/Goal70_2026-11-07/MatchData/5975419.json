@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "id": "5975419",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5975419",
+  "verified_at_utc": "2026-11-06T06:30:21.306Z",
+  "general": {
+    "matchId": "5975419",
+    "matchName": "Krasava Ypsonas FC-vs-Karmiotissa_Sat, Oct 17, 2026, 15:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DDDDDD",
+        "away": "#C80000"
+      },
+      "lightMode": {
+        "home": "#333333",
+        "away": "#C80000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 942063,
+    "leagueName": "Cyprus League",
+    "leagueRoundName": "6",
+    "parentLeagueId": 136,
+    "countryCode": "CYP",
+    "homeTeam": {
+      "name": "Krasava Ypsonas FC",
+      "id": 1075325
+    },
+    "awayTeam": {
+      "name": "Karmiotissa",
+      "id": 468676
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sat, Oct 17, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-10-17T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-17T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.10.2026 17:01:17",
+      "firstHalfEnded": "17.10.2026 17:50:31",
+      "secondHalfStarted": "17.10.2026 18:07:06",
+      "secondHalfEnded": "17.10.2026 18:56:44",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.10.2026 18:56:44"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1075325",
+      "name": "Krasava Ypsonas FC",
+      "score": 2
+    },
+    {
+      "id": "468676",
+      "name": "Karmiotissa",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 41,
+      "added": 0,
+      "display": "41"
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1"
+    },
+    {
+      "side": "away",
+      "minute": 24,
+      "added": 0,
+      "display": "24"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5975419.json"
+}

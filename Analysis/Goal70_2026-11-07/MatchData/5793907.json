@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5793907",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793907",
+  "verified_at_utc": "2026-11-07T06:56:33.256Z",
+  "general": {
+    "matchId": "5793907",
+    "matchName": "St. Mirren-vs-St. Johnstone_Sat, Aug 8, 2026, 14:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#f1f1f1",
+        "away": "#2659C2"
+      },
+      "lightMode": {
+        "home": "#212025",
+        "away": "#2659C2"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "2",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "St. Mirren",
+      "id": 9800
+    },
+    "awayTeam": {
+      "name": "St. Johnstone",
+      "id": 8467
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 8, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-08-08T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-08T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.08.2026 16:02:51",
+      "firstHalfEnded": "08.08.2026 16:48:07",
+      "secondHalfStarted": "08.08.2026 17:05:05",
+      "secondHalfEnded": "08.08.2026 17:54:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.08.2026 17:54:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9800",
+      "name": "St. Mirren",
+      "score": 1
+    },
+    {
+      "id": "8467",
+      "name": "St. Johnstone",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 73,
+      "added": 0,
+      "display": "73",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      5,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 6,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5908696",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908696",
+  "verified_at_utc": "2026-11-07T06:53:51.099Z",
+  "general": {
+    "matchId": "5908696",
+    "matchName": "Antalyaspor-vs-Bursaspor_Fri, Nov 6, 2026, 17:00 UTC",
+    "matchRound": "14",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C01018",
+        "away": "#088040"
+      },
+      "lightMode": {
+        "home": "#C01018",
+        "away": "#088040"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "1. Lig",
+    "leagueRoundName": "14",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Antalyaspor",
+      "id": 1931
+    },
+    "awayTeam": {
+      "name": "Bursaspor",
+      "id": 10270
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Fri, Nov 6, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-11-06T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-06T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.11.2026 18:00:46",
+      "firstHalfEnded": "06.11.2026 18:52:38",
+      "secondHalfStarted": "06.11.2026 19:09:32",
+      "secondHalfEnded": "06.11.2026 20:00:51",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.11.2026 20:00:51"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1931",
+      "name": "Antalyaspor",
+      "score": 1
+    },
+    {
+      "id": "10270",
+      "name": "Bursaspor",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 6,
+      "display": "45+6"
+    },
+    {
+      "side": "away",
+      "minute": 26,
+      "added": 0,
+      "display": "26"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      4
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      1,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 6,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 21,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

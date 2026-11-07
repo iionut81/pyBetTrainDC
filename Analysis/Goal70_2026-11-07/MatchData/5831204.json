@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5831204",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831204",
+  "verified_at_utc": "2026-11-07T06:56:04.203Z",
+  "general": {
+    "matchId": "5831204",
+    "matchName": "FC Zlín-vs-Sigma Olomouc_Sat, Oct 24, 2026, 13:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FEC700",
+        "away": "#0057a0"
+      },
+      "lightMode": {
+        "home": "#dd9e00",
+        "away": "#004580"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "12",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "FC Zlín",
+      "id": 1860
+    },
+    "awayTeam": {
+      "name": "Sigma Olomouc",
+      "id": 6461
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Oct 24, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-10-24T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-24T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "24.10.2026 15:01:36",
+      "firstHalfEnded": "24.10.2026 15:47:29",
+      "secondHalfStarted": "24.10.2026 16:02:26",
+      "secondHalfEnded": "24.10.2026 16:51:30",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.10.2026 16:51:30"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1860",
+      "name": "FC Zlín",
+      "score": 1
+    },
+    {
+      "id": "6461",
+      "name": "Sigma Olomouc",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 72,
+      "added": 0,
+      "display": "72"
+    },
+    {
+      "side": "away",
+      "minute": 46,
+      "added": 0,
+      "display": "46"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      3,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 17,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 68,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

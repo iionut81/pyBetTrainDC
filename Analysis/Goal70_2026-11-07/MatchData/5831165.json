@@ -1,0 +1,134 @@
+{
+  "ok": true,
+  "id": "5831165",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831165",
+  "verified_at_utc": "2026-11-04T06:04:36.379Z",
+  "general": {
+    "matchId": "5831165",
+    "matchName": "Bohemians 1905-vs-Slovácko_Sat, Sep 12, 2026, 13:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#00834A",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#00834A",
+        "away": "#183058"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Bohemians 1905",
+      "id": 1670
+    },
+    "awayTeam": {
+      "name": "Slovácko",
+      "id": 2021
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-09-12T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 15:02:52",
+      "firstHalfEnded": "12.09.2026 15:50:24",
+      "secondHalfStarted": "12.09.2026 16:07:32",
+      "secondHalfEnded": "12.09.2026 16:55:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 16:55:37"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1670",
+      "name": "Bohemians 1905",
+      "score": 2
+    },
+    {
+      "id": "2021",
+      "name": "Slovácko",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 19,
+      "added": 0,
+      "display": "19"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      4,
+      0
+    ],
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 12,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5831165.json"
+}

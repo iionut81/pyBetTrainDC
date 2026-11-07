@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "5781716",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781716",
+  "verified_at_utc": "2026-11-05T06:04:52.018Z",
+  "general": {
+    "matchId": "5781716",
+    "matchName": "Fortuna Sittard-vs-AZ Alkmaar_Sat, Aug 22, 2026, 14:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFE21C",
+        "away": "#CB0008"
+      },
+      "lightMode": {
+        "home": "#00684B",
+        "away": "#CB0008"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "3",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "Fortuna Sittard",
+      "id": 6422
+    },
+    "awayTeam": {
+      "name": "AZ Alkmaar",
+      "id": 10229
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-08-22T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T14:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 16:32:28",
+      "firstHalfEnded": "22.08.2026 17:19:35",
+      "secondHalfStarted": "22.08.2026 17:36:29",
+      "secondHalfEnded": "22.08.2026 18:26:32",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 18:26:32"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6422",
+      "name": "Fortuna Sittard",
+      "score": 0
+    },
+    {
+      "id": "10229",
+      "name": "AZ Alkmaar",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 58,
+      "added": 0,
+      "display": "58",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      6
+    ],
+    "SecondHalf": [
+      1,
+      9
+    ],
+    "All": [
+      1,
+      15
+    ]
+  },
+  "cards": [
+    {
+      "time": 5,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5781716.json"
+}

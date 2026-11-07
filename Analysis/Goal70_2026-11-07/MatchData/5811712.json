@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "id": "5811712",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811712",
+  "verified_at_utc": "2026-11-06T06:30:17.719Z",
+  "general": {
+    "matchId": "5811712",
+    "matchName": "Standard Liege-vs-Cercle Brugge_Sat, Aug 8, 2026, 16:15 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E82820",
+        "away": "#006a33"
+      },
+      "lightMode": {
+        "home": "#E82820",
+        "away": "#00521f"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "1",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Standard Liege",
+      "id": 9985
+    },
+    "awayTeam": {
+      "name": "Cercle Brugge",
+      "id": 9984
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 8, 2026, 16:15 UTC",
+    "matchTimeUTCDate": "2026-08-08T16:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-08T16:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.08.2026 18:18:15",
+      "firstHalfEnded": "08.08.2026 19:11:20",
+      "secondHalfStarted": "08.08.2026 19:28:30",
+      "secondHalfEnded": "08.08.2026 20:14:10",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.08.2026 20:14:10"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9985",
+      "name": "Standard Liege",
+      "score": 2
+    },
+    {
+      "id": "9984",
+      "name": "Cercle Brugge",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 5,
+      "display": "45+5",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 48,
+      "added": 0,
+      "display": "48",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 41,
+      "added": 0,
+      "display": "41",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      6
+    ],
+    "SecondHalf": [
+      2,
+      5
+    ],
+    "All": [
+      7,
+      11
+    ]
+  },
+  "cards": [
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5811712.json"
+}

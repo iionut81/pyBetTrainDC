@@ -1,0 +1,147 @@
+{
+  "ok": true,
+  "id": "1000015071",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015071",
+  "verified_at_utc": "2026-11-07T07:00:04.590Z",
+  "general": {
+    "matchId": "1000015071",
+    "matchName": "Novi Pazar-vs-FK Radnički 1923_Sat, Jul 18, 2026, 18:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004080",
+        "away": "#E11C24"
+      },
+      "lightMode": {
+        "home": "#004080",
+        "away": "#E11C24"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "1",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Novi Pazar",
+      "id": 187854
+    },
+    "awayTeam": {
+      "name": "FK Radnički 1923",
+      "id": 1675
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Jul 18, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-07-18T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-18T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "18.07.2026 20:00:22",
+      "firstHalfEnded": "18.07.2026 20:47:25",
+      "secondHalfStarted": "18.07.2026 21:03:33",
+      "secondHalfEnded": "18.07.2026 21:51:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.07.2026 21:51:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "187854",
+      "name": "Novi Pazar",
+      "score": 1
+    },
+    {
+      "id": "1675",
+      "name": "FK Radnički 1923",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 33,
+      "added": 0,
+      "display": "33"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      6
+    ],
+    "SecondHalf": [
+      1,
+      5
+    ],
+    "All": [
+      4,
+      11
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 10,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

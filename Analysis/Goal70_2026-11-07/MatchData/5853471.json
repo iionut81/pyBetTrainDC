@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5853471",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853471",
+  "verified_at_utc": "2026-11-06T06:30:42.300Z",
+  "general": {
+    "matchId": "5853471",
+    "matchName": "Universitatea Cluj-vs-UTA Arad_Mon, Aug 17, 2026, 15:30 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#D21819"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#D21819"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "5",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "Universitatea Cluj",
+      "id": 89022
+    },
+    "awayTeam": {
+      "name": "UTA Arad",
+      "id": 584663
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Aug 17, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-08-17T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-17T15:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.08.2026 17:36:20",
+      "firstHalfEnded": "17.08.2026 18:25:32",
+      "secondHalfStarted": "17.08.2026 18:44:45",
+      "secondHalfEnded": "17.08.2026 19:31:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.08.2026 19:31:17"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "89022",
+      "name": "Universitatea Cluj",
+      "score": 2
+    },
+    {
+      "id": "584663",
+      "name": "UTA Arad",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1"
+    },
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74"
+    },
+    {
+      "side": "away",
+      "minute": 85,
+      "added": 0,
+      "display": "85"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      4
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      4,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5853471.json"
+}

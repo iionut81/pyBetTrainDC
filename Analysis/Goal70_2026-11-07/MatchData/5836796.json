@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "5836796",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836796",
+  "verified_at_utc": "2026-11-07T06:59:56.760Z",
+  "general": {
+    "matchId": "5836796",
+    "matchName": "Swansea City-vs-Watford_Tue, Sep 1, 2026, 18:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFFFFF",
+        "away": "#ED2127"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#d99f00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "Championship",
+    "leagueRoundName": "4",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Swansea City",
+      "id": 10003
+    },
+    "awayTeam": {
+      "name": "Watford",
+      "id": 9817
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Sep 1, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-01T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-01T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.09.2026 20:45:04",
+      "firstHalfEnded": "01.09.2026 21:33:13",
+      "secondHalfStarted": "01.09.2026 21:48:12",
+      "secondHalfEnded": "01.09.2026 22:36:49",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.09.2026 22:36:49"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10003",
+      "name": "Swansea City",
+      "score": 2
+    },
+    {
+      "id": "9817",
+      "name": "Watford",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 8,
+      "added": 0,
+      "display": "8",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

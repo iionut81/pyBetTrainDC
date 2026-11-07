@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5831173",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831173",
+  "verified_at_utc": "2026-11-04T06:04:36.492Z",
+  "general": {
+    "matchId": "5831173",
+    "matchName": "Pardubice-vs-Bohemians 1905_Sat, Sep 19, 2026, 13:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DF0006",
+        "away": "#00834A"
+      },
+      "lightMode": {
+        "home": "#DF0006",
+        "away": "#00834A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "9",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Pardubice",
+      "id": 2406
+    },
+    "awayTeam": {
+      "name": "Bohemians 1905",
+      "id": 1670
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-09-19T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T13:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 15:01:30",
+      "firstHalfEnded": "19.09.2026 15:49:02",
+      "secondHalfStarted": "19.09.2026 16:05:41",
+      "secondHalfEnded": "19.09.2026 16:55:15",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 16:55:15"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2406",
+      "name": "Pardubice",
+      "score": 2
+    },
+    {
+      "id": "1670",
+      "name": "Bohemians 1905",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 2,
+      "added": 0,
+      "display": "2"
+    },
+    {
+      "side": "home",
+      "minute": 52,
+      "added": 0,
+      "display": "52"
+    },
+    {
+      "side": "away",
+      "minute": 32,
+      "added": 0,
+      "display": "32"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "YellowRed",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5831173.json"
+}

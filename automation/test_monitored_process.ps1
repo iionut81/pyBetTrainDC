@@ -39,6 +39,18 @@ if (-not (Test-PredProcessIdentity $PID (Get-Process -Id $PID).StartTime.ToUnive
 if (Test-PredProcessIdentity $PID '2000-01-01T00:00:00Z') { throw 'PID reuse guard failed' }
 $failedExit = Invoke-PredMonitoredProcess -StartInfo (New-TestStartInfo '73') -InputText 'fixture' -StdoutPath $outFile -StderrPath $errFile
 if ($failedExit -ne 73 -or -not (Get-Content $errFile -Raw).Contains('diagnostic')) { throw 'Failure diagnostics lost' }
+$heartbeatErrorExit = Invoke-PredMonitoredProcess -StartInfo (New-TestStartInfo '0') -InputText 'fixture' -StdoutPath $outFile -StderrPath $errFile -HeartbeatSeconds 1 -OnHeartbeat { throw (New-Object IO.IOException('simulated locked status file')) }
+if ($heartbeatErrorExit -ne 0 -or -not (Get-Content $outFile -Raw).Contains('finished')) { throw 'Heartbeat IO failure interrupted research' }
+$atomicFile = Join-Path $testRoot 'atomic-lock.json'
+Write-PredAtomicJson $atomicFile @{version=1}
+$heldFile = [IO.File]::Open($atomicFile, [IO.FileMode]::Open, [IO.FileAccess]::Read, [IO.FileShare]::ReadWrite)
+$lockedWriteRejected = $false
+try { Write-PredAtomicJson $atomicFile @{version=2} }
+catch { $lockedWriteRejected = $true }
+finally { $heldFile.Dispose() }
+if (-not $lockedWriteRejected -or (Get-Content $atomicFile -Raw | ConvertFrom-Json).version -ne 1) { throw 'Locked atomic write corrupted the last valid status' }
+Write-PredAtomicJson $atomicFile @{version=2}
+if ((Get-Content $atomicFile -Raw | ConvertFrom-Json).version -ne 2) { throw 'Atomic write did not recover after unlock' }
 $timeoutCaught = $false
 try { Invoke-PredMonitoredProcess -StartInfo (New-TestStartInfo 'timeout') -InputText 'fixture' -StdoutPath $outFile -StderrPath $errFile -TimeoutSeconds 1 | Out-Null }
 catch { if ($_.Exception.Message -notlike '*execution timeout*') { throw }; $timeoutCaught = $true }
@@ -53,4 +65,4 @@ if ((Get-PredDailyDecision -NowRo ([datetime]'2026-11-06T07:59:00') -NotBeforeDa
 if ((Get-PredDailyDecision -NowRo ([datetime]'2026-11-06T08:30:00') -NotBeforeDate '2026-11-04' -AlreadyFinished $true -ChatPending $false) -ne 'already_finished') { throw 'Completed research would repeat' }
 if ((Get-PredDailyDecision -NowRo ([datetime]'2026-11-06T08:30:00') -NotBeforeDate '2026-11-04' -AlreadyFinished $true -ChatPending $true) -ne 'deliver_only') { throw 'Delivery retry would repeat research' }
 if (Test-PredChatNeedsRetry 'not_required_manual') { throw 'Manual recovery would create a duplicate automatic chat delivery' }
-[pscustomobject]@{status='PASS';checks=@('output flushed before child exit without newline','heartbeat and atomic status','PID plus creation-time guard','nonzero exit retains diagnostics','timeout retains output and stops owned child','all changed PowerShell scripts parse','before08 and completion/delivery guards');fixture_root=$testRoot} | ConvertTo-Json
+[pscustomobject]@{status='PASS';checks=@('output flushed before child exit without newline','heartbeat and atomic status','PID plus creation-time guard','nonzero exit retains diagnostics','heartbeat IO failure does not interrupt child','locked atomic write preserves status and recovers after unlock','timeout retains output and stops owned child','all changed PowerShell scripts parse','before08 and completion/delivery guards');fixture_root=$testRoot} | ConvertTo-Json

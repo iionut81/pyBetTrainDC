@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5765942",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765942",
+  "verified_at_utc": "2026-11-06T06:30:29.255Z",
+  "general": {
+    "matchId": "5765942",
+    "matchName": "Rudeš-vs-Rijeka_Fri, Oct 16, 2026, 16:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0054a9",
+        "away": "#58B6E7"
+      },
+      "lightMode": {
+        "home": "#2E318E",
+        "away": "#53b2e3"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "10",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "Rudeš",
+      "id": 187866
+    },
+    "awayTeam": {
+      "name": "Rijeka",
+      "id": 10162
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Fri, Oct 16, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-16T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-16T16:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.10.2026 18:01:54",
+      "firstHalfEnded": "16.10.2026 18:48:22",
+      "secondHalfStarted": "16.10.2026 19:04:41",
+      "secondHalfEnded": "16.10.2026 19:55:28",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.10.2026 19:55:28"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "187866",
+      "name": "Rudeš",
+      "score": 1
+    },
+    {
+      "id": "10162",
+      "name": "Rijeka",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4"
+    },
+    {
+      "side": "away",
+      "minute": 5,
+      "added": 0,
+      "display": "5"
+    },
+    {
+      "side": "away",
+      "minute": 74,
+      "added": 0,
+      "display": "74"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      3,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 71,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5765942.json"
+}

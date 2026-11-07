@@ -1,0 +1,134 @@
+{
+  "ok": true,
+  "id": "5904746",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904746",
+  "verified_at_utc": "2026-11-07T06:59:38.581Z",
+  "general": {
+    "matchId": "5904746",
+    "matchName": "Galatasaray-vs-Kocaelispor_Sun, Sep 13, 2026, 17:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#a11d40",
+        "away": "#005E2A"
+      },
+      "lightMode": {
+        "home": "#8D072A",
+        "away": "#005E2A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "5",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Galatasaray",
+      "id": 8637
+    },
+    "awayTeam": {
+      "name": "Kocaelispor",
+      "id": 1569
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-13T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 19:00:29",
+      "firstHalfEnded": "13.09.2026 19:47:40",
+      "secondHalfStarted": "13.09.2026 20:05:53",
+      "secondHalfEnded": "13.09.2026 20:54:41",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 20:54:41"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8637",
+      "name": "Galatasaray",
+      "score": 1
+    },
+    {
+      "id": "1569",
+      "name": "Kocaelispor",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 71,
+      "added": 0,
+      "display": "71",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      0
+    ],
+    "SecondHalf": [
+      10,
+      3
+    ],
+    "All": [
+      16,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 22,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

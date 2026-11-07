@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "id": "5908602",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908602",
+  "verified_at_utc": "2026-11-07T06:59:44.868Z",
+  "general": {
+    "matchId": "5908602",
+    "matchName": "Sivasspor-vs-Manisa Futbol Kulübü_Mon, Aug 24, 2026, 18:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#9D0600",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#9D0600",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "3",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Sivasspor",
+      "id": 6265
+    },
+    "awayTeam": {
+      "name": "Manisa Futbol Kulübü",
+      "id": 658812
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Aug 24, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-24T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-24T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.08.2026 20:30:16",
+      "firstHalfEnded": "24.08.2026 21:16:12",
+      "secondHalfStarted": "24.08.2026 21:33:25",
+      "secondHalfEnded": "24.08.2026 22:23:29",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.08.2026 22:23:29"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6265",
+      "name": "Sivasspor",
+      "score": 2
+    },
+    {
+      "id": "658812",
+      "name": "Manisa Futbol Kulübü",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 17,
+      "added": 0,
+      "display": "17"
+    },
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37"
+    },
+    {
+      "side": "away",
+      "minute": 33,
+      "added": 0,
+      "display": "33"
+    },
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      8,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 10,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 13,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

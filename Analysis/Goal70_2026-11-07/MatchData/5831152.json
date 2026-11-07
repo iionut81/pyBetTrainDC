@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5831152",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831152",
+  "verified_at_utc": "2026-11-07T06:56:04.869Z",
+  "general": {
+    "matchId": "5831152",
+    "matchName": "Slovan Liberec-vs-Hradec Králové_Sun, Aug 30, 2026, 13:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1D8BCB",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#1D8BCB",
+        "away": "#202018"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "6",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Slovan Liberec",
+      "id": 10245
+    },
+    "awayTeam": {
+      "name": "Hradec Králové",
+      "id": 1712
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-08-30T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 15:01:23",
+      "firstHalfEnded": "30.08.2026 15:48:33",
+      "secondHalfStarted": "30.08.2026 16:04:54",
+      "secondHalfEnded": "30.08.2026 16:53:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 16:53:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10245",
+      "name": "Slovan Liberec",
+      "score": 2
+    },
+    {
+      "id": "1712",
+      "name": "Hradec Králové",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 42,
+      "added": 0,
+      "display": "42"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 0,
+      "display": "90"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      6,
+      1
+    ],
+    "All": [
+      10,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 6,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

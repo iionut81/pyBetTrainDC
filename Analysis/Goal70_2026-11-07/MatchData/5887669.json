@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5887669",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887669",
+  "verified_at_utc": "2026-11-07T06:56:31.064Z",
+  "general": {
+    "matchId": "5887669",
+    "matchName": "Moreirense-vs-Estrela da Amadora_Sat, Oct 31, 2026, 15:30 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#3EA848",
+        "away": "#186e48"
+      },
+      "lightMode": {
+        "home": "#3EA848",
+        "away": "#00613C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "10",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Moreirense",
+      "id": 8348
+    },
+    "awayTeam": {
+      "name": "Estrela da Amadora",
+      "id": 1074320
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 31, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-10-31T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-31T15:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "31.10.2026 16:32:53",
+      "firstHalfEnded": "31.10.2026 17:22:38",
+      "secondHalfStarted": "31.10.2026 17:39:14",
+      "secondHalfEnded": "31.10.2026 18:32:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "31.10.2026 18:32:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8348",
+      "name": "Moreirense",
+      "score": 2
+    },
+    {
+      "id": "1074320",
+      "name": "Estrela da Amadora",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 5,
+      "display": "90+5",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      3,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

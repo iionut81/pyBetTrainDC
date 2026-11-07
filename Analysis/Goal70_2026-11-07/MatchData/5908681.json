@@ -1,0 +1,176 @@
+{
+  "ok": true,
+  "id": "5908681",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908681",
+  "verified_at_utc": "2026-11-07T06:59:47.283Z",
+  "general": {
+    "matchId": "5908681",
+    "matchName": "Batman Petrolspor-vs-Esenler Erokspor_Sun, Oct 25, 2026, 10:30 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#AB1111",
+        "away": "#3E8F15"
+      },
+      "lightMode": {
+        "home": "#AB1111",
+        "away": "#3E8F15"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "12",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Batman Petrolspor",
+      "id": 163008
+    },
+    "awayTeam": {
+      "name": "Esenler Erokspor",
+      "id": 863838
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 10:30 UTC",
+    "matchTimeUTCDate": "2026-10-25T10:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T10:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 11:30:50",
+      "firstHalfEnded": "25.10.2026 12:17:14",
+      "secondHalfStarted": "25.10.2026 12:35:02",
+      "secondHalfEnded": "25.10.2026 13:26:40",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 13:26:40"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "163008",
+      "name": "Batman Petrolspor",
+      "score": 3
+    },
+    {
+      "id": "863838",
+      "name": "Esenler Erokspor",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 69,
+      "added": 0,
+      "display": "69"
+    },
+    {
+      "side": "home",
+      "minute": 85,
+      "added": 0,
+      "display": "85"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2"
+    },
+    {
+      "side": "away",
+      "minute": 50,
+      "added": 0,
+      "display": "50"
+    },
+    {
+      "side": "away",
+      "minute": 62,
+      "added": 0,
+      "display": "62"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      6
+    ],
+    "SecondHalf": [
+      6,
+      4
+    ],
+    "All": [
+      9,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 16,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

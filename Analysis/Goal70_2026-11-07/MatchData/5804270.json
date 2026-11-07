@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "id": "5804270",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804270",
+  "verified_at_utc": "2026-11-07T06:56:42.982Z",
+  "general": {
+    "matchId": "5804270",
+    "matchName": "Sion-vs-FC Zürich_Sat, Sep 19, 2026, 16:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ED271E",
+        "away": "#3F9FE7"
+      },
+      "lightMode": {
+        "home": "#ED271E",
+        "away": "#3F9FE7"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937880,
+    "leagueName": "Super League",
+    "leagueRoundName": "9",
+    "parentLeagueId": 69,
+    "countryCode": "SUI",
+    "homeTeam": {
+      "name": "Sion",
+      "id": 10179
+    },
+    "awayTeam": {
+      "name": "FC Zürich",
+      "id": 10243
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-09-19T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T16:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 18:01:12",
+      "firstHalfEnded": "19.09.2026 18:47:29",
+      "secondHalfStarted": "19.09.2026 19:03:05",
+      "secondHalfEnded": "19.09.2026 19:50:43",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 19:50:43"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10179",
+      "name": "Sion",
+      "score": 1
+    },
+    {
+      "id": "10243",
+      "name": "FC Zürich",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 5,
+      "added": 0,
+      "display": "5",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      5,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

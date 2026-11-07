@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "id": "1000015132",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015132",
+  "verified_at_utc": "2026-11-07T07:00:04.777Z",
+  "general": {
+    "matchId": "1000015132",
+    "matchName": "FK Radnički 1923-vs-Mladost Lučani_Sat, Sep 12, 2026, 18:30 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E11C24",
+        "away": "#2E5EC2"
+      },
+      "lightMode": {
+        "home": "#E11C24",
+        "away": "#2E5EC2"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "9",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "FK Radnički 1923",
+      "id": 1675
+    },
+    "awayTeam": {
+      "name": "Mladost Lučani",
+      "id": 1739
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-09-12T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 20:31:45",
+      "firstHalfEnded": "12.09.2026 21:19:46",
+      "secondHalfStarted": "12.09.2026 21:36:37",
+      "secondHalfEnded": "12.09.2026 22:22:08",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 22:22:08"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "5 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1675",
+      "name": "FK Radnički 1923",
+      "score": 5
+    },
+    {
+      "id": "1739",
+      "name": "Mladost Lučani",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 6,
+      "added": 0,
+      "display": "6"
+    },
+    {
+      "side": "home",
+      "minute": 10,
+      "added": 0,
+      "display": "10"
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2"
+    },
+    {
+      "side": "home",
+      "minute": 65,
+      "added": 0,
+      "display": "65"
+    },
+    {
+      "side": "home",
+      "minute": 84,
+      "added": 0,
+      "display": "84"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      5,
+      3
+    ],
+    "All": [
+      8,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

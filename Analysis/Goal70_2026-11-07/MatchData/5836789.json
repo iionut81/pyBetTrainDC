@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "id": "5836789",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836789",
+  "verified_at_utc": "2026-11-04T06:04:40.491Z",
+  "general": {
+    "matchId": "5836789",
+    "matchName": "Wrexham-vs-Birmingham City_Fri, Aug 28, 2026, 19:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E5131C",
+        "away": "#0053bb"
+      },
+      "lightMode": {
+        "home": "#E5131C",
+        "away": "#0032A0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "English Football League - Championship",
+    "leagueRoundName": "3",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Wrexham",
+      "id": 9841
+    },
+    "awayTeam": {
+      "name": "Birmingham City",
+      "id": 8658
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Aug 28, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-28T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-28T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.08.2026 21:00:39",
+      "firstHalfEnded": "28.08.2026 21:48:59",
+      "secondHalfStarted": "28.08.2026 22:05:38",
+      "secondHalfEnded": "28.08.2026 22:54:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.08.2026 22:54:56"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9841",
+      "name": "Wrexham",
+      "score": 1
+    },
+    {
+      "id": "8658",
+      "name": "Birmingham City",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      3,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 7,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5836789.json"
+}

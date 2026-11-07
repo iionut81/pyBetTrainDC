@@ -1,0 +1,169 @@
+{
+  "ok": true,
+  "id": "5908576",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908576",
+  "verified_at_utc": "2026-11-06T06:30:47.611Z",
+  "general": {
+    "matchId": "5908576",
+    "matchName": "Antalyaspor-vs-Keçiörengücü_Sat, Aug 8, 2026, 18:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C01018",
+        "away": "#7e368f"
+      },
+      "lightMode": {
+        "home": "#C01018",
+        "away": "#601872"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "1",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Antalyaspor",
+      "id": 1931
+    },
+    "awayTeam": {
+      "name": "Keçiörengücü",
+      "id": 8387
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 8, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-08T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-08T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.08.2026 20:30:40",
+      "firstHalfEnded": "08.08.2026 21:18:46",
+      "secondHalfStarted": "08.08.2026 21:39:09",
+      "secondHalfEnded": "08.08.2026 22:31:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.08.2026 22:31:56"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1931",
+      "name": "Antalyaspor",
+      "score": 4
+    },
+    {
+      "id": "8387",
+      "name": "Keçiörengücü",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 41,
+      "added": 0,
+      "display": "41"
+    },
+    {
+      "side": "home",
+      "minute": 48,
+      "added": 0,
+      "display": "48"
+    },
+    {
+      "side": "home",
+      "minute": 68,
+      "added": 0,
+      "display": "68"
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80"
+    },
+    {
+      "side": "away",
+      "minute": 51,
+      "added": 0,
+      "display": "51"
+    },
+    {
+      "side": "away",
+      "minute": 82,
+      "added": 0,
+      "display": "82"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      0,
+      4
+    ],
+    "All": [
+      4,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5908576.json"
+}

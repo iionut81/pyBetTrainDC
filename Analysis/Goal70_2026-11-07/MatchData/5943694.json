@@ -1,0 +1,168 @@
+{
+  "ok": true,
+  "id": "5943694",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943694",
+  "verified_at_utc": "2026-11-04T06:04:35.892Z",
+  "general": {
+    "matchId": "5943694",
+    "matchName": "Hradec Králové-vs-Artis Brno_Sat, Oct 10, 2026, 13:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#004daa"
+      },
+      "lightMode": {
+        "home": "#202018",
+        "away": "#004daa"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "10",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Hradec Králové",
+      "id": 1712
+    },
+    "awayTeam": {
+      "name": "Artis Brno",
+      "id": 106189
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-10-10T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T13:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 15:01:50",
+      "firstHalfEnded": "10.10.2026 15:47:14",
+      "secondHalfStarted": "10.10.2026 16:02:29",
+      "secondHalfEnded": "10.10.2026 16:52:07",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 16:52:07"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1712",
+      "name": "Hradec Králové",
+      "score": 2
+    },
+    {
+      "id": "106189",
+      "name": "Artis Brno",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 12,
+      "added": 0,
+      "display": "12"
+    },
+    {
+      "side": "home",
+      "minute": 76,
+      "added": 0,
+      "display": "76"
+    },
+    {
+      "side": "away",
+      "minute": 33,
+      "added": 0,
+      "display": "33"
+    },
+    {
+      "side": "away",
+      "minute": 56,
+      "added": 0,
+      "display": "56"
+    },
+    {
+      "side": "away",
+      "minute": 75,
+      "added": 0,
+      "display": "75"
+    },
+    {
+      "side": "away",
+      "minute": 88,
+      "added": 0,
+      "display": "88"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      5
+    ],
+    "SecondHalf": [
+      4,
+      0
+    ],
+    "All": [
+      4,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5943694.json"
+}

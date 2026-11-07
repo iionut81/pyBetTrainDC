@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "id": "5908589",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908589",
+  "verified_at_utc": "2026-11-06T06:30:49.676Z",
+  "general": {
+    "matchId": "5908589",
+    "matchName": "Esenler Erokspor-vs-Sarıyer_Fri, Aug 14, 2026, 18:30 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#3E8F15",
+        "away": "#003CBE"
+      },
+      "lightMode": {
+        "home": "#3E8F15",
+        "away": "#003CBE"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "2",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Esenler Erokspor",
+      "id": 863838
+    },
+    "awayTeam": {
+      "name": "Sarıyer",
+      "id": 2090
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Fri, Aug 14, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-14T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-14T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "14.08.2026 20:29:46",
+      "firstHalfEnded": "14.08.2026 21:15:53",
+      "secondHalfStarted": "14.08.2026 21:34:37",
+      "secondHalfEnded": "14.08.2026 22:26:03",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.08.2026 22:26:03"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "863838",
+      "name": "Esenler Erokspor",
+      "score": 1
+    },
+    {
+      "id": "2090",
+      "name": "Sarıyer",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 5,
+      "display": "90+5"
+    },
+    {
+      "side": "away",
+      "minute": 88,
+      "added": 0,
+      "display": "88"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      4,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5908589.json"
+}

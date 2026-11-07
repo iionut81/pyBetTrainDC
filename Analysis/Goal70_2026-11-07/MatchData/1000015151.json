@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "1000015151",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015151",
+  "verified_at_utc": "2026-11-07T07:00:03.762Z",
+  "general": {
+    "matchId": "1000015151",
+    "matchName": "FK Radnik Surdulica-vs-Radnički Niš_Fri, Oct 16, 2026, 15:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#043F92",
+        "away": "#F01008"
+      },
+      "lightMode": {
+        "home": "#043F92",
+        "away": "#F01008"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Serbian Super Liga",
+    "leagueRoundName": "12",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "FK Radnik Surdulica",
+      "id": 463461
+    },
+    "awayTeam": {
+      "name": "Radnički Niš",
+      "id": 6410
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Fri, Oct 16, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-10-16T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-16T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "16.10.2026 17:00:29",
+      "firstHalfEnded": "16.10.2026 17:48:47",
+      "secondHalfStarted": "16.10.2026 18:05:51",
+      "secondHalfEnded": "16.10.2026 18:55:00",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.10.2026 18:55:00"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "463461",
+      "name": "FK Radnik Surdulica",
+      "score": 3
+    },
+    {
+      "id": "6410",
+      "name": "Radnički Niš",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 0,
+      "display": "45"
+    },
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      7,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 10,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 15,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

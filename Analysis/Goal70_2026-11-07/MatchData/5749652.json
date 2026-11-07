@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5749652",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749652",
+  "verified_at_utc": "2026-11-07T06:56:01.611Z",
+  "general": {
+    "matchId": "5749652",
+    "matchName": "Cagliari-vs-Inter_Sun, Aug 30, 2026, 18:45 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#B51F2B",
+        "away": "#0039d0"
+      },
+      "lightMode": {
+        "home": "#B51F2B",
+        "away": "#010E80"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "2",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Cagliari",
+      "id": 8529
+    },
+    "awayTeam": {
+      "name": "Inter",
+      "id": 8636
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-08-30T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 20:45:29",
+      "firstHalfEnded": "30.08.2026 21:33:11",
+      "secondHalfStarted": "30.08.2026 21:48:42",
+      "secondHalfEnded": "30.08.2026 22:39:03",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 22:39:03"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8529",
+      "name": "Cagliari",
+      "score": 0
+    },
+    {
+      "id": "8636",
+      "name": "Inter",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 9,
+      "added": 0,
+      "display": "9",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      3
+    ],
+    "SecondHalf": [
+      8,
+      3
+    ],
+    "All": [
+      8,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

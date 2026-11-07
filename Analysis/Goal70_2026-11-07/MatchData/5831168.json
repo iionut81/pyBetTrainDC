@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "id": "5831168",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831168",
+  "verified_at_utc": "2026-11-07T06:56:06.064Z",
+  "general": {
+    "matchId": "5831168",
+    "matchName": "Baník Ostrava-vs-Pardubice_Sun, Sep 13, 2026, 11:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1868A0",
+        "away": "#DF0006"
+      },
+      "lightMode": {
+        "home": "#1868A0",
+        "away": "#DF0006"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Baník Ostrava",
+      "id": 6362
+    },
+    "awayTeam": {
+      "name": "Pardubice",
+      "id": 2406
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 11:00 UTC",
+    "matchTimeUTCDate": "2026-09-13T11:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T11:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 13:01:38",
+      "firstHalfEnded": "13.09.2026 13:46:52",
+      "secondHalfStarted": "13.09.2026 14:04:49",
+      "secondHalfEnded": "13.09.2026 14:53:13",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 14:53:13"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6362",
+      "name": "Baník Ostrava",
+      "score": 1
+    },
+    {
+      "id": "2406",
+      "name": "Pardubice",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 81,
+      "added": 0,
+      "display": "81"
+    },
+    {
+      "side": "away",
+      "minute": 20,
+      "added": 0,
+      "display": "20"
+    },
+    {
+      "side": "away",
+      "minute": 54,
+      "added": 0,
+      "display": "54"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

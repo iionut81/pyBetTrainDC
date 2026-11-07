@@ -1,0 +1,164 @@
+{
+  "ok": true,
+  "id": "5908619",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908619",
+  "verified_at_utc": "2026-11-07T06:59:47.048Z",
+  "general": {
+    "matchId": "5908619",
+    "matchName": "Esenler Erokspor-vs-Kayserispor_Mon, Sep 7, 2026, 14:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#3E8F15",
+        "away": "#AE0E21"
+      },
+      "lightMode": {
+        "home": "#3E8F15",
+        "away": "#AE0E21"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "6",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Esenler Erokspor",
+      "id": 863838
+    },
+    "awayTeam": {
+      "name": "Kayserispor",
+      "id": 10182
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Sep 7, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-07T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-07T14:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.09.2026 16:02:05",
+      "firstHalfEnded": "07.09.2026 16:48:08",
+      "secondHalfStarted": "07.09.2026 17:04:56",
+      "secondHalfEnded": "07.09.2026 17:53:22",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.09.2026 17:53:22"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "863838",
+      "name": "Esenler Erokspor",
+      "score": 0
+    },
+    {
+      "id": "10182",
+      "name": "Kayserispor",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 17,
+      "added": 0,
+      "display": "17"
+    },
+    {
+      "side": "away",
+      "minute": 33,
+      "added": 0,
+      "display": "33"
+    },
+    {
+      "side": "away",
+      "minute": 68,
+      "added": 0,
+      "display": "68"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      6,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 12,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 57,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

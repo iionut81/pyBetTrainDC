@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "1000015072",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015072",
+  "verified_at_utc": "2026-11-07T07:00:03.283Z",
+  "general": {
+    "matchId": "1000015072",
+    "matchName": "Železničar Pančevo-vs-Radnički Niš_Fri, Jul 17, 2026, 18:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#F01008"
+      },
+      "lightMode": {
+        "home": "#212D3D",
+        "away": "#F01008"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "1",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Železničar Pančevo",
+      "id": 676141
+    },
+    "awayTeam": {
+      "name": "Radnički Niš",
+      "id": 6410
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Fri, Jul 17, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-07-17T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-17T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.07.2026 20:02:28",
+      "firstHalfEnded": "17.07.2026 20:49:25",
+      "secondHalfStarted": "17.07.2026 21:07:21",
+      "secondHalfEnded": "17.07.2026 21:57:02",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.07.2026 21:57:02"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "676141",
+      "name": "Železničar Pančevo",
+      "score": 2
+    },
+    {
+      "id": "6410",
+      "name": "Radnički Niš",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 13,
+      "added": 0,
+      "display": "13"
+    },
+    {
+      "side": "home",
+      "minute": 70,
+      "added": 0,
+      "display": "70"
+    },
+    {
+      "side": "away",
+      "minute": 29,
+      "added": 0,
+      "display": "29"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      4
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      3,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

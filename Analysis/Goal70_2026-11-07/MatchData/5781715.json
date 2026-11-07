@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5781715",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781715",
+  "verified_at_utc": "2026-11-07T06:56:20.269Z",
+  "general": {
+    "matchId": "5781715",
+    "matchName": "Sparta Rotterdam-vs-FC Utrecht_Sat, Aug 22, 2026, 16:45 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E50020",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#E50020",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "3",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "Sparta Rotterdam",
+      "id": 8614
+    },
+    "awayTeam": {
+      "name": "FC Utrecht",
+      "id": 9908
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 16:45 UTC",
+    "matchTimeUTCDate": "2026-08-22T16:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T16:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 18:45:20",
+      "firstHalfEnded": "22.08.2026 19:31:45",
+      "secondHalfStarted": "22.08.2026 19:47:08",
+      "secondHalfEnded": "22.08.2026 20:39:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 20:39:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8614",
+      "name": "Sparta Rotterdam",
+      "score": 3
+    },
+    {
+      "id": "9908",
+      "name": "FC Utrecht",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 6,
+      "display": "90+6",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 16,
+      "added": 0,
+      "display": "16",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 46,
+      "added": 0,
+      "display": "46",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      6
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      5,
+      7
+    ]
+  },
+  "cards": [],
+  "formations": {}
+}

@@ -34,8 +34,17 @@ function Write-PredAtomicJson {
     $tempPath = $Path + '.' + [Guid]::NewGuid().ToString('N') + '.tmp'
     try {
         [IO.File]::WriteAllText($tempPath, ($Value | ConvertTo-Json -Depth 10), (New-Object Text.UTF8Encoding($false)))
-        if ([IO.File]::Exists($Path)) { [IO.File]::Replace($tempPath, $Path, [System.Management.Automation.Language.NullString]::Value) }
-        else { [IO.File]::Move($tempPath, $Path) }
+        for ($attempt = 0; ; $attempt++) {
+            try {
+                if ([IO.File]::Exists($Path)) { [IO.File]::Replace($tempPath, $Path, [System.Management.Automation.Language.NullString]::Value) }
+                else { [IO.File]::Move($tempPath, $Path) }
+                break
+            } catch {
+                $cause = $_.Exception.GetBaseException()
+                if ($attempt -ge 5 -or ($cause -isnot [IO.IOException] -and $cause -isnot [UnauthorizedAccessException])) { throw }
+                Start-Sleep -Milliseconds (50 * [math]::Pow(2, $attempt))
+            }
+        }
     } finally { if ([IO.File]::Exists($tempPath)) { [IO.File]::Delete($tempPath) } }
 }
 
@@ -81,7 +90,16 @@ function Invoke-PredMonitoredProcess {
                 $beat = [ordered]@{runner_pid=$PID;runner_started_at_utc=(Get-Process -Id $PID).StartTime.ToUniversalTime().ToString('o');worker_pid=$process.Id;worker_started_at_utc=$workerStartedAt;heartbeat_at_utc=$now.ToString('o');stdout_bytes=0;stderr_bytes=0}
                 if (Test-Path -LiteralPath $StdoutPath) { $beat.stdout_bytes = (Get-Item -LiteralPath $StdoutPath).Length }
                 if (Test-Path -LiteralPath $StderrPath) { $beat.stderr_bytes = (Get-Item -LiteralPath $StderrPath).Length }
-                if ($OnHeartbeat) { & $OnHeartbeat $beat }
+                if ($OnHeartbeat) {
+                    try { & $OnHeartbeat $beat }
+                    catch {
+                        $cause = $_.Exception.GetBaseException()
+                        if ($cause -isnot [IO.IOException] -and $cause -isnot [UnauthorizedAccessException]) { throw }
+                        # A locked status file must not terminate the owned child.
+                        # Keep the last valid status; retry on the next heartbeat.
+                        Write-Warning ('PRED heartbeat could not be saved; research continues: ' + $cause.Message)
+                    }
+                }
                 $lastHeartbeat = $now
             }
             if (($now - $startedAt).TotalSeconds -gt $TimeoutSeconds) {

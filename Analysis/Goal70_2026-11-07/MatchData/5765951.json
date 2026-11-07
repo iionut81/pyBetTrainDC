@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5765951",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765951",
+  "verified_at_utc": "2026-11-07T06:56:22.173Z",
+  "general": {
+    "matchId": "5765951",
+    "matchName": "Rijeka-vs-NK Varaždin_Sun, Nov 1, 2026, 14:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#58B6E7",
+        "away": "#1469A5"
+      },
+      "lightMode": {
+        "home": "#53b2e3",
+        "away": "#1469A5"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "12",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "Rijeka",
+      "id": 10162
+    },
+    "awayTeam": {
+      "name": "NK Varaždin",
+      "id": 10165
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-11-01T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 15:02:12",
+      "firstHalfEnded": "01.11.2026 15:49:29",
+      "secondHalfStarted": "01.11.2026 16:06:57",
+      "secondHalfEnded": "01.11.2026 16:56:51",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 16:56:51"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10162",
+      "name": "Rijeka",
+      "score": 1
+    },
+    {
+      "id": "10165",
+      "name": "NK Varaždin",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 17,
+      "added": 0,
+      "display": "17"
+    },
+    {
+      "side": "away",
+      "minute": 50,
+      "added": 0,
+      "display": "50"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      0
+    ],
+    "SecondHalf": [
+      8,
+      0
+    ],
+    "All": [
+      12,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "YellowRed",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

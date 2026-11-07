@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5804231",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804231",
+  "verified_at_utc": "2026-11-07T06:56:42.712Z",
+  "general": {
+    "matchId": "5804231",
+    "matchName": "Sion-vs-Luzern_Sun, Aug 2, 2026, 14:30 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ED271E",
+        "away": "#0a4ac1"
+      },
+      "lightMode": {
+        "home": "#ED271E",
+        "away": "#083890"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937880,
+    "leagueName": "Super League",
+    "leagueRoundName": "2",
+    "parentLeagueId": 69,
+    "countryCode": "SUI",
+    "homeTeam": {
+      "name": "Sion",
+      "id": 10179
+    },
+    "awayTeam": {
+      "name": "Luzern",
+      "id": 10199
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 2, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-08-02T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-02T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "02.08.2026 16:30:55",
+      "firstHalfEnded": "02.08.2026 17:19:03",
+      "secondHalfStarted": "02.08.2026 17:34:30",
+      "secondHalfEnded": "02.08.2026 18:21:19",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.08.2026 18:21:19"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10179",
+      "name": "Sion",
+      "score": 3
+    },
+    {
+      "id": "10199",
+      "name": "Luzern",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 9,
+      "added": 0,
+      "display": "9",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 70,
+      "added": 0,
+      "display": "70",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 77,
+      "added": 0,
+      "display": "77",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      3,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "1000015503",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015503",
+  "verified_at_utc": "2026-11-07T06:53:51.464Z",
+  "general": {
+    "matchId": "1000015503",
+    "matchName": "Genk U23-vs-Gent U23_Fri, Nov 6, 2026, 19:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#3E60A8",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#005098",
+        "away": "#7FA200"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 264,
+    "leagueName": "First Division B",
+    "leagueRoundName": "10",
+    "parentLeagueId": 264,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Genk U23",
+      "id": 1378463
+    },
+    "awayTeam": {
+      "name": "Gent U23",
+      "id": 1379188
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Nov 6, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-11-06T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-06T19:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.11.2026 20:03:56",
+      "firstHalfEnded": "06.11.2026 20:49:34",
+      "secondHalfStarted": "06.11.2026 21:05:30",
+      "secondHalfEnded": "06.11.2026 21:58:11",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.11.2026 21:58:11"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1378463",
+      "name": "Genk U23",
+      "score": 1
+    },
+    {
+      "id": "1379188",
+      "name": "Gent U23",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 84,
+      "added": 0,
+      "display": "84",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 52,
+      "added": 0,
+      "display": "52",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      4
+    ],
+    "All": [
+      6,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -163,6 +163,20 @@ The explicit user instructions in the conversation take priority over older prom
   dated pending state without a success percentage or an older failure strip.
   Partial results count only verified outcomes of that date. Previous results
   remain available through the date selector and History.
+- Recovery follow-up 2026-11-07: atomic status writes retry transient IO/access
+  failures with bounded backoff. A heartbeat IO failure warns and retries on
+  the next interval without aborting the research child. A stale heartbeat
+  remains a monitoring limitation, never evidence of completion. Preserve the
+  same daily task and reuse checkpoints. See Analysis/Automation/REPAIR_2026-11-07.md.
+- Evaluation UI approved 2026-11-07: the native Evaluation tab has the pilot
+  calendar, daily/cumulative observed-versus-estimated chart and Brier view.
+  Compare observed frequency and estimated mean on the SAME verified modeled
+  cohort. Separate all models, analyst candidates and explicit user choices;
+  user-choice estimates use the saved selection probability. Unknown outcomes,
+  void/postponed and unmodeled fixtures are not invented predictions. Daily
+  success/failure counts open the exact date/market/cohort list with dedicated
+  match-report links. Evaluation controls must not change overview filters.
+  Calendar completion and short-run results do not prove model improvement.
 
 Offline reproduction (PowerShell; does not fetch data or run production jobs):
 

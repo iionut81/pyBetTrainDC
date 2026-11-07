@@ -1,0 +1,119 @@
+{
+  "ok": true,
+  "id": "5967124",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5967124",
+  "verified_at_utc": "2026-11-07T06:56:37.845Z",
+  "general": {
+    "matchId": "5967124",
+    "matchName": "Juve Stabia-vs-Hellas Verona_Wed, Oct 28, 2026, 19:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F9DB18",
+        "away": "#00449f"
+      },
+      "lightMode": {
+        "home": "#dc9f00",
+        "away": "#002F6C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941726,
+    "leagueName": "Serie B",
+    "leagueRoundName": "9",
+    "parentLeagueId": 86,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Juve Stabia",
+      "id": 6106
+    },
+    "awayTeam": {
+      "name": "Hellas Verona",
+      "id": 9876
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Oct 28, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-28T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-28T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.10.2026 20:02:39",
+      "firstHalfEnded": "28.10.2026 20:48:49",
+      "secondHalfStarted": "28.10.2026 21:04:56",
+      "secondHalfEnded": "28.10.2026 21:54:03",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.10.2026 21:54:02"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6106",
+      "name": "Juve Stabia",
+      "score": 0
+    },
+    {
+      "id": "9876",
+      "name": "Hellas Verona",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      4
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      5,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5943692",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943692",
+  "verified_at_utc": "2026-11-04T06:04:35.584Z",
+  "general": {
+    "matchId": "5943692",
+    "matchName": "FC Zbrojovka Brno-vs-Artis Brno_Sat, Sep 12, 2026, 13:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#c4201b",
+        "away": "#004daa"
+      },
+      "lightMode": {
+        "home": "#c4201b",
+        "away": "#004daa"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "FC Zbrojovka Brno",
+      "id": 1673
+    },
+    "awayTeam": {
+      "name": "Artis Brno",
+      "id": 106189
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-09-12T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 15:02:00",
+      "firstHalfEnded": "12.09.2026 15:50:24",
+      "secondHalfStarted": "12.09.2026 16:07:32",
+      "secondHalfEnded": "12.09.2026 16:55:37",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 16:55:37"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1673",
+      "name": "FC Zbrojovka Brno",
+      "score": 2
+    },
+    {
+      "id": "106189",
+      "name": "Artis Brno",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 15,
+      "added": 0,
+      "display": "15"
+    },
+    {
+      "side": "home",
+      "minute": 41,
+      "added": 0,
+      "display": "41"
+    },
+    {
+      "side": "away",
+      "minute": 69,
+      "added": 0,
+      "display": "69"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      5,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5943692.json"
+}

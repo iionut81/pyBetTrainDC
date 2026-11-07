@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5765924",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765924",
+  "verified_at_utc": "2026-11-07T06:56:21.219Z",
+  "general": {
+    "matchId": "5765924",
+    "matchName": "HNK Gorica-vs-NK Varaždin_Mon, Sep 14, 2026, 16:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D02422",
+        "away": "#1469A5"
+      },
+      "lightMode": {
+        "home": "#D02422",
+        "away": "#1469A5"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "7",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "HNK Gorica",
+      "id": 206560
+    },
+    "awayTeam": {
+      "name": "NK Varaždin",
+      "id": 10165
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Sep 14, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-09-14T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-14T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "14.09.2026 18:02:18",
+      "firstHalfEnded": "14.09.2026 18:47:12",
+      "secondHalfStarted": "14.09.2026 19:03:57",
+      "secondHalfEnded": "14.09.2026 19:53:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.09.2026 19:53:56"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "206560",
+      "name": "HNK Gorica",
+      "score": 2
+    },
+    {
+      "id": "10165",
+      "name": "NK Varaždin",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 5,
+      "display": "90+5"
+    },
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57"
+    },
+    {
+      "side": "away",
+      "minute": 85,
+      "added": 0,
+      "display": "85"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      0
+    ],
+    "All": [
+      1,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 16,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

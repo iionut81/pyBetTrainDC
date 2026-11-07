@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "id": "5107578",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107578",
+  "verified_at_utc": "2026-11-07T06:59:52.279Z",
+  "general": {
+    "matchId": "5107578",
+    "matchName": "Brommapojkarna-vs-Degerfors_Sun, Aug 23, 2026, 14:30 UTC",
+    "matchRound": "18",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D21A0E",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#D21A0E",
+        "away": "#12172B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "18",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Brommapojkarna",
+      "id": 8501
+    },
+    "awayTeam": {
+      "name": "Degerfors",
+      "id": 6544
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-08-23T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 16:30:50",
+      "firstHalfEnded": "23.08.2026 17:16:55",
+      "secondHalfStarted": "23.08.2026 17:32:02",
+      "secondHalfEnded": "23.08.2026 18:20:25",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 18:20:25"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8501",
+      "name": "Brommapojkarna",
+      "score": 2
+    },
+    {
+      "id": "6544",
+      "name": "Degerfors",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 81,
+      "added": 0,
+      "display": "81",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      0
+    ],
+    "All": [
+      5,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 12,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}
