@@ -18,6 +18,25 @@ const modelRow = (rows,m) => rows.find(r=>[r.id,r.match_id,r.goal70_espn_id].som
  || rows.find(r=>r.home===m.originalHome&&r.away===m.originalAway) || {};
 const local = (from,to) => path.relative(from,to).split(path.sep).join('/');
 
+export function matchStatsHref(...sources) {
+ for(const value of sources){
+  let url;try{url=new URL(value);}catch{continue;}
+  if(!['https:','http:'].includes(url.protocol))continue;
+  const host=url.hostname.toLowerCase(),pathname=url.pathname;
+  if(['fotmob.com','www.fotmob.com'].includes(host)){
+   const id=pathname==='/api/data/matchDetails'?url.searchParams.get('matchId'):pathname.match(/^\/match\/(\d+)\/?$/)?.[1];
+   if(/^\d+$/.test(id||''))return `https://www.fotmob.com/match/${id}`;
+   if(pathname.startsWith('/matches/'))return url.href;
+  }
+  if(['espn.com','www.espn.com'].includes(host)){
+   const id=pathname.match(/^\/soccer\/(?:match|matchstats|commentary)\/_\/gameId\/(\d+)(?:\/|$)/)?.[1];
+   if(id)return `https://www.espn.com/soccer/matchstats/_/gameId/${id}`;
+  }
+  if(['sofascore.com','www.sofascore.com'].includes(host)&&pathname.startsWith('/football/match/'))return url.href;
+ }
+ return null;
+}
+
 export function matchReportHref(date,market,id) {
  if(!/^\d{4}-\d{2}-\d{2}$/.test(date)||!['goal','corner'].includes(market)||!/^[a-zA-Z0-9_-]+$/.test(id))throw Error('Invalid match report identity');
  return `reports/${date}/${market}/${id}.html`;
@@ -44,9 +63,10 @@ function historyTable(rows,model,m,side,market,cutoff) {
    observation=valid&&total!=null?`${fmt(r.home_corners_1h)} + ${fmt(r.away_corners_1h)} = ${fmt(total)}`:'Date 1H indisponibile';
    result=valid&&total!=null?total<=7?'Succes':'Fail':'Neverificat';
   }
-  return `<tr><td>${esc(r.date.slice(0,10))}<small>${esc(r.league)}</small></td><td>${esc(r.home)} – ${esc(r.away)}${market==='goal'?`<small>${esc(r.score||`${r.home_score??'—'}–${r.away_score??'—'}`)}</small>`:''}</td><td>${observation}</td><td>${result}</td><td>${source(r.source||r.api_source)}</td></tr>`;
+  const stats=matchStatsHref(r.source,r.api_source);
+  return `<tr><td>${esc(r.date.slice(0,10))}<small>${esc(r.league)}</small></td><td>${stats?source(stats,`${r.home} – ${r.away}`):`${esc(r.home)} – ${esc(r.away)}`}${market==='goal'?`<small>${esc(r.score||`${r.home_score??'—'}–${r.away_score??'—'}`)}</small>`:''}</td><td>${observation}</td><td>${result}</td><td>${stats?source(stats,'Statistici meci'):'<span class="muted">Link statistici indisponibil</span>'}<small>${source(r.source||r.api_source,'Dovadă date')}</small></td></tr>`;
  }).join('');
- return `<h3>${esc(teamName)} · ${history.length} observații disponibile în eșantion</h3><p class="muted">Cele mai recente rânduri salvate înaintea predicției, maximum 10. Nu reprezintă automat ultimele 10 meciuri oficiale din toate competițiile.</p>${history.length?`<div class="scroll"><table><thead><tr><th>Data / competiția</th><th>Meci / scor final</th><th>${market==='goal'?'Primul gol':'Cornere 1H'}</th><th>Pragul ales</th><th>Dovadă</th></tr></thead><tbody>${body}</tbody></table></div>`:'<p>Istoricul individual nu este disponibil în fișierul sursă identificat. Lipsa nu este zero.</p>'}`;
+ return `<h3>${esc(teamName)} · ${history.length} observații disponibile în eșantion</h3><p class="muted">Cele mai recente rânduri salvate înaintea predicției, maximum 10. Nu reprezintă automat ultimele 10 meciuri oficiale din toate competițiile.</p>${history.length?`<div class="scroll"><table><thead><tr><th>Data / competiția</th><th>Meci / scor final</th><th>${market==='goal'?'Primul gol':'Cornere 1H'}</th><th>Pragul ales</th><th>Statistici / dovadă</th></tr></thead><tbody>${body}</tbody></table></div>`:'<p>Istoricul individual nu este disponibil în fișierul sursă identificat. Lipsa nu este zero.</p>'}`;
 }
 
 function countsTable(row,market,m) {
@@ -82,6 +102,7 @@ export function writeMatchReports(root,dist,archive) {
    const role=sample.userSelection?'Alegerea ta':(market==='goal'?m.analystGoal:m.analystCorner)?'Candidat analist':'Candidat comparat';
    const cutoff=Date.parse(m.recordedAt||`${day.date}T00:00:00+02:00`);
    const outcome=sample.outcome||{};
+   const statsHref=matchStatsHref(sample.source,m.goal.source,m.corner.source,outcome.source);
    const result={success:'Succes',fail:'Fail',postponed:'Amânat',void:'Anulat',cancelled:'Anulat',pending:'Încă neverificat'}[outcome.result]||'Încă neverificat';
    const observation=outcome.result==='success'||outcome.result==='fail'?(market==='goal'?outcome.minute?` · primul gol ${esc(outcome.minute)}′`:' · fără gol':number(outcome.corners)!=null?` · ${fmt(outcome.corners)} cornere 1H`:''):'';
    const metric=(label,value)=>`<div class="metric"><span>${label}</span><strong>${value}</strong></div>`;
@@ -93,7 +114,7 @@ export function writeMatchReports(root,dist,archive) {
     :root{color-scheme:dark;--accent:${market==='goal'?'#3ee6c5':'#b99aff'}}*{box-sizing:border-box}body{margin:0;background:#071014;color:#dce9ed;font:16px/1.6 system-ui,sans-serif}main{max-width:1120px;margin:auto;padding:34px 24px 70px}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}nav{display:flex;gap:24px;flex-wrap:wrap;margin-bottom:38px}.eyebrow{color:var(--accent);font:12px/1.6 monospace;letter-spacing:2px}h1{font-size:clamp(26px,4vw,42px);line-height:1.2;margin:12px 0}h2{font-size:22px;margin-top:0}h3{font-size:17px;margin:28px 0 8px}p{margin:12px 0}.muted,small{color:#93acb7}small{display:block;font-size:12px}.badge{display:inline-block;padding:4px 10px;border:1px solid #31505b;border-radius:4px;font-size:12px}.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:24px}.metric,section{background:#0c1a20;border:1px solid #233e49;border-radius:8px}.metric{padding:18px}.metric span{display:block;color:#93acb7;font-size:12px;min-height:38px}.metric strong{color:var(--accent);font:26px/1.4 monospace}section{padding:24px;margin-top:22px}.notice{border-left:3px solid #deb778;padding:10px 16px;background:#1b211f;color:#dcc9a1}.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:13px}th,td{padding:12px;text-align:left;border-bottom:1px solid #243a44;vertical-align:top}th{font-weight:500;color:#93acb7}code{font-family:monospace;color:var(--accent);overflow-wrap:anywhere}.sources{display:flex;gap:20px;flex-wrap:wrap}footer{margin-top:32px;color:#93acb7;font-size:12px}@media(max-width:650px){main{padding:22px 14px}.metrics{grid-template-columns:1fr 1fr}.metric{padding:12px}.metric strong{font-size:23px}section{padding:18px}nav{gap:14px}}
    </style></head><body data-match-id="${esc(m.id)}" data-market="${market}" data-date="${esc(day.date)}"><main>
     <nav>${link(local(dir,path.join(dist,'index.html')),'Înapoi la dashboard')}${link(dailyHref,'Raportul zilei')}</nav>
-    <header><span class="eyebrow">PRED / RAPORTUL MECIULUI / ${market==='goal'?'GOL70':'CORNERE 1H'}</span><h1>${esc(m.home)} <span class="muted">vs</span> ${esc(m.away)}</h1><p class="muted">${esc(day.date)} · ${esc(m.kickoff)} RO · ${esc(m.league)}</p><span class="badge">${role}</span><h3>${title}</h3><p>${definition}</p></header>
+    <header><span class="eyebrow">PRED / RAPORTUL MECIULUI / ${market==='goal'?'GOL70':'CORNERE 1H'}</span><h1>${esc(m.home)} <span class="muted">vs</span> ${esc(m.away)}</h1><p class="muted">${esc(day.date)} · ${esc(m.kickoff)} RO · ${esc(m.league)}</p><span class="badge">${role}</span><h3>${title}</h3><p>${definition}</p><p>${statsHref?`<span class="badge">${source(statsHref,'Goluri, cornere și statistici meci')}</span>`:'<span class="muted">Linkul public de statistici nu este disponibil pentru acest meci.</span>'}</p><p class="muted">Pagina furnizorului se deschide separat. Statisticile disponibile depind de acoperirea meciului; cornerele totale nu înlocuiesc cornerele din prima repriză.</p></header>
     <div class="metrics">${metric('Model brut de screening',pct(sample.p))}${metric('Succes Rate AR 20%',pct(sample.stress))}${metric('Frecvență istorică',ratio(sample.wins,sample.n))}${metric('Frecvență acasă/deplasare',ratio(sample.venueWins,sample.venueN))}</div>
     <section><h2>Ce susțin datele salvate</h2><p class="notice">Raport statistic din arhiva zilei. Probabilități necalibrate. Acest document nu adaugă o analiză contextuală nouă și nu confirmă automat tactica, accidentările, loturile sau vremea.</p><p>${m.basis==='same_league_current_season'?'Bază: istoricul din campionatul intern curent.':'Bază: proiecție din campionatele interne într-o altă competiție; transferul comportamentului între competiții este incert.'}</p><p>Momentul snapshotului: <code>${esc(m.recordedAt||'Nespecificat')}</code>. Numărătorile și probabilitățile originale sunt păstrate; rezultatele ulterioare sunt afișate separat.</p><p>Cotă echitabilă matematică din screening: <strong>${sample.p>0?fmt(1/sample.p):'—'}</strong>. Nu este cotă disponibilă în piață.</p>${sample.final?`<p class="notice">Există o estimare finală distinctă: ${pct(sample.final.p)}; AR 20% ${pct(sample.final.stress)}; istoric ${ratio(sample.final.wins,sample.final.n)}; teren ${ratio(sample.final.venueWins,sample.final.venueN)}. Tabelul de mai jos păstrează intrările screeningului inițial. Detaliile excluderilor sunt în raportul zilei.</p>`:''}</section>
     <section><h2>Intrările și calculul screeningului</h2>${countsTable(row,market,m)}<p>λ sezon: <code>${fmt(row.lambda_season)}</code> · λ teren: <code>${fmt(row.lambda_venue)}</code> · λ combinat: <code>${fmt(row.lambda_combined)}</code>.</p><p>Pentru fiecare configurație, λ este jumătate din suma ratelor marcate/obținute și primite/cedate ale celor două echipe. λ combinat = 50% × λ sezon + 50% × λ teren. Ponderarea este euristică; eșantioanele se suprapun.</p><p>${formula}</p><p>Probabilitate doar sezon: ${pct(row.season_only)} · doar teren: ${pct(row.venue_only)}. Liniuța indică o valoare neînregistrată, nu zero.</p>${market==='goal'?'<p class="muted">Golurile ulterioare deschiderii scorului pot supraestima șansa primului gol în modelul Poisson. Frecvența primului gol rămâne o observație separată.</p>':`<p>Screening: exact 7 cornere ${ratio(sample.seven,sample.n)}; minimum 8 cornere ${ratio(sample.eight,sample.n)}. O repriză cu 8 sau mai multe cornere este Fail. Variația și dependența evenimentelor pot limita modelul Poisson.</p>`}</section>

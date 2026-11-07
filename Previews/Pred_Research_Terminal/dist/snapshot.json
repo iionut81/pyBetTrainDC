@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-11-07T07:46:51.987Z",
+  "generatedAt": "2026-11-07T08:23:25.439Z",
   "latestDate": "2026-11-07",
   "days": [
     {
@@ -12144,7 +12144,7 @@
     },
     {
       "date": "2026-11-07",
-      "snapshotAt": "09:00 RO",
+      "snapshotAt": "10:18 RO",
       "matches": [
         {
           "id": "5781800",
@@ -12975,6 +12975,38 @@
               "source": "",
               "verifiedAt": ""
             },
+            "userSelection": {
+              "selection_id": "2026-11-07_GOAL_BY_70_5836923",
+              "analysis_date": "2026-11-07",
+              "selected_at_ro": "2026-11-07T10:13:14+02:00",
+              "selected_by": "user",
+              "market": "GOAL_BY_70",
+              "event_definition": "At least one valid goal by either team at displayed minute <=70",
+              "home": "Blackburn Rovers",
+              "away": "West Ham United",
+              "kickoff_ro": "2026-11-07T17:00:00+02:00",
+              "match_id": "5836923",
+              "provider": "FotMob",
+              "raw_rank": "15",
+              "model_snapshot_at_ro": "2026-11-07T09:00:06.281+02:00",
+              "p_raw": "0.9235737130092319",
+              "p_stress": "0.8721813551893924",
+              "fair_odds": "1.0827506087648948",
+              "calibrated": "False",
+              "market_price": "",
+              "stake": "",
+              "actual_first_goal_minute": "",
+              "actual_corners_1h": "",
+              "result": "",
+              "result_source": "",
+              "result_verified_at_ro": "",
+              "net_profit": "",
+              "status": "user_selection_pending_dashboard",
+              "analysis_path": "Previews/Pred_Research_Terminal/dist/reports/2026-11-07/goal/5836923.html",
+              "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836923",
+              "p": 0.9235737130092319,
+              "stress": 0.8721813551893924
+            },
             "report": "reports/2026-11-07/goal/5836923.html"
           },
           "corner": {
@@ -12999,7 +13031,8 @@
             "report": "reports/2026-11-07/corner/5836923.html"
           },
           "analystGoal": false,
-          "analystCorner": false
+          "analystCorner": false,
+          "userGoal": true
         },
         {
           "id": "5804033",
@@ -13794,10 +13827,43 @@
               "source": "",
               "verifiedAt": ""
             },
+            "userSelection": {
+              "selection_id": "2026-11-07_CORNERS_1H_UNDER_7_5_5887679",
+              "analysis_date": "2026-11-07",
+              "selected_at_ro": "2026-11-07T10:18:27+02:00",
+              "selected_by": "user",
+              "market": "CORNERS_1H_UNDER_7_5",
+              "event_definition": "Both teams combined first-half corners <=7, including added time",
+              "home": "Sporting CP",
+              "away": "Moreirense",
+              "kickoff_ro": "2026-11-07T22:30:00+02:00",
+              "match_id": "5887679",
+              "provider": "FotMob",
+              "raw_rank": "8",
+              "model_snapshot_at_ro": "2026-11-07T09:00:06.276+02:00",
+              "p_raw": "0.9545984693161306",
+              "p_stress": "0.8978507926824137",
+              "fair_odds": "1.0475608668390122",
+              "calibrated": "False",
+              "market_price": "",
+              "stake": "",
+              "actual_first_goal_minute": "",
+              "actual_corners_1h": "",
+              "result": "",
+              "result_source": "",
+              "result_verified_at_ro": "",
+              "net_profit": "",
+              "status": "user_selection_pending_dashboard",
+              "analysis_path": "Previews/Pred_Research_Terminal/dist/reports/2026-11-07/corner/5887679.html",
+              "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887679",
+              "p": 0.9545984693161306,
+              "stress": 0.8978507926824137
+            },
             "report": "reports/2026-11-07/corner/5887679.html"
           },
           "analystGoal": false,
-          "analystCorner": false
+          "analystCorner": false,
+          "userCorner": true
         },
         {
           "id": "5811800",
@@ -20645,7 +20711,68 @@
           "scored": 0
         }
       },
-      "userSelections": [],
+      "userSelections": [
+        {
+          "selection_id": "2026-11-07_GOAL_BY_70_5836923",
+          "analysis_date": "2026-11-07",
+          "selected_at_ro": "2026-11-07T10:13:14+02:00",
+          "selected_by": "user",
+          "market": "GOAL_BY_70",
+          "event_definition": "At least one valid goal by either team at displayed minute <=70",
+          "home": "Blackburn Rovers",
+          "away": "West Ham United",
+          "kickoff_ro": "2026-11-07T17:00:00+02:00",
+          "match_id": "5836923",
+          "provider": "FotMob",
+          "raw_rank": "15",
+          "model_snapshot_at_ro": "2026-11-07T09:00:06.281+02:00",
+          "p_raw": "0.9235737130092319",
+          "p_stress": "0.8721813551893924",
+          "fair_odds": "1.0827506087648948",
+          "calibrated": "False",
+          "market_price": "",
+          "stake": "",
+          "actual_first_goal_minute": "",
+          "actual_corners_1h": "",
+          "result": "",
+          "result_source": "",
+          "result_verified_at_ro": "",
+          "net_profit": "",
+          "status": "user_selection_pending_dashboard",
+          "analysis_path": "Previews/Pred_Research_Terminal/dist/reports/2026-11-07/goal/5836923.html",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836923"
+        },
+        {
+          "selection_id": "2026-11-07_CORNERS_1H_UNDER_7_5_5887679",
+          "analysis_date": "2026-11-07",
+          "selected_at_ro": "2026-11-07T10:18:27+02:00",
+          "selected_by": "user",
+          "market": "CORNERS_1H_UNDER_7_5",
+          "event_definition": "Both teams combined first-half corners <=7, including added time",
+          "home": "Sporting CP",
+          "away": "Moreirense",
+          "kickoff_ro": "2026-11-07T22:30:00+02:00",
+          "match_id": "5887679",
+          "provider": "FotMob",
+          "raw_rank": "8",
+          "model_snapshot_at_ro": "2026-11-07T09:00:06.276+02:00",
+          "p_raw": "0.9545984693161306",
+          "p_stress": "0.8978507926824137",
+          "fair_odds": "1.0475608668390122",
+          "calibrated": "False",
+          "market_price": "",
+          "stake": "",
+          "actual_first_goal_minute": "",
+          "actual_corners_1h": "",
+          "result": "",
+          "result_source": "",
+          "result_verified_at_ro": "",
+          "net_profit": "",
+          "status": "user_selection_pending_dashboard",
+          "analysis_path": "Previews/Pred_Research_Terminal/dist/reports/2026-11-07/corner/5887679.html",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887679"
+        }
+      ],
       "evidence": {
         "goal": {
           "date": "2026-11-07",

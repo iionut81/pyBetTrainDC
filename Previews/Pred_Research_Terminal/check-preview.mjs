@@ -85,6 +85,16 @@ try{
  await check('Mobile layout keeps all 20 fixtures accessible',`document.querySelectorAll('#matchesBody tr[data-match]').length===20&&getComputedStyle(document.querySelector('.selection-stack')).gridTemplateColumns.split(' ').length===1`);
  await sleep(3300);
  const mobile=await page('Page.captureScreenshot',{format:'png',captureBeyondViewport:false});fs.writeFileSync(path.join(here,'preview-mobile.png'),Buffer.from(mobile.data,'base64'));
+ for(const market of ['goal','corner']){
+  await page('Page.navigate',{url:pathToFileURL(path.join(here,`dist/reports/2026-11-07/${market}/5836925.html`)).href});
+  for(let i=0;i<60;i++){if(await evaluate(`document.body?.dataset.market===${JSON.stringify(market)}`))break;await sleep(100);}
+  await check(`${market} report links the current fixture to its public stats page`, `document.querySelector('header a[href="https://www.fotmob.com/match/5836925"]')?.target==='_blank'`);
+  await check(`${market} historical Bolton–Cardiff row links its own match and preserves raw evidence`, `(()=>{const r=[...document.querySelectorAll('tr')].find(r=>r.textContent.includes('Bolton Wanderers')&&r.textContent.includes('Cardiff City'));return !!r&&r.querySelectorAll('a[href="https://www.fotmob.com/match/5836827"]').length===2&&!!r.querySelector('a[href="https://www.fotmob.com/api/data/matchDetails?matchId=5836827"]')&&[...r.querySelectorAll('a')].every(a=>a.target==='_blank'&&a.rel.includes('noopener'))})()`);
+  await check(`${market} report stays within mobile width with locally scrolling tables`, `document.documentElement.scrollWidth<=390`);
+ }
+ await page('Emulation.setDeviceMetricsOverride',{width:1600,height:1200,deviceScaleFactor:1,mobile:false});
+ await evaluate(`document.querySelector('a[href="https://www.fotmob.com/match/5836827"]').closest('tr').scrollIntoView({block:'center'})`);
+ const statsShot=await page('Page.captureScreenshot',{format:'png',captureBeyondViewport:false});fs.writeFileSync(path.join(here,'report-statistics.png'),Buffer.from(statsShot.data,'base64'));
  if(errors.length)throw Error('Browser runtime exceptions: '+JSON.stringify(errors));
  const result={status:'PASS',browser:'Microsoft Edge headless',desktop:{width:1600,height:1200},mobile:{width:390,height:844},checks,exceptionCount:errors.length,localOnly:true};
  fs.writeFileSync(path.join(here,'verification.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));

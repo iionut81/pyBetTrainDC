@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "6386037",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6386037",
+  "verified_at_utc": "2026-11-07T08:06:09.977Z",
+  "general": {
+    "matchId": "6386037",
+    "matchName": "Sporting de Alcazar-vs-Málaga_Tue, Oct 27, 2026, 20:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DDDDDD",
+        "away": "#518EC7"
+      },
+      "lightMode": {
+        "home": "#333333",
+        "away": "#518EC7"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 138,
+    "leagueName": "Copa del Rey",
+    "leagueRoundName": "1",
+    "parentLeagueId": 138,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Sporting de Alcazar",
+      "id": 190128
+    },
+    "awayTeam": {
+      "name": "Málaga",
+      "id": 9864
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Oct 27, 2026, 20:00 UTC",
+    "matchTimeUTCDate": "2026-10-27T20:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-27T20:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "27.10.2026 21:01:15",
+      "firstHalfEnded": "27.10.2026 21:47:13",
+      "secondHalfStarted": "27.10.2026 22:02:00",
+      "secondHalfEnded": "27.10.2026 22:49:34",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "27.10.2026 22:49:34"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "190128",
+      "name": "Sporting de Alcazar",
+      "score": 0
+    },
+    {
+      "id": "9864",
+      "name": "Málaga",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 71,
+      "added": 0,
+      "display": "71",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 81,
+      "added": 0,
+      "display": "81",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      5
+    ],
+    "SecondHalf": [
+      0,
+      2
+    ],
+    "All": [
+      0,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 78,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

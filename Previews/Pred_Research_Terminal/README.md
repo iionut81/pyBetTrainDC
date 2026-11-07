@@ -227,3 +227,13 @@ Surse UI: `evaluation.js`, `evaluation.css`, incluse în HTMLul autonom de
 ```powershell
 node Previews/Pred_Research_Terminal/check-evaluation.mjs
 ```
+
+### Statistici publice în rapoartele de meci
+
+În antetul fiecărui raport există un link spre pagina publică a partidei cu
+Goluri, cornere și statistici meci. În tabelele istorice, numele partidei și
+Statistici meci deschid pagina acelei observații în tab separat. Dovadă date
+păstrează sursa numerică originală, inclusiv JSON. FotMob și ESPN se identifică
+din URL-ul sursei, fără a presupune furnizorul dintr-un ID numeric. Sursele
+necunoscute au o stare explicită fără link de statistici. Acoperirea externă
+poate varia; totalurile de cornere nu substituie datele primei reprize.
