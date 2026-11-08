@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "id": "5881174",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881174",
+  "verified_at_utc": "2026-11-06T06:30:10.394Z",
+  "general": {
+    "matchId": "5881174",
+    "matchName": "Hamburger SV-vs-1. FC Köln_Sat, Sep 19, 2026, 13:30 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1d63b4",
+        "away": "#E21718"
+      },
+      "lightMode": {
+        "home": "#005AAA",
+        "away": "#E21718"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 54,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "4",
+    "parentLeagueId": 54,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Hamburger SV",
+      "id": 9790
+    },
+    "awayTeam": {
+      "name": "1. FC Köln",
+      "id": 8722
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 13:30 UTC",
+    "matchTimeUTCDate": "2026-09-19T13:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T13:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 15:30:24",
+      "firstHalfEnded": "19.09.2026 16:17:58",
+      "secondHalfStarted": "19.09.2026 16:34:09",
+      "secondHalfEnded": "19.09.2026 17:22:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 17:22:35"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9790",
+      "name": "Hamburger SV",
+      "score": 2
+    },
+    {
+      "id": "8722",
+      "name": "1. FC Köln",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 44,
+      "added": 0,
+      "display": "44",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 0,
+      "display": "90",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      3,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 10,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5881174.json"
+}

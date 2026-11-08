@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5749689",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749689",
+  "verified_at_utc": "2026-11-06T06:30:14.182Z",
+  "general": {
+    "matchId": "5749689",
+    "matchName": "Venezia-vs-Lazio_Sat, Sep 19, 2026, 18:45 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#006127",
+        "away": "#4096da"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#75acd4"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "5",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Venezia",
+      "id": 7881
+    },
+    "awayTeam": {
+      "name": "Lazio",
+      "id": 8543
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-19T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 20:46:06",
+      "firstHalfEnded": "19.09.2026 21:32:14",
+      "secondHalfStarted": "19.09.2026 21:47:20",
+      "secondHalfEnded": "19.09.2026 22:35:16",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 22:35:16"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7881",
+      "name": "Venezia",
+      "score": 0
+    },
+    {
+      "id": "8543",
+      "name": "Lazio",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      7,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5749689.json"
+}

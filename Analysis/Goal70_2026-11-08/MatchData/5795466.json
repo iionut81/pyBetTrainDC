@@ -1,0 +1,173 @@
+{
+  "ok": true,
+  "id": "5795466",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795466",
+  "verified_at_utc": "2026-11-08T08:33:17.022Z",
+  "general": {
+    "matchId": "5795466",
+    "matchName": "Aston Villa-vs-Brentford_Sat, Oct 10, 2026, 14:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#9d2358",
+        "away": "#C00808"
+      },
+      "lightMode": {
+        "home": "#7D1142",
+        "away": "#C00808"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 47,
+    "leagueName": "Premier League",
+    "leagueRoundName": "6",
+    "parentLeagueId": 47,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Aston Villa",
+      "id": 10252
+    },
+    "awayTeam": {
+      "name": "Brentford",
+      "id": 9937
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-10T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 16:00:23",
+      "firstHalfEnded": "10.10.2026 16:50:48",
+      "secondHalfStarted": "10.10.2026 17:07:09",
+      "secondHalfEnded": "10.10.2026 17:58:32",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 17:58:32"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10252",
+      "name": "Aston Villa",
+      "score": 2
+    },
+    {
+      "id": "9937",
+      "name": "Brentford",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 77,
+      "added": 0,
+      "display": "77",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 10,
+      "added": 0,
+      "display": "10",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      2,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5104974",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104974",
+  "verified_at_utc": "2026-11-08T08:33:23.883Z",
+  "general": {
+    "matchId": "5104974",
+    "matchName": "Hamarkameratene-vs-Aalesund_Sun, Aug 9, 2026, 15:00 UTC",
+    "matchRound": "17",
+    "teamColors": {
+      "darkMode": {
+        "home": "#009040",
+        "away": "#eb7805"
+      },
+      "lightMode": {
+        "home": "#009040",
+        "away": "#eb7805"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "17",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Hamarkameratene",
+      "id": 8448
+    },
+    "awayTeam": {
+      "name": "Aalesund",
+      "id": 8404
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 9, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-08-09T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-09T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.08.2026 17:00:14",
+      "firstHalfEnded": "09.08.2026 17:48:04",
+      "secondHalfStarted": "09.08.2026 18:04:14",
+      "secondHalfEnded": "09.08.2026 18:55:25",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.08.2026 18:55:25"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8448",
+      "name": "Hamarkameratene",
+      "score": 1
+    },
+    {
+      "id": "8404",
+      "name": "Aalesund",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      6,
+      2
+    ],
+    "All": [
+      8,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

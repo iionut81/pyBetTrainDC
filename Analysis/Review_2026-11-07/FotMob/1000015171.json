@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "1000015171",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015171",
+  "verified_at_utc": "2026-11-08T08:31:24.221Z",
+  "general": {
+    "matchId": "1000015171",
+    "matchName": "Čukarički-vs-Radnički Niš_Sat, Nov 7, 2026, 14:00 UTC",
+    "matchRound": "15",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#F01008"
+      },
+      "lightMode": {
+        "home": "#1e1e1e",
+        "away": "#F01008"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "15",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Čukarički",
+      "id": 6374
+    },
+    "awayTeam": {
+      "name": "Radnički Niš",
+      "id": 6410
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 15:02:08",
+      "firstHalfEnded": "07.11.2026 15:48:15",
+      "secondHalfStarted": "07.11.2026 16:04:53",
+      "secondHalfEnded": "07.11.2026 16:52:43",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 16:52:43"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6374",
+      "name": "Čukarički",
+      "score": 2
+    },
+    {
+      "id": "6410",
+      "name": "Radnički Niš",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 64,
+      "added": 0,
+      "display": "64"
+    },
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75"
+    },
+    {
+      "side": "away",
+      "minute": 4,
+      "added": 0,
+      "display": "4"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      5,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 9,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

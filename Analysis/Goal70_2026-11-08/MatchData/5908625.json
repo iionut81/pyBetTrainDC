@@ -1,0 +1,134 @@
+{
+  "ok": true,
+  "id": "5908625",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908625",
+  "verified_at_utc": "2026-11-07T06:59:44.963Z",
+  "general": {
+    "matchId": "5908625",
+    "matchName": "Fatih Karagümrük-vs-Manisa Futbol Kulübü_Sun, Sep 13, 2026, 17:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#B41D2C",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#B41D2C",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "7",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Fatih Karagümrük",
+      "id": 2088
+    },
+    "awayTeam": {
+      "name": "Manisa Futbol Kulübü",
+      "id": 658812
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-13T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 19:00:15",
+      "firstHalfEnded": "13.09.2026 19:47:33",
+      "secondHalfStarted": "13.09.2026 20:03:33",
+      "secondHalfEnded": "13.09.2026 20:53:48",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 20:53:48"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2088",
+      "name": "Fatih Karagümrük",
+      "score": 1
+    },
+    {
+      "id": "658812",
+      "name": "Manisa Futbol Kulübü",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31"
+    },
+    {
+      "side": "away",
+      "minute": 71,
+      "added": 0,
+      "display": "71"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      5,
+      0
+    ],
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 21,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5908625.json"
+}

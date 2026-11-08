@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5793937",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793937",
+  "verified_at_utc": "2026-11-07T06:56:33.406Z",
+  "general": {
+    "matchId": "5793937",
+    "matchName": "St. Johnstone-vs-Falkirk_Sat, Sep 19, 2026, 14:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2659C2",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#2659C2",
+        "away": "#00366e"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "7",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "St. Johnstone",
+      "id": 8467
+    },
+    "awayTeam": {
+      "name": "Falkirk",
+      "id": 8596
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-19T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T14:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 16:00:22",
+      "firstHalfEnded": "19.09.2026 16:48:54",
+      "secondHalfStarted": "19.09.2026 17:03:33",
+      "secondHalfEnded": "19.09.2026 17:54:19",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 17:54:19"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8467",
+      "name": "St. Johnstone",
+      "score": 1
+    },
+    {
+      "id": "8596",
+      "name": "Falkirk",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 6,
+      "display": "90+6",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      5
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      3,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 53,
+      "card": "YellowRed",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5793937.json"
+}

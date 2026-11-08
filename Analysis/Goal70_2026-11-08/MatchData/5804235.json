@@ -1,0 +1,162 @@
+{
+  "ok": true,
+  "id": "5804235",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804235",
+  "verified_at_utc": "2026-11-05T06:08:55.135Z",
+  "general": {
+    "matchId": "5804235",
+    "matchName": "Lugano-vs-FC Zürich_Sun, Aug 9, 2026, 12:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F8F8FA",
+        "away": "#3F9FE7"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#3F9FE7"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937880,
+    "leagueName": "Super League",
+    "leagueRoundName": "3",
+    "parentLeagueId": 69,
+    "countryCode": "SUI",
+    "homeTeam": {
+      "name": "Lugano",
+      "id": 7896
+    },
+    "awayTeam": {
+      "name": "FC Zürich",
+      "id": 10243
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 9, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-08-09T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-09T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.08.2026 14:00:00",
+      "firstHalfEnded": "09.08.2026 14:48:01",
+      "secondHalfStarted": "09.08.2026 15:05:52",
+      "secondHalfEnded": "09.08.2026 15:53:16",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.08.2026 15:53:16"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "5 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7896",
+      "name": "Lugano",
+      "score": 5
+    },
+    {
+      "id": "10243",
+      "name": "FC Zürich",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 16,
+      "added": 0,
+      "display": "16",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 34,
+      "added": 0,
+      "display": "34",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 52,
+      "added": 0,
+      "display": "52",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      5,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5804235.json"
+}

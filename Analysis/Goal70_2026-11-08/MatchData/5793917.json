@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "id": "5793917",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793917",
+  "verified_at_utc": "2026-11-05T06:04:57.881Z",
+  "general": {
+    "matchId": "5793917",
+    "matchName": "Celtic-vs-Falkirk_Sat, Aug 29, 2026, 14:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#007838",
+        "away": "#005992"
+      },
+      "lightMode": {
+        "home": "#007838",
+        "away": "#00366e"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "4",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "Celtic",
+      "id": 9925
+    },
+    "awayTeam": {
+      "name": "Falkirk",
+      "id": 8596
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 29, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-08-29T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-29T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "29.08.2026 16:01:59",
+      "firstHalfEnded": "29.08.2026 16:48:21",
+      "secondHalfStarted": "29.08.2026 17:03:49",
+      "secondHalfEnded": "29.08.2026 17:51:12",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "29.08.2026 17:51:12"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9925",
+      "name": "Celtic",
+      "score": 2
+    },
+    {
+      "id": "8596",
+      "name": "Falkirk",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 72,
+      "added": 0,
+      "display": "72",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5793917.json"
+}

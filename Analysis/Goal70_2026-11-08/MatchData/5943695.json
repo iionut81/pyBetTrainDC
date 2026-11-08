@@ -1,0 +1,155 @@
+{
+  "ok": true,
+  "id": "5943695",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943695",
+  "verified_at_utc": "2026-11-05T06:02:52.914Z",
+  "general": {
+    "matchId": "5943695",
+    "matchName": "Artis Brno-vs-Bohemians 1905_Wed, Nov 4, 2026, 17:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004daa",
+        "away": "#00834A"
+      },
+      "lightMode": {
+        "home": "#004daa",
+        "away": "#00834A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "11",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Artis Brno",
+      "id": 106189
+    },
+    "awayTeam": {
+      "name": "Bohemians 1905",
+      "id": 1670
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Wed, Nov 4, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-11-04T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-04T17:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "04.11.2026 18:00:31",
+      "firstHalfEnded": "04.11.2026 18:51:51",
+      "secondHalfStarted": "04.11.2026 19:07:48",
+      "secondHalfEnded": "04.11.2026 19:57:12",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "04.11.2026 19:57:12"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "106189",
+      "name": "Artis Brno",
+      "score": 1
+    },
+    {
+      "id": "1670",
+      "name": "Bohemians 1905",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 6,
+      "added": 0,
+      "display": "6"
+    },
+    {
+      "side": "away",
+      "minute": 44,
+      "added": 0,
+      "display": "44"
+    },
+    {
+      "side": "away",
+      "minute": 63,
+      "added": 0,
+      "display": "63"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      3,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5943695.json"
+}

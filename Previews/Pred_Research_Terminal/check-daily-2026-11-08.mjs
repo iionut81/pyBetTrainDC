@@ -1,0 +1,34 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {pathToFileURL} from 'node:url';
+const here=path.resolve('Previews/Pred_Research_Terminal');
+let s=fs.readFileSync(path.join(here,'check-preview.mjs'),'utf8');
+s=s.slice(0,s.indexOf(" await check('Dashboard opens"));
+s=s.replace('const here=path.dirname(fileURLToPath(import.meta.url));','const here='+JSON.stringify(here)+';');
+s+=`
+ await check('Today has105fixtures,103goal and81corner models', 'DATA.date==="2026-11-08"&&DATA.matches.length===105&&DATA.coverage.goal===103&&DATA.coverage.corner===81');
+ await check('Analyst candidates distinct from user choices', 'document.querySelector(".goal-card").textContent.includes("Cambuur")&&document.querySelector(".corner-card").textContent.includes("Girona")&&DATA.userSelections.length===0');
+ await check('Today has no fabricated outcomes', 'DATA.matches.every(m=>m.goal.outcome.result==="pending"&&m.corner.outcome.result==="pending")&&!document.querySelector("#outcomeStrip")');
+ await evaluate('setMarket("corner")');
+ await check('Today corner review stays pending and dated', 'document.querySelector("#reviewPanel").dataset.reviewDate==="2026-11-08"&&document.querySelector("#reviewPanel").dataset.market==="corner"&&!document.querySelector("#outcomeStrip")');
+ await check('Missing probabilities are null', 'DATA.matches.filter(m=>m.corner.p===null).length===24&&DATA.matches.filter(m=>m.goal.p===null).length===2');
+ await evaluate('selectDay("2026-11-07");setMarket("goal")');
+ await check('Yesterday goal has100verified outcomes and14failures', 'document.querySelectorAll("#outcomeStrip span").length===100&&document.querySelectorAll("#outcomeStrip .failed").length===14');
+ await check('Blackburn choice successful and pinned first with original probability', 'document.querySelector(".goal-card").textContent.includes("Blackburn")&&document.querySelector(".goal-card .choice-result").textContent==="-Succes"&&filteredMatches()[0].id==="5836923"&&DATA.matches.find(m=>m.id==="5836923").goal.p===0.9235737130092319');
+ await evaluate('setMarket("corner")');
+ await check('Yesterday corners include all98verified outcomes and14failures', 'document.querySelectorAll("#outcomeStrip span").length===98&&document.querySelectorAll("#outcomeStrip .failed").length===14');
+ await check('Excelsior current choice successful, Sporting revoked and not pinned', 'document.querySelector(".corner-card").textContent.includes("Excelsior")&&document.querySelector(".corner-card .choice-result").textContent==="-Succes"&&filteredMatches()[0].id==="5781800"&&!DATA.matches.find(m=>m.id==="5887679").userCorner');
+ await evaluate('document.querySelector("#reviewPanel [data-review-history=fail]").click()');
+ await check('History failures include unmodeled Roma and modeled Sporting', 'state.historyDate==="2026-11-07"&&state.historyMarket==="corner"&&document.querySelectorAll("#historyBody tr").length===14&&document.querySelector("#historyBody").textContent.includes("Roma")&&document.querySelector("#historyBody").textContent.includes("Sporting")');
+ await evaluate('setView("overview");selectDay("2026-11-08");setMarket("goal")');
+ await check('Returning today clears yesterday outcome strip', '!document.querySelector("#outcomeStrip")&&document.querySelector("#reviewPanel").dataset.reviewDate==="2026-11-08"');
+ const screenshot=await page('Page.captureScreenshot',{format:'png',captureBeyondViewport:false});fs.writeFileSync(path.join(here,'preview-daily-2026-11-08.png'),Buffer.from(screenshot.data,'base64'));
+ await page('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true});
+ await check('Mobile has no horizontal overflow', 'document.documentElement.scrollWidth<=390');
+ if(errors.length)throw Error(JSON.stringify(errors));
+ const result={status:'PASS',date:'2026-11-08',checks,exceptions:errors.length,verified_at_utc:new Date().toISOString()};
+ fs.writeFileSync(path.join(here,'daily-verification-2026-11-08.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+}catch(error){console.error('Browser diagnostics:',browserErrors);throw error;}finally{if(ws?.readyState===WebSocket.OPEN){try{await send('Browser.close');}catch{}ws.close();}if(proc.exitCode===null)proc.kill();}
+`;
+fs.mkdirSync(path.join(here,'.runtime'),{recursive:true});
+const runtime=path.join(here,'.runtime','daily-2026-11-08-runtime.mjs');fs.writeFileSync(runtime,s);await import(pathToFileURL(runtime).href);

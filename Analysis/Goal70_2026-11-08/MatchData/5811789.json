@@ -1,0 +1,188 @@
+{
+  "ok": true,
+  "id": "5811789",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811789",
+  "verified_at_utc": "2026-11-05T06:04:57.414Z",
+  "general": {
+    "matchId": "5811789",
+    "matchName": "Union St.Gilloise-vs-Cercle Brugge_Sun, Oct 25, 2026, 18:15 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F6E000",
+        "away": "#006a33"
+      },
+      "lightMode": {
+        "home": "#daa000",
+        "away": "#00521f"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "9",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Union St.Gilloise",
+      "id": 7978
+    },
+    "awayTeam": {
+      "name": "Cercle Brugge",
+      "id": 9984
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 18:15 UTC",
+    "matchTimeUTCDate": "2026-10-25T18:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T18:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 19:18:08",
+      "firstHalfEnded": "25.10.2026 20:05:17",
+      "secondHalfStarted": "25.10.2026 20:21:20",
+      "secondHalfEnded": "25.10.2026 21:13:47",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 21:13:47"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "5 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7978",
+      "name": "Union St.Gilloise",
+      "score": 5
+    },
+    {
+      "id": "9984",
+      "name": "Cercle Brugge",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": true
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 48,
+      "added": 0,
+      "display": "48",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      10,
+      1
+    ],
+    "All": [
+      13,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 64,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5811789.json"
+}

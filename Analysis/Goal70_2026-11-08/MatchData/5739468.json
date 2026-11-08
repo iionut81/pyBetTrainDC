@@ -1,0 +1,167 @@
+{
+  "ok": true,
+  "id": "5739468",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739468",
+  "verified_at_utc": "2026-11-06T06:30:46.812Z",
+  "general": {
+    "matchId": "5739468",
+    "matchName": "FC København-vs-Lyngby_Sun, Jul 26, 2026, 14:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#0048bc"
+      },
+      "lightMode": {
+        "home": "#375196",
+        "away": "#C0002B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "1",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "FC København",
+      "id": 8391
+    },
+    "awayTeam": {
+      "name": "Lyngby",
+      "id": 9907
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Jul 26, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-07-26T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-26T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "26.07.2026 16:03:06",
+      "firstHalfEnded": "26.07.2026 16:50:33",
+      "secondHalfStarted": "26.07.2026 17:06:11",
+      "secondHalfEnded": "26.07.2026 17:56:37",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.07.2026 17:56:37"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8391",
+      "name": "FC København",
+      "score": 3
+    },
+    {
+      "id": "9907",
+      "name": "Lyngby",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 36,
+      "added": 0,
+      "display": "36",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 39,
+      "added": 0,
+      "display": "39",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      5,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5739468.json"
+}

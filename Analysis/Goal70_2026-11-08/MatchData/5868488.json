@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "5868488",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868488",
+  "verified_at_utc": "2026-11-08T08:33:28.752Z",
+  "general": {
+    "matchId": "5868488",
+    "matchName": "Mallorca-vs-Las Palmas_Sun, Oct 11, 2026, 16:30 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E20613",
+        "away": "#FFD700"
+      },
+      "lightMode": {
+        "home": "#c2071f",
+        "away": "#da9f00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "9",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Mallorca",
+      "id": 8661
+    },
+    "awayTeam": {
+      "name": "Las Palmas",
+      "id": 8306
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 11, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-10-11T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-11T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "11.10.2026 18:32:00",
+      "firstHalfEnded": "11.10.2026 19:19:21",
+      "secondHalfStarted": "11.10.2026 19:37:38",
+      "secondHalfEnded": "11.10.2026 20:27:25",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.10.2026 20:27:25"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8661",
+      "name": "Mallorca",
+      "score": 3
+    },
+    {
+      "id": "8306",
+      "name": "Las Palmas",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 73,
+      "added": 0,
+      "display": "73",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      7,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

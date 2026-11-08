@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "5104846",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104846",
+  "verified_at_utc": "2026-11-08T08:33:22.437Z",
+  "general": {
+    "matchId": "5104846",
+    "matchName": "Sarpsborg 08-vs-Bodø/Glimt_Wed, Apr 15, 2026, 17:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2255a5",
+        "away": "#f8dc03"
+      },
+      "lightMode": {
+        "home": "#102763",
+        "away": "#e09d00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "1",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Sarpsborg 08",
+      "id": 8509
+    },
+    "awayTeam": {
+      "name": "Bodø/Glimt",
+      "id": 8402
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Apr 15, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-04-15T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-15T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.04.2026 19:00:18",
+      "firstHalfEnded": "15.04.2026 19:46:46",
+      "secondHalfStarted": "15.04.2026 20:02:58",
+      "secondHalfEnded": "15.04.2026 20:57:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.04.2026 20:57:35"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8509",
+      "name": "Sarpsborg 08",
+      "score": 1
+    },
+    {
+      "id": "8402",
+      "name": "Bodø/Glimt",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 33,
+      "added": 0,
+      "display": "33",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 64,
+      "added": 0,
+      "display": "64",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      4,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

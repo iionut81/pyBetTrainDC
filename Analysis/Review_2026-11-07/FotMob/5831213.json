@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5831213",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831213",
+  "verified_at_utc": "2026-11-08T08:31:14.579Z",
+  "general": {
+    "matchId": "5831213",
+    "matchName": "FC Zbrojovka Brno-vs-Baník Ostrava_Sat, Nov 7, 2026, 17:00 UTC",
+    "matchRound": "14",
+    "teamColors": {
+      "darkMode": {
+        "home": "#c4201b",
+        "away": "#1868A0"
+      },
+      "lightMode": {
+        "home": "#c4201b",
+        "away": "#1868A0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "14",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "FC Zbrojovka Brno",
+      "id": 1673
+    },
+    "awayTeam": {
+      "name": "Baník Ostrava",
+      "id": 6362
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 18:01:50",
+      "firstHalfEnded": "07.11.2026 18:46:41",
+      "secondHalfStarted": "07.11.2026 19:03:03",
+      "secondHalfEnded": "07.11.2026 19:52:05",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 19:52:05"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1673",
+      "name": "FC Zbrojovka Brno",
+      "score": 1
+    },
+    {
+      "id": "6362",
+      "name": "Baník Ostrava",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 48,
+      "added": 0,
+      "display": "48"
+    },
+    {
+      "side": "away",
+      "minute": 23,
+      "added": 0,
+      "display": "23"
+    },
+    {
+      "side": "away",
+      "minute": 26,
+      "added": 0,
+      "display": "26"
+    },
+    {
+      "side": "away",
+      "minute": 75,
+      "added": 0,
+      "display": "75"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      5
+    ],
+    "All": [
+      3,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

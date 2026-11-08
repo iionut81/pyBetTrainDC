@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "1000015100",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015100",
+  "verified_at_utc": "2026-11-07T07:00:02.835Z",
+  "general": {
+    "matchId": "1000015100",
+    "matchName": "Čukarički-vs-OFK Beograd_Sat, Aug 15, 2026, 19:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#025098"
+      },
+      "lightMode": {
+        "home": "#1e1e1e",
+        "away": "#025098"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "5",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Čukarički",
+      "id": 6374
+    },
+    "awayTeam": {
+      "name": "OFK Beograd",
+      "id": 8692
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 15, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-15T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-15T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.08.2026 21:02:41",
+      "firstHalfEnded": "15.08.2026 21:50:56",
+      "secondHalfStarted": "15.08.2026 22:08:03",
+      "secondHalfEnded": "15.08.2026 22:58:11",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.08.2026 22:58:11"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6374",
+      "name": "Čukarički",
+      "score": 2
+    },
+    {
+      "id": "8692",
+      "name": "OFK Beograd",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 22,
+      "added": 0,
+      "display": "22"
+    },
+    {
+      "side": "home",
+      "minute": 77,
+      "added": 0,
+      "display": "77"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      4
+    ],
+    "All": [
+      3,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 10,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015100.json"
+}

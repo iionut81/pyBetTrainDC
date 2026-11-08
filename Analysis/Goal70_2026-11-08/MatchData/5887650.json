@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "id": "5887650",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887650",
+  "verified_at_utc": "2026-11-04T06:04:24.398Z",
+  "general": {
+    "matchId": "5887650",
+    "matchName": "Marítimo-vs-FC Porto_Sat, Oct 10, 2026, 17:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#21835E",
+        "away": "#005898"
+      },
+      "lightMode": {
+        "home": "#0A5B43",
+        "away": "#005898"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "8",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Marítimo",
+      "id": 10212
+    },
+    "awayTeam": {
+      "name": "FC Porto",
+      "id": 9773
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-10-10T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 19:01:56",
+      "firstHalfEnded": "10.10.2026 19:48:45",
+      "secondHalfStarted": "10.10.2026 20:05:24",
+      "secondHalfEnded": "10.10.2026 20:58:04",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 20:58:04"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10212",
+      "name": "Marítimo",
+      "score": 1
+    },
+    {
+      "id": "9773",
+      "name": "FC Porto",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 16,
+      "added": 0,
+      "display": "16",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 42,
+      "added": 0,
+      "display": "42",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 84,
+      "added": 0,
+      "display": "84",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      2,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5887650.json"
+}

@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5749667",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749667",
+  "verified_at_utc": "2026-11-05T06:04:40.217Z",
+  "general": {
+    "matchId": "5749667",
+    "matchName": "Juventus-vs-Milan_Sun, Sep 6, 2026, 18:45 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFFFFF",
+        "away": "#CF2C27"
+      },
+      "lightMode": {
+        "home": "#000001",
+        "away": "#CF2C27"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "3",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Juventus",
+      "id": 9885
+    },
+    "awayTeam": {
+      "name": "Milan",
+      "id": 8564
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-06T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 20:45:16",
+      "firstHalfEnded": "06.09.2026 21:33:39",
+      "secondHalfStarted": "06.09.2026 21:50:21",
+      "secondHalfEnded": "06.09.2026 22:41:31",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 22:41:31"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9885",
+      "name": "Juventus",
+      "score": 1
+    },
+    {
+      "id": "8564",
+      "name": "Milan",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      7,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5749667.json"
+}

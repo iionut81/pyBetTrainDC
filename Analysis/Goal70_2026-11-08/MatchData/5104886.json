@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "id": "5104886",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104886",
+  "verified_at_utc": "2026-11-08T08:33:24.297Z",
+  "general": {
+    "matchId": "5104886",
+    "matchName": "KFUM-vs-Sarpsborg 08_Sun, Apr 26, 2026, 15:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E60000",
+        "away": "#2255a5"
+      },
+      "lightMode": {
+        "home": "#E60000",
+        "away": "#102763"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "6",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "KFUM",
+      "id": 2305
+    },
+    "awayTeam": {
+      "name": "Sarpsborg 08",
+      "id": 8509
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Apr 26, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-04-26T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-26T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "26.04.2026 17:01:58",
+      "firstHalfEnded": "26.04.2026 17:49:05",
+      "secondHalfStarted": "26.04.2026 18:05:06",
+      "secondHalfEnded": "26.04.2026 19:01:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.04.2026 19:01:35"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2305",
+      "name": "KFUM",
+      "score": 1
+    },
+    {
+      "id": "8509",
+      "name": "Sarpsborg 08",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 33,
+      "added": 0,
+      "display": "33",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      1,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

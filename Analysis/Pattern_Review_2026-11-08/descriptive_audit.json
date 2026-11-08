@@ -1,0 +1,319 @@
+{
+  "asOf": "2026-11-08",
+  "verifiedPredictionDays": [
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07"
+  ],
+  "latestUserChoices": [
+    {
+      "home": "Brighton & Hove Albion",
+      "away": "Brentford",
+      "market": "GOAL_BY_70",
+      "result": "pending"
+    },
+    {
+      "home": "Girona",
+      "away": "Almería",
+      "market": "CORNERS_1H_UNDER_7_5",
+      "result": "pending"
+    }
+  ],
+  "markets": {
+    "goal": {
+      "models": {
+        "n": 229,
+        "success": 197,
+        "fail": 32,
+        "rate": 0.8602620087336245,
+        "meanP": 0.8735053667182014
+      },
+      "analystFlags": {
+        "n": 7,
+        "success": 7,
+        "fail": 0,
+        "rate": 1,
+        "meanP": 0.9418013240275785
+      },
+      "user": {
+        "n": 6,
+        "success": 6,
+        "fail": 0,
+        "rate": 1,
+        "meanP": 0.8937894882694328
+      },
+      "byResult": {
+        "success": {
+          "n": 197,
+          "p": {
+            "n": 197,
+            "mean": 0.8768404307887276
+          },
+          "historicalRate": {
+            "n": 197,
+            "mean": 0.879845392057069
+          },
+          "venueRate": {
+            "n": 197,
+            "mean": 0.8768590376142542
+          },
+          "minOwnVenueRate": {
+            "n": 157,
+            "mean": 0.7636738526865913
+          },
+          "maxVenueDispersion": {
+            "n": 0,
+            "mean": null
+          },
+          "priorEight": {
+            "n": 0,
+            "mean": null
+          },
+          "priorSeven": {
+            "n": 0,
+            "mean": null
+          }
+        },
+        "fail": {
+          "n": 32,
+          "p": {
+            "n": 32,
+            "mean": 0.8529738785340238
+          },
+          "historicalRate": {
+            "n": 32,
+            "mean": 0.8569916409523632
+          },
+          "venueRate": {
+            "n": 32,
+            "mean": 0.8389245609374287
+          },
+          "minOwnVenueRate": {
+            "n": 26,
+            "mean": 0.7314384333615104
+          },
+          "maxVenueDispersion": {
+            "n": 0,
+            "mean": null
+          },
+          "priorEight": {
+            "n": 0,
+            "mean": null
+          },
+          "priorSeven": {
+            "n": 0,
+            "mean": null
+          }
+        }
+      },
+      "perfectHistoricalFailures": [
+        {
+          "date": "2026-11-07",
+          "match": "Watford-Middlesbrough",
+          "minute": "",
+          "corners": "",
+          "p": 0.89270174122853
+        }
+      ],
+      "byDay": [
+        {
+          "date": "2026-11-02",
+          "n": 26,
+          "success": 22,
+          "fail": 4,
+          "rate": 0.8461538461538461,
+          "meanP": 0.8617844000631039
+        },
+        {
+          "date": "2026-11-03",
+          "n": 20,
+          "success": 18,
+          "fail": 2,
+          "rate": 0.9,
+          "meanP": 0.8899683721030783
+        },
+        {
+          "date": "2026-11-04",
+          "n": 17,
+          "success": 16,
+          "fail": 1,
+          "rate": 0.9411764705882353,
+          "meanP": 0.8828669585445714
+        },
+        {
+          "date": "2026-11-05",
+          "n": 33,
+          "success": 29,
+          "fail": 4,
+          "rate": 0.8787878787878788,
+          "meanP": 0.8865705827009567
+        },
+        {
+          "date": "2026-11-06",
+          "n": 33,
+          "success": 26,
+          "fail": 7,
+          "rate": 0.7878787878787878,
+          "meanP": 0.8564714850558011
+        },
+        {
+          "date": "2026-11-07",
+          "n": 100,
+          "success": 86,
+          "fail": 14,
+          "rate": 0.86,
+          "meanP": 0.8729784060353518
+        }
+      ]
+    },
+    "corner": {
+      "models": {
+        "n": 195,
+        "success": 173,
+        "fail": 22,
+        "rate": 0.8871794871794871,
+        "meanP": 0.8912978841077627
+      },
+      "analystFlags": {
+        "n": 6,
+        "success": 6,
+        "fail": 0,
+        "rate": 1,
+        "meanP": 0.9679789542634786
+      },
+      "user": {
+        "n": 6,
+        "success": 6,
+        "fail": 0,
+        "rate": 1,
+        "meanP": 0.9633517469169086
+      },
+      "byResult": {
+        "success": {
+          "n": 173,
+          "p": {
+            "n": 173,
+            "mean": 0.8919651019152716
+          },
+          "historicalRate": {
+            "n": 173,
+            "mean": 0.8829632665310042
+          },
+          "venueRate": {
+            "n": 173,
+            "mean": 0.875569637881333
+          },
+          "minOwnVenueRate": {
+            "n": 0,
+            "mean": null
+          },
+          "maxVenueDispersion": {
+            "n": 173,
+            "mean": 1.5517107768648528
+          },
+          "priorEight": {
+            "n": 173,
+            "mean": 2.7803468208092488
+          },
+          "priorSeven": {
+            "n": 173,
+            "mean": 2.1734104046242773
+          }
+        },
+        "fail": {
+          "n": 22,
+          "p": {
+            "n": 22,
+            "mean": 0.886051125894171
+          },
+          "historicalRate": {
+            "n": 22,
+            "mean": 0.8708861592952503
+          },
+          "venueRate": {
+            "n": 22,
+            "mean": 0.8599878656696839
+          },
+          "minOwnVenueRate": {
+            "n": 0,
+            "mean": null
+          },
+          "maxVenueDispersion": {
+            "n": 22,
+            "mean": 1.7598654594957415
+          },
+          "priorEight": {
+            "n": 22,
+            "mean": 2.909090909090909
+          },
+          "priorSeven": {
+            "n": 22,
+            "mean": 1.7272727272727273
+          }
+        }
+      },
+      "perfectHistoricalFailures": [
+        {
+          "date": "2026-11-04",
+          "match": "Fenerbahçe-Liverpool",
+          "minute": "",
+          "corners": "8",
+          "p": 0.8911438260313413
+        }
+      ],
+      "byDay": [
+        {
+          "date": "2026-11-02",
+          "n": 26,
+          "success": 22,
+          "fail": 4,
+          "rate": 0.8461538461538461,
+          "meanP": 0.9111605586153508
+        },
+        {
+          "date": "2026-11-03",
+          "n": 19,
+          "success": 17,
+          "fail": 2,
+          "rate": 0.8947368421052632,
+          "meanP": 0.8882237105565111
+        },
+        {
+          "date": "2026-11-04",
+          "n": 16,
+          "success": 15,
+          "fail": 1,
+          "rate": 0.9375,
+          "meanP": 0.8566551751519301
+        },
+        {
+          "date": "2026-11-05",
+          "n": 21,
+          "success": 21,
+          "fail": 0,
+          "rate": 1,
+          "meanP": 0.8872316084137892
+        },
+        {
+          "date": "2026-11-06",
+          "n": 31,
+          "success": 29,
+          "fail": 2,
+          "rate": 0.9354838709677419,
+          "meanP": 0.9002025197192116
+        },
+        {
+          "date": "2026-11-07",
+          "n": 82,
+          "success": 69,
+          "fail": 13,
+          "rate": 0.8414634146341463,
+          "meanP": 0.8901468010490861
+        }
+      ]
+    }
+  }
+}

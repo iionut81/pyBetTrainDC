@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "id": "5781718",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781718",
+  "verified_at_utc": "2026-11-06T06:30:26.320Z",
+  "general": {
+    "matchId": "5781718",
+    "matchName": "Ajax-vs-Willem II_Tue, Sep 15, 2026, 18:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C2002F",
+        "away": "#0055a4"
+      },
+      "lightMode": {
+        "home": "#C2002F",
+        "away": "#242C51"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "3",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "Ajax",
+      "id": 8593
+    },
+    "awayTeam": {
+      "name": "Willem II",
+      "id": 8525
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Sep 15, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-09-15T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-15T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.09.2026 20:00:17",
+      "firstHalfEnded": "15.09.2026 20:46:49",
+      "secondHalfStarted": "15.09.2026 21:02:39",
+      "secondHalfEnded": "15.09.2026 21:49:37",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.09.2026 21:49:37"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "5 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8593",
+      "name": "Ajax",
+      "score": 5
+    },
+    {
+      "id": "8525",
+      "name": "Willem II",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 41,
+      "added": 0,
+      "display": "41",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 69,
+      "added": 0,
+      "display": "69",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      8,
+      1
+    ],
+    "All": [
+      14,
+      2
+    ]
+  },
+  "cards": [],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5781718.json"
+}

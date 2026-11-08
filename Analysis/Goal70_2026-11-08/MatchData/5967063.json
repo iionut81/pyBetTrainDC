@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "5967063",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5967063",
+  "verified_at_utc": "2026-11-08T08:33:30.904Z",
+  "general": {
+    "matchId": "5967063",
+    "matchName": "Virtus Entella-vs-LR Vicenza_Sun, Sep 6, 2026, 13:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#72bce9",
+        "away": "#C50A0D"
+      },
+      "lightMode": {
+        "home": "#66b1dd",
+        "away": "#C50A0D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941726,
+    "leagueName": "Serie B",
+    "leagueRoundName": "3",
+    "parentLeagueId": 86,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Virtus Entella",
+      "id": 208932
+    },
+    "awayTeam": {
+      "name": "LR Vicenza",
+      "id": 145007
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-09-06T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 15:02:25",
+      "firstHalfEnded": "06.09.2026 15:52:44",
+      "secondHalfStarted": "06.09.2026 16:07:30",
+      "secondHalfEnded": "06.09.2026 16:57:24",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 16:57:24"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "208932",
+      "name": "Virtus Entella",
+      "score": 2
+    },
+    {
+      "id": "145007",
+      "name": "LR Vicenza",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 47,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

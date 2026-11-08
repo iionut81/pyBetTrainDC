@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "id": "5793905",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793905",
+  "verified_at_utc": "2026-11-05T06:08:48.529Z",
+  "general": {
+    "matchId": "5793905",
+    "matchName": "Heart of Midlothian-vs-Dundee United_Sun, Aug 9, 2026, 14:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#922e46",
+        "away": "#FD6500"
+      },
+      "lightMode": {
+        "home": "#691B32",
+        "away": "#FD6500"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "2",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "Heart of Midlothian",
+      "id": 9860
+    },
+    "awayTeam": {
+      "name": "Dundee United",
+      "id": 9938
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 9, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-08-09T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-09T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.08.2026 16:01:21",
+      "firstHalfEnded": "09.08.2026 16:48:29",
+      "secondHalfStarted": "09.08.2026 17:03:50",
+      "secondHalfEnded": "09.08.2026 17:51:47",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.08.2026 17:51:47"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9860",
+      "name": "Heart of Midlothian",
+      "score": 4
+    },
+    {
+      "id": "9938",
+      "name": "Dundee United",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      0
+    ],
+    "All": [
+      7,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5793905.json"
+}

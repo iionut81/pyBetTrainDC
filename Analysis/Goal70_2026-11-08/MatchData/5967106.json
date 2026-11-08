@@ -1,0 +1,174 @@
+{
+  "ok": true,
+  "id": "5967106",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5967106",
+  "verified_at_utc": "2026-11-07T06:56:38.602Z",
+  "general": {
+    "matchId": "5967106",
+    "matchName": "Pisa-vs-Cremonese_Sat, Oct 17, 2026, 17:30 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0068B6",
+        "away": "#C8091D"
+      },
+      "lightMode": {
+        "home": "#0068B6",
+        "away": "#C8091D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941726,
+    "leagueName": "Serie B",
+    "leagueRoundName": "7",
+    "parentLeagueId": 86,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Pisa",
+      "id": 6479
+    },
+    "awayTeam": {
+      "name": "Cremonese",
+      "id": 7801
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 17, 2026, 17:30 UTC",
+    "matchTimeUTCDate": "2026-10-17T17:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-17T17:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.10.2026 19:32:32",
+      "firstHalfEnded": "17.10.2026 20:19:08",
+      "secondHalfStarted": "17.10.2026 20:35:13",
+      "secondHalfEnded": "17.10.2026 21:23:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.10.2026 21:23:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6479",
+      "name": "Pisa",
+      "score": 3
+    },
+    {
+      "id": "7801",
+      "name": "Cremonese",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      5,
+      6
+    ],
+    "All": [
+      7,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5967106.json"
+}

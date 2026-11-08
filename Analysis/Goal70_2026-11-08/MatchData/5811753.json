@@ -1,0 +1,121 @@
+{
+  "ok": true,
+  "id": "5811753",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811753",
+  "verified_at_utc": "2026-11-05T06:04:41.071Z",
+  "general": {
+    "matchId": "5811753",
+    "matchName": "Anderlecht-vs-Genk_Sun, Sep 6, 2026, 16:30 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#524d9d",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#3F2B72",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "5",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Anderlecht",
+      "id": 8635
+    },
+    "awayTeam": {
+      "name": "Genk",
+      "id": 9987
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-09-06T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 18:32:18",
+      "firstHalfEnded": "06.09.2026 19:19:00",
+      "secondHalfStarted": "06.09.2026 19:35:16",
+      "secondHalfEnded": "06.09.2026 20:22:58",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 20:22:58"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8635",
+      "name": "Anderlecht",
+      "score": 0
+    },
+    {
+      "id": "9987",
+      "name": "Genk",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      4,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5811753.json"
+}

@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "5811775",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811775",
+  "verified_at_utc": "2026-11-04T06:04:37.331Z",
+  "general": {
+    "matchId": "5811775",
+    "matchName": "Genk-vs-Kortrijk_Sat, Oct 10, 2026, 18:45 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#3E60A8",
+        "away": "#D11624"
+      },
+      "lightMode": {
+        "home": "#005098",
+        "away": "#D11624"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "8",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Genk",
+      "id": 9987
+    },
+    "awayTeam": {
+      "name": "Kortrijk",
+      "id": 8571
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-10-10T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 20:48:39",
+      "firstHalfEnded": "10.10.2026 21:34:12",
+      "secondHalfStarted": "10.10.2026 21:49:59",
+      "secondHalfEnded": "10.10.2026 22:36:41",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 22:36:41"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9987",
+      "name": "Genk",
+      "score": 3
+    },
+    {
+      "id": "8571",
+      "name": "Kortrijk",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      6,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 49,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5811775.json"
+}

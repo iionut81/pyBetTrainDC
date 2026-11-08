@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5795496",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795496",
+  "verified_at_utc": "2026-11-07T06:55:56.387Z",
+  "general": {
+    "matchId": "5795496",
+    "matchName": "Aston Villa-vs-Fulham_Sat, Oct 31, 2026, 20:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#9d2358",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#7D1142",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 47,
+    "leagueName": "Premier League",
+    "leagueRoundName": "9",
+    "parentLeagueId": 47,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Aston Villa",
+      "id": 10252
+    },
+    "awayTeam": {
+      "name": "Fulham",
+      "id": 9879
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 31, 2026, 20:00 UTC",
+    "matchTimeUTCDate": "2026-10-31T20:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-31T20:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "31.10.2026 21:01:22",
+      "firstHalfEnded": "31.10.2026 21:50:38",
+      "secondHalfStarted": "31.10.2026 22:06:33",
+      "secondHalfEnded": "31.10.2026 22:57:33",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "31.10.2026 22:57:33"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10252",
+      "name": "Aston Villa",
+      "score": 1
+    },
+    {
+      "id": "9879",
+      "name": "Fulham",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 39,
+      "added": 0,
+      "display": "39",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 64,
+      "added": 0,
+      "display": "64",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      5
+    ],
+    "All": [
+      7,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5795496.json"
+}

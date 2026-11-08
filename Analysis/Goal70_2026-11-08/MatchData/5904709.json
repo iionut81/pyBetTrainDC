@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5904709",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904709",
+  "verified_at_utc": "2026-11-07T06:59:39.524Z",
+  "general": {
+    "matchId": "5904709",
+    "matchName": "Konyaspor-vs-Rizespor_Sat, Aug 15, 2026, 16:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#008050",
+        "away": "#3c4f9c"
+      },
+      "lightMode": {
+        "home": "#008050",
+        "away": "#002D73"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "1",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Konyaspor",
+      "id": 8622
+    },
+    "awayTeam": {
+      "name": "Rizespor",
+      "id": 2166
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 15, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-08-15T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-15T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.08.2026 18:01:31",
+      "firstHalfEnded": "15.08.2026 18:51:46",
+      "secondHalfStarted": "15.08.2026 19:07:01",
+      "secondHalfEnded": "15.08.2026 20:01:42",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.08.2026 20:01:42"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8622",
+      "name": "Konyaspor",
+      "score": 0
+    },
+    {
+      "id": "2166",
+      "name": "Rizespor",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 7,
+      "display": "90+7",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      5
+    ],
+    "All": [
+      1,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5904709.json"
+}

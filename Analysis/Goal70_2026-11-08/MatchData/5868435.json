@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "5868435",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868435",
+  "verified_at_utc": "2026-11-08T08:33:28.856Z",
+  "general": {
+    "matchId": "5868435",
+    "matchName": "Sporting Gijón-vs-Girona_Sat, Sep 5, 2026, 14:15 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E20019",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#A31F22",
+        "away": "#C58B04"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "4",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Sporting Gijón",
+      "id": 9869
+    },
+    "awayTeam": {
+      "name": "Girona",
+      "id": 7732
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 14:15 UTC",
+    "matchTimeUTCDate": "2026-09-05T14:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T14:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 16:18:11",
+      "firstHalfEnded": "05.09.2026 17:05:38",
+      "secondHalfStarted": "05.09.2026 17:21:10",
+      "secondHalfEnded": "05.09.2026 18:07:37",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 18:07:37"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9869",
+      "name": "Sporting Gijón",
+      "score": 0
+    },
+    {
+      "id": "7732",
+      "name": "Girona",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      0
+    ],
+    "All": [
+      4,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

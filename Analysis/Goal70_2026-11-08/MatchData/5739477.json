@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "5739477",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739477",
+  "verified_at_utc": "2026-11-08T08:33:34.135Z",
+  "general": {
+    "matchId": "5739477",
+    "matchName": "AC Horsens-vs-Brøndby IF_Sun, Aug 9, 2026, 16:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#EEBB02",
+        "away": "#0a5495"
+      },
+      "lightMode": {
+        "home": "#d3a107",
+        "away": "#084070"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "3",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "AC Horsens",
+      "id": 9814
+    },
+    "awayTeam": {
+      "name": "Brøndby IF",
+      "id": 8595
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 9, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-08-09T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-09T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.08.2026 18:01:15",
+      "firstHalfEnded": "09.08.2026 18:48:41",
+      "secondHalfStarted": "09.08.2026 19:05:19",
+      "secondHalfEnded": "09.08.2026 19:55:54",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.08.2026 19:55:54"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9814",
+      "name": "AC Horsens",
+      "score": 0
+    },
+    {
+      "id": "8595",
+      "name": "Brøndby IF",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      3,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,169 @@
+{
+  "ok": true,
+  "id": "5795447",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795447",
+  "verified_at_utc": "2026-11-07T06:55:55.796Z",
+  "general": {
+    "matchId": "5795447",
+    "matchName": "Chelsea-vs-Hull City_Sat, Sep 12, 2026, 14:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#033cc1",
+        "away": "#fd9416"
+      },
+      "lightMode": {
+        "home": "#051495",
+        "away": "#ED8B00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 47,
+    "leagueName": "Premier League",
+    "leagueRoundName": "4",
+    "parentLeagueId": 47,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Chelsea",
+      "id": 8455
+    },
+    "awayTeam": {
+      "name": "Hull City",
+      "id": 8667
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-12T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 16:00:30",
+      "firstHalfEnded": "12.09.2026 16:48:10",
+      "secondHalfStarted": "12.09.2026 17:04:05",
+      "secondHalfEnded": "12.09.2026 17:55:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 17:55:56"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8455",
+      "name": "Chelsea",
+      "score": 2
+    },
+    {
+      "id": "8667",
+      "name": "Hull City",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 7,
+      "added": 0,
+      "display": "7",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 66,
+      "added": 0,
+      "display": "66",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 28,
+      "added": 0,
+      "display": "28",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 34,
+      "added": 0,
+      "display": "34",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      10,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 17,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5795447.json"
+}

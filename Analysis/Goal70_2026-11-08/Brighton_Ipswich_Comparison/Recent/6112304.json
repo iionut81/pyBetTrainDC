@@ -1,0 +1,168 @@
+{
+  "ok": true,
+  "id": "6112304",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112304",
+  "verified_at_utc": "2026-11-08T08:55:56.435Z",
+  "general": {
+    "matchId": "6112304",
+    "matchName": "Sparta Prague-vs-AFC Bournemouth_Thu, Nov 5, 2026, 17:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#a12236",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#8E192B",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943229,
+    "leagueName": "Europa League",
+    "leagueRoundName": "4",
+    "parentLeagueId": 73,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Sparta Prague",
+      "id": 10247
+    },
+    "awayTeam": {
+      "name": "AFC Bournemouth",
+      "id": 8678
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Nov 5, 2026, 17:45 UTC",
+    "matchTimeUTCDate": "2026-11-05T17:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-05T17:45:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.11.2026 18:46:54",
+      "firstHalfEnded": "05.11.2026 19:35:12",
+      "secondHalfStarted": "05.11.2026 19:50:19",
+      "secondHalfEnded": "05.11.2026 20:40:31",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.11.2026 20:40:31"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10247",
+      "name": "Sparta Prague",
+      "score": 1
+    },
+    {
+      "id": "8678",
+      "name": "AFC Bournemouth",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 35,
+      "added": 0,
+      "display": "35",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 81,
+      "added": 0,
+      "display": "81",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 0,
+      "display": "90",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      1,
+      6
+    ],
+    "All": [
+      3,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 6,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 37,
+      "card": "YellowRed",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

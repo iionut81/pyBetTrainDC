@@ -1,0 +1,173 @@
+{
+  "ok": true,
+  "id": "5868022",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868022",
+  "verified_at_utc": "2026-11-08T08:33:17.958Z",
+  "general": {
+    "matchId": "5868022",
+    "matchName": "Atlético Madrid-vs-Villarreal_Sun, Aug 23, 2026, 15:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C63527",
+        "away": "#FFE715"
+      },
+      "lightMode": {
+        "home": "#C63527",
+        "away": "#e19d00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "2",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Atlético Madrid",
+      "id": 9906
+    },
+    "awayTeam": {
+      "name": "Villarreal",
+      "id": 10205
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-08-23T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T15:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 17:02:02",
+      "firstHalfEnded": "23.08.2026 17:52:43",
+      "secondHalfStarted": "23.08.2026 18:10:36",
+      "secondHalfEnded": "23.08.2026 19:05:03",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 19:05:03"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9906",
+      "name": "Atlético Madrid",
+      "score": 2
+    },
+    {
+      "id": "10205",
+      "name": "Villarreal",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 59,
+      "added": 0,
+      "display": "59",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 85,
+      "added": 0,
+      "display": "85",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 66,
+      "added": 0,
+      "display": "66",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 78,
+      "added": 0,
+      "display": "78",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

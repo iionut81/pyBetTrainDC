@@ -1,0 +1,177 @@
+{
+  "ok": true,
+  "id": "5904800",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904800",
+  "verified_at_utc": "2026-11-08T08:31:21.129Z",
+  "general": {
+    "matchId": "5904800",
+    "matchName": "Galatasaray-vs-Amed Sportif_Sat, Nov 7, 2026, 16:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#a11d40",
+        "away": "#1B6900"
+      },
+      "lightMode": {
+        "home": "#8D072A",
+        "away": "#1B6900"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "11",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Galatasaray",
+      "id": 8637
+    },
+    "awayTeam": {
+      "name": "Amed Sportif",
+      "id": 96498
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 17:02:30",
+      "firstHalfEnded": "07.11.2026 17:49:21",
+      "secondHalfStarted": "07.11.2026 18:07:48",
+      "secondHalfEnded": "07.11.2026 18:56:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 18:56:17"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8637",
+      "name": "Galatasaray",
+      "score": 4
+    },
+    {
+      "id": "96498",
+      "name": "Amed Sportif",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 7,
+      "added": 0,
+      "display": "7",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "home",
+      "minute": 59,
+      "added": 0,
+      "display": "59",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      5
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      3,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

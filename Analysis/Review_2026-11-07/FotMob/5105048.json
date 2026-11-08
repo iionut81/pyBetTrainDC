@@ -1,0 +1,171 @@
+{
+  "ok": true,
+  "id": "5105048",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5105048",
+  "verified_at_utc": "2026-11-08T08:31:16.278Z",
+  "general": {
+    "matchId": "5105048",
+    "matchName": "Rosenborg-vs-Start_Sat, Nov 7, 2026, 17:00 UTC",
+    "matchRound": "26",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#F3D000"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#d9a200"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "26",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Rosenborg",
+      "id": 8422
+    },
+    "awayTeam": {
+      "name": "Start",
+      "id": 9919
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 18:00:29",
+      "firstHalfEnded": "07.11.2026 18:47:43",
+      "secondHalfStarted": "07.11.2026 19:03:32",
+      "secondHalfEnded": "07.11.2026 19:54:04",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 19:54:04"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8422",
+      "name": "Rosenborg",
+      "score": 4
+    },
+    {
+      "id": "9919",
+      "name": "Start",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 42,
+      "added": 0,
+      "display": "42",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 5,
+      "display": "90+5",
+      "period": "SecondHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

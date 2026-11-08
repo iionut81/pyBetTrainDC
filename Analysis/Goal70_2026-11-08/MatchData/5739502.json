@@ -1,0 +1,197 @@
+{
+  "ok": true,
+  "id": "5739502",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739502",
+  "verified_at_utc": "2026-11-08T08:33:34.369Z",
+  "general": {
+    "matchId": "5739502",
+    "matchName": "Sønderjyske-vs-AC Horsens_Sun, Sep 6, 2026, 12:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#6CACE4",
+        "away": "#EEBB02"
+      },
+      "lightMode": {
+        "home": "#6CACE4",
+        "away": "#d3a107"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "7",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "Sønderjyske",
+      "id": 8487
+    },
+    "awayTeam": {
+      "name": "AC Horsens",
+      "id": 9814
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-09-06T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T12:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 14:01:24",
+      "firstHalfEnded": "06.09.2026 14:50:10",
+      "secondHalfStarted": "06.09.2026 15:05:57",
+      "secondHalfEnded": "06.09.2026 15:55:19",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 15:55:19"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 5",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8487",
+      "name": "Sønderjyske",
+      "score": 2
+    },
+    {
+      "id": "9814",
+      "name": "AC Horsens",
+      "score": 5
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 56,
+      "added": 0,
+      "display": "56",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      0,
+      1
+    ],
+    "All": [
+      1,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 23,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

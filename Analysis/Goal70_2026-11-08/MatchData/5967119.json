@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "id": "5967119",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5967119",
+  "verified_at_utc": "2026-11-06T06:30:39.516Z",
+  "general": {
+    "matchId": "5967119",
+    "matchName": "Ascoli-vs-Sampdoria_Tue, Oct 27, 2026, 19:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#005eae"
+      },
+      "lightMode": {
+        "home": "#161616",
+        "away": "#1D4892"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941726,
+    "leagueName": "Serie B",
+    "leagueRoundName": "9",
+    "parentLeagueId": 86,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Ascoli",
+      "id": 8522
+    },
+    "awayTeam": {
+      "name": "Sampdoria",
+      "id": 9882
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Oct 27, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-27T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-27T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "27.10.2026 20:02:47",
+      "firstHalfEnded": "27.10.2026 20:49:03",
+      "secondHalfStarted": "27.10.2026 21:04:42",
+      "secondHalfEnded": "27.10.2026 21:54:22",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "27.10.2026 21:54:22"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8522",
+      "name": "Ascoli",
+      "score": 2
+    },
+    {
+      "id": "9882",
+      "name": "Sampdoria",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      9,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5967119.json"
+}

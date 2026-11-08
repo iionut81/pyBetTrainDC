@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "1000015477",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015477",
+  "verified_at_utc": "2026-11-07T07:00:00.137Z",
+  "general": {
+    "matchId": "1000015477",
+    "matchName": "KSC Lokeren-vs-Virton_Sun, Sep 20, 2026, 14:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#2e6b2f"
+      },
+      "lightMode": {
+        "home": "#e09d00",
+        "away": "#2e6b2f"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 264,
+    "leagueName": "Belgian Challenger Pro League",
+    "leagueRoundName": "6",
+    "parentLeagueId": 264,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "KSC Lokeren",
+      "id": 213307
+    },
+    "awayTeam": {
+      "name": "Virton",
+      "id": 8174
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-20T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 16:01:26",
+      "firstHalfEnded": "20.09.2026 16:48:35",
+      "secondHalfStarted": "20.09.2026 17:03:43",
+      "secondHalfEnded": "20.09.2026 17:55:54",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 17:55:54"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "213307",
+      "name": "KSC Lokeren",
+      "score": 1
+    },
+    {
+      "id": "8174",
+      "name": "Virton",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 66,
+      "added": 0,
+      "display": "66",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 64,
+      "added": 0,
+      "display": "64",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      0
+    ],
+    "All": [
+      8,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015477.json"
+}

@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "5881699",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881699",
+  "verified_at_utc": "2026-11-07T06:56:09.000Z",
+  "general": {
+    "matchId": "5881699",
+    "matchName": "Bochum-vs-Wolfsburg_Fri, Oct 23, 2026, 16:30 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0868B0",
+        "away": "#51A600"
+      },
+      "lightMode": {
+        "home": "#0868B0",
+        "away": "#65B32E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 146,
+    "leagueName": "2. Bundesliga",
+    "leagueRoundName": "9",
+    "parentLeagueId": 146,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Bochum",
+      "id": 9911
+    },
+    "awayTeam": {
+      "name": "Wolfsburg",
+      "id": 8721
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 23, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-10-23T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-23T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.10.2026 18:30:58",
+      "firstHalfEnded": "23.10.2026 19:18:02",
+      "secondHalfStarted": "23.10.2026 19:35:33",
+      "secondHalfEnded": "23.10.2026 20:26:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.10.2026 20:26:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9911",
+      "name": "Bochum",
+      "score": 1
+    },
+    {
+      "id": "8721",
+      "name": "Wolfsburg",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 2,
+      "added": 0,
+      "display": "2",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      4
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      5,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5881699.json"
+}

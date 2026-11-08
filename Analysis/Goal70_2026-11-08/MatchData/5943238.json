@@ -1,0 +1,173 @@
+{
+  "ok": true,
+  "id": "5943238",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943238",
+  "verified_at_utc": "2026-11-07T06:56:40.568Z",
+  "general": {
+    "matchId": "5943238",
+    "matchName": "NFC Volos-vs-Iraklis_Sat, Aug 29, 2026, 16:30 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#005cba",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#00439c",
+        "away": "#90a4f8"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941071,
+    "leagueName": "Super League",
+    "leagueRoundName": "2",
+    "parentLeagueId": 135,
+    "countryCode": "GRE",
+    "homeTeam": {
+      "name": "NFC Volos",
+      "id": 885256
+    },
+    "awayTeam": {
+      "name": "Iraklis",
+      "id": 8675
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 29, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-08-29T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-29T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "29.08.2026 18:30:56",
+      "firstHalfEnded": "29.08.2026 19:16:37",
+      "secondHalfStarted": "29.08.2026 19:33:13",
+      "secondHalfEnded": "29.08.2026 20:24:45",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "29.08.2026 20:24:45"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "885256",
+      "name": "NFC Volos",
+      "score": 1
+    },
+    {
+      "id": "8675",
+      "name": "Iraklis",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 84,
+      "added": 0,
+      "display": "84",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      0
+    ],
+    "All": [
+      2,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 56,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5943238.json"
+}

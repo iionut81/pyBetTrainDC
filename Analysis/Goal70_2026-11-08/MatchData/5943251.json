@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "id": "5943251",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943251",
+  "verified_at_utc": "2026-11-05T06:08:58.648Z",
+  "general": {
+    "matchId": "5943251",
+    "matchName": "Panathinaikos-vs-Panetolikos_Sun, Sep 13, 2026, 18:30 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#206830",
+        "away": "#F6D416"
+      },
+      "lightMode": {
+        "home": "#206830",
+        "away": "#df9c00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941071,
+    "leagueName": "Super League",
+    "leagueRoundName": "4",
+    "parentLeagueId": 135,
+    "countryCode": "GRE",
+    "homeTeam": {
+      "name": "Panathinaikos",
+      "id": 10200
+    },
+    "awayTeam": {
+      "name": "Panetolikos",
+      "id": 162386
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-09-13T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 20:32:42",
+      "firstHalfEnded": "13.09.2026 21:19:23",
+      "secondHalfStarted": "13.09.2026 21:37:50",
+      "secondHalfEnded": "13.09.2026 22:24:59",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 22:24:59"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10200",
+      "name": "Panathinaikos",
+      "score": 3
+    },
+    {
+      "id": "162386",
+      "name": "Panetolikos",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 14,
+      "added": 0,
+      "display": "14",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 39,
+      "added": 0,
+      "display": "39",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      8,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5943251.json"
+}

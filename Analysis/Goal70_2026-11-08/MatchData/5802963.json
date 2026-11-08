@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "5802963",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802963",
+  "verified_at_utc": "2026-11-04T06:04:25.830Z",
+  "general": {
+    "matchId": "5802963",
+    "matchName": "Troyes-vs-Lens_Sat, Oct 17, 2026, 18:45 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2d56ae",
+        "away": "#FFCE00"
+      },
+      "lightMode": {
+        "home": "#2A50A1",
+        "away": "#d89f00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "7",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Troyes",
+      "id": 10242
+    },
+    "awayTeam": {
+      "name": "Lens",
+      "id": 8588
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 17, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-10-17T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-17T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.10.2026 20:45:08",
+      "firstHalfEnded": "17.10.2026 21:35:57",
+      "secondHalfStarted": "17.10.2026 21:52:17",
+      "secondHalfEnded": "17.10.2026 22:42:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.10.2026 22:42:35"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10242",
+      "name": "Troyes",
+      "score": 1
+    },
+    {
+      "id": "8588",
+      "name": "Lens",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 26,
+      "added": 0,
+      "display": "26",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      4,
+      0
+    ],
+    "All": [
+      6,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5802963.json"
+}

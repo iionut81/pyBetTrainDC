@@ -1,0 +1,163 @@
+{
+  "ok": true,
+  "id": "5868517",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868517",
+  "verified_at_utc": "2026-11-07T06:56:26.760Z",
+  "general": {
+    "matchId": "5868517",
+    "matchName": "AD Ceuta FC-vs-Sporting Gijón_Sun, Nov 1, 2026, 15:15 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#E20019"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#A31F22"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "12",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "AD Ceuta FC",
+      "id": 357259
+    },
+    "awayTeam": {
+      "name": "Sporting Gijón",
+      "id": 9869
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 15:15 UTC",
+    "matchTimeUTCDate": "2026-11-01T15:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T15:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 16:16:58",
+      "firstHalfEnded": "01.11.2026 17:05:28",
+      "secondHalfStarted": "01.11.2026 17:22:05",
+      "secondHalfEnded": "01.11.2026 18:09:21",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 18:09:21"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "357259",
+      "name": "AD Ceuta FC",
+      "score": 0
+    },
+    {
+      "id": "9869",
+      "name": "Sporting Gijón",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 17,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 47,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868517.json"
+}

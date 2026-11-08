@@ -1,0 +1,171 @@
+{
+  "ok": true,
+  "id": "5107493",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107493",
+  "verified_at_utc": "2026-11-08T08:33:38.191Z",
+  "general": {
+    "matchId": "5107493",
+    "matchName": "Djurgården-vs-Sirius_Mon, May 18, 2026, 17:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#83B2CA",
+        "away": "#175b9e"
+      },
+      "lightMode": {
+        "home": "#15263E",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "8",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Djurgården",
+      "id": 9802
+    },
+    "awayTeam": {
+      "name": "Sirius",
+      "id": 6694
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, May 18, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-05-18T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-18T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.05.2026 19:01:14",
+      "firstHalfEnded": "18.05.2026 19:47:17",
+      "secondHalfStarted": "18.05.2026 20:03:17",
+      "secondHalfEnded": "18.05.2026 20:55:15",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.05.2026 20:55:15"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9802",
+      "name": "Djurgården",
+      "score": 2
+    },
+    {
+      "id": "6694",
+      "name": "Sirius",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      7,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

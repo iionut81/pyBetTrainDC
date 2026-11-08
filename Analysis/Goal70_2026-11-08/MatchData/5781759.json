@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5781759",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781759",
+  "verified_at_utc": "2026-11-05T06:04:52.459Z",
+  "general": {
+    "matchId": "5781759",
+    "matchName": "Feyenoord-vs-AZ Alkmaar_Sat, Oct 10, 2026, 16:45 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D8232A",
+        "away": "#2684DC"
+      },
+      "lightMode": {
+        "home": "#D8232A",
+        "away": "#0D273E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "8",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "Feyenoord",
+      "id": 10235
+    },
+    "awayTeam": {
+      "name": "AZ Alkmaar",
+      "id": 10229
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 16:45 UTC",
+    "matchTimeUTCDate": "2026-10-10T16:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T16:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 18:47:22",
+      "firstHalfEnded": "10.10.2026 19:35:57",
+      "secondHalfStarted": "10.10.2026 19:52:22",
+      "secondHalfEnded": "10.10.2026 20:40:45",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 20:40:45"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10235",
+      "name": "Feyenoord",
+      "score": 2
+    },
+    {
+      "id": "10229",
+      "name": "AZ Alkmaar",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 59,
+      "added": 0,
+      "display": "59",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      4
+    ],
+    "All": [
+      7,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5781759.json"
+}

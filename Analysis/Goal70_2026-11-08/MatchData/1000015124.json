@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "id": "1000015124",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015124",
+  "verified_at_utc": "2026-11-07T07:00:02.985Z",
+  "general": {
+    "matchId": "1000015124",
+    "matchName": "FK Radnik Surdulica-vs-Čukarički_Sat, Sep 5, 2026, 16:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#043F92",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#043F92",
+        "away": "#1e1e1e"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "FK Radnik Surdulica",
+      "id": 463461
+    },
+    "awayTeam": {
+      "name": "Čukarički",
+      "id": 6374
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-09-05T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T16:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 18:02:22",
+      "firstHalfEnded": "05.09.2026 18:49:25",
+      "secondHalfStarted": "05.09.2026 19:06:00",
+      "secondHalfEnded": "05.09.2026 20:04:25",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 20:04:25"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "463461",
+      "name": "FK Radnik Surdulica",
+      "score": 3
+    },
+    {
+      "id": "6374",
+      "name": "Čukarički",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 8,
+      "added": 0,
+      "display": "8"
+    },
+    {
+      "side": "home",
+      "minute": 23,
+      "added": 0,
+      "display": "23"
+    },
+    {
+      "side": "home",
+      "minute": 35,
+      "added": 0,
+      "display": "35"
+    },
+    {
+      "side": "away",
+      "minute": 51,
+      "added": 0,
+      "display": "51"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      6,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015124.json"
+}

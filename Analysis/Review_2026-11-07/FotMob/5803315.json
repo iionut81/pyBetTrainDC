@@ -1,0 +1,172 @@
+{
+  "ok": true,
+  "id": "5803315",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803315",
+  "verified_at_utc": "2026-11-08T08:31:17.754Z",
+  "general": {
+    "matchId": "5803315",
+    "matchName": "Pau-vs-Nantes_Sat, Nov 7, 2026, 19:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F2CF00",
+        "away": "#00A557"
+      },
+      "lightMode": {
+        "home": "#1D203F",
+        "away": "#d1a302"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 110,
+    "leagueName": "Ligue 2",
+    "leagueRoundName": "12",
+    "parentLeagueId": 110,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Pau",
+      "id": 6355
+    },
+    "awayTeam": {
+      "name": "Nantes",
+      "id": 9830
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T19:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 20:00:44",
+      "firstHalfEnded": "07.11.2026 20:48:41",
+      "secondHalfStarted": "07.11.2026 21:02:10",
+      "secondHalfEnded": "07.11.2026 21:50:59",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 21:50:59"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6355",
+      "name": "Pau",
+      "score": 0
+    },
+    {
+      "id": "9830",
+      "name": "Nantes",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 28,
+      "added": 0,
+      "display": "28",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      0
+    ],
+    "All": [
+      2,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "YellowRed",
+      "isHome": true
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 66,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

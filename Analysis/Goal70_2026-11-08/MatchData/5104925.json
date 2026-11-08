@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "id": "5104925",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104925",
+  "verified_at_utc": "2026-11-07T06:56:16.605Z",
+  "general": {
+    "matchId": "5104925",
+    "matchName": "Rosenborg-vs-Bodø/Glimt_Fri, May 29, 2026, 17:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#f8dc03"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#e09d00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "11",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Rosenborg",
+      "id": 8422
+    },
+    "awayTeam": {
+      "name": "Bodø/Glimt",
+      "id": 8402
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, May 29, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-05-29T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-29T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "29.05.2026 19:00:26",
+      "firstHalfEnded": "29.05.2026 19:49:24",
+      "secondHalfStarted": "29.05.2026 20:04:32",
+      "secondHalfEnded": "29.05.2026 20:57:47",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "29.05.2026 20:57:47"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8422",
+      "name": "Rosenborg",
+      "score": 2
+    },
+    {
+      "id": "8402",
+      "name": "Bodø/Glimt",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 36,
+      "added": 0,
+      "display": "36",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 69,
+      "added": 0,
+      "display": "69",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      0,
+      5
+    ],
+    "All": [
+      0,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5104925.json"
+}

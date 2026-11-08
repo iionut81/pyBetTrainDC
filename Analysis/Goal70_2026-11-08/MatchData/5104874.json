@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5104874",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104874",
+  "verified_at_utc": "2026-11-08T08:33:22.470Z",
+  "general": {
+    "matchId": "5104874",
+    "matchName": "Bodø/Glimt-vs-Aalesund_Sat, Apr 18, 2026, 12:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#f8dc03",
+        "away": "#eb7805"
+      },
+      "lightMode": {
+        "home": "#e09d00",
+        "away": "#0898D8"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "5",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Bodø/Glimt",
+      "id": 8402
+    },
+    "awayTeam": {
+      "name": "Aalesund",
+      "id": 8404
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Apr 18, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-04-18T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-18T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.04.2026 14:00:26",
+      "firstHalfEnded": "18.04.2026 14:49:17",
+      "secondHalfStarted": "18.04.2026 15:04:24",
+      "secondHalfEnded": "18.04.2026 15:52:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.04.2026 15:52:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8402",
+      "name": "Bodø/Glimt",
+      "score": 3
+    },
+    {
+      "id": "8404",
+      "name": "Aalesund",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 23,
+      "added": 0,
+      "display": "23",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 71,
+      "added": 0,
+      "display": "71",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      8,
+      1
+    ],
+    "All": [
+      11,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

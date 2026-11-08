@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "id": "5107487",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107487",
+  "verified_at_utc": "2026-11-08T08:33:36.879Z",
+  "general": {
+    "matchId": "5107487",
+    "matchName": "Häcken-vs-Malmö FF_Sun, May 10, 2026, 14:30 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F2D024",
+        "away": "#3991CC"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#3991CC"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Allsvenskan",
+    "leagueRoundName": "7",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Häcken",
+      "id": 8428
+    },
+    "awayTeam": {
+      "name": "Malmö FF",
+      "id": 10237
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, May 10, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-05-10T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-10T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.05.2026 16:30:51",
+      "firstHalfEnded": "10.05.2026 17:18:54",
+      "secondHalfStarted": "10.05.2026 17:33:54",
+      "secondHalfEnded": "10.05.2026 18:24:49",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.05.2026 18:24:49"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8428",
+      "name": "Häcken",
+      "score": 3
+    },
+    {
+      "id": "10237",
+      "name": "Malmö FF",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 20,
+      "added": 0,
+      "display": "20",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 39,
+      "added": 0,
+      "display": "39",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      4
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      4,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

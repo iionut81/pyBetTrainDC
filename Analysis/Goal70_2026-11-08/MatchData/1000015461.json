@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "1000015461",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015461",
+  "verified_at_utc": "2026-11-04T06:04:44.530Z",
+  "general": {
+    "matchId": "1000015461",
+    "matchName": "FCV Dender EH-vs-RFC Seraing_Fri, Sep 4, 2026, 18:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1E67B4",
+        "away": "#D41A27"
+      },
+      "lightMode": {
+        "home": "#1E67B4",
+        "away": "#D41A27"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 264,
+    "leagueName": "Belgian Challenger Pro League",
+    "leagueRoundName": "4",
+    "parentLeagueId": 264,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "FCV Dender EH",
+      "id": 7947
+    },
+    "awayTeam": {
+      "name": "RFC Seraing",
+      "id": 149408
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Sep 4, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-09-04T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-04T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "04.09.2026 20:01:33",
+      "firstHalfEnded": "04.09.2026 20:49:56",
+      "secondHalfStarted": "04.09.2026 21:05:37",
+      "secondHalfEnded": "04.09.2026 21:53:40",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "04.09.2026 21:53:40"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7947",
+      "name": "FCV Dender EH",
+      "score": 2
+    },
+    {
+      "id": "149408",
+      "name": "RFC Seraing",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 33,
+      "added": 0,
+      "display": "33",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 48,
+      "added": 0,
+      "display": "48",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 39,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015461.json"
+}

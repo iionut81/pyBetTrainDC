@@ -1,0 +1,141 @@
+{
+  "ok": true,
+  "id": "5967095",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5967095",
+  "verified_at_utc": "2026-11-07T06:56:38.564Z",
+  "general": {
+    "matchId": "5967095",
+    "matchName": "LR Vicenza-vs-Pisa_Sat, Oct 10, 2026, 15:15 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C50A0D",
+        "away": "#0068B6"
+      },
+      "lightMode": {
+        "home": "#C50A0D",
+        "away": "#0068B6"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941726,
+    "leagueName": "Serie B",
+    "leagueRoundName": "6",
+    "parentLeagueId": 86,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "LR Vicenza",
+      "id": 145007
+    },
+    "awayTeam": {
+      "name": "Pisa",
+      "id": 6479
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 15:15 UTC",
+    "matchTimeUTCDate": "2026-10-10T15:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T15:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 17:17:08",
+      "firstHalfEnded": "10.10.2026 18:01:43",
+      "secondHalfStarted": "10.10.2026 18:17:27",
+      "secondHalfEnded": "10.10.2026 19:07:41",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 19:07:41"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "145007",
+      "name": "LR Vicenza",
+      "score": 0
+    },
+    {
+      "id": "6479",
+      "name": "Pisa",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 48,
+      "added": 0,
+      "display": "48",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      9
+    ],
+    "All": [
+      6,
+      12
+    ]
+  },
+  "cards": [
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5967095.json"
+}

@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "5802948",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802948",
+  "verified_at_utc": "2026-11-08T08:33:18.203Z",
+  "general": {
+    "matchId": "5802948",
+    "matchName": "Lille-vs-Le Havre_Sat, Oct 10, 2026, 15:15 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E01D13",
+        "away": "#75b5de"
+      },
+      "lightMode": {
+        "home": "#E01D13",
+        "away": "#6fb0d8"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "6",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Lille",
+      "id": 8639
+    },
+    "awayTeam": {
+      "name": "Le Havre",
+      "id": 9746
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 15:15 UTC",
+    "matchTimeUTCDate": "2026-10-10T15:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T15:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 17:15:11",
+      "firstHalfEnded": "10.10.2026 18:07:32",
+      "secondHalfStarted": "10.10.2026 18:23:41",
+      "secondHalfEnded": "10.10.2026 19:12:20",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 19:12:20"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8639",
+      "name": "Lille",
+      "score": 1
+    },
+    {
+      "id": "9746",
+      "name": "Le Havre",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 5,
+      "added": 0,
+      "display": "5",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      4,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 61,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

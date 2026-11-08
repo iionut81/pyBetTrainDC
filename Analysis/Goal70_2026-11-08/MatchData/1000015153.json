@@ -1,0 +1,168 @@
+{
+  "ok": true,
+  "id": "1000015153",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015153",
+  "verified_at_utc": "2026-11-07T07:00:04.409Z",
+  "general": {
+    "matchId": "1000015153",
+    "matchName": "Železničar Pančevo-vs-Partizan Beograd_Sun, Oct 18, 2026, 16:30 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#E10019"
+      },
+      "lightMode": {
+        "home": "#212D3D",
+        "away": "#E10019"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Serbian Super Liga",
+    "leagueRoundName": "12",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Železničar Pančevo",
+      "id": 676141
+    },
+    "awayTeam": {
+      "name": "Partizan Beograd",
+      "id": 7998
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 18, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-10-18T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-18T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "18.10.2026 18:32:52",
+      "firstHalfEnded": "18.10.2026 19:19:56",
+      "secondHalfStarted": "18.10.2026 19:36:12",
+      "secondHalfEnded": "18.10.2026 20:26:26",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.10.2026 20:26:26"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "676141",
+      "name": "Železničar Pančevo",
+      "score": 1
+    },
+    {
+      "id": "7998",
+      "name": "Partizan Beograd",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 13,
+      "added": 0,
+      "display": "13"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      6
+    ],
+    "All": [
+      4,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015153.json"
+}

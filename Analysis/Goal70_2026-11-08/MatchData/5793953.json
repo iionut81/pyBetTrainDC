@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5793953",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793953",
+  "verified_at_utc": "2026-11-08T08:33:30.738Z",
+  "general": {
+    "matchId": "5793953",
+    "matchName": "Falkirk-vs-Kilmarnock_Sat, Oct 24, 2026, 14:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#005992",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#00366e",
+        "away": "#DA9E00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "10",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "Falkirk",
+      "id": 8596
+    },
+    "awayTeam": {
+      "name": "Kilmarnock",
+      "id": 8597
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 24, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-24T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-24T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.10.2026 16:02:26",
+      "firstHalfEnded": "24.10.2026 16:50:14",
+      "secondHalfStarted": "24.10.2026 17:04:47",
+      "secondHalfEnded": "24.10.2026 17:51:01",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.10.2026 17:51:01"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8596",
+      "name": "Falkirk",
+      "score": 3
+    },
+    {
+      "id": "8597",
+      "name": "Kilmarnock",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "home",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      7,
+      5
+    ],
+    "All": [
+      9,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 46,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

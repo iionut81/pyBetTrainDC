@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5802921",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802921",
+  "verified_at_utc": "2026-11-04T06:04:25.509Z",
+  "general": {
+    "matchId": "5802921",
+    "matchName": "Lens-vs-Lorient_Sat, Sep 5, 2026, 15:15 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFCE00",
+        "away": "#F05330"
+      },
+      "lightMode": {
+        "home": "#d89f00",
+        "away": "#F05330"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "3",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Lens",
+      "id": 8588
+    },
+    "awayTeam": {
+      "name": "Lorient",
+      "id": 8689
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 15:15 UTC",
+    "matchTimeUTCDate": "2026-09-05T15:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T15:15:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 17:15:14",
+      "firstHalfEnded": "05.09.2026 18:01:36",
+      "secondHalfStarted": "05.09.2026 18:18:05",
+      "secondHalfEnded": "05.09.2026 19:08:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 19:08:17"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8588",
+      "name": "Lens",
+      "score": 0
+    },
+    {
+      "id": "8689",
+      "name": "Lorient",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      0
+    ],
+    "All": [
+      8,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 26,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "YellowRed",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5802921.json"
+}

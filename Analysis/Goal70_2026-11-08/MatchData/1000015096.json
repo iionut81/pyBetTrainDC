@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "id": "1000015096",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015096",
+  "verified_at_utc": "2026-11-08T08:33:42.061Z",
+  "general": {
+    "matchId": "1000015096",
+    "matchName": "Vojvodina-vs-FK Radnik Surdulica_Sun, Aug 9, 2026, 18:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ED1B24",
+        "away": "#043F92"
+      },
+      "lightMode": {
+        "home": "#ED1B24",
+        "away": "#043F92"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Serbian Super Liga",
+    "leagueRoundName": "4",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Vojvodina",
+      "id": 6406
+    },
+    "awayTeam": {
+      "name": "FK Radnik Surdulica",
+      "id": 463461
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 9, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-08-09T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-09T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.08.2026 20:00:59",
+      "firstHalfEnded": "09.08.2026 20:47:10",
+      "secondHalfStarted": "09.08.2026 21:04:09",
+      "secondHalfEnded": "09.08.2026 21:53:15",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.08.2026 21:53:15"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6406",
+      "name": "Vojvodina",
+      "score": 2
+    },
+    {
+      "id": "463461",
+      "name": "FK Radnik Surdulica",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 50,
+      "added": 0,
+      "display": "50"
+    },
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63"
+    },
+    {
+      "side": "away",
+      "minute": 68,
+      "added": 0,
+      "display": "68"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      8,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 28,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

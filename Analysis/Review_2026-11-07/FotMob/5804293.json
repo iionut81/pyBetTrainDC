@@ -1,0 +1,171 @@
+{
+  "ok": true,
+  "id": "5804293",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804293",
+  "verified_at_utc": "2026-11-08T08:31:20.083Z",
+  "general": {
+    "matchId": "5804293",
+    "matchName": "Luzern-vs-Young Boys_Sat, Nov 7, 2026, 17:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0a4ac1",
+        "away": "#F0D12C"
+      },
+      "lightMode": {
+        "home": "#083890",
+        "away": "#d6a008"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937880,
+    "leagueName": "Super League",
+    "leagueRoundName": "13",
+    "parentLeagueId": 69,
+    "countryCode": "SUI",
+    "homeTeam": {
+      "name": "Luzern",
+      "id": 10199
+    },
+    "awayTeam": {
+      "name": "Young Boys",
+      "id": 10192
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 18:01:23",
+      "firstHalfEnded": "07.11.2026 18:49:09",
+      "secondHalfStarted": "07.11.2026 19:05:04",
+      "secondHalfEnded": "07.11.2026 19:57:10",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 19:57:10"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10199",
+      "name": "Luzern",
+      "score": 2
+    },
+    {
+      "id": "10192",
+      "name": "Young Boys",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 64,
+      "added": 0,
+      "display": "64",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      5,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

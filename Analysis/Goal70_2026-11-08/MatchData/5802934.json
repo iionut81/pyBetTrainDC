@@ -1,0 +1,121 @@
+{
+  "ok": true,
+  "id": "5802934",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802934",
+  "verified_at_utc": "2026-11-05T06:04:50.000Z",
+  "general": {
+    "matchId": "5802934",
+    "matchName": "Paris FC-vs-Lyon_Sat, Sep 12, 2026, 18:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0453a6",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#0C1C3D",
+        "away": "#0160A0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "4",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Paris FC",
+      "id": 6379
+    },
+    "awayTeam": {
+      "name": "Lyon",
+      "id": 9748
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-12T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 20:45:12",
+      "firstHalfEnded": "12.09.2026 21:30:47",
+      "secondHalfStarted": "12.09.2026 21:48:36",
+      "secondHalfEnded": "12.09.2026 22:37:59",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 22:37:59"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6379",
+      "name": "Paris FC",
+      "score": 0
+    },
+    {
+      "id": "9748",
+      "name": "Lyon",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      4,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5802934.json"
+}

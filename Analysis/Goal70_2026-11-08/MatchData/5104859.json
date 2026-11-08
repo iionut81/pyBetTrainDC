@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "id": "5104859",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104859",
+  "verified_at_utc": "2026-11-05T06:09:03.451Z",
+  "general": {
+    "matchId": "5104859",
+    "matchName": "Hamarkameratene-vs-Brann_Mon, Apr 6, 2026, 15:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#009040",
+        "away": "#DE1215"
+      },
+      "lightMode": {
+        "home": "#009040",
+        "away": "#DE1215"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "3",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Hamarkameratene",
+      "id": 8448
+    },
+    "awayTeam": {
+      "name": "Brann",
+      "id": 8468
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Apr 6, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-04-06T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-06T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.04.2026 17:00:12",
+      "firstHalfEnded": "06.04.2026 17:47:45",
+      "secondHalfStarted": "06.04.2026 18:03:19",
+      "secondHalfEnded": "06.04.2026 18:53:09",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.04.2026 18:53:09"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 5",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8448",
+      "name": "Hamarkameratene",
+      "score": 1
+    },
+    {
+      "id": "8468",
+      "name": "Brann",
+      "score": 5
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 37,
+      "added": 0,
+      "display": "37",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 59,
+      "added": 0,
+      "display": "59",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      5
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      7,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5104859.json"
+}

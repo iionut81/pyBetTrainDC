@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "id": "5781757",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781757",
+  "verified_at_utc": "2026-11-05T06:08:40.847Z",
+  "general": {
+    "matchId": "5781757",
+    "matchName": "Ajax-vs-Excelsior_Sat, Sep 19, 2026, 18:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C2002F",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#C2002F",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "7",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "Ajax",
+      "id": 8593
+    },
+    "awayTeam": {
+      "name": "Excelsior",
+      "id": 10218
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-09-19T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 20:00:41",
+      "firstHalfEnded": "19.09.2026 20:48:18",
+      "secondHalfStarted": "19.09.2026 21:04:30",
+      "secondHalfEnded": "19.09.2026 21:53:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 21:53:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8593",
+      "name": "Ajax",
+      "score": 2
+    },
+    {
+      "id": "10218",
+      "name": "Excelsior",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 64,
+      "added": 0,
+      "display": "64",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      7,
+      0
+    ],
+    "All": [
+      9,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5781757.json"
+}

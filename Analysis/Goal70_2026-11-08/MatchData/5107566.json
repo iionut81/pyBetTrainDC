@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5107566",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107566",
+  "verified_at_utc": "2026-11-07T06:59:53.315Z",
+  "general": {
+    "matchId": "5107566",
+    "matchName": "GAIS-vs-Malmö FF_Sun, Aug 16, 2026, 14:30 UTC",
+    "matchRound": "17",
+    "teamColors": {
+      "darkMode": {
+        "home": "#008840",
+        "away": "#3991CC"
+      },
+      "lightMode": {
+        "home": "#008840",
+        "away": "#3991CC"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Allsvenskan",
+    "leagueRoundName": "17",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "GAIS",
+      "id": 8297
+    },
+    "awayTeam": {
+      "name": "Malmö FF",
+      "id": 10237
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 16, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-08-16T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-16T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.08.2026 16:31:34",
+      "firstHalfEnded": "16.08.2026 17:16:40",
+      "secondHalfStarted": "16.08.2026 17:32:44",
+      "secondHalfEnded": "16.08.2026 18:23:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.08.2026 18:23:35"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8297",
+      "name": "GAIS",
+      "score": 0
+    },
+    {
+      "id": "10237",
+      "name": "Malmö FF",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 53,
+      "added": 0,
+      "display": "53",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      5,
+      0
+    ],
+    "All": [
+      8,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5107566.json"
+}

@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5107658",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107658",
+  "verified_at_utc": "2026-11-08T08:31:22.086Z",
+  "general": {
+    "matchId": "5107658",
+    "matchName": "Degerfors-vs-GAIS_Sat, Nov 7, 2026, 16:30 UTC",
+    "matchRound": "28",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F72F3A",
+        "away": "#008840"
+      },
+      "lightMode": {
+        "home": "#F72F3A",
+        "away": "#008840"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Allsvenskan",
+    "leagueRoundName": "28",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Degerfors",
+      "id": 6544
+    },
+    "awayTeam": {
+      "name": "GAIS",
+      "id": 8297
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-11-07T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 17:31:33",
+      "firstHalfEnded": "07.11.2026 18:19:17",
+      "secondHalfStarted": "07.11.2026 18:34:52",
+      "secondHalfEnded": "07.11.2026 19:25:23",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 19:25:23"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6544",
+      "name": "Degerfors",
+      "score": 1
+    },
+    {
+      "id": "8297",
+      "name": "GAIS",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 84,
+      "added": 0,
+      "display": "84",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      3,
+      5
+    ]
+  },
+  "cards": [],
+  "formations": {}
+}

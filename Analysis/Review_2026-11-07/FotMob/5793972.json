@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "5793972",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793972",
+  "verified_at_utc": "2026-11-08T08:31:18.212Z",
+  "general": {
+    "matchId": "5793972",
+    "matchName": "Dundee United-vs-Motherwell_Sat, Nov 7, 2026, 15:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FD6500",
+        "away": "#8d1f2d"
+      },
+      "lightMode": {
+        "home": "#FD6500",
+        "away": "#881F2D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "13",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "Dundee United",
+      "id": 9938
+    },
+    "awayTeam": {
+      "name": "Motherwell",
+      "id": 9927
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 16:03:00",
+      "firstHalfEnded": "07.11.2026 16:50:07",
+      "secondHalfStarted": "07.11.2026 17:06:20",
+      "secondHalfEnded": "07.11.2026 17:53:49",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 17:53:49"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9938",
+      "name": "Dundee United",
+      "score": 1
+    },
+    {
+      "id": "9927",
+      "name": "Motherwell",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 41,
+      "added": 0,
+      "display": "41",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 9,
+      "added": 0,
+      "display": "9",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      5
+    ],
+    "SecondHalf": [
+      8,
+      2
+    ],
+    "All": [
+      13,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

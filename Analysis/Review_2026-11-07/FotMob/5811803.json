@@ -1,0 +1,147 @@
+{
+  "ok": true,
+  "id": "5811803",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811803",
+  "verified_at_utc": "2026-11-08T08:31:15.002Z",
+  "general": {
+    "matchId": "5811803",
+    "matchName": "OH Leuven-vs-KV Mechelen_Sat, Nov 7, 2026, 17:15 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#E42313"
+      },
+      "lightMode": {
+        "home": "#009530",
+        "away": "#E42313"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "11",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "OH Leuven",
+      "id": 1773
+    },
+    "awayTeam": {
+      "name": "KV Mechelen",
+      "id": 8203
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 17:15 UTC",
+    "matchTimeUTCDate": "2026-11-07T17:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T17:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 18:17:35",
+      "firstHalfEnded": "07.11.2026 19:03:47",
+      "secondHalfStarted": "07.11.2026 19:20:25",
+      "secondHalfEnded": "07.11.2026 20:09:29",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 20:09:29"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1773",
+      "name": "OH Leuven",
+      "score": 2
+    },
+    {
+      "id": "8203",
+      "name": "KV Mechelen",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      5
+    ],
+    "SecondHalf": [
+      2,
+      11
+    ],
+    "All": [
+      6,
+      16
+    ]
+  },
+  "cards": [
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

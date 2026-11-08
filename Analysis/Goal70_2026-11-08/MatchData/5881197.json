@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5881197",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881197",
+  "verified_at_utc": "2026-11-07T06:55:57.990Z",
+  "general": {
+    "matchId": "5881197",
+    "matchName": "Augsburg-vs-Union Berlin_Sat, Oct 24, 2026, 13:30 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#B93733",
+        "away": "#FFDD00"
+      },
+      "lightMode": {
+        "home": "#B93733",
+        "away": "#DA9E00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 54,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "7",
+    "parentLeagueId": 54,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Augsburg",
+      "id": 8406
+    },
+    "awayTeam": {
+      "name": "Union Berlin",
+      "id": 8149
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 24, 2026, 13:30 UTC",
+    "matchTimeUTCDate": "2026-10-24T13:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-24T13:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "24.10.2026 15:30:14",
+      "firstHalfEnded": "24.10.2026 16:18:39",
+      "secondHalfStarted": "24.10.2026 16:33:44",
+      "secondHalfEnded": "24.10.2026 17:24:39",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.10.2026 17:24:39"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8406",
+      "name": "Augsburg",
+      "score": 1
+    },
+    {
+      "id": "8149",
+      "name": "Union Berlin",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 71,
+      "added": 0,
+      "display": "71",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      5,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5881197.json"
+}

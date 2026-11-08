@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "id": "5881720",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881720",
+  "verified_at_utc": "2026-11-08T08:31:15.105Z",
+  "general": {
+    "matchId": "5881720",
+    "matchName": "Hertha BSC-vs-Wolfsburg_Sat, Nov 7, 2026, 19:30 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1b4fed",
+        "away": "#51A600"
+      },
+      "lightMode": {
+        "home": "#0060B0",
+        "away": "#65B32E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 146,
+    "leagueName": "2. Bundesliga",
+    "leagueRoundName": "11",
+    "parentLeagueId": 146,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Hertha BSC",
+      "id": 8177
+    },
+    "awayTeam": {
+      "name": "Wolfsburg",
+      "id": 8721
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 19:30 UTC",
+    "matchTimeUTCDate": "2026-11-07T19:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T19:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 20:31:29",
+      "firstHalfEnded": "07.11.2026 21:19:45",
+      "secondHalfStarted": "07.11.2026 21:36:54",
+      "secondHalfEnded": "07.11.2026 22:31:49",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 22:31:49"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8177",
+      "name": "Hertha BSC",
+      "score": 2
+    },
+    {
+      "id": "8721",
+      "name": "Wolfsburg",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 47,
+      "added": 0,
+      "display": "47",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      10,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 22,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5887658",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887658",
+  "verified_at_utc": "2026-11-05T06:08:36.905Z",
+  "general": {
+    "matchId": "5887658",
+    "matchName": "Nacional-vs-Braga_Sun, Oct 25, 2026, 18:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#D9222A"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#D9222A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "9",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Nacional",
+      "id": 10214
+    },
+    "awayTeam": {
+      "name": "Braga",
+      "id": 10264
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-10-25T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 19:00:34",
+      "firstHalfEnded": "25.10.2026 19:52:56",
+      "secondHalfStarted": "25.10.2026 20:08:44",
+      "secondHalfEnded": "25.10.2026 20:58:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 20:58:35"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10214",
+      "name": "Nacional",
+      "score": 1
+    },
+    {
+      "id": "10264",
+      "name": "Braga",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      4,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5887658.json"
+}

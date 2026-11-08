@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "id": "6112272",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112272",
+  "verified_at_utc": "2026-11-08T08:55:57.195Z",
+  "general": {
+    "matchId": "6112272",
+    "matchName": "Real Sociedad-vs-AFC Bournemouth_Thu, Sep 17, 2026, 19:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0056B3",
+        "away": "#D71921"
+      },
+      "lightMode": {
+        "home": "#0056B3",
+        "away": "#D71921"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943229,
+    "leagueName": "Europa League",
+    "leagueRoundName": "1",
+    "parentLeagueId": 73,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Real Sociedad",
+      "id": 8560
+    },
+    "awayTeam": {
+      "name": "AFC Bournemouth",
+      "id": 8678
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Sep 17, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-09-17T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-17T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.09.2026 21:01:13",
+      "firstHalfEnded": "17.09.2026 21:47:15",
+      "secondHalfStarted": "17.09.2026 22:04:20",
+      "secondHalfEnded": "17.09.2026 22:52:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.09.2026 22:52:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8560",
+      "name": "Real Sociedad",
+      "score": 1
+    },
+    {
+      "id": "8678",
+      "name": "AFC Bournemouth",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 20,
+      "added": 0,
+      "display": "20",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      8,
+      1
+    ],
+    "All": [
+      10,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

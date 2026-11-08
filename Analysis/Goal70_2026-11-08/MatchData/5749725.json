@@ -1,0 +1,167 @@
+{
+  "ok": true,
+  "id": "5749725",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749725",
+  "verified_at_utc": "2026-11-04T06:04:25.211Z",
+  "general": {
+    "matchId": "5749725",
+    "matchName": "Monza-vs-Napoli_Wed, Oct 28, 2026, 19:45 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#e10032",
+        "away": "#12A0D7"
+      },
+      "lightMode": {
+        "home": "#e10032",
+        "away": "#12A0D7"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "9",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Monza",
+      "id": 6504
+    },
+    "awayTeam": {
+      "name": "Napoli",
+      "id": 9875
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Oct 28, 2026, 19:45 UTC",
+    "matchTimeUTCDate": "2026-10-28T19:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-28T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.10.2026 20:46:01",
+      "firstHalfEnded": "28.10.2026 21:34:08",
+      "secondHalfStarted": "28.10.2026 21:50:08",
+      "secondHalfEnded": "28.10.2026 22:37:19",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.10.2026 22:37:19"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6504",
+      "name": "Monza",
+      "score": 1
+    },
+    {
+      "id": "9875",
+      "name": "Napoli",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 10,
+      "added": 0,
+      "display": "10",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 48,
+      "added": 0,
+      "display": "48",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      0,
+      1
+    ],
+    "All": [
+      2,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5749725.json"
+}

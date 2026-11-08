@@ -219,3 +219,11 @@ Luzern: 9.2?C, precipita?ii0%, v?nt2.7km/h, ora18:00local?. [Open-Meteo](https:/
 Pula: 10.6?C, precipita?ii5%, v?nt11km/h, ora18:00local?. [Open-Meteo](https://api.open-meteo.com/v1/forecast?latitude=44.861671506&longitude=13.851420879&hourly=temperature_2m,precipitation_probability,wind_speed_10m&timezone=Europe%2FZagreb&forecast_days=1), extras2026-11-07T07:05:35.528Z.
 
 Prognozele difer? de FotMob, mai ales probabilitatea ploii laLuzern; nu sunt m?sur?tori ale terenului ?i nu justific? ajust?ri procentuale.
+
+## Comparație suplimentară: Excelsior, Sporting, Zlín și Clermont
+
+La cererea utilizatorului am aprofundat patru alternative pentru cornere1H≤7, cu surse actuale și lecțiile din6noiembrie. Preferința în această comparație este **Excelsior–Go Ahead Eagles,22:00RO**:95,86%brut/90,59%AR20;21/22sezon,11/11teren. Nu este o recalibrare, o nouă alegere a utilizatorului sau o înlocuire a finalistului global inițial Istra. Sporting rămâne alegerea explicită salvată până la o modificare explicită.
+
+[Comparația aprofundată](Alternative_Comparison/COMPARISON.md) include toate numărătorile și formulele,80rânduri recente pentru8echipe, seriile pe teren, dispersia,>=8/exact7, loturile/tactica și sursele. [Context și limite](Alternative_Comparison/CONTEXT.md), [date/status](Alternative_Comparison/comparison.json), [sensibilități](Alternative_Comparison/diagnostics.json), [preferința separată](Alternative_Comparison/recommendation.json).
+
+Elementul decisiv: totalurile Go Ahead în deplasare4,1,4,3,4,4; gazda4,5,1,7,6. Sportingacasă4,1,10,4,6(varianță11), plusFonsecaprezentatoficial4noiembrie și Moreirensecu intenție declarată de blocmediu-înalt. Zlín26/26și14/14are frecvență mai bună, dar intensitate4,3709/AR2083,98;derbyuldesubsol și Cernínsuspendat sunt avertismente, fără ajustări numerice. Clermont22/22nu ascunde Rodezafară7,5,7,3,7. Titulari neconfirmați;5observațiiFirstHalflipsă în seriile recente (4cupecehe+1Moreirense), nu zero. Status final verificat neînceput pentru toate4la10:50:22RO; meteo independent salvat. Patru modele recalculate identic cu snapshotul original. Diferența Excelsior–Sporting0,40pp nu demonstrează superioritate reală, iar un istoric100%nu garantează viitorul.

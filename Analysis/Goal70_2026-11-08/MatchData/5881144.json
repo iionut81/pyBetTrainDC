@@ -1,0 +1,141 @@
+{
+  "ok": true,
+  "id": "5881144",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881144",
+  "verified_at_utc": "2026-11-07T06:55:57.782Z",
+  "general": {
+    "matchId": "5881144",
+    "matchName": "Augsburg-vs-Schalke 04_Sun, Aug 30, 2026, 15:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#B93733",
+        "away": "#0942ad"
+      },
+      "lightMode": {
+        "home": "#B93733",
+        "away": "#083890"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 54,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "1",
+    "parentLeagueId": 54,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Augsburg",
+      "id": 8406
+    },
+    "awayTeam": {
+      "name": "Schalke 04",
+      "id": 10189
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-08-30T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T15:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 17:31:25",
+      "firstHalfEnded": "30.08.2026 18:16:37",
+      "secondHalfStarted": "30.08.2026 18:33:21",
+      "secondHalfEnded": "30.08.2026 19:21:37",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 19:21:37"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8406",
+      "name": "Augsburg",
+      "score": 3
+    },
+    {
+      "id": "10189",
+      "name": "Schalke 04",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 18,
+      "added": 0,
+      "display": "18",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      3
+    ],
+    "SecondHalf": [
+      7,
+      0
+    ],
+    "All": [
+      11,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 22,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5881144.json"
+}

@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5107575",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107575",
+  "verified_at_utc": "2026-11-06T06:30:55.836Z",
+  "general": {
+    "matchId": "5107575",
+    "matchName": "IFK Göteborg-vs-Elfsborg_Sun, Aug 23, 2026, 12:00 UTC",
+    "matchRound": "18",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0068B0",
+        "away": "#F6E708"
+      },
+      "lightMode": {
+        "home": "#0068B0",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "18",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "IFK Göteborg",
+      "id": 9893
+    },
+    "awayTeam": {
+      "name": "Elfsborg",
+      "id": 8014
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-08-23T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 14:00:23",
+      "firstHalfEnded": "23.08.2026 14:47:34",
+      "secondHalfStarted": "23.08.2026 15:02:45",
+      "secondHalfEnded": "23.08.2026 15:51:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 15:51:17"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9893",
+      "name": "IFK Göteborg",
+      "score": 1
+    },
+    {
+      "id": "8014",
+      "name": "Elfsborg",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 0,
+      "display": "90",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      7,
+      4
+    ],
+    "All": [
+      9,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5107575.json"
+}

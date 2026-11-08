@@ -1,0 +1,121 @@
+{
+  "ok": true,
+  "id": "5868028",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868028",
+  "verified_at_utc": "2026-11-07T06:55:59.860Z",
+  "general": {
+    "matchId": "5868028",
+    "matchName": "Osasuna-vs-Levante_Mon, Aug 24, 2026, 17:30 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#af1428",
+        "away": "#335686"
+      },
+      "lightMode": {
+        "home": "#af1428",
+        "away": "#335686"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "2",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Osasuna",
+      "id": 8371
+    },
+    "awayTeam": {
+      "name": "Levante",
+      "id": 8581
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Aug 24, 2026, 17:30 UTC",
+    "matchTimeUTCDate": "2026-08-24T17:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-24T17:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.08.2026 19:31:07",
+      "firstHalfEnded": "24.08.2026 20:16:18",
+      "secondHalfStarted": "24.08.2026 20:33:43",
+      "secondHalfEnded": "24.08.2026 21:21:20",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.08.2026 21:21:20"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8371",
+      "name": "Osasuna",
+      "score": 0
+    },
+    {
+      "id": "8581",
+      "name": "Levante",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      9,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868028.json"
+}

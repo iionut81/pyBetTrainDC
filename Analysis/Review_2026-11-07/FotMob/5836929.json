@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "5836929",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836929",
+  "verified_at_utc": "2026-11-08T08:31:23.312Z",
+  "general": {
+    "matchId": "5836929",
+    "matchName": "Preston North End-vs-Southampton_Sat, Nov 7, 2026, 15:00 UTC",
+    "matchRound": "15",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1c549c",
+        "away": "#d71920"
+      },
+      "lightMode": {
+        "home": "#001850",
+        "away": "#d71920"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "Championship",
+    "leagueRoundName": "15",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Preston North End",
+      "id": 8411
+    },
+    "awayTeam": {
+      "name": "Southampton",
+      "id": 8466
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 16:01:34",
+      "firstHalfEnded": "07.11.2026 16:52:43",
+      "secondHalfStarted": "07.11.2026 17:09:21",
+      "secondHalfEnded": "07.11.2026 18:00:34",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 18:00:34"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8411",
+      "name": "Preston North End",
+      "score": 1
+    },
+    {
+      "id": "8466",
+      "name": "Southampton",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 33,
+      "added": 0,
+      "display": "33",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      9
+    ],
+    "All": [
+      3,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "5967144",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5967144",
+  "verified_at_utc": "2026-11-08T08:31:18.857Z",
+  "general": {
+    "matchId": "5967144",
+    "matchName": "Juve Stabia-vs-Arezzo_Sat, Nov 7, 2026, 14:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F9DB18",
+        "away": "#91151F"
+      },
+      "lightMode": {
+        "home": "#dc9f00",
+        "away": "#91151F"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941726,
+    "leagueName": "Serie B",
+    "leagueRoundName": "11",
+    "parentLeagueId": 86,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Juve Stabia",
+      "id": 6106
+    },
+    "awayTeam": {
+      "name": "Arezzo",
+      "id": 9849
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 15:04:08",
+      "firstHalfEnded": "07.11.2026 15:50:10",
+      "secondHalfStarted": "07.11.2026 16:07:27",
+      "secondHalfEnded": "07.11.2026 16:56:21",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 16:56:21"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6106",
+      "name": "Juve Stabia",
+      "score": 1
+    },
+    {
+      "id": "9849",
+      "name": "Arezzo",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 2,
+      "added": 0,
+      "display": "2",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      6
+    ],
+    "All": [
+      6,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "id": "5793945",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793945",
+  "verified_at_utc": "2026-11-07T06:56:35.126Z",
+  "general": {
+    "matchId": "5793945",
+    "matchName": "Rangers-vs-Kilmarnock_Sat, Oct 10, 2026, 14:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#005ed6",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#0033A0",
+        "away": "#DA9E00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "8",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "Rangers",
+      "id": 8548
+    },
+    "awayTeam": {
+      "name": "Kilmarnock",
+      "id": 8597
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-10T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 16:03:08",
+      "firstHalfEnded": "10.10.2026 16:50:15",
+      "secondHalfStarted": "10.10.2026 17:04:39",
+      "secondHalfEnded": "10.10.2026 17:55:00",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 17:55:00"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8548",
+      "name": "Rangers",
+      "score": 3
+    },
+    {
+      "id": "8597",
+      "name": "Kilmarnock",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 15,
+      "added": 0,
+      "display": "15",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 44,
+      "added": 0,
+      "display": "44",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 0,
+      "display": "90",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      7,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5793945.json"
+}

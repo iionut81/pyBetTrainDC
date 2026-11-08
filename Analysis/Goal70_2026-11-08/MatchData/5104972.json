@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5104972",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104972",
+  "verified_at_utc": "2026-11-08T08:33:22.870Z",
+  "general": {
+    "matchId": "5104972",
+    "matchName": "Vålerenga-vs-Bodø/Glimt_Sat, Aug 8, 2026, 12:00 UTC",
+    "matchRound": "17",
+    "teamColors": {
+      "darkMode": {
+        "home": "#333bb3",
+        "away": "#f8dc03"
+      },
+      "lightMode": {
+        "home": "#283090",
+        "away": "#e09d00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "17",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Vålerenga",
+      "id": 8007
+    },
+    "awayTeam": {
+      "name": "Bodø/Glimt",
+      "id": 8402
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 8, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-08-08T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-08T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.08.2026 14:00:35",
+      "firstHalfEnded": "08.08.2026 14:50:47",
+      "secondHalfStarted": "08.08.2026 15:06:58",
+      "secondHalfEnded": "08.08.2026 15:56:57",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.08.2026 15:56:57"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8007",
+      "name": "Vålerenga",
+      "score": 1
+    },
+    {
+      "id": "8402",
+      "name": "Bodø/Glimt",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      5
+    ],
+    "SecondHalf": [
+      5,
+      3
+    ],
+    "All": [
+      8,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

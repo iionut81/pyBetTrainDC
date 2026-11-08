@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5793936",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793936",
+  "verified_at_utc": "2026-11-05T06:08:49.056Z",
+  "general": {
+    "matchId": "5793936",
+    "matchName": "Kilmarnock-vs-Heart of Midlothian_Sat, Sep 19, 2026, 16:45 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0745A4",
+        "away": "#922e46"
+      },
+      "lightMode": {
+        "home": "#0745A4",
+        "away": "#691B32"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "7",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "Kilmarnock",
+      "id": 8597
+    },
+    "awayTeam": {
+      "name": "Heart of Midlothian",
+      "id": 9860
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 16:45 UTC",
+    "matchTimeUTCDate": "2026-09-19T16:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T16:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 18:45:33",
+      "firstHalfEnded": "19.09.2026 19:36:47",
+      "secondHalfStarted": "19.09.2026 19:48:39",
+      "secondHalfEnded": "19.09.2026 20:38:01",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 20:38:01"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8597",
+      "name": "Kilmarnock",
+      "score": 1
+    },
+    {
+      "id": "9860",
+      "name": "Heart of Midlothian",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 16,
+      "added": 0,
+      "display": "16",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      2,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 10,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5793936.json"
+}

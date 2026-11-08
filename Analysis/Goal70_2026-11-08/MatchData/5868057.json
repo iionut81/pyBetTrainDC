@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "id": "5868057",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868057",
+  "verified_at_utc": "2026-11-04T06:04:20.442Z",
+  "general": {
+    "matchId": "5868057",
+    "matchName": "Real Madrid-vs-Rayo Vallecano_Sat, Sep 12, 2026, 19:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFFFFF",
+        "away": "#EB3A32"
+      },
+      "lightMode": {
+        "home": "#085098",
+        "away": "#EB3A32"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "5",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Real Madrid",
+      "id": 8633
+    },
+    "awayTeam": {
+      "name": "Rayo Vallecano",
+      "id": 8370
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-09-12T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 21:02:21",
+      "firstHalfEnded": "12.09.2026 21:50:33",
+      "secondHalfStarted": "12.09.2026 22:08:13",
+      "secondHalfEnded": "12.09.2026 22:58:23",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 22:58:23"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8633",
+      "name": "Real Madrid",
+      "score": 4
+    },
+    {
+      "id": "8370",
+      "name": "Rayo Vallecano",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 14,
+      "added": 0,
+      "display": "14",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 17,
+      "added": 0,
+      "display": "17",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 35,
+      "added": 0,
+      "display": "35",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      7,
+      3
+    ],
+    "All": [
+      11,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868057.json"
+}

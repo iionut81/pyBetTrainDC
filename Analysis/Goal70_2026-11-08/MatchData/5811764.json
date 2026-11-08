@@ -1,0 +1,136 @@
+{
+  "ok": true,
+  "id": "5811764",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811764",
+  "verified_at_utc": "2026-11-06T06:30:18.049Z",
+  "general": {
+    "matchId": "5811764",
+    "matchName": "Gent-vs-Standard Liège_Fri, Sep 18, 2026, 18:45 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0062ce",
+        "away": "#E82820"
+      },
+      "lightMode": {
+        "home": "#004898",
+        "away": "#E82820"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "7",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Gent",
+      "id": 9991
+    },
+    "awayTeam": {
+      "name": "Standard Liège",
+      "id": 9985
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Sep 18, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-18T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-18T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.09.2026 20:49:27",
+      "firstHalfEnded": "18.09.2026 21:37:35",
+      "secondHalfStarted": "18.09.2026 21:54:02",
+      "secondHalfEnded": "18.09.2026 22:42:11",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.09.2026 22:42:11"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9991",
+      "name": "Gent",
+      "score": 2
+    },
+    {
+      "id": "9985",
+      "name": "Standard Liège",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 3,
+      "display": "45+3",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      5,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5811764.json"
+}

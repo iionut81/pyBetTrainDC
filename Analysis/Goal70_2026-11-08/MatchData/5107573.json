@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5107573",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107573",
+  "verified_at_utc": "2026-11-05T06:08:46.425Z",
+  "general": {
+    "matchId": "5107573",
+    "matchName": "AIK-vs-Mjällby_Wed, Sep 16, 2026, 17:00 UTC",
+    "matchRound": "18",
+    "teamColors": {
+      "darkMode": {
+        "home": "#EACF4A",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#e09d00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "18",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "AIK",
+      "id": 8349
+    },
+    "awayTeam": {
+      "name": "Mjällby",
+      "id": 8127
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Sep 16, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-16T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-16T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.09.2026 19:00:32",
+      "firstHalfEnded": "16.09.2026 19:46:34",
+      "secondHalfStarted": "16.09.2026 20:02:05",
+      "secondHalfEnded": "16.09.2026 20:50:24",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.09.2026 20:50:24"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8349",
+      "name": "AIK",
+      "score": 1
+    },
+    {
+      "id": "8127",
+      "name": "Mjällby",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      6,
+      5
+    ],
+    "All": [
+      9,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5107573.json"
+}

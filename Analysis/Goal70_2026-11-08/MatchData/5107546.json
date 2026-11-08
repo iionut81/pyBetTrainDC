@@ -1,0 +1,171 @@
+{
+  "ok": true,
+  "id": "5107546",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107546",
+  "verified_at_utc": "2026-11-08T08:33:36.157Z",
+  "general": {
+    "matchId": "5107546",
+    "matchName": "Sirius-vs-IFK Göteborg_Sun, Jul 26, 2026, 12:00 UTC",
+    "matchRound": "14",
+    "teamColors": {
+      "darkMode": {
+        "home": "#175b9e",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#2a497f",
+        "away": "#DA9E00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "14",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Sirius",
+      "id": 6694
+    },
+    "awayTeam": {
+      "name": "IFK Göteborg",
+      "id": 9893
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Jul 26, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-07-26T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-26T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "26.07.2026 14:00:23",
+      "firstHalfEnded": "26.07.2026 14:46:29",
+      "secondHalfStarted": "26.07.2026 15:02:00",
+      "secondHalfEnded": "26.07.2026 15:50:04",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.07.2026 15:50:04"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6694",
+      "name": "Sirius",
+      "score": 4
+    },
+    {
+      "id": "9893",
+      "name": "IFK Göteborg",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 6,
+      "added": 0,
+      "display": "6",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 23,
+      "added": 0,
+      "display": "23",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 71,
+      "added": 0,
+      "display": "71",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

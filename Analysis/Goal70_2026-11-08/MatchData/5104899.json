@@ -1,0 +1,170 @@
+{
+  "ok": true,
+  "id": "5104899",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104899",
+  "verified_at_utc": "2026-11-08T08:33:24.241Z",
+  "general": {
+    "matchId": "5104899",
+    "matchName": "Sarpsborg 08-vs-Fredrikstad_Sat, May 9, 2026, 12:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2255a5",
+        "away": "#f13c26"
+      },
+      "lightMode": {
+        "home": "#102763",
+        "away": "#f13c26"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "8",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Sarpsborg 08",
+      "id": 8509
+    },
+    "awayTeam": {
+      "name": "Fredrikstad",
+      "id": 8417
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, May 9, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-05-09T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-09T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.05.2026 14:00:52",
+      "firstHalfEnded": "09.05.2026 14:52:41",
+      "secondHalfStarted": "09.05.2026 15:09:28",
+      "secondHalfEnded": "09.05.2026 16:06:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.05.2026 16:06:56"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8509",
+      "name": "Sarpsborg 08",
+      "score": 2
+    },
+    {
+      "id": "8417",
+      "name": "Fredrikstad",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 41,
+      "added": 0,
+      "display": "41",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 7,
+      "display": "90+7",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 17,
+      "added": 0,
+      "display": "17",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      0
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      11,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

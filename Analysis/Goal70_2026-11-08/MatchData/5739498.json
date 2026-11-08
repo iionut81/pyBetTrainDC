@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5739498",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739498",
+  "verified_at_utc": "2026-11-05T06:08:50.741Z",
+  "general": {
+    "matchId": "5739498",
+    "matchName": "FC København-vs-Nordsjælland_Thu, Sep 3, 2026, 18:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#D8132E"
+      },
+      "lightMode": {
+        "home": "#375196",
+        "away": "#D8132E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "3",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "FC København",
+      "id": 8391
+    },
+    "awayTeam": {
+      "name": "Nordsjælland",
+      "id": 10202
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Sep 3, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-09-03T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-03T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "03.09.2026 20:03:06",
+      "firstHalfEnded": "03.09.2026 20:49:24",
+      "secondHalfStarted": "03.09.2026 21:06:51",
+      "secondHalfEnded": "03.09.2026 21:55:19",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.09.2026 21:55:19"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8391",
+      "name": "FC København",
+      "score": 2
+    },
+    {
+      "id": "10202",
+      "name": "Nordsjælland",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 8,
+      "added": 0,
+      "display": "8",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      0
+    ],
+    "All": [
+      2,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5739498.json"
+}

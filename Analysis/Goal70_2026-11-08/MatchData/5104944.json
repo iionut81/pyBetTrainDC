@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5104944",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104944",
+  "verified_at_utc": "2026-11-08T08:33:21.722Z",
+  "general": {
+    "matchId": "5104944",
+    "matchName": "Tromsø-vs-Vålerenga_Sat, Jul 11, 2026, 16:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#EB131C",
+        "away": "#333bb3"
+      },
+      "lightMode": {
+        "home": "#EB131C",
+        "away": "#283090"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "13",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Tromsø",
+      "id": 8608
+    },
+    "awayTeam": {
+      "name": "Vålerenga",
+      "id": 8007
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Jul 11, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-07-11T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-11T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "11.07.2026 18:02:05",
+      "firstHalfEnded": "11.07.2026 18:50:46",
+      "secondHalfStarted": "11.07.2026 19:09:48",
+      "secondHalfEnded": "11.07.2026 19:59:28",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.07.2026 19:59:28"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8608",
+      "name": "Tromsø",
+      "score": 4
+    },
+    {
+      "id": "8007",
+      "name": "Vålerenga",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      4
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      4,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

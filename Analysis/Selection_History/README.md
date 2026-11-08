@@ -55,3 +55,6 @@ sau verificare de rezultate, reconstruim interfata in aceeasi sesiune.
 
 
 5 noiembrie2026: [jurnal](2026-11-05.md), [review4 noiembrie](../Review_2026-11-04/REVIEW.md), [Gol70](../Goal70_2026-11-05/EUROPE_ALL_MATCHES.md), [cornere](../Corners1H_2026-11-05/ANALYSIS.md).35 partide,33/21 modele; research parțial. Candidați analistPalace–Hoffenheim șiCelta–Union; alegerile expliciteMjällby–Borac/Celta–Union sunt distincte, pending.
+
+
+8 noiembrie 2026: [jurnal](2026-11-08.md), [review7noiembrie](../Review_2026-11-07/REVIEW.md), [Gol70](../Goal70_2026-11-08/EUROPE_ALL_MATCHES.md), [cornere](../Corners1H_2026-11-08/ANALYSIS.md).105partide,103/81modele; research parțial. Candidați Cambuur–PSV/Girona–Almería, preferință individuală Girona; nicio alegere nouă inferată.

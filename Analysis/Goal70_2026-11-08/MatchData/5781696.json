@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5781696",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781696",
+  "verified_at_utc": "2026-11-07T06:56:19.957Z",
+  "general": {
+    "matchId": "5781696",
+    "matchName": "Sparta Rotterdam-vs-Feyenoord_Sun, Aug 9, 2026, 10:15 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E50020",
+        "away": "#005F7C"
+      },
+      "lightMode": {
+        "home": "#E50020",
+        "away": "#005F7C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "1",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "Sparta Rotterdam",
+      "id": 8614
+    },
+    "awayTeam": {
+      "name": "Feyenoord",
+      "id": 10235
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 9, 2026, 10:15 UTC",
+    "matchTimeUTCDate": "2026-08-09T10:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-09T10:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.08.2026 12:15:59",
+      "firstHalfEnded": "09.08.2026 13:04:02",
+      "secondHalfStarted": "09.08.2026 13:20:43",
+      "secondHalfEnded": "09.08.2026 14:14:22",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.08.2026 14:14:22"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8614",
+      "name": "Sparta Rotterdam",
+      "score": 0
+    },
+    {
+      "id": "10235",
+      "name": "Feyenoord",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 35,
+      "added": 0,
+      "display": "35",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      6
+    ],
+    "SecondHalf": [
+      3,
+      4
+    ],
+    "All": [
+      5,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 39,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5781696.json"
+}

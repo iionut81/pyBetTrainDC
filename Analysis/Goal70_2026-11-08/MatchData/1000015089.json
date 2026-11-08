@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "1000015089",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015089",
+  "verified_at_utc": "2026-11-07T07:00:02.137Z",
+  "general": {
+    "matchId": "1000015089",
+    "matchName": "Partizan Beograd-vs-FK IMT Beograd_Sun, Aug 2, 2026, 18:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#FD0000"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#FD0000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "3",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Partizan Beograd",
+      "id": 7998
+    },
+    "awayTeam": {
+      "name": "FK IMT Beograd",
+      "id": 568569
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 2, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-08-02T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-02T18:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.08.2026 20:02:52",
+      "firstHalfEnded": "02.08.2026 20:54:25",
+      "secondHalfStarted": "02.08.2026 21:11:39",
+      "secondHalfEnded": "02.08.2026 22:02:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.08.2026 22:02:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7998",
+      "name": "Partizan Beograd",
+      "score": 1
+    },
+    {
+      "id": "568569",
+      "name": "FK IMT Beograd",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89"
+    },
+    {
+      "side": "away",
+      "minute": 52,
+      "added": 0,
+      "display": "52"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      5
+    ],
+    "SecondHalf": [
+      2,
+      0
+    ],
+    "All": [
+      6,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015089.json"
+}

@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5868012",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868012",
+  "verified_at_utc": "2026-11-07T06:55:58.101Z",
+  "general": {
+    "matchId": "5868012",
+    "matchName": "Atletico Madrid-vs-Malaga_Wed, Aug 19, 2026, 19:05 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C63527",
+        "away": "#518EC7"
+      },
+      "lightMode": {
+        "home": "#C63527",
+        "away": "#518EC7"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "1",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Atletico Madrid",
+      "id": 9906
+    },
+    "awayTeam": {
+      "name": "Malaga",
+      "id": 9864
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Aug 19, 2026, 19:05 UTC",
+    "matchTimeUTCDate": "2026-08-19T19:05:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-19T19:05:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.08.2026 21:08:20",
+      "firstHalfEnded": "19.08.2026 21:58:43",
+      "secondHalfStarted": "19.08.2026 22:14:19",
+      "secondHalfEnded": "19.08.2026 23:05:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.08.2026 23:05:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9906",
+      "name": "Atletico Madrid",
+      "score": 2
+    },
+    {
+      "id": "9864",
+      "name": "Malaga",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 70,
+      "added": 0,
+      "display": "70",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 85,
+      "added": 0,
+      "display": "85",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      6,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868012.json"
+}

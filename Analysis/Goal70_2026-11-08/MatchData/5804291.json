@@ -1,0 +1,191 @@
+{
+  "ok": true,
+  "id": "5804291",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804291",
+  "verified_at_utc": "2026-11-07T06:59:37.285Z",
+  "general": {
+    "matchId": "5804291",
+    "matchName": "Young Boys-vs-FC Zürich_Sun, Nov 1, 2026, 13:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F0D12C",
+        "away": "#3F9FE7"
+      },
+      "lightMode": {
+        "home": "#d6a008",
+        "away": "#3F9FE7"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937880,
+    "leagueName": "Super League",
+    "leagueRoundName": "12",
+    "parentLeagueId": 69,
+    "countryCode": "SUI",
+    "homeTeam": {
+      "name": "Young Boys",
+      "id": 10192
+    },
+    "awayTeam": {
+      "name": "FC Zürich",
+      "id": 10243
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-11-01T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 14:01:20",
+      "firstHalfEnded": "01.11.2026 14:50:11",
+      "secondHalfStarted": "01.11.2026 15:07:17",
+      "secondHalfEnded": "01.11.2026 15:55:58",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 15:55:58"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 5",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10192",
+      "name": "Young Boys",
+      "score": 3
+    },
+    {
+      "id": "10243",
+      "name": "FC Zürich",
+      "score": 5
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 25,
+      "added": 0,
+      "display": "25",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      5
+    ],
+    "All": [
+      8,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5804291.json"
+}

@@ -1,0 +1,171 @@
+{
+  "ok": true,
+  "id": "5107464",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107464",
+  "verified_at_utc": "2026-11-08T08:33:36.795Z",
+  "general": {
+    "matchId": "5107464",
+    "matchName": "Malmö FF-vs-Sirius_Thu, Apr 23, 2026, 17:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#3991CC",
+        "away": "#175b9e"
+      },
+      "lightMode": {
+        "home": "#3991CC",
+        "away": "#2a497f"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Allsvenskan",
+    "leagueRoundName": "4",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Malmö FF",
+      "id": 10237
+    },
+    "awayTeam": {
+      "name": "Sirius",
+      "id": 6694
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Apr 23, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-04-23T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-23T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.04.2026 19:01:10",
+      "firstHalfEnded": "23.04.2026 19:51:49",
+      "secondHalfStarted": "23.04.2026 20:06:52",
+      "secondHalfEnded": "23.04.2026 20:59:02",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.04.2026 20:59:02"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10237",
+      "name": "Malmö FF",
+      "score": 2
+    },
+    {
+      "id": "6694",
+      "name": "Sirius",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 77,
+      "added": 0,
+      "display": "77",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      4,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

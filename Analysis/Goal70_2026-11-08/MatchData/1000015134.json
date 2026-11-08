@@ -1,0 +1,180 @@
+{
+  "ok": true,
+  "id": "1000015134",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015134",
+  "verified_at_utc": "2026-11-07T07:00:04.796Z",
+  "general": {
+    "matchId": "1000015134",
+    "matchName": "OFK Beograd-vs-FK Radnički 1923_Sat, Sep 19, 2026, 17:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#025098",
+        "away": "#E11C24"
+      },
+      "lightMode": {
+        "home": "#025098",
+        "away": "#E11C24"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "10",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "OFK Beograd",
+      "id": 8692
+    },
+    "awayTeam": {
+      "name": "FK Radnički 1923",
+      "id": 1675
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-19T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 19:02:53",
+      "firstHalfEnded": "19.09.2026 19:48:57",
+      "secondHalfStarted": "19.09.2026 20:05:19",
+      "secondHalfEnded": "19.09.2026 20:57:21",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 20:57:21"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 5",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8692",
+      "name": "OFK Beograd",
+      "score": 3
+    },
+    {
+      "id": "1675",
+      "name": "FK Radnički 1923",
+      "score": 5
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 6,
+      "added": 0,
+      "display": "6"
+    },
+    {
+      "side": "home",
+      "minute": 21,
+      "added": 0,
+      "display": "21"
+    },
+    {
+      "side": "home",
+      "minute": 66,
+      "added": 0,
+      "display": "66"
+    },
+    {
+      "side": "away",
+      "minute": 10,
+      "added": 0,
+      "display": "10"
+    },
+    {
+      "side": "away",
+      "minute": 34,
+      "added": 0,
+      "display": "34"
+    },
+    {
+      "side": "away",
+      "minute": 46,
+      "added": 0,
+      "display": "46"
+    },
+    {
+      "side": "away",
+      "minute": 75,
+      "added": 0,
+      "display": "75"
+    },
+    {
+      "side": "away",
+      "minute": 84,
+      "added": 0,
+      "display": "84"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      0
+    ],
+    "All": [
+      3,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015134.json"
+}

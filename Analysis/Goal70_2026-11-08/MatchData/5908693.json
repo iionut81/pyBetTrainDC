@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "id": "5908693",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908693",
+  "verified_at_utc": "2026-11-08T08:33:35.315Z",
+  "general": {
+    "matchId": "5908693",
+    "matchName": "Bodrum FK-vs-Ümraniyespor_Sun, Nov 1, 2026, 16:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#146E3A",
+        "away": "#CC242B"
+      },
+      "lightMode": {
+        "home": "#146E3A",
+        "away": "#CC242B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "1. Lig",
+    "leagueRoundName": "13",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Bodrum FK",
+      "id": 658811
+    },
+    "awayTeam": {
+      "name": "Ümraniyespor",
+      "id": 281460
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-11-01T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 16:59:54",
+      "firstHalfEnded": "01.11.2026 17:45:59",
+      "secondHalfStarted": "01.11.2026 18:02:18",
+      "secondHalfEnded": "01.11.2026 18:51:26",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 18:51:26"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "658811",
+      "name": "Bodrum FK",
+      "score": 1
+    },
+    {
+      "id": "281460",
+      "name": "Ümraniyespor",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 28,
+      "added": 0,
+      "display": "28"
+    },
+    {
+      "side": "away",
+      "minute": 6,
+      "added": 0,
+      "display": "6"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      0,
+      2
+    ],
+    "All": [
+      2,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

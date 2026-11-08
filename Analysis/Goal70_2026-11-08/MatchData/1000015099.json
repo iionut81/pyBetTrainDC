@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "id": "1000015099",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015099",
+  "verified_at_utc": "2026-11-05T06:08:41.463Z",
+  "general": {
+    "matchId": "1000015099",
+    "matchName": "Železničar Pančevo-vs-FK Crvena Zvezda_Thu, Sep 17, 2026, 18:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#D80017"
+      },
+      "lightMode": {
+        "home": "#212D3D",
+        "away": "#D80017"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "5",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Železničar Pančevo",
+      "id": 676141
+    },
+    "awayTeam": {
+      "name": "FK Crvena Zvezda",
+      "id": 8687
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Thu, Sep 17, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-09-17T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-17T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.09.2026 20:02:13",
+      "firstHalfEnded": "17.09.2026 20:52:48",
+      "secondHalfStarted": "17.09.2026 21:11:36",
+      "secondHalfEnded": "17.09.2026 21:59:52",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.09.2026 21:59:52"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "676141",
+      "name": "Železničar Pančevo",
+      "score": 1
+    },
+    {
+      "id": "8687",
+      "name": "FK Crvena Zvezda",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2"
+    },
+    {
+      "side": "away",
+      "minute": 13,
+      "added": 0,
+      "display": "13"
+    },
+    {
+      "side": "away",
+      "minute": 89,
+      "added": 0,
+      "display": "89"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      4
+    ],
+    "All": [
+      4,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 6,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015099.json"
+}

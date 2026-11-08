@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "id": "5781779",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781779",
+  "verified_at_utc": "2026-11-07T06:56:19.853Z",
+  "general": {
+    "matchId": "5781779",
+    "matchName": "ADO Den Haag-vs-SC Heerenveen_Sat, Oct 24, 2026, 19:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#008135",
+        "away": "#1053a4"
+      },
+      "lightMode": {
+        "home": "#008135",
+        "away": "#004F9F"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "10",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "ADO Den Haag",
+      "id": 10217
+    },
+    "awayTeam": {
+      "name": "SC Heerenveen",
+      "id": 10228
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 24, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-24T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-24T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.10.2026 21:01:36",
+      "firstHalfEnded": "24.10.2026 21:46:47",
+      "secondHalfStarted": "24.10.2026 22:03:47",
+      "secondHalfEnded": "24.10.2026 22:53:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.10.2026 22:53:17"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10217",
+      "name": "ADO Den Haag",
+      "score": 2
+    },
+    {
+      "id": "10228",
+      "name": "SC Heerenveen",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 72,
+      "added": 0,
+      "display": "72",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 66,
+      "added": 0,
+      "display": "66",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      8,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5781779.json"
+}

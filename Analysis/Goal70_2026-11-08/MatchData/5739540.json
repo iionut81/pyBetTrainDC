@@ -1,0 +1,130 @@
+{
+  "ok": true,
+  "id": "5739540",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739540",
+  "verified_at_utc": "2026-11-07T06:59:44.187Z",
+  "general": {
+    "matchId": "5739540",
+    "matchName": "Viborg-vs-AC Horsens_Sun, Nov 1, 2026, 13:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#007848",
+        "away": "#EEBB02"
+      },
+      "lightMode": {
+        "home": "#007848",
+        "away": "#d3a107"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "13",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "Viborg",
+      "id": 9939
+    },
+    "awayTeam": {
+      "name": "AC Horsens",
+      "id": 9814
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-11-01T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 14:00:12",
+      "firstHalfEnded": "01.11.2026 14:47:49",
+      "secondHalfStarted": "01.11.2026 15:03:07",
+      "secondHalfEnded": "01.11.2026 15:52:28",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 15:52:28"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9939",
+      "name": "Viborg",
+      "score": 1
+    },
+    {
+      "id": "9814",
+      "name": "AC Horsens",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      7,
+      1
+    ],
+    "All": [
+      10,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5739540.json"
+}

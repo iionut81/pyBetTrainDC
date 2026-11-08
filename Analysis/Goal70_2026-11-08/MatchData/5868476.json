@@ -1,0 +1,130 @@
+{
+  "ok": true,
+  "id": "5868476",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868476",
+  "verified_at_utc": "2026-11-08T08:33:28.659Z",
+  "general": {
+    "matchId": "5868476",
+    "matchName": "Girona-vs-Mallorca_Sun, Oct 4, 2026, 19:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#CF152D",
+        "away": "#FFE200"
+      },
+      "lightMode": {
+        "home": "#CF152D",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "8",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Girona",
+      "id": 7732
+    },
+    "awayTeam": {
+      "name": "Mallorca",
+      "id": 8661
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 4, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-04T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-04T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "04.10.2026 21:01:47",
+      "firstHalfEnded": "04.10.2026 21:46:28",
+      "secondHalfStarted": "04.10.2026 22:04:02",
+      "secondHalfEnded": "04.10.2026 22:51:02",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "04.10.2026 22:51:02"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7732",
+      "name": "Girona",
+      "score": 0
+    },
+    {
+      "id": "8661",
+      "name": "Mallorca",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      5
+    ],
+    "All": [
+      5,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 10,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

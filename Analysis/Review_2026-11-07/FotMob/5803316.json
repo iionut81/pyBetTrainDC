@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "5803316",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803316",
+  "verified_at_utc": "2026-11-08T08:31:18.110Z",
+  "general": {
+    "matchId": "5803316",
+    "matchName": "Saint-Étienne-vs-Laval_Sat, Nov 7, 2026, 19:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1D995B",
+        "away": "#EC6608"
+      },
+      "lightMode": {
+        "home": "#1D995B",
+        "away": "#EC6608"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 110,
+    "leagueName": "Ligue 2",
+    "leagueRoundName": "12",
+    "parentLeagueId": 110,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Saint-Étienne",
+      "id": 9853
+    },
+    "awayTeam": {
+      "name": "Laval",
+      "id": 7853
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 20:00:44",
+      "firstHalfEnded": "07.11.2026 20:47:17",
+      "secondHalfStarted": "07.11.2026 21:04:05",
+      "secondHalfEnded": "07.11.2026 21:53:08",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 21:53:08"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9853",
+      "name": "Saint-Étienne",
+      "score": 2
+    },
+    {
+      "id": "7853",
+      "name": "Laval",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      0
+    ],
+    "All": [
+      7,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,194 @@
+{
+  "ok": true,
+  "id": "5804287",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804287",
+  "verified_at_utc": "2026-11-05T06:08:48.183Z",
+  "general": {
+    "matchId": "5804287",
+    "matchName": "Lausanne-vs-Thun_Sun, Nov 1, 2026, 15:30 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#E30513"
+      },
+      "lightMode": {
+        "home": "#445490",
+        "away": "#E30513"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937880,
+    "leagueName": "Super League",
+    "leagueRoundName": "12",
+    "parentLeagueId": 69,
+    "countryCode": "SUI",
+    "homeTeam": {
+      "name": "Lausanne",
+      "id": 7730
+    },
+    "awayTeam": {
+      "name": "Thun",
+      "id": 10191
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-11-01T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T15:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 16:30:56",
+      "firstHalfEnded": "01.11.2026 17:17:29",
+      "secondHalfStarted": "01.11.2026 17:33:40",
+      "secondHalfEnded": "01.11.2026 18:25:10",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 18:25:10"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 5",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7730",
+      "name": "Lausanne",
+      "score": 4
+    },
+    {
+      "id": "10191",
+      "name": "Thun",
+      "score": 5
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 36,
+      "added": 0,
+      "display": "36",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 70,
+      "added": 0,
+      "display": "70",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 6,
+      "display": "90+6",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 81,
+      "added": 0,
+      "display": "81",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      9,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5804287.json"
+}

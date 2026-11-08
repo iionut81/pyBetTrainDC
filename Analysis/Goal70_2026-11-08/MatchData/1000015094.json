@@ -1,0 +1,171 @@
+{
+  "ok": true,
+  "id": "1000015094",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015094",
+  "verified_at_utc": "2026-11-07T07:00:03.954Z",
+  "general": {
+    "matchId": "1000015094",
+    "matchName": "OFK Beograd-vs-Železničar Pančevo_Sun, Aug 9, 2026, 19:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#025098",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#025098",
+        "away": "#212D3D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "4",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "OFK Beograd",
+      "id": 8692
+    },
+    "awayTeam": {
+      "name": "Železničar Pančevo",
+      "id": 676141
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 9, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-09T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-09T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "09.08.2026 21:00:21",
+      "firstHalfEnded": "09.08.2026 21:46:27",
+      "secondHalfStarted": "09.08.2026 22:03:05",
+      "secondHalfEnded": "09.08.2026 22:53:51",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.08.2026 22:53:51"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8692",
+      "name": "OFK Beograd",
+      "score": 2
+    },
+    {
+      "id": "676141",
+      "name": "Železničar Pančevo",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 25,
+      "added": 0,
+      "display": "25"
+    },
+    {
+      "side": "home",
+      "minute": 72,
+      "added": 0,
+      "display": "72"
+    },
+    {
+      "side": "away",
+      "minute": 6,
+      "added": 0,
+      "display": "6"
+    },
+    {
+      "side": "away",
+      "minute": 18,
+      "added": 0,
+      "display": "18"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      0
+    ],
+    "All": [
+      2,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 7,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "YellowRed",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015094.json"
+}

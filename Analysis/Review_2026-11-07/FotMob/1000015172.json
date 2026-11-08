@@ -1,0 +1,155 @@
+{
+  "ok": true,
+  "id": "1000015172",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015172",
+  "verified_at_utc": "2026-11-08T08:31:24.396Z",
+  "general": {
+    "matchId": "1000015172",
+    "matchName": "Železničar Pančevo-vs-FK Radnički 1923_Sat, Nov 7, 2026, 16:00 UTC",
+    "matchRound": "15",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#E11C24"
+      },
+      "lightMode": {
+        "home": "#212D3D",
+        "away": "#E11C24"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "15",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Železničar Pančevo",
+      "id": 676141
+    },
+    "awayTeam": {
+      "name": "FK Radnički 1923",
+      "id": 1675
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 17:01:39",
+      "firstHalfEnded": "07.11.2026 17:48:43",
+      "secondHalfStarted": "07.11.2026 18:05:58",
+      "secondHalfEnded": "07.11.2026 18:55:06",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 18:55:06"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "676141",
+      "name": "Železničar Pančevo",
+      "score": 3
+    },
+    {
+      "id": "1675",
+      "name": "FK Radnički 1923",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 26,
+      "added": 0,
+      "display": "26"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2"
+    },
+    {
+      "side": "home",
+      "minute": 49,
+      "added": 0,
+      "display": "49"
+    },
+    {
+      "side": "away",
+      "minute": 15,
+      "added": 0,
+      "display": "15"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      7,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

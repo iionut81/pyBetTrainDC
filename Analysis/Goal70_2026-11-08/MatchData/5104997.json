@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5104997",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104997",
+  "verified_at_utc": "2026-11-08T08:33:26.589Z",
+  "general": {
+    "matchId": "5104997",
+    "matchName": "Molde-vs-KFUM_Sun, Sep 6, 2026, 15:00 UTC",
+    "matchRound": "20",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0068b0",
+        "away": "#E60000"
+      },
+      "lightMode": {
+        "home": "#0D47A0",
+        "away": "#E60000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "20",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Molde",
+      "id": 9917
+    },
+    "awayTeam": {
+      "name": "KFUM",
+      "id": 2305
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-09-06T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 17:01:18",
+      "firstHalfEnded": "06.09.2026 17:47:44",
+      "secondHalfStarted": "06.09.2026 18:03:22",
+      "secondHalfEnded": "06.09.2026 18:52:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 18:52:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9917",
+      "name": "Molde",
+      "score": 2
+    },
+    {
+      "id": "2305",
+      "name": "KFUM",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 73,
+      "added": 0,
+      "display": "73",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      0
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      9,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 26,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 47,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "YellowRed",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

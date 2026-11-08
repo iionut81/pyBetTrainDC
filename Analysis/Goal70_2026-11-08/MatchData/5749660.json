@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "5749660",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749660",
+  "verified_at_utc": "2026-11-05T06:08:37.340Z",
+  "general": {
+    "matchId": "5749660",
+    "matchName": "Roma-vs-Atalanta_Sat, Sep 5, 2026, 18:45 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#b90926",
+        "away": "#0D68B1"
+      },
+      "lightMode": {
+        "home": "#96092B",
+        "away": "#004ca6"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "3",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Roma",
+      "id": 8686
+    },
+    "awayTeam": {
+      "name": "Atalanta",
+      "id": 8524
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-05T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 20:46:40",
+      "firstHalfEnded": "05.09.2026 21:32:55",
+      "secondHalfStarted": "05.09.2026 21:49:36",
+      "secondHalfEnded": "05.09.2026 22:41:22",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 22:41:22"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8686",
+      "name": "Roma",
+      "score": 2
+    },
+    {
+      "id": "8524",
+      "name": "Atalanta",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 0,
+      "display": "90",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 47,
+      "added": 0,
+      "display": "47",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      0
+    ],
+    "SecondHalf": [
+      7,
+      1
+    ],
+    "All": [
+      14,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5749660.json"
+}

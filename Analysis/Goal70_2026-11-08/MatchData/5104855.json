@@ -1,0 +1,176 @@
+{
+  "ok": true,
+  "id": "5104855",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104855",
+  "verified_at_utc": "2026-11-05T06:04:45.895Z",
+  "general": {
+    "matchId": "5104855",
+    "matchName": "Lillestrøm-vs-Kristiansund_Wed, May 20, 2026, 17:35 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#fede02",
+        "away": "#2c528c"
+      },
+      "lightMode": {
+        "home": "#dba000",
+        "away": "#0C2340"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "2",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Lillestrøm",
+      "id": 8476
+    },
+    "awayTeam": {
+      "name": "Kristiansund",
+      "id": 8605
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, May 20, 2026, 17:35 UTC",
+    "matchTimeUTCDate": "2026-05-20T17:35:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-20T17:35:00.000Z",
+    "numberOfHomeRedCards": 2,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.05.2026 19:46:46",
+      "firstHalfEnded": "20.05.2026 20:37:38",
+      "secondHalfStarted": "20.05.2026 20:53:13",
+      "secondHalfEnded": "20.05.2026 21:46:23",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.05.2026 21:46:23"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8476",
+      "name": "Lillestrøm",
+      "score": 1
+    },
+    {
+      "id": "8605",
+      "name": "Kristiansund",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 14,
+      "added": 0,
+      "display": "14",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 56,
+      "added": 0,
+      "display": "56",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      8,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "YellowRed",
+      "isHome": true
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 67,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5104855.json"
+}

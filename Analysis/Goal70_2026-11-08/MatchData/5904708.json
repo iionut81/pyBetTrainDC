@@ -1,0 +1,136 @@
+{
+  "ok": true,
+  "id": "5904708",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904708",
+  "verified_at_utc": "2026-11-04T06:04:21.043Z",
+  "general": {
+    "matchId": "5904708",
+    "matchName": "Gençlerbirliği-vs-Fenerbahçe_Sat, Aug 15, 2026, 18:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#A60832",
+        "away": "#FFED00"
+      },
+      "lightMode": {
+        "home": "#A60832",
+        "away": "#002D72"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "1",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Gençlerbirliği",
+      "id": 7800
+    },
+    "awayTeam": {
+      "name": "Fenerbahçe",
+      "id": 8695
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 15, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-15T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-15T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.08.2026 20:30:10",
+      "firstHalfEnded": "15.08.2026 21:18:49",
+      "secondHalfStarted": "15.08.2026 21:34:52",
+      "secondHalfEnded": "15.08.2026 22:24:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.08.2026 22:24:56"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7800",
+      "name": "Gençlerbirliği",
+      "score": 2
+    },
+    {
+      "id": "8695",
+      "name": "Fenerbahçe",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      5
+    ],
+    "SecondHalf": [
+      1,
+      7
+    ],
+    "All": [
+      1,
+      12
+    ]
+  },
+  "cards": [
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5904708.json"
+}

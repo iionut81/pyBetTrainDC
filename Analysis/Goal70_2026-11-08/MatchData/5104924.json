@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "id": "5104924",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104924",
+  "verified_at_utc": "2026-11-05T06:04:45.908Z",
+  "general": {
+    "matchId": "5104924",
+    "matchName": "Lillestrøm-vs-Viking_Wed, Jul 22, 2026, 17:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#fede02",
+        "away": "#244d89"
+      },
+      "lightMode": {
+        "home": "#dba000",
+        "away": "#132847"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "11",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Lillestrøm",
+      "id": 8476
+    },
+    "awayTeam": {
+      "name": "Viking",
+      "id": 8478
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Jul 22, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-07-22T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-22T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.07.2026 19:00:21",
+      "firstHalfEnded": "22.07.2026 19:46:40",
+      "secondHalfStarted": "22.07.2026 20:02:40",
+      "secondHalfEnded": "22.07.2026 20:53:46",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.07.2026 20:53:46"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8476",
+      "name": "Lillestrøm",
+      "score": 1
+    },
+    {
+      "id": "8478",
+      "name": "Viking",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      6
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      3,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5104924.json"
+}

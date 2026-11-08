@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5107632",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107632",
+  "verified_at_utc": "2026-11-06T06:30:53.965Z",
+  "general": {
+    "matchId": "5107632",
+    "matchName": "Mjällby-vs-Hammarby_Sun, Oct 25, 2026, 15:30 UTC",
+    "matchRound": "25",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FCDF00",
+        "away": "#00AD5E"
+      },
+      "lightMode": {
+        "home": "#e09d00",
+        "away": "#00AD5E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Allsvenskan",
+    "leagueRoundName": "25",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Mjällby",
+      "id": 8127
+    },
+    "awayTeam": {
+      "name": "Hammarby",
+      "id": 8248
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-10-25T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T15:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 16:30:44",
+      "firstHalfEnded": "25.10.2026 17:15:55",
+      "secondHalfStarted": "25.10.2026 17:31:37",
+      "secondHalfEnded": "25.10.2026 18:21:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 18:21:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8127",
+      "name": "Mjällby",
+      "score": 0
+    },
+    {
+      "id": "8248",
+      "name": "Hammarby",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      5
+    ],
+    "SecondHalf": [
+      5,
+      3
+    ],
+    "All": [
+      5,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5107632.json"
+}

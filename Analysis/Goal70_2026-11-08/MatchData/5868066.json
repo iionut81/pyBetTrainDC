@@ -1,0 +1,204 @@
+{
+  "ok": true,
+  "id": "5868066",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868066",
+  "verified_at_utc": "2026-11-07T06:55:58.657Z",
+  "general": {
+    "matchId": "5868066",
+    "matchName": "Barcelona-vs-Racing Santander_Wed, Sep 16, 2026, 19:30 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ab2151",
+        "away": "#2D8E2D"
+      },
+      "lightMode": {
+        "home": "#971e48",
+        "away": "#2D8E2D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "6",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Barcelona",
+      "id": 8634
+    },
+    "awayTeam": {
+      "name": "Racing Santander",
+      "id": 8696
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Sep 16, 2026, 19:30 UTC",
+    "matchTimeUTCDate": "2026-09-16T19:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-16T19:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.09.2026 21:34:22",
+      "firstHalfEnded": "16.09.2026 22:24:46",
+      "secondHalfStarted": "16.09.2026 22:43:20",
+      "secondHalfEnded": "16.09.2026 23:32:30",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.09.2026 23:32:30"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "7 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8634",
+      "name": "Barcelona",
+      "score": 7
+    },
+    {
+      "id": "8696",
+      "name": "Racing Santander",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 8,
+      "added": 0,
+      "display": "8",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 25,
+      "added": 0,
+      "display": "25",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 42,
+      "added": 0,
+      "display": "42",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 36,
+      "added": 0,
+      "display": "36",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "home",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 30,
+      "added": 0,
+      "display": "30",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      9,
+      0
+    ],
+    "SecondHalf": [
+      9,
+      0
+    ],
+    "All": [
+      18,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868066.json"
+}

@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5804038",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804038",
+  "verified_at_utc": "2026-11-08T08:31:16.161Z",
+  "general": {
+    "matchId": "5804038",
+    "matchName": "Widzew Łódź-vs-Pogoń Szczecin_Sat, Nov 7, 2026, 19:15 UTC",
+    "matchRound": "14",
+    "teamColors": {
+      "darkMode": {
+        "home": "#AD180F",
+        "away": "#1753a4"
+      },
+      "lightMode": {
+        "home": "#AD180F",
+        "away": "#102457"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "14",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Widzew Łódź",
+      "id": 8024
+    },
+    "awayTeam": {
+      "name": "Pogoń Szczecin",
+      "id": 8023
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 19:15 UTC",
+    "matchTimeUTCDate": "2026-11-07T19:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T19:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 20:22:47",
+      "firstHalfEnded": "07.11.2026 21:07:50",
+      "secondHalfStarted": "07.11.2026 21:25:41",
+      "secondHalfEnded": "07.11.2026 22:15:20",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 22:15:20"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8024",
+      "name": "Widzew Łódź",
+      "score": 3
+    },
+    {
+      "id": "8023",
+      "name": "Pogoń Szczecin",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 33,
+      "added": 0,
+      "display": "33",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      4
+    ],
+    "All": [
+      4,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

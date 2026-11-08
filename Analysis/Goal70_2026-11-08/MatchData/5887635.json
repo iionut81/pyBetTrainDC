@@ -1,0 +1,164 @@
+{
+  "ok": true,
+  "id": "5887635",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887635",
+  "verified_at_utc": "2026-11-05T06:04:55.288Z",
+  "general": {
+    "matchId": "5887635",
+    "matchName": "Benfica-vs-Gil Vicente_Sun, Sep 13, 2026, 17:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C00001",
+        "away": "#31457b"
+      },
+      "lightMode": {
+        "home": "#C00001",
+        "away": "#293863"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "6",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Benfica",
+      "id": 9772
+    },
+    "awayTeam": {
+      "name": "Gil Vicente",
+      "id": 9764
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-13T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 19:01:37",
+      "firstHalfEnded": "13.09.2026 19:49:08",
+      "secondHalfStarted": "13.09.2026 20:05:51",
+      "secondHalfEnded": "13.09.2026 20:57:31",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 20:57:31"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9772",
+      "name": "Benfica",
+      "score": 3
+    },
+    {
+      "id": "9764",
+      "name": "Gil Vicente",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 7,
+      "added": 0,
+      "display": "7",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      8,
+      0
+    ],
+    "SecondHalf": [
+      6,
+      0
+    ],
+    "All": [
+      14,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 12,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 26,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5887635.json"
+}

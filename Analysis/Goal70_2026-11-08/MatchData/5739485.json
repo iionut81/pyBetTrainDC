@@ -1,0 +1,169 @@
+{
+  "ok": true,
+  "id": "5739485",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739485",
+  "verified_at_utc": "2026-11-05T06:08:35.574Z",
+  "general": {
+    "matchId": "5739485",
+    "matchName": "AGF-vs-OB_Sun, Aug 23, 2026, 12:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#205898"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#205898"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "5",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "AGF",
+      "id": 8071
+    },
+    "awayTeam": {
+      "name": "OB",
+      "id": 8414
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-08-23T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 14:00:15",
+      "firstHalfEnded": "23.08.2026 14:49:34",
+      "secondHalfStarted": "23.08.2026 15:05:42",
+      "secondHalfEnded": "23.08.2026 15:54:54",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 15:54:54"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8071",
+      "name": "AGF",
+      "score": 2
+    },
+    {
+      "id": "8414",
+      "name": "OB",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 21,
+      "added": 0,
+      "display": "21",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 26,
+      "added": 0,
+      "display": "26",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 42,
+      "added": 0,
+      "display": "42",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      0
+    ],
+    "SecondHalf": [
+      10,
+      0
+    ],
+    "All": [
+      15,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5739485.json"
+}

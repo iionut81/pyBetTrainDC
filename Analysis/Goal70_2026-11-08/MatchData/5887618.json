@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "id": "5887618",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887618",
+  "verified_at_utc": "2026-11-05T06:08:36.394Z",
+  "general": {
+    "matchId": "5887618",
+    "matchName": "Alverca-vs-Braga_Sat, Sep 5, 2026, 17:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F31A0B",
+        "away": "#EECBB1"
+      },
+      "lightMode": {
+        "home": "#F31A0B",
+        "away": "#3C4A55"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "5",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Alverca",
+      "id": 9780
+    },
+    "awayTeam": {
+      "name": "Braga",
+      "id": 10264
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-05T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 19:03:25",
+      "firstHalfEnded": "05.09.2026 19:53:43",
+      "secondHalfStarted": "05.09.2026 20:11:35",
+      "secondHalfEnded": "05.09.2026 21:01:52",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 21:01:52"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9780",
+      "name": "Alverca",
+      "score": 1
+    },
+    {
+      "id": "10264",
+      "name": "Braga",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      2,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5887618.json"
+}

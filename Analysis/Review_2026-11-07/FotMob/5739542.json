@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5739542",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739542",
+  "verified_at_utc": "2026-11-08T08:31:21.371Z",
+  "general": {
+    "matchId": "5739542",
+    "matchName": "OB-vs-Viborg_Sat, Nov 7, 2026, 17:00 UTC",
+    "matchRound": "14",
+    "teamColors": {
+      "darkMode": {
+        "home": "#205898",
+        "away": "#007848"
+      },
+      "lightMode": {
+        "home": "#205898",
+        "away": "#007848"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "14",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "OB",
+      "id": 8414
+    },
+    "awayTeam": {
+      "name": "Viborg",
+      "id": 9939
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 18:00:49",
+      "firstHalfEnded": "07.11.2026 18:47:17",
+      "secondHalfStarted": "07.11.2026 19:01:27",
+      "secondHalfEnded": "07.11.2026 19:49:42",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 19:49:42"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8414",
+      "name": "OB",
+      "score": 1
+    },
+    {
+      "id": "9939",
+      "name": "Viborg",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      2,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

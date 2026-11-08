@@ -1,0 +1,165 @@
+{
+  "ok": true,
+  "id": "5105007",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5105007",
+  "verified_at_utc": "2026-11-08T08:33:25.620Z",
+  "general": {
+    "matchId": "5105007",
+    "matchName": "KFUM-vs-Aalesund_Sun, Sep 13, 2026, 15:00 UTC",
+    "matchRound": "21",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E60000",
+        "away": "#eb7805"
+      },
+      "lightMode": {
+        "home": "#E60000",
+        "away": "#eb7805"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "21",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "KFUM",
+      "id": 2305
+    },
+    "awayTeam": {
+      "name": "Aalesund",
+      "id": 8404
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-09-13T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 17:00:54",
+      "firstHalfEnded": "13.09.2026 17:49:33",
+      "secondHalfStarted": "13.09.2026 18:06:22",
+      "secondHalfEnded": "13.09.2026 18:56:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 18:56:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2305",
+      "name": "KFUM",
+      "score": 2
+    },
+    {
+      "id": "8404",
+      "name": "Aalesund",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 10,
+      "added": 0,
+      "display": "10",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 3,
+      "display": "45+3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 39,
+      "added": 0,
+      "display": "39",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      6,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 5,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

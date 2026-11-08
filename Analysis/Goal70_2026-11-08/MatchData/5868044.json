@@ -1,0 +1,177 @@
+{
+  "ok": true,
+  "id": "5868044",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868044",
+  "verified_at_utc": "2026-11-05T06:04:49.561Z",
+  "general": {
+    "matchId": "5868044",
+    "matchName": "Elche-vs-Real Sociedad_Mon, Sep 7, 2026, 19:30 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFFFFF",
+        "away": "#0056B3"
+      },
+      "lightMode": {
+        "home": "#00662D",
+        "away": "#0056B3"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "4",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Elche",
+      "id": 10268
+    },
+    "awayTeam": {
+      "name": "Real Sociedad",
+      "id": 8560
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Sep 7, 2026, 19:30 UTC",
+    "matchTimeUTCDate": "2026-09-07T19:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-07T19:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "07.09.2026 21:33:14",
+      "firstHalfEnded": "07.09.2026 22:19:29",
+      "secondHalfStarted": "07.09.2026 22:35:37",
+      "secondHalfEnded": "07.09.2026 23:27:42",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.09.2026 23:27:42"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10268",
+      "name": "Elche",
+      "score": 2
+    },
+    {
+      "id": "8560",
+      "name": "Real Sociedad",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 0,
+      "display": "90",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      4,
+      4
+    ],
+    "All": [
+      6,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 9,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 64,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5868044.json"
+}

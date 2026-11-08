@@ -1,0 +1,162 @@
+{
+  "ok": true,
+  "id": "5804229",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804229",
+  "verified_at_utc": "2026-11-07T06:56:41.796Z",
+  "general": {
+    "matchId": "5804229",
+    "matchName": "FC Vaduz-vs-St. Gallen_Sun, Aug 2, 2026, 12:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DC002E",
+        "away": "#097D35"
+      },
+      "lightMode": {
+        "home": "#DC002E",
+        "away": "#097D35"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937880,
+    "leagueName": "Super League",
+    "leagueRoundName": "2",
+    "parentLeagueId": 69,
+    "countryCode": "SUI",
+    "homeTeam": {
+      "name": "FC Vaduz",
+      "id": 9824
+    },
+    "awayTeam": {
+      "name": "St. Gallen",
+      "id": 10190
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 2, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-08-02T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-02T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.08.2026 14:01:28",
+      "firstHalfEnded": "02.08.2026 14:48:42",
+      "secondHalfStarted": "02.08.2026 15:04:09",
+      "secondHalfEnded": "02.08.2026 15:56:23",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.08.2026 15:56:23"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9824",
+      "name": "FC Vaduz",
+      "score": 2
+    },
+    {
+      "id": "10190",
+      "name": "St. Gallen",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 1,
+      "added": 0,
+      "display": "1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 72,
+      "added": 0,
+      "display": "72",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      6
+    ],
+    "All": [
+      3,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5804229.json"
+}

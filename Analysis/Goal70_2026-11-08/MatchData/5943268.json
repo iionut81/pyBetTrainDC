@@ -1,0 +1,193 @@
+{
+  "ok": true,
+  "id": "5943268",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943268",
+  "verified_at_utc": "2026-11-05T06:05:00.796Z",
+  "general": {
+    "matchId": "5943268",
+    "matchName": "Kalamata-vs-OFI Crete_Sun, Oct 18, 2026, 13:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#888888"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#888888"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941071,
+    "leagueName": "Super League",
+    "leagueRoundName": "7",
+    "parentLeagueId": 135,
+    "countryCode": "GRE",
+    "homeTeam": {
+      "name": "Kalamata",
+      "id": 1585
+    },
+    "awayTeam": {
+      "name": "OFI Crete",
+      "id": 7753
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 18, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-10-18T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-18T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.10.2026 15:04:55",
+      "firstHalfEnded": "18.10.2026 15:56:31",
+      "secondHalfStarted": "18.10.2026 16:14:51",
+      "secondHalfEnded": "18.10.2026 17:04:44",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.10.2026 17:04:44"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1585",
+      "name": "Kalamata",
+      "score": 4
+    },
+    {
+      "id": "7753",
+      "name": "OFI Crete",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 14,
+      "added": 0,
+      "display": "14",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 18,
+      "added": 0,
+      "display": "18",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 59,
+      "added": 0,
+      "display": "59",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 58,
+      "added": 0,
+      "display": "58",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 84,
+      "added": 0,
+      "display": "84",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      4
+    ],
+    "All": [
+      1,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5943268.json"
+}

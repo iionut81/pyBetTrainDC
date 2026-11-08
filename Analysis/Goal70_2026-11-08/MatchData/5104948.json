@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "id": "5104948",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104948",
+  "verified_at_utc": "2026-11-05T06:09:04.375Z",
+  "general": {
+    "matchId": "5104948",
+    "matchName": "Molde-vs-Brann_Sat, Jul 18, 2026, 16:00 UTC",
+    "matchRound": "14",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0068b0",
+        "away": "#DE1215"
+      },
+      "lightMode": {
+        "home": "#0D47A0",
+        "away": "#DE1215"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "14",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Molde",
+      "id": 9917
+    },
+    "awayTeam": {
+      "name": "Brann",
+      "id": 8468
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Jul 18, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-07-18T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-18T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.07.2026 18:01:13",
+      "firstHalfEnded": "18.07.2026 18:54:51",
+      "secondHalfStarted": "18.07.2026 19:09:20",
+      "secondHalfEnded": "18.07.2026 19:59:33",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.07.2026 19:59:33"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9917",
+      "name": "Molde",
+      "score": 1
+    },
+    {
+      "id": "8468",
+      "name": "Brann",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 8,
+      "added": 0,
+      "display": "8",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 35,
+      "added": 0,
+      "display": "35",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      4
+    ],
+    "SecondHalf": [
+      5,
+      0
+    ],
+    "All": [
+      6,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5104948.json"
+}

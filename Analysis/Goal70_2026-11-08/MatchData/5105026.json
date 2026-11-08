@@ -1,0 +1,172 @@
+{
+  "ok": true,
+  "id": "5105026",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5105026",
+  "verified_at_utc": "2026-11-04T06:04:33.305Z",
+  "general": {
+    "matchId": "5105026",
+    "matchName": "Viking-vs-Fredrikstad_Sat, Oct 17, 2026, 16:00 UTC",
+    "matchRound": "24",
+    "teamColors": {
+      "darkMode": {
+        "home": "#244d89",
+        "away": "#f13c26"
+      },
+      "lightMode": {
+        "home": "#132847",
+        "away": "#f13c26"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "24",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Viking",
+      "id": 8478
+    },
+    "awayTeam": {
+      "name": "Fredrikstad",
+      "id": 8417
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 17, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-17T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-17T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.10.2026 18:00:20",
+      "firstHalfEnded": "17.10.2026 18:48:31",
+      "secondHalfStarted": "17.10.2026 19:03:09",
+      "secondHalfEnded": "17.10.2026 19:52:31",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.10.2026 19:52:31"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8478",
+      "name": "Viking",
+      "score": 3
+    },
+    {
+      "id": "8417",
+      "name": "Fredrikstad",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 7,
+      "added": 0,
+      "display": "7",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      0
+    ],
+    "All": [
+      6,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 46,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5105026.json"
+}

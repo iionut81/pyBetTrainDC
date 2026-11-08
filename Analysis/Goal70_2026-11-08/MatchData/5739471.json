@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5739471",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739471",
+  "verified_at_utc": "2026-11-05T06:08:57.916Z",
+  "general": {
+    "matchId": "5739471",
+    "matchName": "Nordsjælland-vs-Randers FC_Sun, Aug 2, 2026, 12:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D8132E",
+        "away": "#7eb2e7"
+      },
+      "lightMode": {
+        "home": "#D8132E",
+        "away": "#73A8DC"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "2",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "Nordsjælland",
+      "id": 10202
+    },
+    "awayTeam": {
+      "name": "Randers FC",
+      "id": 8410
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 2, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-08-02T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-02T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.08.2026 14:00:31",
+      "firstHalfEnded": "02.08.2026 14:47:06",
+      "secondHalfStarted": "02.08.2026 15:03:18",
+      "secondHalfEnded": "02.08.2026 15:53:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.08.2026 15:53:56"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10202",
+      "name": "Nordsjælland",
+      "score": 1
+    },
+    {
+      "id": "8410",
+      "name": "Randers FC",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 5,
+      "display": "90+5",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      11,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5739471.json"
+}

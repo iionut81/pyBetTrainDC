@@ -1,0 +1,165 @@
+{
+  "ok": true,
+  "id": "5781714",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781714",
+  "verified_at_utc": "2026-11-04T06:04:26.808Z",
+  "general": {
+    "matchId": "5781714",
+    "matchName": "PSV Eindhoven-vs-FC Groningen_Sun, Aug 23, 2026, 12:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E00000",
+        "away": "#008850"
+      },
+      "lightMode": {
+        "home": "#E00000",
+        "away": "#008850"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "3",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "PSV Eindhoven",
+      "id": 8640
+    },
+    "awayTeam": {
+      "name": "FC Groningen",
+      "id": 8674
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 12:30 UTC",
+    "matchTimeUTCDate": "2026-08-23T12:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T12:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 14:30:56",
+      "firstHalfEnded": "23.08.2026 15:20:09",
+      "secondHalfStarted": "23.08.2026 15:37:16",
+      "secondHalfEnded": "23.08.2026 16:25:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 16:25:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "5 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8640",
+      "name": "PSV Eindhoven",
+      "score": 5
+    },
+    {
+      "id": "8674",
+      "name": "FC Groningen",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "home",
+      "minute": 35,
+      "added": 0,
+      "display": "35",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 3,
+      "display": "45+3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 9,
+      "added": 0,
+      "display": "9",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      7,
+      3
+    ],
+    "All": [
+      9,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 21,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5781714.json"
+}

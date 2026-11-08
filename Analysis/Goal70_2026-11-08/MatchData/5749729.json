@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "5749729",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749729",
+  "verified_at_utc": "2026-11-06T06:30:14.323Z",
+  "general": {
+    "matchId": "5749729",
+    "matchName": "Venezia-vs-Inter_Wed, Oct 28, 2026, 17:30 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#006127",
+        "away": "#0039d0"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#010E80"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "9",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Venezia",
+      "id": 7881
+    },
+    "awayTeam": {
+      "name": "Inter",
+      "id": 8636
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Oct 28, 2026, 17:30 UTC",
+    "matchTimeUTCDate": "2026-10-28T17:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-28T17:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.10.2026 18:31:13",
+      "firstHalfEnded": "28.10.2026 19:17:16",
+      "secondHalfStarted": "28.10.2026 19:32:17",
+      "secondHalfEnded": "28.10.2026 20:21:27",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.10.2026 20:21:27"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7881",
+      "name": "Venezia",
+      "score": 0
+    },
+    {
+      "id": "8636",
+      "name": "Inter",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      5
+    ],
+    "All": [
+      3,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 28,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5749729.json"
+}

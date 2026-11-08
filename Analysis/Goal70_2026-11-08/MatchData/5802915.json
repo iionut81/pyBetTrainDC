@@ -1,0 +1,136 @@
+{
+  "ok": true,
+  "id": "5802915",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802915",
+  "verified_at_utc": "2026-11-07T06:56:00.950Z",
+  "general": {
+    "matchId": "5802915",
+    "matchName": "Paris FC-vs-Nice_Sun, Aug 30, 2026, 13:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0453a6",
+        "away": "#ED1C24"
+      },
+      "lightMode": {
+        "home": "#0C1C3D",
+        "away": "#181818"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "2",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Paris FC",
+      "id": 6379
+    },
+    "awayTeam": {
+      "name": "Nice",
+      "id": 9831
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-08-30T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 15:00:43",
+      "firstHalfEnded": "30.08.2026 15:48:55",
+      "secondHalfStarted": "30.08.2026 16:04:26",
+      "secondHalfEnded": "30.08.2026 16:54:32",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 16:54:32"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6379",
+      "name": "Paris FC",
+      "score": 3
+    },
+    {
+      "id": "9831",
+      "name": "Nice",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 21,
+      "added": 0,
+      "display": "21",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      2,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5802915.json"
+}

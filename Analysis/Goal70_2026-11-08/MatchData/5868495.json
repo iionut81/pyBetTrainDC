@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5868495",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868495",
+  "verified_at_utc": "2026-11-06T06:30:31.150Z",
+  "general": {
+    "matchId": "5868495",
+    "matchName": "Eibar-vs-Mallorca_Sat, Oct 17, 2026, 14:15 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0071B9",
+        "away": "#E20613"
+      },
+      "lightMode": {
+        "home": "#0071B9",
+        "away": "#c2071f"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "10",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Eibar",
+      "id": 8372
+    },
+    "awayTeam": {
+      "name": "Mallorca",
+      "id": 8661
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 17, 2026, 14:15 UTC",
+    "matchTimeUTCDate": "2026-10-17T14:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-17T14:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "17.10.2026 16:16:44",
+      "firstHalfEnded": "17.10.2026 17:02:28",
+      "secondHalfStarted": "17.10.2026 17:26:10",
+      "secondHalfEnded": "17.10.2026 18:11:46",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.10.2026 18:11:46"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8372",
+      "name": "Eibar",
+      "score": 1
+    },
+    {
+      "id": "8661",
+      "name": "Mallorca",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 52,
+      "added": 0,
+      "display": "52",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      5,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5868495.json"
+}

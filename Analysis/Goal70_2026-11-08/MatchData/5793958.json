@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5793958",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793958",
+  "verified_at_utc": "2026-11-07T06:56:34.389Z",
+  "general": {
+    "matchId": "5793958",
+    "matchName": "Aberdeen-vs-Falkirk_Wed, Oct 28, 2026, 19:45 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#CF1A29",
+        "away": "#005992"
+      },
+      "lightMode": {
+        "home": "#CF1A29",
+        "away": "#00366e"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "11",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "Aberdeen",
+      "id": 8485
+    },
+    "awayTeam": {
+      "name": "Falkirk",
+      "id": 8596
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Oct 28, 2026, 19:45 UTC",
+    "matchTimeUTCDate": "2026-10-28T19:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-28T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.10.2026 20:45:40",
+      "firstHalfEnded": "28.10.2026 21:33:24",
+      "secondHalfStarted": "28.10.2026 21:48:33",
+      "secondHalfEnded": "28.10.2026 22:37:52",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.10.2026 22:37:52"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8485",
+      "name": "Aberdeen",
+      "score": 0
+    },
+    {
+      "id": "8596",
+      "name": "Falkirk",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 73,
+      "added": 0,
+      "display": "73",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      3
+    ],
+    "SecondHalf": [
+      0,
+      1
+    ],
+    "All": [
+      5,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 17,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5793958.json"
+}

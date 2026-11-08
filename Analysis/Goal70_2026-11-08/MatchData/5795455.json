@@ -1,0 +1,130 @@
+{
+  "ok": true,
+  "id": "5795455",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795455",
+  "verified_at_utc": "2026-11-05T06:04:51.596Z",
+  "general": {
+    "matchId": "5795455",
+    "matchName": "AFC Bournemouth-vs-Liverpool_Sun, Sep 20, 2026, 13:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D71921",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#D71921",
+        "away": "#00A398"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 47,
+    "leagueName": "Premier League",
+    "leagueRoundName": "5",
+    "parentLeagueId": 47,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "AFC Bournemouth",
+      "id": 8678
+    },
+    "awayTeam": {
+      "name": "Liverpool",
+      "id": 8650
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-09-20T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 15:00:41",
+      "firstHalfEnded": "20.09.2026 15:46:23",
+      "secondHalfStarted": "20.09.2026 16:01:17",
+      "secondHalfEnded": "20.09.2026 16:50:42",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 16:50:42"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8678",
+      "name": "AFC Bournemouth",
+      "score": 0
+    },
+    {
+      "id": "8650",
+      "name": "Liverpool",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      3,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 46,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5795455.json"
+}

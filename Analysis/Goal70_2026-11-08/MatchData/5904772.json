@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5904772",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904772",
+  "verified_at_utc": "2026-11-08T08:33:33.302Z",
+  "general": {
+    "matchId": "5904772",
+    "matchName": "Çorum FK-vs-Rizespor_Fri, Oct 16, 2026, 17:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#b20021",
+        "away": "#3c4f9c"
+      },
+      "lightMode": {
+        "home": "#b20021",
+        "away": "#002D73"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "8",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Çorum FK",
+      "id": 357274
+    },
+    "awayTeam": {
+      "name": "Rizespor",
+      "id": 2166
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 16, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-10-16T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-16T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.10.2026 19:00:15",
+      "firstHalfEnded": "16.10.2026 19:46:22",
+      "secondHalfStarted": "16.10.2026 20:03:30",
+      "secondHalfEnded": "16.10.2026 20:51:47",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.10.2026 20:51:47"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "357274",
+      "name": "Çorum FK",
+      "score": 2
+    },
+    {
+      "id": "2166",
+      "name": "Rizespor",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      5
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      2,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 12,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

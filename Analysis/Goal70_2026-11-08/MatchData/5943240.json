@@ -1,0 +1,157 @@
+{
+  "ok": true,
+  "id": "5943240",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943240",
+  "verified_at_utc": "2026-11-08T08:33:32.196Z",
+  "general": {
+    "matchId": "5943240",
+    "matchName": "Atromitos-vs-Kalamata_Sun, Sep 6, 2026, 16:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2d5793",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#004078",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941071,
+    "leagueName": "Super League",
+    "leagueRoundName": "3",
+    "parentLeagueId": 135,
+    "countryCode": "GRE",
+    "homeTeam": {
+      "name": "Atromitos",
+      "id": 10187
+    },
+    "awayTeam": {
+      "name": "Kalamata",
+      "id": 1585
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-09-06T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 18:01:39",
+      "firstHalfEnded": "06.09.2026 18:50:07",
+      "secondHalfStarted": "06.09.2026 19:06:48",
+      "secondHalfEnded": "06.09.2026 19:56:10",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 19:56:10"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10187",
+      "name": "Atromitos",
+      "score": 1
+    },
+    {
+      "id": "1585",
+      "name": "Kalamata",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 1,
+      "added": 0,
+      "display": "1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 52,
+      "added": 0,
+      "display": "52",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      8,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

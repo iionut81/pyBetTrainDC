@@ -1,0 +1,157 @@
+{
+  "ok": true,
+  "id": "5781731",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781731",
+  "verified_at_utc": "2026-11-05T06:08:52.951Z",
+  "general": {
+    "matchId": "5781731",
+    "matchName": "Cambuur-vs-FC Twente_Sun, Aug 30, 2026, 18:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F9EC00",
+        "away": "#CA0216"
+      },
+      "lightMode": {
+        "home": "#0032A1",
+        "away": "#CA0216"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "4",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "Cambuur",
+      "id": 7788
+    },
+    "awayTeam": {
+      "name": "FC Twente",
+      "id": 8611
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-08-30T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 20:00:53",
+      "firstHalfEnded": "30.08.2026 20:47:49",
+      "secondHalfStarted": "30.08.2026 21:03:54",
+      "secondHalfEnded": "30.08.2026 21:50:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 21:50:56"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7788",
+      "name": "Cambuur",
+      "score": 1
+    },
+    {
+      "id": "8611",
+      "name": "FC Twente",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 26,
+      "added": 0,
+      "display": "26",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 47,
+      "added": 0,
+      "display": "47",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      5
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      2,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 39,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5781731.json"
+}

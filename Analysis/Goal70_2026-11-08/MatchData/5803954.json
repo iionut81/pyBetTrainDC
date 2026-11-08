@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "id": "5803954",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803954",
+  "verified_at_utc": "2026-11-07T06:56:14.740Z",
+  "general": {
+    "matchId": "5803954",
+    "matchName": "Piast Gliwice-vs-Legia Warszawa_Sat, Aug 22, 2026, 15:30 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0850A0",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#0850A0",
+        "away": "#009445"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "5",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Piast Gliwice",
+      "id": 8028
+    },
+    "awayTeam": {
+      "name": "Legia Warszawa",
+      "id": 8673
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-08-22T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T15:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 17:32:30",
+      "firstHalfEnded": "22.08.2026 18:19:03",
+      "secondHalfStarted": "22.08.2026 18:34:56",
+      "secondHalfEnded": "22.08.2026 20:31:23",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 20:31:23"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8028",
+      "name": "Piast Gliwice",
+      "score": 1
+    },
+    {
+      "id": "8673",
+      "name": "Legia Warszawa",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 5,
+      "display": "90+5",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 7,
+      "added": 0,
+      "display": "7",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      4,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5803954.json"
+}

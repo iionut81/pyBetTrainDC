@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5802937",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802937",
+  "verified_at_utc": "2026-11-07T06:56:01.873Z",
+  "general": {
+    "matchId": "5802937",
+    "matchName": "Angers-vs-Troyes_Sat, Sep 19, 2026, 18:45 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#2d56ae"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#2A50A1"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "5",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Angers",
+      "id": 8121
+    },
+    "awayTeam": {
+      "name": "Troyes",
+      "id": 10242
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-19T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 20:45:30",
+      "firstHalfEnded": "19.09.2026 21:31:26",
+      "secondHalfStarted": "19.09.2026 21:46:26",
+      "secondHalfEnded": "19.09.2026 22:39:13",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 22:39:13"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8121",
+      "name": "Angers",
+      "score": 2
+    },
+    {
+      "id": "10242",
+      "name": "Troyes",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 42,
+      "added": 0,
+      "display": "42",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      8
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      2,
+      11
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5802937.json"
+}

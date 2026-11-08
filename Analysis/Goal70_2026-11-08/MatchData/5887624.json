@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5887624",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887624",
+  "verified_at_utc": "2026-11-08T08:33:30.202Z",
+  "general": {
+    "matchId": "5887624",
+    "matchName": "Santa Clara-vs-Rio Ave_Sun, Sep 6, 2026, 14:30 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E10126",
+        "away": "#015F24"
+      },
+      "lightMode": {
+        "home": "#E10126",
+        "away": "#015F24"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "5",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Santa Clara",
+      "id": 1567
+    },
+    "awayTeam": {
+      "name": "Rio Ave",
+      "id": 7841
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-09-06T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 16:32:32",
+      "firstHalfEnded": "06.09.2026 17:19:37",
+      "secondHalfStarted": "06.09.2026 17:36:42",
+      "secondHalfEnded": "06.09.2026 18:25:54",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 18:25:54"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1567",
+      "name": "Santa Clara",
+      "score": 4
+    },
+    {
+      "id": "7841",
+      "name": "Rio Ave",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 47,
+      "added": 0,
+      "display": "47",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 52,
+      "added": 0,
+      "display": "52",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 0,
+      "display": "90",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      0
+    ],
+    "All": [
+      8,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

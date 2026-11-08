@@ -1,0 +1,167 @@
+{
+  "ok": true,
+  "id": "5749677",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749677",
+  "verified_at_utc": "2026-11-05T06:04:53.248Z",
+  "general": {
+    "matchId": "5749677",
+    "matchName": "Sassuolo-vs-Juventus_Sun, Sep 13, 2026, 18:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#009A44",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#009A44",
+        "away": "#000001"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "4",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Sassuolo",
+      "id": 7943
+    },
+    "awayTeam": {
+      "name": "Juventus",
+      "id": 9885
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-13T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 20:45:29",
+      "firstHalfEnded": "13.09.2026 21:31:46",
+      "secondHalfStarted": "13.09.2026 21:46:47",
+      "secondHalfEnded": "13.09.2026 22:37:09",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 22:37:09"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7943",
+      "name": "Sassuolo",
+      "score": 3
+    },
+    {
+      "id": "9885",
+      "name": "Juventus",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 65,
+      "added": 0,
+      "display": "65",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      5
+    ],
+    "SecondHalf": [
+      2,
+      5
+    ],
+    "All": [
+      3,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5749677.json"
+}

@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5765895",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765895",
+  "verified_at_utc": "2026-11-05T06:08:44.540Z",
+  "general": {
+    "matchId": "5765895",
+    "matchName": "NK Varazdin-vs-Hajduk Split_Sun, Aug 2, 2026, 16:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1469A5",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#1469A5",
+        "away": "#D2232A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "1",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "NK Varazdin",
+      "id": 10165
+    },
+    "awayTeam": {
+      "name": "Hajduk Split",
+      "id": 10154
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 2, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-08-02T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-02T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.08.2026 18:30:49",
+      "firstHalfEnded": "02.08.2026 19:18:19",
+      "secondHalfStarted": "02.08.2026 19:35:14",
+      "secondHalfEnded": "02.08.2026 20:25:33",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.08.2026 20:25:33"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10165",
+      "name": "NK Varazdin",
+      "score": 2
+    },
+    {
+      "id": "10154",
+      "name": "Hajduk Split",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53"
+    },
+    {
+      "side": "home",
+      "minute": 62,
+      "added": 0,
+      "display": "62"
+    },
+    {
+      "side": "away",
+      "minute": 56,
+      "added": 0,
+      "display": "56"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      0,
+      5
+    ],
+    "All": [
+      1,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 47,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5765895.json"
+}

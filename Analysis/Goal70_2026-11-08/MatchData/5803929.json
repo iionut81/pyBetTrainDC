@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "id": "5803929",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803929",
+  "verified_at_utc": "2026-11-07T06:56:14.314Z",
+  "general": {
+    "matchId": "5803929",
+    "matchName": "Śląsk Wrocław-vs-Raków Częstochowa_Sun, Aug 2, 2026, 15:30 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#138445",
+        "away": "#EC1B24"
+      },
+      "lightMode": {
+        "home": "#006643",
+        "away": "#EC1B24"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "2",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Śląsk Wrocław",
+      "id": 8025
+    },
+    "awayTeam": {
+      "name": "Raków Częstochowa",
+      "id": 4024
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 2, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-08-02T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-02T15:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.08.2026 17:33:30",
+      "firstHalfEnded": "02.08.2026 18:28:02",
+      "secondHalfStarted": "02.08.2026 18:44:46",
+      "secondHalfEnded": "02.08.2026 19:34:32",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.08.2026 19:34:32"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8025",
+      "name": "Śląsk Wrocław",
+      "score": 2
+    },
+    {
+      "id": "4024",
+      "name": "Raków Częstochowa",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 0,
+      "display": "90",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      4,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5803929.json"
+}

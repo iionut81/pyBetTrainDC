@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5868482",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868482",
+  "verified_at_utc": "2026-11-06T06:30:30.605Z",
+  "general": {
+    "matchId": "5868482",
+    "matchName": "FC Andorra-vs-Castellón_Sun, Oct 11, 2026, 12:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#003ce7",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#010D89",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "9",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "FC Andorra",
+      "id": 494050
+    },
+    "awayTeam": {
+      "name": "Castellón",
+      "id": 10279
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 11, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-10-11T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-11T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "11.10.2026 14:01:02",
+      "firstHalfEnded": "11.10.2026 14:47:49",
+      "secondHalfStarted": "11.10.2026 15:03:38",
+      "secondHalfEnded": "11.10.2026 15:53:11",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.10.2026 15:53:11"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "494050",
+      "name": "FC Andorra",
+      "score": 1
+    },
+    {
+      "id": "10279",
+      "name": "Castellón",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      5
+    ],
+    "All": [
+      4,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 12,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5868482.json"
+}

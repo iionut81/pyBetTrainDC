@@ -1,0 +1,167 @@
+{
+  "ok": true,
+  "id": "5804261",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804261",
+  "verified_at_utc": "2026-11-05T06:08:47.766Z",
+  "general": {
+    "matchId": "5804261",
+    "matchName": "Sion-vs-Thun_Sun, Sep 6, 2026, 14:30 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ED271E",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#ED271E",
+        "away": "#da9e00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937880,
+    "leagueName": "Super League",
+    "leagueRoundName": "7",
+    "parentLeagueId": 69,
+    "countryCode": "SUI",
+    "homeTeam": {
+      "name": "Sion",
+      "id": 10179
+    },
+    "awayTeam": {
+      "name": "Thun",
+      "id": 10191
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-09-06T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T14:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 16:31:20",
+      "firstHalfEnded": "06.09.2026 17:18:25",
+      "secondHalfStarted": "06.09.2026 17:33:17",
+      "secondHalfEnded": "06.09.2026 18:24:16",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 18:24:15"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10179",
+      "name": "Sion",
+      "score": 3
+    },
+    {
+      "id": "10191",
+      "name": "Thun",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 10,
+      "added": 0,
+      "display": "10",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 71,
+      "added": 0,
+      "display": "71",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      11,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 16,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 41,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5804261.json"
+}

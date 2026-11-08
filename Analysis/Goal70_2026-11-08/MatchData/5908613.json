@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5908613",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908613",
+  "verified_at_utc": "2026-11-07T06:59:46.726Z",
+  "general": {
+    "matchId": "5908613",
+    "matchName": "Muğlaspor-vs-Boluspor_Fri, Aug 28, 2026, 18:30 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#11863E",
+        "away": "#EE2722"
+      },
+      "lightMode": {
+        "home": "#11863E",
+        "away": "#EE2722"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "4",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Muğlaspor",
+      "id": 178387
+    },
+    "awayTeam": {
+      "name": "Boluspor",
+      "id": 4675
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Fri, Aug 28, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-28T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-28T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "28.08.2026 20:30:32",
+      "firstHalfEnded": "28.08.2026 21:18:36",
+      "secondHalfStarted": "28.08.2026 21:34:39",
+      "secondHalfEnded": "28.08.2026 22:22:51",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.08.2026 22:22:51"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "178387",
+      "name": "Muğlaspor",
+      "score": 2
+    },
+    {
+      "id": "4675",
+      "name": "Boluspor",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 6,
+      "added": 0,
+      "display": "6"
+    },
+    {
+      "side": "home",
+      "minute": 46,
+      "added": 0,
+      "display": "46"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      0
+    ],
+    "All": [
+      3,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 52,
+      "card": "YellowRed",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5908613.json"
+}

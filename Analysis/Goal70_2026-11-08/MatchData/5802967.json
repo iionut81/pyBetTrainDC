@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "id": "5802967",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802967",
+  "verified_at_utc": "2026-11-04T06:04:25.924Z",
+  "general": {
+    "matchId": "5802967",
+    "matchName": "Lens-vs-Paris FC_Sat, Oct 24, 2026, 18:45 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFCE00",
+        "away": "#0453a6"
+      },
+      "lightMode": {
+        "home": "#d89f00",
+        "away": "#0C1C3D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "8",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Lens",
+      "id": 8588
+    },
+    "awayTeam": {
+      "name": "Paris FC",
+      "id": 6379
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 24, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-10-24T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-24T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.10.2026 20:45:04",
+      "firstHalfEnded": "24.10.2026 21:36:15",
+      "secondHalfStarted": "24.10.2026 21:52:58",
+      "secondHalfEnded": "24.10.2026 22:45:59",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.10.2026 22:45:59"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8588",
+      "name": "Lens",
+      "score": 2
+    },
+    {
+      "id": "6379",
+      "name": "Paris FC",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      6,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 28,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5802967.json"
+}

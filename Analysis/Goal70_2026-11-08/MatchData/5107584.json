@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "5107584",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107584",
+  "verified_at_utc": "2026-11-07T06:59:53.590Z",
+  "general": {
+    "matchId": "5107584",
+    "matchName": "GAIS-vs-Brommapojkarna_Mon, Aug 31, 2026, 17:00 UTC",
+    "matchRound": "19",
+    "teamColors": {
+      "darkMode": {
+        "home": "#008840",
+        "away": "#D21A0E"
+      },
+      "lightMode": {
+        "home": "#008840",
+        "away": "#D21A0E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "19",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "GAIS",
+      "id": 8297
+    },
+    "awayTeam": {
+      "name": "Brommapojkarna",
+      "id": 8501
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Aug 31, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-08-31T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-31T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "31.08.2026 19:00:48",
+      "firstHalfEnded": "31.08.2026 19:45:49",
+      "secondHalfStarted": "31.08.2026 20:01:39",
+      "secondHalfEnded": "31.08.2026 20:50:41",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "31.08.2026 20:50:41"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8297",
+      "name": "GAIS",
+      "score": 4
+    },
+    {
+      "id": "8501",
+      "name": "Brommapojkarna",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 33,
+      "added": 0,
+      "display": "33",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 77,
+      "added": 0,
+      "display": "77",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      7,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5107584.json"
+}

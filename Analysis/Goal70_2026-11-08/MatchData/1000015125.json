@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "id": "1000015125",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015125",
+  "verified_at_utc": "2026-11-07T07:00:04.359Z",
+  "general": {
+    "matchId": "1000015125",
+    "matchName": "Novi Pazar-vs-Železničar Pančevo_Fri, Sep 4, 2026, 17:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004080",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#004080",
+        "away": "#212D3D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Novi Pazar",
+      "id": 187854
+    },
+    "awayTeam": {
+      "name": "Železničar Pančevo",
+      "id": 676141
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Fri, Sep 4, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-04T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-04T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "04.09.2026 19:02:13",
+      "firstHalfEnded": "04.09.2026 19:49:25",
+      "secondHalfStarted": "04.09.2026 20:05:22",
+      "secondHalfEnded": "04.09.2026 20:55:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "04.09.2026 20:55:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "187854",
+      "name": "Novi Pazar",
+      "score": 2
+    },
+    {
+      "id": "676141",
+      "name": "Železničar Pančevo",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53"
+    },
+    {
+      "side": "home",
+      "minute": 86,
+      "added": 0,
+      "display": "86"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      3,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 13,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015125.json"
+}

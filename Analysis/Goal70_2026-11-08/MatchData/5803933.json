@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "5803933",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803933",
+  "verified_at_utc": "2026-11-05T06:04:44.043Z",
+  "general": {
+    "matchId": "5803933",
+    "matchName": "Jagiellonia Białystok-vs-Widzew Łódź_Sun, Aug 9, 2026, 18:15 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D81921",
+        "away": "#AC9861"
+      },
+      "lightMode": {
+        "home": "#D81921",
+        "away": "#AC9861"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "3",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Jagiellonia Białystok",
+      "id": 1957
+    },
+    "awayTeam": {
+      "name": "Widzew Łódź",
+      "id": 8024
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 9, 2026, 18:15 UTC",
+    "matchTimeUTCDate": "2026-08-09T18:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-09T18:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.08.2026 20:16:33",
+      "firstHalfEnded": "09.08.2026 21:01:32",
+      "secondHalfStarted": "09.08.2026 21:18:37",
+      "secondHalfEnded": "09.08.2026 22:14:59",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.08.2026 22:14:59"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1957",
+      "name": "Jagiellonia Białystok",
+      "score": 0
+    },
+    {
+      "id": "8024",
+      "name": "Widzew Łódź",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 52,
+      "added": 0,
+      "display": "52",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      8,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5803933.json"
+}

@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "5781725",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781725",
+  "verified_at_utc": "2026-11-06T06:30:26.832Z",
+  "general": {
+    "matchId": "5781725",
+    "matchName": "PEC Zwolle-vs-NEC Nijmegen_Sat, Aug 29, 2026, 19:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0154A1",
+        "away": "#ED1C24"
+      },
+      "lightMode": {
+        "home": "#0154A1",
+        "away": "#ED1C24"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "4",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "PEC Zwolle",
+      "id": 6413
+    },
+    "awayTeam": {
+      "name": "NEC Nijmegen",
+      "id": 8464
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 29, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-29T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-29T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "29.08.2026 21:00:44",
+      "firstHalfEnded": "29.08.2026 21:48:49",
+      "secondHalfStarted": "29.08.2026 22:05:30",
+      "secondHalfEnded": "29.08.2026 22:54:30",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "29.08.2026 22:54:30"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6413",
+      "name": "PEC Zwolle",
+      "score": 1
+    },
+    {
+      "id": "8464",
+      "name": "NEC Nijmegen",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 5,
+      "added": 0,
+      "display": "5",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 23,
+      "added": 0,
+      "display": "23",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      6
+    ],
+    "All": [
+      6,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5781725.json"
+}

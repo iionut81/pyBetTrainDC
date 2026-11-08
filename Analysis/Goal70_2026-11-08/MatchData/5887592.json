@@ -1,0 +1,174 @@
+{
+  "ok": true,
+  "id": "5887592",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887592",
+  "verified_at_utc": "2026-11-07T06:56:29.752Z",
+  "general": {
+    "matchId": "5887592",
+    "matchName": "Alverca-vs-Estrela da Amadora_Sat, Aug 15, 2026, 14:30 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F31A0B",
+        "away": "#186e48"
+      },
+      "lightMode": {
+        "home": "#F31A0B",
+        "away": "#00613C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "2",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Alverca",
+      "id": 9780
+    },
+    "awayTeam": {
+      "name": "Estrela da Amadora",
+      "id": 1074320
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 15, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-08-15T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-15T14:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.08.2026 16:32:25",
+      "firstHalfEnded": "15.08.2026 17:18:21",
+      "secondHalfStarted": "15.08.2026 17:36:56",
+      "secondHalfEnded": "15.08.2026 18:28:14",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.08.2026 18:28:14"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9780",
+      "name": "Alverca",
+      "score": 2
+    },
+    {
+      "id": "1074320",
+      "name": "Estrela da Amadora",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 58,
+      "added": 0,
+      "display": "58",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 69,
+      "added": 0,
+      "display": "69",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      0
+    ],
+    "All": [
+      2,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 17,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 71,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5887592.json"
+}

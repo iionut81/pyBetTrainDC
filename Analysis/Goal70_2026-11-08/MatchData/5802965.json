@@ -1,0 +1,141 @@
+{
+  "ok": true,
+  "id": "5802965",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802965",
+  "verified_at_utc": "2026-11-07T06:56:00.747Z",
+  "general": {
+    "matchId": "5802965",
+    "matchName": "Auxerre-vs-Le Mans_Sun, Oct 25, 2026, 16:15 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#D60000"
+      },
+      "lightMode": {
+        "home": "#055DC6",
+        "away": "#D60000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "8",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Auxerre",
+      "id": 8583
+    },
+    "awayTeam": {
+      "name": "Le Mans",
+      "id": 8682
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 16:15 UTC",
+    "matchTimeUTCDate": "2026-10-25T16:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T16:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 17:15:40",
+      "firstHalfEnded": "25.10.2026 18:00:58",
+      "secondHalfStarted": "25.10.2026 18:17:01",
+      "secondHalfEnded": "25.10.2026 19:11:51",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 19:11:51"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8583",
+      "name": "Auxerre",
+      "score": 1
+    },
+    {
+      "id": "8682",
+      "name": "Le Mans",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 48,
+      "added": 0,
+      "display": "48"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      6,
+      1
+    ],
+    "All": [
+      7,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 21,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 26,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5802965.json"
+}

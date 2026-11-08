@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5868411",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868411",
+  "verified_at_utc": "2026-11-07T06:56:27.943Z",
+  "general": {
+    "matchId": "5868411",
+    "matchName": "Granada-vs-Mallorca_Mon, Aug 24, 2026, 19:30 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D5001C",
+        "away": "#FFE200"
+      },
+      "lightMode": {
+        "home": "#D5001C",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "2",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Granada",
+      "id": 7878
+    },
+    "awayTeam": {
+      "name": "Mallorca",
+      "id": 8661
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Aug 24, 2026, 19:30 UTC",
+    "matchTimeUTCDate": "2026-08-24T19:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-24T19:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.08.2026 21:31:15",
+      "firstHalfEnded": "24.08.2026 22:18:49",
+      "secondHalfStarted": "24.08.2026 22:35:12",
+      "secondHalfEnded": "24.08.2026 23:25:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.08.2026 23:25:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7878",
+      "name": "Granada",
+      "score": 2
+    },
+    {
+      "id": "8661",
+      "name": "Mallorca",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 20,
+      "added": 0,
+      "display": "20",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 81,
+      "added": 0,
+      "display": "81",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      7,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 26,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868411.json"
+}

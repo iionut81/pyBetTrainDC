@@ -1,0 +1,38 @@
+{
+  "method": "Symmetric removal of all historical FT90 score margins >=4; diagnostic only, not a validated model or confidence interval",
+  "id": "5781796",
+  "samples": {
+    "home": {
+      "n": 8,
+      "gf": 9,
+      "ga": 11
+    },
+    "away": {
+      "n": 8,
+      "gf": 13,
+      "ga": 7
+    },
+    "home_venue": {
+      "n": 4,
+      "gf": 5,
+      "ga": 8
+    },
+    "away_venue": {
+      "n": 4,
+      "gf": 7,
+      "ga": 4
+    }
+  },
+  "excluded_ids": [
+    "5781701",
+    "5781785",
+    "5781788",
+    "5781714",
+    "5781726",
+    "5781793"
+  ],
+  "lambda_season": 2.5,
+  "lambda_venue": 3,
+  "p_raw": 0.9360721387932924,
+  "p_stress": 0.8891968416376661
+}

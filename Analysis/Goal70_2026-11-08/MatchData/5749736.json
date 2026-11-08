@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "id": "5749736",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749736",
+  "verified_at_utc": "2026-11-07T06:56:02.032Z",
+  "general": {
+    "matchId": "5749736",
+    "matchName": "Lazio-vs-Cagliari_Sun, Nov 1, 2026, 14:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#4096da",
+        "away": "#B51F2B"
+      },
+      "lightMode": {
+        "home": "#75acd4",
+        "away": "#B51F2B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "10",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Lazio",
+      "id": 8543
+    },
+    "awayTeam": {
+      "name": "Cagliari",
+      "id": 8529
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-11-01T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 15:01:42",
+      "firstHalfEnded": "01.11.2026 15:47:49",
+      "secondHalfStarted": "01.11.2026 16:04:29",
+      "secondHalfEnded": "01.11.2026 16:57:40",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 16:57:40"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8543",
+      "name": "Lazio",
+      "score": 2
+    },
+    {
+      "id": "8529",
+      "name": "Cagliari",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 36,
+      "added": 0,
+      "display": "36",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 21,
+      "added": 0,
+      "display": "21",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      2,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "YellowRed",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5749736.json"
+}

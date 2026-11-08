@@ -1,0 +1,163 @@
+{
+  "ok": true,
+  "id": "5802969",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802969",
+  "verified_at_utc": "2026-11-05T06:08:57.682Z",
+  "general": {
+    "matchId": "5802969",
+    "matchName": "Monaco-vs-Lille_Sun, Oct 25, 2026, 14:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C80C13",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#C80C13",
+        "away": "#24216a"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "8",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Monaco",
+      "id": 9829
+    },
+    "awayTeam": {
+      "name": "Lille",
+      "id": 8639
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-25T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 15:00:04",
+      "firstHalfEnded": "25.10.2026 15:48:15",
+      "secondHalfStarted": "25.10.2026 16:04:39",
+      "secondHalfEnded": "25.10.2026 16:56:12",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 16:56:12"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9829",
+      "name": "Monaco",
+      "score": 1
+    },
+    {
+      "id": "8639",
+      "name": "Lille",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      6,
+      0
+    ],
+    "All": [
+      6,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 66,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5802969.json"
+}

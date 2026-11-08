@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "5868074",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868074",
+  "verified_at_utc": "2026-11-04T06:04:23.430Z",
+  "general": {
+    "matchId": "5868074",
+    "matchName": "Deportivo A Coruña-vs-Real Betis_Sun, Sep 20, 2026, 16:30 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#00599D",
+        "away": "#009048"
+      },
+      "lightMode": {
+        "home": "#00599D",
+        "away": "#009048"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "7",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Deportivo A Coruña",
+      "id": 9783
+    },
+    "awayTeam": {
+      "name": "Real Betis",
+      "id": 8603
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-09-20T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 18:31:49",
+      "firstHalfEnded": "20.09.2026 19:23:02",
+      "secondHalfStarted": "20.09.2026 19:40:12",
+      "secondHalfEnded": "20.09.2026 20:28:41",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 20:28:41"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9783",
+      "name": "Deportivo A Coruña",
+      "score": 1
+    },
+    {
+      "id": "8603",
+      "name": "Real Betis",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      3
+    ],
+    "SecondHalf": [
+      11,
+      2
+    ],
+    "All": [
+      11,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868074.json"
+}

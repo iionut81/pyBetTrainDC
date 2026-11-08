@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "id": "5781776",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781776",
+  "verified_at_utc": "2026-11-04T06:04:27.310Z",
+  "general": {
+    "matchId": "5781776",
+    "matchName": "ADO Den Haag-vs-PSV Eindhoven_Sat, Oct 17, 2026, 14:30 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#008135",
+        "away": "#E00000"
+      },
+      "lightMode": {
+        "home": "#008135",
+        "away": "#E00000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "9",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "ADO Den Haag",
+      "id": 10217
+    },
+    "awayTeam": {
+      "name": "PSV Eindhoven",
+      "id": 8640
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 17, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-10-17T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-17T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "17.10.2026 16:30:56",
+      "firstHalfEnded": "17.10.2026 17:19:27",
+      "secondHalfStarted": "17.10.2026 17:36:14",
+      "secondHalfEnded": "17.10.2026 18:26:49",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.10.2026 18:26:49"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10217",
+      "name": "ADO Den Haag",
+      "score": 2
+    },
+    {
+      "id": "8640",
+      "name": "PSV Eindhoven",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 21,
+      "added": 0,
+      "display": "21",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      3,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5781776.json"
+}

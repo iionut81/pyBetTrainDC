@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "5802924",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802924",
+  "verified_at_utc": "2026-11-08T08:33:18.695Z",
+  "general": {
+    "matchId": "5802924",
+    "matchName": "Nice-vs-Le Mans_Sat, Sep 5, 2026, 18:45 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ED1C24",
+        "away": "#FECB00"
+      },
+      "lightMode": {
+        "home": "#181818",
+        "away": "#D60000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "3",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Nice",
+      "id": 9831
+    },
+    "awayTeam": {
+      "name": "Le Mans",
+      "id": 8682
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-05T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 20:45:40",
+      "firstHalfEnded": "05.09.2026 21:32:42",
+      "secondHalfStarted": "05.09.2026 21:48:16",
+      "secondHalfEnded": "05.09.2026 22:37:20",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 22:37:20"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9831",
+      "name": "Nice",
+      "score": 1
+    },
+    {
+      "id": "8682",
+      "name": "Le Mans",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 44,
+      "added": 0,
+      "display": "44",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      0
+    ],
+    "All": [
+      5,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

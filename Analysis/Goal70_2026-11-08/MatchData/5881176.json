@@ -1,0 +1,121 @@
+{
+  "ok": true,
+  "id": "5881176",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881176",
+  "verified_at_utc": "2026-11-07T06:55:56.691Z",
+  "general": {
+    "matchId": "5881176",
+    "matchName": "Schalke 04-vs-Elversberg_Sun, Sep 20, 2026, 15:30 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0942ad",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#083890",
+        "away": "#141414"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 54,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "4",
+    "parentLeagueId": 54,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Schalke 04",
+      "id": 10189
+    },
+    "awayTeam": {
+      "name": "Elversberg",
+      "id": 8232
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-09-20T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T15:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 17:30:26",
+      "firstHalfEnded": "20.09.2026 18:16:39",
+      "secondHalfStarted": "20.09.2026 18:33:11",
+      "secondHalfEnded": "20.09.2026 19:20:28",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 19:20:28"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10189",
+      "name": "Schalke 04",
+      "score": 0
+    },
+    {
+      "id": "8232",
+      "name": "Elversberg",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 26,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5881176.json"
+}

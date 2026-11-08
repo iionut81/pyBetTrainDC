@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "id": "5749747",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749747",
+  "verified_at_utc": "2026-11-08T08:31:13.450Z",
+  "general": {
+    "matchId": "5749747",
+    "matchName": "Parma-vs-Bologna_Sat, Nov 7, 2026, 17:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#004eca"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#102880"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "11",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Parma",
+      "id": 10167
+    },
+    "awayTeam": {
+      "name": "Bologna",
+      "id": 9857
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T17:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 18:01:45",
+      "firstHalfEnded": "07.11.2026 18:50:55",
+      "secondHalfStarted": "07.11.2026 19:06:50",
+      "secondHalfEnded": "07.11.2026 19:59:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 19:59:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10167",
+      "name": "Parma",
+      "score": 1
+    },
+    {
+      "id": "9857",
+      "name": "Bologna",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 81,
+      "added": 0,
+      "display": "81",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 53,
+      "added": 0,
+      "display": "53",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 72,
+      "added": 0,
+      "display": "72",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      8
+    ],
+    "SecondHalf": [
+      1,
+      7
+    ],
+    "All": [
+      1,
+      15
+    ]
+  },
+  "cards": [
+    {
+      "time": 9,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

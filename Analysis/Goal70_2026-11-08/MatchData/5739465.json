@@ -1,0 +1,165 @@
+{
+  "ok": true,
+  "id": "5739465",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739465",
+  "verified_at_utc": "2026-11-05T06:08:39.464Z",
+  "general": {
+    "matchId": "5739465",
+    "matchName": "Sønderjyske-vs-FC Midtjylland_Sun, Jul 26, 2026, 12:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#6CACE4",
+        "away": "#BF0C0D"
+      },
+      "lightMode": {
+        "home": "#6CACE4",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "1",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "Sønderjyske",
+      "id": 8487
+    },
+    "awayTeam": {
+      "name": "FC Midtjylland",
+      "id": 8113
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Jul 26, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-07-26T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-26T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "26.07.2026 14:01:48",
+      "firstHalfEnded": "26.07.2026 14:49:01",
+      "secondHalfStarted": "26.07.2026 15:04:47",
+      "secondHalfEnded": "26.07.2026 16:01:19",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.07.2026 16:01:19"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8487",
+      "name": "Sønderjyske",
+      "score": 2
+    },
+    {
+      "id": "8113",
+      "name": "FC Midtjylland",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 0,
+      "display": "45"
+    },
+    {
+      "side": "away",
+      "minute": 26,
+      "added": 0,
+      "display": "26",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 35,
+      "added": 0,
+      "display": "35",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 66,
+      "added": 0,
+      "display": "66",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      5,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5739465.json"
+}

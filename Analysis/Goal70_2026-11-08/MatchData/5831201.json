@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5831201",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831201",
+  "verified_at_utc": "2026-11-04T06:04:30.582Z",
+  "general": {
+    "matchId": "5831201",
+    "matchName": "Slavia Prague-vs-Mladá Boleslav_Sat, Oct 24, 2026, 16:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D82333",
+        "away": "#3C69A0"
+      },
+      "lightMode": {
+        "home": "#D82333",
+        "away": "#3C69A0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "12",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Slavia Prague",
+      "id": 7787
+    },
+    "awayTeam": {
+      "name": "Mladá Boleslav",
+      "id": 10180
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Oct 24, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-24T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-24T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.10.2026 18:03:39",
+      "firstHalfEnded": "24.10.2026 18:52:00",
+      "secondHalfStarted": "24.10.2026 19:08:00",
+      "secondHalfEnded": "24.10.2026 19:57:24",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.10.2026 19:57:24"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7787",
+      "name": "Slavia Prague",
+      "score": 1
+    },
+    {
+      "id": "10180",
+      "name": "Mladá Boleslav",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 86,
+      "added": 0,
+      "display": "86"
+    },
+    {
+      "side": "away",
+      "minute": 15,
+      "added": 0,
+      "display": "15"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      5
+    ],
+    "SecondHalf": [
+      9,
+      0
+    ],
+    "All": [
+      11,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5831201.json"
+}

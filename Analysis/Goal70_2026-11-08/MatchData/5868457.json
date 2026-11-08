@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "5868457",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868457",
+  "verified_at_utc": "2026-11-08T08:33:28.369Z",
+  "general": {
+    "matchId": "5868457",
+    "matchName": "Real Sociedad B-vs-Mallorca_Sat, Sep 19, 2026, 12:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0056B3",
+        "away": "#E20613"
+      },
+      "lightMode": {
+        "home": "#0056B3",
+        "away": "#c2071f"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "6",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Real Sociedad B",
+      "id": 161744
+    },
+    "awayTeam": {
+      "name": "Mallorca",
+      "id": 8661
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-09-19T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 14:03:25",
+      "firstHalfEnded": "19.09.2026 14:49:37",
+      "secondHalfStarted": "19.09.2026 15:05:16",
+      "secondHalfEnded": "19.09.2026 15:52:50",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 15:52:50"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "161744",
+      "name": "Real Sociedad B",
+      "score": 0
+    },
+    {
+      "id": "8661",
+      "name": "Mallorca",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 81,
+      "added": 0,
+      "display": "81",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      0,
+      2
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

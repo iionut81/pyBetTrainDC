@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5868076",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868076",
+  "verified_at_utc": "2026-11-05T06:08:54.269Z",
+  "general": {
+    "matchId": "5868076",
+    "matchName": "Getafe-vs-Málaga_Sun, Sep 20, 2026, 12:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#005dbb",
+        "away": "#518EC7"
+      },
+      "lightMode": {
+        "home": "#084888",
+        "away": "#518EC7"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "7",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Getafe",
+      "id": 8305
+    },
+    "awayTeam": {
+      "name": "Málaga",
+      "id": 9864
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-09-20T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 14:02:02",
+      "firstHalfEnded": "20.09.2026 14:53:49",
+      "secondHalfStarted": "20.09.2026 15:11:15",
+      "secondHalfEnded": "20.09.2026 16:04:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 16:04:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8305",
+      "name": "Getafe",
+      "score": 1
+    },
+    {
+      "id": "9864",
+      "name": "Málaga",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 85,
+      "added": 0,
+      "display": "85",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      6
+    ],
+    "All": [
+      5,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 21,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 39,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868076.json"
+}

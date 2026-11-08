@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "5904716",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904716",
+  "verified_at_utc": "2026-11-07T06:59:38.932Z",
+  "general": {
+    "matchId": "5904716",
+    "matchName": "Rizespor-vs-Samsunspor_Sat, Aug 22, 2026, 16:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#3c4f9c",
+        "away": "#DE0102"
+      },
+      "lightMode": {
+        "home": "#002D73",
+        "away": "#DE0102"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "2",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Rizespor",
+      "id": 2166
+    },
+    "awayTeam": {
+      "name": "Samsunspor",
+      "id": 9750
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-08-22T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 18:00:26",
+      "firstHalfEnded": "22.08.2026 18:45:52",
+      "secondHalfStarted": "22.08.2026 19:01:28",
+      "secondHalfEnded": "22.08.2026 19:49:13",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 19:49:13"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2166",
+      "name": "Rizespor",
+      "score": 0
+    },
+    {
+      "id": "9750",
+      "name": "Samsunspor",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 34,
+      "added": 0,
+      "display": "34",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      0
+    ],
+    "All": [
+      10,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5904716.json"
+}

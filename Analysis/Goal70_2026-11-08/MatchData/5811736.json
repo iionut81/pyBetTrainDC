@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5811736",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811736",
+  "verified_at_utc": "2026-11-06T06:30:18.471Z",
+  "general": {
+    "matchId": "5811736",
+    "matchName": "Genk-vs-SK Beveren_Fri, Aug 28, 2026, 18:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#3E60A8",
+        "away": "#F4D323"
+      },
+      "lightMode": {
+        "home": "#005098",
+        "away": "#e59a00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "4",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Genk",
+      "id": 9987
+    },
+    "awayTeam": {
+      "name": "SK Beveren",
+      "id": 8475
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Aug 28, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-08-28T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-28T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.08.2026 20:46:36",
+      "firstHalfEnded": "28.08.2026 21:35:23",
+      "secondHalfStarted": "28.08.2026 21:49:50",
+      "secondHalfEnded": "28.08.2026 22:37:15",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.08.2026 22:37:15"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9987",
+      "name": "Genk",
+      "score": 4
+    },
+    {
+      "id": "8475",
+      "name": "SK Beveren",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 9,
+      "added": 0,
+      "display": "9",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      1,
+      5
+    ],
+    "All": [
+      3,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5811736.json"
+}

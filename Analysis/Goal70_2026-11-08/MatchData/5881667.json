@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "id": "5881667",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881667",
+  "verified_at_utc": "2026-11-06T06:30:17.411Z",
+  "general": {
+    "matchId": "5881667",
+    "matchName": "Karlsruher SC-vs-Energie Cottbus_Sun, Sep 13, 2026, 11:30 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0051a6",
+        "away": "#DD0000"
+      },
+      "lightMode": {
+        "home": "#004080",
+        "away": "#DD0000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 146,
+    "leagueName": "2. Bundesliga",
+    "leagueRoundName": "5",
+    "parentLeagueId": 146,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Karlsruher SC",
+      "id": 8295
+    },
+    "awayTeam": {
+      "name": "Energie Cottbus",
+      "id": 8398
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 11:30 UTC",
+    "matchTimeUTCDate": "2026-09-13T11:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T11:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 13:30:52",
+      "firstHalfEnded": "13.09.2026 14:19:07",
+      "secondHalfStarted": "13.09.2026 14:35:29",
+      "secondHalfEnded": "13.09.2026 15:22:25",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 15:22:25"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8295",
+      "name": "Karlsruher SC",
+      "score": 0
+    },
+    {
+      "id": "8398",
+      "name": "Energie Cottbus",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      5,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 7,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5881667.json"
+}

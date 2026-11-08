@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "id": "5749645",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749645",
+  "verified_at_utc": "2026-11-08T08:33:19.361Z",
+  "general": {
+    "matchId": "5749645",
+    "matchName": "Inter-vs-Monza_Sat, Aug 22, 2026, 16:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0039d0",
+        "away": "#e10032"
+      },
+      "lightMode": {
+        "home": "#010E80",
+        "away": "#e10032"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "1",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Inter",
+      "id": 8636
+    },
+    "awayTeam": {
+      "name": "Monza",
+      "id": 6504
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-08-22T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 18:33:03",
+      "firstHalfEnded": "22.08.2026 19:19:39",
+      "secondHalfStarted": "22.08.2026 19:36:15",
+      "secondHalfEnded": "22.08.2026 20:24:16",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 20:24:16"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8636",
+      "name": "Inter",
+      "score": 4
+    },
+    {
+      "id": "6504",
+      "name": "Monza",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 6,
+      "added": 0,
+      "display": "6",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 48,
+      "added": 0,
+      "display": "48",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      3,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

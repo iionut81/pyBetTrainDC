@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "1000015123",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015123",
+  "verified_at_utc": "2026-11-07T07:00:00.891Z",
+  "general": {
+    "matchId": "1000015123",
+    "matchName": "Vojvodina-vs-FK Zemun_Sun, Sep 6, 2026, 19:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ED1B24",
+        "away": "#017538"
+      },
+      "lightMode": {
+        "home": "#ED1B24",
+        "away": "#017538"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Vojvodina",
+      "id": 6406
+    },
+    "awayTeam": {
+      "name": "FK Zemun",
+      "id": 6231
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-09-06T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 21:01:32",
+      "firstHalfEnded": "06.09.2026 21:48:36",
+      "secondHalfStarted": "06.09.2026 22:09:24",
+      "secondHalfEnded": "06.09.2026 23:00:01",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 23:00:01"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6406",
+      "name": "Vojvodina",
+      "score": 2
+    },
+    {
+      "id": "6231",
+      "name": "FK Zemun",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 28,
+      "added": 0,
+      "display": "28"
+    },
+    {
+      "side": "home",
+      "minute": 71,
+      "added": 0,
+      "display": "71"
+    },
+    {
+      "side": "away",
+      "minute": 9,
+      "added": 0,
+      "display": "9"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015123.json"
+}

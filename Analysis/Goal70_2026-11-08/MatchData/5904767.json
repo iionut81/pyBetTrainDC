@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5904767",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904767",
+  "verified_at_utc": "2026-11-05T06:04:59.948Z",
+  "general": {
+    "matchId": "5904767",
+    "matchName": "Trabzonspor-vs-Beşiktaş_Mon, Oct 19, 2026, 17:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#9e2736",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#6e2330",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "8",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Trabzonspor",
+      "id": 9752
+    },
+    "awayTeam": {
+      "name": "Beşiktaş",
+      "id": 10188
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Oct 19, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-10-19T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-19T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.10.2026 19:01:12",
+      "firstHalfEnded": "19.10.2026 19:47:14",
+      "secondHalfStarted": "19.10.2026 20:05:50",
+      "secondHalfEnded": "19.10.2026 20:53:25",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.10.2026 20:53:25"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9752",
+      "name": "Trabzonspor",
+      "score": 2
+    },
+    {
+      "id": "10188",
+      "name": "Beşiktaş",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 21,
+      "added": 0,
+      "display": "21",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 71,
+      "added": 0,
+      "display": "71",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      4,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5904767.json"
+}

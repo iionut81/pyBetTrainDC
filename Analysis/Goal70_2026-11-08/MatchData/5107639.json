@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "id": "5107639",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107639",
+  "verified_at_utc": "2026-11-08T08:33:36.582Z",
+  "general": {
+    "matchId": "5107639",
+    "matchName": "IFK Göteborg-vs-Djurgården_Wed, Oct 28, 2026, 18:00 UTC",
+    "matchRound": "26",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0068B0",
+        "away": "#83B2CA"
+      },
+      "lightMode": {
+        "home": "#0068B0",
+        "away": "#15263E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "26",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "IFK Göteborg",
+      "id": 9893
+    },
+    "awayTeam": {
+      "name": "Djurgården",
+      "id": 9802
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Oct 28, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-10-28T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-28T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.10.2026 19:01:37",
+      "firstHalfEnded": "28.10.2026 19:52:46",
+      "secondHalfStarted": "28.10.2026 20:07:45",
+      "secondHalfEnded": "28.10.2026 20:58:54",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.10.2026 20:58:54"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9893",
+      "name": "IFK Göteborg",
+      "score": 1
+    },
+    {
+      "id": "9802",
+      "name": "Djurgården",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 39,
+      "added": 0,
+      "display": "39",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 59,
+      "added": 0,
+      "display": "59",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      5,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

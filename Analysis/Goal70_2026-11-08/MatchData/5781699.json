@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "id": "5781699",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781699",
+  "verified_at_utc": "2026-11-05T06:04:51.952Z",
+  "general": {
+    "matchId": "5781699",
+    "matchName": "AZ Alkmaar-vs-ADO Den Haag_Sat, Aug 8, 2026, 19:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#CB0008",
+        "away": "#008135"
+      },
+      "lightMode": {
+        "home": "#CB0008",
+        "away": "#008135"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "1",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "AZ Alkmaar",
+      "id": 10229
+    },
+    "awayTeam": {
+      "name": "ADO Den Haag",
+      "id": 10217
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 8, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-08T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-08T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.08.2026 21:00:20",
+      "firstHalfEnded": "08.08.2026 21:48:36",
+      "secondHalfStarted": "08.08.2026 22:03:46",
+      "secondHalfEnded": "08.08.2026 22:51:51",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.08.2026 22:51:51"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10229",
+      "name": "AZ Alkmaar",
+      "score": 2
+    },
+    {
+      "id": "10217",
+      "name": "ADO Den Haag",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 61,
+      "added": 0,
+      "display": "61",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      9,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5781699.json"
+}

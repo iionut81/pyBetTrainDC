@@ -1,0 +1,344 @@
+[
+  {
+    "match": "Brighton & Hove Albion - Brentford",
+    "baseline": {
+      "p": 0.9161869593008896,
+      "samples": [
+        9,
+        9,
+        4,
+        4
+      ],
+      "counts": {
+        "a": {
+          "n": 9,
+          "gf": 18,
+          "ga": 6
+        },
+        "b": {
+          "n": 9,
+          "gf": 12,
+          "ga": 6
+        },
+        "ah": {
+          "n": 4,
+          "gf": 11,
+          "ga": 1
+        },
+        "ba": {
+          "n": 4,
+          "gf": 5,
+          "ga": 4
+        }
+      },
+      "lambda_season": 2.3333333333333335,
+      "lambda_venue": 2.625
+    },
+    "without_big_margins": {
+      "p": 0.8780527453497484,
+      "samples": [
+        6,
+        9,
+        2,
+        4
+      ],
+      "counts": {
+        "a": {
+          "n": 6,
+          "gf": 7,
+          "ga": 6
+        },
+        "b": {
+          "n": 9,
+          "gf": 12,
+          "ga": 6
+        },
+        "ah": {
+          "n": 2,
+          "gf": 3,
+          "ga": 1
+        },
+        "ba": {
+          "n": 4,
+          "gf": 5,
+          "ga": 4
+        }
+      },
+      "lambda_season": 2.0833333333333335,
+      "lambda_venue": 2.125
+    },
+    "without_red_by70": {
+      "p": 0.9060115459332466,
+      "samples": [
+        6,
+        8,
+        3,
+        4
+      ],
+      "counts": {
+        "a": {
+          "n": 6,
+          "gf": 10,
+          "ga": 6
+        },
+        "b": {
+          "n": 8,
+          "gf": 11,
+          "ga": 4
+        },
+        "ah": {
+          "n": 3,
+          "gf": 7,
+          "ga": 1
+        },
+        "ba": {
+          "n": 4,
+          "gf": 5,
+          "ga": 4
+        }
+      },
+      "lambda_season": 2.2708333333333335,
+      "lambda_venue": 2.4583333333333335
+    },
+    "venue": [
+      {
+        "match": "Brighton & Hove Albion-Aston Villa",
+        "first": "8",
+        "home70": 4,
+        "away70": 0,
+        "cards": [
+          {
+            "time": 40,
+            "card": "Red",
+            "isHome": false
+          }
+        ],
+        "score": "4 - 0"
+      },
+      {
+        "match": "Leeds United-Brentford",
+        "first": "41",
+        "home70": 0,
+        "away70": 1,
+        "cards": [],
+        "score": "1 - 1"
+      },
+      {
+        "match": "Brighton & Hove Albion-Leeds United",
+        "first": "15",
+        "home70": 0,
+        "away70": 1,
+        "cards": [],
+        "score": "1 - 1"
+      },
+      {
+        "match": "AFC Bournemouth-Brentford",
+        "first": "34",
+        "home70": 2,
+        "away70": 2,
+        "cards": [],
+        "score": "2 - 2"
+      },
+      {
+        "match": "Brighton & Hove Albion-Arsenal",
+        "first": "31",
+        "home70": 3,
+        "away70": 0,
+        "cards": [],
+        "score": "3 - 0"
+      },
+      {
+        "match": "Aston Villa-Brentford",
+        "first": "10",
+        "home70": 1,
+        "away70": 1,
+        "cards": [],
+        "score": "2 - 2"
+      },
+      {
+        "match": "Brighton & Hove Albion-Crystal Palace",
+        "first": "4",
+        "home70": 4,
+        "away70": 0,
+        "cards": [],
+        "score": "5 - 0"
+      },
+      {
+        "match": "Hull City-Brentford",
+        "first": "24",
+        "home70": 1,
+        "away70": 1,
+        "cards": [],
+        "score": "1 - 1"
+      }
+    ]
+  },
+  {
+    "match": "Ipswich Town - AFC Bournemouth",
+    "baseline": {
+      "p": 0.9101597532693986,
+      "samples": [
+        9,
+        9,
+        4,
+        4
+      ],
+      "counts": {
+        "a": {
+          "n": 9,
+          "gf": 7,
+          "ga": 16
+        },
+        "b": {
+          "n": 9,
+          "gf": 12,
+          "ga": 9
+        },
+        "ah": {
+          "n": 4,
+          "gf": 2,
+          "ga": 5
+        },
+        "ba": {
+          "n": 4,
+          "gf": 6,
+          "ga": 6
+        }
+      },
+      "lambda_season": 2.444444444444444,
+      "lambda_venue": 2.375
+    },
+    "without_big_margins": {
+      "p": 0.8706377782456369,
+      "samples": [
+        9,
+        8,
+        4,
+        3
+      ],
+      "counts": {
+        "a": {
+          "n": 9,
+          "gf": 7,
+          "ga": 16
+        },
+        "b": {
+          "n": 8,
+          "gf": 11,
+          "ga": 4
+        },
+        "ah": {
+          "n": 4,
+          "gf": 2,
+          "ga": 5
+        },
+        "ba": {
+          "n": 3,
+          "gf": 5,
+          "ga": 1
+        }
+      },
+      "lambda_season": 2.2152777777777777,
+      "lambda_venue": 1.875
+    },
+    "without_red_by70": {
+      "p": 0.9145497914291891,
+      "samples": [
+        7,
+        8,
+        4,
+        4
+      ],
+      "counts": {
+        "a": {
+          "n": 7,
+          "gf": 5,
+          "ga": 14
+        },
+        "b": {
+          "n": 8,
+          "gf": 10,
+          "ga": 9
+        },
+        "ah": {
+          "n": 4,
+          "gf": 2,
+          "ga": 5
+        },
+        "ba": {
+          "n": 4,
+          "gf": 6,
+          "ga": 6
+        }
+      },
+      "lambda_season": 2.544642857142857,
+      "lambda_venue": 2.375
+    },
+    "venue": [
+      {
+        "match": "Ipswich Town-Sunderland",
+        "first": "24",
+        "home70": 1,
+        "away70": 1,
+        "cards": [],
+        "score": "2 - 1"
+      },
+      {
+        "match": "Manchester City-AFC Bournemouth",
+        "first": "26",
+        "home70": 0,
+        "away70": 1,
+        "cards": [],
+        "score": "2 - 1"
+      },
+      {
+        "match": "Ipswich Town-Liverpool",
+        "first": "6",
+        "home70": 0,
+        "away70": 2,
+        "cards": [],
+        "score": "0 - 2"
+      },
+      {
+        "match": "Newcastle United-AFC Bournemouth",
+        "first": "9",
+        "home70": 1,
+        "away70": 2,
+        "cards": [],
+        "score": "2 - 2"
+      },
+      {
+        "match": "Ipswich Town-Fulham",
+        "first": "55",
+        "home70": 0,
+        "away70": 1,
+        "cards": [],
+        "score": "2 - 1"
+      },
+      {
+        "match": "Chelsea-AFC Bournemouth",
+        "first": "2",
+        "home70": 5,
+        "away70": 1,
+        "cards": [],
+        "score": "5 - 1"
+      },
+      {
+        "match": "Ipswich Town-Nottingham Forest",
+        "first": "13",
+        "home70": 1,
+        "away70": 1,
+        "cards": [],
+        "score": "1 - 1"
+      },
+      {
+        "match": "Manchester United-AFC Bournemouth",
+        "first": "38",
+        "home70": 0,
+        "away70": 2,
+        "cards": [],
+        "score": "0 - 3"
+      }
+    ]
+  }
+]

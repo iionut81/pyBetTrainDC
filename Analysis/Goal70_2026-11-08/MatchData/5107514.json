@@ -1,0 +1,167 @@
+{
+  "ok": true,
+  "id": "5107514",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107514",
+  "verified_at_utc": "2026-11-08T08:33:36.932Z",
+  "general": {
+    "matchId": "5107514",
+    "matchName": "Malmö FF-vs-Halmstads BK_Sat, May 30, 2026, 13:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#3991CC",
+        "away": "#205287"
+      },
+      "lightMode": {
+        "home": "#3991CC",
+        "away": "#205287"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Allsvenskan",
+    "leagueRoundName": "10",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Malmö FF",
+      "id": 10237
+    },
+    "awayTeam": {
+      "name": "Halmstads BK",
+      "id": 8310
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, May 30, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-05-30T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-30T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.05.2026 15:00:19",
+      "firstHalfEnded": "30.05.2026 15:46:20",
+      "secondHalfStarted": "30.05.2026 16:01:23",
+      "secondHalfEnded": "30.05.2026 16:49:36",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.05.2026 16:49:36"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "5 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10237",
+      "name": "Malmö FF",
+      "score": 5
+    },
+    {
+      "id": "8310",
+      "name": "Halmstads BK",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 30,
+      "added": 0,
+      "display": "30",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 7,
+      "added": 0,
+      "display": "7",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 26,
+      "added": 0,
+      "display": "26",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      4,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

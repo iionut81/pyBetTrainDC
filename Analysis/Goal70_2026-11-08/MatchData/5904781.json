@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5904781",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904781",
+  "verified_at_utc": "2026-11-07T06:59:39.475Z",
+  "general": {
+    "matchId": "5904781",
+    "matchName": "Konyaspor-vs-Gençlerbirliği_Sun, Oct 25, 2026, 13:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#008050",
+        "away": "#A60832"
+      },
+      "lightMode": {
+        "home": "#008050",
+        "away": "#A60832"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "9",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Konyaspor",
+      "id": 8622
+    },
+    "awayTeam": {
+      "name": "Gençlerbirliği",
+      "id": 7800
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-10-25T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 14:00:33",
+      "firstHalfEnded": "25.10.2026 14:48:40",
+      "secondHalfStarted": "25.10.2026 15:04:35",
+      "secondHalfEnded": "25.10.2026 15:53:42",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 15:53:42"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8622",
+      "name": "Konyaspor",
+      "score": 2
+    },
+    {
+      "id": "7800",
+      "name": "Gençlerbirliği",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      6,
+      3
+    ],
+    "All": [
+      9,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5904781.json"
+}

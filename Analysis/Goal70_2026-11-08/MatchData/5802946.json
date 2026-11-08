@@ -1,0 +1,169 @@
+{
+  "ok": true,
+  "id": "5802946",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802946",
+  "verified_at_utc": "2026-11-08T08:33:18.343Z",
+  "general": {
+    "matchId": "5802946",
+    "matchName": "Brest-vs-Angers_Sat, Oct 10, 2026, 18:45 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ED1C24",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#ED1C24",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "6",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Brest",
+      "id": 8521
+    },
+    "awayTeam": {
+      "name": "Angers",
+      "id": 8121
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-10-10T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 20:45:24",
+      "firstHalfEnded": "10.10.2026 21:35:07",
+      "secondHalfStarted": "10.10.2026 21:50:55",
+      "secondHalfEnded": "10.10.2026 22:43:27",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 22:43:27"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "5 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8521",
+      "name": "Brest",
+      "score": 5
+    },
+    {
+      "id": "8121",
+      "name": "Angers",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 9,
+      "added": 0,
+      "display": "9",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 17,
+      "added": 0,
+      "display": "17",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 30,
+      "added": 0,
+      "display": "30",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 47,
+      "added": 0,
+      "display": "47",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      4,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 59,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

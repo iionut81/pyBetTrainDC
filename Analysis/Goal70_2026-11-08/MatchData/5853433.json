@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5853433",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853433",
+  "verified_at_utc": "2026-11-07T06:59:42.294Z",
+  "general": {
+    "matchId": "5853433",
+    "matchName": "Rapid Bucuresti-vs-Sepsi OSK_Mon, Jul 20, 2026, 18:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#843037",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#843037",
+        "away": "#007d2e"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "1",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "Rapid Bucuresti",
+      "id": 9738
+    },
+    "awayTeam": {
+      "name": "Sepsi OSK",
+      "id": 583706
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Jul 20, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-07-20T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-20T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "20.07.2026 20:37:25",
+      "firstHalfEnded": "20.07.2026 21:25:16",
+      "secondHalfStarted": "20.07.2026 21:41:29",
+      "secondHalfEnded": "20.07.2026 22:31:34",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.07.2026 22:31:34"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9738",
+      "name": "Rapid Bucuresti",
+      "score": 1
+    },
+    {
+      "id": "583706",
+      "name": "Sepsi OSK",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      6,
+      1
+    ],
+    "All": [
+      12,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 4,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5853433.json"
+}

@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5104935",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104935",
+  "verified_at_utc": "2026-11-08T08:33:24.937Z",
+  "general": {
+    "matchId": "5104935",
+    "matchName": "Sarpsborg 08-vs-Aalesund_Sun, Oct 25, 2026, 16:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2255a5",
+        "away": "#eb7805"
+      },
+      "lightMode": {
+        "home": "#102763",
+        "away": "#eb7805"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "12",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Sarpsborg 08",
+      "id": 8509
+    },
+    "awayTeam": {
+      "name": "Aalesund",
+      "id": 8404
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-25T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 17:00:17",
+      "firstHalfEnded": "25.10.2026 17:47:59",
+      "secondHalfStarted": "25.10.2026 18:02:22",
+      "secondHalfEnded": "25.10.2026 18:53:20",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 18:53:20"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8509",
+      "name": "Sarpsborg 08",
+      "score": 2
+    },
+    {
+      "id": "8404",
+      "name": "Aalesund",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 85,
+      "added": 0,
+      "display": "85",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      11,
+      1
+    ],
+    "SecondHalf": [
+      9,
+      3
+    ],
+    "All": [
+      20,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 13,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 35,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

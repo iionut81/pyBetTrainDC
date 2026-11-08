@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "5881152",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881152",
+  "verified_at_utc": "2026-11-05T06:04:53.614Z",
+  "general": {
+    "matchId": "5881152",
+    "matchName": "Bayer Leverkusen-vs-Union Berlin_Sat, Sep 5, 2026, 13:30 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#e32221",
+        "away": "#FFDD00"
+      },
+      "lightMode": {
+        "home": "#cf1e1e",
+        "away": "#DA9E00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 54,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "2",
+    "parentLeagueId": 54,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Bayer Leverkusen",
+      "id": 8178
+    },
+    "awayTeam": {
+      "name": "Union Berlin",
+      "id": 8149
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 13:30 UTC",
+    "matchTimeUTCDate": "2026-09-05T13:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T13:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 15:30:16",
+      "firstHalfEnded": "05.09.2026 16:16:22",
+      "secondHalfStarted": "05.09.2026 16:33:14",
+      "secondHalfEnded": "05.09.2026 17:21:26",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 17:21:26"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8178",
+      "name": "Bayer Leverkusen",
+      "score": 4
+    },
+    {
+      "id": "8149",
+      "name": "Union Berlin",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 1,
+      "added": 0,
+      "display": "1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 28,
+      "added": 0,
+      "display": "28",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 48,
+      "added": 0,
+      "display": "48",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 66,
+      "added": 0,
+      "display": "66",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      0
+    ],
+    "SecondHalf": [
+      6,
+      1
+    ],
+    "All": [
+      11,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 4,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 47,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5881152.json"
+}

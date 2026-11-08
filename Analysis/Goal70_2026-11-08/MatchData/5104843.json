@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5104843",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104843",
+  "verified_at_utc": "2026-11-07T06:56:15.928Z",
+  "general": {
+    "matchId": "5104843",
+    "matchName": "Molde-vs-Rosenborg_Sat, Mar 14, 2026, 17:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0068b0",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#0D47A0",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "1",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Molde",
+      "id": 9917
+    },
+    "awayTeam": {
+      "name": "Rosenborg",
+      "id": 8422
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Mar 14, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-03-14T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-03-14T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "14.03.2026 18:01:03",
+      "firstHalfEnded": "14.03.2026 18:50:13",
+      "secondHalfStarted": "14.03.2026 19:05:24",
+      "secondHalfEnded": "14.03.2026 19:55:40",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.03.2026 19:55:40"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9917",
+      "name": "Molde",
+      "score": 2
+    },
+    {
+      "id": "8422",
+      "name": "Rosenborg",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      5,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 5,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5104843.json"
+}

@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "id": "5105010",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5105010",
+  "verified_at_utc": "2026-11-08T08:33:27.369Z",
+  "general": {
+    "matchId": "5105010",
+    "matchName": "Vålerenga-vs-Fredrikstad_Sun, Sep 20, 2026, 12:30 UTC",
+    "matchRound": "22",
+    "teamColors": {
+      "darkMode": {
+        "home": "#333bb3",
+        "away": "#f13c26"
+      },
+      "lightMode": {
+        "home": "#283090",
+        "away": "#f13c26"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "22",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Vålerenga",
+      "id": 8007
+    },
+    "awayTeam": {
+      "name": "Fredrikstad",
+      "id": 8417
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 12:30 UTC",
+    "matchTimeUTCDate": "2026-09-20T12:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T12:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 14:30:53",
+      "firstHalfEnded": "20.09.2026 15:17:14",
+      "secondHalfStarted": "20.09.2026 15:33:03",
+      "secondHalfEnded": "20.09.2026 16:26:23",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 16:26:23"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8007",
+      "name": "Vålerenga",
+      "score": 1
+    },
+    {
+      "id": "8417",
+      "name": "Fredrikstad",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 52,
+      "added": 0,
+      "display": "52",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      9,
+      4
+    ],
+    "All": [
+      9,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 82,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

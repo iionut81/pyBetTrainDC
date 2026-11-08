@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5795437",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795437",
+  "verified_at_utc": "2026-11-05T06:08:54.729Z",
+  "general": {
+    "matchId": "5795437",
+    "matchName": "Brighton & Hove Albion-vs-Leeds United_Sat, Sep 5, 2026, 14:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#095bb6",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#0850A0",
+        "away": "#DA9E00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 47,
+    "leagueName": "Premier League",
+    "leagueRoundName": "3",
+    "parentLeagueId": 47,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Brighton & Hove Albion",
+      "id": 10204
+    },
+    "awayTeam": {
+      "name": "Leeds United",
+      "id": 8463
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-05T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 16:00:56",
+      "firstHalfEnded": "05.09.2026 16:47:22",
+      "secondHalfStarted": "05.09.2026 17:03:54",
+      "secondHalfEnded": "05.09.2026 17:53:28",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 17:53:28"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10204",
+      "name": "Brighton & Hove Albion",
+      "score": 1
+    },
+    {
+      "id": "8463",
+      "name": "Leeds United",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 71,
+      "added": 0,
+      "display": "71",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 15,
+      "added": 0,
+      "display": "15",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      7,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 6,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5795437.json"
+}

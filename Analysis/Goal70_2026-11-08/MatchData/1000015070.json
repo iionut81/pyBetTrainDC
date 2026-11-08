@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "1000015070",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015070",
+  "verified_at_utc": "2026-11-08T08:33:41.402Z",
+  "general": {
+    "matchId": "1000015070",
+    "matchName": "FK Radnik Surdulica-vs-Mladost Lučani_Sun, Jul 19, 2026, 17:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#043F92",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#043F92",
+        "away": "#24A4E3"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "1",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "FK Radnik Surdulica",
+      "id": 463461
+    },
+    "awayTeam": {
+      "name": "Mladost Lučani",
+      "id": 1739
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Jul 19, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-07-19T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-19T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.07.2026 19:00:53",
+      "firstHalfEnded": "19.07.2026 19:46:59",
+      "secondHalfStarted": "19.07.2026 20:04:24",
+      "secondHalfEnded": "19.07.2026 20:53:30",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.07.2026 20:53:30"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "463461",
+      "name": "FK Radnik Surdulica",
+      "score": 1
+    },
+    {
+      "id": "1739",
+      "name": "Mladost Lučani",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56"
+    },
+    {
+      "side": "away",
+      "minute": 54,
+      "added": 0,
+      "display": "54"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

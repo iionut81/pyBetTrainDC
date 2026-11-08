@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "id": "5904710",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904710",
+  "verified_at_utc": "2026-11-07T06:59:39.712Z",
+  "general": {
+    "matchId": "5904710",
+    "matchName": "Galatasaray-vs-Çorum FK_Fri, Aug 14, 2026, 18:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#a11d40",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#8D072A",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "1",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Galatasaray",
+      "id": 8637
+    },
+    "awayTeam": {
+      "name": "Çorum FK",
+      "id": 357274
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Aug 14, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-14T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-14T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "14.08.2026 20:31:00",
+      "firstHalfEnded": "14.08.2026 21:19:07",
+      "secondHalfStarted": "14.08.2026 21:37:00",
+      "secondHalfEnded": "14.08.2026 22:29:40",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.08.2026 22:29:40"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8637",
+      "name": "Galatasaray",
+      "score": 2
+    },
+    {
+      "id": "357274",
+      "name": "Çorum FK",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 0,
+      "display": "90",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 59,
+      "added": 0,
+      "display": "59",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 61,
+      "added": 0,
+      "display": "61",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      8,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 70,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5904710.json"
+}

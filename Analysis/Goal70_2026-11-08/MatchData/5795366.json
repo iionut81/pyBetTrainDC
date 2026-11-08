@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "id": "5795366",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795366",
+  "verified_at_utc": "2026-11-05T06:05:01.473Z",
+  "general": {
+    "matchId": "5795366",
+    "matchName": "Ipswich Town-vs-Sunderland_Sat, Aug 22, 2026, 14:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004fc2",
+        "away": "#DC0814"
+      },
+      "lightMode": {
+        "home": "#0333A0",
+        "away": "#DC0814"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 47,
+    "leagueName": "Premier League",
+    "leagueRoundName": "1",
+    "parentLeagueId": 47,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Ipswich Town",
+      "id": 9902
+    },
+    "awayTeam": {
+      "name": "Sunderland",
+      "id": 8472
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-08-22T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 16:00:29",
+      "firstHalfEnded": "22.08.2026 16:47:46",
+      "secondHalfStarted": "22.08.2026 17:03:45",
+      "secondHalfEnded": "22.08.2026 17:53:44",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 17:53:44"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9902",
+      "name": "Ipswich Town",
+      "score": 2
+    },
+    {
+      "id": "8472",
+      "name": "Sunderland",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 0,
+      "display": "90",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 39,
+      "added": 0,
+      "display": "39",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      4
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      3,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5795366.json"
+}

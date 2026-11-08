@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5107539",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107539",
+  "verified_at_utc": "2026-11-08T08:33:36.964Z",
+  "general": {
+    "matchId": "5107539",
+    "matchName": "Kalmar FF-vs-Malmö FF_Mon, Jul 20, 2026, 17:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F00000",
+        "away": "#3991CC"
+      },
+      "lightMode": {
+        "home": "#F00000",
+        "away": "#3991CC"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Allsvenskan",
+    "leagueRoundName": "13",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Kalmar FF",
+      "id": 9892
+    },
+    "awayTeam": {
+      "name": "Malmö FF",
+      "id": 10237
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Jul 20, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-07-20T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-20T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.07.2026 19:00:28",
+      "firstHalfEnded": "20.07.2026 19:46:39",
+      "secondHalfStarted": "20.07.2026 20:02:00",
+      "secondHalfEnded": "20.07.2026 20:50:21",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.07.2026 20:50:21"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9892",
+      "name": "Kalmar FF",
+      "score": 2
+    },
+    {
+      "id": "10237",
+      "name": "Malmö FF",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 33,
+      "added": 0,
+      "display": "33",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 64,
+      "added": 0,
+      "display": "64",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      2,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 47,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

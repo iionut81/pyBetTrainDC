@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "id": "5107460",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107460",
+  "verified_at_utc": "2026-11-08T08:33:35.810Z",
+  "general": {
+    "matchId": "5107460",
+    "matchName": "Halmstads BK-vs-IFK Göteborg_Sat, Apr 18, 2026, 13:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#205287",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#205287",
+        "away": "#DA9E00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "3",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Halmstads BK",
+      "id": 8310
+    },
+    "awayTeam": {
+      "name": "IFK Göteborg",
+      "id": 9893
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Apr 18, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-04-18T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-18T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.04.2026 15:02:20",
+      "firstHalfEnded": "18.04.2026 15:50:51",
+      "secondHalfStarted": "18.04.2026 16:05:48",
+      "secondHalfEnded": "18.04.2026 16:55:05",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.04.2026 16:55:05"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8310",
+      "name": "Halmstads BK",
+      "score": 1
+    },
+    {
+      "id": "9893",
+      "name": "IFK Göteborg",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 64,
+      "added": 0,
+      "display": "64",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      0
+    ],
+    "All": [
+      3,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

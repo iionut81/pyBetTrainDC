@@ -1,0 +1,168 @@
+{
+  "ok": true,
+  "id": "5845996",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5845996",
+  "verified_at_utc": "2026-11-07T06:56:10.975Z",
+  "general": {
+    "matchId": "5845996",
+    "matchName": "Hartberg-vs-Austria Lustenau_Sun, Oct 11, 2026, 12:30 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#00468c",
+        "away": "#0E6624"
+      },
+      "lightMode": {
+        "home": "#004386",
+        "away": "#0E6624"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938366,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 38,
+    "countryCode": "AUT",
+    "homeTeam": {
+      "name": "Hartberg",
+      "id": 10056
+    },
+    "awayTeam": {
+      "name": "Austria Lustenau",
+      "id": 9982
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 11, 2026, 12:30 UTC",
+    "matchTimeUTCDate": "2026-10-11T12:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-11T12:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "11.10.2026 14:31:13",
+      "firstHalfEnded": "11.10.2026 15:17:40",
+      "secondHalfStarted": "11.10.2026 15:32:29",
+      "secondHalfEnded": "11.10.2026 16:21:16",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.10.2026 16:21:16"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10056",
+      "name": "Hartberg",
+      "score": 4
+    },
+    {
+      "id": "9982",
+      "name": "Austria Lustenau",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 8,
+      "added": 0,
+      "display": "8",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5845996.json"
+}

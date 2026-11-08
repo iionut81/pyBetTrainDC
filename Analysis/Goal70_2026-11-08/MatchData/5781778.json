@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "id": "5781778",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781778",
+  "verified_at_utc": "2026-11-05T06:08:40.933Z",
+  "general": {
+    "matchId": "5781778",
+    "matchName": "Sparta Rotterdam-vs-Ajax_Sun, Oct 25, 2026, 15:45 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E50020",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#E50020",
+        "away": "#222840"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "10",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "Sparta Rotterdam",
+      "id": 8614
+    },
+    "awayTeam": {
+      "name": "Ajax",
+      "id": 8593
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 15:45 UTC",
+    "matchTimeUTCDate": "2026-10-25T15:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T15:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 16:48:07",
+      "firstHalfEnded": "25.10.2026 17:35:31",
+      "secondHalfStarted": "25.10.2026 17:51:50",
+      "secondHalfEnded": "25.10.2026 18:41:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 18:41:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8614",
+      "name": "Sparta Rotterdam",
+      "score": 1
+    },
+    {
+      "id": "8593",
+      "name": "Ajax",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      3
+    ],
+    "SecondHalf": [
+      5,
+      0
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5781778.json"
+}

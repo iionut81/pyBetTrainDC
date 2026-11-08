@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5881191",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881191",
+  "verified_at_utc": "2026-11-07T06:55:57.655Z",
+  "general": {
+    "matchId": "5881191",
+    "matchName": "Eintracht Frankfurt-vs-1. FC Köln_Fri, Oct 16, 2026, 18:30 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFFFFF",
+        "away": "#E21718"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#E21718"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 54,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "6",
+    "parentLeagueId": 54,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Eintracht Frankfurt",
+      "id": 9810
+    },
+    "awayTeam": {
+      "name": "1. FC Köln",
+      "id": 8722
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 16, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-10-16T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-16T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.10.2026 20:30:18",
+      "firstHalfEnded": "16.10.2026 21:18:37",
+      "secondHalfStarted": "16.10.2026 21:36:05",
+      "secondHalfEnded": "16.10.2026 22:26:25",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.10.2026 22:26:25"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9810",
+      "name": "Eintracht Frankfurt",
+      "score": 1
+    },
+    {
+      "id": "8722",
+      "name": "1. FC Köln",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 77,
+      "added": 0,
+      "display": "77",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      7,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 39,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5881191.json"
+}

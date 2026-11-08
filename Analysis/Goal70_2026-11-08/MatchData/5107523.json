@@ -1,0 +1,136 @@
+{
+  "ok": true,
+  "id": "5107523",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107523",
+  "verified_at_utc": "2026-11-07T06:59:48.735Z",
+  "general": {
+    "matchId": "5107523",
+    "matchName": "Kalmar FF-vs-Örgryte_Sun, Jul 5, 2026, 12:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F00000",
+        "away": "#0f54a2"
+      },
+      "lightMode": {
+        "home": "#F00000",
+        "away": "#7D0105"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "11",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Kalmar FF",
+      "id": 9892
+    },
+    "awayTeam": {
+      "name": "Örgryte",
+      "id": 10002
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Jul 5, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-07-05T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-05T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.07.2026 14:00:20",
+      "firstHalfEnded": "05.07.2026 14:45:24",
+      "secondHalfStarted": "05.07.2026 15:01:20",
+      "secondHalfEnded": "05.07.2026 16:10:39",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.07.2026 16:10:39"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9892",
+      "name": "Kalmar FF",
+      "score": 3
+    },
+    {
+      "id": "10002",
+      "name": "Örgryte",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 47,
+      "added": 0,
+      "display": "47",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 84,
+      "added": 0,
+      "display": "84",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      4
+    ],
+    "SecondHalf": [
+      0,
+      0
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5107523.json"
+}

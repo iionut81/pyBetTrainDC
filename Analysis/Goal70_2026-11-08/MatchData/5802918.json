@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "id": "5802918",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802918",
+  "verified_at_utc": "2026-11-07T06:56:01.114Z",
+  "general": {
+    "matchId": "5802918",
+    "matchName": "Lille-vs-Paris Saint-Germain_Fri, Aug 28, 2026, 19:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E01D13",
+        "away": "#245593"
+      },
+      "lightMode": {
+        "home": "#E01D13",
+        "away": "#273F6D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "2",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Lille",
+      "id": 8639
+    },
+    "awayTeam": {
+      "name": "Paris Saint-Germain",
+      "id": 9847
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Aug 28, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-28T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-28T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.08.2026 21:00:18",
+      "firstHalfEnded": "28.08.2026 21:47:36",
+      "secondHalfStarted": "28.08.2026 22:03:38",
+      "secondHalfEnded": "28.08.2026 22:54:19",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.08.2026 22:54:19"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8639",
+      "name": "Lille",
+      "score": 2
+    },
+    {
+      "id": "9847",
+      "name": "Paris Saint-Germain",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 21,
+      "added": 0,
+      "display": "21",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 84,
+      "added": 0,
+      "display": "84",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 5,
+      "display": "90+5",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      0
+    ],
+    "SecondHalf": [
+      0,
+      5
+    ],
+    "All": [
+      0,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 39,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5802918.json"
+}

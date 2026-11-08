@@ -1,0 +1,124 @@
+{
+  "ok": true,
+  "id": "6003654",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6003654",
+  "verified_at_utc": "2026-11-08T08:34:14.947Z",
+  "general": {
+    "matchId": "6003654",
+    "matchName": "Torino-vs-Monza_Tue, Sep 1, 2026, 19:00 UTC",
+    "matchRound": "1/16",
+    "teamColors": {
+      "darkMode": {
+        "home": "#9b2d22",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#80110B",
+        "away": "#e10032"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938423,
+    "leagueName": "Coppa Italia",
+    "leagueRoundName": "1/16",
+    "parentLeagueId": 141,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Torino",
+      "id": 9804
+    },
+    "awayTeam": {
+      "name": "Monza",
+      "id": 6504
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Sep 1, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-09-01T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-01T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.09.2026 21:00:58",
+      "firstHalfEnded": "01.09.2026 21:51:38",
+      "secondHalfStarted": "01.09.2026 22:06:44",
+      "secondHalfEnded": "01.09.2026 23:00:09",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.09.2026 23:00:09"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9804",
+      "name": "Torino",
+      "score": 0
+    },
+    {
+      "id": "6504",
+      "name": "Monza",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 3,
+      "display": "45+3",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      3
+    ],
+    "SecondHalf": [
+      4,
+      5
+    ],
+    "All": [
+      8,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

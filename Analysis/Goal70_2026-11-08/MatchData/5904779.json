@@ -1,0 +1,183 @@
+{
+  "ok": true,
+  "id": "5904779",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904779",
+  "verified_at_utc": "2026-11-05T06:08:49.812Z",
+  "general": {
+    "matchId": "5904779",
+    "matchName": "Rizespor-vs-Trabzonspor_Mon, Oct 26, 2026, 16:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#3c4f9c",
+        "away": "#9e2736"
+      },
+      "lightMode": {
+        "home": "#002D73",
+        "away": "#6e2330"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "9",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Rizespor",
+      "id": 2166
+    },
+    "awayTeam": {
+      "name": "Trabzonspor",
+      "id": 9752
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Oct 26, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-26T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-26T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "26.10.2026 16:59:50",
+      "firstHalfEnded": "26.10.2026 17:46:02",
+      "secondHalfStarted": "26.10.2026 18:03:21",
+      "secondHalfEnded": "26.10.2026 18:53:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.10.2026 18:53:17"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2166",
+      "name": "Rizespor",
+      "score": 3
+    },
+    {
+      "id": "9752",
+      "name": "Trabzonspor",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 69,
+      "added": 0,
+      "display": "69",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5904779.json"
+}

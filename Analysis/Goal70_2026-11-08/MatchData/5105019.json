@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "id": "5105019",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5105019",
+  "verified_at_utc": "2026-11-08T08:33:22.136Z",
+  "general": {
+    "matchId": "5105019",
+    "matchName": "Fredrikstad-vs-Tromsø_Sun, Oct 11, 2026, 12:30 UTC",
+    "matchRound": "23",
+    "teamColors": {
+      "darkMode": {
+        "home": "#f13c26",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#f13c26",
+        "away": "#C58B01"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "23",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Fredrikstad",
+      "id": 8417
+    },
+    "awayTeam": {
+      "name": "Tromsø",
+      "id": 8608
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 11, 2026, 12:30 UTC",
+    "matchTimeUTCDate": "2026-10-11T12:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-11T12:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "11.10.2026 14:30:17",
+      "firstHalfEnded": "11.10.2026 15:19:23",
+      "secondHalfStarted": "11.10.2026 15:37:04",
+      "secondHalfEnded": "11.10.2026 16:28:06",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.10.2026 16:28:06"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8417",
+      "name": "Fredrikstad",
+      "score": 1
+    },
+    {
+      "id": "8608",
+      "name": "Tromsø",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 26,
+      "added": 0,
+      "display": "26",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      6,
+      1
+    ],
+    "All": [
+      8,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 50,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

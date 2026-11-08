@@ -1,0 +1,124 @@
+{
+  "ok": true,
+  "id": "1000015117",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015117",
+  "verified_at_utc": "2026-11-07T07:00:02.044Z",
+  "general": {
+    "matchId": "1000015117",
+    "matchName": "FK IMT Beograd-vs-Mladost Lučani_Sun, Aug 30, 2026, 19:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FD0000",
+        "away": "#2E5EC2"
+      },
+      "lightMode": {
+        "home": "#FD0000",
+        "away": "#2E5EC2"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "7",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "FK IMT Beograd",
+      "id": 568569
+    },
+    "awayTeam": {
+      "name": "Mladost Lučani",
+      "id": 1739
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-30T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 21:02:31",
+      "firstHalfEnded": "30.08.2026 21:48:50",
+      "secondHalfStarted": "30.08.2026 22:05:57",
+      "secondHalfEnded": "30.08.2026 22:53:04",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 22:53:04"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "568569",
+      "name": "FK IMT Beograd",
+      "score": 2
+    },
+    {
+      "id": "1739",
+      "name": "Mladost Lučani",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37"
+    },
+    {
+      "side": "home",
+      "minute": 84,
+      "added": 0,
+      "display": "84"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      0
+    ],
+    "All": [
+      4,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015117.json"
+}

@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "5868081",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868081",
+  "verified_at_utc": "2026-11-06T06:30:12.375Z",
+  "general": {
+    "matchId": "5868081",
+    "matchName": "Deportivo Alavés-vs-Atlético Madrid_Sat, Oct 10, 2026, 14:15 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0351A3",
+        "away": "#C63527"
+      },
+      "lightMode": {
+        "home": "#0351A3",
+        "away": "#C63527"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Deportivo Alavés",
+      "id": 9866
+    },
+    "awayTeam": {
+      "name": "Atlético Madrid",
+      "id": 9906
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 14:15 UTC",
+    "matchTimeUTCDate": "2026-10-10T14:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T14:15:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 16:15:24",
+      "firstHalfEnded": "10.10.2026 17:07:05",
+      "secondHalfStarted": "10.10.2026 17:22:31",
+      "secondHalfEnded": "10.10.2026 18:13:40",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 18:13:40"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9866",
+      "name": "Deportivo Alavés",
+      "score": 1
+    },
+    {
+      "id": "9906",
+      "name": "Atlético Madrid",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 6,
+      "display": "45+6",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 33,
+      "added": 0,
+      "display": "33",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      8
+    ],
+    "All": [
+      0,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5868081.json"
+}

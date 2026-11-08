@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "id": "6106414",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6106414",
+  "verified_at_utc": "2026-11-07T08:48:02.077Z",
+  "general": {
+    "matchId": "6106414",
+    "matchName": "Lens-vs-Sporting CP_Tue, Oct 13, 2026, 16:45 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFCE00",
+        "away": "#106840"
+      },
+      "lightMode": {
+        "home": "#d89f00",
+        "away": "#106840"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943230,
+    "leagueName": "Champions League",
+    "leagueRoundName": "2",
+    "parentLeagueId": 42,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Lens",
+      "id": 8588
+    },
+    "awayTeam": {
+      "name": "Sporting CP",
+      "id": 9768
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Oct 13, 2026, 16:45 UTC",
+    "matchTimeUTCDate": "2026-10-13T16:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-13T16:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.10.2026 18:47:02",
+      "firstHalfEnded": "13.10.2026 19:34:17",
+      "secondHalfStarted": "13.10.2026 19:51:39",
+      "secondHalfEnded": "13.10.2026 20:39:52",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.10.2026 20:39:52"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8588",
+      "name": "Lens",
+      "score": 0
+    },
+    {
+      "id": "9768",
+      "name": "Sporting CP",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

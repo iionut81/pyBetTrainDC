@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5868463",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868463",
+  "verified_at_utc": "2026-11-07T06:56:27.442Z",
+  "general": {
+    "matchId": "5868463",
+    "matchName": "Girona-vs-Albacete_Fri, Sep 25, 2026, 18:30 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#CF152D",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#CF152D",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "7",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Girona",
+      "id": 7732
+    },
+    "awayTeam": {
+      "name": "Albacete",
+      "id": 8393
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Sep 25, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-09-25T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-25T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "25.09.2026 20:30:37",
+      "firstHalfEnded": "25.09.2026 21:17:36",
+      "secondHalfStarted": "25.09.2026 21:35:01",
+      "secondHalfEnded": "25.09.2026 22:22:49",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.09.2026 22:22:49"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7732",
+      "name": "Girona",
+      "score": 2
+    },
+    {
+      "id": "8393",
+      "name": "Albacete",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 6,
+      "added": 0,
+      "display": "6",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      3,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "YellowRed",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868463.json"
+}

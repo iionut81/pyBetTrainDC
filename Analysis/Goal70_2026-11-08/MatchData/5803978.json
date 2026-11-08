@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5803978",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803978",
+  "verified_at_utc": "2026-11-07T06:56:15.581Z",
+  "general": {
+    "matchId": "5803978",
+    "matchName": "Legia Warszawa-vs-Widzew Łódź_Sun, Sep 13, 2026, 15:30 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#AD180F"
+      },
+      "lightMode": {
+        "home": "#009445",
+        "away": "#AD180F"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "8",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Legia Warszawa",
+      "id": 8673
+    },
+    "awayTeam": {
+      "name": "Widzew Łódź",
+      "id": 8024
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-09-13T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T15:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 17:30:57",
+      "firstHalfEnded": "13.09.2026 18:16:09",
+      "secondHalfStarted": "13.09.2026 18:34:12",
+      "secondHalfEnded": "13.09.2026 19:23:44",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 19:23:44"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8673",
+      "name": "Legia Warszawa",
+      "score": 1
+    },
+    {
+      "id": "8024",
+      "name": "Widzew Łódź",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 21,
+      "added": 0,
+      "display": "21",
+      "period": "FirstHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      4,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5803978.json"
+}

@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5749650",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749650",
+  "verified_at_utc": "2026-11-06T06:30:13.656Z",
+  "general": {
+    "matchId": "5749650",
+    "matchName": "Milan-vs-Venezia_Fri, Aug 28, 2026, 18:45 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#CF2C27",
+        "away": "#006127"
+      },
+      "lightMode": {
+        "home": "#CF2C27",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "2",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Milan",
+      "id": 8564
+    },
+    "awayTeam": {
+      "name": "Venezia",
+      "id": 7881
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Aug 28, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-08-28T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-28T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.08.2026 20:49:45",
+      "firstHalfEnded": "28.08.2026 21:38:59",
+      "secondHalfStarted": "28.08.2026 21:56:38",
+      "secondHalfEnded": "28.08.2026 22:45:55",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.08.2026 22:45:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8564",
+      "name": "Milan",
+      "score": 2
+    },
+    {
+      "id": "7881",
+      "name": "Venezia",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 69,
+      "added": 0,
+      "display": "69",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      2,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5749650.json"
+}

@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "id": "5803309",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803309",
+  "verified_at_utc": "2026-11-08T08:31:17.673Z",
+  "general": {
+    "matchId": "5803309",
+    "matchName": "Clermont Foot-vs-Rodez_Sat, Nov 7, 2026, 13:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#AF1C41",
+        "away": "#ecac27"
+      },
+      "lightMode": {
+        "home": "#AF1C41",
+        "away": "#df9d00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 110,
+    "leagueName": "Ligue 2",
+    "leagueRoundName": "12",
+    "parentLeagueId": 110,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Clermont Foot",
+      "id": 8311
+    },
+    "awayTeam": {
+      "name": "Rodez",
+      "id": 4120
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 14:01:44",
+      "firstHalfEnded": "07.11.2026 14:47:38",
+      "secondHalfStarted": "07.11.2026 15:02:38",
+      "secondHalfEnded": "07.11.2026 15:51:13",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 15:51:13"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8311",
+      "name": "Clermont Foot",
+      "score": 1
+    },
+    {
+      "id": "4120",
+      "name": "Rodez",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      4,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

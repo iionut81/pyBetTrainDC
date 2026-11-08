@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "1000015106",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015106",
+  "verified_at_utc": "2026-11-08T08:33:41.344Z",
+  "general": {
+    "matchId": "1000015106",
+    "matchName": "Mladost Lučani-vs-Partizan Beograd_Sun, Aug 23, 2026, 19:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2E5EC2",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#2E5EC2",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "6",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Mladost Lučani",
+      "id": 1739
+    },
+    "awayTeam": {
+      "name": "Partizan Beograd",
+      "id": 7998
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-23T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 21:01:03",
+      "firstHalfEnded": "23.08.2026 21:46:07",
+      "secondHalfStarted": "23.08.2026 22:01:43",
+      "secondHalfEnded": "23.08.2026 22:50:52",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 22:50:52"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1739",
+      "name": "Mladost Lučani",
+      "score": 3
+    },
+    {
+      "id": "7998",
+      "name": "Partizan Beograd",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 12,
+      "added": 0,
+      "display": "12"
+    },
+    {
+      "side": "home",
+      "minute": 36,
+      "added": 0,
+      "display": "36"
+    },
+    {
+      "side": "home",
+      "minute": 69,
+      "added": 0,
+      "display": "69"
+    },
+    {
+      "side": "away",
+      "minute": 83,
+      "added": 0,
+      "display": "83"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      0,
+      1
+    ],
+    "All": [
+      0,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

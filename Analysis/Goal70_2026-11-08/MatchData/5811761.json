@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "5811761",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811761",
+  "verified_at_utc": "2026-11-05T06:08:44.485Z",
+  "general": {
+    "matchId": "5811761",
+    "matchName": "Genk-vs-Gent_Sun, Sep 13, 2026, 14:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#3E60A8",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#005098",
+        "away": "#7FA200"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "6",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Genk",
+      "id": 9987
+    },
+    "awayTeam": {
+      "name": "Gent",
+      "id": 9991
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-13T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 16:02:10",
+      "firstHalfEnded": "13.09.2026 16:52:13",
+      "secondHalfStarted": "13.09.2026 17:08:47",
+      "secondHalfEnded": "13.09.2026 17:59:57",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 17:59:57"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9987",
+      "name": "Genk",
+      "score": 1
+    },
+    {
+      "id": "9991",
+      "name": "Gent",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 47,
+      "added": 0,
+      "display": "47",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 10,
+      "added": 0,
+      "display": "10",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      5
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      4,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 21,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5811761.json"
+}

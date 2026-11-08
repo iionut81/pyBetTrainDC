@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "5104996",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104996",
+  "verified_at_utc": "2026-11-08T08:33:22.072Z",
+  "general": {
+    "matchId": "5104996",
+    "matchName": "Kristiansund-vs-Tromsø_Sun, Sep 6, 2026, 17:15 UTC",
+    "matchRound": "20",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2c528c",
+        "away": "#EB131C"
+      },
+      "lightMode": {
+        "home": "#0C2340",
+        "away": "#EB131C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "20",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Kristiansund",
+      "id": 8605
+    },
+    "awayTeam": {
+      "name": "Tromsø",
+      "id": 8608
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 17:15 UTC",
+    "matchTimeUTCDate": "2026-09-06T17:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T17:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 19:15:53",
+      "firstHalfEnded": "06.09.2026 20:05:51",
+      "secondHalfStarted": "06.09.2026 20:22:31",
+      "secondHalfEnded": "06.09.2026 21:12:45",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 21:12:45"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8605",
+      "name": "Kristiansund",
+      "score": 2
+    },
+    {
+      "id": "8608",
+      "name": "Tromsø",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 14,
+      "added": 0,
+      "display": "14",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 77,
+      "added": 0,
+      "display": "77",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      4,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 22,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

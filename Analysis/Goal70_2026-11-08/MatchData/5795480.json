@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5795480",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795480",
+  "verified_at_utc": "2026-11-07T06:55:55.148Z",
+  "general": {
+    "matchId": "5795480",
+    "matchName": "Leeds United-vs-Manchester United_Sun, Oct 18, 2026, 13:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#C70101"
+      },
+      "lightMode": {
+        "home": "#0060AA",
+        "away": "#C70101"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 47,
+    "leagueName": "Premier League",
+    "leagueRoundName": "7",
+    "parentLeagueId": 47,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Leeds United",
+      "id": 8463
+    },
+    "awayTeam": {
+      "name": "Manchester United",
+      "id": 10260
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 18, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-10-18T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-18T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.10.2026 15:00:48",
+      "firstHalfEnded": "18.10.2026 15:48:05",
+      "secondHalfStarted": "18.10.2026 16:04:10",
+      "secondHalfEnded": "18.10.2026 16:53:33",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.10.2026 16:53:33"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8463",
+      "name": "Leeds United",
+      "score": 1
+    },
+    {
+      "id": "10260",
+      "name": "Manchester United",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 35,
+      "added": 0,
+      "display": "35",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      2,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 17,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5795480.json"
+}

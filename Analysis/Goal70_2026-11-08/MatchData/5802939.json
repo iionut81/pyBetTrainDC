@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "id": "5802939",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802939",
+  "verified_at_utc": "2026-11-08T08:33:18.926Z",
+  "general": {
+    "matchId": "5802939",
+    "matchName": "Le Mans-vs-Lorient_Sat, Sep 19, 2026, 18:45 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D60000",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#D60000",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "5",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Le Mans",
+      "id": 8682
+    },
+    "awayTeam": {
+      "name": "Lorient",
+      "id": 8689
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-19T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 20:45:18",
+      "firstHalfEnded": "19.09.2026 21:33:54",
+      "secondHalfStarted": "19.09.2026 21:48:50",
+      "secondHalfEnded": "19.09.2026 22:41:24",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 22:41:24"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8682",
+      "name": "Le Mans",
+      "score": 2
+    },
+    {
+      "id": "8689",
+      "name": "Lorient",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 78,
+      "added": 0,
+      "display": "78",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      1,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 12,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

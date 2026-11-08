@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5868393",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868393",
+  "verified_at_utc": "2026-11-08T08:33:28.985Z",
+  "general": {
+    "matchId": "5868393",
+    "matchName": "Almeria-vs-Eldense_Mon, Aug 17, 2026, 19:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ee1119",
+        "away": "#004bc7"
+      },
+      "lightMode": {
+        "home": "#C8282C",
+        "away": "#033298"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "1",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Almeria",
+      "id": 9865
+    },
+    "awayTeam": {
+      "name": "Eldense",
+      "id": 8288
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Aug 17, 2026, 19:30 UTC",
+    "matchTimeUTCDate": "2026-08-17T19:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-17T19:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.08.2026 21:31:06",
+      "firstHalfEnded": "17.08.2026 22:25:20",
+      "secondHalfStarted": "17.08.2026 22:41:31",
+      "secondHalfEnded": "17.08.2026 23:33:10",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.08.2026 23:33:10"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9865",
+      "name": "Almeria",
+      "score": 3
+    },
+    {
+      "id": "8288",
+      "name": "Eldense",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 15,
+      "added": 0,
+      "display": "15",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 5,
+      "display": "45+5",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      5
+    ],
+    "All": [
+      7,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5107535",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107535",
+  "verified_at_utc": "2026-11-08T08:33:36.124Z",
+  "general": {
+    "matchId": "5107535",
+    "matchName": "IFK Göteborg-vs-Brommapojkarna_Fri, Jul 17, 2026, 17:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0068B0",
+        "away": "#D21A0E"
+      },
+      "lightMode": {
+        "home": "#0068B0",
+        "away": "#D21A0E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "13",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "IFK Göteborg",
+      "id": 9893
+    },
+    "awayTeam": {
+      "name": "Brommapojkarna",
+      "id": 8501
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Jul 17, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-07-17T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-17T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "17.07.2026 19:00:18",
+      "firstHalfEnded": "17.07.2026 19:47:46",
+      "secondHalfStarted": "17.07.2026 20:02:38",
+      "secondHalfEnded": "17.07.2026 20:50:41",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.07.2026 20:50:41"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9893",
+      "name": "IFK Göteborg",
+      "score": 2
+    },
+    {
+      "id": "8501",
+      "name": "Brommapojkarna",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      5
+    ],
+    "SecondHalf": [
+      8,
+      0
+    ],
+    "All": [
+      10,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 33,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

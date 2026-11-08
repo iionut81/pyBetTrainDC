@@ -1,0 +1,155 @@
+{
+  "ok": true,
+  "id": "5836926",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836926",
+  "verified_at_utc": "2026-11-08T08:31:23.145Z",
+  "general": {
+    "matchId": "5836926",
+    "matchName": "Charlton Athletic-vs-Sheffield United_Sat, Nov 7, 2026, 15:00 UTC",
+    "matchRound": "15",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D00820",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#D00820",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "Championship",
+    "leagueRoundName": "15",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Charlton Athletic",
+      "id": 8451
+    },
+    "awayTeam": {
+      "name": "Sheffield United",
+      "id": 8657
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 16:01:16",
+      "firstHalfEnded": "07.11.2026 16:47:37",
+      "secondHalfStarted": "07.11.2026 17:04:11",
+      "secondHalfEnded": "07.11.2026 17:57:22",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 17:57:22"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8451",
+      "name": "Charlton Athletic",
+      "score": 2
+    },
+    {
+      "id": "8657",
+      "name": "Sheffield United",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 25,
+      "added": 0,
+      "display": "25",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      1,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

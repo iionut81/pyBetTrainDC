@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5803926",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803926",
+  "verified_at_utc": "2026-11-08T08:33:21.178Z",
+  "general": {
+    "matchId": "5803926",
+    "matchName": "Legia Warszawa-vs-Zagłębie Lubin_Sun, Aug 2, 2026, 12:45 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#EB6F08"
+      },
+      "lightMode": {
+        "home": "#009445",
+        "away": "#EB6F08"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "2",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Legia Warszawa",
+      "id": 8673
+    },
+    "awayTeam": {
+      "name": "Zagłębie Lubin",
+      "id": 8021
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 2, 2026, 12:45 UTC",
+    "matchTimeUTCDate": "2026-08-02T12:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-02T12:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.08.2026 14:50:30",
+      "firstHalfEnded": "02.08.2026 15:37:19",
+      "secondHalfStarted": "02.08.2026 15:55:08",
+      "secondHalfEnded": "02.08.2026 16:42:55",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.08.2026 16:42:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8673",
+      "name": "Legia Warszawa",
+      "score": 3
+    },
+    {
+      "id": "8021",
+      "name": "Zagłębie Lubin",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 25,
+      "added": 0,
+      "display": "25",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 72,
+      "added": 0,
+      "display": "72",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      9,
+      2
+    ]
+  },
+  "cards": [],
+  "formations": {}
+}

@@ -1,0 +1,177 @@
+{
+  "ok": true,
+  "id": "5881705",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881705",
+  "verified_at_utc": "2026-11-08T08:33:19.976Z",
+  "general": {
+    "matchId": "5881705",
+    "matchName": "Magdeburg-vs-Karlsruher SC_Sat, Oct 24, 2026, 11:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0068B8",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#0068B8",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 146,
+    "leagueName": "2. Bundesliga",
+    "leagueRoundName": "9",
+    "parentLeagueId": 146,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Magdeburg",
+      "id": 8188
+    },
+    "awayTeam": {
+      "name": "Karlsruher SC",
+      "id": 8295
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 24, 2026, 11:00 UTC",
+    "matchTimeUTCDate": "2026-10-24T11:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-24T11:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.10.2026 13:01:19",
+      "firstHalfEnded": "24.10.2026 13:50:12",
+      "secondHalfStarted": "24.10.2026 14:07:12",
+      "secondHalfEnded": "24.10.2026 14:57:43",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.10.2026 14:57:43"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "6 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8188",
+      "name": "Magdeburg",
+      "score": 6
+    },
+    {
+      "id": "8295",
+      "name": "Karlsruher SC",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 39,
+      "added": 0,
+      "display": "39",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 59,
+      "added": 0,
+      "display": "59",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 66,
+      "added": 0,
+      "display": "66",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      2
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 6,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 39,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,169 @@
+{
+  "ok": true,
+  "id": "5943229",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943229",
+  "verified_at_utc": "2026-11-05T06:08:58.493Z",
+  "general": {
+    "matchId": "5943229",
+    "matchName": "Panathinaikos-vs-Kifisia FC_Thu, Sep 10, 2026, 18:15 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#206830",
+        "away": "#394E8E"
+      },
+      "lightMode": {
+        "home": "#206830",
+        "away": "#022c66"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941071,
+    "leagueName": "Super League",
+    "leagueRoundName": "1",
+    "parentLeagueId": 135,
+    "countryCode": "GRE",
+    "homeTeam": {
+      "name": "Panathinaikos",
+      "id": 10200
+    },
+    "awayTeam": {
+      "name": "Kifisia FC",
+      "id": 488099
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Sep 10, 2026, 18:15 UTC",
+    "matchTimeUTCDate": "2026-09-10T18:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-10T18:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "10.09.2026 20:17:49",
+      "firstHalfEnded": "10.09.2026 21:06:18",
+      "secondHalfStarted": "10.09.2026 21:24:10",
+      "secondHalfEnded": "10.09.2026 22:15:46",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.09.2026 22:15:46"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10200",
+      "name": "Panathinaikos",
+      "score": 3
+    },
+    {
+      "id": "488099",
+      "name": "Kifisia FC",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 81,
+      "added": 0,
+      "display": "81",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      9,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      0
+    ],
+    "All": [
+      11,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 47,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 63,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5943229.json"
+}

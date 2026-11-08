@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "5831170",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831170",
+  "verified_at_utc": "2026-11-05T06:04:50.799Z",
+  "general": {
+    "matchId": "5831170",
+    "matchName": "Sparta Prague-vs-Jablonec_Sat, Sep 12, 2026, 16:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#a12236",
+        "away": "#00874C"
+      },
+      "lightMode": {
+        "home": "#8E192B",
+        "away": "#00874C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Sparta Prague",
+      "id": 10247
+    },
+    "awayTeam": {
+      "name": "Jablonec",
+      "id": 7758
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-09-12T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 18:03:04",
+      "firstHalfEnded": "12.09.2026 18:50:20",
+      "secondHalfStarted": "12.09.2026 19:07:17",
+      "secondHalfEnded": "12.09.2026 19:54:11",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 19:54:11"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10247",
+      "name": "Sparta Prague",
+      "score": 2
+    },
+    {
+      "id": "7758",
+      "name": "Jablonec",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 19,
+      "added": 0,
+      "display": "19"
+    },
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      9,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5831170.json"
+}

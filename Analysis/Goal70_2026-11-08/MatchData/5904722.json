@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "id": "5904722",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904722",
+  "verified_at_utc": "2026-11-06T06:30:40.951Z",
+  "general": {
+    "matchId": "5904722",
+    "matchName": "Gaziantep FK-vs-Rizespor_Sat, Aug 29, 2026, 18:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#a21f21",
+        "away": "#3c4f9c"
+      },
+      "lightMode": {
+        "home": "#a21f21",
+        "away": "#002D73"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "3",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Gaziantep FK",
+      "id": 4081
+    },
+    "awayTeam": {
+      "name": "Rizespor",
+      "id": 2166
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 29, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-29T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-29T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "29.08.2026 20:30:21",
+      "firstHalfEnded": "29.08.2026 21:18:00",
+      "secondHalfStarted": "29.08.2026 21:35:23",
+      "secondHalfEnded": "29.08.2026 22:24:03",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "29.08.2026 22:24:03"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "4081",
+      "name": "Gaziantep FK",
+      "score": 1
+    },
+    {
+      "id": "2166",
+      "name": "Rizespor",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1",
+      "period": "SecondHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 35,
+      "added": 0,
+      "display": "35",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      5,
+      0
+    ],
+    "All": [
+      8,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5904722.json"
+}

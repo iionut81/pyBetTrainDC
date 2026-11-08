@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "6112474",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112474",
+  "verified_at_utc": "2026-11-08T08:55:55.592Z",
+  "general": {
+    "matchId": "6112474",
+    "matchName": "Getafe-vs-Brighton & Hove Albion_Thu, Nov 5, 2026, 20:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#005dbb",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#084888",
+        "away": "#C38C06"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943231,
+    "leagueName": "Conference League",
+    "leagueRoundName": "3",
+    "parentLeagueId": 10216,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Getafe",
+      "id": 8305
+    },
+    "awayTeam": {
+      "name": "Brighton & Hove Albion",
+      "id": 10204
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Nov 5, 2026, 20:00 UTC",
+    "matchTimeUTCDate": "2026-11-05T20:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-05T20:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.11.2026 21:01:45",
+      "firstHalfEnded": "05.11.2026 21:47:56",
+      "secondHalfStarted": "05.11.2026 22:04:03",
+      "secondHalfEnded": "05.11.2026 22:51:55",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.11.2026 22:51:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8305",
+      "name": "Getafe",
+      "score": 0
+    },
+    {
+      "id": "10204",
+      "name": "Brighton & Hove Albion",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 64,
+      "added": 0,
+      "display": "64",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      5,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

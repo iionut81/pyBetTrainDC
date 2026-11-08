@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5831118",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831118",
+  "verified_at_utc": "2026-11-05T06:09:02.175Z",
+  "general": {
+    "matchId": "5831118",
+    "matchName": "Pardubice-vs-Jablonec_Sun, Aug 2, 2026, 18:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DF0006",
+        "away": "#00874C"
+      },
+      "lightMode": {
+        "home": "#DF0006",
+        "away": "#00874C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "2",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Pardubice",
+      "id": 2406
+    },
+    "awayTeam": {
+      "name": "Jablonec",
+      "id": 7758
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 2, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-08-02T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-02T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.08.2026 20:01:12",
+      "firstHalfEnded": "02.08.2026 20:48:41",
+      "secondHalfStarted": "02.08.2026 21:04:44",
+      "secondHalfEnded": "02.08.2026 21:54:09",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.08.2026 21:54:09"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2406",
+      "name": "Pardubice",
+      "score": 0
+    },
+    {
+      "id": "7758",
+      "name": "Jablonec",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 19,
+      "added": 0,
+      "display": "19"
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      6,
+      0
+    ],
+    "All": [
+      8,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5831118.json"
+}

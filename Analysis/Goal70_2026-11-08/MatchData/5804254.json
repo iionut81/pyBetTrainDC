@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "id": "5804254",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804254",
+  "verified_at_utc": "2026-11-07T06:56:42.837Z",
+  "general": {
+    "matchId": "5804254",
+    "matchName": "Basel-vs-Sion_Thu, Sep 3, 2026, 18:30 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F80C38",
+        "away": "#fafafa"
+      },
+      "lightMode": {
+        "home": "#F80C38",
+        "away": "#222116"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937880,
+    "leagueName": "Super League",
+    "leagueRoundName": "6",
+    "parentLeagueId": 69,
+    "countryCode": "SUI",
+    "homeTeam": {
+      "name": "Basel",
+      "id": 9931
+    },
+    "awayTeam": {
+      "name": "Sion",
+      "id": 10179
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Sep 3, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-09-03T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-03T18:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "03.09.2026 20:31:03",
+      "firstHalfEnded": "03.09.2026 21:17:47",
+      "secondHalfStarted": "03.09.2026 21:33:02",
+      "secondHalfEnded": "03.09.2026 22:21:58",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.09.2026 22:21:58"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9931",
+      "name": "Basel",
+      "score": 1
+    },
+    {
+      "id": "10179",
+      "name": "Sion",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      4,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5804254.json"
+}

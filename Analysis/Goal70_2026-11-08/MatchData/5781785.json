@@ -1,0 +1,173 @@
+{
+  "ok": true,
+  "id": "5781785",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781785",
+  "verified_at_utc": "2026-11-06T06:30:26.532Z",
+  "general": {
+    "matchId": "5781785",
+    "matchName": "Willem II-vs-Cambuur_Sat, Oct 24, 2026, 16:45 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0055a4",
+        "away": "#F9EC00"
+      },
+      "lightMode": {
+        "home": "#242C51",
+        "away": "#DA9E00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "10",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "Willem II",
+      "id": 8525
+    },
+    "awayTeam": {
+      "name": "Cambuur",
+      "id": 7788
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 24, 2026, 16:45 UTC",
+    "matchTimeUTCDate": "2026-10-24T16:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-24T16:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.10.2026 18:45:44",
+      "firstHalfEnded": "24.10.2026 19:32:36",
+      "secondHalfStarted": "24.10.2026 19:47:42",
+      "secondHalfEnded": "24.10.2026 20:34:58",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.10.2026 20:34:58"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 6",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8525",
+      "name": "Willem II",
+      "score": 1
+    },
+    {
+      "id": "7788",
+      "name": "Cambuur",
+      "score": 6
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 9,
+      "added": 0,
+      "display": "9",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 58,
+      "added": 0,
+      "display": "58",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 18,
+      "added": 0,
+      "display": "18",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      3
+    ],
+    "SecondHalf": [
+      8,
+      1
+    ],
+    "All": [
+      13,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5781785.json"
+}

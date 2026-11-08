@@ -1,0 +1,181 @@
+{
+  "ok": true,
+  "id": "5811731",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811731",
+  "verified_at_utc": "2026-11-07T06:56:10.353Z",
+  "general": {
+    "matchId": "5811731",
+    "matchName": "Royal Antwerp-vs-Genk_Sat, Aug 22, 2026, 18:45 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DB2823",
+        "away": "#3E60A8"
+      },
+      "lightMode": {
+        "home": "#DB2823",
+        "away": "#005098"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "3",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Royal Antwerp",
+      "id": 9988
+    },
+    "awayTeam": {
+      "name": "Genk",
+      "id": 9987
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-08-22T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 20:49:12",
+      "firstHalfEnded": "22.08.2026 21:35:07",
+      "secondHalfStarted": "22.08.2026 21:50:39",
+      "secondHalfEnded": "22.08.2026 22:42:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 22:42:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9988",
+      "name": "Royal Antwerp",
+      "score": 4
+    },
+    {
+      "id": "9987",
+      "name": "Genk",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 16,
+      "added": 0,
+      "display": "16",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 48,
+      "added": 0,
+      "display": "48",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 70,
+      "added": 0,
+      "display": "70",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      5,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5811731.json"
+}

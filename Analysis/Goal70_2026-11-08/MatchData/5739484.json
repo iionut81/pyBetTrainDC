@@ -1,0 +1,174 @@
+{
+  "ok": true,
+  "id": "5739484",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739484",
+  "verified_at_utc": "2026-11-08T08:33:34.181Z",
+  "general": {
+    "matchId": "5739484",
+    "matchName": "Brøndby IF-vs-Sønderjyske_Mon, Aug 17, 2026, 17:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ECC92A",
+        "away": "#6CACE4"
+      },
+      "lightMode": {
+        "home": "#d1a300",
+        "away": "#6CACE4"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "4",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "Brøndby IF",
+      "id": 8595
+    },
+    "awayTeam": {
+      "name": "Sønderjyske",
+      "id": 8487
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Aug 17, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-08-17T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-17T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.08.2026 19:01:07",
+      "firstHalfEnded": "17.08.2026 19:48:35",
+      "secondHalfStarted": "17.08.2026 20:03:58",
+      "secondHalfEnded": "17.08.2026 20:53:07",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.08.2026 20:53:07"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8595",
+      "name": "Brøndby IF",
+      "score": 3
+    },
+    {
+      "id": "8487",
+      "name": "Sønderjyske",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 18,
+      "added": 0,
+      "display": "18",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 30,
+      "added": 0,
+      "display": "30",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 58,
+      "added": 0,
+      "display": "58",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 64,
+      "added": 0,
+      "display": "64"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      8,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      10,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "5908587",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908587",
+  "verified_at_utc": "2026-11-07T06:59:45.973Z",
+  "general": {
+    "matchId": "5908587",
+    "matchName": "Kayserispor-vs-Sivasspor_Sun, Aug 16, 2026, 16:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#AE0E21",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#AE0E21",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "2",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Kayserispor",
+      "id": 10182
+    },
+    "awayTeam": {
+      "name": "Sivasspor",
+      "id": 6265
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 16, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-08-16T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-16T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "16.08.2026 18:01:01",
+      "firstHalfEnded": "16.08.2026 18:51:32",
+      "secondHalfStarted": "16.08.2026 19:07:40",
+      "secondHalfEnded": "16.08.2026 19:57:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.08.2026 19:57:35"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10182",
+      "name": "Kayserispor",
+      "score": 2
+    },
+    {
+      "id": "6265",
+      "name": "Sivasspor",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 3,
+      "added": 0,
+      "display": "3"
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 4,
+      "display": "45+4"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      6,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 46,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5908587.json"
+}

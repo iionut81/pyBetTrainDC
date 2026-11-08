@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5943285",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943285",
+  "verified_at_utc": "2026-11-05T06:08:59.093Z",
+  "general": {
+    "matchId": "5943285",
+    "matchName": "Panathinaikos-vs-AEK Athens_Sun, Nov 1, 2026, 17:30 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#206830",
+        "away": "#FED300"
+      },
+      "lightMode": {
+        "home": "#206830",
+        "away": "#d99f00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941071,
+    "leagueName": "Super League",
+    "leagueRoundName": "9",
+    "parentLeagueId": 135,
+    "countryCode": "GRE",
+    "homeTeam": {
+      "name": "Panathinaikos",
+      "id": 10200
+    },
+    "awayTeam": {
+      "name": "AEK Athens",
+      "id": 8563
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 17:30 UTC",
+    "matchTimeUTCDate": "2026-11-01T17:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T17:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 18:32:58",
+      "firstHalfEnded": "01.11.2026 19:18:22",
+      "secondHalfStarted": "01.11.2026 19:36:49",
+      "secondHalfEnded": "01.11.2026 20:25:51",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 20:25:51"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10200",
+      "name": "Panathinaikos",
+      "score": 2
+    },
+    {
+      "id": "8563",
+      "name": "AEK Athens",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 1,
+      "added": 0,
+      "display": "1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      4
+    ],
+    "All": [
+      6,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 70,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5943285.json"
+}

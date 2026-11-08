@@ -1,0 +1,172 @@
+{
+  "ok": true,
+  "id": "5739509",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739509",
+  "verified_at_utc": "2026-11-05T06:08:39.942Z",
+  "general": {
+    "matchId": "5739509",
+    "matchName": "FC Midtjylland-vs-Brøndby IF_Mon, Sep 14, 2026, 17:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#BF0C0D",
+        "away": "#ECC92A"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#d1a300"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "8",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "FC Midtjylland",
+      "id": 8113
+    },
+    "awayTeam": {
+      "name": "Brøndby IF",
+      "id": 8595
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Sep 14, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-14T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-14T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "14.09.2026 19:00:14",
+      "firstHalfEnded": "14.09.2026 19:49:51",
+      "secondHalfStarted": "14.09.2026 20:06:06",
+      "secondHalfEnded": "14.09.2026 21:00:43",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.09.2026 21:00:43"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8113",
+      "name": "FC Midtjylland",
+      "score": 4
+    },
+    {
+      "id": "8595",
+      "name": "Brøndby IF",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 1,
+      "added": 0,
+      "display": "1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 23,
+      "added": 0,
+      "display": "23",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 69,
+      "added": 0,
+      "display": "69",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      6,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "YellowRed",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5739509.json"
+}

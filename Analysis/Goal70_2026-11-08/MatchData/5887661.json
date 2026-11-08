@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "id": "5887661",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887661",
+  "verified_at_utc": "2026-11-07T06:56:29.661Z",
+  "general": {
+    "matchId": "5887661",
+    "matchName": "Sporting CP-vs-Académico Viseu_Sun, Oct 25, 2026, 20:30 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#106840",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#106840",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "9",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Sporting CP",
+      "id": 9768
+    },
+    "awayTeam": {
+      "name": "Académico Viseu",
+      "id": 1786
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 20:30 UTC",
+    "matchTimeUTCDate": "2026-10-25T20:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T20:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 21:35:34",
+      "firstHalfEnded": "25.10.2026 22:29:09",
+      "secondHalfStarted": "25.10.2026 22:45:19",
+      "secondHalfEnded": "25.10.2026 23:34:52",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 23:34:52"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9768",
+      "name": "Sporting CP",
+      "score": 1
+    },
+    {
+      "id": "1786",
+      "name": "Académico Viseu",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      0
+    ],
+    "SecondHalf": [
+      4,
+      0
+    ],
+    "All": [
+      10,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 9,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5887661.json"
+}

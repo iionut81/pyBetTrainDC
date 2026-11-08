@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "5887632",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887632",
+  "verified_at_utc": "2026-11-07T06:56:30.731Z",
+  "general": {
+    "matchId": "5887632",
+    "matchName": "Moreirense-vs-Marítimo_Mon, Sep 14, 2026, 19:15 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#3EA848",
+        "away": "#F72936"
+      },
+      "lightMode": {
+        "home": "#3EA848",
+        "away": "#0A5B43"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "6",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Moreirense",
+      "id": 8348
+    },
+    "awayTeam": {
+      "name": "Marítimo",
+      "id": 10212
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Sep 14, 2026, 19:15 UTC",
+    "matchTimeUTCDate": "2026-09-14T19:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-14T19:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "14.09.2026 21:15:45",
+      "firstHalfEnded": "14.09.2026 22:02:06",
+      "secondHalfStarted": "14.09.2026 22:19:02",
+      "secondHalfEnded": "14.09.2026 23:08:55",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.09.2026 23:08:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8348",
+      "name": "Moreirense",
+      "score": 3
+    },
+    {
+      "id": "10212",
+      "name": "Marítimo",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 17,
+      "added": 0,
+      "display": "17",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 28,
+      "added": 0,
+      "display": "28",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      3,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5887632.json"
+}

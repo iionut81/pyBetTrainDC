@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5795511",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795511",
+  "verified_at_utc": "2026-11-08T08:31:11.840Z",
+  "general": {
+    "matchId": "5795511",
+    "matchName": "Leeds United-vs-Tottenham Hotspur_Sat, Nov 7, 2026, 12:30 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#1b578d"
+      },
+      "lightMode": {
+        "home": "#0060AA",
+        "away": "#132257"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 47,
+    "leagueName": "Premier League",
+    "leagueRoundName": "10",
+    "parentLeagueId": 47,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Leeds United",
+      "id": 8463
+    },
+    "awayTeam": {
+      "name": "Tottenham Hotspur",
+      "id": 8586
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 12:30 UTC",
+    "matchTimeUTCDate": "2026-11-07T12:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T12:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 13:30:39",
+      "firstHalfEnded": "07.11.2026 14:21:55",
+      "secondHalfStarted": "07.11.2026 14:37:16",
+      "secondHalfEnded": "07.11.2026 15:27:04",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 15:27:04"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8463",
+      "name": "Leeds United",
+      "score": 1
+    },
+    {
+      "id": "8586",
+      "name": "Tottenham Hotspur",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      6,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 22,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

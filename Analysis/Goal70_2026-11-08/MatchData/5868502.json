@@ -1,0 +1,186 @@
+{
+  "ok": true,
+  "id": "5868502",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868502",
+  "verified_at_utc": "2026-11-08T08:33:29.558Z",
+  "general": {
+    "matchId": "5868502",
+    "matchName": "Real Valladolid-vs-Eldense_Sun, Oct 18, 2026, 16:30 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#6f3c9c",
+        "away": "#C00204"
+      },
+      "lightMode": {
+        "home": "#63257E",
+        "away": "#C00204"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "10",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Real Valladolid",
+      "id": 10281
+    },
+    "awayTeam": {
+      "name": "Eldense",
+      "id": 8288
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 18, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-10-18T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-18T16:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.10.2026 18:31:43",
+      "firstHalfEnded": "18.10.2026 19:22:08",
+      "secondHalfStarted": "18.10.2026 19:38:11",
+      "secondHalfEnded": "18.10.2026 20:28:08",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.10.2026 20:28:08"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10281",
+      "name": "Real Valladolid",
+      "score": 2
+    },
+    {
+      "id": "8288",
+      "name": "Eldense",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 23,
+      "added": 0,
+      "display": "23",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 41,
+      "added": 0,
+      "display": "41",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 5,
+      "display": "90+5",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      10,
+      2
+    ],
+    "All": [
+      13,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 72,
+      "card": "YellowRed",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

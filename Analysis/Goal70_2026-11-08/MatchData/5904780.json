@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "5904780",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904780",
+  "verified_at_utc": "2026-11-07T06:59:40.409Z",
+  "general": {
+    "matchId": "5904780",
+    "matchName": "Göztepe-vs-Çorum FK_Sun, Oct 25, 2026, 16:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C80000",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#C80000",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "9",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Göztepe",
+      "id": 1925
+    },
+    "awayTeam": {
+      "name": "Çorum FK",
+      "id": 357274
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-25T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 17:00:50",
+      "firstHalfEnded": "25.10.2026 17:50:40",
+      "secondHalfStarted": "25.10.2026 18:07:57",
+      "secondHalfEnded": "25.10.2026 18:56:45",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 18:56:45"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1925",
+      "name": "Göztepe",
+      "score": 2
+    },
+    {
+      "id": "357274",
+      "name": "Çorum FK",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      2,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5904780.json"
+}

@@ -1,0 +1,164 @@
+{
+  "ok": true,
+  "id": "6099332",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6099332",
+  "verified_at_utc": "2026-11-08T08:55:56.264Z",
+  "general": {
+    "matchId": "6099332",
+    "matchName": "Ipswich Town-vs-Arsenal_Tue, Sep 15, 2026, 19:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004fc2",
+        "away": "#bd0510"
+      },
+      "lightMode": {
+        "home": "#0333A0",
+        "away": "#bd0510"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938221,
+    "leagueName": "EFL Cup",
+    "leagueRoundName": "3",
+    "parentLeagueId": 133,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Ipswich Town",
+      "id": 9902
+    },
+    "awayTeam": {
+      "name": "Arsenal",
+      "id": 9825
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Sep 15, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-09-15T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-15T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.09.2026 21:01:05",
+      "firstHalfEnded": "15.09.2026 21:47:33",
+      "secondHalfStarted": "15.09.2026 22:04:33",
+      "secondHalfEnded": "15.09.2026 22:51:31",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.09.2026 22:51:31"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9902",
+      "name": "Ipswich Town",
+      "score": 2
+    },
+    {
+      "id": "9825",
+      "name": "Arsenal",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 7,
+      "added": 0,
+      "display": "7",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 47,
+      "added": 0,
+      "display": "47",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 16,
+      "added": 0,
+      "display": "16",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 58,
+      "added": 0,
+      "display": "58",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      3,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

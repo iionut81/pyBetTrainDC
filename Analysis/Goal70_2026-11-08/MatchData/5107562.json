@@ -1,0 +1,163 @@
+{
+  "ok": true,
+  "id": "5107562",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107562",
+  "verified_at_utc": "2026-11-08T08:33:40.083Z",
+  "general": {
+    "matchId": "5107562",
+    "matchName": "Sirius-vs-Brommapojkarna_Mon, Aug 10, 2026, 17:00 UTC",
+    "matchRound": "16",
+    "teamColors": {
+      "darkMode": {
+        "home": "#175b9e",
+        "away": "#D21A0E"
+      },
+      "lightMode": {
+        "home": "#2a497f",
+        "away": "#D21A0E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "16",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Sirius",
+      "id": 6694
+    },
+    "awayTeam": {
+      "name": "Brommapojkarna",
+      "id": 8501
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Aug 10, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-08-10T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-10T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.08.2026 19:00:19",
+      "firstHalfEnded": "10.08.2026 19:46:48",
+      "secondHalfStarted": "10.08.2026 20:02:10",
+      "secondHalfEnded": "10.08.2026 20:55:13",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.08.2026 20:55:13"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6694",
+      "name": "Sirius",
+      "score": 2
+    },
+    {
+      "id": "8501",
+      "name": "Brommapojkarna",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 17,
+      "added": 0,
+      "display": "17",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 23,
+      "added": 0,
+      "display": "23",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 25,
+      "added": 0,
+      "display": "25",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 28,
+      "added": 0,
+      "display": "28",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      7,
+      2
+    ],
+    "All": [
+      8,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

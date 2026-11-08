@@ -1,0 +1,120 @@
+{
+  "ok": true,
+  "id": "6386049",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6386049",
+  "verified_at_utc": "2026-11-08T08:34:17.056Z",
+  "general": {
+    "matchId": "6386049",
+    "matchName": "Castellonense-vs-Almería_Tue, Oct 27, 2026, 18:45 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFFFFF",
+        "away": "#ee1119"
+      },
+      "lightMode": {
+        "home": "#030202",
+        "away": "#C8282C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 138,
+    "leagueName": "Copa del Rey",
+    "leagueRoundName": "1",
+    "parentLeagueId": 138,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Castellonense",
+      "id": 2066184
+    },
+    "awayTeam": {
+      "name": "Almería",
+      "id": 9865
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Tue, Oct 27, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-10-27T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-27T18:45:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "27.10.2026 19:48:44",
+      "firstHalfEnded": "27.10.2026 20:34:09",
+      "secondHalfStarted": "27.10.2026 20:50:24",
+      "secondHalfEnded": "27.10.2026 21:39:43",
+      "firstExtraHalfStarted": "27.10.2026 21:42:14",
+      "secondExtraHalfStarted": "27.10.2026 22:01:30",
+      "gameEnded": "27.10.2026 22:19:00"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "AET",
+      "shortKey": "afterextratime_short",
+      "long": "After extra time",
+      "longKey": "afterextra"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2066184",
+      "name": "Castellonense",
+      "score": 1
+    },
+    {
+      "id": "9865",
+      "name": "Almería",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 93,
+      "added": 0,
+      "display": "93"
+    },
+    {
+      "side": "away",
+      "minute": 112,
+      "added": 0,
+      "display": "112"
+    },
+    {
+      "side": "away",
+      "minute": 120,
+      "added": 2,
+      "display": "120+2"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": null
+  },
+  "cards": [
+    {
+      "time": 120,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

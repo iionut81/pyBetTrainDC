@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "id": "5881634",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881634",
+  "verified_at_utc": "2026-11-06T06:30:15.740Z",
+  "general": {
+    "matchId": "5881634",
+    "matchName": "St. Pauli-vs-Greuther Fürth_Sun, Aug 9, 2026, 11:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#804c37",
+        "away": "#078445"
+      },
+      "lightMode": {
+        "home": "#604734",
+        "away": "#078445"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 146,
+    "leagueName": "2. Bundesliga",
+    "leagueRoundName": "1",
+    "parentLeagueId": 146,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "St. Pauli",
+      "id": 8152
+    },
+    "awayTeam": {
+      "name": "Greuther Fürth",
+      "id": 8357
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 9, 2026, 11:30 UTC",
+    "matchTimeUTCDate": "2026-08-09T11:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-09T11:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.08.2026 13:30:17",
+      "firstHalfEnded": "09.08.2026 14:17:31",
+      "secondHalfStarted": "09.08.2026 14:34:30",
+      "secondHalfEnded": "09.08.2026 15:27:37",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.08.2026 15:27:37"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8152",
+      "name": "St. Pauli",
+      "score": 1
+    },
+    {
+      "id": "8357",
+      "name": "Greuther Fürth",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 46,
+      "added": 0,
+      "display": "46",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 52,
+      "added": 0,
+      "display": "52",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      0
+    ],
+    "All": [
+      9,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5881634.json"
+}

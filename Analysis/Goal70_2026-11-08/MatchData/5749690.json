@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "id": "5749690",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749690",
+  "verified_at_utc": "2026-11-06T06:30:14.220Z",
+  "general": {
+    "matchId": "5749690",
+    "matchName": "Atalanta-vs-Venezia_Mon, Oct 12, 2026, 16:30 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0D68B1",
+        "away": "#006127"
+      },
+      "lightMode": {
+        "home": "#004ca6",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "6",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Atalanta",
+      "id": 8524
+    },
+    "awayTeam": {
+      "name": "Venezia",
+      "id": 7881
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Oct 12, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-10-12T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-12T16:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.10.2026 18:31:46",
+      "firstHalfEnded": "12.10.2026 19:18:12",
+      "secondHalfStarted": "12.10.2026 19:33:19",
+      "secondHalfEnded": "12.10.2026 20:22:31",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.10.2026 20:22:31"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8524",
+      "name": "Atalanta",
+      "score": 3
+    },
+    {
+      "id": "7881",
+      "name": "Venezia",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 7,
+      "added": 0,
+      "display": "7",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 37,
+      "added": 0,
+      "display": "37",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      4
+    ],
+    "All": [
+      8,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5749690.json"
+}

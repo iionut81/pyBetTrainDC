@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5908598",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908598",
+  "verified_at_utc": "2026-11-06T06:30:49.514Z",
+  "general": {
+    "matchId": "5908598",
+    "matchName": "Sarıyer-vs-Batman Petrolspor_Sun, Aug 23, 2026, 18:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#003CBE",
+        "away": "#AB1111"
+      },
+      "lightMode": {
+        "home": "#003CBE",
+        "away": "#AB1111"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "3",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Sarıyer",
+      "id": 2090
+    },
+    "awayTeam": {
+      "name": "Batman Petrolspor",
+      "id": 163008
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-23T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 20:32:12",
+      "firstHalfEnded": "23.08.2026 21:20:31",
+      "secondHalfStarted": "23.08.2026 21:36:30",
+      "secondHalfEnded": "23.08.2026 22:25:43",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 22:25:43"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2090",
+      "name": "Sarıyer",
+      "score": 1
+    },
+    {
+      "id": "163008",
+      "name": "Batman Petrolspor",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54"
+    },
+    {
+      "side": "away",
+      "minute": 37,
+      "added": 0,
+      "display": "37"
+    },
+    {
+      "side": "away",
+      "minute": 74,
+      "added": 0,
+      "display": "74"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      7,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5908598.json"
+}

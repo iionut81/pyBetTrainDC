@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5881693",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881693",
+  "verified_at_utc": "2026-11-08T08:33:20.083Z",
+  "general": {
+    "matchId": "5881693",
+    "matchName": "Hannover 96-vs-St. Pauli_Sat, Oct 17, 2026, 18:30 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#008e38",
+        "away": "#804c37"
+      },
+      "lightMode": {
+        "home": "#06A950",
+        "away": "#604734"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 146,
+    "leagueName": "2. Bundesliga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 146,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Hannover 96",
+      "id": 9904
+    },
+    "awayTeam": {
+      "name": "St. Pauli",
+      "id": 8152
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 17, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-10-17T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-17T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.10.2026 20:31:13",
+      "firstHalfEnded": "17.10.2026 21:17:34",
+      "secondHalfStarted": "17.10.2026 21:33:16",
+      "secondHalfEnded": "17.10.2026 22:23:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.10.2026 22:23:35"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9904",
+      "name": "Hannover 96",
+      "score": 1
+    },
+    {
+      "id": "8152",
+      "name": "St. Pauli",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 48,
+      "added": 0,
+      "display": "48",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      3,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 17,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

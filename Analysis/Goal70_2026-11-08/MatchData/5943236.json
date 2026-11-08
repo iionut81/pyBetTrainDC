@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "5943236",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943236",
+  "verified_at_utc": "2026-11-05T06:08:58.398Z",
+  "general": {
+    "matchId": "5943236",
+    "matchName": "Levadiakos-vs-Panathinaikos_Mon, Aug 31, 2026, 16:30 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#4CAE6A",
+        "away": "#206830"
+      },
+      "lightMode": {
+        "home": "#4CAE6A",
+        "away": "#206830"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941071,
+    "leagueName": "Super League",
+    "leagueRoundName": "2",
+    "parentLeagueId": 135,
+    "countryCode": "GRE",
+    "homeTeam": {
+      "name": "Levadiakos",
+      "id": 4493
+    },
+    "awayTeam": {
+      "name": "Panathinaikos",
+      "id": 10200
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Aug 31, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-08-31T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-31T16:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "31.08.2026 18:33:24",
+      "firstHalfEnded": "31.08.2026 19:20:17",
+      "secondHalfStarted": "31.08.2026 19:38:07",
+      "secondHalfEnded": "31.08.2026 20:27:00",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "31.08.2026 20:27:00"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "4493",
+      "name": "Levadiakos",
+      "score": 0
+    },
+    {
+      "id": "10200",
+      "name": "Panathinaikos",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 77,
+      "added": 0,
+      "display": "77",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      5,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5943236.json"
+}

@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5846005",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5846005",
+  "verified_at_utc": "2026-11-08T08:33:20.559Z",
+  "general": {
+    "matchId": "5846005",
+    "matchName": "Altach-vs-Austria Wien_Fri, Oct 23, 2026, 17:30 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#564c9d"
+      },
+      "lightMode": {
+        "home": "#030305",
+        "away": "#484090"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938366,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "10",
+    "parentLeagueId": 38,
+    "countryCode": "AUT",
+    "homeTeam": {
+      "name": "Altach",
+      "id": 10008
+    },
+    "awayTeam": {
+      "name": "Austria Wien",
+      "id": 10011
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 23, 2026, 17:30 UTC",
+    "matchTimeUTCDate": "2026-10-23T17:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-23T17:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.10.2026 19:31:09",
+      "firstHalfEnded": "23.10.2026 20:17:13",
+      "secondHalfStarted": "23.10.2026 20:31:57",
+      "secondHalfEnded": "23.10.2026 21:20:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.10.2026 21:20:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10008",
+      "name": "Altach",
+      "score": 2
+    },
+    {
+      "id": "10011",
+      "name": "Austria Wien",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 70,
+      "added": 0,
+      "display": "70",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 16,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

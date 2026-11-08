@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5793929",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793929",
+  "verified_at_utc": "2026-11-07T06:56:32.151Z",
+  "general": {
+    "matchId": "5793929",
+    "matchName": "Dundee United-vs-Falkirk_Sat, Sep 5, 2026, 14:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FD6500",
+        "away": "#005992"
+      },
+      "lightMode": {
+        "home": "#FD6500",
+        "away": "#00366e"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "6",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "Dundee United",
+      "id": 9938
+    },
+    "awayTeam": {
+      "name": "Falkirk",
+      "id": 8596
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-05T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 16:01:35",
+      "firstHalfEnded": "05.09.2026 16:49:43",
+      "secondHalfStarted": "05.09.2026 17:05:35",
+      "secondHalfEnded": "05.09.2026 17:54:23",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 17:54:23"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9938",
+      "name": "Dundee United",
+      "score": 1
+    },
+    {
+      "id": "8596",
+      "name": "Falkirk",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      5
+    ],
+    "SecondHalf": [
+      7,
+      0
+    ],
+    "All": [
+      14,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5793929.json"
+}

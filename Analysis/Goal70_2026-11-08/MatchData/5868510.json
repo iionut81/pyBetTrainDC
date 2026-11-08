@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "id": "5868510",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868510",
+  "verified_at_utc": "2026-11-07T06:56:28.139Z",
+  "general": {
+    "matchId": "5868510",
+    "matchName": "Granada-vs-Real Valladolid_Fri, Oct 23, 2026, 18:30 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D5001C",
+        "away": "#6f3c9c"
+      },
+      "lightMode": {
+        "home": "#D5001C",
+        "away": "#63257E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "11",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Granada",
+      "id": 7878
+    },
+    "awayTeam": {
+      "name": "Real Valladolid",
+      "id": 10281
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 23, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-10-23T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-23T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "23.10.2026 20:32:57",
+      "firstHalfEnded": "23.10.2026 21:18:55",
+      "secondHalfStarted": "23.10.2026 21:34:44",
+      "secondHalfEnded": "23.10.2026 22:28:59",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.10.2026 22:28:59"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7878",
+      "name": "Granada",
+      "score": 2
+    },
+    {
+      "id": "10281",
+      "name": "Real Valladolid",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 14,
+      "added": 0,
+      "display": "14",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      3,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868510.json"
+}

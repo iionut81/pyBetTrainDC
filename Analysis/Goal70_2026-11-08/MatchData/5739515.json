@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "id": "5739515",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739515",
+  "verified_at_utc": "2026-11-05T06:08:50.989Z",
+  "general": {
+    "matchId": "5739515",
+    "matchName": "Brøndby IF-vs-FC København_Sun, Sep 20, 2026, 12:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ECC92A",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#d1a300",
+        "away": "#375196"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "9",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "Brøndby IF",
+      "id": 8595
+    },
+    "awayTeam": {
+      "name": "FC København",
+      "id": 8391
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-09-20T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 14:02:59",
+      "firstHalfEnded": "20.09.2026 14:49:13",
+      "secondHalfStarted": "20.09.2026 15:05:50",
+      "secondHalfEnded": "20.09.2026 15:58:05",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 15:58:05"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8595",
+      "name": "Brøndby IF",
+      "score": 0
+    },
+    {
+      "id": "8391",
+      "name": "FC København",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      0,
+      1
+    ],
+    "All": [
+      1,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5739515.json"
+}

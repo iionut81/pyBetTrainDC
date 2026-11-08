@@ -1,0 +1,167 @@
+{
+  "ok": true,
+  "id": "5868426",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868426",
+  "verified_at_utc": "2026-11-07T06:56:24.473Z",
+  "general": {
+    "matchId": "5868426",
+    "matchName": "Almería-vs-Cádiz_Sun, Sep 6, 2026, 19:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ee1119",
+        "away": "#fde607"
+      },
+      "lightMode": {
+        "home": "#C8282C",
+        "away": "#1868B0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "4",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Almería",
+      "id": 9865
+    },
+    "awayTeam": {
+      "name": "Cádiz",
+      "id": 8385
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-09-06T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 21:00:54",
+      "firstHalfEnded": "06.09.2026 21:50:44",
+      "secondHalfStarted": "06.09.2026 22:08:08",
+      "secondHalfEnded": "06.09.2026 22:57:57",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 22:57:57"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9865",
+      "name": "Almería",
+      "score": 3
+    },
+    {
+      "id": "8385",
+      "name": "Cádiz",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 36,
+      "added": 0,
+      "display": "36",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 44,
+      "added": 0,
+      "display": "44",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 25,
+      "added": 0,
+      "display": "25",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      3,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 5,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868426.json"
+}

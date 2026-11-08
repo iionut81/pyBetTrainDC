@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "id": "5887605",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887605",
+  "verified_at_utc": "2026-11-06T06:30:31.879Z",
+  "general": {
+    "matchId": "5887605",
+    "matchName": "FC Porto-vs-Arouca_Sun, Aug 23, 2026, 19:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#005898",
+        "away": "#E5D302"
+      },
+      "lightMode": {
+        "home": "#005898",
+        "away": "#cca702"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "3",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "FC Porto",
+      "id": 9773
+    },
+    "awayTeam": {
+      "name": "Arouca",
+      "id": 158085
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 19:30 UTC",
+    "matchTimeUTCDate": "2026-08-23T19:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T19:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 21:31:51",
+      "firstHalfEnded": "23.08.2026 22:18:30",
+      "secondHalfStarted": "23.08.2026 22:36:14",
+      "secondHalfEnded": "23.08.2026 23:26:57",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 23:26:57"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9773",
+      "name": "FC Porto",
+      "score": 2
+    },
+    {
+      "id": "158085",
+      "name": "Arouca",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      0
+    ],
+    "SecondHalf": [
+      7,
+      2
+    ],
+    "All": [
+      12,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5887605.json"
+}

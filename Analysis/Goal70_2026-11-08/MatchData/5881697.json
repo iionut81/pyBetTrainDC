@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "id": "5881697",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881697",
+  "verified_at_utc": "2026-11-06T06:30:15.405Z",
+  "general": {
+    "matchId": "5881697",
+    "matchName": "Dynamo Dresden-vs-Magdeburg_Sun, Oct 18, 2026, 11:30 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F5AD25",
+        "away": "#0068B8"
+      },
+      "lightMode": {
+        "home": "#e09b05",
+        "away": "#0068B8"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 146,
+    "leagueName": "2. Bundesliga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 146,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Dynamo Dresden",
+      "id": 8480
+    },
+    "awayTeam": {
+      "name": "Magdeburg",
+      "id": 8188
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 18, 2026, 11:30 UTC",
+    "matchTimeUTCDate": "2026-10-18T11:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-18T11:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.10.2026 13:31:13",
+      "firstHalfEnded": "18.10.2026 14:18:13",
+      "secondHalfStarted": "18.10.2026 14:34:26",
+      "secondHalfEnded": "18.10.2026 15:24:54",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.10.2026 15:24:54"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8480",
+      "name": "Dynamo Dresden",
+      "score": 2
+    },
+    {
+      "id": "8188",
+      "name": "Magdeburg",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 9,
+      "added": 0,
+      "display": "9",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      0
+    ],
+    "All": [
+      3,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5881697.json"
+}

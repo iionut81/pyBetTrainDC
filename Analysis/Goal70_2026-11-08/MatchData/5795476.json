@@ -1,0 +1,171 @@
+{
+  "ok": true,
+  "id": "5795476",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795476",
+  "verified_at_utc": "2026-11-04T06:04:22.285Z",
+  "general": {
+    "matchId": "5795476",
+    "matchName": "Brentford-vs-Liverpool_Sat, Oct 17, 2026, 14:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C00808",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#C00808",
+        "away": "#00A398"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 47,
+    "leagueName": "Premier League",
+    "leagueRoundName": "7",
+    "parentLeagueId": 47,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Brentford",
+      "id": 9937
+    },
+    "awayTeam": {
+      "name": "Liverpool",
+      "id": 8650
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 17, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-17T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-17T14:00:00.000Z",
+    "numberOfHomeRedCards": 2,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.10.2026 16:00:20",
+      "firstHalfEnded": "17.10.2026 16:56:17",
+      "secondHalfStarted": "17.10.2026 17:13:02",
+      "secondHalfEnded": "17.10.2026 18:04:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.10.2026 18:04:56"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9937",
+      "name": "Brentford",
+      "score": 1
+    },
+    {
+      "id": "8650",
+      "name": "Liverpool",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 44,
+      "added": 0,
+      "display": "44",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 70,
+      "added": 0,
+      "display": "70",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      0,
+      6
+    ],
+    "All": [
+      3,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 46,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "YellowRed",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5795476.json"
+}

@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "id": "5104943",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104943",
+  "verified_at_utc": "2026-11-04T06:04:32.412Z",
+  "general": {
+    "matchId": "5104943",
+    "matchName": "Sarpsborg 08-vs-Viking_Sun, Jul 12, 2026, 17:15 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2255a5",
+        "away": "#983214"
+      },
+      "lightMode": {
+        "home": "#102763",
+        "away": "#71101b"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "13",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Sarpsborg 08",
+      "id": 8509
+    },
+    "awayTeam": {
+      "name": "Viking",
+      "id": 8478
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Jul 12, 2026, 17:15 UTC",
+    "matchTimeUTCDate": "2026-07-12T17:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-12T17:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.07.2026 19:15:21",
+      "firstHalfEnded": "12.07.2026 20:03:04",
+      "secondHalfStarted": "12.07.2026 20:18:05",
+      "secondHalfEnded": "12.07.2026 21:08:27",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.07.2026 21:08:27"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8509",
+      "name": "Sarpsborg 08",
+      "score": 1
+    },
+    {
+      "id": "8478",
+      "name": "Viking",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      3,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5104943.json"
+}

@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "6106300",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6106300",
+  "verified_at_utc": "2026-11-08T08:34:15.674Z",
+  "general": {
+    "matchId": "6106300",
+    "matchName": "Real Betis-vs-Feyenoord_Wed, Oct 21, 2026, 19:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#009048",
+        "away": "#D8232A"
+      },
+      "lightMode": {
+        "home": "#009048",
+        "away": "#D8232A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943230,
+    "leagueName": "Champions League",
+    "leagueRoundName": "3",
+    "parentLeagueId": 42,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Real Betis",
+      "id": 8603
+    },
+    "awayTeam": {
+      "name": "Feyenoord",
+      "id": 10235
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Oct 21, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-21T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-21T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "21.10.2026 21:00:22",
+      "firstHalfEnded": "21.10.2026 21:46:29",
+      "secondHalfStarted": "21.10.2026 22:02:51",
+      "secondHalfEnded": "21.10.2026 22:52:27",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "21.10.2026 22:52:27"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8603",
+      "name": "Real Betis",
+      "score": 1
+    },
+    {
+      "id": "10235",
+      "name": "Feyenoord",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 59,
+      "added": 0,
+      "display": "59",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

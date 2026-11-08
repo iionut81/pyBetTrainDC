@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "id": "5795472",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795472",
+  "verified_at_utc": "2026-11-04T06:04:22.181Z",
+  "general": {
+    "matchId": "5795472",
+    "matchName": "Liverpool-vs-Manchester City_Sun, Oct 11, 2026, 15:30 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#911712",
+        "away": "#76b4e5"
+      },
+      "lightMode": {
+        "home": "#911712",
+        "away": "#69A8D8"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 47,
+    "leagueName": "Premier League",
+    "leagueRoundName": "6",
+    "parentLeagueId": 47,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Liverpool",
+      "id": 8650
+    },
+    "awayTeam": {
+      "name": "Manchester City",
+      "id": 8456
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 11, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-10-11T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-11T15:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "11.10.2026 17:31:26",
+      "firstHalfEnded": "11.10.2026 18:17:43",
+      "secondHalfStarted": "11.10.2026 18:33:19",
+      "secondHalfEnded": "11.10.2026 19:21:41",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.10.2026 19:21:41"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8650",
+      "name": "Liverpool",
+      "score": 0
+    },
+    {
+      "id": "8456",
+      "name": "Manchester City",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 78,
+      "added": 0,
+      "display": "78",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      5,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 47,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "YellowRed",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5795472.json"
+}

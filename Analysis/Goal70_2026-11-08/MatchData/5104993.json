@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "5104993",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104993",
+  "verified_at_utc": "2026-11-04T06:04:32.958Z",
+  "general": {
+    "matchId": "5104993",
+    "matchName": "Sandefjord-vs-Viking_Fri, Sep 4, 2026, 19:00 UTC",
+    "matchRound": "20",
+    "teamColors": {
+      "darkMode": {
+        "home": "#035db8",
+        "away": "#983214"
+      },
+      "lightMode": {
+        "home": "#104070",
+        "away": "#71101b"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "20",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Sandefjord",
+      "id": 8609
+    },
+    "awayTeam": {
+      "name": "Viking",
+      "id": 8478
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Sep 4, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-09-04T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-04T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "04.09.2026 21:00:35",
+      "firstHalfEnded": "04.09.2026 21:50:24",
+      "secondHalfStarted": "04.09.2026 22:02:46",
+      "secondHalfEnded": "04.09.2026 22:56:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "04.09.2026 22:56:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8609",
+      "name": "Sandefjord",
+      "score": 1
+    },
+    {
+      "id": "8478",
+      "name": "Viking",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      6,
+      2
+    ],
+    "All": [
+      7,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 50,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5104993.json"
+}

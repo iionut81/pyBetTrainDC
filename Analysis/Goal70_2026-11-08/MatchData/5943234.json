@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5943234",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943234",
+  "verified_at_utc": "2026-11-08T08:33:32.512Z",
+  "general": {
+    "matchId": "5943234",
+    "matchName": "Atromitos-vs-PAOK Thessaloniki_Sun, Aug 30, 2026, 17:15 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2d5793",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#004078",
+        "away": "#1A1A1A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941071,
+    "leagueName": "Super League",
+    "leagueRoundName": "2",
+    "parentLeagueId": 135,
+    "countryCode": "GRE",
+    "homeTeam": {
+      "name": "Atromitos",
+      "id": 10187
+    },
+    "awayTeam": {
+      "name": "PAOK Thessaloniki",
+      "id": 8619
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 17:15 UTC",
+    "matchTimeUTCDate": "2026-08-30T17:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T17:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 19:17:57",
+      "firstHalfEnded": "30.08.2026 20:04:39",
+      "secondHalfStarted": "30.08.2026 20:20:43",
+      "secondHalfEnded": "30.08.2026 21:11:09",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 21:11:09"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10187",
+      "name": "Atromitos",
+      "score": 1
+    },
+    {
+      "id": "8619",
+      "name": "PAOK Thessaloniki",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 64,
+      "added": 0,
+      "display": "64",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      2,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

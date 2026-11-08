@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "5765939",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765939",
+  "verified_at_utc": "2026-11-05T06:08:45.135Z",
+  "general": {
+    "matchId": "5765939",
+    "matchName": "Hajduk Split-vs-NK Varaždin_Sun, Oct 18, 2026, 13:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#1469A5"
+      },
+      "lightMode": {
+        "home": "#034EA2",
+        "away": "#DE6F2A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "10",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "Hajduk Split",
+      "id": 10154
+    },
+    "awayTeam": {
+      "name": "NK Varaždin",
+      "id": 10165
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 18, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-10-18T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-18T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.10.2026 15:01:47",
+      "firstHalfEnded": "18.10.2026 15:47:25",
+      "secondHalfStarted": "18.10.2026 16:05:53",
+      "secondHalfEnded": "18.10.2026 16:53:58",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.10.2026 16:53:58"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10154",
+      "name": "Hajduk Split",
+      "score": 1
+    },
+    {
+      "id": "10165",
+      "name": "NK Varaždin",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 86,
+      "added": 0,
+      "display": "86"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5765939.json"
+}

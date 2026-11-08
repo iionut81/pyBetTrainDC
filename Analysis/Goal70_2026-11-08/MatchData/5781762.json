@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "id": "5781762",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781762",
+  "verified_at_utc": "2026-11-04T06:04:27.212Z",
+  "general": {
+    "matchId": "5781762",
+    "matchName": "PSV Eindhoven-vs-SC Heerenveen_Fri, Oct 9, 2026, 18:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E00000",
+        "away": "#1053a4"
+      },
+      "lightMode": {
+        "home": "#E00000",
+        "away": "#004F9F"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "8",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "PSV Eindhoven",
+      "id": 8640
+    },
+    "awayTeam": {
+      "name": "SC Heerenveen",
+      "id": 10228
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 9, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-10-09T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-09T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.10.2026 20:01:45",
+      "firstHalfEnded": "09.10.2026 20:49:01",
+      "secondHalfStarted": "09.10.2026 21:06:29",
+      "secondHalfEnded": "09.10.2026 21:53:51",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.10.2026 21:53:51"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8640",
+      "name": "PSV Eindhoven",
+      "score": 2
+    },
+    {
+      "id": "10228",
+      "name": "SC Heerenveen",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      4,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5781762.json"
+}

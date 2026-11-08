@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5943280",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943280",
+  "verified_at_utc": "2026-11-05T06:08:58.943Z",
+  "general": {
+    "matchId": "5943280",
+    "matchName": "NFC Volos-vs-Panathinaikos_Sun, Oct 25, 2026, 16:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#005cba",
+        "away": "#206830"
+      },
+      "lightMode": {
+        "home": "#00439c",
+        "away": "#206830"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941071,
+    "leagueName": "Super League",
+    "leagueRoundName": "8",
+    "parentLeagueId": 135,
+    "countryCode": "GRE",
+    "homeTeam": {
+      "name": "NFC Volos",
+      "id": 885256
+    },
+    "awayTeam": {
+      "name": "Panathinaikos",
+      "id": 10200
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-25T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 17:03:02",
+      "firstHalfEnded": "25.10.2026 17:48:56",
+      "secondHalfStarted": "25.10.2026 18:06:47",
+      "secondHalfEnded": "25.10.2026 18:54:33",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 18:54:33"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "885256",
+      "name": "NFC Volos",
+      "score": 0
+    },
+    {
+      "id": "10200",
+      "name": "Panathinaikos",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 46,
+      "added": 0,
+      "display": "46",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      7
+    ],
+    "SecondHalf": [
+      0,
+      4
+    ],
+    "All": [
+      1,
+      11
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 26,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5943280.json"
+}

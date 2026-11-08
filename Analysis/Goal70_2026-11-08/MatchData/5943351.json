@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "id": "5943351",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943351",
+  "verified_at_utc": "2026-11-08T08:33:31.706Z",
+  "general": {
+    "matchId": "5943351",
+    "matchName": "Asteras Tripolis-vs-Iraklis_Mon, Sep 7, 2026, 15:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0056a5",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#0056a5",
+        "away": "#90a4f8"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941071,
+    "leagueName": "Super League",
+    "leagueRoundName": "3",
+    "parentLeagueId": 135,
+    "countryCode": "GRE",
+    "homeTeam": {
+      "name": "Asteras Tripolis",
+      "id": 80654
+    },
+    "awayTeam": {
+      "name": "Iraklis",
+      "id": 8675
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Sep 7, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-09-07T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-07T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.09.2026 17:02:13",
+      "firstHalfEnded": "07.09.2026 17:50:13",
+      "secondHalfStarted": "07.09.2026 18:06:41",
+      "secondHalfEnded": "07.09.2026 18:55:43",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.09.2026 18:55:43"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "80654",
+      "name": "Asteras Tripolis",
+      "score": 0
+    },
+    {
+      "id": "8675",
+      "name": "Iraklis",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 8,
+      "added": 0,
+      "display": "8",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 73,
+      "added": 0,
+      "display": "73",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      7,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "id": "5975428",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5975428",
+  "verified_at_utc": "2026-11-08T08:33:20.978Z",
+  "general": {
+    "matchId": "5975428",
+    "matchName": "APOEL Nicosia-vs-Omonia 29 Maiou_Sun, Oct 25, 2026, 16:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FDC32E",
+        "away": "#DDDDDD"
+      },
+      "lightMode": {
+        "home": "#03488E",
+        "away": "#333333"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 942063,
+    "leagueName": "Cyprus League",
+    "leagueRoundName": "7",
+    "parentLeagueId": 136,
+    "countryCode": "CYP",
+    "homeTeam": {
+      "name": "APOEL Nicosia",
+      "id": 8621
+    },
+    "awayTeam": {
+      "name": "Omonia 29 Maiou",
+      "id": 1282231
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-25T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 17:04:43",
+      "firstHalfEnded": "25.10.2026 17:57:03",
+      "secondHalfStarted": "25.10.2026 18:14:11",
+      "secondHalfEnded": "25.10.2026 19:00:52",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 19:00:52"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8621",
+      "name": "APOEL Nicosia",
+      "score": 4
+    },
+    {
+      "id": "1282231",
+      "name": "Omonia 29 Maiou",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 17,
+      "added": 0,
+      "display": "17"
+    },
+    {
+      "side": "home",
+      "minute": 76,
+      "added": 0,
+      "display": "76"
+    },
+    {
+      "side": "home",
+      "minute": 43,
+      "added": 0,
+      "display": "43"
+    },
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56"
+    },
+    {
+      "side": "away",
+      "minute": 9,
+      "added": 0,
+      "display": "9"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": [
+      11,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

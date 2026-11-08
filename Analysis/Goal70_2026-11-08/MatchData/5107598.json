@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5107598",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107598",
+  "verified_at_utc": "2026-11-07T06:59:53.549Z",
+  "general": {
+    "matchId": "5107598",
+    "matchName": "Djurgården-vs-GAIS_Mon, Sep 14, 2026, 17:00 UTC",
+    "matchRound": "21",
+    "teamColors": {
+      "darkMode": {
+        "home": "#83B2CA",
+        "away": "#008840"
+      },
+      "lightMode": {
+        "home": "#15263E",
+        "away": "#008840"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "21",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Djurgården",
+      "id": 9802
+    },
+    "awayTeam": {
+      "name": "GAIS",
+      "id": 8297
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Sep 14, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-14T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-14T17:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "14.09.2026 19:00:19",
+      "firstHalfEnded": "14.09.2026 19:47:48",
+      "secondHalfStarted": "14.09.2026 20:02:54",
+      "secondHalfEnded": "14.09.2026 20:56:58",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.09.2026 20:56:58"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9802",
+      "name": "Djurgården",
+      "score": 2
+    },
+    {
+      "id": "8297",
+      "name": "GAIS",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 35,
+      "added": 0,
+      "display": "35",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      0
+    ],
+    "All": [
+      2,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 59,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5107598.json"
+}

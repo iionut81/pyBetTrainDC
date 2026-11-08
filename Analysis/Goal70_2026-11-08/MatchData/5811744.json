@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5811744",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811744",
+  "verified_at_utc": "2026-11-07T06:56:09.334Z",
+  "general": {
+    "matchId": "5811744",
+    "matchName": "Westerlo-vs-Zulte Waregem_Sun, Aug 30, 2026, 17:15 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E3DA33",
+        "away": "#d7011d"
+      },
+      "lightMode": {
+        "home": "#006098",
+        "away": "#ba011a"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "4",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Westerlo",
+      "id": 10001
+    },
+    "awayTeam": {
+      "name": "Zulte Waregem",
+      "id": 10000
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 17:15 UTC",
+    "matchTimeUTCDate": "2026-08-30T17:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T17:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 19:16:45",
+      "firstHalfEnded": "30.08.2026 20:02:43",
+      "secondHalfStarted": "30.08.2026 20:19:12",
+      "secondHalfEnded": "30.08.2026 21:09:45",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 21:09:45"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10001",
+      "name": "Westerlo",
+      "score": 2
+    },
+    {
+      "id": "10000",
+      "name": "Zulte Waregem",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 8,
+      "added": 0,
+      "display": "8",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 48,
+      "added": 0,
+      "display": "48",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 25,
+      "added": 0,
+      "display": "25",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      3,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5811744.json"
+}

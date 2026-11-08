@@ -1,0 +1,155 @@
+{
+  "ok": true,
+  "id": "5908607",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908607",
+  "verified_at_utc": "2026-11-06T06:30:49.208Z",
+  "general": {
+    "matchId": "5908607",
+    "matchName": "Kayserispor-vs-Bursaspor_Sat, Aug 29, 2026, 16:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#AE0E21",
+        "away": "#088040"
+      },
+      "lightMode": {
+        "home": "#AE0E21",
+        "away": "#088040"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "4",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Kayserispor",
+      "id": 10182
+    },
+    "awayTeam": {
+      "name": "Bursaspor",
+      "id": 10270
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 29, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-08-29T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-29T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "29.08.2026 17:59:36",
+      "firstHalfEnded": "29.08.2026 18:49:43",
+      "secondHalfStarted": "29.08.2026 19:06:26",
+      "secondHalfEnded": "29.08.2026 19:57:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "29.08.2026 19:57:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10182",
+      "name": "Kayserispor",
+      "score": 1
+    },
+    {
+      "id": "10270",
+      "name": "Bursaspor",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31"
+    },
+    {
+      "side": "away",
+      "minute": 58,
+      "added": 0,
+      "display": "58"
+    },
+    {
+      "side": "away",
+      "minute": 77,
+      "added": 0,
+      "display": "77"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      5,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 12,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5908607.json"
+}

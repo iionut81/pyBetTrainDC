@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5943690",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943690",
+  "verified_at_utc": "2026-11-04T06:04:35.524Z",
+  "general": {
+    "matchId": "5943690",
+    "matchName": "Pardubice-vs-Artis Brno_Sat, Aug 29, 2026, 15:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DF0006",
+        "away": "#004daa"
+      },
+      "lightMode": {
+        "home": "#DF0006",
+        "away": "#004daa"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "6",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Pardubice",
+      "id": 2406
+    },
+    "awayTeam": {
+      "name": "Artis Brno",
+      "id": 106189
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 29, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-08-29T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-29T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "29.08.2026 17:01:34",
+      "firstHalfEnded": "29.08.2026 17:49:40",
+      "secondHalfStarted": "29.08.2026 18:06:03",
+      "secondHalfEnded": "29.08.2026 18:55:15",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "29.08.2026 18:55:15"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2406",
+      "name": "Pardubice",
+      "score": 1
+    },
+    {
+      "id": "106189",
+      "name": "Artis Brno",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 17,
+      "added": 0,
+      "display": "17"
+    },
+    {
+      "side": "away",
+      "minute": 72,
+      "added": 0,
+      "display": "72"
+    },
+    {
+      "side": "away",
+      "minute": 83,
+      "added": 0,
+      "display": "83"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      4,
+      0
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5943690.json"
+}

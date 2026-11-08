@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "1000015116",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015116",
+  "verified_at_utc": "2026-11-08T08:33:42.237Z",
+  "general": {
+    "matchId": "1000015116",
+    "matchName": "Partizan Beograd-vs-OFK Beograd_Mon, Aug 31, 2026, 17:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#025098"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#025098"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "7",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Partizan Beograd",
+      "id": 7998
+    },
+    "awayTeam": {
+      "name": "OFK Beograd",
+      "id": 8692
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Aug 31, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-08-31T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-31T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "31.08.2026 19:03:35",
+      "firstHalfEnded": "31.08.2026 19:50:44",
+      "secondHalfStarted": "31.08.2026 20:07:49",
+      "secondHalfEnded": "31.08.2026 20:58:55",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "31.08.2026 20:58:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7998",
+      "name": "Partizan Beograd",
+      "score": 3
+    },
+    {
+      "id": "8692",
+      "name": "OFK Beograd",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 36,
+      "added": 0,
+      "display": "36"
+    },
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54"
+    },
+    {
+      "side": "home",
+      "minute": 66,
+      "added": 0,
+      "display": "66"
+    },
+    {
+      "side": "away",
+      "minute": 72,
+      "added": 0,
+      "display": "72"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      6,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

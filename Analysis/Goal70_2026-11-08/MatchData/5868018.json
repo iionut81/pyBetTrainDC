@@ -1,0 +1,177 @@
+{
+  "ok": true,
+  "id": "5868018",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868018",
+  "verified_at_utc": "2026-11-05T06:04:49.290Z",
+  "general": {
+    "matchId": "5868018",
+    "matchName": "Real Madrid-vs-Real Sociedad_Wed, Aug 26, 2026, 19:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFFFFF",
+        "away": "#0056B3"
+      },
+      "lightMode": {
+        "home": "#085098",
+        "away": "#D67622"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "1",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Real Madrid",
+      "id": 8633
+    },
+    "awayTeam": {
+      "name": "Real Sociedad",
+      "id": 8560
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Aug 26, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-26T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-26T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "26.08.2026 21:03:45",
+      "firstHalfEnded": "26.08.2026 21:51:20",
+      "secondHalfStarted": "26.08.2026 22:08:26",
+      "secondHalfEnded": "26.08.2026 22:57:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.08.2026 22:57:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8633",
+      "name": "Real Madrid",
+      "score": 4
+    },
+    {
+      "id": "8560",
+      "name": "Real Sociedad",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 44,
+      "added": 0,
+      "display": "44",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      3
+    ],
+    "SecondHalf": [
+      4,
+      4
+    ],
+    "All": [
+      4,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 10,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868018.json"
+}

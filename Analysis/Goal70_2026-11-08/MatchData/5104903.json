@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "id": "5104903",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104903",
+  "verified_at_utc": "2026-11-07T06:56:18.144Z",
+  "general": {
+    "matchId": "5104903",
+    "matchName": "Start-vs-Bodø/Glimt_Wed, May 20, 2026, 16:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F3D000",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#d9a200",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "8",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Start",
+      "id": 9919
+    },
+    "awayTeam": {
+      "name": "Bodø/Glimt",
+      "id": 8402
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, May 20, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-05-20T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-20T16:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.05.2026 18:00:26",
+      "firstHalfEnded": "20.05.2026 18:52:52",
+      "secondHalfStarted": "20.05.2026 19:08:21",
+      "secondHalfEnded": "20.05.2026 19:57:31",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.05.2026 19:57:31"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9919",
+      "name": "Start",
+      "score": 1
+    },
+    {
+      "id": "8402",
+      "name": "Bodø/Glimt",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 7,
+      "display": "45+7",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 44,
+      "added": 0,
+      "display": "44",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 78,
+      "added": 0,
+      "display": "78",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      3
+    ],
+    "All": [
+      1,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 37,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5104903.json"
+}

@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "5887623",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887623",
+  "verified_at_utc": "2026-11-04T06:04:24.263Z",
+  "general": {
+    "matchId": "5887623",
+    "matchName": "FC Porto-vs-Moreirense_Fri, Sep 4, 2026, 19:15 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#005898",
+        "away": "#3EA848"
+      },
+      "lightMode": {
+        "home": "#005898",
+        "away": "#3EA848"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "5",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "FC Porto",
+      "id": 9773
+    },
+    "awayTeam": {
+      "name": "Moreirense",
+      "id": 8348
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Sep 4, 2026, 19:15 UTC",
+    "matchTimeUTCDate": "2026-09-04T19:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-04T19:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "04.09.2026 21:17:25",
+      "firstHalfEnded": "04.09.2026 22:05:58",
+      "secondHalfStarted": "04.09.2026 22:22:39",
+      "secondHalfEnded": "04.09.2026 23:16:02",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "04.09.2026 23:16:02"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9773",
+      "name": "FC Porto",
+      "score": 2
+    },
+    {
+      "id": "8348",
+      "name": "Moreirense",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 58,
+      "added": 0,
+      "display": "58",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 20,
+      "added": 0,
+      "display": "20",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      0
+    ],
+    "All": [
+      9,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5887623.json"
+}

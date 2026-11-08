@@ -1,0 +1,164 @@
+{
+  "ok": true,
+  "id": "5868410",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868410",
+  "verified_at_utc": "2026-11-07T06:56:24.042Z",
+  "general": {
+    "matchId": "5868410",
+    "matchName": "Eldense-vs-Cadiz_Sat, Aug 22, 2026, 19:30 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004bc7",
+        "away": "#fde607"
+      },
+      "lightMode": {
+        "home": "#033298",
+        "away": "#1868B0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "2",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Eldense",
+      "id": 8288
+    },
+    "awayTeam": {
+      "name": "Cadiz",
+      "id": 8385
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 19:30 UTC",
+    "matchTimeUTCDate": "2026-08-22T19:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T19:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 21:32:26",
+      "firstHalfEnded": "22.08.2026 22:18:04",
+      "secondHalfStarted": "22.08.2026 22:35:26",
+      "secondHalfEnded": "22.08.2026 23:26:12",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 23:26:12"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8288",
+      "name": "Eldense",
+      "score": 2
+    },
+    {
+      "id": "8385",
+      "name": "Cadiz",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 70,
+      "added": 0,
+      "display": "70",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      7,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868410.json"
+}

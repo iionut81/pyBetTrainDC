@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "id": "5904775",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904775",
+  "verified_at_utc": "2026-11-07T06:59:38.206Z",
+  "general": {
+    "matchId": "5904775",
+    "matchName": "Erzurumspor FK-vs-Eyüpspor_Sat, Oct 17, 2026, 10:30 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0086C3",
+        "away": "#FEA917"
+      },
+      "lightMode": {
+        "home": "#0086C3",
+        "away": "#e99700"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "8",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Erzurumspor FK",
+      "id": 281467
+    },
+    "awayTeam": {
+      "name": "Eyüpspor",
+      "id": 4681
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 17, 2026, 10:30 UTC",
+    "matchTimeUTCDate": "2026-10-17T10:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-17T10:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.10.2026 12:30:53",
+      "firstHalfEnded": "17.10.2026 13:20:11",
+      "secondHalfStarted": "17.10.2026 13:37:25",
+      "secondHalfEnded": "17.10.2026 14:25:50",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.10.2026 14:25:50"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "281467",
+      "name": "Erzurumspor FK",
+      "score": 2
+    },
+    {
+      "id": "4681",
+      "name": "Eyüpspor",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 47,
+      "added": 0,
+      "display": "47",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      3,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 17,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5904775.json"
+}

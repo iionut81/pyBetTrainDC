@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "id": "6099329",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6099329",
+  "verified_at_utc": "2026-11-08T08:55:55.763Z",
+  "general": {
+    "matchId": "6099329",
+    "matchName": "Manchester United-vs-Brighton & Hove Albion_Wed, Sep 16, 2026, 19:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C70101",
+        "away": "#095bb6"
+      },
+      "lightMode": {
+        "home": "#C70101",
+        "away": "#0850A0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938221,
+    "leagueName": "EFL Cup",
+    "leagueRoundName": "3",
+    "parentLeagueId": 133,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Manchester United",
+      "id": 10260
+    },
+    "awayTeam": {
+      "name": "Brighton & Hove Albion",
+      "id": 10204
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Sep 16, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-09-16T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-16T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.09.2026 21:00:17",
+      "firstHalfEnded": "16.09.2026 21:48:31",
+      "secondHalfStarted": "16.09.2026 22:04:29",
+      "secondHalfEnded": "16.09.2026 22:55:12",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.09.2026 22:55:12"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10260",
+      "name": "Manchester United",
+      "score": 2
+    },
+    {
+      "id": "10204",
+      "name": "Brighton & Hove Albion",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 8,
+      "added": 0,
+      "display": "8",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 10,
+      "added": 0,
+      "display": "10",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 69,
+      "added": 0,
+      "display": "69",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      4,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

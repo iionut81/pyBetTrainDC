@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "5881181",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881181",
+  "verified_at_utc": "2026-11-06T06:30:10.984Z",
+  "general": {
+    "matchId": "5881181",
+    "matchName": "1. FC Köln-vs-Borussia Mönchengladbach_Sun, Oct 11, 2026, 13:30 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E21718",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#E21718",
+        "away": "#417E37"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 54,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "5",
+    "parentLeagueId": 54,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "1. FC Köln",
+      "id": 8722
+    },
+    "awayTeam": {
+      "name": "Borussia Mönchengladbach",
+      "id": 9788
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 11, 2026, 13:30 UTC",
+    "matchTimeUTCDate": "2026-10-11T13:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-11T13:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "11.10.2026 15:32:25",
+      "firstHalfEnded": "11.10.2026 16:23:00",
+      "secondHalfStarted": "11.10.2026 16:39:48",
+      "secondHalfEnded": "11.10.2026 17:31:41",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.10.2026 17:31:41"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8722",
+      "name": "1. FC Köln",
+      "score": 2
+    },
+    {
+      "id": "9788",
+      "name": "Borussia Mönchengladbach",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 26,
+      "added": 0,
+      "display": "26",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 39,
+      "added": 0,
+      "display": "39",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      3
+    ],
+    "SecondHalf": [
+      6,
+      3
+    ],
+    "All": [
+      6,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5881181.json"
+}

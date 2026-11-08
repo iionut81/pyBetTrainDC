@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "id": "1000015133",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015133",
+  "verified_at_utc": "2026-11-08T08:33:41.451Z",
+  "general": {
+    "matchId": "1000015133",
+    "matchName": "Mačva Šabac-vs-Mladost Lučani_Sun, Sep 20, 2026, 15:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#BB2A29",
+        "away": "#2E5EC2"
+      },
+      "lightMode": {
+        "home": "#BB2A29",
+        "away": "#2E5EC2"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "10",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Mačva Šabac",
+      "id": 563180
+    },
+    "awayTeam": {
+      "name": "Mladost Lučani",
+      "id": 1739
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-09-20T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 17:01:11",
+      "firstHalfEnded": "20.09.2026 17:46:32",
+      "secondHalfStarted": "20.09.2026 18:03:34",
+      "secondHalfEnded": "20.09.2026 19:02:42",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 19:02:42"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "563180",
+      "name": "Mačva Šabac",
+      "score": 1
+    },
+    {
+      "id": "1739",
+      "name": "Mladost Lučani",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29"
+    },
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65"
+    },
+    {
+      "side": "away",
+      "minute": 83,
+      "added": 0,
+      "display": "83"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      0
+    ],
+    "All": [
+      6,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

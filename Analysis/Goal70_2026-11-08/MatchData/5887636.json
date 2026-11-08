@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5887636",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887636",
+  "verified_at_utc": "2026-11-07T06:56:29.858Z",
+  "general": {
+    "matchId": "5887636",
+    "matchName": "Alverca-vs-Rio Ave_Sat, Sep 19, 2026, 17:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F31A0B",
+        "away": "#015F24"
+      },
+      "lightMode": {
+        "home": "#F31A0B",
+        "away": "#015F24"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "7",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Alverca",
+      "id": 9780
+    },
+    "awayTeam": {
+      "name": "Rio Ave",
+      "id": 7841
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-19T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 19:04:21",
+      "firstHalfEnded": "19.09.2026 19:50:21",
+      "secondHalfStarted": "19.09.2026 20:07:39",
+      "secondHalfEnded": "19.09.2026 20:57:32",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 20:57:32"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9780",
+      "name": "Alverca",
+      "score": 1
+    },
+    {
+      "id": "7841",
+      "name": "Rio Ave",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      8,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5887636.json"
+}

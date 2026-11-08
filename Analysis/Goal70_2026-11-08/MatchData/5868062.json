@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "id": "5868062",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868062",
+  "verified_at_utc": "2026-11-07T06:55:59.919Z",
+  "general": {
+    "matchId": "5868062",
+    "matchName": "Atlético Madrid-vs-Osasuna_Wed, Sep 16, 2026, 17:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C63527",
+        "away": "#004e86"
+      },
+      "lightMode": {
+        "home": "#C63527",
+        "away": "#0A346E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "6",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Atlético Madrid",
+      "id": 9906
+    },
+    "awayTeam": {
+      "name": "Osasuna",
+      "id": 8371
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Sep 16, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-16T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-16T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.09.2026 19:02:34",
+      "firstHalfEnded": "16.09.2026 19:49:19",
+      "secondHalfStarted": "16.09.2026 20:06:48",
+      "secondHalfEnded": "16.09.2026 20:56:20",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.09.2026 20:56:20"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9906",
+      "name": "Atlético Madrid",
+      "score": 4
+    },
+    {
+      "id": "8371",
+      "name": "Osasuna",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      6,
+      0
+    ],
+    "All": [
+      8,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868062.json"
+}

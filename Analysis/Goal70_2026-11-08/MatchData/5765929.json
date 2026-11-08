@@ -1,0 +1,172 @@
+{
+  "ok": true,
+  "id": "5765929",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765929",
+  "verified_at_utc": "2026-11-06T06:30:28.231Z",
+  "general": {
+    "matchId": "5765929",
+    "matchName": "Dinamo Zagreb-vs-NK Lokomotiva_Sun, Sep 20, 2026, 18:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1f49b1",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#183888",
+        "away": "#B79248"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "8",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "Dinamo Zagreb",
+      "id": 10156
+    },
+    "awayTeam": {
+      "name": "NK Lokomotiva",
+      "id": 175388
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-09-20T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T18:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 20:03:49",
+      "firstHalfEnded": "20.09.2026 20:51:39",
+      "secondHalfStarted": "20.09.2026 21:08:37",
+      "secondHalfEnded": "20.09.2026 21:58:22",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 21:58:22"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10156",
+      "name": "Dinamo Zagreb",
+      "score": 3
+    },
+    {
+      "id": "175388",
+      "name": "NK Lokomotiva",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 11,
+      "added": 0,
+      "display": "11"
+    },
+    {
+      "side": "home",
+      "minute": 26,
+      "added": 0,
+      "display": "26"
+    },
+    {
+      "side": "home",
+      "minute": 58,
+      "added": 0,
+      "display": "58"
+    },
+    {
+      "side": "away",
+      "minute": 28,
+      "added": 0,
+      "display": "28"
+    },
+    {
+      "side": "away",
+      "minute": 75,
+      "added": 0,
+      "display": "75"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      7,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5765929.json"
+}

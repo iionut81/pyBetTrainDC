@@ -1,0 +1,164 @@
+{
+  "ok": true,
+  "id": "1000015136",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015136",
+  "verified_at_utc": "2026-11-07T07:00:02.261Z",
+  "general": {
+    "matchId": "1000015136",
+    "matchName": "Vojvodina-vs-FK IMT Beograd_Sat, Sep 19, 2026, 15:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ED1B24",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#ED1B24",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "10",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Vojvodina",
+      "id": 6406
+    },
+    "awayTeam": {
+      "name": "FK IMT Beograd",
+      "id": 568569
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-09-19T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T15:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 17:02:29",
+      "firstHalfEnded": "19.09.2026 17:50:11",
+      "secondHalfStarted": "19.09.2026 18:07:23",
+      "secondHalfEnded": "19.09.2026 18:57:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 18:57:35"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6406",
+      "name": "Vojvodina",
+      "score": 1
+    },
+    {
+      "id": "568569",
+      "name": "FK IMT Beograd",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 2,
+      "added": 0,
+      "display": "2"
+    },
+    {
+      "side": "away",
+      "minute": 60,
+      "added": 0,
+      "display": "60"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      3
+    ],
+    "All": [
+      1,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015136.json"
+}

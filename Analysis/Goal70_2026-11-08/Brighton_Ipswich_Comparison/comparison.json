@@ -1,0 +1,3039 @@
+{
+  "recorded_at_ro": "2026-11-08T10:55:57.324+02:00",
+  "contexts": [
+    {
+      "id": "5795506",
+      "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795506",
+      "verified_at_utc": "2026-11-08T08:55:54.943Z",
+      "model": {
+        "id": "5795506",
+        "competition": "eng.1",
+        "date": "2026-11-08T14:00:00.000Z",
+        "home": "Brighton & Hove Albion",
+        "away": "Brentford",
+        "home_id": "10204",
+        "away_id": "9937",
+        "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795506",
+        "history_basis": "same_league_current_season",
+        "league_id": "47",
+        "home_league": "eng.1",
+        "home_league_mapping": "eng.1",
+        "away_league": "eng.1",
+        "away_league_mapping": "eng.1",
+        "eligible": "true",
+        "reason": "complete_current_domestic_season",
+        "lambda_season": "2.3333333333333335",
+        "lambda_venue": "2.625",
+        "lambda_combined": "2.479166666666667",
+        "p_raw": "0.9161869593008896",
+        "p_stress": "0.8623902272803946",
+        "fair_odds": "1.0914802812332816",
+        "season_only": "0.9030280321355949",
+        "venue_only": "0.9275602429657486",
+        "first_goal_success": "18",
+        "first_goal_n": "18",
+        "venue_success": "8",
+        "venue_n": "8",
+        "unique_n": "18",
+        "unique_under": "18",
+        "unique_7": "2",
+        "unique_8plus": "0",
+        "venue_unique_n": "8",
+        "venue_under": "8",
+        "analyst_selected": "false",
+        "user_selected": "false",
+        "recorded_at_ro": "2026-11-08T10:33:47.864+02:00",
+        "kickoff_ro": "2026-11-08T16:00:00.000+02:00",
+        "outcome": "",
+        "first_goal_actual": "",
+        "actual_corners_1h": "",
+        "home_expected": "9",
+        "home_n": "9",
+        "home_missing": "0",
+        "home_gf": "18",
+        "home_ga": "6",
+        "home_wins": "9",
+        "home_late": "0",
+        "home_nil": "0",
+        "home_seven": "0",
+        "home_eight": "0",
+        "home_mean": "2.6666666666666665",
+        "home_variance": "2.25",
+        "away_expected": "9",
+        "away_n": "9",
+        "away_missing": "0",
+        "away_gf": "12",
+        "away_ga": "6",
+        "away_wins": "9",
+        "away_late": "0",
+        "away_nil": "0",
+        "away_seven": "0",
+        "away_eight": "0",
+        "away_mean": "2",
+        "away_variance": "1.25",
+        "home_venue_expected": "4",
+        "home_venue_n": "4",
+        "home_venue_missing": "0",
+        "home_venue_gf": "11",
+        "home_venue_ga": "1",
+        "home_venue_wins": "4",
+        "home_venue_late": "0",
+        "home_venue_nil": "0",
+        "home_venue_seven": "0",
+        "home_venue_eight": "0",
+        "home_venue_mean": "3",
+        "home_venue_variance": "2",
+        "away_venue_expected": "4",
+        "away_venue_n": "4",
+        "away_venue_missing": "0",
+        "away_venue_gf": "5",
+        "away_venue_ga": "4",
+        "away_venue_wins": "4",
+        "away_venue_late": "0",
+        "away_venue_nil": "0",
+        "away_venue_seven": "0",
+        "away_venue_eight": "0",
+        "away_venue_mean": "2.25",
+        "away_venue_variance": "1.5833333333333333",
+        "rank": "20",
+        "screening_rank": "20",
+        "provider": "FotMob",
+        "home_gf70": "18",
+        "home_ga70": "6",
+        "away_gf70": "12",
+        "away_ga70": "6",
+        "home_venue_gf70": "11",
+        "home_venue_ga70": "1",
+        "away_venue_gf70": "5",
+        "away_venue_ga70": "4"
+      },
+      "status": {
+        "utcTime": "2026-11-08T14:00:00.000Z",
+        "numberOfHomeRedCards": 0,
+        "numberOfAwayRedCards": 0,
+        "halfs": {},
+        "started": false,
+        "cancelled": false,
+        "finished": false
+      },
+      "identity_ok": true,
+      "info": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-11-08T14:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 47,
+          "parentLeagueId": 47,
+          "link": "/leagues/47/overview/premier-league",
+          "leagueName": "Premier League",
+          "roundName": "10",
+          "round": "10"
+        },
+        "Stadium": {
+          "name": "American Express Stadium",
+          "city": "Falmer, East Sussex",
+          "country": "England",
+          "lat": 50.861579551,
+          "long": -0.083642006,
+          "capacity": 32176,
+          "surface": "grass"
+        },
+        "Referee": {
+          "imgUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/eng.png",
+          "text": "Michael Oliver",
+          "countryCode": "ENG",
+          "country": "England",
+          "id": 1001072180,
+          "leagueId": 47,
+          "leagueName": "Premier League",
+          "stats": [
+            {
+              "type": "matches",
+              "value": 53,
+              "valueType": "total"
+            },
+            {
+              "type": "yellowCards",
+              "value": 3.42,
+              "valueType": "perMatch",
+              "average": 3.86,
+              "total": 181,
+              "averageType": "below",
+              "fillPercentage": 24.11,
+              "averagePercentage": 50
+            },
+            {
+              "type": "redCards",
+              "value": 4,
+              "valueType": "total"
+            },
+            {
+              "type": "unknown",
+              "value": 4,
+              "valueType": "total"
+            },
+            {
+              "type": "penalties",
+              "value": 6,
+              "valueType": "total"
+            },
+            {
+              "type": "fouls",
+              "value": 23.21,
+              "valueType": "perMatch",
+              "average": 21.91,
+              "total": 1230,
+              "averageType": "above",
+              "fillPercentage": 64.73,
+              "averagePercentage": 50
+            }
+          ]
+        },
+        "Attendance": null
+      },
+      "lineup": {
+        "matchId": 5795506,
+        "lineupType": "predicted",
+        "source": "enetpulse",
+        "availableFilters": [
+          "season",
+          "marketValue",
+          "age",
+          "country"
+        ],
+        "homeTeam": {
+          "id": 10204,
+          "name": "Brighton & Hove Albion",
+          "formation": "4-2-3-1",
+          "starters": [
+            {
+              "id": 1131987,
+              "age": 24,
+              "name": "Bart Verbruggen",
+              "positionId": 11,
+              "usualPlayingPositionId": 0,
+              "shirtNumber": "1",
+              "countryName": "Netherlands",
+              "countryCode": "NED",
+              "horizontalLayout": {
+                "x": 0.1,
+                "y": 0.5,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.5,
+                "y": 0.1,
+                "height": 0.192,
+                "width": 1
+              },
+              "marketValue": 46602423,
+              "performance": {
+                "seasonRating": 7.36
+              },
+              "firstName": "Bart",
+              "lastName": "Verbruggen",
+              "nationalTeamId": 6708,
+              "rankings": null
+            },
+            {
+              "id": 1079456,
+              "age": 26,
+              "name": "Costinha",
+              "positionId": 32,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "20",
+              "countryName": "Portugal",
+              "countryCode": "POR",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.875,
+                "height": 0.25,
+                "width": 0.385
+              },
+              "verticalLayout": {
+                "x": 0.125,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "marketValue": 13114407,
+              "performance": {
+                "seasonRating": 6.48
+              },
+              "firstName": "",
+              "lastName": "Costinha",
+              "nationalTeamId": 8361,
+              "rankings": null
+            },
+            {
+              "id": 1413996,
+              "age": 19,
+              "name": "Luka Vušković",
+              "positionId": 34,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "44",
+              "countryName": "Croatia",
+              "countryCode": "CRO",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.625,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.375,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "marketValue": 85000372,
+              "performance": {
+                "seasonGoals": 1,
+                "seasonRating": 7.28
+              },
+              "firstName": "Luka",
+              "lastName": "Vušković",
+              "nationalTeamId": 10155,
+              "rankings": null
+            },
+            {
+              "id": 201690,
+              "age": 34,
+              "name": "Lewis Dunk",
+              "positionId": 36,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "5",
+              "countryName": "England",
+              "countryCode": "ENG",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.375,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.625,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "marketValue": 2195174,
+              "performance": {
+                "seasonGoals": 1,
+                "seasonRating": 7.08
+              },
+              "firstName": "Lewis",
+              "lastName": "Dunk",
+              "nationalTeamId": 8491,
+              "rankings": null
+            },
+            {
+              "id": 613715,
+              "age": 28,
+              "name": "Olivier Boscagli",
+              "positionId": 38,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "21",
+              "countryName": "France",
+              "countryCode": "FRA",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.125,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.875,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "marketValue": 23609298,
+              "performance": {
+                "seasonAssists": 1,
+                "seasonRating": 7.04
+              },
+              "firstName": "Olivier",
+              "lastName": "Boscagli",
+              "nationalTeamId": 6723,
+              "rankings": null
+            },
+            {
+              "id": 167008,
+              "age": 35,
+              "name": "Pascal Groß",
+              "positionId": 64,
+              "usualPlayingPositionId": 2,
+              "shirtNumber": "13",
+              "countryName": "Germany",
+              "countryCode": "GER",
+              "horizontalLayout": {
+                "x": 0.485,
+                "y": 0.7,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.3,
+                "y": 0.485,
+                "height": 0.192,
+                "width": 0.4
+              },
+              "marketValue": 1515828,
+              "performance": {
+                "seasonGoals": 3,
+                "seasonAssists": 4,
+                "seasonRating": 7.33
+              },
+              "firstName": "Pascal",
+              "lastName": "Groß",
+              "nationalTeamId": 8570,
+              "rankings": null
+            },
+            {
+              "id": 1586552,
+              "age": 21,
+              "name": "Chema Andrés",
+              "positionId": 66,
+              "usualPlayingPositionId": 2,
+              "shirtNumber": "14",
+              "countryName": "Spain",
+              "countryCode": "ESP",
+              "horizontalLayout": {
+                "x": 0.485,
+                "y": 0.3,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.7,
+                "y": 0.485,
+                "height": 0.192,
+                "width": 0.4
+              },
+              "marketValue": 26265911,
+              "performance": {
+                "seasonGoals": 1,
+                "seasonAssists": 1,
+                "seasonRating": 7.06
+              },
+              "firstName": "Chema",
+              "lastName": "Andrés",
+              "nationalTeamId": 6720,
+              "rankings": null
+            },
+            {
+              "id": 1354561,
+              "age": 23,
+              "name": "Diego Gómez",
+              "positionId": 83,
+              "usualPlayingPositionId": 3,
+              "shirtNumber": "25",
+              "countryName": "Paraguay",
+              "countryCode": "PAR",
+              "horizontalLayout": {
+                "x": 0.678,
+                "y": 0.837,
+                "height": 0.25,
+                "width": 0.385
+              },
+              "verticalLayout": {
+                "x": 0.162,
+                "y": 0.678,
+                "height": 0.192,
+                "width": 0.325
+              },
+              "marketValue": 39579608,
+              "performance": {
+                "seasonGoals": 1,
+                "seasonAssists": 2,
+                "seasonRating": 7.41
+              },
+              "firstName": "Diego",
+              "lastName": "Gómez",
+              "nationalTeamId": 6724,
+              "rankings": null
+            },
+            {
+              "id": 1168311,
+              "age": 23,
+              "name": "Yasin Ayari",
+              "positionId": 85,
+              "usualPlayingPositionId": 2,
+              "shirtNumber": "26",
+              "countryName": "Sweden",
+              "countryCode": "SWE",
+              "horizontalLayout": {
+                "x": 0.678,
+                "y": 0.5,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.5,
+                "y": 0.678,
+                "height": 0.192,
+                "width": 0.337
+              },
+              "marketValue": 38390306,
+              "performance": {
+                "seasonGoals": 3,
+                "seasonRating": 7.26
+              },
+              "firstName": "Yasin",
+              "lastName": "Ayari",
+              "nationalTeamId": 8520,
+              "rankings": null
+            },
+            {
+              "id": 1134871,
+              "age": 25,
+              "name": "Maxim De Cuyper",
+              "positionId": 87,
+              "usualPlayingPositionId": 3,
+              "shirtNumber": "29",
+              "countryName": "Belgium",
+              "countryCode": "BEL",
+              "horizontalLayout": {
+                "x": 0.678,
+                "y": 0.163,
+                "height": 0.25,
+                "width": 0.193
+              },
+              "verticalLayout": {
+                "x": 0.837,
+                "y": 0.678,
+                "height": 0.192,
+                "width": 0.325
+              },
+              "marketValue": 36879494,
+              "performance": {
+                "seasonGoals": 2,
+                "seasonAssists": 3,
+                "seasonRating": 7.65
+              },
+              "firstName": "Maxim",
+              "lastName": "De Cuyper",
+              "nationalTeamId": 8263,
+              "rankings": null
+            },
+            {
+              "id": 1561249,
+              "age": 19,
+              "name": "Charalampos Kostoulas",
+              "positionId": 115,
+              "usualPlayingPositionId": 3,
+              "shirtNumber": "19",
+              "countryName": "Greece",
+              "countryCode": "GRE",
+              "horizontalLayout": {
+                "x": 0.87,
+                "y": 0.5,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.5,
+                "y": 0.87,
+                "height": 0.192,
+                "width": 1
+              },
+              "marketValue": 56140472,
+              "performance": {
+                "seasonGoals": 3,
+                "seasonAssists": 2,
+                "seasonRating": 7.16
+              },
+              "firstName": "Charalampos",
+              "lastName": "Kostoulas",
+              "nationalTeamId": 6383,
+              "rankings": null
+            }
+          ],
+          "coach": {
+            "id": 208516,
+            "age": 33,
+            "name": "Fabian Hürzeler",
+            "countryName": "Germany",
+            "countryCode": "GER",
+            "firstName": "Fabian",
+            "lastName": "Hürzeler",
+            "nationalTeamId": 8570,
+            "primaryTeamId": 10204,
+            "primaryTeamName": "Brighton & Hove Albion",
+            "usualPlayingPositionId": null,
+            "isCoach": true
+          },
+          "unavailable": [
+            {
+              "id": 774448,
+              "age": 27,
+              "name": "Ferdi Kadıoğlu",
+              "countryName": "Turkiye",
+              "countryCode": "TUR",
+              "marketValue": 43044133,
+              "unavailability": {
+                "injuryId": 31,
+                "type": "injury",
+                "expectedReturn": "Doubtful"
+              },
+              "performance": {
+                "seasonRating": 6.88
+              },
+              "firstName": "Ferdi",
+              "lastName": "Kadıoğlu",
+              "nationalTeamId": 6595
+            },
+            {
+              "id": 796974,
+              "age": 27,
+              "name": "Pascal Struijk",
+              "countryName": "Netherlands",
+              "countryCode": "NED",
+              "marketValue": 24634614,
+              "unavailability": {
+                "injuryId": 137,
+                "type": "injury",
+                "expectedReturn": "Doubtful"
+              },
+              "performance": {
+                "seasonRating": 6.53
+              },
+              "firstName": "Pascal",
+              "lastName": "Struijk",
+              "nationalTeamId": 6708
+            },
+            {
+              "id": 1782648,
+              "age": 19,
+              "name": "Zadok Yohanna",
+              "countryName": "Nigeria",
+              "countryCode": "NGA",
+              "marketValue": 30899391,
+              "unavailability": {
+                "injuryId": 130,
+                "type": "injury",
+                "expectedReturn": "Early November 2026"
+              },
+              "performance": {
+                "seasonRating": 5.96
+              },
+              "firstName": "Zadok",
+              "lastName": "Yohanna",
+              "nationalTeamId": 6346
+            },
+            {
+              "id": 1083185,
+              "age": 25,
+              "name": "Femi Azeez",
+              "countryName": "Nigeria",
+              "countryCode": "NGA",
+              "marketValue": 18467552,
+              "unavailability": {
+                "injuryId": 87,
+                "type": "injury",
+                "expectedReturn": "Doubtful"
+              },
+              "firstName": "Femi",
+              "lastName": "Azeez",
+              "nationalTeamId": 6346
+            },
+            {
+              "id": 1423616,
+              "age": 20,
+              "name": "Stefanos Tzimas",
+              "countryName": "Greece",
+              "countryCode": "GRE",
+              "marketValue": 24447115,
+              "unavailability": {
+                "injuryId": 76,
+                "type": "injury",
+                "expectedReturn": "Early November 2026"
+              },
+              "firstName": "Stefanos",
+              "lastName": "Tzimas",
+              "nationalTeamId": 6383
+            },
+            {
+              "id": 1068482,
+              "age": 22,
+              "name": "Evan Ferguson",
+              "positionId": 1000,
+              "countryName": "Ireland",
+              "countryCode": "IRL",
+              "marketValue": 21065938,
+              "unavailability": {
+                "injuryId": 30,
+                "type": "injury",
+                "expectedReturn": "Early November 2026"
+              },
+              "firstName": "Evan",
+              "lastName": "Ferguson",
+              "nationalTeamId": 5791
+            },
+            {
+              "id": 862608,
+              "age": 29,
+              "name": "Kaoru Mitoma",
+              "positionId": 1000,
+              "countryName": "Japan",
+              "countryCode": "JPN",
+              "marketValue": 16823328,
+              "unavailability": {
+                "injuryId": 42,
+                "type": "injury",
+                "expectedReturn": "Late November 2026"
+              },
+              "firstName": "Kaoru",
+              "lastName": "Mitoma",
+              "nationalTeamId": 6715
+            }
+          ],
+          "averageStarterAge": 25.8,
+          "totalStarterMarketValue": 369293293
+        },
+        "awayTeam": {
+          "id": 9937,
+          "name": "Brentford",
+          "formation": "4-2-3-1",
+          "starters": [
+            {
+              "id": 776689,
+              "age": 27,
+              "name": "Caoimhín Kelleher",
+              "positionId": 11,
+              "usualPlayingPositionId": 0,
+              "shirtNumber": "1",
+              "countryName": "Ireland",
+              "countryCode": "IRL",
+              "horizontalLayout": {
+                "x": 0.1,
+                "y": 0.5,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.5,
+                "y": 0.1,
+                "height": 0.192,
+                "width": 1
+              },
+              "marketValue": 39724505,
+              "performance": {
+                "seasonRating": 7.1
+              },
+              "firstName": "Caoimhín",
+              "lastName": "Kelleher",
+              "nationalTeamId": 5791,
+              "rankings": null
+            },
+            {
+              "id": 1429912,
+              "age": 22,
+              "name": "Michael Kayode",
+              "positionId": 32,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "33",
+              "countryName": "Italy",
+              "countryCode": "ITA",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.875,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.125,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "marketValue": 58052571,
+              "performance": {
+                "seasonGoals": 1,
+                "seasonRating": 7.02
+              },
+              "firstName": "Michael",
+              "lastName": "Kayode",
+              "nationalTeamId": 8204,
+              "rankings": null
+            },
+            {
+              "id": 552718,
+              "age": 28,
+              "name": "Kristoffer Ajer",
+              "positionId": 34,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "20",
+              "countryName": "Norway",
+              "countryCode": "NOR",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.625,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.375,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "marketValue": 26739276,
+              "performance": {
+                "seasonGoals": 1,
+                "seasonRating": 7.3
+              },
+              "firstName": "Kristoffer",
+              "lastName": "Ajer",
+              "nationalTeamId": 8492,
+              "rankings": null
+            },
+            {
+              "id": 919435,
+              "age": 24,
+              "name": "Sepp van den Berg",
+              "positionId": 36,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "4",
+              "countryName": "Netherlands",
+              "countryCode": "NED",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.375,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.625,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "marketValue": 42152746,
+              "performance": {
+                "seasonRating": 6.86
+              },
+              "firstName": "Sepp",
+              "lastName": "van den Berg",
+              "nationalTeamId": 6708,
+              "rankings": null
+            },
+            {
+              "id": 1010426,
+              "age": 25,
+              "name": "Keane Lewis-Potter",
+              "positionId": 38,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "23",
+              "countryName": "England",
+              "countryCode": "ENG",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.125,
+                "height": 0.25,
+                "width": 0.385
+              },
+              "verticalLayout": {
+                "x": 0.875,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "marketValue": 37674046,
+              "performance": {
+                "seasonGoals": 2,
+                "seasonAssists": 1,
+                "seasonRating": 7.02
+              },
+              "firstName": "Keane",
+              "lastName": "Lewis-Potter",
+              "nationalTeamId": 8491,
+              "rankings": null
+            },
+            {
+              "id": 1185211,
+              "age": 24,
+              "name": "Mamadou Sangaré",
+              "positionId": 64,
+              "usualPlayingPositionId": 2,
+              "shirtNumber": "18",
+              "countryName": "Mali",
+              "countryCode": "MLI",
+              "horizontalLayout": {
+                "x": 0.485,
+                "y": 0.7,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.3,
+                "y": 0.485,
+                "height": 0.192,
+                "width": 0.4
+              },
+              "marketValue": 69277155,
+              "performance": {
+                "seasonAssists": 1,
+                "seasonRating": 7.13
+              },
+              "firstName": "Mamadou",
+              "lastName": "Sangaré",
+              "nationalTeamId": 5815,
+              "rankings": null
+            },
+            {
+              "id": 688273,
+              "age": 28,
+              "name": "Vitaly Janelt",
+              "positionId": 66,
+              "usualPlayingPositionId": 2,
+              "shirtNumber": "27",
+              "countryName": "Germany",
+              "countryCode": "GER",
+              "horizontalLayout": {
+                "x": 0.485,
+                "y": 0.3,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.7,
+                "y": 0.485,
+                "height": 0.192,
+                "width": 0.4
+              },
+              "marketValue": 23116712,
+              "performance": {
+                "seasonGoals": 2,
+                "seasonRating": 7.41
+              },
+              "firstName": "Vitaly",
+              "lastName": "Janelt",
+              "nationalTeamId": 8570,
+              "rankings": null
+            },
+            {
+              "id": 1250253,
+              "age": 24,
+              "name": "Dango Ouattara",
+              "positionId": 83,
+              "usualPlayingPositionId": 3,
+              "shirtNumber": "11",
+              "countryName": "Burkina Faso",
+              "countryCode": "BFA",
+              "horizontalLayout": {
+                "x": 0.678,
+                "y": 0.837,
+                "height": 0.25,
+                "width": 0.193
+              },
+              "verticalLayout": {
+                "x": 0.162,
+                "y": 0.678,
+                "height": 0.192,
+                "width": 0.325
+              },
+              "marketValue": 43735609,
+              "performance": {
+                "seasonGoals": 1,
+                "seasonRating": 6.98
+              },
+              "firstName": "Dango",
+              "lastName": "Ouattara",
+              "nationalTeamId": 6323,
+              "rankings": null
+            },
+            {
+              "id": 1157236,
+              "age": 22,
+              "name": "Yehor Yarmoliuk",
+              "positionId": 85,
+              "usualPlayingPositionId": 2,
+              "shirtNumber": "6",
+              "countryName": "Ukraine",
+              "countryCode": "UKR",
+              "horizontalLayout": {
+                "x": 0.678,
+                "y": 0.5,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.5,
+                "y": 0.678,
+                "height": 0.192,
+                "width": 0.337
+              },
+              "marketValue": 46103798,
+              "performance": {
+                "seasonGoals": 1,
+                "seasonAssists": 1,
+                "seasonRating": 6.58
+              },
+              "firstName": "Yehor",
+              "lastName": "Yarmoliuk",
+              "nationalTeamId": 6718,
+              "rankings": null
+            },
+            {
+              "id": 1083796,
+              "age": 24,
+              "name": "Kevin Schade",
+              "positionId": 87,
+              "usualPlayingPositionId": 3,
+              "shirtNumber": "7",
+              "countryName": "Germany",
+              "countryCode": "GER",
+              "horizontalLayout": {
+                "x": 0.678,
+                "y": 0.163,
+                "height": 0.25,
+                "width": 0.385
+              },
+              "verticalLayout": {
+                "x": 0.837,
+                "y": 0.678,
+                "height": 0.192,
+                "width": 0.325
+              },
+              "marketValue": 54856158,
+              "performance": {
+                "seasonGoals": 3,
+                "seasonRating": 7.07
+              },
+              "firstName": "Kevin",
+              "lastName": "Schade",
+              "nationalTeamId": 8570,
+              "rankings": null
+            },
+            {
+              "id": 1302005,
+              "age": 25,
+              "name": "Igor Thiago",
+              "positionId": 115,
+              "usualPlayingPositionId": 3,
+              "shirtNumber": "9",
+              "countryName": "Brazil",
+              "countryCode": "BRA",
+              "horizontalLayout": {
+                "x": 0.87,
+                "y": 0.5,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.5,
+                "y": 0.87,
+                "height": 0.192,
+                "width": 1
+              },
+              "marketValue": 68630610,
+              "performance": {
+                "seasonGoals": 2,
+                "seasonAssists": 2,
+                "seasonRating": 7.06
+              },
+              "firstName": "Igor",
+              "lastName": "Thiago",
+              "nationalTeamId": 8256,
+              "rankings": null
+            }
+          ],
+          "coach": {
+            "id": 38711,
+            "age": 46,
+            "name": "Keith Andrews",
+            "countryName": "Ireland",
+            "countryCode": "IRL",
+            "firstName": "Keith",
+            "lastName": "Andrews",
+            "nationalTeamId": 5791,
+            "primaryTeamId": 9937,
+            "primaryTeamName": "Brentford",
+            "usualPlayingPositionId": null,
+            "isCoach": true
+          },
+          "unavailable": [
+            {
+              "id": 759566,
+              "age": 28,
+              "name": "Joshua Dasilva",
+              "countryName": "England",
+              "countryCode": "ENG",
+              "marketValue": 1206138,
+              "unavailability": {
+                "injuryId": 42,
+                "type": "injury",
+                "expectedReturn": "Late November 2026"
+              },
+              "firstName": "Joshua",
+              "lastName": "Dasilva",
+              "nationalTeamId": 8491
+            },
+            {
+              "id": 562892,
+              "age": 29,
+              "name": "Rico Henry",
+              "positionId": 1000,
+              "countryName": "Jamaica",
+              "countryCode": "JAM",
+              "marketValue": 7719910,
+              "unavailability": {
+                "injuryId": 87,
+                "type": "injury",
+                "expectedReturn": "Early November 2026"
+              },
+              "firstName": "Rico",
+              "lastName": "Henry",
+              "nationalTeamId": 5806
+            },
+            {
+              "id": 1276312,
+              "age": 21,
+              "name": "Antoni Milambo",
+              "positionId": 1000,
+              "countryName": "Netherlands",
+              "countryCode": "NED",
+              "marketValue": 20699154,
+              "unavailability": {
+                "injuryId": 76,
+                "type": "injury",
+                "expectedReturn": "Late November 2026"
+              },
+              "firstName": "Antoni",
+              "lastName": "Milambo",
+              "nationalTeamId": 6708
+            },
+            {
+              "id": 963965,
+              "age": 24,
+              "name": "Fábio Carvalho",
+              "positionId": 1000,
+              "countryName": "Portugal",
+              "countryCode": "POR",
+              "marketValue": 11486318,
+              "unavailability": {
+                "injuryId": 130,
+                "type": "injury",
+                "expectedReturn": "Late November 2026"
+              },
+              "performance": {
+                "seasonGoals": 1
+              },
+              "firstName": "Fábio",
+              "lastName": "Carvalho",
+              "nationalTeamId": 8361
+            }
+          ],
+          "averageStarterAge": 25.5,
+          "totalStarterMarketValue": 510063186
+        }
+      },
+      "table": {
+        "leagueId": "47",
+        "url": "https://data.fotmob.com/tables.ext.47.fot.gz",
+        "teams": [
+          10204,
+          9937
+        ],
+        "tournamentNameForUrl": "Premier League",
+        "parentLeagueId": 47,
+        "countryCode": "ENG"
+      },
+      "weather": {
+        "temperature": 9,
+        "windSpeed": 1,
+        "windDirectionCardinal": "W",
+        "iconCode": 34,
+        "relativeHumidity": 85,
+        "precipChance": 2,
+        "precipitation": 0,
+        "snow": 0,
+        "cloudCover": 26,
+        "description": "Mostly Sunny",
+        "apiUsed": "forecast",
+        "lastUpdated": "2026-11-08T08:00:02Z",
+        "localizedKey": "weather_condition_sunny",
+        "defaultTitle": "Sunny"
+      },
+      "recent": [
+        {
+          "team_id": "10204",
+          "id": "6112474",
+          "date": "2026-11-05T20:00:00.000Z",
+          "competition": "Conference League",
+          "home": "Getafe",
+          "away": "Brighton",
+          "result": "pending",
+          "first_goal_minute": "64",
+          "actual_corners_1h": 6,
+          "score_ft": "0-1",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112474",
+          "result_verified_at_ro": "2026-11-08T10:55:55.592+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112474"
+        },
+        {
+          "team_id": "10204",
+          "id": "5795502",
+          "date": "2026-10-31T15:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Man City",
+          "away": "Brighton",
+          "result": "pending",
+          "first_goal_minute": "11",
+          "actual_corners_1h": 4,
+          "score_ft": "0-1",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795502",
+          "result_verified_at_ro": "2026-11-05T08:08:55.039+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795502"
+        },
+        {
+          "team_id": "10204",
+          "id": "6275368",
+          "date": "2026-10-28T19:30:00.000Z",
+          "competition": "EFL Cup",
+          "home": "Man City",
+          "away": "Brighton",
+          "result": "pending",
+          "first_goal_minute": "30",
+          "actual_corners_1h": 3,
+          "score_ft": "2-2",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=6275368",
+          "result_verified_at_ro": "2026-11-08T10:55:55.674+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6275368"
+        },
+        {
+          "team_id": "10204",
+          "id": "5795492",
+          "date": "2026-10-25T14:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Liverpool",
+          "away": "Brighton",
+          "result": "pending",
+          "first_goal_minute": "17",
+          "actual_corners_1h": 1,
+          "score_ft": "2-0",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795492",
+          "result_verified_at_ro": "2026-11-05T08:08:54.955+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795492"
+        },
+        {
+          "team_id": "10204",
+          "id": "6112526",
+          "date": "2026-10-22T16:45:00.000Z",
+          "competition": "Conference League",
+          "home": "Jablonec",
+          "away": "Brighton",
+          "result": "pending",
+          "first_goal_minute": "",
+          "actual_corners_1h": 3,
+          "score_ft": "0-0",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112526",
+          "result_verified_at_ro": "2026-11-08T10:55:55.827+02:00",
+          "goal_result": "fail",
+          "goal_reason": "verified_0_0",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112526"
+        },
+        {
+          "team_id": "10204",
+          "id": "5795477",
+          "date": "2026-10-18T13:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Brighton",
+          "away": "Crystal Palace",
+          "result": "pending",
+          "first_goal_minute": "4",
+          "actual_corners_1h": 4,
+          "score_ft": "5-0",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795477",
+          "result_verified_at_ro": "2026-11-05T08:04:42.542+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795477"
+        },
+        {
+          "team_id": "10204",
+          "id": "6112422",
+          "date": "2026-10-15T19:00:00.000Z",
+          "competition": "Conference League",
+          "home": "Brighton",
+          "away": "FK Kauno Žalgiris",
+          "result": "pending",
+          "first_goal_minute": "41",
+          "actual_corners_1h": 7,
+          "score_ft": "4-0",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112422",
+          "result_verified_at_ro": "2026-11-08T10:55:55.716+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112422"
+        },
+        {
+          "team_id": "10204",
+          "id": "5795474",
+          "date": "2026-10-10T14:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Sunderland",
+          "away": "Brighton",
+          "result": "pending",
+          "first_goal_minute": "53",
+          "actual_corners_1h": 6,
+          "score_ft": "0-2",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795474",
+          "result_verified_at_ro": "2026-11-05T08:05:02.109+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795474"
+        },
+        {
+          "team_id": "10204",
+          "id": "5795457",
+          "date": "2026-09-19T14:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Brighton",
+          "away": "Arsenal",
+          "result": "pending",
+          "first_goal_minute": "31",
+          "actual_corners_1h": 2,
+          "score_ft": "3-0",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795457",
+          "result_verified_at_ro": "2026-11-05T08:08:54.708+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795457"
+        },
+        {
+          "team_id": "10204",
+          "id": "6099329",
+          "date": "2026-09-16T19:00:00.000Z",
+          "competition": "EFL Cup",
+          "home": "Man United",
+          "away": "Brighton",
+          "result": "pending",
+          "first_goal_minute": "8",
+          "actual_corners_1h": 3,
+          "score_ft": "2-3",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=6099329",
+          "result_verified_at_ro": "2026-11-08T10:55:55.763+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6099329"
+        },
+        {
+          "team_id": "9937",
+          "id": "5795497",
+          "date": "2026-10-31T15:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Brentford",
+          "away": "Nottm Forest",
+          "result": "pending",
+          "first_goal_minute": "30",
+          "actual_corners_1h": 4,
+          "score_ft": "2-0",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795497",
+          "result_verified_at_ro": "2026-11-07T08:55:56.572+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795497"
+        },
+        {
+          "team_id": "9937",
+          "id": "6275370",
+          "date": "2026-10-28T19:45:00.000Z",
+          "competition": "EFL Cup",
+          "home": "Sunderland",
+          "away": "Brentford",
+          "result": "pending",
+          "first_goal_minute": "27",
+          "actual_corners_1h": 3,
+          "score_ft": "3-2",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=6275370",
+          "result_verified_at_ro": "2026-11-08T10:55:56.143+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6275370"
+        },
+        {
+          "team_id": "9937",
+          "id": "5795490",
+          "date": "2026-10-25T14:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Hull",
+          "away": "Brentford",
+          "result": "pending",
+          "first_goal_minute": "24",
+          "actual_corners_1h": 7,
+          "score_ft": "1-1",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795490",
+          "result_verified_at_ro": "2026-11-07T08:55:55.946+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795490"
+        },
+        {
+          "team_id": "9937",
+          "id": "5795476",
+          "date": "2026-10-17T14:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Brentford",
+          "away": "Liverpool",
+          "result": "pending",
+          "first_goal_minute": "44",
+          "actual_corners_1h": 6,
+          "score_ft": "1-2",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795476",
+          "result_verified_at_ro": "2026-11-04T08:04:22.285+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795476"
+        },
+        {
+          "team_id": "9937",
+          "id": "5795466",
+          "date": "2026-10-10T14:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Aston Villa",
+          "away": "Brentford",
+          "result": "pending",
+          "first_goal_minute": "10",
+          "actual_corners_1h": 1,
+          "score_ft": "2-2",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795466",
+          "result_verified_at_ro": "2026-11-08T10:33:17.022+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795466"
+        },
+        {
+          "team_id": "9937",
+          "id": "5795456",
+          "date": "2026-09-18T19:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Brentford",
+          "away": "Chelsea",
+          "result": "pending",
+          "first_goal_minute": "61",
+          "actual_corners_1h": 5,
+          "score_ft": "3-0",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795456",
+          "result_verified_at_ro": "2026-11-08T10:33:16.943+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795456"
+        },
+        {
+          "team_id": "9937",
+          "id": "6099340",
+          "date": "2026-09-15T19:00:00.000Z",
+          "competition": "EFL Cup",
+          "home": "Reading",
+          "away": "Brentford",
+          "result": "pending",
+          "first_goal_minute": "3",
+          "actual_corners_1h": 4,
+          "score_ft": "1-2",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=6099340",
+          "result_verified_at_ro": "2026-11-08T10:55:56.316+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6099340"
+        },
+        {
+          "team_id": "9937",
+          "id": "5795445",
+          "date": "2026-09-12T14:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Bournemouth",
+          "away": "Brentford",
+          "result": "pending",
+          "first_goal_minute": "34",
+          "actual_corners_1h": 1,
+          "score_ft": "2-2",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795445",
+          "result_verified_at_ro": "2026-11-05T08:04:51.582+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795445"
+        },
+        {
+          "team_id": "9937",
+          "id": "5795436",
+          "date": "2026-09-05T14:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Brentford",
+          "away": "Sunderland",
+          "result": "pending",
+          "first_goal_minute": "57",
+          "actual_corners_1h": 6,
+          "score_ft": "1-1",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795436",
+          "result_verified_at_ro": "2026-11-05T08:05:01.691+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795436"
+        },
+        {
+          "team_id": "9937",
+          "id": "5795430",
+          "date": "2026-08-30T13:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Leeds",
+          "away": "Brentford",
+          "result": "pending",
+          "first_goal_minute": "41",
+          "actual_corners_1h": 4,
+          "score_ft": "1-1",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795430",
+          "result_verified_at_ro": "2026-11-07T08:55:55.090+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795430"
+        }
+      ]
+    },
+    {
+      "id": "5795510",
+      "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795510",
+      "verified_at_utc": "2026-11-08T08:55:54.945Z",
+      "model": {
+        "id": "5795510",
+        "competition": "eng.1",
+        "date": "2026-11-08T14:00:00.000Z",
+        "home": "Ipswich Town",
+        "away": "AFC Bournemouth",
+        "home_id": "9902",
+        "away_id": "8678",
+        "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795510",
+        "history_basis": "same_league_current_season",
+        "league_id": "47",
+        "home_league": "eng.1",
+        "home_league_mapping": "eng.1",
+        "away_league": "eng.1",
+        "away_league_mapping": "eng.1",
+        "eligible": "true",
+        "reason": "complete_current_domestic_season",
+        "lambda_season": "2.444444444444444",
+        "lambda_venue": "2.375",
+        "lambda_combined": "2.4097222222222223",
+        "p_raw": "0.9101597532693986",
+        "p_stress": "0.8545288913079548",
+        "fair_odds": "1.0987082173298532",
+        "season_only": "0.9132256705260707",
+        "venue_only": "0.9069855107893365",
+        "first_goal_success": "18",
+        "first_goal_n": "18",
+        "venue_success": "8",
+        "venue_n": "8",
+        "unique_n": "18",
+        "unique_under": "18",
+        "unique_7": "1",
+        "unique_8plus": "0",
+        "venue_unique_n": "8",
+        "venue_under": "8",
+        "analyst_selected": "false",
+        "user_selected": "false",
+        "recorded_at_ro": "2026-11-08T10:33:47.865+02:00",
+        "kickoff_ro": "2026-11-08T16:00:00.000+02:00",
+        "outcome": "",
+        "first_goal_actual": "",
+        "actual_corners_1h": "",
+        "home_expected": "9",
+        "home_n": "9",
+        "home_missing": "0",
+        "home_gf": "7",
+        "home_ga": "16",
+        "home_wins": "9",
+        "home_late": "0",
+        "home_nil": "0",
+        "home_seven": "0",
+        "home_eight": "0",
+        "home_mean": "2.5555555555555554",
+        "home_variance": "1.7777777777777781",
+        "away_expected": "9",
+        "away_n": "9",
+        "away_missing": "0",
+        "away_gf": "12",
+        "away_ga": "9",
+        "away_wins": "9",
+        "away_late": "0",
+        "away_nil": "0",
+        "away_seven": "0",
+        "away_eight": "0",
+        "away_mean": "2.3333333333333335",
+        "away_variance": "3",
+        "home_venue_expected": "4",
+        "home_venue_n": "4",
+        "home_venue_missing": "0",
+        "home_venue_gf": "2",
+        "home_venue_ga": "5",
+        "home_venue_wins": "4",
+        "home_venue_late": "0",
+        "home_venue_nil": "0",
+        "home_venue_seven": "0",
+        "home_venue_eight": "0",
+        "home_venue_mean": "1.75",
+        "home_venue_variance": "0.25",
+        "away_venue_expected": "4",
+        "away_venue_n": "4",
+        "away_venue_missing": "0",
+        "away_venue_gf": "6",
+        "away_venue_ga": "6",
+        "away_venue_wins": "4",
+        "away_venue_late": "0",
+        "away_venue_nil": "0",
+        "away_venue_seven": "0",
+        "away_venue_eight": "0",
+        "away_venue_mean": "3",
+        "away_venue_variance": "4.666666666666667",
+        "rank": "26",
+        "screening_rank": "26",
+        "provider": "FotMob",
+        "home_gf70": "7",
+        "home_ga70": "16",
+        "away_gf70": "12",
+        "away_ga70": "9",
+        "home_venue_gf70": "2",
+        "home_venue_ga70": "5",
+        "away_venue_gf70": "6",
+        "away_venue_ga70": "6"
+      },
+      "status": {
+        "utcTime": "2026-11-08T14:00:00.000Z",
+        "numberOfHomeRedCards": 0,
+        "numberOfAwayRedCards": 0,
+        "halfs": {},
+        "started": false,
+        "cancelled": false,
+        "finished": false
+      },
+      "identity_ok": true,
+      "info": {
+        "legInfo": null,
+        "Match Date": {
+          "utcTime": "2026-11-08T14:00:00.000Z",
+          "isDateCorrect": true
+        },
+        "Tournament": {
+          "id": 47,
+          "parentLeagueId": 47,
+          "link": "/leagues/47/overview/premier-league",
+          "leagueName": "Premier League",
+          "roundName": "10",
+          "round": "10"
+        },
+        "Stadium": {
+          "name": "Portman Road",
+          "city": "Ipswich, Suffolk",
+          "country": "England",
+          "lat": 52.054949657,
+          "long": 1.145263016,
+          "capacity": 30056,
+          "surface": "grass"
+        },
+        "Referee": {
+          "imgUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/eng.png",
+          "text": "Simon Hooper",
+          "countryCode": "ENG",
+          "country": "England",
+          "id": 1001072137,
+          "leagueId": 47,
+          "leagueName": "Premier League",
+          "stats": [
+            {
+              "type": "matches",
+              "value": 35,
+              "valueType": "total"
+            },
+            {
+              "type": "yellowCards",
+              "value": 4.26,
+              "valueType": "perMatch",
+              "average": 3.86,
+              "total": 149,
+              "averageType": "above",
+              "fillPercentage": 73.01,
+              "averagePercentage": 50
+            },
+            {
+              "type": "redCards",
+              "value": 2,
+              "valueType": "total"
+            },
+            {
+              "type": "unknown",
+              "value": 2,
+              "valueType": "total"
+            },
+            {
+              "type": "penalties",
+              "value": 7,
+              "valueType": "total"
+            },
+            {
+              "type": "fouls",
+              "value": 21.17,
+              "valueType": "perMatch",
+              "average": 21.91,
+              "total": 741,
+              "averageType": "below",
+              "fillPercentage": 41.64,
+              "averagePercentage": 50
+            }
+          ]
+        },
+        "Attendance": null
+      },
+      "lineup": {
+        "matchId": 5795510,
+        "lineupType": "predicted",
+        "source": "enetpulse",
+        "availableFilters": [
+          "season",
+          "marketValue",
+          "age",
+          "country"
+        ],
+        "homeTeam": {
+          "id": 9902,
+          "name": "Ipswich Town",
+          "formation": "4-2-3-1",
+          "starters": [
+            {
+              "id": 512013,
+              "age": 30,
+              "name": "Christian Walton",
+              "positionId": 11,
+              "usualPlayingPositionId": 0,
+              "shirtNumber": "28",
+              "countryName": "England",
+              "countryCode": "ENG",
+              "horizontalLayout": {
+                "x": 0.1,
+                "y": 0.5,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.5,
+                "y": 0.1,
+                "height": 0.192,
+                "width": 1
+              },
+              "marketValue": 1960931,
+              "performance": {
+                "seasonRating": 6.47
+              },
+              "firstName": "Christian",
+              "lastName": "Walton",
+              "nationalTeamId": 8491,
+              "rankings": null
+            },
+            {
+              "id": 1343053,
+              "age": 21,
+              "name": "Abdoul Ouattara",
+              "positionId": 32,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "42",
+              "countryName": "Ivory Coast",
+              "countryCode": "CIV",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.875,
+                "height": 0.25,
+                "width": 0.385
+              },
+              "verticalLayout": {
+                "x": 0.125,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "performance": {
+                "seasonGoals": 1,
+                "seasonAssists": 2,
+                "seasonRating": 7.02
+              },
+              "firstName": "Abdoul",
+              "lastName": "Ouattara",
+              "nationalTeamId": 6709,
+              "rankings": null
+            },
+            {
+              "id": 789578,
+              "age": 27,
+              "name": "Dara O'Shea",
+              "positionId": 34,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "26",
+              "countryName": "Ireland",
+              "countryCode": "IRL",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.625,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.375,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "marketValue": 23852737,
+              "performance": {
+                "seasonGoals": 1,
+                "seasonRating": 6.78
+              },
+              "firstName": "Dara",
+              "lastName": "O'Shea",
+              "nationalTeamId": 5791,
+              "rankings": null
+            },
+            {
+              "id": 696443,
+              "age": 29,
+              "name": "Issa Diop",
+              "positionId": 36,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "6",
+              "countryName": "Morocco",
+              "countryCode": "MAR",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.375,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.625,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "marketValue": 12230530,
+              "performance": {
+                "seasonRating": 6.82
+              },
+              "firstName": "Issa",
+              "lastName": "Diop",
+              "nationalTeamId": 6262,
+              "rankings": null
+            },
+            {
+              "id": 980381,
+              "age": 26,
+              "name": "Leif Davis",
+              "positionId": 38,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "3",
+              "countryName": "England",
+              "countryCode": "ENG",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.125,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.875,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "marketValue": 27624302,
+              "performance": {
+                "seasonGoals": 2,
+                "seasonAssists": 1,
+                "seasonRating": 6.73
+              },
+              "firstName": "Leif",
+              "lastName": "Davis",
+              "nationalTeamId": 8491,
+              "rankings": null
+            },
+            {
+              "id": 793255,
+              "age": 27,
+              "name": "Florentino",
+              "positionId": 64,
+              "usualPlayingPositionId": 2,
+              "shirtNumber": "12",
+              "countryName": "Portugal",
+              "countryCode": "POR",
+              "horizontalLayout": {
+                "x": 0.485,
+                "y": 0.7,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.3,
+                "y": 0.485,
+                "height": 0.192,
+                "width": 0.4
+              },
+              "marketValue": 18517453,
+              "performance": {
+                "seasonGoals": 1,
+                "seasonRating": 6.74
+              },
+              "firstName": "",
+              "lastName": "Florentino",
+              "nationalTeamId": 8361,
+              "rankings": null
+            },
+            {
+              "id": 693599,
+              "age": 28,
+              "name": "Exequiel Palacios",
+              "positionId": 66,
+              "usualPlayingPositionId": 2,
+              "shirtNumber": "25",
+              "countryName": "Argentina",
+              "countryCode": "ARG",
+              "horizontalLayout": {
+                "x": 0.485,
+                "y": 0.3,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.7,
+                "y": 0.485,
+                "height": 0.192,
+                "width": 0.4
+              },
+              "marketValue": 26398546,
+              "performance": {
+                "seasonRating": 7.16
+              },
+              "firstName": "Exequiel",
+              "lastName": "Palacios",
+              "nationalTeamId": 6706,
+              "rankings": null
+            },
+            {
+              "id": 1265626,
+              "age": 22,
+              "name": "Abdul Fatawu",
+              "positionId": 83,
+              "usualPlayingPositionId": 3,
+              "shirtNumber": "7",
+              "countryName": "Ghana",
+              "countryCode": "GHA",
+              "horizontalLayout": {
+                "x": 0.678,
+                "y": 0.837,
+                "height": 0.25,
+                "width": 0.385
+              },
+              "verticalLayout": {
+                "x": 0.162,
+                "y": 0.678,
+                "height": 0.192,
+                "width": 0.325
+              },
+              "marketValue": 25402025,
+              "performance": {
+                "seasonAssists": 1,
+                "seasonRating": 6.75
+              },
+              "firstName": "Abdul",
+              "lastName": "Fatawu",
+              "nationalTeamId": 6714,
+              "rankings": null
+            },
+            {
+              "id": 1073742,
+              "age": 22,
+              "name": "Julio Enciso",
+              "positionId": 85,
+              "usualPlayingPositionId": 2,
+              "shirtNumber": "10",
+              "countryName": "Paraguay",
+              "countryCode": "PAR",
+              "horizontalLayout": {
+                "x": 0.678,
+                "y": 0.5,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.5,
+                "y": 0.678,
+                "height": 0.192,
+                "width": 0.337
+              },
+              "marketValue": 38747696,
+              "performance": {
+                "seasonGoals": 2,
+                "seasonAssists": 2,
+                "seasonRating": 7.27
+              },
+              "firstName": "Julio",
+              "lastName": "Enciso",
+              "nationalTeamId": 6724,
+              "rankings": null
+            },
+            {
+              "id": 1089645,
+              "age": 24,
+              "name": "Jaden Philogene-Bidace",
+              "positionId": 87,
+              "usualPlayingPositionId": 3,
+              "shirtNumber": "11",
+              "countryName": "England",
+              "countryCode": "ENG",
+              "horizontalLayout": {
+                "x": 0.678,
+                "y": 0.163,
+                "height": 0.25,
+                "width": 0.193
+              },
+              "verticalLayout": {
+                "x": 0.837,
+                "y": 0.678,
+                "height": 0.192,
+                "width": 0.325
+              },
+              "marketValue": 24737241,
+              "performance": {
+                "seasonRating": 6.48
+              },
+              "firstName": "Jaden",
+              "lastName": "Philogene-Bidace",
+              "nationalTeamId": 8491,
+              "rankings": null
+            },
+            {
+              "id": 1320949,
+              "age": 22,
+              "name": "Emersonn",
+              "positionId": 115,
+              "usualPlayingPositionId": 3,
+              "shirtNumber": "19",
+              "countryName": "Brazil",
+              "countryCode": "BRA",
+              "horizontalLayout": {
+                "x": 0.87,
+                "y": 0.5,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.5,
+                "y": 0.87,
+                "height": 0.192,
+                "width": 1
+              },
+              "marketValue": 27371295,
+              "performance": {
+                "seasonGoals": 2,
+                "seasonAssists": 1,
+                "seasonRating": 6.74
+              },
+              "firstName": "",
+              "lastName": "Emersonn",
+              "nationalTeamId": 8256,
+              "rankings": null
+            }
+          ],
+          "coach": {
+            "id": 24393,
+            "age": 43,
+            "name": "Gary O'Neil",
+            "countryName": "England",
+            "countryCode": "ENG",
+            "firstName": "Gary",
+            "lastName": "O'Neil",
+            "nationalTeamId": 8491,
+            "primaryTeamId": 9902,
+            "primaryTeamName": "Ipswich Town",
+            "usualPlayingPositionId": null,
+            "isCoach": true
+          },
+          "unavailable": [
+            {
+              "id": 789507,
+              "age": 28,
+              "name": "Jack Taylor",
+              "countryName": "Ireland",
+              "countryCode": "IRL",
+              "marketValue": 1833460,
+              "unavailability": {
+                "injuryId": 14,
+                "type": "injury",
+                "expectedReturn": "Doubtful"
+              },
+              "firstName": "Jack",
+              "lastName": "Taylor",
+              "nationalTeamId": 5791
+            }
+          ],
+          "averageStarterAge": 25.8,
+          "totalStarterMarketValue": 226842756
+        },
+        "awayTeam": {
+          "id": 8678,
+          "name": "AFC Bournemouth",
+          "formation": "4-2-3-1",
+          "starters": [
+            {
+              "id": 1067256,
+              "age": 27,
+              "name": "Djordje Petrović",
+              "positionId": 11,
+              "usualPlayingPositionId": 0,
+              "shirtNumber": "1",
+              "countryName": "Serbia",
+              "countryCode": "SRB",
+              "horizontalLayout": {
+                "x": 0.1,
+                "y": 0.5,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.5,
+                "y": 0.1,
+                "height": 0.192,
+                "width": 1
+              },
+              "marketValue": 35818243,
+              "performance": {
+                "seasonRating": 6.44
+              },
+              "firstName": "Djordje",
+              "lastName": "Petrović",
+              "nationalTeamId": 8205,
+              "rankings": null
+            },
+            {
+              "id": 160447,
+              "age": 35,
+              "name": "Adam Smith",
+              "positionId": 32,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "15",
+              "countryName": "England",
+              "countryCode": "ENG",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.875,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.125,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "marketValue": 874426,
+              "performance": {
+                "seasonRating": 6.47
+              },
+              "firstName": "Adam",
+              "lastName": "Smith",
+              "nationalTeamId": 8491,
+              "rankings": null
+            },
+            {
+              "id": 959407,
+              "age": 24,
+              "name": "James Hill",
+              "positionId": 34,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "5",
+              "countryName": "England",
+              "countryCode": "ENG",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.625,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.375,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "marketValue": 36692407,
+              "performance": {
+                "seasonRating": 7.12
+              },
+              "firstName": "James",
+              "lastName": "Hill",
+              "nationalTeamId": 8491,
+              "rankings": null
+            },
+            {
+              "id": 1292092,
+              "age": 23,
+              "name": "António Silva",
+              "positionId": 36,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "14",
+              "countryName": "Portugal",
+              "countryCode": "POR",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.375,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.625,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "marketValue": 39483767,
+              "performance": {
+                "seasonRating": 6.87
+              },
+              "firstName": "António",
+              "lastName": "Silva",
+              "nationalTeamId": 8361,
+              "rankings": null
+            },
+            {
+              "id": 1177358,
+              "age": 24,
+              "name": "Adrien Truffert",
+              "positionId": 38,
+              "usualPlayingPositionId": 1,
+              "shirtNumber": "3",
+              "countryName": "France",
+              "countryCode": "FRA",
+              "horizontalLayout": {
+                "x": 0.292,
+                "y": 0.125,
+                "height": 0.25,
+                "width": 0.385
+              },
+              "verticalLayout": {
+                "x": 0.875,
+                "y": 0.292,
+                "height": 0.192,
+                "width": 0.25
+              },
+              "marketValue": 44643372,
+              "performance": {
+                "seasonAssists": 1,
+                "seasonRating": 7.04
+              },
+              "firstName": "Adrien",
+              "lastName": "Truffert",
+              "nationalTeamId": 6723,
+              "rankings": null
+            },
+            {
+              "id": 729769,
+              "age": 27,
+              "name": "Tyler Adams",
+              "positionId": 64,
+              "usualPlayingPositionId": 2,
+              "shirtNumber": "12",
+              "countryName": "USA",
+              "countryCode": "USA",
+              "horizontalLayout": {
+                "x": 0.485,
+                "y": 0.7,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.3,
+                "y": 0.485,
+                "height": 0.192,
+                "width": 0.4
+              },
+              "marketValue": 31179788,
+              "performance": {
+                "seasonRating": 6.82
+              },
+              "firstName": "Tyler",
+              "lastName": "Adams",
+              "nationalTeamId": 6713,
+              "rankings": null
+            },
+            {
+              "id": 562724,
+              "age": 29,
+              "name": "Lewis Cook",
+              "positionId": 66,
+              "usualPlayingPositionId": 2,
+              "shirtNumber": "4",
+              "countryName": "England",
+              "countryCode": "ENG",
+              "horizontalLayout": {
+                "x": 0.485,
+                "y": 0.3,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.7,
+                "y": 0.485,
+                "height": 0.192,
+                "width": 0.4
+              },
+              "marketValue": 11365825,
+              "performance": {
+                "seasonAssists": 1,
+                "seasonRating": 6.58
+              },
+              "firstName": "Lewis",
+              "lastName": "Cook",
+              "nationalTeamId": 8491,
+              "rankings": null
+            },
+            {
+              "id": 1478295,
+              "age": 20,
+              "name": "Rayan",
+              "positionId": 83,
+              "usualPlayingPositionId": 3,
+              "shirtNumber": "37",
+              "countryName": "Brazil",
+              "countryCode": "BRA",
+              "horizontalLayout": {
+                "x": 0.678,
+                "y": 0.837,
+                "height": 0.25,
+                "width": 0.193
+              },
+              "verticalLayout": {
+                "x": 0.162,
+                "y": 0.678,
+                "height": 0.192,
+                "width": 0.325
+              },
+              "marketValue": 74856025,
+              "performance": {
+                "seasonGoals": 1,
+                "seasonRating": 6.91
+              },
+              "firstName": "",
+              "lastName": "Rayan",
+              "nationalTeamId": 8256,
+              "rankings": null
+            },
+            {
+              "id": 794253,
+              "age": 27,
+              "name": "Justin Kluivert",
+              "positionId": 85,
+              "usualPlayingPositionId": 2,
+              "shirtNumber": "19",
+              "countryName": "Netherlands",
+              "countryCode": "NED",
+              "horizontalLayout": {
+                "x": 0.678,
+                "y": 0.5,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.5,
+                "y": 0.678,
+                "height": 0.192,
+                "width": 0.337
+              },
+              "marketValue": 22740507,
+              "performance": {
+                "seasonGoals": 1,
+                "seasonAssists": 2,
+                "seasonRating": 7.08
+              },
+              "firstName": "Justin",
+              "lastName": "Kluivert",
+              "nationalTeamId": 6708,
+              "rankings": null
+            },
+            {
+              "id": 789630,
+              "age": 27,
+              "name": "Marcus Tavernier",
+              "positionId": 87,
+              "usualPlayingPositionId": 3,
+              "shirtNumber": "16",
+              "countryName": "England",
+              "countryCode": "ENG",
+              "horizontalLayout": {
+                "x": 0.678,
+                "y": 0.163,
+                "height": 0.25,
+                "width": 0.385
+              },
+              "verticalLayout": {
+                "x": 0.837,
+                "y": 0.678,
+                "height": 0.192,
+                "width": 0.325
+              },
+              "marketValue": 36193362,
+              "performance": {
+                "seasonGoals": 5,
+                "seasonRating": 7.5
+              },
+              "firstName": "Marcus",
+              "lastName": "Tavernier",
+              "nationalTeamId": 8491,
+              "rankings": null
+            },
+            {
+              "id": 1098096,
+              "age": 27,
+              "name": "Evanilson",
+              "positionId": 115,
+              "usualPlayingPositionId": 3,
+              "shirtNumber": "9",
+              "countryName": "Brazil",
+              "countryCode": "BRA",
+              "horizontalLayout": {
+                "x": 0.87,
+                "y": 0.5,
+                "height": 0.25,
+                "width": 0.192
+              },
+              "verticalLayout": {
+                "x": 0.5,
+                "y": 0.87,
+                "height": 0.192,
+                "width": 1
+              },
+              "marketValue": 43056137,
+              "performance": {
+                "seasonGoals": 4,
+                "seasonAssists": 4,
+                "seasonRating": 7.63
+              },
+              "firstName": "",
+              "lastName": "Evanilson",
+              "nationalTeamId": 8256,
+              "rankings": null
+            }
+          ],
+          "coach": {
+            "id": 27493,
+            "age": 50,
+            "name": "Marco Rose",
+            "countryName": "Germany",
+            "countryCode": "GER",
+            "firstName": "Marco",
+            "lastName": "Rose",
+            "nationalTeamId": 8570,
+            "primaryTeamId": 8678,
+            "primaryTeamName": "AFC Bournemouth",
+            "usualPlayingPositionId": null,
+            "isCoach": true
+          },
+          "unavailable": [
+            {
+              "id": 1158512,
+              "age": 23,
+              "name": "Juanlu Sánchez",
+              "positionId": 1000,
+              "countryName": "Spain",
+              "countryCode": "ESP",
+              "marketValue": 14116976,
+              "unavailability": {
+                "injuryId": 30,
+                "type": "injury",
+                "expectedReturn": "Late November 2026"
+              },
+              "performance": {
+                "seasonRating": 6.19
+              },
+              "firstName": "Juanlu",
+              "lastName": "Sánchez",
+              "nationalTeamId": 6720
+            },
+            {
+              "id": 1027447,
+              "age": 25,
+              "name": "Julián Araujo",
+              "positionId": 1000,
+              "countryName": "Mexico",
+              "countryCode": "MEX",
+              "marketValue": 7636705,
+              "unavailability": {
+                "injuryId": 69,
+                "type": "injury",
+                "expectedReturn": "Late November 2026"
+              },
+              "firstName": "Julián",
+              "lastName": "Araujo",
+              "nationalTeamId": 6710
+            },
+            {
+              "id": 1666977,
+              "age": 19,
+              "name": "Veljko Milosavljević",
+              "positionId": 1000,
+              "countryName": "Serbia",
+              "countryCode": "SRB",
+              "marketValue": 29696246,
+              "unavailability": {
+                "injuryId": 130,
+                "type": "injury",
+                "expectedReturn": "Doubtful"
+              },
+              "firstName": "Veljko",
+              "lastName": "Milosavljević",
+              "nationalTeamId": 8205
+            },
+            {
+              "id": 1233655,
+              "age": 23,
+              "name": "Alex Scott",
+              "positionId": 1000,
+              "countryName": "England",
+              "countryCode": "ENG",
+              "marketValue": 69024356,
+              "unavailability": {
+                "injuryId": 87,
+                "type": "injury",
+                "expectedReturn": "Back in training"
+              },
+              "performance": {
+                "seasonGoals": 1,
+                "seasonRating": 7.57
+              },
+              "firstName": "Alex",
+              "lastName": "Scott",
+              "nationalTeamId": 8491
+            },
+            {
+              "id": 1449690,
+              "age": 21,
+              "name": "Alex Tóth",
+              "positionId": 1000,
+              "countryName": "Hungary",
+              "countryCode": "HUN",
+              "marketValue": 17786963,
+              "unavailability": {
+                "injuryId": 42,
+                "type": "injury",
+                "expectedReturn": "Early November 2026"
+              },
+              "performance": {
+                "seasonRating": 6.13
+              },
+              "firstName": "Alex",
+              "lastName": "Tóth",
+              "nationalTeamId": 8565
+            }
+          ],
+          "averageStarterAge": 26.9,
+          "totalStarterMarketValue": 376903859
+        }
+      },
+      "table": {
+        "leagueId": "47",
+        "url": "https://data.fotmob.com/tables.ext.47.fot.gz",
+        "teams": [
+          9902,
+          8678
+        ],
+        "tournamentNameForUrl": "Premier League",
+        "parentLeagueId": 47,
+        "countryCode": "ENG"
+      },
+      "weather": {
+        "temperature": 9,
+        "windSpeed": 2,
+        "windDirectionCardinal": "WSW",
+        "iconCode": 26,
+        "relativeHumidity": 85,
+        "precipChance": 3,
+        "precipitation": 0,
+        "snow": 0,
+        "cloudCover": 96,
+        "description": "Cloudy",
+        "apiUsed": "forecast",
+        "lastUpdated": "2026-11-08T08:00:03Z",
+        "localizedKey": "weather_condition_cloudy",
+        "defaultTitle": "Cloudy"
+      },
+      "recent": [
+        {
+          "team_id": "9902",
+          "id": "5795500",
+          "date": "2026-10-31T15:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Hull",
+          "away": "Ipswich",
+          "result": "pending",
+          "first_goal_minute": "22",
+          "actual_corners_1h": 6,
+          "score_ft": "2-2",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795500",
+          "result_verified_at_ro": "2026-11-07T08:55:55.987+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795500"
+        },
+        {
+          "team_id": "9902",
+          "id": "5795491",
+          "date": "2026-10-23T19:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Ipswich",
+          "away": "Nottm Forest",
+          "result": "pending",
+          "first_goal_minute": "13",
+          "actual_corners_1h": 2,
+          "score_ft": "1-1",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795491",
+          "result_verified_at_ro": "2026-11-07T08:55:56.448+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795491"
+        },
+        {
+          "team_id": "9902",
+          "id": "5795481",
+          "date": "2026-10-17T14:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Man City",
+          "away": "Ipswich",
+          "result": "pending",
+          "first_goal_minute": "19",
+          "actual_corners_1h": 1,
+          "score_ft": "3-2",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795481",
+          "result_verified_at_ro": "2026-11-04T08:04:29.456+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795481"
+        },
+        {
+          "team_id": "9902",
+          "id": "5795471",
+          "date": "2026-10-10T14:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Ipswich",
+          "away": "Fulham",
+          "result": "pending",
+          "first_goal_minute": "55",
+          "actual_corners_1h": 4,
+          "score_ft": "2-1",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795471",
+          "result_verified_at_ro": "2026-11-07T08:55:56.199+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795471"
+        },
+        {
+          "team_id": "9902",
+          "id": "5795458",
+          "date": "2026-09-19T14:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Everton",
+          "away": "Ipswich",
+          "result": "pending",
+          "first_goal_minute": "11",
+          "actual_corners_1h": 3,
+          "score_ft": "1-0",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795458",
+          "result_verified_at_ro": "2026-11-06T08:30:09.428+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795458"
+        },
+        {
+          "team_id": "9902",
+          "id": "6099332",
+          "date": "2026-09-15T19:00:00.000Z",
+          "competition": "EFL Cup",
+          "home": "Ipswich",
+          "away": "Arsenal",
+          "result": "pending",
+          "first_goal_minute": "7",
+          "actual_corners_1h": 2,
+          "score_ft": "2-4",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=6099332",
+          "result_verified_at_ro": "2026-11-08T10:55:56.264+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6099332"
+        },
+        {
+          "team_id": "9902",
+          "id": "5795449",
+          "date": "2026-09-12T14:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Crystal Palace",
+          "away": "Ipswich",
+          "result": "pending",
+          "first_goal_minute": "14",
+          "actual_corners_1h": 5,
+          "score_ft": "2-3",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795449",
+          "result_verified_at_ro": "2026-11-05T08:04:42.337+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795449"
+        },
+        {
+          "team_id": "9902",
+          "id": "5795441",
+          "date": "2026-09-04T19:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Ipswich",
+          "away": "Liverpool",
+          "result": "pending",
+          "first_goal_minute": "6",
+          "actual_corners_1h": 5,
+          "score_ft": "0-2",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795441",
+          "result_verified_at_ro": "2026-11-04T08:04:21.882+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795441"
+        },
+        {
+          "team_id": "9902",
+          "id": "5795432",
+          "date": "2026-08-30T15:30:00.000Z",
+          "competition": "Premier League",
+          "home": "Man United",
+          "away": "Ipswich",
+          "result": "pending",
+          "first_goal_minute": "29",
+          "actual_corners_1h": 6,
+          "score_ft": "5-2",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795432",
+          "result_verified_at_ro": "2026-11-08T10:33:17.095+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795432"
+        },
+        {
+          "team_id": "9902",
+          "id": "6005656",
+          "date": "2026-08-25T18:45:00.000Z",
+          "competition": "EFL Cup",
+          "home": "Ipswich",
+          "away": "Leicester",
+          "result": "pending",
+          "first_goal_minute": "62",
+          "actual_corners_1h": 5,
+          "score_ft": "3-1",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=6005656",
+          "result_verified_at_ro": "2026-11-08T10:55:56.364+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6005656"
+        },
+        {
+          "team_id": "8678",
+          "id": "6112304",
+          "date": "2026-11-05T17:45:00.000Z",
+          "competition": "Europa League",
+          "home": "Sparta Prague",
+          "away": "Bournemouth",
+          "result": "pending",
+          "first_goal_minute": "35",
+          "actual_corners_1h": 6,
+          "score_ft": "1-3",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112304",
+          "result_verified_at_ro": "2026-11-08T10:55:56.435+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112304"
+        },
+        {
+          "team_id": "8678",
+          "id": "5795495",
+          "date": "2026-10-31T15:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Bournemouth",
+          "away": "Leeds",
+          "result": "pending",
+          "first_goal_minute": "31",
+          "actual_corners_1h": 3,
+          "score_ft": "2-0",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795495",
+          "result_verified_at_ro": "2026-11-05T08:04:51.781+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795495"
+        },
+        {
+          "team_id": "8678",
+          "id": "6275374",
+          "date": "2026-10-28T19:45:00.000Z",
+          "competition": "EFL Cup",
+          "home": "Bournemouth",
+          "away": "Aston Villa",
+          "result": "pending",
+          "first_goal_minute": "7",
+          "actual_corners_1h": 3,
+          "score_ft": "3-0",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=6275374",
+          "result_verified_at_ro": "2026-11-08T10:55:56.838+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6275374"
+        },
+        {
+          "team_id": "8678",
+          "id": "5795493",
+          "date": "2026-10-25T14:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Man United",
+          "away": "Bournemouth",
+          "result": "pending",
+          "first_goal_minute": "38",
+          "actual_corners_1h": 5,
+          "score_ft": "0-3",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795493",
+          "result_verified_at_ro": "2026-11-05T08:04:51.883+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795493"
+        },
+        {
+          "team_id": "8678",
+          "id": "6112326",
+          "date": "2026-10-22T19:00:00.000Z",
+          "competition": "Europa League",
+          "home": "Bournemouth",
+          "away": "Milan",
+          "result": "pending",
+          "first_goal_minute": "8",
+          "actual_corners_1h": 4,
+          "score_ft": "3-0",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112326",
+          "result_verified_at_ro": "2026-11-08T10:55:56.989+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112326"
+        },
+        {
+          "team_id": "8678",
+          "id": "5795475",
+          "date": "2026-10-18T13:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Bournemouth",
+          "away": "Sunderland",
+          "result": "pending",
+          "first_goal_minute": "6",
+          "actual_corners_1h": 5,
+          "score_ft": "2-0",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795475",
+          "result_verified_at_ro": "2026-11-05T08:04:51.712+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795475"
+        },
+        {
+          "team_id": "8678",
+          "id": "6112328",
+          "date": "2026-10-15T19:00:00.000Z",
+          "competition": "Europa League",
+          "home": "Bournemouth",
+          "away": "Sturm Graz",
+          "result": "pending",
+          "first_goal_minute": "43",
+          "actual_corners_1h": 2,
+          "score_ft": "3-0",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112328",
+          "result_verified_at_ro": "2026-11-08T10:55:56.945+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112328"
+        },
+        {
+          "team_id": "8678",
+          "id": "5795467",
+          "date": "2026-10-10T14:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Chelsea",
+          "away": "Bournemouth",
+          "result": "pending",
+          "first_goal_minute": "2",
+          "actual_corners_1h": 4,
+          "score_ft": "5-1",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795467",
+          "result_verified_at_ro": "2026-11-05T08:04:51.558+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795467"
+        },
+        {
+          "team_id": "8678",
+          "id": "5795455",
+          "date": "2026-09-20T13:00:00.000Z",
+          "competition": "Premier League",
+          "home": "Bournemouth",
+          "away": "Liverpool",
+          "result": "pending",
+          "first_goal_minute": "57",
+          "actual_corners_1h": 3,
+          "score_ft": "0-1",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795455",
+          "result_verified_at_ro": "2026-11-05T08:04:51.596+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795455"
+        },
+        {
+          "team_id": "8678",
+          "id": "6112272",
+          "date": "2026-09-17T19:00:00.000Z",
+          "competition": "Europa League",
+          "home": "Real Sociedad",
+          "away": "Bournemouth",
+          "result": "pending",
+          "first_goal_minute": "11",
+          "actual_corners_1h": 4,
+          "score_ft": "1-2",
+          "reason": "",
+          "result_source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112272",
+          "result_verified_at_ro": "2026-11-08T10:55:57.195+02:00",
+          "goal_result": "success",
+          "goal_reason": "first_goal_verified",
+          "corner_result": "success",
+          "corner_reason": "FirstHalf_corners_reconciled_SecondHalf_All",
+          "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112272"
+        }
+      ]
+    }
+  ]
+}

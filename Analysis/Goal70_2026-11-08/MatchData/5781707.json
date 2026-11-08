@@ -1,0 +1,182 @@
+{
+  "ok": true,
+  "id": "5781707",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781707",
+  "verified_at_utc": "2026-11-05T06:04:52.071Z",
+  "general": {
+    "matchId": "5781707",
+    "matchName": "FC Utrecht-vs-AZ Alkmaar_Sat, Aug 15, 2026, 16:45 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E40521",
+        "away": "#2684DC"
+      },
+      "lightMode": {
+        "home": "#E40521",
+        "away": "#0D273E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "2",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "FC Utrecht",
+      "id": 9908
+    },
+    "awayTeam": {
+      "name": "AZ Alkmaar",
+      "id": 10229
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 15, 2026, 16:45 UTC",
+    "matchTimeUTCDate": "2026-08-15T16:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-15T16:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.08.2026 18:48:52",
+      "firstHalfEnded": "15.08.2026 19:36:20",
+      "secondHalfStarted": "15.08.2026 19:51:36",
+      "secondHalfEnded": "15.08.2026 20:39:54",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.08.2026 20:39:54"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9908",
+      "name": "FC Utrecht",
+      "score": 1
+    },
+    {
+      "id": "10229",
+      "name": "AZ Alkmaar",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 47,
+      "added": 0,
+      "display": "47",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 84,
+      "added": 0,
+      "display": "84",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      7
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      3,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 46,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5781707.json"
+}

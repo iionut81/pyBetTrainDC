@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "id": "5803976",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803976",
+  "verified_at_utc": "2026-11-07T06:56:15.261Z",
+  "general": {
+    "matchId": "5803976",
+    "matchName": "Wieczysta Kraków-vs-Zagłębie Lubin_Mon, Sep 7, 2026, 16:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#fde73c",
+        "away": "#EB6F08"
+      },
+      "lightMode": {
+        "home": "#E09D00",
+        "away": "#009B3E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "7",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Wieczysta Kraków",
+      "id": 1286895
+    },
+    "awayTeam": {
+      "name": "Zagłębie Lubin",
+      "id": 8021
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Sep 7, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-09-07T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-07T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.09.2026 18:01:32",
+      "firstHalfEnded": "07.09.2026 18:48:45",
+      "secondHalfStarted": "07.09.2026 19:06:01",
+      "secondHalfEnded": "07.09.2026 19:55:27",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.09.2026 19:55:27"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1286895",
+      "name": "Wieczysta Kraków",
+      "score": 1
+    },
+    {
+      "id": "8021",
+      "name": "Zagłębie Lubin",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      10,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5803976.json"
+}

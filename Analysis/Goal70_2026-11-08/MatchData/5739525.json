@@ -1,0 +1,154 @@
+{
+  "ok": true,
+  "id": "5739525",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739525",
+  "verified_at_utc": "2026-11-06T06:30:46.473Z",
+  "general": {
+    "matchId": "5739525",
+    "matchName": "Sønderjyske-vs-Silkeborg_Sun, Oct 18, 2026, 12:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#6CACE4",
+        "away": "#D11024"
+      },
+      "lightMode": {
+        "home": "#6CACE4",
+        "away": "#D11024"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "11",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "Sønderjyske",
+      "id": 8487
+    },
+    "awayTeam": {
+      "name": "Silkeborg",
+      "id": 8415
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 18, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-10-18T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-18T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "18.10.2026 14:01:16",
+      "firstHalfEnded": "18.10.2026 14:50:44",
+      "secondHalfStarted": "18.10.2026 15:07:13",
+      "secondHalfEnded": "18.10.2026 15:54:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.10.2026 15:54:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8487",
+      "name": "Sønderjyske",
+      "score": 4
+    },
+    {
+      "id": "8415",
+      "name": "Silkeborg",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 1,
+      "added": 0,
+      "display": "1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 78,
+      "added": 0,
+      "display": "78",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      0
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      9,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5739525.json"
+}

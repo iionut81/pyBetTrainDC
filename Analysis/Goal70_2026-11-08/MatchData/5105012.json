@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "5105012",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5105012",
+  "verified_at_utc": "2026-11-08T08:33:22.105Z",
+  "general": {
+    "matchId": "5105012",
+    "matchName": "Tromsø-vs-Hamarkameratene_Sun, Sep 20, 2026, 15:00 UTC",
+    "matchRound": "22",
+    "teamColors": {
+      "darkMode": {
+        "home": "#EB131C",
+        "away": "#009040"
+      },
+      "lightMode": {
+        "home": "#EB131C",
+        "away": "#009040"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "22",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Tromsø",
+      "id": 8608
+    },
+    "awayTeam": {
+      "name": "Hamarkameratene",
+      "id": 8448
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-09-20T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 17:00:42",
+      "firstHalfEnded": "20.09.2026 17:47:28",
+      "secondHalfStarted": "20.09.2026 18:02:37",
+      "secondHalfEnded": "20.09.2026 18:55:28",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 18:55:28"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8608",
+      "name": "Tromsø",
+      "score": 3
+    },
+    {
+      "id": "8448",
+      "name": "Hamarkameratene",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 44,
+      "added": 0,
+      "display": "44",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 85,
+      "added": 0,
+      "display": "85",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 41,
+      "added": 0,
+      "display": "41",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      0
+    ],
+    "All": [
+      7,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

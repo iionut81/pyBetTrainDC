@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "1000015145",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015145",
+  "verified_at_utc": "2026-11-05T06:08:41.607Z",
+  "general": {
+    "matchId": "1000015145",
+    "matchName": "FK Radnički 1923-vs-FK Crvena Zvezda_Sat, Oct 10, 2026, 17:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E11C24",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#E11C24",
+        "away": "#0D4FBF"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Serbian Super Liga",
+    "leagueRoundName": "11",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "FK Radnički 1923",
+      "id": 1675
+    },
+    "awayTeam": {
+      "name": "FK Crvena Zvezda",
+      "id": 8687
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-10-10T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 19:01:30",
+      "firstHalfEnded": "10.10.2026 19:47:58",
+      "secondHalfStarted": "10.10.2026 20:06:18",
+      "secondHalfEnded": "10.10.2026 20:51:19",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 20:51:19"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1675",
+      "name": "FK Radnički 1923",
+      "score": 0
+    },
+    {
+      "id": "8687",
+      "name": "FK Crvena Zvezda",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 48,
+      "added": 0,
+      "display": "48"
+    },
+    {
+      "side": "away",
+      "minute": 58,
+      "added": 0,
+      "display": "58"
+    },
+    {
+      "side": "away",
+      "minute": 88,
+      "added": 0,
+      "display": "88"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      4,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015145.json"
+}

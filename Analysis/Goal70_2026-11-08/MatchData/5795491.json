@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "5795491",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5795491",
+  "verified_at_utc": "2026-11-07T06:55:56.448Z",
+  "general": {
+    "matchId": "5795491",
+    "matchName": "Ipswich Town-vs-Nottingham Forest_Fri, Oct 23, 2026, 19:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004fc2",
+        "away": "#C8102E"
+      },
+      "lightMode": {
+        "home": "#0333A0",
+        "away": "#C8102E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 47,
+    "leagueName": "Premier League",
+    "leagueRoundName": "8",
+    "parentLeagueId": 47,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Ipswich Town",
+      "id": 9902
+    },
+    "awayTeam": {
+      "name": "Nottingham Forest",
+      "id": 10203
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 23, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-23T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-23T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.10.2026 21:01:21",
+      "firstHalfEnded": "23.10.2026 21:48:36",
+      "secondHalfStarted": "23.10.2026 22:04:37",
+      "secondHalfEnded": "23.10.2026 22:58:04",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.10.2026 22:58:04"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9902",
+      "name": "Ipswich Town",
+      "score": 1
+    },
+    {
+      "id": "10203",
+      "name": "Nottingham Forest",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 41,
+      "added": 0,
+      "display": "41",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      3
+    ],
+    "All": [
+      0,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5795491.json"
+}

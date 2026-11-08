@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5104864",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104864",
+  "verified_at_utc": "2026-11-08T08:33:25.936Z",
+  "general": {
+    "matchId": "5104864",
+    "matchName": "KFUM-vs-Sandefjord_Tue, Apr 7, 2026, 17:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E60000",
+        "away": "#035db8"
+      },
+      "lightMode": {
+        "home": "#E60000",
+        "away": "#104070"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "3",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "KFUM",
+      "id": 2305
+    },
+    "awayTeam": {
+      "name": "Sandefjord",
+      "id": 8609
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Apr 7, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-04-07T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-07T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.04.2026 19:00:09",
+      "firstHalfEnded": "07.04.2026 19:48:53",
+      "secondHalfStarted": "07.04.2026 20:04:07",
+      "secondHalfEnded": "07.04.2026 20:59:47",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.04.2026 20:59:47"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2305",
+      "name": "KFUM",
+      "score": 1
+    },
+    {
+      "id": "8609",
+      "name": "Sandefjord",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 17,
+      "added": 0,
+      "display": "17",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 5,
+      "added": 0,
+      "display": "5",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 30,
+      "added": 0,
+      "display": "30",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      4
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      9,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

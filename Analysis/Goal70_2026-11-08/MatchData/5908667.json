@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5908667",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908667",
+  "verified_at_utc": "2026-11-08T08:33:35.437Z",
+  "general": {
+    "matchId": "5908667",
+    "matchName": "Kayserispor-vs-Batman Petrolspor_Sun, Oct 18, 2026, 13:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#AE0E21",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#AE0E21",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "11",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Kayserispor",
+      "id": 10182
+    },
+    "awayTeam": {
+      "name": "Batman Petrolspor",
+      "id": 163008
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 18, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-10-18T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-18T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.10.2026 15:01:21",
+      "firstHalfEnded": "18.10.2026 15:48:54",
+      "secondHalfStarted": "18.10.2026 16:05:59",
+      "secondHalfEnded": "18.10.2026 16:58:00",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.10.2026 16:58:00"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10182",
+      "name": "Kayserispor",
+      "score": 2
+    },
+    {
+      "id": "163008",
+      "name": "Batman Petrolspor",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 71,
+      "added": 0,
+      "display": "71"
+    },
+    {
+      "side": "home",
+      "minute": 82,
+      "added": 0,
+      "display": "82"
+    },
+    {
+      "side": "away",
+      "minute": 2,
+      "added": 0,
+      "display": "2"
+    },
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      7,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 10,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

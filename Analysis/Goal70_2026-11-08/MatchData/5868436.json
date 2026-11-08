@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5868436",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868436",
+  "verified_at_utc": "2026-11-08T08:33:27.882Z",
+  "general": {
+    "matchId": "5868436",
+    "matchName": "Real Valladolid-vs-FC Andorra_Sat, Sep 5, 2026, 16:30 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#6f3c9c",
+        "away": "#f4271f"
+      },
+      "lightMode": {
+        "home": "#63257E",
+        "away": "#f4271f"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "4",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Real Valladolid",
+      "id": 10281
+    },
+    "awayTeam": {
+      "name": "FC Andorra",
+      "id": 494050
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-09-05T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 18:32:42",
+      "firstHalfEnded": "05.09.2026 19:20:25",
+      "secondHalfStarted": "05.09.2026 19:38:21",
+      "secondHalfEnded": "05.09.2026 20:31:48",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 20:31:48"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10281",
+      "name": "Real Valladolid",
+      "score": 1
+    },
+    {
+      "id": "494050",
+      "name": "FC Andorra",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      2,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 39,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

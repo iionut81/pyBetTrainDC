@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "5881221",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881221",
+  "verified_at_utc": "2026-11-08T08:31:12.637Z",
+  "general": {
+    "matchId": "5881221",
+    "matchName": "Paderborn-vs-Eintracht Frankfurt_Sat, Nov 7, 2026, 14:30 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004A99",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#004A99",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 54,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "9",
+    "parentLeagueId": 54,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Paderborn",
+      "id": 8460
+    },
+    "awayTeam": {
+      "name": "Eintracht Frankfurt",
+      "id": 9810
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-11-07T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 15:30:15",
+      "firstHalfEnded": "07.11.2026 16:17:43",
+      "secondHalfStarted": "07.11.2026 16:34:41",
+      "secondHalfEnded": "07.11.2026 17:23:25",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 17:23:25"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8460",
+      "name": "Paderborn",
+      "score": 2
+    },
+    {
+      "id": "9810",
+      "name": "Eintracht Frankfurt",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 73,
+      "added": 0,
+      "display": "73",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 23,
+      "added": 0,
+      "display": "23",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      2,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

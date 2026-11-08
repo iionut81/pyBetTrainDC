@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "5904742",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904742",
+  "verified_at_utc": "2026-11-07T06:59:40.285Z",
+  "general": {
+    "matchId": "5904742",
+    "matchName": "Alanyaspor-vs-Göztepe_Sat, Sep 12, 2026, 17:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#EF7F1A",
+        "away": "#C80000"
+      },
+      "lightMode": {
+        "home": "#EF7F1A",
+        "away": "#C80000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "5",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Alanyaspor",
+      "id": 4678
+    },
+    "awayTeam": {
+      "name": "Göztepe",
+      "id": 1925
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-12T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 19:00:45",
+      "firstHalfEnded": "12.09.2026 19:50:01",
+      "secondHalfStarted": "12.09.2026 20:03:27",
+      "secondHalfEnded": "12.09.2026 20:56:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 20:56:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "4678",
+      "name": "Alanyaspor",
+      "score": 2
+    },
+    {
+      "id": "1925",
+      "name": "Göztepe",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 28,
+      "added": 0,
+      "display": "28",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 73,
+      "added": 0,
+      "display": "73",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      9,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 22,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5904742.json"
+}

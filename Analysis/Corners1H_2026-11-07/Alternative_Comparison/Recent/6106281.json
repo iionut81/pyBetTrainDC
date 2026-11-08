@@ -1,0 +1,181 @@
+{
+  "ok": true,
+  "id": "6106281",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6106281",
+  "verified_at_utc": "2026-11-07T08:48:02.045Z",
+  "general": {
+    "matchId": "6106281",
+    "matchName": "Sporting CP-vs-LASK_Wed, Oct 21, 2026, 19:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#106840",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#106840",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943230,
+    "leagueName": "Champions League",
+    "leagueRoundName": "3",
+    "parentLeagueId": 42,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Sporting CP",
+      "id": 9768
+    },
+    "awayTeam": {
+      "name": "LASK",
+      "id": 9977
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Oct 21, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-21T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-21T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "21.10.2026 21:01:47",
+      "firstHalfEnded": "21.10.2026 21:49:01",
+      "secondHalfStarted": "21.10.2026 22:05:05",
+      "secondHalfEnded": "21.10.2026 22:58:44",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "21.10.2026 22:58:44"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9768",
+      "name": "Sporting CP",
+      "score": 2
+    },
+    {
+      "id": "9977",
+      "name": "LASK",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 5,
+      "added": 0,
+      "display": "5",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 15,
+      "added": 0,
+      "display": "15",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      7,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

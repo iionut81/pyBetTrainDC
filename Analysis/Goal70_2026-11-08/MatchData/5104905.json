@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "5104905",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104905",
+  "verified_at_utc": "2026-11-05T06:09:04.281Z",
+  "general": {
+    "matchId": "5104905",
+    "matchName": "Aalesund-vs-Brann_Wed, May 20, 2026, 18:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#eb7805",
+        "away": "#DE1215"
+      },
+      "lightMode": {
+        "home": "#eb7805",
+        "away": "#DE1215"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "8",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Aalesund",
+      "id": 8404
+    },
+    "awayTeam": {
+      "name": "Brann",
+      "id": 8468
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, May 20, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-05-20T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-20T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.05.2026 20:01:08",
+      "firstHalfEnded": "20.05.2026 20:51:14",
+      "secondHalfStarted": "20.05.2026 21:06:36",
+      "secondHalfEnded": "20.05.2026 21:58:16",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.05.2026 21:58:16"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8404",
+      "name": "Aalesund",
+      "score": 2
+    },
+    {
+      "id": "8468",
+      "name": "Brann",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      4
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      4,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 21,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5104905.json"
+}

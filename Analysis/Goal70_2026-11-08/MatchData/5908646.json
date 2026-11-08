@@ -1,0 +1,180 @@
+{
+  "ok": true,
+  "id": "5908646",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908646",
+  "verified_at_utc": "2026-11-06T06:30:48.963Z",
+  "general": {
+    "matchId": "5908646",
+    "matchName": "Bursaspor-vs-Mardin 1969 Spor_Sun, Oct 11, 2026, 16:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#088040",
+        "away": "#EE1923"
+      },
+      "lightMode": {
+        "home": "#088040",
+        "away": "#EE1923"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "9",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Bursaspor",
+      "id": 10270
+    },
+    "awayTeam": {
+      "name": "Mardin 1969 Spor",
+      "id": 1088486
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 11, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-11T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-11T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "11.10.2026 18:02:58",
+      "firstHalfEnded": "11.10.2026 18:50:04",
+      "secondHalfStarted": "11.10.2026 19:06:22",
+      "secondHalfEnded": "11.10.2026 20:00:42",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.10.2026 20:00:42"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10270",
+      "name": "Bursaspor",
+      "score": 1
+    },
+    {
+      "id": "1088486",
+      "name": "Mardin 1969 Spor",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 81,
+      "added": 0,
+      "display": "81"
+    },
+    {
+      "side": "away",
+      "minute": 21,
+      "added": 0,
+      "display": "21"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      0
+    ],
+    "All": [
+      7,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 47,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5908646.json"
+}

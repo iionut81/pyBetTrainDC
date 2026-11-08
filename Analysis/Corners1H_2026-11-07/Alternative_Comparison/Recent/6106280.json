@@ -1,0 +1,168 @@
+{
+  "ok": true,
+  "id": "6106280",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6106280",
+  "verified_at_utc": "2026-11-07T08:48:01.946Z",
+  "general": {
+    "matchId": "6106280",
+    "matchName": "Sporting CP-vs-Galatasaray_Wed, Sep 9, 2026, 19:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#106840",
+        "away": "#a11d40"
+      },
+      "lightMode": {
+        "home": "#106840",
+        "away": "#8D072A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943230,
+    "leagueName": "Champions League",
+    "leagueRoundName": "1",
+    "parentLeagueId": 42,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Sporting CP",
+      "id": 9768
+    },
+    "awayTeam": {
+      "name": "Galatasaray",
+      "id": 8637
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Sep 9, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-09-09T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-09T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.09.2026 21:01:35",
+      "firstHalfEnded": "09.09.2026 21:49:21",
+      "secondHalfStarted": "09.09.2026 22:08:07",
+      "secondHalfEnded": "09.09.2026 22:58:15",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.09.2026 22:58:15"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9768",
+      "name": "Sporting CP",
+      "score": 3
+    },
+    {
+      "id": "8637",
+      "name": "Galatasaray",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 5,
+      "added": 0,
+      "display": "5",
+      "period": "FirstHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      1,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 22,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "id": "5868471",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868471",
+  "verified_at_utc": "2026-11-07T06:56:22.928Z",
+  "general": {
+    "matchId": "5868471",
+    "matchName": "Almería-vs-Burgos CF_Sat, Oct 3, 2026, 14:15 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ee1119",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#C8282C",
+        "away": "#151515"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "8",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Almería",
+      "id": 9865
+    },
+    "awayTeam": {
+      "name": "Burgos CF",
+      "id": 7876
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 3, 2026, 14:15 UTC",
+    "matchTimeUTCDate": "2026-10-03T14:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-03T14:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "03.10.2026 16:16:01",
+      "firstHalfEnded": "03.10.2026 17:03:27",
+      "secondHalfStarted": "03.10.2026 17:19:37",
+      "secondHalfEnded": "03.10.2026 18:09:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.10.2026 18:09:35"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9865",
+      "name": "Almería",
+      "score": 2
+    },
+    {
+      "id": "7876",
+      "name": "Burgos CF",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 77,
+      "added": 0,
+      "display": "77",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 85,
+      "added": 0,
+      "display": "85",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      5,
+      3
+    ],
+    "All": [
+      8,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868471.json"
+}

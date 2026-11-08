@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "5904795",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904795",
+  "verified_at_utc": "2026-11-08T08:31:20.564Z",
+  "general": {
+    "matchId": "5904795",
+    "matchName": "Eyüpspor-vs-Kocaelispor_Sat, Nov 7, 2026, 10:30 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FEA917",
+        "away": "#005E2A"
+      },
+      "lightMode": {
+        "home": "#e99700",
+        "away": "#005E2A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "11",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Eyüpspor",
+      "id": 4681
+    },
+    "awayTeam": {
+      "name": "Kocaelispor",
+      "id": 1569
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 10:30 UTC",
+    "matchTimeUTCDate": "2026-11-07T10:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T10:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 11:31:21",
+      "firstHalfEnded": "07.11.2026 12:18:52",
+      "secondHalfStarted": "07.11.2026 12:33:29",
+      "secondHalfEnded": "07.11.2026 13:24:24",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 13:24:24"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "4681",
+      "name": "Eyüpspor",
+      "score": 0
+    },
+    {
+      "id": "1569",
+      "name": "Kocaelispor",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 5,
+      "added": 0,
+      "display": "5",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 28,
+      "added": 0,
+      "display": "28",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      4,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5107473",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107473",
+  "verified_at_utc": "2026-11-08T08:33:39.289Z",
+  "general": {
+    "matchId": "5107473",
+    "matchName": "Häcken-vs-Sirius_Mon, Apr 27, 2026, 17:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F2D024",
+        "away": "#175b9e"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#2a497f"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "5",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Häcken",
+      "id": 8428
+    },
+    "awayTeam": {
+      "name": "Sirius",
+      "id": 6694
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Apr 27, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-04-27T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-27T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "27.04.2026 19:01:03",
+      "firstHalfEnded": "27.04.2026 19:48:33",
+      "secondHalfStarted": "27.04.2026 20:03:52",
+      "secondHalfEnded": "27.04.2026 20:52:58",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "27.04.2026 20:52:58"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8428",
+      "name": "Häcken",
+      "score": 2
+    },
+    {
+      "id": "6694",
+      "name": "Sirius",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 25,
+      "added": 0,
+      "display": "25",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      5
+    ],
+    "SecondHalf": [
+      1,
+      6
+    ],
+    "All": [
+      3,
+      11
+    ]
+  },
+  "cards": [
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "id": "5804292",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804292",
+  "verified_at_utc": "2026-11-08T08:31:20.458Z",
+  "general": {
+    "matchId": "5804292",
+    "matchName": "Grasshopper-vs-Lausanne_Sat, Nov 7, 2026, 19:30 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0E70B3",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#0E70B3",
+        "away": "#74468f"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937880,
+    "leagueName": "Super League",
+    "leagueRoundName": "13",
+    "parentLeagueId": 69,
+    "countryCode": "SUI",
+    "homeTeam": {
+      "name": "Grasshopper",
+      "id": 9956
+    },
+    "awayTeam": {
+      "name": "Lausanne",
+      "id": 7730
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 19:30 UTC",
+    "matchTimeUTCDate": "2026-11-07T19:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T19:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 20:30:37",
+      "firstHalfEnded": "07.11.2026 21:17:50",
+      "secondHalfStarted": "07.11.2026 21:33:19",
+      "secondHalfEnded": "07.11.2026 22:25:16",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 22:25:16"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9956",
+      "name": "Grasshopper",
+      "score": 1
+    },
+    {
+      "id": "7730",
+      "name": "Lausanne",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 85,
+      "added": 0,
+      "display": "85",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      0,
+      10
+    ],
+    "All": [
+      2,
+      14
+    ]
+  },
+  "cards": [
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

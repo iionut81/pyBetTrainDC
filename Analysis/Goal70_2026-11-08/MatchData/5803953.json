@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "id": "5803953",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803953",
+  "verified_at_utc": "2026-11-05T06:04:44.323Z",
+  "general": {
+    "matchId": "5803953",
+    "matchName": "Lech Poznań-vs-Jagiellonia Białystok_Thu, Sep 3, 2026, 18:30 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004898",
+        "away": "#D81921"
+      },
+      "lightMode": {
+        "home": "#004898",
+        "away": "#D81921"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "5",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Lech Poznań",
+      "id": 2182
+    },
+    "awayTeam": {
+      "name": "Jagiellonia Białystok",
+      "id": 1957
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Sep 3, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-09-03T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-03T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "03.09.2026 20:30:31",
+      "firstHalfEnded": "03.09.2026 21:23:55",
+      "secondHalfStarted": "03.09.2026 21:39:41",
+      "secondHalfEnded": "03.09.2026 22:30:03",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.09.2026 22:30:03"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2182",
+      "name": "Lech Poznań",
+      "score": 2
+    },
+    {
+      "id": "1957",
+      "name": "Jagiellonia Białystok",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 43,
+      "added": 0,
+      "display": "43",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 4,
+      "display": "45+4",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      5,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5803953.json"
+}

@@ -1,0 +1,164 @@
+{
+  "ok": true,
+  "id": "5104966",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104966",
+  "verified_at_utc": "2026-11-08T08:33:24.432Z",
+  "general": {
+    "matchId": "5104966",
+    "matchName": "Molde-vs-Sarpsborg 08_Sun, Aug 2, 2026, 15:00 UTC",
+    "matchRound": "16",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0068b0",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#0D47A0",
+        "away": "#63a5ea"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "16",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Molde",
+      "id": 9917
+    },
+    "awayTeam": {
+      "name": "Sarpsborg 08",
+      "id": 8509
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 2, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-08-02T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-02T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.08.2026 17:00:26",
+      "firstHalfEnded": "02.08.2026 17:48:45",
+      "secondHalfStarted": "02.08.2026 18:04:31",
+      "secondHalfEnded": "02.08.2026 18:55:46",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.08.2026 18:55:46"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9917",
+      "name": "Molde",
+      "score": 3
+    },
+    {
+      "id": "8509",
+      "name": "Sarpsborg 08",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 34,
+      "added": 0,
+      "display": "34",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 52,
+      "added": 0,
+      "display": "52",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 0,
+      "display": "90",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      5,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5881686",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881686",
+  "verified_at_utc": "2026-11-08T08:33:19.899Z",
+  "general": {
+    "matchId": "5881686",
+    "matchName": "Magdeburg-vs-Hannover 96_Sat, Oct 10, 2026, 11:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0068B8",
+        "away": "#008e38"
+      },
+      "lightMode": {
+        "home": "#0068B8",
+        "away": "#06A950"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 146,
+    "leagueName": "2. Bundesliga",
+    "leagueRoundName": "7",
+    "parentLeagueId": 146,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Magdeburg",
+      "id": 8188
+    },
+    "awayTeam": {
+      "name": "Hannover 96",
+      "id": 9904
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 11:00 UTC",
+    "matchTimeUTCDate": "2026-10-10T11:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T11:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 13:00:53",
+      "firstHalfEnded": "10.10.2026 13:46:50",
+      "secondHalfStarted": "10.10.2026 14:04:04",
+      "secondHalfEnded": "10.10.2026 14:51:10",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 14:51:10"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8188",
+      "name": "Magdeburg",
+      "score": 3
+    },
+    {
+      "id": "9904",
+      "name": "Hannover 96",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 30,
+      "added": 0,
+      "display": "30",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      4
+    ],
+    "SecondHalf": [
+      6,
+      3
+    ],
+    "All": [
+      9,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

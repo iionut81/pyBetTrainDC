@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "id": "5804234",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804234",
+  "verified_at_utc": "2026-11-07T06:59:37.403Z",
+  "general": {
+    "matchId": "5804234",
+    "matchName": "Servette-vs-Grasshopper_Sat, Aug 8, 2026, 18:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#a0002c",
+        "away": "#0E70B3"
+      },
+      "lightMode": {
+        "home": "#900028",
+        "away": "#0E70B3"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937880,
+    "leagueName": "Super League",
+    "leagueRoundName": "3",
+    "parentLeagueId": 69,
+    "countryCode": "SUI",
+    "homeTeam": {
+      "name": "Servette",
+      "id": 9777
+    },
+    "awayTeam": {
+      "name": "Grasshopper",
+      "id": 9956
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 8, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-08T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-08T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "08.08.2026 20:31:29",
+      "firstHalfEnded": "08.08.2026 21:19:02",
+      "secondHalfStarted": "08.08.2026 21:35:33",
+      "secondHalfEnded": "08.08.2026 22:26:08",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.08.2026 22:26:08"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9777",
+      "name": "Servette",
+      "score": 2
+    },
+    {
+      "id": "9956",
+      "name": "Grasshopper",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      7,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 9,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 59,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5804234.json"
+}

@@ -1,0 +1,134 @@
+{
+  "ok": true,
+  "id": "5104894",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104894",
+  "verified_at_utc": "2026-11-08T08:33:25.292Z",
+  "general": {
+    "matchId": "5104894",
+    "matchName": "Sandefjord-vs-Aalesund_Sun, May 3, 2026, 15:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#035db8",
+        "away": "#eb7805"
+      },
+      "lightMode": {
+        "home": "#104070",
+        "away": "#eb7805"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "7",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Sandefjord",
+      "id": 8609
+    },
+    "awayTeam": {
+      "name": "Aalesund",
+      "id": 8404
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, May 3, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-05-03T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-03T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "03.05.2026 17:01:13",
+      "firstHalfEnded": "03.05.2026 17:48:47",
+      "secondHalfStarted": "03.05.2026 18:05:55",
+      "secondHalfEnded": "03.05.2026 18:59:33",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.05.2026 18:59:33"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8609",
+      "name": "Sandefjord",
+      "score": 1
+    },
+    {
+      "id": "8404",
+      "name": "Aalesund",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      8,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

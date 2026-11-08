@@ -1,0 +1,124 @@
+{
+  "ok": true,
+  "id": "5908635",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908635",
+  "verified_at_utc": "2026-11-07T06:59:47.634Z",
+  "general": {
+    "matchId": "5908635",
+    "matchName": "Pendikspor-vs-Bodrum FK_Sun, Sep 20, 2026, 14:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C21E16",
+        "away": "#146E3A"
+      },
+      "lightMode": {
+        "home": "#C21E16",
+        "away": "#146E3A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "8",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Pendikspor",
+      "id": 95745
+    },
+    "awayTeam": {
+      "name": "Bodrum FK",
+      "id": 658811
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-20T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 15:58:45",
+      "firstHalfEnded": "20.09.2026 16:43:57",
+      "secondHalfStarted": "20.09.2026 17:00:32",
+      "secondHalfEnded": "20.09.2026 17:50:27",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 17:50:27"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "95745",
+      "name": "Pendikspor",
+      "score": 1
+    },
+    {
+      "id": "658811",
+      "name": "Bodrum FK",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 65,
+      "added": 0,
+      "display": "65"
+    },
+    {
+      "side": "away",
+      "minute": 55,
+      "added": 0,
+      "display": "55"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5908635.json"
+}

@@ -1,0 +1,164 @@
+{
+  "ok": true,
+  "id": "5846019",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5846019",
+  "verified_at_utc": "2026-11-08T08:31:15.530Z",
+  "general": {
+    "matchId": "5846019",
+    "matchName": "Ried-vs-LASK_Sat, Nov 7, 2026, 18:30 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#007848",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#007848",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938366,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "12",
+    "parentLeagueId": 38,
+    "countryCode": "AUT",
+    "homeTeam": {
+      "name": "Ried",
+      "id": 10017
+    },
+    "awayTeam": {
+      "name": "LASK",
+      "id": 9977
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-11-07T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 19:31:16",
+      "firstHalfEnded": "07.11.2026 20:18:37",
+      "secondHalfStarted": "07.11.2026 20:34:29",
+      "secondHalfEnded": "07.11.2026 21:25:26",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 21:25:26"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10017",
+      "name": "Ried",
+      "score": 2
+    },
+    {
+      "id": "9977",
+      "name": "LASK",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 39,
+      "added": 0,
+      "display": "39",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 0,
+      "display": "90",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 5,
+      "display": "90+5",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      4,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

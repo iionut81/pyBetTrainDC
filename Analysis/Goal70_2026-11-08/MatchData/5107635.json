@@ -1,0 +1,136 @@
+{
+  "ok": true,
+  "id": "5107635",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107635",
+  "verified_at_utc": "2026-11-07T06:59:50.961Z",
+  "general": {
+    "matchId": "5107635",
+    "matchName": "Västerås SK-vs-Halmstads BK_Fri, Oct 23, 2026, 17:00 UTC",
+    "matchRound": "25",
+    "teamColors": {
+      "darkMode": {
+        "home": "#197842",
+        "away": "#205287"
+      },
+      "lightMode": {
+        "home": "#197842",
+        "away": "#205287"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "25",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Västerås SK",
+      "id": 6194
+    },
+    "awayTeam": {
+      "name": "Halmstads BK",
+      "id": 8310
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 23, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-10-23T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-23T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.10.2026 19:01:45",
+      "firstHalfEnded": "23.10.2026 19:47:50",
+      "secondHalfStarted": "23.10.2026 20:02:33",
+      "secondHalfEnded": "23.10.2026 20:51:09",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.10.2026 20:51:09"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6194",
+      "name": "Västerås SK",
+      "score": 1
+    },
+    {
+      "id": "8310",
+      "name": "Halmstads BK",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      10,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5107635.json"
+}

@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "id": "5845991",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5845991",
+  "verified_at_utc": "2026-11-05T06:04:41.937Z",
+  "general": {
+    "matchId": "5845991",
+    "matchName": "Salzburg-vs-Sturm Graz_Sun, Sep 20, 2026, 15:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F13032",
+        "away": "#eeeeee"
+      },
+      "lightMode": {
+        "home": "#F13032",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938366,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "7",
+    "parentLeagueId": 38,
+    "countryCode": "AUT",
+    "homeTeam": {
+      "name": "Salzburg",
+      "id": 10013
+    },
+    "awayTeam": {
+      "name": "Sturm Graz",
+      "id": 10014
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 20, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-09-20T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-20T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "20.09.2026 17:03:05",
+      "firstHalfEnded": "20.09.2026 17:48:10",
+      "secondHalfStarted": "20.09.2026 18:03:09",
+      "secondHalfEnded": "20.09.2026 18:51:27",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.09.2026 18:51:27"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10013",
+      "name": "Salzburg",
+      "score": 3
+    },
+    {
+      "id": "10014",
+      "name": "Sturm Graz",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 71,
+      "added": 0,
+      "display": "71",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      6
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      3,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5845991.json"
+}

@@ -1,0 +1,169 @@
+{
+  "ok": true,
+  "id": "5793967",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793967",
+  "verified_at_utc": "2026-11-07T06:56:33.634Z",
+  "general": {
+    "matchId": "5793967",
+    "matchName": "Kilmarnock-vs-St. Johnstone_Sat, Oct 31, 2026, 15:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0745A4",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#0745A4",
+        "away": "#ab90e1"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "12",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "Kilmarnock",
+      "id": 8597
+    },
+    "awayTeam": {
+      "name": "St. Johnstone",
+      "id": 8467
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 31, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-10-31T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-31T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "31.10.2026 16:01:59",
+      "firstHalfEnded": "31.10.2026 16:51:16",
+      "secondHalfStarted": "31.10.2026 17:05:49",
+      "secondHalfEnded": "31.10.2026 17:54:19",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "31.10.2026 17:54:19"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8597",
+      "name": "Kilmarnock",
+      "score": 2
+    },
+    {
+      "id": "8467",
+      "name": "St. Johnstone",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 15,
+      "added": 0,
+      "display": "15",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 41,
+      "added": 0,
+      "display": "41",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      10,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 13,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5793967.json"
+}

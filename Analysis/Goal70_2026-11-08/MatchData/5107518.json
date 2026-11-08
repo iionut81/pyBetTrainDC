@@ -1,0 +1,179 @@
+{
+  "ok": true,
+  "id": "5107518",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107518",
+  "verified_at_utc": "2026-11-08T08:33:38.406Z",
+  "general": {
+    "matchId": "5107518",
+    "matchName": "Häcken-vs-Djurgården_Mon, Jul 6, 2026, 17:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F2D024",
+        "away": "#83B2CA"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#6E9CB4"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "11",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Häcken",
+      "id": 8428
+    },
+    "awayTeam": {
+      "name": "Djurgården",
+      "id": 9802
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Jul 6, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-07-06T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-06T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "06.07.2026 19:00:27",
+      "firstHalfEnded": "06.07.2026 19:48:31",
+      "secondHalfStarted": "06.07.2026 20:03:45",
+      "secondHalfEnded": "06.07.2026 20:52:27",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.07.2026 20:52:27"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8428",
+      "name": "Häcken",
+      "score": 2
+    },
+    {
+      "id": "9802",
+      "name": "Djurgården",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 41,
+      "added": 0,
+      "display": "41",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 73,
+      "added": 0,
+      "display": "73",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      5,
+      4
+    ],
+    "All": [
+      7,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 26,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 39,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

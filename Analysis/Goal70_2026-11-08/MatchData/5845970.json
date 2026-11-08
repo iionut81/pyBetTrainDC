@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5845970",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5845970",
+  "verified_at_utc": "2026-11-08T08:33:20.424Z",
+  "general": {
+    "matchId": "5845970",
+    "matchName": "Altach-vs-Hartberg_Sat, Aug 22, 2026, 15:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#00468c"
+      },
+      "lightMode": {
+        "home": "#030305",
+        "away": "#004386"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938366,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "4",
+    "parentLeagueId": 38,
+    "countryCode": "AUT",
+    "homeTeam": {
+      "name": "Altach",
+      "id": 10008
+    },
+    "awayTeam": {
+      "name": "Hartberg",
+      "id": 10056
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-08-22T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 17:02:22",
+      "firstHalfEnded": "22.08.2026 17:46:25",
+      "secondHalfStarted": "22.08.2026 18:02:25",
+      "secondHalfEnded": "22.08.2026 18:50:58",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 18:50:58"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10008",
+      "name": "Altach",
+      "score": 1
+    },
+    {
+      "id": "10056",
+      "name": "Hartberg",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 16,
+      "added": 0,
+      "display": "16",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      6,
+      1
+    ],
+    "All": [
+      11,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

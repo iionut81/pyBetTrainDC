@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5804014",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804014",
+  "verified_at_utc": "2026-11-07T06:56:13.542Z",
+  "general": {
+    "matchId": "5804014",
+    "matchName": "Korona Kielce-vs-GKS Katowice_Sat, Oct 24, 2026, 12:45 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FBD23F",
+        "away": "#086840"
+      },
+      "lightMode": {
+        "home": "#e39b01",
+        "away": "#086840"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "12",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Korona Kielce",
+      "id": 8245
+    },
+    "awayTeam": {
+      "name": "GKS Katowice",
+      "id": 4023
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 24, 2026, 12:45 UTC",
+    "matchTimeUTCDate": "2026-10-24T12:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-24T12:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.10.2026 14:46:18",
+      "firstHalfEnded": "24.10.2026 15:33:18",
+      "secondHalfStarted": "24.10.2026 15:49:52",
+      "secondHalfEnded": "24.10.2026 16:39:10",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.10.2026 16:39:10"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8245",
+      "name": "Korona Kielce",
+      "score": 1
+    },
+    {
+      "id": "4023",
+      "name": "GKS Katowice",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 70,
+      "added": 0,
+      "display": "70",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      9,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5804014.json"
+}

@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "id": "5104983",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104983",
+  "verified_at_utc": "2026-11-08T08:33:24.670Z",
+  "general": {
+    "matchId": "5104983",
+    "matchName": "Sarpsborg 08-vs-Sandefjord_Sun, Aug 16, 2026, 15:00 UTC",
+    "matchRound": "18",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2255a5",
+        "away": "#c2102d"
+      },
+      "lightMode": {
+        "home": "#102763",
+        "away": "#c2102d"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "18",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Sarpsborg 08",
+      "id": 8509
+    },
+    "awayTeam": {
+      "name": "Sandefjord",
+      "id": 8609
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 16, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-08-16T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-16T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.08.2026 17:00:06",
+      "firstHalfEnded": "16.08.2026 17:49:57",
+      "secondHalfStarted": "16.08.2026 18:05:16",
+      "secondHalfEnded": "16.08.2026 18:58:32",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.08.2026 18:58:32"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8509",
+      "name": "Sarpsborg 08",
+      "score": 1
+    },
+    {
+      "id": "8609",
+      "name": "Sandefjord",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      4
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      4,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 12,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

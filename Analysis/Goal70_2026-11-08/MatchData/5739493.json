@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "id": "5739493",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739493",
+  "verified_at_utc": "2026-11-06T06:30:46.125Z",
+  "general": {
+    "matchId": "5739493",
+    "matchName": "Silkeborg-vs-FC Midtjylland_Sun, Aug 30, 2026, 12:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D11024",
+        "away": "#5e3a8e"
+      },
+      "lightMode": {
+        "home": "#D11024",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "6",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "Silkeborg",
+      "id": 8415
+    },
+    "awayTeam": {
+      "name": "FC Midtjylland",
+      "id": 8113
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-08-30T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 14:00:27",
+      "firstHalfEnded": "30.08.2026 14:47:40",
+      "secondHalfStarted": "30.08.2026 15:03:30",
+      "secondHalfEnded": "30.08.2026 15:54:51",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 15:54:51"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8415",
+      "name": "Silkeborg",
+      "score": 1
+    },
+    {
+      "id": "8113",
+      "name": "FC Midtjylland",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 13,
+      "added": 0,
+      "display": "13",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 66,
+      "added": 0,
+      "display": "66",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      5
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      4,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 57,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5739493.json"
+}

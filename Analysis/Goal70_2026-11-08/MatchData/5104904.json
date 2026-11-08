@@ -1,0 +1,147 @@
+{
+  "ok": true,
+  "id": "5104904",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104904",
+  "verified_at_utc": "2026-11-08T08:33:21.535Z",
+  "general": {
+    "matchId": "5104904",
+    "matchName": "Tromsø-vs-Molde_Sun, May 10, 2026, 15:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#EB131C",
+        "away": "#0068b0"
+      },
+      "lightMode": {
+        "home": "#EB131C",
+        "away": "#0D47A0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "8",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Tromsø",
+      "id": 8608
+    },
+    "awayTeam": {
+      "name": "Molde",
+      "id": 9917
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, May 10, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-05-10T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-10T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.05.2026 17:00:05",
+      "firstHalfEnded": "10.05.2026 17:45:58",
+      "secondHalfStarted": "10.05.2026 18:01:20",
+      "secondHalfEnded": "10.05.2026 18:55:28",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.05.2026 18:55:28"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8608",
+      "name": "Tromsø",
+      "score": 2
+    },
+    {
+      "id": "9917",
+      "name": "Molde",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 81,
+      "added": 0,
+      "display": "81",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 8,
+      "display": "90+8",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      5,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

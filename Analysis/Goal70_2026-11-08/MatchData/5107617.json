@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "5107617",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107617",
+  "verified_at_utc": "2026-11-07T06:59:49.444Z",
+  "general": {
+    "matchId": "5107617",
+    "matchName": "Häcken-vs-Örgryte_Sun, Oct 11, 2026, 14:30 UTC",
+    "matchRound": "23",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F2D024",
+        "away": "#ae0020"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#7D0105"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "23",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Häcken",
+      "id": 8428
+    },
+    "awayTeam": {
+      "name": "Örgryte",
+      "id": 10002
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 11, 2026, 14:30 UTC",
+    "matchTimeUTCDate": "2026-10-11T14:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-11T14:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "11.10.2026 16:30:52",
+      "firstHalfEnded": "11.10.2026 17:16:59",
+      "secondHalfStarted": "11.10.2026 17:33:46",
+      "secondHalfEnded": "11.10.2026 18:20:49",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.10.2026 18:20:49"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8428",
+      "name": "Häcken",
+      "score": 3
+    },
+    {
+      "id": "10002",
+      "name": "Örgryte",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 7,
+      "added": 0,
+      "display": "7",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      6,
+      0
+    ],
+    "All": [
+      9,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 4,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5107617.json"
+}

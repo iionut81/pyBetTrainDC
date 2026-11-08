@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5904747",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904747",
+  "verified_at_utc": "2026-11-05T06:04:59.928Z",
+  "general": {
+    "matchId": "5904747",
+    "matchName": "Beşiktaş-vs-Erzurumspor FK_Fri, Sep 11, 2026, 17:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#0086C3"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#0086C3"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "5",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Beşiktaş",
+      "id": 10188
+    },
+    "awayTeam": {
+      "name": "Erzurumspor FK",
+      "id": 281467
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Sep 11, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-11T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-11T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "11.09.2026 19:00:29",
+      "firstHalfEnded": "11.09.2026 19:47:41",
+      "secondHalfStarted": "11.09.2026 20:03:55",
+      "secondHalfEnded": "11.09.2026 20:52:28",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.09.2026 20:52:28"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10188",
+      "name": "Beşiktaş",
+      "score": 3
+    },
+    {
+      "id": "281467",
+      "name": "Erzurumspor FK",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 21,
+      "added": 0,
+      "display": "21",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 81,
+      "added": 0,
+      "display": "81"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      8,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      10,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 26,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5904747.json"
+}

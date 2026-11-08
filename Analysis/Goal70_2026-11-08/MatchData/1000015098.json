@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "1000015098",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015098",
+  "verified_at_utc": "2026-11-08T08:33:40.821Z",
+  "general": {
+    "matchId": "1000015098",
+    "matchName": "Novi Pazar-vs-Vojvodina_Mon, Aug 17, 2026, 18:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004080",
+        "away": "#ED1B24"
+      },
+      "lightMode": {
+        "home": "#004080",
+        "away": "#ED1B24"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "5",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Novi Pazar",
+      "id": 187854
+    },
+    "awayTeam": {
+      "name": "Vojvodina",
+      "id": 6406
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Aug 17, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-08-17T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-17T18:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.08.2026 20:01:40",
+      "firstHalfEnded": "17.08.2026 20:51:40",
+      "secondHalfStarted": "17.08.2026 21:08:00",
+      "secondHalfEnded": "17.08.2026 21:59:46",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.08.2026 21:59:46"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "187854",
+      "name": "Novi Pazar",
+      "score": 2
+    },
+    {
+      "id": "6406",
+      "name": "Vojvodina",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 18,
+      "added": 0,
+      "display": "18"
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      5
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      3,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 54,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

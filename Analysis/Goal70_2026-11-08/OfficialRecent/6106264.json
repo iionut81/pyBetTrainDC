@@ -1,0 +1,164 @@
+{
+  "ok": true,
+  "id": "6106264",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6106264",
+  "verified_at_utc": "2026-11-08T08:34:15.944Z",
+  "general": {
+    "matchId": "6106264",
+    "matchName": "Barcelona-vs-Feyenoord_Wed, Sep 9, 2026, 16:45 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ab2151",
+        "away": "#005F7C"
+      },
+      "lightMode": {
+        "home": "#971e48",
+        "away": "#005F7C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943230,
+    "leagueName": "Champions League",
+    "leagueRoundName": "1",
+    "parentLeagueId": 42,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Barcelona",
+      "id": 8634
+    },
+    "awayTeam": {
+      "name": "Feyenoord",
+      "id": 10235
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Sep 9, 2026, 16:45 UTC",
+    "matchTimeUTCDate": "2026-09-09T16:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-09T16:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.09.2026 18:47:18",
+      "firstHalfEnded": "09.09.2026 19:33:38",
+      "secondHalfStarted": "09.09.2026 19:50:38",
+      "secondHalfEnded": "09.09.2026 20:38:54",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.09.2026 20:38:54"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "5 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8634",
+      "name": "Barcelona",
+      "score": 5
+    },
+    {
+      "id": "10235",
+      "name": "Feyenoord",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 77,
+      "added": 0,
+      "display": "77",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 85,
+      "added": 0,
+      "display": "85",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      4,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

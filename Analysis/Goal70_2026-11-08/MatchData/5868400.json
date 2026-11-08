@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "5868400",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868400",
+  "verified_at_utc": "2026-11-08T08:33:28.183Z",
+  "general": {
+    "matchId": "5868400",
+    "matchName": "Mallorca-vs-Real Valladolid_Sat, Aug 15, 2026, 19:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E20613",
+        "away": "#6f3c9c"
+      },
+      "lightMode": {
+        "home": "#c2071f",
+        "away": "#63257E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "1",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Mallorca",
+      "id": 8661
+    },
+    "awayTeam": {
+      "name": "Real Valladolid",
+      "id": 10281
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 15, 2026, 19:30 UTC",
+    "matchTimeUTCDate": "2026-08-15T19:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-15T19:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.08.2026 21:31:59",
+      "firstHalfEnded": "15.08.2026 22:19:52",
+      "secondHalfStarted": "15.08.2026 22:34:37",
+      "secondHalfEnded": "15.08.2026 23:25:08",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.08.2026 23:25:08"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8661",
+      "name": "Mallorca",
+      "score": 2
+    },
+    {
+      "id": "10281",
+      "name": "Real Valladolid",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 72,
+      "added": 0,
+      "display": "72",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      3,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

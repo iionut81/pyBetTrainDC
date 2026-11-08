@@ -1,0 +1,155 @@
+{
+  "ok": true,
+  "id": "5908641",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908641",
+  "verified_at_utc": "2026-11-06T06:30:49.094Z",
+  "general": {
+    "matchId": "5908641",
+    "matchName": "Batman Petrolspor-vs-Bursaspor_Sat, Sep 19, 2026, 17:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#AB1111",
+        "away": "#088040"
+      },
+      "lightMode": {
+        "home": "#AB1111",
+        "away": "#088040"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "8",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Batman Petrolspor",
+      "id": 163008
+    },
+    "awayTeam": {
+      "name": "Bursaspor",
+      "id": 10270
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 19, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-19T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-19T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.09.2026 19:01:37",
+      "firstHalfEnded": "19.09.2026 19:51:29",
+      "secondHalfStarted": "19.09.2026 20:08:41",
+      "secondHalfEnded": "19.09.2026 20:59:28",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.09.2026 20:59:28"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "163008",
+      "name": "Batman Petrolspor",
+      "score": 1
+    },
+    {
+      "id": "10270",
+      "name": "Bursaspor",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29"
+    },
+    {
+      "side": "away",
+      "minute": 60,
+      "added": 0,
+      "display": "60"
+    },
+    {
+      "side": "away",
+      "minute": 85,
+      "added": 0,
+      "display": "85"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      8,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5908641.json"
+}

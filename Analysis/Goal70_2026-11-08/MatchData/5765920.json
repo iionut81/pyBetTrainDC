@@ -1,0 +1,147 @@
+{
+  "ok": true,
+  "id": "5765920",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765920",
+  "verified_at_utc": "2026-11-07T06:56:22.309Z",
+  "general": {
+    "matchId": "5765920",
+    "matchName": "Rijeka-vs-Osijek_Sat, Sep 5, 2026, 19:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#58B6E7",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#53b2e3",
+        "away": "#005197"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "6",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "Rijeka",
+      "id": 10162
+    },
+    "awayTeam": {
+      "name": "Osijek",
+      "id": 10157
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-09-05T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 21:01:21",
+      "firstHalfEnded": "05.09.2026 21:49:04",
+      "secondHalfStarted": "05.09.2026 22:06:07",
+      "secondHalfEnded": "05.09.2026 22:53:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 22:53:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10162",
+      "name": "Rijeka",
+      "score": 4
+    },
+    {
+      "id": "10157",
+      "name": "Osijek",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 21,
+      "added": 0,
+      "display": "21"
+    },
+    {
+      "side": "home",
+      "minute": 33,
+      "added": 0,
+      "display": "33"
+    },
+    {
+      "side": "home",
+      "minute": 43,
+      "added": 0,
+      "display": "43"
+    },
+    {
+      "side": "home",
+      "minute": 61,
+      "added": 0,
+      "display": "61"
+    },
+    {
+      "side": "away",
+      "minute": 15,
+      "added": 0,
+      "display": "15"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      8,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5765920.json"
+}

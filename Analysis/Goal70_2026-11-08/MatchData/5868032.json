@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "id": "5868032",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868032",
+  "verified_at_utc": "2026-11-05T06:04:56.484Z",
+  "general": {
+    "matchId": "5868032",
+    "matchName": "Celta Vigo-vs-Athletic Club_Sun, Aug 30, 2026, 19:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#6fb5e8",
+        "away": "#E2001A"
+      },
+      "lightMode": {
+        "home": "#67ade0",
+        "away": "#E2001A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "3",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Celta Vigo",
+      "id": 9910
+    },
+    "awayTeam": {
+      "name": "Athletic Club",
+      "id": 8315
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 19:30 UTC",
+    "matchTimeUTCDate": "2026-08-30T19:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T19:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 21:31:31",
+      "firstHalfEnded": "30.08.2026 22:19:10",
+      "secondHalfStarted": "30.08.2026 22:34:52",
+      "secondHalfEnded": "30.08.2026 23:22:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 23:22:56"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9910",
+      "name": "Celta Vigo",
+      "score": 0
+    },
+    {
+      "id": "8315",
+      "name": "Athletic Club",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 20,
+      "added": 0,
+      "display": "20",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      5
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      4,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868032.json"
+}

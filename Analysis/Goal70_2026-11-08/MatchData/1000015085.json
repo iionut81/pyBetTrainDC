@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "id": "1000015085",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015085",
+  "verified_at_utc": "2026-11-08T08:33:40.915Z",
+  "general": {
+    "matchId": "1000015085",
+    "matchName": "Novi Pazar-vs-OFK Beograd_Sat, Aug 1, 2026, 18:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004080",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#004080",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "3",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Novi Pazar",
+      "id": 187854
+    },
+    "awayTeam": {
+      "name": "OFK Beograd",
+      "id": 8692
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 1, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-08-01T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-01T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.08.2026 20:01:31",
+      "firstHalfEnded": "01.08.2026 20:49:06",
+      "secondHalfStarted": "01.08.2026 21:05:00",
+      "secondHalfEnded": "01.08.2026 21:50:06",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.08.2026 21:50:06"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "187854",
+      "name": "Novi Pazar",
+      "score": 1
+    },
+    {
+      "id": "8692",
+      "name": "OFK Beograd",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 32,
+      "added": 0,
+      "display": "32"
+    },
+    {
+      "side": "away",
+      "minute": 13,
+      "added": 0,
+      "display": "13"
+    },
+    {
+      "side": "away",
+      "minute": 40,
+      "added": 0,
+      "display": "40"
+    },
+    {
+      "side": "away",
+      "minute": 46,
+      "added": 0,
+      "display": "46"
+    },
+    {
+      "side": "away",
+      "minute": 67,
+      "added": 0,
+      "display": "67"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      4,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 11,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

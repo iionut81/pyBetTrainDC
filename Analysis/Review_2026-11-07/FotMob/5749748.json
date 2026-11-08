@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "id": "5749748",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749748",
+  "verified_at_utc": "2026-11-08T08:31:13.421Z",
+  "general": {
+    "matchId": "5749748",
+    "matchName": "Torino-vs-Lecce_Sat, Nov 7, 2026, 14:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#9b2d22",
+        "away": "#FFF200"
+      },
+      "lightMode": {
+        "home": "#80110B",
+        "away": "#e12300"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "11",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Torino",
+      "id": 9804
+    },
+    "awayTeam": {
+      "name": "Lecce",
+      "id": 9888
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 15:17:04",
+      "firstHalfEnded": "07.11.2026 16:05:07",
+      "secondHalfStarted": "07.11.2026 16:22:35",
+      "secondHalfEnded": "07.11.2026 17:10:36",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 17:10:36"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9804",
+      "name": "Torino",
+      "score": 1
+    },
+    {
+      "id": "9888",
+      "name": "Lecce",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 73,
+      "added": 0,
+      "display": "73",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      4,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

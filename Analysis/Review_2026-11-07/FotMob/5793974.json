@@ -1,0 +1,147 @@
+{
+  "ok": true,
+  "id": "5793974",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793974",
+  "verified_at_utc": "2026-11-08T08:31:18.899Z",
+  "general": {
+    "matchId": "5793974",
+    "matchName": "St. Mirren-vs-Rangers_Sat, Nov 7, 2026, 20:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#f1f1f1",
+        "away": "#005ed6"
+      },
+      "lightMode": {
+        "home": "#212025",
+        "away": "#0033A0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "13",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "St. Mirren",
+      "id": 9800
+    },
+    "awayTeam": {
+      "name": "Rangers",
+      "id": 8548
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 20:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T20:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T20:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 21:02:59",
+      "firstHalfEnded": "07.11.2026 21:49:38",
+      "secondHalfStarted": "07.11.2026 22:05:06",
+      "secondHalfEnded": "07.11.2026 22:52:39",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 22:52:39"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9800",
+      "name": "St. Mirren",
+      "score": 0
+    },
+    {
+      "id": "8548",
+      "name": "Rangers",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 18,
+      "added": 0,
+      "display": "18",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 61,
+      "added": 0,
+      "display": "61",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      7,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

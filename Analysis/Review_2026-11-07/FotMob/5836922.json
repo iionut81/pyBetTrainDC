@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "id": "5836922",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836922",
+  "verified_at_utc": "2026-11-08T08:31:23.017Z",
+  "general": {
+    "matchId": "5836922",
+    "matchName": "Birmingham City-vs-Swansea City_Sat, Nov 7, 2026, 15:00 UTC",
+    "matchRound": "15",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0053bb",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#0032A0",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "Championship",
+    "leagueRoundName": "15",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Birmingham City",
+      "id": 8658
+    },
+    "awayTeam": {
+      "name": "Swansea City",
+      "id": 10003
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 16:02:50",
+      "firstHalfEnded": "07.11.2026 16:53:16",
+      "secondHalfStarted": "07.11.2026 17:09:40",
+      "secondHalfEnded": "07.11.2026 18:03:11",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 18:03:11"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8658",
+      "name": "Birmingham City",
+      "score": 2
+    },
+    {
+      "id": "10003",
+      "name": "Swansea City",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      8,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 26,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

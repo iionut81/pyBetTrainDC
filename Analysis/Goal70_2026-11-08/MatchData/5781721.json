@@ -1,0 +1,167 @@
+{
+  "ok": true,
+  "id": "5781721",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781721",
+  "verified_at_utc": "2026-11-08T08:33:27.576Z",
+  "general": {
+    "matchId": "5781721",
+    "matchName": "Cambuur-vs-Feyenoord_Sun, Aug 23, 2026, 14:45 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F9EC00",
+        "away": "#D8232A"
+      },
+      "lightMode": {
+        "home": "#0032A1",
+        "away": "#D8232A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "3",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "Cambuur",
+      "id": 7788
+    },
+    "awayTeam": {
+      "name": "Feyenoord",
+      "id": 10235
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 14:45 UTC",
+    "matchTimeUTCDate": "2026-08-23T14:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T14:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 16:45:43",
+      "firstHalfEnded": "23.08.2026 18:03:02",
+      "secondHalfStarted": "23.08.2026 18:19:33",
+      "secondHalfEnded": "23.08.2026 19:06:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 19:06:35"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 5",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7788",
+      "name": "Cambuur",
+      "score": 2
+    },
+    {
+      "id": "10235",
+      "name": "Feyenoord",
+      "score": 5
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 70,
+      "added": 0,
+      "display": "70",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 17,
+      "added": 0,
+      "display": "17",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 26,
+      "added": 0,
+      "display": "26",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 42,
+      "added": 0,
+      "display": "42",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      3,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "id": "1000015111",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015111",
+  "verified_at_utc": "2026-11-08T08:33:41.078Z",
+  "general": {
+    "matchId": "1000015111",
+    "matchName": "FK Radnik Surdulica-vs-Novi Pazar_Sun, Aug 23, 2026, 17:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#043F92",
+        "away": "#A0C5CD"
+      },
+      "lightMode": {
+        "home": "#043F92",
+        "away": "#789BA3"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "6",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "FK Radnik Surdulica",
+      "id": 463461
+    },
+    "awayTeam": {
+      "name": "Novi Pazar",
+      "id": 187854
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-08-23T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T17:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 19:01:23",
+      "firstHalfEnded": "23.08.2026 19:48:33",
+      "secondHalfStarted": "23.08.2026 20:06:40",
+      "secondHalfEnded": "23.08.2026 21:00:26",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 21:00:26"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "463461",
+      "name": "FK Radnik Surdulica",
+      "score": 1
+    },
+    {
+      "id": "187854",
+      "name": "Novi Pazar",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 44,
+      "added": 0,
+      "display": "44"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      7,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "5868490",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868490",
+  "verified_at_utc": "2026-11-07T06:56:28.563Z",
+  "general": {
+    "matchId": "5868490",
+    "matchName": "Tenerife-vs-Girona_Mon, Oct 12, 2026, 19:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004fbc",
+        "away": "#CF152D"
+      },
+      "lightMode": {
+        "home": "#0038A7",
+        "away": "#CF152D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "9",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Tenerife",
+      "id": 9867
+    },
+    "awayTeam": {
+      "name": "Girona",
+      "id": 7732
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Oct 12, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-12T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-12T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.10.2026 21:01:39",
+      "firstHalfEnded": "12.10.2026 21:48:44",
+      "secondHalfStarted": "12.10.2026 22:06:48",
+      "secondHalfEnded": "12.10.2026 22:57:39",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.10.2026 22:57:39"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9867",
+      "name": "Tenerife",
+      "score": 1
+    },
+    {
+      "id": "7732",
+      "name": "Girona",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 26,
+      "added": 0,
+      "display": "26",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 21,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868490.json"
+}

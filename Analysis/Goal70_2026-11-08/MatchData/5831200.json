@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5831200",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831200",
+  "verified_at_utc": "2026-11-05T06:04:47.738Z",
+  "general": {
+    "matchId": "5831200",
+    "matchName": "Viktoria Plzeň-vs-Pardubice_Sun, Oct 25, 2026, 17:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DF041C",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#DF041C",
+        "away": "#183058"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "12",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Viktoria Plzeň",
+      "id": 6033
+    },
+    "awayTeam": {
+      "name": "Pardubice",
+      "id": 2406
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-10-25T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 18:01:44",
+      "firstHalfEnded": "25.10.2026 18:48:27",
+      "secondHalfStarted": "25.10.2026 19:05:39",
+      "secondHalfEnded": "25.10.2026 19:53:30",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 19:53:30"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6033",
+      "name": "Viktoria Plzeň",
+      "score": 1
+    },
+    {
+      "id": "2406",
+      "name": "Pardubice",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 49,
+      "added": 0,
+      "display": "49"
+    },
+    {
+      "side": "away",
+      "minute": 22,
+      "added": 0,
+      "display": "22"
+    },
+    {
+      "side": "away",
+      "minute": 39,
+      "added": 0,
+      "display": "39"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      6
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      5,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 7,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 17,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5831200.json"
+}

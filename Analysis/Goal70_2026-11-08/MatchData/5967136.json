@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "id": "5967136",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5967136",
+  "verified_at_utc": "2026-11-08T08:33:31.247Z",
+  "general": {
+    "matchId": "5967136",
+    "matchName": "Sampdoria-vs-Virtus Entella_Sat, Oct 31, 2026, 18:30 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#005eae",
+        "away": "#72bce9"
+      },
+      "lightMode": {
+        "home": "#1D4892",
+        "away": "#66b1dd"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941726,
+    "leagueName": "Serie B",
+    "leagueRoundName": "10",
+    "parentLeagueId": 86,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Sampdoria",
+      "id": 9882
+    },
+    "awayTeam": {
+      "name": "Virtus Entella",
+      "id": 208932
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 31, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-10-31T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-31T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "31.10.2026 19:31:58",
+      "firstHalfEnded": "31.10.2026 20:21:51",
+      "secondHalfStarted": "31.10.2026 20:38:37",
+      "secondHalfEnded": "31.10.2026 21:26:42",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "31.10.2026 21:26:42"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9882",
+      "name": "Sampdoria",
+      "score": 2
+    },
+    {
+      "id": "208932",
+      "name": "Virtus Entella",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 23,
+      "added": 0,
+      "display": "23",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "home",
+      "minute": 42,
+      "added": 0,
+      "display": "42",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      4,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

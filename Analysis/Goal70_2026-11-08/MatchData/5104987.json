@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5104987",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104987",
+  "verified_at_utc": "2026-11-08T08:33:23.925Z",
+  "general": {
+    "matchId": "5104987",
+    "matchName": "Hamarkameratene-vs-Kristiansund_Sun, Aug 30, 2026, 15:00 UTC",
+    "matchRound": "19",
+    "teamColors": {
+      "darkMode": {
+        "home": "#009040",
+        "away": "#2c528c"
+      },
+      "lightMode": {
+        "home": "#009040",
+        "away": "#0C2340"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "19",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Hamarkameratene",
+      "id": 8448
+    },
+    "awayTeam": {
+      "name": "Kristiansund",
+      "id": 8605
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-08-30T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 17:02:05",
+      "firstHalfEnded": "30.08.2026 17:49:40",
+      "secondHalfStarted": "30.08.2026 18:05:23",
+      "secondHalfEnded": "30.08.2026 18:58:22",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 18:58:22"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8448",
+      "name": "Hamarkameratene",
+      "score": 2
+    },
+    {
+      "id": "8605",
+      "name": "Kristiansund",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 73,
+      "added": 0,
+      "display": "73",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      9,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5749741",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749741",
+  "verified_at_utc": "2026-11-08T08:31:13.394Z",
+  "general": {
+    "matchId": "5749741",
+    "matchName": "Cagliari-vs-Frosinone_Sat, Nov 7, 2026, 14:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#B51F2B",
+        "away": "#E3AD00"
+      },
+      "lightMode": {
+        "home": "#B51F2B",
+        "away": "#d5a300"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "11",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Cagliari",
+      "id": 8529
+    },
+    "awayTeam": {
+      "name": "Frosinone",
+      "id": 9891
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 15:02:20",
+      "firstHalfEnded": "07.11.2026 15:49:47",
+      "secondHalfStarted": "07.11.2026 16:05:02",
+      "secondHalfEnded": "07.11.2026 16:53:31",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 16:53:31"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8529",
+      "name": "Cagliari",
+      "score": 1
+    },
+    {
+      "id": "9891",
+      "name": "Frosinone",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      10
+    ],
+    "All": [
+      3,
+      13
+    ]
+  },
+  "cards": [
+    {
+      "time": 13,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

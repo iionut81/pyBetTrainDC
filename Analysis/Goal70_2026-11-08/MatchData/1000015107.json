@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "id": "1000015107",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015107",
+  "verified_at_utc": "2026-11-07T07:00:00.988Z",
+  "general": {
+    "matchId": "1000015107",
+    "matchName": "OFK Beograd-vs-FK Zemun_Sat, Aug 22, 2026, 19:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#025098",
+        "away": "#017538"
+      },
+      "lightMode": {
+        "home": "#025098",
+        "away": "#017538"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "6",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "OFK Beograd",
+      "id": 8692
+    },
+    "awayTeam": {
+      "name": "FK Zemun",
+      "id": 6231
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-22T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 21:00:12",
+      "firstHalfEnded": "22.08.2026 21:46:35",
+      "secondHalfStarted": "22.08.2026 22:03:49",
+      "secondHalfEnded": "22.08.2026 22:52:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 22:52:56"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8692",
+      "name": "OFK Beograd",
+      "score": 1
+    },
+    {
+      "id": "6231",
+      "name": "FK Zemun",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 29,
+      "added": 0,
+      "display": "29"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      2,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 17,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 49,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015107.json"
+}

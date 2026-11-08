@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5739504",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739504",
+  "verified_at_utc": "2026-11-08T08:33:34.230Z",
+  "general": {
+    "matchId": "5739504",
+    "matchName": "Brøndby IF-vs-Randers FC_Sun, Sep 6, 2026, 16:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ECC92A",
+        "away": "#7eb2e7"
+      },
+      "lightMode": {
+        "home": "#d1a300",
+        "away": "#73A8DC"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "7",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "Brøndby IF",
+      "id": 8595
+    },
+    "awayTeam": {
+      "name": "Randers FC",
+      "id": 8410
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-09-06T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 18:03:14",
+      "firstHalfEnded": "06.09.2026 18:50:46",
+      "secondHalfStarted": "06.09.2026 19:06:48",
+      "secondHalfEnded": "06.09.2026 19:56:14",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 19:56:14"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8595",
+      "name": "Brøndby IF",
+      "score": 0
+    },
+    {
+      "id": "8410",
+      "name": "Randers FC",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 66,
+      "added": 0,
+      "display": "66",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 72,
+      "added": 0,
+      "display": "72",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      6,
+      2
+    ],
+    "All": [
+      8,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 6,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

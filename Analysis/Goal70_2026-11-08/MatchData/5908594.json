@@ -1,0 +1,123 @@
+{
+  "ok": true,
+  "id": "5908594",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908594",
+  "verified_at_utc": "2026-11-06T06:30:50.749Z",
+  "general": {
+    "matchId": "5908594",
+    "matchName": "Iğdır FK-vs-Kayserispor_Sat, Aug 22, 2026, 16:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#048F3A",
+        "away": "#AE0E21"
+      },
+      "lightMode": {
+        "home": "#048F3A",
+        "away": "#AE0E21"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "3",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Iğdır FK",
+      "id": 1281818
+    },
+    "awayTeam": {
+      "name": "Kayserispor",
+      "id": 10182
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-08-22T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 18:00:42",
+      "firstHalfEnded": "22.08.2026 18:46:49",
+      "secondHalfStarted": "22.08.2026 19:05:08",
+      "secondHalfEnded": "22.08.2026 19:53:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 19:53:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1281818",
+      "name": "Iğdır FK",
+      "score": 0
+    },
+    {
+      "id": "10182",
+      "name": "Kayserispor",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      6,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5908594.json"
+}

@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "id": "5765910",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765910",
+  "verified_at_utc": "2026-11-05T06:08:45.064Z",
+  "general": {
+    "matchId": "5765910",
+    "matchName": "Hajduk Split-vs-Osijek_Sun, Aug 23, 2026, 19:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#0092DC"
+      },
+      "lightMode": {
+        "home": "#034EA2",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "4",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "Hajduk Split",
+      "id": 10154
+    },
+    "awayTeam": {
+      "name": "Osijek",
+      "id": 10157
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-23T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 21:00:48",
+      "firstHalfEnded": "23.08.2026 21:50:18",
+      "secondHalfStarted": "23.08.2026 22:05:49",
+      "secondHalfEnded": "23.08.2026 22:52:37",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 22:52:37"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10154",
+      "name": "Hajduk Split",
+      "score": 4
+    },
+    {
+      "id": "10157",
+      "name": "Osijek",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 9,
+      "added": 0,
+      "display": "9"
+    },
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54"
+    },
+    {
+      "side": "home",
+      "minute": 83,
+      "added": 0,
+      "display": "83"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 0,
+      "display": "90"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      0,
+      1
+    ],
+    "All": [
+      0,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 34,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5765910.json"
+}

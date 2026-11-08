@@ -1,0 +1,164 @@
+{
+  "ok": true,
+  "id": "5802905",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802905",
+  "verified_at_utc": "2026-11-06T06:30:13.170Z",
+  "general": {
+    "matchId": "5802905",
+    "matchName": "Marseille-vs-Strasbourg_Fri, Aug 21, 2026, 18:45 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#41b6ff",
+        "away": "#294A92"
+      },
+      "lightMode": {
+        "home": "#0A60A8",
+        "away": "#CF1C2B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "1",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Marseille",
+      "id": 8592
+    },
+    "awayTeam": {
+      "name": "Strasbourg",
+      "id": 9848
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Aug 21, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-08-21T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-21T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "21.08.2026 20:46:17",
+      "firstHalfEnded": "21.08.2026 21:31:51",
+      "secondHalfStarted": "21.08.2026 21:49:58",
+      "secondHalfEnded": "21.08.2026 22:42:34",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "21.08.2026 22:42:34"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8592",
+      "name": "Marseille",
+      "score": 4
+    },
+    {
+      "id": "9848",
+      "name": "Strasbourg",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 46,
+      "added": 0,
+      "display": "46",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 6,
+      "display": "90+6",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      4
+    ],
+    "SecondHalf": [
+      0,
+      0
+    ],
+    "All": [
+      3,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 59,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5802905.json"
+}

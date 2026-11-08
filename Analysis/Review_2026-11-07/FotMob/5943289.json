@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5943289",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943289",
+  "verified_at_utc": "2026-11-08T08:31:19.861Z",
+  "general": {
+    "matchId": "5943289",
+    "matchName": "Aris Thessaloniki-vs-Panetolikos_Sat, Nov 7, 2026, 17:30 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFC722",
+        "away": "#15549d"
+      },
+      "lightMode": {
+        "home": "#d7a100",
+        "away": "#085098"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941071,
+    "leagueName": "Super League",
+    "leagueRoundName": "10",
+    "parentLeagueId": 135,
+    "countryCode": "GRE",
+    "homeTeam": {
+      "name": "Aris Thessaloniki",
+      "id": 8239
+    },
+    "awayTeam": {
+      "name": "Panetolikos",
+      "id": 162386
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 17:30 UTC",
+    "matchTimeUTCDate": "2026-11-07T17:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T17:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 18:32:38",
+      "firstHalfEnded": "07.11.2026 19:19:27",
+      "secondHalfStarted": "07.11.2026 19:36:22",
+      "secondHalfEnded": "07.11.2026 20:24:47",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 20:24:47"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8239",
+      "name": "Aris Thessaloniki",
+      "score": 3
+    },
+    {
+      "id": "162386",
+      "name": "Panetolikos",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 58,
+      "added": 0,
+      "display": "58",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      3,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

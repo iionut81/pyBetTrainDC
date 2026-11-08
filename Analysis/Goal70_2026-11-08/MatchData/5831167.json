@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "5831167",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831167",
+  "verified_at_utc": "2026-11-07T06:56:05.667Z",
+  "general": {
+    "matchId": "5831167",
+    "matchName": "Slovan Liberec-vs-Mladá Boleslav_Sat, Sep 12, 2026, 13:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1D8BCB",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#1D8BCB",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Slovan Liberec",
+      "id": 10245
+    },
+    "awayTeam": {
+      "name": "Mladá Boleslav",
+      "id": 10180
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-09-12T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 15:02:00",
+      "firstHalfEnded": "12.09.2026 15:49:20",
+      "secondHalfStarted": "12.09.2026 16:06:46",
+      "secondHalfEnded": "12.09.2026 16:55:07",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 16:55:07"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10245",
+      "name": "Slovan Liberec",
+      "score": 3
+    },
+    {
+      "id": "10180",
+      "name": "Mladá Boleslav",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 20,
+      "added": 0,
+      "display": "20"
+    },
+    {
+      "side": "home",
+      "minute": 55,
+      "added": 0,
+      "display": "55"
+    },
+    {
+      "side": "home",
+      "minute": 66,
+      "added": 0,
+      "display": "66"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      7,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5831167.json"
+}

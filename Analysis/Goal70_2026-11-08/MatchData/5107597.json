@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "id": "5107597",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107597",
+  "verified_at_utc": "2026-11-07T06:59:50.631Z",
+  "general": {
+    "matchId": "5107597",
+    "matchName": "AIK-vs-Västerås SK_Sat, Sep 12, 2026, 13:00 UTC",
+    "matchRound": "21",
+    "teamColors": {
+      "darkMode": {
+        "home": "#EACF4A",
+        "away": "#197842"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#197842"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "21",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "AIK",
+      "id": 8349
+    },
+    "awayTeam": {
+      "name": "Västerås SK",
+      "id": 6194
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-09-12T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 15:00:38",
+      "firstHalfEnded": "12.09.2026 15:48:43",
+      "secondHalfStarted": "12.09.2026 16:04:41",
+      "secondHalfEnded": "12.09.2026 16:54:48",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 16:54:48"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8349",
+      "name": "AIK",
+      "score": 1
+    },
+    {
+      "id": "6194",
+      "name": "Västerås SK",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 69,
+      "added": 0,
+      "display": "69",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 71,
+      "added": 0,
+      "display": "71",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 78,
+      "added": 0,
+      "display": "78",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5107597.json"
+}

@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "id": "5739488",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739488",
+  "verified_at_utc": "2026-11-06T06:30:46.943Z",
+  "general": {
+    "matchId": "5739488",
+    "matchName": "AC Horsens-vs-Lyngby_Sun, Aug 23, 2026, 14:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#EEBB02",
+        "away": "#0048bc"
+      },
+      "lightMode": {
+        "home": "#d3a107",
+        "away": "#003A96"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "5",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "AC Horsens",
+      "id": 9814
+    },
+    "awayTeam": {
+      "name": "Lyngby",
+      "id": 9907
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-08-23T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 16:00:31",
+      "firstHalfEnded": "23.08.2026 16:50:55",
+      "secondHalfStarted": "23.08.2026 17:06:52",
+      "secondHalfEnded": "23.08.2026 17:58:14",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 17:58:14"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9814",
+      "name": "AC Horsens",
+      "score": 2
+    },
+    {
+      "id": "9907",
+      "name": "Lyngby",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 15,
+      "added": 0,
+      "display": "15",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 0,
+      "display": "90",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 66,
+      "added": 0,
+      "display": "66",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      6
+    ],
+    "SecondHalf": [
+      0,
+      3
+    ],
+    "All": [
+      2,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 5,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5739488.json"
+}

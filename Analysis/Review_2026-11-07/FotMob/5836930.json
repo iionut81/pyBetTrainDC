@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5836930",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5836930",
+  "verified_at_utc": "2026-11-08T08:31:23.516Z",
+  "general": {
+    "matchId": "5836930",
+    "matchName": "Queens Park Rangers-vs-Lincoln City_Sat, Nov 7, 2026, 15:00 UTC",
+    "matchRound": "15",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0054A4",
+        "away": "#F80000"
+      },
+      "lightMode": {
+        "home": "#0054A4",
+        "away": "#F80000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 48,
+    "leagueName": "Championship",
+    "leagueRoundName": "15",
+    "parentLeagueId": 48,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Queens Park Rangers",
+      "id": 10172
+    },
+    "awayTeam": {
+      "name": "Lincoln City",
+      "id": 8430
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 16:01:21",
+      "firstHalfEnded": "07.11.2026 16:48:23",
+      "secondHalfStarted": "07.11.2026 17:04:13",
+      "secondHalfEnded": "07.11.2026 17:54:21",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 17:54:21"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10172",
+      "name": "Queens Park Rangers",
+      "score": 2
+    },
+    {
+      "id": "8430",
+      "name": "Lincoln City",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 29,
+      "added": 0,
+      "display": "29",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      6,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 1,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

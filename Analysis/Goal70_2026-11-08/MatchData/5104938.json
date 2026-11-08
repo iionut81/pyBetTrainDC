@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "5104938",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104938",
+  "verified_at_utc": "2026-11-08T08:33:25.348Z",
+  "general": {
+    "matchId": "5104938",
+    "matchName": "Aalesund-vs-Molde_Sat, Jul 11, 2026, 14:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#eb7805",
+        "away": "#0068b0"
+      },
+      "lightMode": {
+        "home": "#eb7805",
+        "away": "#0D47A0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "13",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Aalesund",
+      "id": 8404
+    },
+    "awayTeam": {
+      "name": "Molde",
+      "id": 9917
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Jul 11, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-07-11T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-11T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "11.07.2026 16:02:06",
+      "firstHalfEnded": "11.07.2026 16:50:24",
+      "secondHalfStarted": "11.07.2026 17:06:10",
+      "secondHalfEnded": "11.07.2026 17:59:27",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "11.07.2026 17:59:27"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8404",
+      "name": "Aalesund",
+      "score": 2
+    },
+    {
+      "id": "9917",
+      "name": "Molde",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 14,
+      "added": 0,
+      "display": "14",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 6,
+      "display": "90+6",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 18,
+      "added": 0,
+      "display": "18",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      5
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      2,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

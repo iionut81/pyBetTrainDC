@@ -1,0 +1,130 @@
+{
+  "ok": true,
+  "id": "5803932",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803932",
+  "verified_at_utc": "2026-11-07T06:56:15.505Z",
+  "general": {
+    "matchId": "5803932",
+    "matchName": "GKS Katowice-vs-Wieczysta Kraków_Mon, Oct 12, 2026, 18:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FEE200",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#dd9e00",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "3",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "GKS Katowice",
+      "id": 4023
+    },
+    "awayTeam": {
+      "name": "Wieczysta Kraków",
+      "id": 1286895
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Oct 12, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-10-12T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-12T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.10.2026 20:31:15",
+      "firstHalfEnded": "12.10.2026 21:16:04",
+      "secondHalfStarted": "12.10.2026 21:33:42",
+      "secondHalfEnded": "12.10.2026 22:21:50",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.10.2026 22:21:50"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "4023",
+      "name": "GKS Katowice",
+      "score": 2
+    },
+    {
+      "id": "1286895",
+      "name": "Wieczysta Kraków",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 15,
+      "added": 0,
+      "display": "15",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      4
+    ],
+    "SecondHalf": [
+      0,
+      4
+    ],
+    "All": [
+      1,
+      8
+    ]
+  },
+  "cards": [],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5803932.json"
+}

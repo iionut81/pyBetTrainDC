@@ -1,0 +1,149 @@
+{
+  "ok": true,
+  "id": "5904776",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904776",
+  "verified_at_utc": "2026-11-06T06:30:41.105Z",
+  "general": {
+    "matchId": "5904776",
+    "matchName": "Gaziantep FK-vs-Erzurumspor FK_Sat, Oct 24, 2026, 13:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#a21f21",
+        "away": "#0086C3"
+      },
+      "lightMode": {
+        "home": "#a21f21",
+        "away": "#0086C3"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "9",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Gaziantep FK",
+      "id": 4081
+    },
+    "awayTeam": {
+      "name": "Erzurumspor FK",
+      "id": 281467
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 24, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-10-24T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-24T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.10.2026 15:01:09",
+      "firstHalfEnded": "24.10.2026 15:49:14",
+      "secondHalfStarted": "24.10.2026 16:06:48",
+      "secondHalfEnded": "24.10.2026 16:56:49",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.10.2026 16:56:49"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "4081",
+      "name": "Gaziantep FK",
+      "score": 1
+    },
+    {
+      "id": "281467",
+      "name": "Erzurumspor FK",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 70,
+      "added": 0,
+      "display": "70",
+      "period": "SecondHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 52,
+      "added": 0,
+      "display": "52",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 64,
+      "added": 0,
+      "display": "64",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      5,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5904776.json"
+}

@@ -1,0 +1,124 @@
+{
+  "ok": true,
+  "id": "5107647",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107647",
+  "verified_at_utc": "2026-11-08T08:33:36.528Z",
+  "general": {
+    "matchId": "5107647",
+    "matchName": "Häcken-vs-IFK Göteborg_Sun, Nov 1, 2026, 15:30 UTC",
+    "matchRound": "27",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F2D024",
+        "away": "#0068B0"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#0068B0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Allsvenskan",
+    "leagueRoundName": "27",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Häcken",
+      "id": 8428
+    },
+    "awayTeam": {
+      "name": "IFK Göteborg",
+      "id": 9893
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-11-01T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T15:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 16:30:25",
+      "firstHalfEnded": "01.11.2026 17:17:31",
+      "secondHalfStarted": "01.11.2026 17:33:20",
+      "secondHalfEnded": "01.11.2026 18:57:07",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 18:57:07"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8428",
+      "name": "Häcken",
+      "score": 1
+    },
+    {
+      "id": "9893",
+      "name": "IFK Göteborg",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 16,
+      "added": 0,
+      "display": "16",
+      "period": "FirstHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      6,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

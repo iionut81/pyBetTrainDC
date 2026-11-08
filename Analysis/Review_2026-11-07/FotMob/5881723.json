@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5881723",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881723",
+  "verified_at_utc": "2026-11-08T08:31:14.612Z",
+  "general": {
+    "matchId": "5881723",
+    "matchName": "1. FC Nürnberg-vs-Darmstadt_Sat, Nov 7, 2026, 12:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#912F3C",
+        "away": "#004D9D"
+      },
+      "lightMode": {
+        "home": "#912F3C",
+        "away": "#102078"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 146,
+    "leagueName": "2. Bundesliga",
+    "leagueRoundName": "11",
+    "parentLeagueId": 146,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "1. FC Nürnberg",
+      "id": 8165
+    },
+    "awayTeam": {
+      "name": "Darmstadt",
+      "id": 8262
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 13:00:30",
+      "firstHalfEnded": "07.11.2026 13:45:44",
+      "secondHalfStarted": "07.11.2026 14:03:32",
+      "secondHalfEnded": "07.11.2026 14:53:58",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 14:53:58"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8165",
+      "name": "1. FC Nürnberg",
+      "score": 2
+    },
+    {
+      "id": "8262",
+      "name": "Darmstadt",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      10,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 17,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "id": "5908662",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908662",
+  "verified_at_utc": "2026-11-08T08:33:35.191Z",
+  "general": {
+    "matchId": "5908662",
+    "matchName": "Mardin 1969 Spor-vs-Fatih Karagümrük_Thu, Oct 15, 2026, 14:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#EE1923",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#EE1923",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "1. Lig",
+    "leagueRoundName": "10",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Mardin 1969 Spor",
+      "id": 1088486
+    },
+    "awayTeam": {
+      "name": "Fatih Karagümrük",
+      "id": 2088
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Thu, Oct 15, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-15T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-15T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.10.2026 16:00:12",
+      "firstHalfEnded": "15.10.2026 16:51:21",
+      "secondHalfStarted": "15.10.2026 17:08:20",
+      "secondHalfEnded": "15.10.2026 17:57:48",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.10.2026 17:57:48"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1088486",
+      "name": "Mardin 1969 Spor",
+      "score": 1
+    },
+    {
+      "id": "2088",
+      "name": "Fatih Karagümrük",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 10,
+      "added": 0,
+      "display": "10"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      5,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

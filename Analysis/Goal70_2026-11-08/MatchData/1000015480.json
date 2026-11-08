@@ -1,0 +1,141 @@
+{
+  "ok": true,
+  "id": "1000015480",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015480",
+  "verified_at_utc": "2026-11-04T06:04:43.977Z",
+  "general": {
+    "matchId": "1000015480",
+    "matchName": "K. Lierse SK-vs-Francs Borains_Sat, Oct 10, 2026, 14:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FEE500",
+        "away": "#05A84F"
+      },
+      "lightMode": {
+        "home": "#dc9f00",
+        "away": "#05A84F"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 264,
+    "leagueName": "Belgian Challenger Pro League",
+    "leagueRoundName": "7",
+    "parentLeagueId": 264,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "K. Lierse SK",
+      "id": 465631
+    },
+    "awayTeam": {
+      "name": "Francs Borains",
+      "id": 96953
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-10T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 16:04:37",
+      "firstHalfEnded": "10.10.2026 16:49:44",
+      "secondHalfStarted": "10.10.2026 17:07:12",
+      "secondHalfEnded": "10.10.2026 17:56:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 17:56:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "465631",
+      "name": "K. Lierse SK",
+      "score": 3
+    },
+    {
+      "id": "96953",
+      "name": "Francs Borains",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 6,
+      "added": 0,
+      "display": "6",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "home",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 59,
+      "added": 0,
+      "display": "59",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      5
+    ],
+    "SecondHalf": [
+      2,
+      4
+    ],
+    "All": [
+      3,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015480.json"
+}

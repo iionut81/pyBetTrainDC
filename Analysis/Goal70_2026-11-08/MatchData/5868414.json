@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "id": "5868414",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868414",
+  "verified_at_utc": "2026-11-07T06:56:28.313Z",
+  "general": {
+    "matchId": "5868414",
+    "matchName": "Tenerife-vs-Almería_Sun, Aug 23, 2026, 19:30 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004fbc",
+        "away": "#ee1119"
+      },
+      "lightMode": {
+        "home": "#0038A7",
+        "away": "#C8282C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "2",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Tenerife",
+      "id": 9867
+    },
+    "awayTeam": {
+      "name": "Almería",
+      "id": 9865
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 19:30 UTC",
+    "matchTimeUTCDate": "2026-08-23T19:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T19:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 21:33:41",
+      "firstHalfEnded": "23.08.2026 22:20:08",
+      "secondHalfStarted": "23.08.2026 22:36:11",
+      "secondHalfEnded": "23.08.2026 23:24:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 23:24:35"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9867",
+      "name": "Tenerife",
+      "score": 1
+    },
+    {
+      "id": "9865",
+      "name": "Almería",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      6
+    ],
+    "All": [
+      5,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 9,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868414.json"
+}

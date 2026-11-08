@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "id": "5104912",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104912",
+  "verified_at_utc": "2026-11-08T08:33:21.615Z",
+  "general": {
+    "matchId": "5104912",
+    "matchName": "Bodø/Glimt-vs-Tromsø_Sat, May 16, 2026, 16:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#f8dc03",
+        "away": "#EB131C"
+      },
+      "lightMode": {
+        "home": "#e09d00",
+        "away": "#EB131C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "9",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Bodø/Glimt",
+      "id": 8402
+    },
+    "awayTeam": {
+      "name": "Tromsø",
+      "id": 8608
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, May 16, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-05-16T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-16T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "16.05.2026 18:00:36",
+      "firstHalfEnded": "16.05.2026 18:51:59",
+      "secondHalfStarted": "16.05.2026 19:06:57",
+      "secondHalfEnded": "16.05.2026 19:54:20",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.05.2026 19:54:20"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "5 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8402",
+      "name": "Bodø/Glimt",
+      "score": 5
+    },
+    {
+      "id": "8608",
+      "name": "Tromsø",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 21,
+      "added": 0,
+      "display": "21",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 66,
+      "added": 0,
+      "display": "66",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      0
+    ],
+    "All": [
+      4,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

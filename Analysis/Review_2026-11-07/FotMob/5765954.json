@@ -1,0 +1,174 @@
+{
+  "ok": true,
+  "id": "5765954",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5765954",
+  "verified_at_utc": "2026-11-08T08:31:16.712Z",
+  "general": {
+    "matchId": "5765954",
+    "matchName": "HNK Gorica-vs-Slaven_Sat, Nov 7, 2026, 14:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D02422",
+        "away": "#135697"
+      },
+      "lightMode": {
+        "home": "#D02422",
+        "away": "#005090"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 252,
+    "leagueName": "HNL",
+    "leagueRoundName": "13",
+    "parentLeagueId": 252,
+    "countryCode": "CRO",
+    "homeTeam": {
+      "name": "HNK Gorica",
+      "id": 206560
+    },
+    "awayTeam": {
+      "name": "Slaven",
+      "id": 1581
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 15:01:52",
+      "firstHalfEnded": "07.11.2026 15:53:58",
+      "secondHalfStarted": "07.11.2026 16:10:41",
+      "secondHalfEnded": "07.11.2026 17:02:56",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 17:02:56"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 5",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "206560",
+      "name": "HNK Gorica",
+      "score": 3
+    },
+    {
+      "id": "1581",
+      "name": "Slaven",
+      "score": 5
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 21,
+      "added": 0,
+      "display": "21"
+    },
+    {
+      "side": "home",
+      "minute": 25,
+      "added": 0,
+      "display": "25"
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 5,
+      "display": "45+5"
+    },
+    {
+      "side": "away",
+      "minute": 17,
+      "added": 0,
+      "display": "17"
+    },
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65"
+    },
+    {
+      "side": "away",
+      "minute": 35,
+      "added": 0,
+      "display": "35"
+    },
+    {
+      "side": "away",
+      "minute": 41,
+      "added": 0,
+      "display": "41"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      8,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "YellowRed",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

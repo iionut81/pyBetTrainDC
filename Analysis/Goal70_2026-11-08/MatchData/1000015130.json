@@ -1,0 +1,123 @@
+{
+  "ok": true,
+  "id": "1000015130",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015130",
+  "verified_at_utc": "2026-11-05T06:08:41.339Z",
+  "general": {
+    "matchId": "1000015130",
+    "matchName": "FK IMT Beograd-vs-FK Crvena Zvezda_Sun, Sep 13, 2026, 17:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FD0000",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#FD0000",
+        "away": "#0D4FBF"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "9",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "FK IMT Beograd",
+      "id": 568569
+    },
+    "awayTeam": {
+      "name": "FK Crvena Zvezda",
+      "id": 8687
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-13T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 18:59:53",
+      "firstHalfEnded": "13.09.2026 19:46:00",
+      "secondHalfStarted": "13.09.2026 20:02:35",
+      "secondHalfEnded": "13.09.2026 20:50:47",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 20:50:47"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "568569",
+      "name": "FK IMT Beograd",
+      "score": 0
+    },
+    {
+      "id": "8687",
+      "name": "FK Crvena Zvezda",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 31,
+      "added": 0,
+      "display": "31"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      5,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015130.json"
+}

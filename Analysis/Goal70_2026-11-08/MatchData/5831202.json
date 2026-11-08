@@ -1,0 +1,163 @@
+{
+  "ok": true,
+  "id": "5831202",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831202",
+  "verified_at_utc": "2026-11-05T06:04:50.964Z",
+  "general": {
+    "matchId": "5831202",
+    "matchName": "Sparta Prague-vs-Slovácko_Sun, Oct 25, 2026, 14:00 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#a12236",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#8E192B",
+        "away": "#183058"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "12",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Sparta Prague",
+      "id": 10247
+    },
+    "awayTeam": {
+      "name": "Slovácko",
+      "id": 2021
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-25T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 15:01:43",
+      "firstHalfEnded": "25.10.2026 15:46:45",
+      "secondHalfStarted": "25.10.2026 16:02:28",
+      "secondHalfEnded": "25.10.2026 16:49:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 16:49:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "5 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10247",
+      "name": "Sparta Prague",
+      "score": 5
+    },
+    {
+      "id": "2021",
+      "name": "Slovácko",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 14,
+      "added": 0,
+      "display": "14"
+    },
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31"
+    },
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37"
+    },
+    {
+      "side": "home",
+      "minute": 71,
+      "added": 0,
+      "display": "71"
+    },
+    {
+      "side": "home",
+      "minute": 47,
+      "added": 0,
+      "display": "47"
+    },
+    {
+      "side": "away",
+      "minute": 59,
+      "added": 0,
+      "display": "59"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      4,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5831202.json"
+}

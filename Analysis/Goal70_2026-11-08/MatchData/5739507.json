@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "5739507",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739507",
+  "verified_at_utc": "2026-11-07T06:59:43.598Z",
+  "general": {
+    "matchId": "5739507",
+    "matchName": "Randers FC-vs-OB_Sun, Sep 13, 2026, 14:00 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#7eb2e7",
+        "away": "#205898"
+      },
+      "lightMode": {
+        "home": "#73A8DC",
+        "away": "#205898"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "8",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "Randers FC",
+      "id": 8410
+    },
+    "awayTeam": {
+      "name": "OB",
+      "id": 8414
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-13T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T14:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 16:01:26",
+      "firstHalfEnded": "13.09.2026 16:50:22",
+      "secondHalfStarted": "13.09.2026 17:05:39",
+      "secondHalfEnded": "13.09.2026 17:53:53",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 17:53:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8410",
+      "name": "Randers FC",
+      "score": 1
+    },
+    {
+      "id": "8414",
+      "name": "OB",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 20,
+      "added": 0,
+      "display": "20",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 77,
+      "added": 0,
+      "display": "77",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      6
+    ],
+    "SecondHalf": [
+      0,
+      5
+    ],
+    "All": [
+      3,
+      11
+    ]
+  },
+  "cards": [
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "YellowRed",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5739507.json"
+}

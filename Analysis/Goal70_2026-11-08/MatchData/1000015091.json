@@ -1,0 +1,162 @@
+{
+  "ok": true,
+  "id": "1000015091",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015091",
+  "verified_at_utc": "2026-11-07T07:00:03.821Z",
+  "general": {
+    "matchId": "1000015091",
+    "matchName": "Radnički Niš-vs-Partizan Beograd_Wed, Oct 28, 2026, 16:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F01008",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#F01008",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "4",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Radnički Niš",
+      "id": 6410
+    },
+    "awayTeam": {
+      "name": "Partizan Beograd",
+      "id": 7998
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Wed, Oct 28, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-10-28T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-28T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "28.10.2026 17:02:06",
+      "firstHalfEnded": "28.10.2026 17:48:41",
+      "secondHalfStarted": "28.10.2026 18:04:29",
+      "secondHalfEnded": "28.10.2026 18:52:30",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "28.10.2026 18:52:30"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6410",
+      "name": "Radnički Niš",
+      "score": 2
+    },
+    {
+      "id": "7998",
+      "name": "Partizan Beograd",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 47,
+      "added": 0,
+      "display": "47"
+    },
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74"
+    },
+    {
+      "side": "away",
+      "minute": 30,
+      "added": 0,
+      "display": "30"
+    },
+    {
+      "side": "away",
+      "minute": 38,
+      "added": 0,
+      "display": "38"
+    },
+    {
+      "side": "away",
+      "minute": 67,
+      "added": 0,
+      "display": "67"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      5
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      3,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015091.json"
+}

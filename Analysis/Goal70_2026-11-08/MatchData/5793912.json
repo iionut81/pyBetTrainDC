@@ -1,0 +1,130 @@
+{
+  "ok": true,
+  "id": "5793912",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793912",
+  "verified_at_utc": "2026-11-07T06:56:34.661Z",
+  "general": {
+    "matchId": "5793912",
+    "matchName": "Hibernian-vs-Kilmarnock_Tue, Sep 15, 2026, 18:45 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#007040",
+        "away": "#0745A4"
+      },
+      "lightMode": {
+        "home": "#007040",
+        "away": "#0745A4"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "3",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "Hibernian",
+      "id": 10251
+    },
+    "awayTeam": {
+      "name": "Kilmarnock",
+      "id": 8597
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Sep 15, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-15T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-15T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "15.09.2026 20:45:55",
+      "firstHalfEnded": "15.09.2026 21:33:07",
+      "secondHalfStarted": "15.09.2026 21:47:42",
+      "secondHalfEnded": "15.09.2026 22:41:24",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.09.2026 22:41:24"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10251",
+      "name": "Hibernian",
+      "score": 0
+    },
+    {
+      "id": "8597",
+      "name": "Kilmarnock",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      13,
+      3
+    ],
+    "All": [
+      15,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "YellowRed",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5793912.json"
+}

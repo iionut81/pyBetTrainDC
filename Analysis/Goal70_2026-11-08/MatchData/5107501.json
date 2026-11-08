@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5107501",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107501",
+  "verified_at_utc": "2026-11-08T08:33:38.321Z",
+  "general": {
+    "matchId": "5107501",
+    "matchName": "Djurgården-vs-Brommapojkarna_Fri, May 22, 2026, 17:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#83B2CA",
+        "away": "#D21A0E"
+      },
+      "lightMode": {
+        "home": "#15263E",
+        "away": "#D21A0E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "9",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Djurgården",
+      "id": 9802
+    },
+    "awayTeam": {
+      "name": "Brommapojkarna",
+      "id": 8501
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, May 22, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-05-22T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-22T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.05.2026 19:02:13",
+      "firstHalfEnded": "22.05.2026 19:50:17",
+      "secondHalfStarted": "22.05.2026 20:05:47",
+      "secondHalfEnded": "22.05.2026 20:55:06",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.05.2026 20:55:06"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9802",
+      "name": "Djurgården",
+      "score": 1
+    },
+    {
+      "id": "8501",
+      "name": "Brommapojkarna",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 28,
+      "added": 0,
+      "display": "28",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      5
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      3,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "id": "5887601",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887601",
+  "verified_at_utc": "2026-11-08T08:33:29.642Z",
+  "general": {
+    "matchId": "5887601",
+    "matchName": "Estoril-vs-Rio Ave_Sat, Aug 22, 2026, 17:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E8D812",
+        "away": "#015F24"
+      },
+      "lightMode": {
+        "home": "#0858A0",
+        "away": "#015F24"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "3",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Estoril",
+      "id": 7842
+    },
+    "awayTeam": {
+      "name": "Rio Ave",
+      "id": 7841
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 22, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-08-22T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-22T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.08.2026 19:02:28",
+      "firstHalfEnded": "22.08.2026 19:48:02",
+      "secondHalfStarted": "22.08.2026 20:03:40",
+      "secondHalfEnded": "22.08.2026 20:53:08",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.08.2026 20:53:08"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7842",
+      "name": "Estoril",
+      "score": 0
+    },
+    {
+      "id": "7841",
+      "name": "Rio Ave",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 15,
+      "added": 0,
+      "display": "15",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 72,
+      "added": 0,
+      "display": "72",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

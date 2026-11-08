@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5781799",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781799",
+  "verified_at_utc": "2026-11-08T08:31:16.378Z",
+  "general": {
+    "matchId": "5781799",
+    "matchName": "ADO Den Haag-vs-Sparta Rotterdam_Sat, Nov 7, 2026, 17:45 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#008135",
+        "away": "#E50020"
+      },
+      "lightMode": {
+        "home": "#008135",
+        "away": "#E50020"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "12",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "ADO Den Haag",
+      "id": 10217
+    },
+    "awayTeam": {
+      "name": "Sparta Rotterdam",
+      "id": 8614
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 17:45 UTC",
+    "matchTimeUTCDate": "2026-11-07T17:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T17:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 18:45:59",
+      "firstHalfEnded": "07.11.2026 19:33:18",
+      "secondHalfStarted": "07.11.2026 19:49:20",
+      "secondHalfEnded": "07.11.2026 20:39:31",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 20:39:31"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10217",
+      "name": "ADO Den Haag",
+      "score": 3
+    },
+    {
+      "id": "8614",
+      "name": "Sparta Rotterdam",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 22,
+      "added": 0,
+      "display": "22",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      6
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      5,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

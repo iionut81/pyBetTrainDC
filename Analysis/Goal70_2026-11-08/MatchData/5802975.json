@@ -1,0 +1,467 @@
+{
+  "ok": true,
+  "league": "fra.1",
+  "id": "5802975",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802975",
+  "match_source": "https://www.fotmob.com/matches/brest-vs-lorient/2g6hwg#5802975",
+  "fetched_at_utc": "2026-11-03T07:58:16.5058859Z",
+  "general": {
+    "matchId": "5802975",
+    "leagueName": "Ligue 1",
+    "parentLeagueId": 53,
+    "matchTimeUTC": "Mon, Nov 2, 2026, 19:45 UTC",
+    "started": true,
+    "finished": true,
+    "homeTeam": {
+      "name": "Lorient",
+      "id": 8689
+    },
+    "awayTeam": {
+      "name": "Brest",
+      "id": 8521
+    }
+  },
+  "status": {
+    "utcTime": "2026-11-02T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.11.2026 20:45:13",
+      "firstHalfEnded": "02.11.2026 21:30:34",
+      "secondHalfStarted": "02.11.2026 21:46:40",
+      "secondHalfEnded": "02.11.2026 22:36:16",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.11.2026 22:36:16"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": 8689,
+      "name": "Lorient",
+      "score": 0
+    },
+    {
+      "id": 8521,
+      "name": "Brest",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 69,
+      "added_time": null,
+      "time_str": 69,
+      "event_id": 14690930,
+      "home_score": 0,
+      "away_score": 0,
+      "goal_description": null,
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added_time": 2,
+      "time_str": "90 + 2",
+      "event_id": 14691054,
+      "home_score": 0,
+      "away_score": 1,
+      "goal_description": null,
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": [
+    {
+      "period": "All",
+      "key": "BallPossesion",
+      "title": "Ball possession",
+      "values": [
+        52,
+        48
+      ]
+    },
+    {
+      "period": "All",
+      "key": "expected_goals",
+      "title": "Expected goals (xG)",
+      "values": [
+        "1.74",
+        "1.31"
+      ]
+    },
+    {
+      "period": "All",
+      "key": "total_shots",
+      "title": "Total shots",
+      "values": [
+        15,
+        12
+      ]
+    },
+    {
+      "period": "All",
+      "key": "ShotsOnTarget",
+      "title": "Shots on target",
+      "values": [
+        0,
+        4
+      ]
+    },
+    {
+      "period": "All",
+      "key": "touches_opp_box",
+      "title": "Touches in opposition box",
+      "values": [
+        42,
+        16
+      ]
+    },
+    {
+      "period": "All",
+      "key": "big_chance",
+      "title": "Big chances",
+      "values": [
+        3,
+        2
+      ]
+    },
+    {
+      "period": "All",
+      "key": "corners",
+      "title": "Corners",
+      "values": [
+        8,
+        2
+      ]
+    },
+    {
+      "period": "All",
+      "key": "total_shots",
+      "title": "Total shots",
+      "values": [
+        15,
+        12
+      ]
+    },
+    {
+      "period": "All",
+      "key": "ShotsOnTarget",
+      "title": "Shots on target",
+      "values": [
+        0,
+        4
+      ]
+    },
+    {
+      "period": "All",
+      "key": "blocked_shots",
+      "title": "Blocked shots",
+      "values": [
+        6,
+        6
+      ]
+    },
+    {
+      "period": "All",
+      "key": "expected_goals",
+      "title": "Expected goals (xG)",
+      "values": [
+        null,
+        null
+      ]
+    },
+    {
+      "period": "All",
+      "key": "expected_goals",
+      "title": "Expected goals (xG)",
+      "values": [
+        "1.74",
+        "1.31"
+      ]
+    },
+    {
+      "period": "All",
+      "key": "touches_opp_box",
+      "title": "Touches in opposition box",
+      "values": [
+        42,
+        16
+      ]
+    },
+    {
+      "period": "FirstHalf",
+      "key": "BallPossesion",
+      "title": "Ball possession",
+      "values": [
+        51,
+        49
+      ]
+    },
+    {
+      "period": "FirstHalf",
+      "key": "expected_goals",
+      "title": "Expected goals (xG)",
+      "values": [
+        "0.41",
+        "0.12"
+      ]
+    },
+    {
+      "period": "FirstHalf",
+      "key": "total_shots",
+      "title": "Total shots",
+      "values": [
+        8,
+        3
+      ]
+    },
+    {
+      "period": "FirstHalf",
+      "key": "ShotsOnTarget",
+      "title": "Shots on target",
+      "values": [
+        0,
+        1
+      ]
+    },
+    {
+      "period": "FirstHalf",
+      "key": "touches_opp_box",
+      "title": "Touches in opposition box",
+      "values": [
+        23,
+        5
+      ]
+    },
+    {
+      "period": "FirstHalf",
+      "key": "big_chance",
+      "title": "Big chances",
+      "values": [
+        0,
+        0
+      ]
+    },
+    {
+      "period": "FirstHalf",
+      "key": "corners",
+      "title": "Corners",
+      "values": [
+        4,
+        2
+      ]
+    },
+    {
+      "period": "FirstHalf",
+      "key": "total_shots",
+      "title": "Total shots",
+      "values": [
+        8,
+        3
+      ]
+    },
+    {
+      "period": "FirstHalf",
+      "key": "ShotsOnTarget",
+      "title": "Shots on target",
+      "values": [
+        0,
+        1
+      ]
+    },
+    {
+      "period": "FirstHalf",
+      "key": "blocked_shots",
+      "title": "Blocked shots",
+      "values": [
+        4,
+        2
+      ]
+    },
+    {
+      "period": "FirstHalf",
+      "key": "expected_goals",
+      "title": "Expected goals (xG)",
+      "values": [
+        null,
+        null
+      ]
+    },
+    {
+      "period": "FirstHalf",
+      "key": "expected_goals",
+      "title": "Expected goals (xG)",
+      "values": [
+        "0.41",
+        "0.12"
+      ]
+    },
+    {
+      "period": "FirstHalf",
+      "key": "touches_opp_box",
+      "title": "Touches in opposition box",
+      "values": [
+        23,
+        5
+      ]
+    },
+    {
+      "period": "SecondHalf",
+      "key": "BallPossesion",
+      "title": "Ball possession",
+      "values": [
+        53,
+        47
+      ]
+    },
+    {
+      "period": "SecondHalf",
+      "key": "expected_goals",
+      "title": "Expected goals (xG)",
+      "values": [
+        "1.33",
+        "1.19"
+      ]
+    },
+    {
+      "period": "SecondHalf",
+      "key": "total_shots",
+      "title": "Total shots",
+      "values": [
+        7,
+        9
+      ]
+    },
+    {
+      "period": "SecondHalf",
+      "key": "ShotsOnTarget",
+      "title": "Shots on target",
+      "values": [
+        0,
+        3
+      ]
+    },
+    {
+      "period": "SecondHalf",
+      "key": "touches_opp_box",
+      "title": "Touches in opposition box",
+      "values": [
+        19,
+        11
+      ]
+    },
+    {
+      "period": "SecondHalf",
+      "key": "big_chance",
+      "title": "Big chances",
+      "values": [
+        3,
+        2
+      ]
+    },
+    {
+      "period": "SecondHalf",
+      "key": "corners",
+      "title": "Corners",
+      "values": [
+        4,
+        0
+      ]
+    },
+    {
+      "period": "SecondHalf",
+      "key": "total_shots",
+      "title": "Total shots",
+      "values": [
+        7,
+        9
+      ]
+    },
+    {
+      "period": "SecondHalf",
+      "key": "ShotsOnTarget",
+      "title": "Shots on target",
+      "values": [
+        0,
+        3
+      ]
+    },
+    {
+      "period": "SecondHalf",
+      "key": "blocked_shots",
+      "title": "Blocked shots",
+      "values": [
+        2,
+        4
+      ]
+    },
+    {
+      "period": "SecondHalf",
+      "key": "expected_goals",
+      "title": "Expected goals (xG)",
+      "values": [
+        null,
+        null
+      ]
+    },
+    {
+      "period": "SecondHalf",
+      "key": "expected_goals",
+      "title": "Expected goals (xG)",
+      "values": [
+        "1.33",
+        "1.19"
+      ]
+    },
+    {
+      "period": "SecondHalf",
+      "key": "touches_opp_box",
+      "title": "Touches in opposition box",
+      "values": [
+        19,
+        11
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "type": "Card",
+      "time": 41,
+      "timeStr": 41,
+      "isHome": false,
+      "card": "Yellow",
+      "cardType": null,
+      "overloadTime": null
+    },
+    {
+      "type": "Card",
+      "time": 58,
+      "timeStr": 58,
+      "isHome": true,
+      "card": "Yellow",
+      "cardType": null,
+      "overloadTime": null
+    }
+  ],
+  "formations": {
+    "homeFormation": null,
+    "awayFormation": null
+  },
+  "reused_from": "Analysis/Review_2026-11-02/FotMob/5802975.json"
+}

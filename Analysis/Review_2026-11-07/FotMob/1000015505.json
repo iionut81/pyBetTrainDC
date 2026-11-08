@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "1000015505",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015505",
+  "verified_at_utc": "2026-11-08T08:31:23.988Z",
+  "general": {
+    "matchId": "1000015505",
+    "matchName": "Virton-vs-Beerschot_Sat, Nov 7, 2026, 19:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2e6b2f",
+        "away": "#684890"
+      },
+      "lightMode": {
+        "home": "#2e6b2f",
+        "away": "#54367C"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 264,
+    "leagueName": "First Division B",
+    "leagueRoundName": "10",
+    "parentLeagueId": 264,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Virton",
+      "id": 8174
+    },
+    "awayTeam": {
+      "name": "Beerschot",
+      "id": 583877
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 20:03:47",
+      "firstHalfEnded": "07.11.2026 20:51:00",
+      "secondHalfStarted": "07.11.2026 21:06:17",
+      "secondHalfEnded": "07.11.2026 21:57:44",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 21:57:44"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8174",
+      "name": "Virton",
+      "score": 1
+    },
+    {
+      "id": "583877",
+      "name": "Beerschot",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 7,
+      "added": 0,
+      "display": "7",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      3
+    ],
+    "SecondHalf": [
+      0,
+      1
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 5,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

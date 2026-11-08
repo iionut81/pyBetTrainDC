@@ -1,0 +1,164 @@
+{
+  "ok": true,
+  "id": "5803105",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5803105",
+  "verified_at_utc": "2026-11-04T06:04:33.531Z",
+  "general": {
+    "matchId": "5803105",
+    "matchName": "Rennes-vs-Paris Saint-Germain_Sun, Aug 23, 2026, 18:45 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E13327",
+        "away": "#245593"
+      },
+      "lightMode": {
+        "home": "#E13327",
+        "away": "#273F6D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "1",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Rennes",
+      "id": 9851
+    },
+    "awayTeam": {
+      "name": "Paris Saint-Germain",
+      "id": 9847
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 23, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-08-23T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-23T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "23.08.2026 20:45:21",
+      "firstHalfEnded": "23.08.2026 21:32:31",
+      "secondHalfStarted": "23.08.2026 21:48:26",
+      "secondHalfEnded": "23.08.2026 22:37:34",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "23.08.2026 22:37:34"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9851",
+      "name": "Rennes",
+      "score": 2
+    },
+    {
+      "id": "9847",
+      "name": "Paris Saint-Germain",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 9,
+      "added": 0,
+      "display": "9",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 71,
+      "added": 0,
+      "display": "71",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      7
+    ],
+    "SecondHalf": [
+      0,
+      3
+    ],
+    "All": [
+      0,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5803105.json"
+}

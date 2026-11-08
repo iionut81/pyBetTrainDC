@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "1000015439",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015439",
+  "verified_at_utc": "2026-11-07T06:59:59.657Z",
+  "general": {
+    "matchId": "1000015439",
+    "matchName": "RFC Seraing-vs-KSC Lokeren_Fri, Aug 14, 2026, 18:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D41A27",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#D41A27",
+        "away": "#e09d00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 264,
+    "leagueName": "Belgian Challenger Pro League",
+    "leagueRoundName": "1",
+    "parentLeagueId": 264,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "RFC Seraing",
+      "id": 149408
+    },
+    "awayTeam": {
+      "name": "KSC Lokeren",
+      "id": 213307
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Aug 14, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-08-14T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-14T18:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "14.08.2026 20:00:06",
+      "firstHalfEnded": "14.08.2026 20:51:14",
+      "secondHalfStarted": "14.08.2026 21:06:15",
+      "secondHalfEnded": "14.08.2026 21:59:48",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.08.2026 21:59:48"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "149408",
+      "name": "RFC Seraing",
+      "score": 0
+    },
+    {
+      "id": "213307",
+      "name": "KSC Lokeren",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 20,
+      "added": 0,
+      "display": "20",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 37,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015439.json"
+}

@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "1000015156",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015156",
+  "verified_at_utc": "2026-11-07T07:00:03.144Z",
+  "general": {
+    "matchId": "1000015156",
+    "matchName": "Partizan Beograd-vs-Čukarički_Sat, Oct 24, 2026, 14:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#DAAD01"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#DA9E00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Serbian Super Liga",
+    "leagueRoundName": "13",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Partizan Beograd",
+      "id": 7998
+    },
+    "awayTeam": {
+      "name": "Čukarički",
+      "id": 6374
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Oct 24, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-24T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-24T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.10.2026 16:03:17",
+      "firstHalfEnded": "24.10.2026 16:51:36",
+      "secondHalfStarted": "24.10.2026 17:09:00",
+      "secondHalfEnded": "24.10.2026 17:57:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.10.2026 17:57:17"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7998",
+      "name": "Partizan Beograd",
+      "score": 0
+    },
+    {
+      "id": "6374",
+      "name": "Čukarički",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 34,
+      "added": 0,
+      "display": "34"
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      8,
+      0
+    ],
+    "All": [
+      12,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015156.json"
+}

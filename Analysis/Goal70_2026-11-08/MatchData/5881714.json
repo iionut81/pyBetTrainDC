@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5881714",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881714",
+  "verified_at_utc": "2026-11-08T08:33:20.036Z",
+  "general": {
+    "matchId": "5881714",
+    "matchName": "Karlsruher SC-vs-FC Heidenheim_Sat, Oct 31, 2026, 19:30 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0051a6",
+        "away": "#E20613"
+      },
+      "lightMode": {
+        "home": "#004080",
+        "away": "#E20613"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 146,
+    "leagueName": "2. Bundesliga",
+    "leagueRoundName": "10",
+    "parentLeagueId": 146,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Karlsruher SC",
+      "id": 8295
+    },
+    "awayTeam": {
+      "name": "FC Heidenheim",
+      "id": 94937
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 31, 2026, 19:30 UTC",
+    "matchTimeUTCDate": "2026-10-31T19:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-31T19:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "31.10.2026 20:30:40",
+      "firstHalfEnded": "31.10.2026 21:17:50",
+      "secondHalfStarted": "31.10.2026 21:35:10",
+      "secondHalfEnded": "31.10.2026 22:25:50",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "31.10.2026 22:25:50"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8295",
+      "name": "Karlsruher SC",
+      "score": 2
+    },
+    {
+      "id": "94937",
+      "name": "FC Heidenheim",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      4,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

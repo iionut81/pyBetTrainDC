@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5781769",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781769",
+  "verified_at_utc": "2026-11-07T06:56:20.640Z",
+  "general": {
+    "matchId": "5781769",
+    "matchName": "SC Heerenveen-vs-Excelsior_Fri, Oct 16, 2026, 18:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1053a4",
+        "away": "#C81018"
+      },
+      "lightMode": {
+        "home": "#004F9F",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "9",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "SC Heerenveen",
+      "id": 10228
+    },
+    "awayTeam": {
+      "name": "Excelsior",
+      "id": 10218
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 16, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-10-16T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-16T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.10.2026 20:01:09",
+      "firstHalfEnded": "16.10.2026 20:48:40",
+      "secondHalfStarted": "16.10.2026 21:05:57",
+      "secondHalfEnded": "16.10.2026 21:53:13",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.10.2026 21:53:13"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10228",
+      "name": "SC Heerenveen",
+      "score": 4
+    },
+    {
+      "id": "10218",
+      "name": "Excelsior",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 84,
+      "added": 0,
+      "display": "84",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      4,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5781769.json"
+}

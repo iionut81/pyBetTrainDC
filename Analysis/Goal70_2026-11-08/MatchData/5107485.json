@@ -1,0 +1,184 @@
+{
+  "ok": true,
+  "id": "5107485",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107485",
+  "verified_at_utc": "2026-11-08T08:33:38.124Z",
+  "general": {
+    "matchId": "5107485",
+    "matchName": "AIK-vs-Djurgården_Sun, May 10, 2026, 12:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#EACF4A",
+        "away": "#83B2CA"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#6E9CB4"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "7",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "AIK",
+      "id": 8349
+    },
+    "awayTeam": {
+      "name": "Djurgården",
+      "id": 9802
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, May 10, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-05-10T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-10T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.05.2026 14:01:08",
+      "firstHalfEnded": "10.05.2026 14:50:13",
+      "secondHalfStarted": "10.05.2026 15:06:02",
+      "secondHalfEnded": "10.05.2026 16:12:24",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.05.2026 16:12:24"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8349",
+      "name": "AIK",
+      "score": 2
+    },
+    {
+      "id": "9802",
+      "name": "Djurgården",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 21,
+      "added": 0,
+      "display": "21",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 10,
+      "added": 0,
+      "display": "10",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 16,
+      "added": 0,
+      "display": "16",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 85,
+      "added": 0,
+      "display": "85",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      4
+    ],
+    "SecondHalf": [
+      4,
+      5
+    ],
+    "All": [
+      7,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

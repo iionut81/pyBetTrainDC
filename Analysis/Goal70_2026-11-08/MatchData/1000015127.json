@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "1000015127",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015127",
+  "verified_at_utc": "2026-11-07T07:00:03.050Z",
+  "general": {
+    "matchId": "1000015127",
+    "matchName": "Čukarički-vs-Novi Pazar_Sat, Sep 12, 2026, 16:30 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#004080"
+      },
+      "lightMode": {
+        "home": "#1e1e1e",
+        "away": "#004080"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "9",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Čukarički",
+      "id": 6374
+    },
+    "awayTeam": {
+      "name": "Novi Pazar",
+      "id": 187854
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-09-12T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 18:33:03",
+      "firstHalfEnded": "12.09.2026 19:19:10",
+      "secondHalfStarted": "12.09.2026 19:35:51",
+      "secondHalfEnded": "12.09.2026 20:23:54",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 20:23:54"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6374",
+      "name": "Čukarički",
+      "score": 1
+    },
+    {
+      "id": "187854",
+      "name": "Novi Pazar",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 17,
+      "added": 0,
+      "display": "17"
+    },
+    {
+      "side": "away",
+      "minute": 38,
+      "added": 0,
+      "display": "38"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      2,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015127.json"
+}

@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "id": "5908675",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908675",
+  "verified_at_utc": "2026-11-07T06:59:47.613Z",
+  "general": {
+    "matchId": "5908675",
+    "matchName": "Pendikspor-vs-Kayserispor_Sun, Oct 25, 2026, 10:30 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C21E16",
+        "away": "#D6A20B"
+      },
+      "lightMode": {
+        "home": "#C21E16",
+        "away": "#D6A20B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "12",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Pendikspor",
+      "id": 95745
+    },
+    "awayTeam": {
+      "name": "Kayserispor",
+      "id": 10182
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 25, 2026, 10:30 UTC",
+    "matchTimeUTCDate": "2026-10-25T10:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-25T10:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.10.2026 11:30:38",
+      "firstHalfEnded": "25.10.2026 12:18:43",
+      "secondHalfStarted": "25.10.2026 12:35:22",
+      "secondHalfEnded": "25.10.2026 13:28:52",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.10.2026 13:28:52"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "95745",
+      "name": "Pendikspor",
+      "score": 2
+    },
+    {
+      "id": "10182",
+      "name": "Kayserispor",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 28,
+      "added": 0,
+      "display": "28"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 7,
+      "display": "90+7"
+    },
+    {
+      "side": "away",
+      "minute": 58,
+      "added": 0,
+      "display": "58"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      5,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 26,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5908675.json"
+}

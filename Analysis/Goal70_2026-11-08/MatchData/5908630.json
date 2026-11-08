@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "5908630",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908630",
+  "verified_at_utc": "2026-11-07T06:59:47.569Z",
+  "general": {
+    "matchId": "5908630",
+    "matchName": "Boluspor-vs-Pendikspor_Sat, Sep 12, 2026, 14:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#EE2722",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#EE2722",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "Turkish 1. Lig",
+    "leagueRoundName": "7",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Boluspor",
+      "id": 4675
+    },
+    "awayTeam": {
+      "name": "Pendikspor",
+      "id": 95745
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Sep 12, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-12T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-12T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "12.09.2026 15:59:36",
+      "firstHalfEnded": "12.09.2026 16:46:37",
+      "secondHalfStarted": "12.09.2026 17:01:11",
+      "secondHalfEnded": "12.09.2026 17:52:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "12.09.2026 17:52:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "4675",
+      "name": "Boluspor",
+      "score": 1
+    },
+    {
+      "id": "95745",
+      "name": "Pendikspor",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37"
+    },
+    {
+      "side": "away",
+      "minute": 66,
+      "added": 0,
+      "display": "66"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      5
+    ],
+    "SecondHalf": [
+      1,
+      5
+    ],
+    "All": [
+      3,
+      10
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5908630.json"
+}

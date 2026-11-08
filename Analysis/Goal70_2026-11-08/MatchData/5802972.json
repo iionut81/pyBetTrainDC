@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "id": "5802972",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802972",
+  "verified_at_utc": "2026-11-05T06:04:50.449Z",
+  "general": {
+    "matchId": "5802972",
+    "matchName": "Paris Saint-Germain-vs-Lyon_Mon, Oct 26, 2026, 19:30 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#245593",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#273F6D",
+        "away": "#c62b39"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "8",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Paris Saint-Germain",
+      "id": 9847
+    },
+    "awayTeam": {
+      "name": "Lyon",
+      "id": 9748
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Oct 26, 2026, 19:30 UTC",
+    "matchTimeUTCDate": "2026-10-26T19:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-26T19:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "26.10.2026 20:30:04",
+      "firstHalfEnded": "26.10.2026 21:15:29",
+      "secondHalfStarted": "26.10.2026 21:31:47",
+      "secondHalfEnded": "26.10.2026 22:21:52",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.10.2026 22:21:52"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9847",
+      "name": "Paris Saint-Germain",
+      "score": 2
+    },
+    {
+      "id": "9748",
+      "name": "Lyon",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 72,
+      "added": 0,
+      "display": "72",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 84,
+      "added": 0,
+      "display": "84",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      7,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5802972.json"
+}

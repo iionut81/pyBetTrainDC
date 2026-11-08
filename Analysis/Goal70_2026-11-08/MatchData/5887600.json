@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "id": "5887600",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887600",
+  "verified_at_utc": "2026-11-05T06:08:36.438Z",
+  "general": {
+    "matchId": "5887600",
+    "matchName": "Estrela da Amadora-vs-Braga_Thu, Sep 10, 2026, 19:15 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#186e48",
+        "away": "#D9222A"
+      },
+      "lightMode": {
+        "home": "#00613C",
+        "away": "#D9222A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "3",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Estrela da Amadora",
+      "id": 1074320
+    },
+    "awayTeam": {
+      "name": "Braga",
+      "id": 10264
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Sep 10, 2026, 19:15 UTC",
+    "matchTimeUTCDate": "2026-09-10T19:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-10T19:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.09.2026 21:16:13",
+      "firstHalfEnded": "10.09.2026 22:02:28",
+      "secondHalfStarted": "10.09.2026 22:20:21",
+      "secondHalfEnded": "10.09.2026 23:10:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.09.2026 23:10:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1074320",
+      "name": "Estrela da Amadora",
+      "score": 2
+    },
+    {
+      "id": "10264",
+      "name": "Braga",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 56,
+      "added": 0,
+      "display": "56",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 5,
+      "added": 0,
+      "display": "5",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      7
+    ],
+    "All": [
+      5,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5887600.json"
+}

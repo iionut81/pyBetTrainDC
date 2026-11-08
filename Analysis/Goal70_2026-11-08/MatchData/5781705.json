@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "id": "5781705",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5781705",
+  "verified_at_utc": "2026-11-06T06:30:26.889Z",
+  "general": {
+    "matchId": "5781705",
+    "matchName": "FC Twente-vs-PEC Zwolle_Sun, Aug 16, 2026, 12:30 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#CA0216",
+        "away": "#0154A1"
+      },
+      "lightMode": {
+        "home": "#CA0216",
+        "away": "#0154A1"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937276,
+    "leagueName": "Eredivisie",
+    "leagueRoundName": "2",
+    "parentLeagueId": 57,
+    "countryCode": "NED",
+    "homeTeam": {
+      "name": "FC Twente",
+      "id": 8611
+    },
+    "awayTeam": {
+      "name": "PEC Zwolle",
+      "id": 6413
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 16, 2026, 12:30 UTC",
+    "matchTimeUTCDate": "2026-08-16T12:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-16T12:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.08.2026 14:32:02",
+      "firstHalfEnded": "16.08.2026 15:19:37",
+      "secondHalfStarted": "16.08.2026 15:34:55",
+      "secondHalfEnded": "16.08.2026 16:23:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.08.2026 16:23:17"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8611",
+      "name": "FC Twente",
+      "score": 3
+    },
+    {
+      "id": "6413",
+      "name": "PEC Zwolle",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 59,
+      "added": 0,
+      "display": "59",
+      "period": "SecondHalf",
+      "own_goal": true
+    },
+    {
+      "side": "home",
+      "minute": 69,
+      "added": 0,
+      "display": "69",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 21,
+      "added": 0,
+      "display": "21",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      2
+    ],
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5781705.json"
+}

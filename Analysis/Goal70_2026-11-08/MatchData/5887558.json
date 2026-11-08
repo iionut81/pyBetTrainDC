@@ -1,0 +1,157 @@
+{
+  "ok": true,
+  "id": "5887558",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887558",
+  "verified_at_utc": "2026-11-07T06:56:30.766Z",
+  "general": {
+    "matchId": "5887558",
+    "matchName": "Estrela da Amadora-vs-Sporting CP_Sat, Aug 8, 2026, 19:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#186e48",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#00613C",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 61,
+    "leagueName": "Liga Portugal",
+    "leagueRoundName": "1",
+    "parentLeagueId": 61,
+    "countryCode": "POR",
+    "homeTeam": {
+      "name": "Estrela da Amadora",
+      "id": 1074320
+    },
+    "awayTeam": {
+      "name": "Sporting CP",
+      "id": 9768
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 8, 2026, 19:30 UTC",
+    "matchTimeUTCDate": "2026-08-08T19:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-08T19:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.08.2026 21:30:14",
+      "firstHalfEnded": "08.08.2026 22:16:57",
+      "secondHalfStarted": "08.08.2026 22:33:38",
+      "secondHalfEnded": "08.08.2026 23:23:27",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.08.2026 23:23:27"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1074320",
+      "name": "Estrela da Amadora",
+      "score": 2
+    },
+    {
+      "id": "9768",
+      "name": "Sporting CP",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 72,
+      "added": 0,
+      "display": "72",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 84,
+      "added": 0,
+      "display": "84"
+    },
+    {
+      "side": "away",
+      "minute": 46,
+      "added": 0,
+      "display": "46",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 59,
+      "added": 0,
+      "display": "59",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      5,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5887558.json"
+}

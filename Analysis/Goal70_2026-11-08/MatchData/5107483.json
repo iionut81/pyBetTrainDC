@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "id": "5107483",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107483",
+  "verified_at_utc": "2026-11-08T08:33:40.470Z",
+  "general": {
+    "matchId": "5107483",
+    "matchName": "Sirius-vs-Kalmar FF_Sat, May 2, 2026, 13:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#175b9e",
+        "away": "#F00000"
+      },
+      "lightMode": {
+        "home": "#2a497f",
+        "away": "#F00000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "6",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Sirius",
+      "id": 6694
+    },
+    "awayTeam": {
+      "name": "Kalmar FF",
+      "id": 9892
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, May 2, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-05-02T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-02T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.05.2026 15:01:22",
+      "firstHalfEnded": "02.05.2026 15:48:04",
+      "secondHalfStarted": "02.05.2026 16:03:24",
+      "secondHalfEnded": "02.05.2026 16:56:29",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.05.2026 16:56:29"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6694",
+      "name": "Sirius",
+      "score": 3
+    },
+    {
+      "id": "9892",
+      "name": "Kalmar FF",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 64,
+      "added": 0,
+      "display": "64",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      4
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      6,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

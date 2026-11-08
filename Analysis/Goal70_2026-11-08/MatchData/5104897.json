@@ -1,0 +1,134 @@
+{
+  "ok": true,
+  "id": "5104897",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104897",
+  "verified_at_utc": "2026-11-08T08:33:22.535Z",
+  "general": {
+    "matchId": "5104897",
+    "matchName": "Bodø/Glimt-vs-Molde_Mon, May 4, 2026, 17:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#f8dc03",
+        "away": "#0068b0"
+      },
+      "lightMode": {
+        "home": "#e09d00",
+        "away": "#0D47A0"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "7",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Bodø/Glimt",
+      "id": 8402
+    },
+    "awayTeam": {
+      "name": "Molde",
+      "id": 9917
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, May 4, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-05-04T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-04T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "04.05.2026 19:00:29",
+      "firstHalfEnded": "04.05.2026 19:48:57",
+      "secondHalfStarted": "04.05.2026 20:04:20",
+      "secondHalfEnded": "04.05.2026 20:58:05",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "04.05.2026 20:58:05"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8402",
+      "name": "Bodø/Glimt",
+      "score": 0
+    },
+    {
+      "id": "9917",
+      "name": "Molde",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 36,
+      "added": 0,
+      "display": "36",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      0
+    ],
+    "SecondHalf": [
+      6,
+      1
+    ],
+    "All": [
+      11,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 56,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

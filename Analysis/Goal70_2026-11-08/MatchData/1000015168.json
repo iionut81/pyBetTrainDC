@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "1000015168",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015168",
+  "verified_at_utc": "2026-11-07T07:00:01.314Z",
+  "general": {
+    "matchId": "1000015168",
+    "matchName": "Partizan Beograd-vs-FK Zemun_Sun, Nov 1, 2026, 16:00 UTC",
+    "matchRound": "14",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#017538"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#017538"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "14",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Partizan Beograd",
+      "id": 7998
+    },
+    "awayTeam": {
+      "name": "FK Zemun",
+      "id": 6231
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-11-01T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 17:03:17",
+      "firstHalfEnded": "01.11.2026 17:51:23",
+      "secondHalfStarted": "01.11.2026 18:09:45",
+      "secondHalfEnded": "01.11.2026 18:59:03",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 18:59:03"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7998",
+      "name": "Partizan Beograd",
+      "score": 3
+    },
+    {
+      "id": "6231",
+      "name": "FK Zemun",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 30,
+      "added": 0,
+      "display": "30"
+    },
+    {
+      "side": "home",
+      "minute": 47,
+      "added": 0,
+      "display": "47"
+    },
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      7,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015168.json"
+}

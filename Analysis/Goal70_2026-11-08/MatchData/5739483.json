@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5739483",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5739483",
+  "verified_at_utc": "2026-11-05T06:08:50.524Z",
+  "general": {
+    "matchId": "5739483",
+    "matchName": "Randers FC-vs-FC København_Sun, Aug 16, 2026, 16:00 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#7eb2e7",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#73A8DC",
+        "away": "#375196"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 935487,
+    "leagueName": "Superligaen",
+    "leagueRoundName": "4",
+    "parentLeagueId": 46,
+    "countryCode": "DEN",
+    "homeTeam": {
+      "name": "Randers FC",
+      "id": 8410
+    },
+    "awayTeam": {
+      "name": "FC København",
+      "id": 8391
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 16, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-08-16T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-16T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.08.2026 18:00:58",
+      "firstHalfEnded": "16.08.2026 18:48:26",
+      "secondHalfStarted": "16.08.2026 19:03:51",
+      "secondHalfEnded": "16.08.2026 19:54:03",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.08.2026 19:54:03"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8410",
+      "name": "Randers FC",
+      "score": 0
+    },
+    {
+      "id": "8391",
+      "name": "FC København",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 2,
+      "added": 0,
+      "display": "2",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 14,
+      "added": 0,
+      "display": "14",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 77,
+      "added": 0,
+      "display": "77",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      6,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-05/MatchData/5739483.json"
+}

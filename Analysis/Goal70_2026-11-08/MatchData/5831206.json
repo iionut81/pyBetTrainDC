@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5831206",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831206",
+  "verified_at_utc": "2026-11-07T06:56:05.766Z",
+  "general": {
+    "matchId": "5831206",
+    "matchName": "Pardubice-vs-Slovan Liberec_Sat, Oct 31, 2026, 14:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DF0006",
+        "away": "#1D8BCB"
+      },
+      "lightMode": {
+        "home": "#DF0006",
+        "away": "#1D8BCB"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "13",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Pardubice",
+      "id": 2406
+    },
+    "awayTeam": {
+      "name": "Slovan Liberec",
+      "id": 10245
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Oct 31, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-31T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-31T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "31.10.2026 15:01:46",
+      "firstHalfEnded": "31.10.2026 15:49:41",
+      "secondHalfStarted": "31.10.2026 16:04:16",
+      "secondHalfEnded": "31.10.2026 16:53:33",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "31.10.2026 16:53:33"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2406",
+      "name": "Pardubice",
+      "score": 1
+    },
+    {
+      "id": "10245",
+      "name": "Slovan Liberec",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53"
+    },
+    {
+      "side": "away",
+      "minute": 50,
+      "added": 0,
+      "display": "50"
+    },
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      8,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5831206.json"
+}

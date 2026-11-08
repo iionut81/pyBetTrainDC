@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "5804004",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804004",
+  "verified_at_utc": "2026-11-06T06:30:25.791Z",
+  "general": {
+    "matchId": "5804004",
+    "matchName": "Cracovia-vs-Legia Warszawa_Sat, Oct 17, 2026, 18:15 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E21A22",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#c7000f",
+        "away": "#009445"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "11",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Cracovia",
+      "id": 2186
+    },
+    "awayTeam": {
+      "name": "Legia Warszawa",
+      "id": 8673
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 17, 2026, 18:15 UTC",
+    "matchTimeUTCDate": "2026-10-17T18:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-17T18:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.10.2026 20:15:52",
+      "firstHalfEnded": "17.10.2026 21:02:01",
+      "secondHalfStarted": "17.10.2026 21:18:38",
+      "secondHalfEnded": "17.10.2026 22:07:14",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.10.2026 22:07:14"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2186",
+      "name": "Cracovia",
+      "score": 1
+    },
+    {
+      "id": "8673",
+      "name": "Legia Warszawa",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 44,
+      "added": 0,
+      "display": "44",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 26,
+      "added": 0,
+      "display": "26",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 39,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5804004.json"
+}

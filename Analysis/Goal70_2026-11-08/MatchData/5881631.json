@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "id": "5881631",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881631",
+  "verified_at_utc": "2026-11-07T06:56:06.641Z",
+  "general": {
+    "matchId": "5881631",
+    "matchName": "Karlsruher SC-vs-Arminia Bielefeld_Sat, Aug 8, 2026, 11:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0051a6",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#004080",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 146,
+    "leagueName": "2. Bundesliga",
+    "leagueRoundName": "1",
+    "parentLeagueId": 146,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Karlsruher SC",
+      "id": 8295
+    },
+    "awayTeam": {
+      "name": "Arminia Bielefeld",
+      "id": 9912
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Aug 8, 2026, 11:00 UTC",
+    "matchTimeUTCDate": "2026-08-08T11:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-08T11:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.08.2026 13:01:03",
+      "firstHalfEnded": "08.08.2026 13:49:27",
+      "secondHalfStarted": "08.08.2026 14:07:14",
+      "secondHalfEnded": "08.08.2026 14:56:12",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.08.2026 14:56:12"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8295",
+      "name": "Karlsruher SC",
+      "score": 2
+    },
+    {
+      "id": "9912",
+      "name": "Arminia Bielefeld",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 35,
+      "added": 0,
+      "display": "35",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 78,
+      "added": 0,
+      "display": "78",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      4
+    ],
+    "All": [
+      6,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5881631.json"
+}

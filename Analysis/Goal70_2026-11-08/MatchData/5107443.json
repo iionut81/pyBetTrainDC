@@ -1,0 +1,136 @@
+{
+  "ok": true,
+  "id": "5107443",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107443",
+  "verified_at_utc": "2026-11-07T06:59:51.381Z",
+  "general": {
+    "matchId": "5107443",
+    "matchName": "Degerfors-vs-Sirius_Sat, Apr 4, 2026, 13:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F72F3A",
+        "away": "#175b9e"
+      },
+      "lightMode": {
+        "home": "#F72F3A",
+        "away": "#2a497f"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "1",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Degerfors",
+      "id": 6544
+    },
+    "awayTeam": {
+      "name": "Sirius",
+      "id": 6694
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Apr 4, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-04-04T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-04T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "04.04.2026 15:04:32",
+      "firstHalfEnded": "04.04.2026 15:50:38",
+      "secondHalfStarted": "04.04.2026 16:07:09",
+      "secondHalfEnded": "04.04.2026 16:59:12",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "04.04.2026 16:59:12"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6544",
+      "name": "Degerfors",
+      "score": 0
+    },
+    {
+      "id": "6694",
+      "name": "Sirius",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 46,
+      "added": 0,
+      "display": "46",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 78,
+      "added": 0,
+      "display": "78",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 82,
+      "added": 0,
+      "display": "82",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      6,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5107443.json"
+}

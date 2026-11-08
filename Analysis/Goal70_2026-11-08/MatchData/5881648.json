@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5881648",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5881648",
+  "verified_at_utc": "2026-11-07T06:56:07.504Z",
+  "general": {
+    "matchId": "5881648",
+    "matchName": "Darmstadt-vs-Hannover 96_Sun, Aug 30, 2026, 11:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004D9D",
+        "away": "#008e38"
+      },
+      "lightMode": {
+        "home": "#102078",
+        "away": "#06A950"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 146,
+    "leagueName": "2. Bundesliga",
+    "leagueRoundName": "3",
+    "parentLeagueId": 146,
+    "countryCode": "GER",
+    "homeTeam": {
+      "name": "Darmstadt",
+      "id": 8262
+    },
+    "awayTeam": {
+      "name": "Hannover 96",
+      "id": 9904
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Aug 30, 2026, 11:30 UTC",
+    "matchTimeUTCDate": "2026-08-30T11:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-30T11:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.08.2026 13:31:25",
+      "firstHalfEnded": "30.08.2026 14:17:28",
+      "secondHalfStarted": "30.08.2026 14:34:59",
+      "secondHalfEnded": "30.08.2026 15:22:41",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.08.2026 15:22:41"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8262",
+      "name": "Darmstadt",
+      "score": 0
+    },
+    {
+      "id": "9904",
+      "name": "Hannover 96",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      0,
+      7
+    ],
+    "All": [
+      2,
+      11
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 39,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 46,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5881648.json"
+}

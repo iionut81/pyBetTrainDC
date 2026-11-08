@@ -1,0 +1,136 @@
+{
+  "ok": true,
+  "id": "1000015482",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015482",
+  "verified_at_utc": "2026-11-04T06:04:45.073Z",
+  "general": {
+    "matchId": "1000015482",
+    "matchName": "FCV Dender EH-vs-Club Brugge NXT_Fri, Oct 9, 2026, 18:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#1E67B4",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#1E67B4",
+        "away": "#0020db"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 264,
+    "leagueName": "Belgian Challenger Pro League",
+    "leagueRoundName": "7",
+    "parentLeagueId": 264,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "FCV Dender EH",
+      "id": 7947
+    },
+    "awayTeam": {
+      "name": "Club Brugge NXT",
+      "id": 1173026
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 9, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-10-09T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-09T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.10.2026 20:03:13",
+      "firstHalfEnded": "09.10.2026 20:51:22",
+      "secondHalfStarted": "09.10.2026 21:08:08",
+      "secondHalfEnded": "09.10.2026 21:57:33",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.10.2026 21:57:33"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7947",
+      "name": "FCV Dender EH",
+      "score": 3
+    },
+    {
+      "id": "1173026",
+      "name": "Club Brugge NXT",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 23,
+      "added": 0,
+      "display": "23",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 26,
+      "added": 0,
+      "display": "26",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      0,
+      4
+    ],
+    "All": [
+      2,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 16,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015482.json"
+}

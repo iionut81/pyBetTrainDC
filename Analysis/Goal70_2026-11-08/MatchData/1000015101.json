@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "1000015101",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015101",
+  "verified_at_utc": "2026-11-07T07:00:00.924Z",
+  "general": {
+    "matchId": "1000015101",
+    "matchName": "FK Zemun-vs-Mladost Lučani_Sun, Aug 16, 2026, 19:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#017538",
+        "away": "#2E5EC2"
+      },
+      "lightMode": {
+        "home": "#017538",
+        "away": "#2E5EC2"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "5",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "FK Zemun",
+      "id": 6231
+    },
+    "awayTeam": {
+      "name": "Mladost Lučani",
+      "id": 1739
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 16, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-08-16T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-16T19:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.08.2026 21:00:19",
+      "firstHalfEnded": "16.08.2026 21:46:26",
+      "secondHalfStarted": "16.08.2026 22:01:01",
+      "secondHalfEnded": "16.08.2026 22:51:11",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.08.2026 22:51:11"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6231",
+      "name": "FK Zemun",
+      "score": 0
+    },
+    {
+      "id": "1739",
+      "name": "Mladost Lučani",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 9,
+      "added": 0,
+      "display": "9"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      9,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 67,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/1000015101.json"
+}

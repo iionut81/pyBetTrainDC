@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "id": "5793928",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793928",
+  "verified_at_utc": "2026-11-07T06:56:34.331Z",
+  "general": {
+    "matchId": "5793928",
+    "matchName": "Aberdeen-vs-Kilmarnock_Sat, Sep 5, 2026, 14:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#CF1A29",
+        "away": "#0745A4"
+      },
+      "lightMode": {
+        "home": "#CF1A29",
+        "away": "#0745A4"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "6",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "Aberdeen",
+      "id": 8485
+    },
+    "awayTeam": {
+      "name": "Kilmarnock",
+      "id": 8597
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 5, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-05T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-05T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "05.09.2026 16:00:44",
+      "firstHalfEnded": "05.09.2026 16:46:08",
+      "secondHalfStarted": "05.09.2026 17:02:16",
+      "secondHalfEnded": "05.09.2026 17:50:39",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.09.2026 17:50:39"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8485",
+      "name": "Aberdeen",
+      "score": 0
+    },
+    {
+      "id": "8597",
+      "name": "Kilmarnock",
+      "score": 0
+    }
+  ],
+  "goals": [],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      5
+    ],
+    "All": [
+      6,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 43,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 62,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 82,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5793928.json"
+}

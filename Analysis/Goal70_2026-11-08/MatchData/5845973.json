@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "5845973",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5845973",
+  "verified_at_utc": "2026-11-08T08:33:20.689Z",
+  "general": {
+    "matchId": "5845973",
+    "matchName": "Austria Wien-vs-WSG Tirol_Wed, Sep 2, 2026, 16:30 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#564c9d",
+        "away": "#009848"
+      },
+      "lightMode": {
+        "home": "#484090",
+        "away": "#009848"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938366,
+    "leagueName": "Bundesliga",
+    "leagueRoundName": "4",
+    "parentLeagueId": 38,
+    "countryCode": "AUT",
+    "homeTeam": {
+      "name": "Austria Wien",
+      "id": 10011
+    },
+    "awayTeam": {
+      "name": "WSG Tirol",
+      "id": 1583
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Sep 2, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-09-02T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-02T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.09.2026 18:30:59",
+      "firstHalfEnded": "02.09.2026 19:17:36",
+      "secondHalfStarted": "02.09.2026 19:33:05",
+      "secondHalfEnded": "02.09.2026 20:21:40",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.09.2026 20:21:40"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10011",
+      "name": "Austria Wien",
+      "score": 0
+    },
+    {
+      "id": "1583",
+      "name": "WSG Tirol",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 66,
+      "added": 0,
+      "display": "66",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      6,
+      1
+    ],
+    "All": [
+      8,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

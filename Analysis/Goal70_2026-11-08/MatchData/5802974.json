@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "id": "5802974",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802974",
+  "verified_at_utc": "2026-11-04T06:04:25.941Z",
+  "general": {
+    "matchId": "5802974",
+    "matchName": "Lille-vs-Lens_Fri, Oct 30, 2026, 20:05 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E01D13",
+        "away": "#FFCE00"
+      },
+      "lightMode": {
+        "home": "#E01D13",
+        "away": "#d89f00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "9",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Lille",
+      "id": 8639
+    },
+    "awayTeam": {
+      "name": "Lens",
+      "id": 8588
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 30, 2026, 20:05 UTC",
+    "matchTimeUTCDate": "2026-10-30T20:05:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-30T20:05:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "30.10.2026 21:05:30",
+      "firstHalfEnded": "30.10.2026 21:51:22",
+      "secondHalfStarted": "30.10.2026 22:06:54",
+      "secondHalfEnded": "30.10.2026 22:56:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "30.10.2026 22:56:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8639",
+      "name": "Lille",
+      "score": 1
+    },
+    {
+      "id": "8588",
+      "name": "Lens",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      0
+    ],
+    "All": [
+      10,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 10,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-04/MatchData/5802974.json"
+}

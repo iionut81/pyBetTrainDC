@@ -1,0 +1,169 @@
+{
+  "ok": true,
+  "id": "5868469",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868469",
+  "verified_at_utc": "2026-11-07T06:56:25.715Z",
+  "general": {
+    "matchId": "5868469",
+    "matchName": "Real Valladolid-vs-Córdoba_Sun, Sep 27, 2026, 12:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#6f3c9c",
+        "away": "#007D48"
+      },
+      "lightMode": {
+        "home": "#63257E",
+        "away": "#007D48"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "7",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Real Valladolid",
+      "id": 10281
+    },
+    "awayTeam": {
+      "name": "Córdoba",
+      "id": 7869
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 27, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-09-27T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-27T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "27.09.2026 14:01:25",
+      "firstHalfEnded": "27.09.2026 14:51:29",
+      "secondHalfStarted": "27.09.2026 15:08:41",
+      "secondHalfEnded": "27.09.2026 16:00:32",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "27.09.2026 16:00:32"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10281",
+      "name": "Real Valladolid",
+      "score": 3
+    },
+    {
+      "id": "7869",
+      "name": "Córdoba",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 73,
+      "added": 0,
+      "display": "73",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      2,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868469.json"
+}

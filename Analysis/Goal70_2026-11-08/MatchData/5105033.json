@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "5105033",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5105033",
+  "verified_at_utc": "2026-11-08T08:33:23.958Z",
+  "general": {
+    "matchId": "5105033",
+    "matchName": "KFUM-vs-Hamarkameratene_Sun, Nov 1, 2026, 16:00 UTC",
+    "matchRound": "25",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E60000",
+        "away": "#009040"
+      },
+      "lightMode": {
+        "home": "#E60000",
+        "away": "#009040"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "25",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "KFUM",
+      "id": 2305
+    },
+    "awayTeam": {
+      "name": "Hamarkameratene",
+      "id": 8448
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 1, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-11-01T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-01T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.11.2026 17:01:24",
+      "firstHalfEnded": "01.11.2026 17:47:51",
+      "secondHalfStarted": "01.11.2026 18:03:56",
+      "secondHalfEnded": "01.11.2026 18:54:09",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.11.2026 18:54:09"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2305",
+      "name": "KFUM",
+      "score": 2
+    },
+    {
+      "id": "8448",
+      "name": "Hamarkameratene",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 33,
+      "added": 0,
+      "display": "33",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 71,
+      "added": 0,
+      "display": "71",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 80,
+      "added": 0,
+      "display": "80",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      3
+    ],
+    "All": [
+      3,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 47,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

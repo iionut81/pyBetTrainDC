@@ -1,0 +1,155 @@
+{
+  "ok": true,
+  "id": "5831158",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5831158",
+  "verified_at_utc": "2026-11-05T06:09:02.281Z",
+  "general": {
+    "matchId": "5831158",
+    "matchName": "Jablonec-vs-Slovan Liberec_Sun, Sep 6, 2026, 13:00 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#00874C",
+        "away": "#1D8BCB"
+      },
+      "lightMode": {
+        "home": "#00874C",
+        "away": "#1D8BCB"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "7",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Jablonec",
+      "id": 7758
+    },
+    "awayTeam": {
+      "name": "Slovan Liberec",
+      "id": 10245
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-09-06T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 15:00:41",
+      "firstHalfEnded": "06.09.2026 15:47:59",
+      "secondHalfStarted": "06.09.2026 16:04:52",
+      "secondHalfEnded": "06.09.2026 16:53:44",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 16:53:44"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7758",
+      "name": "Jablonec",
+      "score": 1
+    },
+    {
+      "id": "10245",
+      "name": "Slovan Liberec",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 70,
+      "added": 0,
+      "display": "70"
+    },
+    {
+      "side": "away",
+      "minute": 50,
+      "added": 0,
+      "display": "50"
+    },
+    {
+      "side": "away",
+      "minute": 80,
+      "added": 0,
+      "display": "80"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      4,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5831158.json"
+}

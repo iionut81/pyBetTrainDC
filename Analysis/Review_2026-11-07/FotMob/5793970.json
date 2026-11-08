@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5793970",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5793970",
+  "verified_at_utc": "2026-11-08T08:31:18.445Z",
+  "general": {
+    "matchId": "5793970",
+    "matchName": "Aberdeen-vs-Hibernian_Sat, Nov 7, 2026, 17:45 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#CF1A29",
+        "away": "#007040"
+      },
+      "lightMode": {
+        "home": "#CF1A29",
+        "away": "#007040"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937650,
+    "leagueName": "Premiership",
+    "leagueRoundName": "13",
+    "parentLeagueId": 64,
+    "countryCode": "SCO",
+    "homeTeam": {
+      "name": "Aberdeen",
+      "id": 8485
+    },
+    "awayTeam": {
+      "name": "Hibernian",
+      "id": 10251
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 17:45 UTC",
+    "matchTimeUTCDate": "2026-11-07T17:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T17:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 18:46:31",
+      "firstHalfEnded": "07.11.2026 19:32:20",
+      "secondHalfStarted": "07.11.2026 19:48:08",
+      "secondHalfEnded": "07.11.2026 20:37:03",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 20:37:03"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8485",
+      "name": "Aberdeen",
+      "score": 0
+    },
+    {
+      "id": "10251",
+      "name": "Hibernian",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 58,
+      "added": 0,
+      "display": "58",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      8,
+      5
+    ],
+    "SecondHalf": [
+      0,
+      1
+    ],
+    "All": [
+      8,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 17,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

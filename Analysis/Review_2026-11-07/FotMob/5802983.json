@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "5802983",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5802983",
+  "verified_at_utc": "2026-11-08T08:31:13.093Z",
+  "general": {
+    "matchId": "5802983",
+    "matchName": "Auxerre-vs-Paris FC_Sat, Nov 7, 2026, 18:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#0453a6"
+      },
+      "lightMode": {
+        "home": "#055DC6",
+        "away": "#0C1C3D"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 53,
+    "leagueName": "Ligue 1",
+    "leagueRoundName": "10",
+    "parentLeagueId": 53,
+    "countryCode": "FRA",
+    "homeTeam": {
+      "name": "Auxerre",
+      "id": 8583
+    },
+    "awayTeam": {
+      "name": "Paris FC",
+      "id": 6379
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 19:00:52",
+      "firstHalfEnded": "07.11.2026 19:48:56",
+      "secondHalfStarted": "07.11.2026 20:03:17",
+      "secondHalfEnded": "07.11.2026 20:53:34",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 20:53:34"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8583",
+      "name": "Auxerre",
+      "score": 0
+    },
+    {
+      "id": "6379",
+      "name": "Paris FC",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      1,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 16,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

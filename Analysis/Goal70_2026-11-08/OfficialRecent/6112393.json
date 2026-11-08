@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "6112393",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6112393",
+  "verified_at_utc": "2026-11-08T08:34:15.028Z",
+  "general": {
+    "matchId": "6112393",
+    "matchName": "Ajax-vs-Atalanta_Thu, Oct 22, 2026, 19:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C2002F",
+        "away": "#0D68B1"
+      },
+      "lightMode": {
+        "home": "#C2002F",
+        "away": "#004ca6"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 943231,
+    "leagueName": "Conference League",
+    "leagueRoundName": "2",
+    "parentLeagueId": 10216,
+    "countryCode": "INT-2",
+    "homeTeam": {
+      "name": "Ajax",
+      "id": 8593
+    },
+    "awayTeam": {
+      "name": "Atalanta",
+      "id": 8524
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Oct 22, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-22T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-22T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "22.10.2026 21:00:44",
+      "firstHalfEnded": "22.10.2026 21:46:54",
+      "secondHalfStarted": "22.10.2026 22:02:39",
+      "secondHalfEnded": "22.10.2026 22:51:28",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "22.10.2026 22:51:28"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8593",
+      "name": "Ajax",
+      "score": 2
+    },
+    {
+      "id": "8524",
+      "name": "Atalanta",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      5
+    ],
+    "SecondHalf": [
+      4,
+      4
+    ],
+    "All": [
+      8,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

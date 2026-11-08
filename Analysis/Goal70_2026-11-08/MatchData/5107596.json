@@ -1,0 +1,139 @@
+{
+  "ok": true,
+  "id": "5107596",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5107596",
+  "verified_at_utc": "2026-11-08T08:33:38.518Z",
+  "general": {
+    "matchId": "5107596",
+    "matchName": "Kalmar FF-vs-Djurgården_Mon, Sep 7, 2026, 17:00 UTC",
+    "matchRound": "20",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F00000",
+        "away": "#83B2CA"
+      },
+      "lightMode": {
+        "home": "#F00000",
+        "away": "#15263E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 67,
+    "leagueName": "Swedish Allsvenskan",
+    "leagueRoundName": "20",
+    "parentLeagueId": 67,
+    "countryCode": "SWE",
+    "homeTeam": {
+      "name": "Kalmar FF",
+      "id": 9892
+    },
+    "awayTeam": {
+      "name": "Djurgården",
+      "id": 9802
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Sep 7, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-09-07T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-07T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.09.2026 19:02:01",
+      "firstHalfEnded": "07.09.2026 19:47:41",
+      "secondHalfStarted": "07.09.2026 20:02:47",
+      "secondHalfEnded": "07.09.2026 20:51:52",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.09.2026 20:51:52"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9892",
+      "name": "Kalmar FF",
+      "score": 0
+    },
+    {
+      "id": "9802",
+      "name": "Djurgården",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      5
+    ],
+    "SecondHalf": [
+      2,
+      1
+    ],
+    "All": [
+      3,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 5,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}
