@@ -1,0 +1,157 @@
+{
+  "ok": true,
+  "id": "5811801",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811801",
+  "verified_at_utc": "2026-11-09T06:58:45.779Z",
+  "general": {
+    "matchId": "5811801",
+    "matchName": "Club Brugge-vs-Anderlecht_Sun, Nov 8, 2026, 12:30 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#006ad5",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#0572FF",
+        "away": "#3F2B72"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "11",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Club Brugge",
+      "id": 8342
+    },
+    "awayTeam": {
+      "name": "Anderlecht",
+      "id": 8635
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 8, 2026, 12:30 UTC",
+    "matchTimeUTCDate": "2026-11-08T12:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-08T12:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.11.2026 13:32:05",
+      "firstHalfEnded": "08.11.2026 14:20:55",
+      "secondHalfStarted": "08.11.2026 14:37:23",
+      "secondHalfEnded": "08.11.2026 15:26:06",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.11.2026 15:26:06"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8342",
+      "name": "Club Brugge",
+      "score": 1
+    },
+    {
+      "id": "8635",
+      "name": "Anderlecht",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 41,
+      "added": 0,
+      "display": "41",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 58,
+      "added": 0,
+      "display": "58",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      0
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      9,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 15,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

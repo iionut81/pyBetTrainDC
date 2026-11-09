@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "id": "1000015175",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015175",
+  "verified_at_utc": "2026-11-09T06:58:53.414Z",
+  "general": {
+    "matchId": "1000015175",
+    "matchName": "Vojvodina-vs-FK Crvena Zvezda_Sun, Nov 8, 2026, 18:00 UTC",
+    "matchRound": "15",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ED1B24",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#ED1B24",
+        "away": "#0D4FBF"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "15",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Vojvodina",
+      "id": 6406
+    },
+    "awayTeam": {
+      "name": "FK Crvena Zvezda",
+      "id": 8687
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Nov 8, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-11-08T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-08T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.11.2026 19:04:58",
+      "firstHalfEnded": "08.11.2026 19:52:12",
+      "secondHalfStarted": "08.11.2026 20:10:02",
+      "secondHalfEnded": "08.11.2026 20:59:16",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.11.2026 20:59:16"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6406",
+      "name": "Vojvodina",
+      "score": 0
+    },
+    {
+      "id": "8687",
+      "name": "FK Crvena Zvezda",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      3,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,134 @@
+{
+  "ok": true,
+  "id": "5868127",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868127",
+  "verified_at_utc": "2026-11-09T06:58:43.815Z",
+  "general": {
+    "matchId": "5868127",
+    "matchName": "Real Sociedad-vs-Rayo Vallecano_Sun, Nov 8, 2026, 15:15 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0056B3",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#0056B3",
+        "away": "#EB3A32"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 87,
+    "leagueName": "LaLiga",
+    "leagueRoundName": "12",
+    "parentLeagueId": 87,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Real Sociedad",
+      "id": 8560
+    },
+    "awayTeam": {
+      "name": "Rayo Vallecano",
+      "id": 8370
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 8, 2026, 15:15 UTC",
+    "matchTimeUTCDate": "2026-11-08T15:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-08T15:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.11.2026 16:18:56",
+      "firstHalfEnded": "08.11.2026 17:05:16",
+      "secondHalfStarted": "08.11.2026 17:21:41",
+      "secondHalfEnded": "08.11.2026 18:10:55",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.11.2026 18:10:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8560",
+      "name": "Real Sociedad",
+      "score": 1
+    },
+    {
+      "id": "8370",
+      "name": "Rayo Vallecano",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 67,
+      "added": 0,
+      "display": "67",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      4,
+      4
+    ],
+    "All": [
+      7,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

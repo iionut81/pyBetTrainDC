@@ -1,0 +1,143 @@
+{
+  "ok": true,
+  "id": "5853517",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853517",
+  "verified_at_utc": "2026-11-07T06:59:42.690Z",
+  "general": {
+    "matchId": "5853517",
+    "matchName": "FCSB-vs-Oțelul Galați_Sat, Oct 10, 2026, 18:30 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D9231B",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#D9231B",
+        "away": "#014D99"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "11",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "FCSB",
+      "id": 9723
+    },
+    "awayTeam": {
+      "name": "Oțelul Galați",
+      "id": 9736
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Oct 10, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-10-10T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-10T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "10.10.2026 20:36:09",
+      "firstHalfEnded": "10.10.2026 21:23:50",
+      "secondHalfStarted": "10.10.2026 21:41:11",
+      "secondHalfEnded": "10.10.2026 22:29:43",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.10.2026 22:29:43"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9723",
+      "name": "FCSB",
+      "score": 1
+    },
+    {
+      "id": "9736",
+      "name": "Oțelul Galați",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 65,
+      "added": 0,
+      "display": "65"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 3,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 47,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5853517.json"
+}

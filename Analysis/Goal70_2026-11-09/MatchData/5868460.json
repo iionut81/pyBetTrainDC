@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5868460",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868460",
+  "verified_at_utc": "2026-11-07T06:56:23.516Z",
+  "general": {
+    "matchId": "5868460",
+    "matchName": "Celta Fortuna-vs-Sabadell_Sat, Sep 26, 2026, 16:30 UTC",
+    "matchRound": "7",
+    "teamColors": {
+      "darkMode": {
+        "home": "#6fb5e8",
+        "away": "#0157A4"
+      },
+      "lightMode": {
+        "home": "#67ade0",
+        "away": "#0157A4"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "7",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Celta Fortuna",
+      "id": 161743
+    },
+    "awayTeam": {
+      "name": "Sabadell",
+      "id": 4033
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 26, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-09-26T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-26T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "26.09.2026 18:30:57",
+      "firstHalfEnded": "26.09.2026 19:17:38",
+      "secondHalfStarted": "26.09.2026 19:34:40",
+      "secondHalfEnded": "26.09.2026 20:22:54",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.09.2026 20:22:54"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "161743",
+      "name": "Celta Fortuna",
+      "score": 1
+    },
+    {
+      "id": "4033",
+      "name": "Sabadell",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 6,
+      "added": 0,
+      "display": "6",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 23,
+      "added": 0,
+      "display": "23",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      5
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      3,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 78,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868460.json"
+}

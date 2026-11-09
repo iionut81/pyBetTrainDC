@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5804032",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804032",
+  "verified_at_utc": "2026-11-09T06:58:46.910Z",
+  "general": {
+    "matchId": "5804032",
+    "matchName": "Jagiellonia Białystok-vs-GKS Katowice_Sun, Nov 8, 2026, 13:45 UTC",
+    "matchRound": "14",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D81921",
+        "away": "#FEE200"
+      },
+      "lightMode": {
+        "home": "#D81921",
+        "away": "#dd9e00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "14",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Jagiellonia Białystok",
+      "id": 1957
+    },
+    "awayTeam": {
+      "name": "GKS Katowice",
+      "id": 4023
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 8, 2026, 13:45 UTC",
+    "matchTimeUTCDate": "2026-11-08T13:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-08T13:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.11.2026 14:47:45",
+      "firstHalfEnded": "08.11.2026 15:35:45",
+      "secondHalfStarted": "08.11.2026 15:53:29",
+      "secondHalfEnded": "08.11.2026 16:42:05",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.11.2026 16:42:05"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "1957",
+      "name": "Jagiellonia Białystok",
+      "score": 1
+    },
+    {
+      "id": "4023",
+      "name": "GKS Katowice",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 72,
+      "added": 0,
+      "display": "72",
+      "period": "SecondHalf",
+      "own_goal": true
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      4
+    ],
+    "SecondHalf": [
+      4,
+      3
+    ],
+    "All": [
+      8,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

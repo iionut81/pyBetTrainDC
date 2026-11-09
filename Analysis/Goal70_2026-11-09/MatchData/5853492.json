@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "id": "5853492",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853492",
+  "verified_at_utc": "2026-11-07T06:59:42.253Z",
+  "general": {
+    "matchId": "5853492",
+    "matchName": "Oțelul Galați-vs-Rapid București_Sun, Sep 6, 2026, 17:30 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#843037"
+      },
+      "lightMode": {
+        "home": "#E00723",
+        "away": "#843037"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "8",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "Oțelul Galați",
+      "id": 9736
+    },
+    "awayTeam": {
+      "name": "Rapid București",
+      "id": 9738
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 6, 2026, 17:30 UTC",
+    "matchTimeUTCDate": "2026-09-06T17:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-06T17:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.09.2026 19:32:24",
+      "firstHalfEnded": "06.09.2026 20:20:26",
+      "secondHalfStarted": "06.09.2026 20:37:31",
+      "secondHalfEnded": "06.09.2026 21:26:54",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.09.2026 21:26:54"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9736",
+      "name": "Oțelul Galați",
+      "score": 0
+    },
+    {
+      "id": "9738",
+      "name": "Rapid București",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      4
+    ],
+    "SecondHalf": [
+      0,
+      4
+    ],
+    "All": [
+      1,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 78,
+      "card": "YellowRed",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5853492.json"
+}

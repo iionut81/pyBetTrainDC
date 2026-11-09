@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5868492",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868492",
+  "verified_at_utc": "2026-11-07T06:56:23.102Z",
+  "general": {
+    "matchId": "5868492",
+    "matchName": "Burgos CF-vs-Sabadell_Sun, Oct 18, 2026, 19:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#0157A4"
+      },
+      "lightMode": {
+        "home": "#151515",
+        "away": "#0157A4"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "10",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Burgos CF",
+      "id": 7876
+    },
+    "awayTeam": {
+      "name": "Sabadell",
+      "id": 4033
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Oct 18, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-18T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-18T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.10.2026 21:01:44",
+      "firstHalfEnded": "18.10.2026 21:48:49",
+      "secondHalfStarted": "18.10.2026 22:05:19",
+      "secondHalfEnded": "18.10.2026 22:54:18",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.10.2026 22:54:18"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7876",
+      "name": "Burgos CF",
+      "score": 1
+    },
+    {
+      "id": "4033",
+      "name": "Sabadell",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      10,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 4,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 13,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 32,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868492.json"
+}

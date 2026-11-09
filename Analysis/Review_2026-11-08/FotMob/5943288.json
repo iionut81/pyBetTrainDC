@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "5943288",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943288",
+  "verified_at_utc": "2026-11-09T06:58:49.931Z",
+  "general": {
+    "matchId": "5943288",
+    "matchName": "AEK Athens-vs-Levadiakos_Sun, Nov 8, 2026, 15:00 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FED300",
+        "away": "#4CAE6A"
+      },
+      "lightMode": {
+        "home": "#d99f00",
+        "away": "#4CAE6A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 941071,
+    "leagueName": "Super League",
+    "leagueRoundName": "10",
+    "parentLeagueId": 135,
+    "countryCode": "GRE",
+    "homeTeam": {
+      "name": "AEK Athens",
+      "id": 8563
+    },
+    "awayTeam": {
+      "name": "Levadiakos",
+      "id": 4493
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 8, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-11-08T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-08T15:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.11.2026 16:01:58",
+      "firstHalfEnded": "08.11.2026 16:48:50",
+      "secondHalfStarted": "08.11.2026 17:05:32",
+      "secondHalfEnded": "08.11.2026 17:56:30",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.11.2026 17:56:30"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8563",
+      "name": "AEK Athens",
+      "score": 2
+    },
+    {
+      "id": "4493",
+      "name": "Levadiakos",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 26,
+      "added": 0,
+      "display": "26",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      5
+    ],
+    "All": [
+      10,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

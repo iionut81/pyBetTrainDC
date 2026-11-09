@@ -1,0 +1,177 @@
+{
+  "ok": true,
+  "id": "5104844",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104844",
+  "verified_at_utc": "2026-11-05T06:09:03.486Z",
+  "general": {
+    "matchId": "5104844",
+    "matchName": "Kristiansund-vs-Brann_Sun, Mar 15, 2026, 13:30 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2c528c",
+        "away": "#DE1215"
+      },
+      "lightMode": {
+        "home": "#0C2340",
+        "away": "#DE1215"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "1",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Kristiansund",
+      "id": 8605
+    },
+    "awayTeam": {
+      "name": "Brann",
+      "id": 8468
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Mar 15, 2026, 13:30 UTC",
+    "matchTimeUTCDate": "2026-03-15T13:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-03-15T13:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.03.2026 14:30:53",
+      "firstHalfEnded": "15.03.2026 15:21:46",
+      "secondHalfStarted": "15.03.2026 15:37:06",
+      "secondHalfEnded": "15.03.2026 16:29:51",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.03.2026 16:29:51"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8605",
+      "name": "Kristiansund",
+      "score": 3
+    },
+    {
+      "id": "8468",
+      "name": "Brann",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 84,
+      "added": 0,
+      "display": "84",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 65,
+      "added": 0,
+      "display": "65",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      7
+    ],
+    "SecondHalf": [
+      3,
+      4
+    ],
+    "All": [
+      6,
+      11
+    ]
+  },
+  "cards": [
+    {
+      "time": 25,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-08/MatchData/5104844.json"
+}

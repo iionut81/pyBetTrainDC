@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "5853499",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853499",
+  "verified_at_utc": "2026-11-06T06:30:44.199Z",
+  "general": {
+    "matchId": "5853499",
+    "matchName": "FC Argeș Pitesti-vs-Botoșani_Sun, Sep 13, 2026, 12:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#6A3694",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#6A3694",
+        "away": "#950000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "9",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "FC Argeș Pitesti",
+      "id": 9732
+    },
+    "awayTeam": {
+      "name": "Botoșani",
+      "id": 188191
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-09-13T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 14:02:52",
+      "firstHalfEnded": "13.09.2026 14:51:11",
+      "secondHalfStarted": "13.09.2026 15:07:58",
+      "secondHalfEnded": "13.09.2026 15:58:33",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 15:58:33"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9732",
+      "name": "FC Argeș Pitesti",
+      "score": 1
+    },
+    {
+      "id": "188191",
+      "name": "Botoșani",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 60,
+      "added": 0,
+      "display": "60"
+    },
+    {
+      "side": "away",
+      "minute": 86,
+      "added": 0,
+      "display": "86"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      2,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5853499.json"
+}

@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "id": "5868444",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868444",
+  "verified_at_utc": "2026-11-08T08:33:28.340Z",
+  "general": {
+    "matchId": "5868444",
+    "matchName": "Mallorca-vs-Sabadell_Sun, Sep 13, 2026, 16:30 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E20613",
+        "away": "#0157A4"
+      },
+      "lightMode": {
+        "home": "#c2071f",
+        "away": "#0157A4"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "5",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Mallorca",
+      "id": 8661
+    },
+    "awayTeam": {
+      "name": "Sabadell",
+      "id": 4033
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-09-13T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 18:31:28",
+      "firstHalfEnded": "13.09.2026 19:19:21",
+      "secondHalfStarted": "13.09.2026 19:37:39",
+      "secondHalfEnded": "13.09.2026 20:24:35",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 20:24:35"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8661",
+      "name": "Mallorca",
+      "score": 2
+    },
+    {
+      "id": "4033",
+      "name": "Sabadell",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 10,
+      "added": 0,
+      "display": "10",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      5
+    ],
+    "All": [
+      3,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-08/MatchData/5868444.json"
+}

@@ -1,0 +1,155 @@
+{
+  "ok": true,
+  "id": "5853503",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853503",
+  "verified_at_utc": "2026-11-07T06:59:41.305Z",
+  "general": {
+    "matchId": "5853503",
+    "matchName": "Universitatea Cluj-vs-Oțelul Galați_Mon, Sep 14, 2026, 15:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#014D99"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#E00723"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "9",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "Universitatea Cluj",
+      "id": 89022
+    },
+    "awayTeam": {
+      "name": "Oțelul Galați",
+      "id": 9736
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Sep 14, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-09-14T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-14T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "14.09.2026 17:04:05",
+      "firstHalfEnded": "14.09.2026 17:50:09",
+      "secondHalfStarted": "14.09.2026 18:07:02",
+      "secondHalfEnded": "14.09.2026 18:56:50",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.09.2026 18:56:50"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "89022",
+      "name": "Universitatea Cluj",
+      "score": 3
+    },
+    {
+      "id": "9736",
+      "name": "Oțelul Galați",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31"
+    },
+    {
+      "side": "home",
+      "minute": 80,
+      "added": 0,
+      "display": "80"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      0,
+      3
+    ],
+    "All": [
+      3,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 75,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 77,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5853503.json"
+}

@@ -310,3 +310,7 @@ Restanțele au fost recerute în older_retries.csv: Serbia nu este finală, dou�
 [Sky Sports Blackburn](https://www.skysports.com/football/blackburn-rovers-vs-west-ham-united/8067885432187075232) confirmă primul gol54. [Cronologia Excelsior](https://www.skysports.com/football/excelsior-vs-go-ahead-eagles/556791) confirmă trei cornere în prima repriză, la4,40și41, și primul gol72. Aceasta coroborează independent ambele alegeri explicite; nu extindem verificarea la toate cele102partide. Copiile publice HTML și timestampurile sunt în Goal70_2026-11-08/Sources/.
 
 Nacional–Académico Viseu este acum programat8noiembrie17:30RO în furnizor, nu rezultat verificat din7noiembrie. Snapshotul7noiembrie rămâne păstrat cu rezultatpending/not_final, fără rată imputată. Modele cornere:69/82,13failși1pending; toate observațiile84/98,14fail,3pendingși1anulat. Roma–Sassuolo8este fail verificat fără model, nu dispare din total. Finaliștii originali: Luzern primul22succes; Istra4cornere succes. Parma8șiSporting10sunt avertismente de dispersie și schimbări de context, nu dovadă de cauză tactică.
+
+## Restanță verificată la 2026-11-09T09:02:22.628+02:00
+
+Nacional–Académico Viseu, jucat8noiembrie: vezi observațiile din CSV-urile actualizate și dovada ../Review_2026-11-08/OlderRetry/5887676.json. Predicțiile originale sunt păstrate; rezultatul nou nu era cunoscut la review-ul inițial.

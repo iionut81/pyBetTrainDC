@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "6144857",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6144857",
+  "verified_at_utc": "2026-11-09T07:00:31.626Z",
+  "general": {
+    "matchId": "6144857",
+    "matchName": "Brattvåg-vs-Kristiansund_Wed, Sep 16, 2026, 16:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#efb600",
+        "away": "#2c528c"
+      },
+      "lightMode": {
+        "home": "#de9d00",
+        "away": "#0C2340"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 206,
+    "leagueName": "Cup",
+    "leagueRoundName": "2",
+    "parentLeagueId": 206,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Brattvåg",
+      "id": 47403
+    },
+    "awayTeam": {
+      "name": "Kristiansund",
+      "id": 8605
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Wed, Sep 16, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-09-16T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-16T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.09.2026 18:00:25",
+      "firstHalfEnded": "16.09.2026 18:46:21",
+      "secondHalfStarted": "16.09.2026 19:02:08",
+      "secondHalfEnded": "16.09.2026 19:53:36",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.09.2026 19:53:36"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "47403",
+      "name": "Brattvåg",
+      "score": 1
+    },
+    {
+      "id": "8605",
+      "name": "Kristiansund",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 5,
+      "added": 0,
+      "display": "5"
+    },
+    {
+      "side": "away",
+      "minute": 29,
+      "added": 0,
+      "display": "29"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 0,
+      "display": "90"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": null
+  },
+  "cards": [
+    {
+      "time": 16,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

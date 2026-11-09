@@ -237,3 +237,12 @@ păstrează sursa numerică originală, inclusiv JSON. FotMob și ESPN se identi
 din URL-ul sursei, fără a presupune furnizorul dintr-un ID numeric. Sursele
 necunoscute au o stare explicită fără link de statistici. Acoperirea externă
 poate varia; totalurile de cornere nu substituie datele primei reprize.
+
+Istoricul cornerelor acceptă atât coloanele `home_corners_1h`,
+`away_corners_1h`, `total_corners_1h`/`total_1h`, cât și schema de research
+`home_cf`, `away_cf`, `total1h`, cu indicatorul `corner_ok`.
+Totalurile se reconciliază cu cele două echipe. Datele lipsă, invalidate,
+contradictorii sau exclusiv de la final rămân Neverificat; zero explicit este
+o observație validă. Verificare: `node --test
+Previews/Pred_Research_Terminal/match-reports.test.mjs` și
+`node Previews/Pred_Research_Terminal/check-corner-history.mjs`.

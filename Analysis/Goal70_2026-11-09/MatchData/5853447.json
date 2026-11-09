@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "id": "5853447",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853447",
+  "verified_at_utc": "2026-11-06T06:30:42.171Z",
+  "general": {
+    "matchId": "5853447",
+    "matchName": "UTA Arad-vs-Otelul Galati_Fri, Jul 24, 2026, 15:30 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D21819",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#D21819",
+        "away": "#014D99"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "2",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "UTA Arad",
+      "id": 584663
+    },
+    "awayTeam": {
+      "name": "Otelul Galati",
+      "id": 9736
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Fri, Jul 24, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-07-24T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-24T15:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.07.2026 17:35:29",
+      "firstHalfEnded": "24.07.2026 18:25:04",
+      "secondHalfStarted": "24.07.2026 18:41:00",
+      "secondHalfEnded": "24.07.2026 19:33:14",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.07.2026 19:33:14"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "584663",
+      "name": "UTA Arad",
+      "score": 2
+    },
+    {
+      "id": "9736",
+      "name": "Otelul Galati",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 73,
+      "added": 0,
+      "display": "73"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4"
+    },
+    {
+      "side": "away",
+      "minute": 21,
+      "added": 0,
+      "display": "21"
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 3,
+      "display": "45+3"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      7,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-06/MatchData/5853447.json"
+}

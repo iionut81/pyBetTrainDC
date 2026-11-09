@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "1000015169",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015169",
+  "verified_at_utc": "2026-11-09T06:58:53.324Z",
+  "general": {
+    "matchId": "1000015169",
+    "matchName": "Partizan Beograd-vs-Mačva Šabac_Sun, Nov 8, 2026, 16:00 UTC",
+    "matchRound": "15",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#BB2A29"
+      },
+      "lightMode": {
+        "home": "#101010",
+        "away": "#BB2A29"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "15",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Partizan Beograd",
+      "id": 7998
+    },
+    "awayTeam": {
+      "name": "Mačva Šabac",
+      "id": 563180
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Nov 8, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-11-08T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-08T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.11.2026 17:02:08",
+      "firstHalfEnded": "08.11.2026 17:49:17",
+      "secondHalfStarted": "08.11.2026 18:04:11",
+      "secondHalfEnded": "08.11.2026 18:54:42",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.11.2026 18:54:42"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7998",
+      "name": "Partizan Beograd",
+      "score": 1
+    },
+    {
+      "id": "563180",
+      "name": "Mačva Šabac",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 16,
+      "added": 0,
+      "display": "16"
+    },
+    {
+      "side": "away",
+      "minute": 8,
+      "added": 0,
+      "display": "8"
+    },
+    {
+      "side": "away",
+      "minute": 36,
+      "added": 0,
+      "display": "36"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      8,
+      0
+    ],
+    "All": [
+      10,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 21,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 83,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 84,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

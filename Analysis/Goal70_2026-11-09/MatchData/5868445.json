@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "5868445",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868445",
+  "verified_at_utc": "2026-11-08T08:33:29.321Z",
+  "general": {
+    "matchId": "5868445",
+    "matchName": "Sporting Gijón-vs-Eldense_Sun, Sep 13, 2026, 12:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E20019",
+        "away": "#004bc7"
+      },
+      "lightMode": {
+        "home": "#A31F22",
+        "away": "#033298"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "5",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Sporting Gijón",
+      "id": 9869
+    },
+    "awayTeam": {
+      "name": "Eldense",
+      "id": 8288
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Sep 13, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-09-13T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-13T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "13.09.2026 14:02:19",
+      "firstHalfEnded": "13.09.2026 14:47:23",
+      "secondHalfStarted": "13.09.2026 15:02:12",
+      "secondHalfEnded": "13.09.2026 15:51:31",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "13.09.2026 15:51:31"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9869",
+      "name": "Sporting Gijón",
+      "score": 0
+    },
+    {
+      "id": "8288",
+      "name": "Eldense",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      4
+    ],
+    "SecondHalf": [
+      4,
+      0
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 36,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 38,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-08/MatchData/5868445.json"
+}

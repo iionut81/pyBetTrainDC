@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "5908699",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5908699",
+  "verified_at_utc": "2026-11-09T06:58:52.146Z",
+  "general": {
+    "matchId": "5908699",
+    "matchName": "Ümraniyespor-vs-Kayserispor_Sun, Nov 8, 2026, 13:00 UTC",
+    "matchRound": "14",
+    "teamColors": {
+      "darkMode": {
+        "home": "#CC242B",
+        "away": "#D6A20B"
+      },
+      "lightMode": {
+        "home": "#CC242B",
+        "away": "#D6A20B"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 165,
+    "leagueName": "1. Lig",
+    "leagueRoundName": "14",
+    "parentLeagueId": 165,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Ümraniyespor",
+      "id": 281460
+    },
+    "awayTeam": {
+      "name": "Kayserispor",
+      "id": 10182
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Nov 8, 2026, 13:00 UTC",
+    "matchTimeUTCDate": "2026-11-08T13:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-08T13:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.11.2026 14:00:43",
+      "firstHalfEnded": "08.11.2026 14:47:48",
+      "secondHalfStarted": "08.11.2026 15:05:05",
+      "secondHalfEnded": "08.11.2026 15:56:31",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.11.2026 15:56:31"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "281460",
+      "name": "Ümraniyespor",
+      "score": 2
+    },
+    {
+      "id": "10182",
+      "name": "Kayserispor",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 40,
+      "added": 0,
+      "display": "40"
+    },
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      3
+    ],
+    "All": [
+      4,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

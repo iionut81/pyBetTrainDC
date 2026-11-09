@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "5853470",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853470",
+  "verified_at_utc": "2026-11-05T06:09:05.611Z",
+  "general": {
+    "matchId": "5853470",
+    "matchName": "Otelul Galati-vs-Universitatea Craiova_Sun, Aug 16, 2026, 15:30 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#1080C8"
+      },
+      "lightMode": {
+        "home": "#E00723",
+        "away": "#1080C8"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "5",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "Otelul Galati",
+      "id": 9736
+    },
+    "awayTeam": {
+      "name": "Universitatea Craiova",
+      "id": 480286
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 16, 2026, 15:30 UTC",
+    "matchTimeUTCDate": "2026-08-16T15:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-16T15:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "16.08.2026 17:32:33",
+      "firstHalfEnded": "16.08.2026 18:19:43",
+      "secondHalfStarted": "16.08.2026 18:35:52",
+      "secondHalfEnded": "16.08.2026 19:24:58",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.08.2026 19:24:58"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9736",
+      "name": "Otelul Galati",
+      "score": 1
+    },
+    {
+      "id": "480286",
+      "name": "Universitatea Craiova",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 87,
+      "added": 0,
+      "display": "87"
+    },
+    {
+      "side": "away",
+      "minute": 56,
+      "added": 0,
+      "display": "56"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      0
+    ],
+    "All": [
+      4,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 29,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-08/MatchData/5853470.json"
+}

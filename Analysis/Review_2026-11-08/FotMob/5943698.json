@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "id": "5943698",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5943698",
+  "verified_at_utc": "2026-11-09T06:58:45.157Z",
+  "general": {
+    "matchId": "5943698",
+    "matchName": "Slavia Prague-vs-Artis Brno_Sun, Nov 8, 2026, 14:00 UTC",
+    "matchRound": "14",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D82333",
+        "away": "#004daa"
+      },
+      "lightMode": {
+        "home": "#D82333",
+        "away": "#004daa"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938182,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "14",
+    "parentLeagueId": 122,
+    "countryCode": "CZE",
+    "homeTeam": {
+      "name": "Slavia Prague",
+      "id": 7787
+    },
+    "awayTeam": {
+      "name": "Artis Brno",
+      "id": 106189
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Nov 8, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-11-08T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-08T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "08.11.2026 15:01:47",
+      "firstHalfEnded": "08.11.2026 15:48:56",
+      "secondHalfStarted": "08.11.2026 16:04:25",
+      "secondHalfEnded": "08.11.2026 16:51:54",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.11.2026 16:51:54"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7787",
+      "name": "Slavia Prague",
+      "score": 4
+    },
+    {
+      "id": "106189",
+      "name": "Artis Brno",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 3,
+      "added": 0,
+      "display": "3"
+    },
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53"
+    },
+    {
+      "side": "home",
+      "minute": 66,
+      "added": 0,
+      "display": "66"
+    },
+    {
+      "side": "home",
+      "minute": 78,
+      "added": 0,
+      "display": "78"
+    },
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      0
+    ],
+    "All": [
+      10,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 8,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 11,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

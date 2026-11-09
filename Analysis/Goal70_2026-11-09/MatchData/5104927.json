@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5104927",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104927",
+  "verified_at_utc": "2026-11-09T07:00:06.712Z",
+  "general": {
+    "matchId": "5104927",
+    "matchName": "Vålerenga-vs-Kristiansund_Fri, May 29, 2026, 17:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#333bb3",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#283090",
+        "away": "#0C2340"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "11",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Vålerenga",
+      "id": 8007
+    },
+    "awayTeam": {
+      "name": "Kristiansund",
+      "id": 8605
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, May 29, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-05-29T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-29T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "29.05.2026 19:00:18",
+      "firstHalfEnded": "29.05.2026 19:47:35",
+      "secondHalfStarted": "29.05.2026 20:02:43",
+      "secondHalfEnded": "29.05.2026 20:55:48",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "29.05.2026 20:55:48"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8007",
+      "name": "Vålerenga",
+      "score": 3
+    },
+    {
+      "id": "8605",
+      "name": "Kristiansund",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 1,
+      "added": 0,
+      "display": "1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 70,
+      "added": 0,
+      "display": "70",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 83,
+      "added": 0,
+      "display": "83",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      5
+    ],
+    "All": [
+      5,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 52,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

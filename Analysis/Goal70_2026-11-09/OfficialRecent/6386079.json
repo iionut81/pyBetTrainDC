@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "6386079",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6386079",
+  "verified_at_utc": "2026-11-09T07:03:27.644Z",
+  "general": {
+    "matchId": "6386079",
+    "matchName": "RSD Alcalá-vs-Las Palmas_Tue, Oct 27, 2026, 19:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#E40019",
+        "away": "#FFD700"
+      },
+      "lightMode": {
+        "home": "#E40019",
+        "away": "#da9f00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 138,
+    "leagueName": "Copa del Rey",
+    "leagueRoundName": "1",
+    "parentLeagueId": 138,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "RSD Alcalá",
+      "id": 8316
+    },
+    "awayTeam": {
+      "name": "Las Palmas",
+      "id": 8306
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Oct 27, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-10-27T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-27T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "27.10.2026 20:01:10",
+      "firstHalfEnded": "27.10.2026 20:47:22",
+      "secondHalfStarted": "27.10.2026 21:01:15",
+      "secondHalfEnded": "27.10.2026 21:51:26",
+      "firstExtraHalfStarted": "27.10.2026 21:55:24",
+      "secondExtraHalfStarted": "27.10.2026 22:14:50",
+      "gameEnded": "27.10.2026 22:31:37"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 3",
+    "reason": {
+      "short": "AET",
+      "shortKey": "afterextratime_short",
+      "long": "After extra time",
+      "longKey": "afterextra"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8316",
+      "name": "RSD Alcalá",
+      "score": 1
+    },
+    {
+      "id": "8306",
+      "name": "Las Palmas",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 95,
+      "added": 0,
+      "display": "95",
+      "period": "FirstHalfExtra",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 105,
+      "added": 0,
+      "display": "105",
+      "period": "FirstHalfExtra",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      0
+    ],
+    "All": [
+      4,
+      7
+    ]
+  },
+  "cards": [],
+  "formations": {}
+}

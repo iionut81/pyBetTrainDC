@@ -1,0 +1,124 @@
+{
+  "ok": true,
+  "id": "5811805",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5811805",
+  "verified_at_utc": "2026-11-09T06:58:46.497Z",
+  "general": {
+    "matchId": "5811805",
+    "matchName": "Union St.Gilloise-vs-Genk_Sun, Nov 8, 2026, 17:30 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F6E000",
+        "away": "#3E60A8"
+      },
+      "lightMode": {
+        "home": "#daa000",
+        "away": "#005098"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937988,
+    "leagueName": "Belgian Pro League",
+    "leagueRoundName": "11",
+    "parentLeagueId": 40,
+    "countryCode": "BEL",
+    "homeTeam": {
+      "name": "Union St.Gilloise",
+      "id": 7978
+    },
+    "awayTeam": {
+      "name": "Genk",
+      "id": 9987
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 8, 2026, 17:30 UTC",
+    "matchTimeUTCDate": "2026-11-08T17:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-08T17:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.11.2026 18:33:20",
+      "firstHalfEnded": "08.11.2026 19:19:14",
+      "secondHalfStarted": "08.11.2026 19:36:21",
+      "secondHalfEnded": "08.11.2026 20:24:55",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.11.2026 20:24:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "7978",
+      "name": "Union St.Gilloise",
+      "score": 1
+    },
+    {
+      "id": "9987",
+      "name": "Genk",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      10,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

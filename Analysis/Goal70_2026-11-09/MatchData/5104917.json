@@ -1,0 +1,128 @@
+{
+  "ok": true,
+  "id": "5104917",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104917",
+  "verified_at_utc": "2026-11-07T06:56:17.988Z",
+  "general": {
+    "matchId": "5104917",
+    "matchName": "Start-vs-Vålerenga_Mon, May 25, 2026, 12:30 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F3D000",
+        "away": "#333bb3"
+      },
+      "lightMode": {
+        "home": "#d9a200",
+        "away": "#283090"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "10",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Start",
+      "id": 9919
+    },
+    "awayTeam": {
+      "name": "Vålerenga",
+      "id": 8007
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, May 25, 2026, 12:30 UTC",
+    "matchTimeUTCDate": "2026-05-25T12:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-05-25T12:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "25.05.2026 14:30:16",
+      "firstHalfEnded": "25.05.2026 15:18:40",
+      "secondHalfStarted": "25.05.2026 15:34:48",
+      "secondHalfEnded": "25.05.2026 16:27:01",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "25.05.2026 16:27:01"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9919",
+      "name": "Start",
+      "score": 2
+    },
+    {
+      "id": "8007",
+      "name": "Vålerenga",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 5,
+      "added": 0,
+      "display": "5",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 33,
+      "added": 0,
+      "display": "33",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      7
+    ],
+    "All": [
+      5,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5104917.json"
+}

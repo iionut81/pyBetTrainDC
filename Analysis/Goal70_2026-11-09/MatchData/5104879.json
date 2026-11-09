@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "id": "5104879",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5104879",
+  "verified_at_utc": "2026-11-08T08:33:27.211Z",
+  "general": {
+    "matchId": "5104879",
+    "matchName": "Kristiansund-vs-Fredrikstad_Sun, Apr 19, 2026, 15:00 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#2c528c",
+        "away": "#f13c26"
+      },
+      "lightMode": {
+        "home": "#0C2340",
+        "away": "#f13c26"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 59,
+    "leagueName": "Eliteserien",
+    "leagueRoundName": "5",
+    "parentLeagueId": 59,
+    "countryCode": "NOR",
+    "homeTeam": {
+      "name": "Kristiansund",
+      "id": 8605
+    },
+    "awayTeam": {
+      "name": "Fredrikstad",
+      "id": 8417
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Apr 19, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-04-19T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-04-19T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.04.2026 17:01:04",
+      "firstHalfEnded": "19.04.2026 17:47:17",
+      "secondHalfStarted": "19.04.2026 18:02:49",
+      "secondHalfEnded": "19.04.2026 18:56:20",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.04.2026 18:56:20"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8605",
+      "name": "Kristiansund",
+      "score": 2
+    },
+    {
+      "id": "8417",
+      "name": "Fredrikstad",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 48,
+      "added": 0,
+      "display": "48",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      3,
+      5
+    ],
+    "All": [
+      4,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 79,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-08/MatchData/5104879.json"
+}

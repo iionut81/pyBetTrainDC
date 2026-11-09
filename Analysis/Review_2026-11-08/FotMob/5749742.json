@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "5749742",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5749742",
+  "verified_at_utc": "2026-11-09T06:58:45.033Z",
+  "general": {
+    "matchId": "5749742",
+    "matchName": "Fiorentina-vs-Juventus_Sun, Nov 8, 2026, 19:45 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#6f34af",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#5F259F",
+        "away": "#000001"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 55,
+    "leagueName": "Serie A",
+    "leagueRoundName": "11",
+    "parentLeagueId": 55,
+    "countryCode": "ITA",
+    "homeTeam": {
+      "name": "Fiorentina",
+      "id": 8535
+    },
+    "awayTeam": {
+      "name": "Juventus",
+      "id": 9885
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 8, 2026, 19:45 UTC",
+    "matchTimeUTCDate": "2026-11-08T19:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-08T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.11.2026 20:49:07",
+      "firstHalfEnded": "08.11.2026 21:35:15",
+      "secondHalfStarted": "08.11.2026 21:55:14",
+      "secondHalfEnded": "08.11.2026 22:44:26",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.11.2026 22:44:26"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8535",
+      "name": "Fiorentina",
+      "score": 2
+    },
+    {
+      "id": "9885",
+      "name": "Juventus",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 32,
+      "added": 0,
+      "display": "32",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 66,
+      "added": 0,
+      "display": "66",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      8
+    ],
+    "SecondHalf": [
+      4,
+      4
+    ],
+    "All": [
+      5,
+      12
+    ]
+  },
+  "cards": [
+    {
+      "time": 13,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 22,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 50,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

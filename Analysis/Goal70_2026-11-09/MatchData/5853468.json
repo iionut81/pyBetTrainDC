@@ -1,0 +1,162 @@
+{
+  "ok": true,
+  "id": "5853468",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5853468",
+  "verified_at_utc": "2026-11-07T06:59:42.796Z",
+  "general": {
+    "matchId": "5853468",
+    "matchName": "FCSB-vs-Botosani_Mon, Aug 17, 2026, 18:30 UTC",
+    "matchRound": "5",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D9231B",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#D9231B",
+        "away": "#000097"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938428,
+    "leagueName": "Superliga",
+    "leagueRoundName": "5",
+    "parentLeagueId": 189,
+    "countryCode": "ROU",
+    "homeTeam": {
+      "name": "FCSB",
+      "id": 9723
+    },
+    "awayTeam": {
+      "name": "Botosani",
+      "id": 188191
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Mon, Aug 17, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-08-17T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-17T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.08.2026 20:31:30",
+      "firstHalfEnded": "17.08.2026 21:19:12",
+      "secondHalfStarted": "17.08.2026 21:34:41",
+      "secondHalfEnded": "17.08.2026 22:27:07",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.08.2026 22:27:07"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9723",
+      "name": "FCSB",
+      "score": 3
+    },
+    {
+      "id": "188191",
+      "name": "Botosani",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 10,
+      "added": 0,
+      "display": "10"
+    },
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 6,
+      "display": "90+6"
+    },
+    {
+      "side": "away",
+      "minute": 36,
+      "added": 0,
+      "display": "36"
+    },
+    {
+      "side": "away",
+      "minute": 62,
+      "added": 0,
+      "display": "62"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      3
+    ],
+    "SecondHalf": [
+      6,
+      2
+    ],
+    "All": [
+      13,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5853468.json"
+}

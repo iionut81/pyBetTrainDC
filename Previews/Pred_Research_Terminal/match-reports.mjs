@@ -42,6 +42,25 @@ export function matchReportHref(date,market,id) {
  return `reports/${date}/${market}/${id}.html`;
 }
 
+export function cornerHistoryObservation(row) {
+ // Both schemas contain explicit first-half counts. Never read full-time totals.
+ let valid=['valid','corner_ok'].every(key=>row[key]==null||String(row[key]).toLowerCase()==='true');
+ const count=(...keys)=>{
+  const values=keys.map(key=>row[key]).filter(value=>value!=null&&value!=='');
+  const parsed=values.map(number);
+  if(parsed.some(value=>value==null||!Number.isInteger(value)||value<0)||new Set(parsed).size>1)valid=false;
+  return parsed[0]??null;
+ };
+ const home=count('home_corners_1h','home_cf'),away=count('away_corners_1h','away_cf');
+ let total=count('total_corners_1h','total_1h','total1h');
+ if(home!=null&&away!=null){
+  if(total==null)total=home+away;
+  else if(total!==home+away)valid=false;
+ }
+ if(!valid||total==null)return {observation:'Date 1H indisponibile',result:'Neverificat'};
+ return {observation:home!=null&&away!=null?`${fmt(home)} + ${fmt(away)} = ${fmt(total)}`:fmt(total),result:total<=7?'Succes':'Fail'};
+}
+
 function historyTable(rows,model,m,side,market,cutoff) {
  const teamId=model[side+'_history_id']||model[side+'_id'];
  const teamName=model[side]||m[side==='home'?'originalHome':'originalAway'];
@@ -58,10 +77,7 @@ function historyTable(rows,model,m,side,market,cutoff) {
    observation=!valid?'Date nevalidate':r.first_goal?esc(r.first_goal):/^0\s*[-–]\s*0$/.test(score)?'Fără gol':'Minut indisponibil';
    result=valid&&['true','false'].includes(success)?success==='true'?'Succes':'Fail':'Neverificat';
   }else{
-   const valid=r.valid==null||String(r.valid).toLowerCase()==='true';
-   const total=number(r.total_corners_1h??r.total_1h);
-   observation=valid&&total!=null?`${fmt(r.home_corners_1h)} + ${fmt(r.away_corners_1h)} = ${fmt(total)}`:'Date 1H indisponibile';
-   result=valid&&total!=null?total<=7?'Succes':'Fail':'Neverificat';
+   ({observation,result}=cornerHistoryObservation(r));
   }
   const stats=matchStatsHref(r.source,r.api_source);
   return `<tr><td>${esc(r.date.slice(0,10))}<small>${esc(r.league)}</small></td><td>${stats?source(stats,`${r.home} – ${r.away}`):`${esc(r.home)} – ${esc(r.away)}`}${market==='goal'?`<small>${esc(r.score||`${r.home_score??'—'}–${r.away_score??'—'}`)}</small>`:''}</td><td>${observation}</td><td>${result}</td><td>${stats?source(stats,'Statistici meci'):'<span class="muted">Link statistici indisponibil</span>'}<small>${source(r.source||r.api_source,'Dovadă date')}</small></td></tr>`;

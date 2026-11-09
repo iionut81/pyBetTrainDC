@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "id": "5804034",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5804034",
+  "verified_at_utc": "2026-11-09T06:58:47.158Z",
+  "general": {
+    "matchId": "5804034",
+    "matchName": "Lech Poznań-vs-Zagłębie Lubin_Sun, Nov 8, 2026, 19:15 UTC",
+    "matchRound": "14",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004898",
+        "away": "#EB6F08"
+      },
+      "lightMode": {
+        "home": "#004898",
+        "away": "#EB6F08"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 937879,
+    "leagueName": "Ekstraklasa",
+    "leagueRoundName": "14",
+    "parentLeagueId": 196,
+    "countryCode": "POL",
+    "homeTeam": {
+      "name": "Lech Poznań",
+      "id": 2182
+    },
+    "awayTeam": {
+      "name": "Zagłębie Lubin",
+      "id": 8021
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 8, 2026, 19:15 UTC",
+    "matchTimeUTCDate": "2026-11-08T19:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-08T19:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "08.11.2026 20:19:51",
+      "firstHalfEnded": "08.11.2026 21:09:57",
+      "secondHalfStarted": "08.11.2026 21:27:06",
+      "secondHalfEnded": "08.11.2026 22:17:43",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.11.2026 22:17:43"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2182",
+      "name": "Lech Poznań",
+      "score": 2
+    },
+    {
+      "id": "8021",
+      "name": "Zagłębie Lubin",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 52,
+      "added": 0,
+      "display": "52",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 1,
+      "display": "45+1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 56,
+      "added": 0,
+      "display": "56",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      0
+    ],
+    "SecondHalf": [
+      6,
+      1
+    ],
+    "All": [
+      12,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 46,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Red",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

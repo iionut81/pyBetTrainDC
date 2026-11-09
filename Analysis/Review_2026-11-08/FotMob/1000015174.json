@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "1000015174",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015174",
+  "verified_at_utc": "2026-11-09T06:58:53.231Z",
+  "general": {
+    "matchId": "1000015174",
+    "matchName": "FK Radnik Surdulica-vs-OFK Beograd_Sun, Nov 8, 2026, 12:00 UTC",
+    "matchRound": "15",
+    "teamColors": {
+      "darkMode": {
+        "home": "#043F92",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#043F92",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "15",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "FK Radnik Surdulica",
+      "id": 463461
+    },
+    "awayTeam": {
+      "name": "OFK Beograd",
+      "id": 8692
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Nov 8, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-11-08T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-08T12:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.11.2026 13:02:08",
+      "firstHalfEnded": "08.11.2026 13:48:40",
+      "secondHalfStarted": "08.11.2026 14:05:37",
+      "secondHalfEnded": "08.11.2026 14:55:26",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.11.2026 14:55:26"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "463461",
+      "name": "FK Radnik Surdulica",
+      "score": 2
+    },
+    {
+      "id": "8692",
+      "name": "OFK Beograd",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 43,
+      "added": 0,
+      "display": "43"
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4"
+    },
+    {
+      "side": "away",
+      "minute": 86,
+      "added": 0,
+      "display": "86"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      4
+    ],
+    "SecondHalf": [
+      4,
+      5
+    ],
+    "All": [
+      6,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 21,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

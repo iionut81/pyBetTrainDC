@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "1000015173",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=1000015173",
+  "verified_at_utc": "2026-11-09T06:58:53.164Z",
+  "general": {
+    "matchId": "1000015173",
+    "matchName": "Novi Pazar-vs-Mladost Lučani_Sun, Nov 8, 2026, 12:00 UTC",
+    "matchRound": "15",
+    "teamColors": {
+      "darkMode": {
+        "home": "#004080",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#004080",
+        "away": "#24A4E3"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 182,
+    "leagueName": "Super Liga",
+    "leagueRoundName": "15",
+    "parentLeagueId": 182,
+    "countryCode": "SRB",
+    "homeTeam": {
+      "name": "Novi Pazar",
+      "id": 187854
+    },
+    "awayTeam": {
+      "name": "Mladost Lučani",
+      "id": 1739
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Nov 8, 2026, 12:00 UTC",
+    "matchTimeUTCDate": "2026-11-08T12:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-08T12:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.11.2026 13:03:21",
+      "firstHalfEnded": "08.11.2026 13:49:34",
+      "secondHalfStarted": "08.11.2026 14:08:21",
+      "secondHalfEnded": "08.11.2026 14:56:52",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.11.2026 14:56:52"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "187854",
+      "name": "Novi Pazar",
+      "score": 2
+    },
+    {
+      "id": "1739",
+      "name": "Mladost Lučani",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 37,
+      "added": 0,
+      "display": "37"
+    },
+    {
+      "side": "home",
+      "minute": 69,
+      "added": 0,
+      "display": "69"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      4
+    ],
+    "SecondHalf": [
+      0,
+      2
+    ],
+    "All": [
+      5,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 31,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

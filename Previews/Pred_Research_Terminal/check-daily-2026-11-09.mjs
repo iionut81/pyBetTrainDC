@@ -1,0 +1,32 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {pathToFileURL} from 'node:url';
+const here=path.resolve('Previews/Pred_Research_Terminal');
+let s=fs.readFileSync(path.join(here,'check-preview.mjs'),'utf8');
+s=s.slice(0,s.indexOf(" await check('Dashboard opens"));
+s=s.replace('const here=path.dirname(fileURLToPath(import.meta.url));','const here='+JSON.stringify(here)+';');
+s+=`
+ await check('Today four fixtures and4/3models', 'DATA.date==="2026-11-09"&&DATA.matches.length===4&&DATA.coverage.goal===4&&DATA.coverage.corner===3');
+ await check('NO BETgoal and Sabadellcorner are separate from user choices', 'DATA.matches.filter(m=>m.analystGoal).length===0&&document.querySelector(".corner-card").textContent.includes("Sabadell")&&DATA.userSelections.length===0');
+ await check('Today outcomes pending without previous-day rate', 'DATA.matches.every(m=>m.goal.outcome.result==="pending"&&m.corner.outcome.result==="pending")&&!document.querySelector("#outcomeStrip")');
+ await evaluate('setMarket("corner")');
+ await check('Corner review only selected date', 'document.querySelector("#reviewPanel").dataset.reviewDate==="2026-11-09"&&!document.querySelector("#outcomeStrip")');
+ await check('MissingFirstHalf model is null', 'DATA.matches.find(m=>m.id==="5868533").corner.p===null');
+ await evaluate('selectDay("2026-11-08");setMarket("goal")');
+ await check('Yesterday goal102verified and15fail', 'document.querySelectorAll("#outcomeStrip span").length===102&&document.querySelectorAll("#outcomeStrip .failed").length===15');
+ await check('Brighton user success pinned with original p', 'document.querySelector(".goal-card .choice-result").textContent==="-Succes"&&filteredMatches()[0].id==="5795506"&&DATA.matches.find(m=>m.id==="5795506").goal.p===0.9161869593008896');
+ await evaluate('setMarket("corner")');
+ await check('Yesterday corner99verified and12fail', 'document.querySelectorAll("#outcomeStrip span").length===99&&document.querySelectorAll("#outcomeStrip .failed").length===12');
+ await check('Girona user success pinned with original p', 'document.querySelector(".corner-card .choice-result").textContent==="-Succes"&&filteredMatches()[0].id==="5868530"&&DATA.matches.find(m=>m.id==="5868530").corner.p===0.9696636119002379');
+ await evaluate('setView("overview");selectDay("2026-11-09");setMarket("corner")');
+ await check('Returning today clears old strip', '!document.querySelector("#outcomeStrip")&&document.querySelector("#reviewPanel").dataset.reviewDate==="2026-11-09"');
+ const screenshot=await page('Page.captureScreenshot',{format:'png',captureBeyondViewport:false});fs.writeFileSync(path.join(here,'preview-daily-2026-11-09.png'),Buffer.from(screenshot.data,'base64'));
+ await page('Emulation.setDeviceMetricsOverride',{width:390,height:844,deviceScaleFactor:1,mobile:true});
+ await check('Mobile has no horizontal overflow', 'document.documentElement.scrollWidth<=390');
+ if(errors.length)throw Error(JSON.stringify(errors));
+ const result={status:'PASS',date:'2026-11-09',checks,exceptions:errors.length,verified_at_utc:new Date().toISOString()};
+ fs.writeFileSync(path.join(here,'daily-verification-2026-11-09.json'),JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+}catch(error){console.error('Browser diagnostics:',browserErrors);throw error;}finally{if(ws?.readyState===WebSocket.OPEN){try{await send('Browser.close');}catch{}ws.close();}if(proc.exitCode===null)proc.kill();}
+`;
+fs.mkdirSync(path.join(here,'.runtime'),{recursive:true});
+const runtime=path.join(here,'.runtime','daily-2026-11-09-runtime.mjs');fs.writeFileSync(runtime,s);await import(pathToFileURL(runtime).href);

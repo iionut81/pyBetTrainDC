@@ -385,3 +385,43 @@ Utilizatorul confirmă alegerile de azi și precizează că ieri a selectat pers
 Utilizatorul cere commit cu discuția zilei, analizele și lecțiile, pentru continuitate mâine. Se includ rezumatele proiectului, nu exporturile private integrale ale conversației. Alegerile active8noiembrie sunt Brighton–Brentford Gol70 și Girona–Almería cornere, pending la acest moment. Mâine9noiembrie: rezultate exacte și restanțe → comparație cu analizele prospective și lecții → cercetarea celor două piețe → rebuild și verificare dashboard. Nu presupunem rezultatul înaintea verificării.
 
 Commit local cu mesajul Analize si lectii PRED - 2026-11-08 și trailerCodex, autorul existent păstrat. Include datele și dovezile publice necesare, review7noiembrie, cercetarea8noiembrie, comparațiile, auditul descriptiv și snapshoturile dashboardului. Modificările independente de producție, configurațiile/logurile private și transcripturile rămân excluse. Această cerere nu include push sau republicarePages. Pentru confirmarea finală se consultă gitlog și chitanța locală .runtime/nov08-commit-receipt.json; nu se repetă commitul dintr-o notă de pregătire.
+
+
+## Rulare zilnică 9 noiembrie 2026 — 2026-11-09T09:09:21.655+02:00
+
+Această stare are prioritate față de rezumatele mai vechi. Mesajul curent a cerut cercetarea ambelor piețe fără agenți paraleli. Ora inițială08:57RO. CSV/evenimente actuale: alegeri8noiembrie Brighton–Brentford GOAL_BY_70 șiGirona–Almería CORNERS_1H_UNDER_7_5; ambele verificateSucces, primul15 și5cornereFirstHalf. CSV modificat sublock/scriereatomică numai în câmpurile de rezultat; procentele/rangurile/timestampurile păstrate. Brighton15 precede eliminarea23; nu atribuim primul gol acelei eliminări.
+
+Review8noiembrie: Gol7087/102,15fail; cornere87/99,12fail,3pendingFirstHalfCipru. Separat modelecornere72/81,9fail; nu ascundem3failfărămodel. LasPalmas–Eldense este reprogramat9noiembrie conformclubului, nu partidă jucată8noiembrie;2altecancelledfurnizor sunt distincte. Nacional–Viseurestant7noiembrie actualizat din observația8noiembrie:primul86FAILGol70 și6cornereSUCCES. Alte4FirstHalfCipru șiSerbianefinală rămânrestante. Review/lecții predate08:59:22RO; scanare08:59:38RO. Corecția editorială a numelor din preambulul inițial al lecțiilor este arhivată/documentată; checklistul și rezultatele existau înaintea scanării.
+
+Inventar29ligi/top20UEFA2026plusRO/RSși7secunde: inițial3partideFotMob, apoi4 după controlulESPN+comunicatLasPalmas. Snapshoturileinițiale păstrate înGoal70_2026-11-09/Revisions;4modeleGol70 și3cornere din124istorice. LasPalmasindividualFotMob a confirmat ulterior ora9nov21:30RO, deși global îl omisese. NO BETGol70: liderKristiansund–Vålerenga20RO90,90%/85,30%, focar12bolnavi documentatNFF6noiembrie, recuperare/lotazi neconfirmate. AlternativeSabadell87,70%,Botoșani85,72%,LasPalmas84,01% comparate fără ajustări numerice.
+
+Candidatcornere și singura preferințăindividuală: Sabadell–RealSociedadB21:30RO94,84%brut/88,57%stres,fair1,0544,rang1,24/24istoric și11/11teren;2exact7,zero≥8,varianțe1,70/1,87pe teren. Sanzsuspendat șiQuadriincert contrazicXIvechiAPI; verticalitateaSanse este contraargument. Costa/Ansotegi actuali, ultimulcampionat31octombrie, meteo documentat. Nicio alegere9noiembrie în numele utilizatorului; consultăCSV/evenimentele actuale la reluare pentru eventuale clickuri ulterioare.
+
+Researchpartial:ESPNnesuportat4ligi,Româniagolcontrazisdeclub,confirmareindependentăexhaustivăFirstHalflipsă,1FirstHalfistoricLasPalmasneeligibil,80recenteoficialecu9FirstHalfși1gollipsă,loturi/cronologieantrenori incomplete. Toate7modele recalculate,4testearhivă și11browserPASS,zeroexcepții. Dashboardcomplete8zile/4partideazi/688rapoarte;ieri alegeriSuccesprimele,azi pendingfărărataieri,lipsăNULL. Browser sandboxGPUfailed, același control local aprobatPASS. Run_report_2026-11-09.json are statusurireview/researchpartial și dashboardcomplete.
+
+Exportprivat2mesaje/1sursă disponibilă, nu transcriptcomplet. Fărăschedule/model/selection_engine/commit/push/publicarePages. Următorulpas: alegeri explicite princhat/dashboarddacăapar;10noiembrie rezultate→review/lecții→research. Chrome pred-dashboard://open; HTMLfallbackC:/Users/IonuțLucianIordache/OneDrive - Lucanet AG/Desktop/Pred/Previews/Pred_Research_Terminal/dist/index.html.
+
+
+## Clarificarea NO BET și auditul aplicării lecțiilor, 9 noiembrie
+
+Utilizatorul întreabă dacă NO BETGol70 vine din lipsa meciurilor sau din lecții și dacă au fost analizate succesele/eșecurile de ieri. Recitite review/lecții, CSVrezultate și rapoarte9noiembrie, fără reluarea scanării. Sunt4modeleGol70, deci nu lipsă totală: liderKristiansund90,90%are recuperare neconfirmată după focar12jucătoriNFF; celelalte3au contraargumente proprii. Este judecată contextuală, nu prag automat90% sau probabilitate penalizată. NFFreconfirmat din pagina oficială:documente12bolnavi6noiembrie,reprogramare9noiembrie19local/20RO.
+
+Review8noiembrie verificat:87/102Gol70,15fail;87/99cornere,12fail,3pending;modele72/81cornere,9fail. Brighton15înaintearoșului23 șiGirona5Succes. ExemplefailNacionalprimul86cu20/20istoric,Osijek89,Servette0–0;LeMans99,23%a avut9cornere, cuvarianțăacasă9,67semnalatăînainte;Midtjylland10cornerecuvarianțemari. Nu atribuim cauze tactice nedemonstrate.
+
+Lecțiiaplicateazi:GF70/frecvențe/AR20și lotreal, reprogramareindependentă, dispersie/exact7/≥8. Sabadell24/24și11/11,dar eșantioane5/6și2exact7; Sanzsuspendat/QuadriincertcontrazicXIvechi, verticalitateSanseriscpăstrat. Review/checklist08:59:22precedscanarea08:59:38;corecțiaeditorialăulterioarăapreambululuiesteexplicată,nuprezentatădreptanterioară. Auditcomplet:Analysis/Review_2026-11-08/AUDIT_APPLICATION_2026-11-09.md. Canonice/procente/modele/programare/Gitneatinse;rebuilddupăsalvareși exportsafealmesajelorvizibile. Urmeazăclarificareaînchat,nuoalegerenouă.
+
+
+## Corectarea istoricului de cornere din raport, 9 noiembrie
+
+Utilizatorul semnalează că raportulSabadell–RealSociedadB arată toate observațiile istorice Neverificat/Date1Hindisponibile deși modelul are24/24. Cauză confirmată în generator: citire numai total_corners_1h/total_1h și home_corners_1h/away_corners_1h, dar CSVdeazi folosește total1h/home_cf/away_cf/corner_ok. Datele numerice există; nu este lipsă reală pentru acele rânduri.
+
+Corectatgenericmatch-reports.mjs cu suport pentru ambele scheme, verificarea valid/corner_ok, numere întregi nenegative și reconcilierea totalului cu echipele. Contradicții/lipsuri/invalide/numaiFT rămânNeverificat;zeroexplicitestevalid, fără înlocuirea missingcu0. Sabadell/Sanseafișează20observații recente salvate cu totaluri șiSucces;Albacete–Sabadell31octombrie6+1=7. Meciul de azi rămâne încăneverificat până la rezultat; nu se confundă cu istoricul.
+
+QA:7testeNodePASS(4arhivă+3rapoarte),6verificăribrowserPASS,0excepții,mobilfărăoverflow;captura preview-corner-history.pnginspectată. Dashboard688rapoarteregenerate;CSV/procente/selecții/outcomesnemodificate. READMEactualizat;tests match-reports.test.mjs și check-corner-history.mjs. Fără researchnou,commit,push,programare/modelschimbate. Următorulpas:Ctrl+F5înraportpentruversiuneacorectată.
+
+
+## Commit și push autorizate pe main, 9 noiembrie
+
+Utilizatorul cere explicit commit și push după analiza zilnică și repararea istoricului cornerelor. Pachetul include rapoarte/date/rezultate/lecții9noiembrie, restanțele actualizate din7noiembrie, corecția generică a schemelor CSV, teste și dashboardregenerat, rezumatele discuției. AutorulGitexistent și trailerulCodex sunt păstrate. Transcrierile private, logurile/configurațiile locale și modificările independente de producție rămân excluse. Pushmainva include și commitul local1ce7b0cdeieri, încă nepublicat. Nu se republică automatPages.
+
+Verificare înainte de publicare:11testeNodePASS și6controalebrowserPASS pentru istoricul corectat. Remote mainc0d54f9, local1ce7b0c înaintea commituluinou. Mesaj: Corectie raport cornere si analize PRED - 2026-11-09. După pushseconfirmăSHA local/remoteși mesajul complet. Chitanțălocală .runtime/nov09-push-receipt.json; nu repeta un commit deja creat pe baza acestei note. Pentru10noiembrie păstrează ordinea rezultate→review/lecții→research, fără a modifica automat modelele din rezultate.

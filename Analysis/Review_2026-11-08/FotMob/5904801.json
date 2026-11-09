@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "id": "5904801",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5904801",
+  "verified_at_utc": "2026-11-09T06:58:51.366Z",
+  "general": {
+    "matchId": "5904801",
+    "matchName": "Beşiktaş-vs-Gençlerbirliği_Sun, Nov 8, 2026, 18:00 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#A60832"
+      },
+      "lightMode": {
+        "home": "#000000",
+        "away": "#A60832"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 71,
+    "leagueName": "Super Lig",
+    "leagueRoundName": "11",
+    "parentLeagueId": 71,
+    "countryCode": "TUR",
+    "homeTeam": {
+      "name": "Beşiktaş",
+      "id": 10188
+    },
+    "awayTeam": {
+      "name": "Gençlerbirliği",
+      "id": 7800
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 8, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-11-08T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-08T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "08.11.2026 19:00:46",
+      "firstHalfEnded": "08.11.2026 19:48:21",
+      "secondHalfStarted": "08.11.2026 20:04:18",
+      "secondHalfEnded": "08.11.2026 20:52:30",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.11.2026 20:52:30"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10188",
+      "name": "Beşiktaş",
+      "score": 3
+    },
+    {
+      "id": "7800",
+      "name": "Gençlerbirliği",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 20,
+      "added": 0,
+      "display": "20",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 85,
+      "added": 0,
+      "display": "85",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      1,
+      1
+    ],
+    "All": [
+      4,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 2,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 16,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 22,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 33,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

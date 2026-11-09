@@ -1346,12 +1346,12 @@
         "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887676",
         "eligible": true,
         "outcome": {
-          "result": "pending",
-          "minute": "",
+          "result": "fail",
+          "minute": "86",
           "corners": "",
-          "score": "",
+          "score": "1-0",
           "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887676",
-          "verifiedAt": "2026-11-08T10:31:17.343+02:00"
+          "verifiedAt": "2026-11-09T08:58:54.816+02:00"
         },
         "report": "reports/2026-11-07/goal/5887676.html"
       },
@@ -1367,12 +1367,12 @@
         "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887676",
         "eligible": true,
         "outcome": {
-          "result": "pending",
+          "result": "success",
           "minute": "",
-          "corners": "",
-          "score": "",
+          "corners": "6",
+          "score": "1-0",
           "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887676",
-          "verifiedAt": "2026-11-08T10:31:17.343+02:00"
+          "verifiedAt": "2026-11-09T08:58:54.816+02:00"
         },
         "report": "reports/2026-11-07/corner/5887676.html"
       },
@@ -6176,12 +6176,12 @@
         "home": "Nacional",
         "away": "Académico Viseu",
         "p": 0.9115218809579126,
-        "result": "pending",
-        "minute": "",
+        "result": "fail",
+        "minute": "86",
         "corners": "",
-        "score": "",
+        "score": "1-0",
         "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887676",
-        "verifiedAt": "2026-11-08T10:31:17.343+02:00",
+        "verifiedAt": "2026-11-09T08:58:54.816+02:00",
         "rank": 23
       },
       {
@@ -7946,12 +7946,12 @@
         "home": "Nacional",
         "away": "Académico Viseu",
         "p": 0.8743433311712838,
-        "result": "pending",
+        "result": "success",
         "minute": "",
-        "corners": "",
-        "score": "",
+        "corners": "6",
+        "score": "1-0",
         "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5887676",
-        "verifiedAt": "2026-11-08T10:31:17.343+02:00",
+        "verifiedAt": "2026-11-09T08:58:54.816+02:00",
         "rank": 57
       },
       {
@@ -8544,27 +8544,27 @@
   "metrics": {
     "goal": {
       "total": 102,
-      "played": 100,
+      "played": 101,
       "success": 86,
-      "fail": 14,
+      "fail": 15,
       "postponed": 0,
-      "pending": 1,
-      "hit_rate": 0.86,
-      "mean_predicted_probability": 0.8729784060353518,
-      "brier": 0.11912508312788074,
-      "scored": 100
+      "pending": 0,
+      "hit_rate": 0.8514851485148515,
+      "mean_predicted_probability": 0.8733600245989415,
+      "brier": 0.12617208368567454,
+      "scored": 101
     },
     "corner": {
       "total": 102,
-      "played": 98,
-      "success": 84,
+      "played": 99,
+      "success": 85,
       "fail": 14,
       "postponed": 0,
-      "pending": 3,
-      "hit_rate": 0.8571428571428571,
-      "mean_predicted_probability": 0.8901468010490861,
-      "brier": 0.13845525221202024,
-      "scored": 82
+      "pending": 2,
+      "hit_rate": 0.8585858585858586,
+      "mean_predicted_probability": 0.889956397797546,
+      "brier": 0.13697735276875647,
+      "scored": 83
     }
   },
   "userSelections": [
