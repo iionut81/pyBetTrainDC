@@ -1,0 +1,124 @@
+{
+  "ok": true,
+  "id": "6469285",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6469285",
+  "verified_at_utc": "2026-11-11T08:31:41.149Z",
+  "general": {
+    "matchId": "6469285",
+    "matchName": "Accrington Stanley-vs-Wycombe Wanderers_Sat, Nov 7, 2026, 15:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#AE001B",
+        "away": "#72A4EA"
+      },
+      "lightMode": {
+        "home": "#AE001B",
+        "away": "#083868"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 953430,
+    "leagueName": "FA Cup",
+    "leagueRoundName": "1",
+    "parentLeagueId": 132,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Accrington Stanley",
+      "id": 8671
+    },
+    "awayTeam": {
+      "name": "Wycombe Wanderers",
+      "id": 8676
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Sat, Nov 7, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-11-07T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-07T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.11.2026 16:00:49",
+      "firstHalfEnded": "07.11.2026 16:48:20",
+      "secondHalfStarted": "07.11.2026 17:03:19",
+      "secondHalfEnded": "07.11.2026 17:56:30",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.11.2026 17:56:30"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8671",
+      "name": "Accrington Stanley",
+      "score": 0
+    },
+    {
+      "id": "8676",
+      "name": "Wycombe Wanderers",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 5,
+      "added": 0,
+      "display": "5"
+    },
+    {
+      "side": "away",
+      "minute": 69,
+      "added": 0,
+      "display": "69"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": null
+  },
+  "cards": [
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 87,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

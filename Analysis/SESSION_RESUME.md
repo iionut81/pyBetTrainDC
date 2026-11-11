@@ -1,5 +1,17 @@
 # PRED — punct de reluare
 
+## Publicarea autorizată a corecției Artis — 11 noiembrie
+
+Utilizatorul cerecommit/pushmain pentru fixul verificat. Local/serverînainte20973ec, indexgol. Include cod/test/QA/documentație/dashboard și dependențele analitice10–11noiembrie; exclude producția independentă, transcripturi/config/loguri/runtime/FailedSandbox șiPages. Nu modifica autorulGit; trailerCodexobligatoriu.8testeNode și6browserPASS. Verificăgitlog și .runtime/nov11-push-receipt.json pentru confirmarea finală, nu repeta un commitdinnota de pregătire. Nu republicaPages sau schimba programarea.
+
+## Ultima corecție în chat — Artis–Jablonec, 11 noiembrie
+
+Captura utilizatorului arăta0observații istorice pentru ambele echipe. Cauză: generatorul cornerelor căuta exclusiv historical_corners_1h.csv; azi FirstHalf este în fișierul comun Goal70_2026-11-11/historical_observations.csv. Corectat generic fallback-ul (fișierul dedicat rămâne prioritar), cu validarea explicită1H păstrată. Sunt14observații/13succese per echipă; raportul arată10recente fiecare, inclusiv failurile9cornereTeplice–Artis și8Jablonec–Baník.8testeNode și6browserPASS,0excepții,mobil fărăoverflow; captura inspectată. Dashboard10zile/746rapoarte reconstruit. Probabilități93,09%/85,29%, snapshoturi/alegeri/rezultate nemodificate; fărăresearchnou, commit/push sau schimbări de modele/programare. Detalii în jurnal11noiembrie și READMEdashboard. UrmeazăCtrl+F5înraport, apoi fluxul zilnic normal; nu repeta cercetarea zilei deja salvată.
+
+## Reluare conversație — 11 noiembrie 2026
+
+Utilizatorul cere ultima discuție, motivul creării branch-ului și unde am rămas. Verificat: checkout main, HEAD20973ec egal cu origin/main local; serverul nu a fost interogat acum. Ultimele mesaje interactive anterioare găsite în arhiva principală sunt din10noiembrie („Esti live?”, „ce trebuia sa faci azi?”), apoi raportul automat. Ultima discuție de cod9noiembrie: repararea istoricului cornerelor afișat Neverificat și commit/push autorizat. Ultima predare10noiembrie10:00RO: Sabadell6cornereSucces, NOBETambelepiețe, dashboard actualizat, cercetareparțială și restanțeCipru/Serbia; actualizările10noiembrie sunt locale/necomise. Nu există dovadă consultată pentru motivul tehnic al creării main; scopul fluxului PRED nu trebuie confundat cu acesta. Daily-Double/Goal/Corners este o ramură locală veche, inactivă, la300ffbc9martie. Nu presupune că aceasta este ramura vizată. Jurnal: Analysis/Selection_History/2026-11-11.md. Nu s-a pornit cercetarea11noiembrie și nu s-a verificat execuția automată de azi. Următorul flux: rezultate/restanțe→review/lecții→research→dashboard. Exportul curent are3mesaje/1sursă; subarhivele anterioare sunt păstrate private.
+
 Actualizat 2026-11-04T08:12:57.873+02:00. Citeste AGENTS.md, CLAUDE.md, promptul master, DAILY_WORKFLOW.md, jurnalul cel mai nou, user_selections.csv si rapoartele automate canonice; aceste surse au prioritate fata de rezumat.
 
 4 noiembrie: fluxul08:00 a verificat alegerile3 noiembrie: QPR-Burnley Gol70 primul gol38 Succes; Derby-Norwich cornere1H6 Succes. Snapshoturile originale pastrate. Review Gol70 18/20; cornere18/20 univers,17/19 modele. Restante2 noiembrie cornere21/25 verificate, Radnicki-Zeleznicar reprogramat25 noiembrie oraTBD, Tenerife-AndorraAb/abandonat in furnizor contrazice eticheta vecheamanat; dovezi separate si fara modificarea arhivei Gol70.
@@ -425,3 +437,45 @@ QA:7testeNodePASS(4arhivă+3rapoarte),6verificăribrowserPASS,0excepții,mobilf�
 Utilizatorul cere explicit commit și push după analiza zilnică și repararea istoricului cornerelor. Pachetul include rapoarte/date/rezultate/lecții9noiembrie, restanțele actualizate din7noiembrie, corecția generică a schemelor CSV, teste și dashboardregenerat, rezumatele discuției. AutorulGitexistent și trailerulCodex sunt păstrate. Transcrierile private, logurile/configurațiile locale și modificările independente de producție rămân excluse. Pushmainva include și commitul local1ce7b0cdeieri, încă nepublicat. Nu se republică automatPages.
 
 Verificare înainte de publicare:11testeNodePASS și6controalebrowserPASS pentru istoricul corectat. Remote mainc0d54f9, local1ce7b0c înaintea commituluinou. Mesaj: Corectie raport cornere si analize PRED - 2026-11-09. După pushseconfirmăSHA local/remoteși mesajul complet. Chitanțălocală .runtime/nov09-push-receipt.json; nu repeta un commit deja creat pe baza acestei note. Pentru10noiembrie păstrează ordinea rezultate→review/lecții→research, fără a modifica automat modelele din rezultate.
+
+
+## Rulare10noiembrie — 2026-11-10T09:58:31.534+02:00
+
+Cerere: execuția zilnică autorizată pentru ambele piețe, fără agenți paraleli, cote bookmaker, pariuri/mize, mesaje externe, schimbări modele/selection_engine/programare, commit/push. Ora reală inițială09:52RO. CSV/evenimente citite; alegerea explicită9noiembrieSabadell–RealSociedadBcornere6Succes. Nicio alegereGol70. Actualizare sublock/revizie/scriereatomică, snapshoturi păstrate.
+
+Review9:2/4Gol70,failSabadell0–0șiLasPalmas90+5;4/4cornere,separat3/3modele. Botoșani69succesla limită,Kristiansund27FotMob/26clubconflictminutpăstrat. LaLiga confirmă independent6cornereSabadell13/16/17/26/35/41.7FirstHalfCipruîncălipsă,Serbiacancelledfurnizorversusreprogramareveche. LasPalmasjucat9nu este mutat retrospectiv încohorta8.
+
+Review/lecții predate2026-11-10T09:55:11.585+02:00;scanare2026-11-10T09:55:30.138+02:00. Ordine respectată; confirmările independente ulterioare sunt datate separat.29ligi/global+sezon+25ESPNvalide:0partideidentificate;4ligi fără confirmareindependentă. Top20final2026confruntatKassiesa/UEFA,plusRO/RSși7secunde. Separat24cupe:6Copa active+BadajozTBD,17EFL.58istorice disponibile unilateral,0modeleeligibile. NO BETambelepiețe.49altepartideexcluseexplicit;nu pretindem cănu existăistoric inferiorpublic, colectarea bilateralănu esterealizată.
+
+Lecțiiaplicate:nu completăm lipsuricu0,nu transferăm senior→U21sauintern→cupăautomat,reprogramăriconfruntateRFEF,fărăp/ranginventate. Verificareloturi/tactică/meteoaprofundatăneefectuatăfărăfinaliști. Researchpartial,nu topglobal. Urmeazărebuild/verificare/exportmesajevizibile,apoi11noiembrie rezultate/restanțe→review/lecții→research.
+
+
+
+## Predare finală — 2026-11-10T10:00:02.766+02:00
+
+Dashboardcomplete:9zile,24înregistrăricupăazi,0modele;736rapoarte. PASS7testeNode,7invariante de date și8controalebrowser,0excepții,mobilfărăoverflow. SandboxbrowserGPUa eșuat; aceeași verificarelocală aprobatăPASS. AlegereaSabadell6Succesfixatăprimaieri,azi lipsuriNULLși fărărezultateinventate/ratevechi. Procentele/rangurile/timestampurilealegerilorverificate păstrate. Review/researchrămânpartial,nu integral. Exportprivat2mesaje/1sursădisponibilă,nu transcriptcomplet.
+
+ActualizateReview_2026-11-09,Goal70_2026-11-10,Corners1H_2026-11-10,CSVcanonice,jurnal,resume,run_report și dashboard. Fărăagențiparaleli,commit,push,Pages,schimbăriprogramare/modele/selection_engine. Urmează11noiembrie:reîncearcărestanțeCipru/conflictSerbia,reviewlecțiiînainteascanării;nu fabricaresults10noiembriefărăobservații. Chrome pred-dashboard://open;fallbackC:/Users/IonuțLucianIordache/OneDrive - Lucanet AG/Desktop/Pred/Previews/Pred_Research_Terminal/dist/index.html.
+
+
+## Rulare11noiembrie — 2026-11-11T10:37:02.391+02:00
+
+Cerere: rulare zilnică autorizată,recuperare fărăagențiparaleli;rezultate→review/lecții→researchambepiețe→dashboard. Orarealăinițială10:25RO. Nuamgăsitcheckpointurianalitice11noiembrie;reutilizatedescărcărivalideistorice.Modeleproducție,selection_engine,task,Gitnemodificate.
+
+CSV/evenimentecitite:zeroalegeriexplicite10noiembrie,nicioalegereactivămai vechefărărezultat.CSVnuafostmodificat. Inventarieri:20/23Gol70,15/19cornere,3/4fail;4FirstHalfpending,BadajozTBDexclus.Fărămodele/alegerianalistieri,nuinventămperformanță.7FirstHalfCiprușiconflictSerbiapersistă. Review/lecțiipredate2026-11-11T10:28:28.685+02:00;scanare2026-11-11T10:28:48.046+02:00.ClarificareaPPBadajozestedatatădupăscanare,fărăschimbareabilanțului.
+
+29ligifărăpartideidentificate;5cupecercetate,3modele/piațădin122istorice. ExtinderesalvatăînRevisions:fărărescriereaprobabilitățilorexistente,timestampuripăstrate.92recenteoficiale/10echipe,2goluri/22FirstHalflipsă. NO BETGol70;liderWednesday88,68/82,50,cupă/lotincert. CandidatcornereArtis–Jablonec19:00RO93,09/85,29,fair1,0743,rang1,26/28și13/13teren;2exact7/2≥8sezon.ConvocăriLabík/Kašík/Fully,neconfirmareplecări șiXIvechi,meterologiacontradictorieintervale,cupă/deplasareEuropa/odihnăriscuri. Nicioalegereautomată.
+
+Lecțiiaplicate:ratepropriiGF70,tardive/0–0,frecvențe/AR20,exact7/≥8/dispersie,loturiactuale,intern→cupăseparat și programconfruntat.2dueluriSlovaciafărămodel,conflictorăPodbrezová. Researchpartial,nu topglobal.Modelele/rangurilefinaleșisnapshoturilearhivate;fărăajustăriprocentuale. Urmeazărebuild/QA/exportprivat;12noiembrieprioritaralegeriapărutedacăexistă,rezultateșirestanțe→reviewlecții→research.
+
+
+## Predare finală — 2026-11-11T10:39:24.957+02:00
+
+Dashboard reconstruit: 10 zile navigabile, 5 partide azi, 3 modele pe fiecare piață, 746 rapoarte individuale. Verificări PASS: 7 teste Node existente, toate cele6 calcule brute/stres recalculate, invariantele arhivei și alegerilor, 9 controale browser, 0 excepții, fără overflow mobil. Browserul din sandbox a eșuat la GPU; aceeași verificare locală autorizată a trecut.
+
+Ieri: fără alegeri explicite și fără modele; inventar20/23 Gol70 și15/19 cornere,4FirstHalfpending,1amânat. Azi: toate rezultatele în așteptare, fără rate ale zilei precedente; Artis–Jablonec candidatcornere93,09%/85,29% la19:00RO, Gol70 NO BET. Alegerile anterioare și valorile prospective păstrate. Cercetarea și review-ul rămânpartial, deși dashboardul estecomplete. Exportprivat2mesaje/1sursă disponibilă, nu istoric complet. Fără agenți paraleli, pariuri, commit/push, Pages, schimbări de programare sau modele.
+
+Actualizate Review_2026-11-10, Goal70_2026-11-11, Corners1H_2026-11-11, CSV canonice, jurnal, resume, run_report și dashboard. Următorul pas: eventualele alegeri explicite din chat/dashboard rămân distincte;12noiembrie se verifică întâi rezultatele și restanțele, apoi review/lecții, apoi scanarea. Chrome pred-dashboard://open; fallback C:/Users/IonuțLucianIordache/OneDrive - Lucanet AG/Desktop/Pred/Previews/Pred_Research_Terminal/dist/index.html.
+
+
+Completare final?: sensibilitatea f?r? elimin?ri?70/?45 este salvat? separat ?n Goal70_2026-11-11/red_card_sensitivity.json ?i rapoarte; Artis cornere93,76% ?n acest diagnostic versus93,09%prognoza p?strat?. Nu este calibrare, interval de ?ncredere sau schimbare a recomand?rii. Timestampul verific?rii kickoffului dinprospective_selection.csv este exprimat explicitRO.

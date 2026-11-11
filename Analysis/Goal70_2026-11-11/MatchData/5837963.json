@@ -1,0 +1,119 @@
+{
+  "ok": true,
+  "id": "5837963",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5837963",
+  "verified_at_utc": "2026-11-11T08:31:01.625Z",
+  "general": {
+    "matchId": "5837963",
+    "matchName": "Northampton Town-vs-Oldham Athletic_Tue, Nov 3, 2026, 19:45 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#9e2a54",
+        "away": "#014898"
+      },
+      "lightMode": {
+        "home": "#782040",
+        "away": "#014898"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 109,
+    "leagueName": "League Two",
+    "leagueRoundName": "9",
+    "parentLeagueId": 109,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Northampton Town",
+      "id": 8651
+    },
+    "awayTeam": {
+      "name": "Oldham Athletic",
+      "id": 9785
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Nov 3, 2026, 19:45 UTC",
+    "matchTimeUTCDate": "2026-11-03T19:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-03T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "03.11.2026 20:45:57",
+      "firstHalfEnded": "03.11.2026 21:33:09",
+      "secondHalfStarted": "03.11.2026 21:48:44",
+      "secondHalfEnded": "03.11.2026 22:37:05",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.11.2026 22:37:05"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8651",
+      "name": "Northampton Town",
+      "score": 0
+    },
+    {
+      "id": "9785",
+      "name": "Oldham Athletic",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 70,
+      "added": 0,
+      "display": "70",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      3,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

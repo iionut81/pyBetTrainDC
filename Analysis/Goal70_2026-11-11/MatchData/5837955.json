@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "id": "5837955",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5837955",
+  "verified_at_utc": "2026-11-11T08:30:59.274Z",
+  "general": {
+    "matchId": "5837955",
+    "matchName": "Accrington Stanley-vs-Cheltenham Town_Sat, Oct 3, 2026, 14:00 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#AE001B",
+        "away": "#1B62B4"
+      },
+      "lightMode": {
+        "home": "#AE001B",
+        "away": "#1B62B4"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 109,
+    "leagueName": "English Football League - League Two",
+    "leagueRoundName": "9",
+    "parentLeagueId": 109,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Accrington Stanley",
+      "id": 8671
+    },
+    "awayTeam": {
+      "name": "Cheltenham Town",
+      "id": 8680
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 3, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-03T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-03T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "03.10.2026 16:00:08",
+      "firstHalfEnded": "03.10.2026 16:49:43",
+      "secondHalfStarted": "03.10.2026 17:06:15",
+      "secondHalfEnded": "03.10.2026 17:58:37",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.10.2026 17:58:37"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8671",
+      "name": "Accrington Stanley",
+      "score": 2
+    },
+    {
+      "id": "8680",
+      "name": "Cheltenham Town",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 78,
+      "added": 0,
+      "display": "78",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      0
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      8,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 48,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "YellowRed",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

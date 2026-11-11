@@ -246,3 +246,10 @@ contradictorii sau exclusiv de la final rămân Neverificat; zero explicit este
 o observație validă. Verificare: `node --test
 Previews/Pred_Research_Terminal/match-reports.test.mjs` și
 `node Previews/Pred_Research_Terminal/check-corner-history.mjs`.
+
+Dacă lipsește `Corners1H_YYYY-MM-DD/historical_corners_1h.csv`, raportul caută
+și `historical_observations.csv` din directorul cornerelor, apoi fișierul comun
+din `Goal70_YYYY-MM-DD/`. Se folosesc numai coloanele explicite FirstHalf;
+statisticile FT nu substituie lipsurile. Un fișier dedicat existent are prioritate.
+Regresia Artis–Jablonec este inclusă în `match-reports.test.mjs`; verificarea
+în browser rulează cu `node Previews/Pred_Research_Terminal/check-shared-corner-history.mjs`.

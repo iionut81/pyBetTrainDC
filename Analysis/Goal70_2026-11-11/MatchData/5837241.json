@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "5837241",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5837241",
+  "verified_at_utc": "2026-11-11T08:31:00.449Z",
+  "general": {
+    "matchId": "5837241",
+    "matchName": "Reading-vs-Barnsley_Sat, Oct 24, 2026, 14:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#E1052E"
+      },
+      "lightMode": {
+        "home": "#083068",
+        "away": "#E1052E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 108,
+    "leagueName": "League One",
+    "leagueRoundName": "13",
+    "parentLeagueId": 108,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Reading",
+      "id": 9798
+    },
+    "awayTeam": {
+      "name": "Barnsley",
+      "id": 8283
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 24, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-24T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-24T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.10.2026 16:01:53",
+      "firstHalfEnded": "24.10.2026 16:51:20",
+      "secondHalfStarted": "24.10.2026 17:05:23",
+      "secondHalfEnded": "24.10.2026 17:55:00",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.10.2026 17:55:00"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9798",
+      "name": "Reading",
+      "score": 2
+    },
+    {
+      "id": "8283",
+      "name": "Barnsley",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 7,
+      "added": 0,
+      "display": "7",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      5,
+      7
+    ],
+    "All": [
+      6,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 60,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

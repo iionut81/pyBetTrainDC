@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "id": "6469282",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6469282",
+  "verified_at_utc": "2026-11-11T08:31:40.863Z",
+  "general": {
+    "matchId": "6469282",
+    "matchName": "Oldham Athletic-vs-Sheffield Wednesday_Sun, Nov 8, 2026, 17:15 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#014898",
+        "away": "#4685C3"
+      },
+      "lightMode": {
+        "home": "#014898",
+        "away": "#4685C3"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 953430,
+    "leagueName": "FA Cup",
+    "leagueRoundName": "1",
+    "parentLeagueId": 132,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Oldham Athletic",
+      "id": 9785
+    },
+    "awayTeam": {
+      "name": "Sheffield Wednesday",
+      "id": 10163
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 8, 2026, 17:15 UTC",
+    "matchTimeUTCDate": "2026-11-08T17:15:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-08T17:15:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.11.2026 18:16:08",
+      "firstHalfEnded": "08.11.2026 19:01:59",
+      "secondHalfStarted": "08.11.2026 19:17:37",
+      "secondHalfEnded": "08.11.2026 20:13:25",
+      "firstExtraHalfStarted": "08.11.2026 20:14:42",
+      "secondExtraHalfStarted": "08.11.2026 20:30:44",
+      "gameEnded": "08.11.2026 20:49:08"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "AET",
+      "shortKey": "afterextratime_short",
+      "long": "After extra time",
+      "longKey": "afterextra"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9785",
+      "name": "Oldham Athletic",
+      "score": 2
+    },
+    {
+      "id": "10163",
+      "name": "Sheffield Wednesday",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 66,
+      "added": 0,
+      "display": "66",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 110,
+      "added": 0,
+      "display": "110",
+      "period": "SecondHalfExtra",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 76,
+      "added": 0,
+      "display": "76",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      0,
+      5
+    ],
+    "All": [
+      2,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 7,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 104,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

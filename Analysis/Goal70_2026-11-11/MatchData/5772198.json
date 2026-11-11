@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "id": "5772198",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5772198",
+  "verified_at_utc": "2026-11-11T08:31:02.382Z",
+  "general": {
+    "matchId": "5772198",
+    "matchName": "Zemplín Michalovce-vs-FC Košice_Sun, Oct 18, 2026, 13:30 UTC",
+    "matchRound": "11",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FEDD01",
+        "away": "#0156A6"
+      },
+      "lightMode": {
+        "home": "#00369d",
+        "away": "#dc9f00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 936918,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "11",
+    "parentLeagueId": 176,
+    "countryCode": "SVK",
+    "homeTeam": {
+      "name": "Zemplín Michalovce",
+      "id": 9899
+    },
+    "awayTeam": {
+      "name": "FC Košice",
+      "id": 969268
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Oct 18, 2026, 13:30 UTC",
+    "matchTimeUTCDate": "2026-10-18T13:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-18T13:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.10.2026 15:30:50",
+      "firstHalfEnded": "18.10.2026 16:22:03",
+      "secondHalfStarted": "18.10.2026 16:38:33",
+      "secondHalfEnded": "18.10.2026 17:26:55",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.10.2026 17:26:55"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9899",
+      "name": "Zemplín Michalovce",
+      "score": 1
+    },
+    {
+      "id": "969268",
+      "name": "FC Košice",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 35,
+      "added": 0,
+      "display": "35"
+    },
+    {
+      "side": "away",
+      "minute": 31,
+      "added": 0,
+      "display": "31"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      11
+    ],
+    "All": [
+      6,
+      11
+    ]
+  },
+  "cards": [
+    {
+      "time": 22,
+      "card": "Red",
+      "isHome": true
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "id": "5772205",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5772205",
+  "verified_at_utc": "2026-11-11T08:31:02.410Z",
+  "general": {
+    "matchId": "5772205",
+    "matchName": "Zemplín Michalovce-vs-Zeleziarne Podbrezová_Sat, Oct 24, 2026, 13:30 UTC",
+    "matchRound": "12",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FEDD01",
+        "away": "#BF143A"
+      },
+      "lightMode": {
+        "home": "#00369d",
+        "away": "#BF143A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 936918,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "12",
+    "parentLeagueId": 176,
+    "countryCode": "SVK",
+    "homeTeam": {
+      "name": "Zemplín Michalovce",
+      "id": 9899
+    },
+    "awayTeam": {
+      "name": "Zeleziarne Podbrezová",
+      "id": 2437
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Oct 24, 2026, 13:30 UTC",
+    "matchTimeUTCDate": "2026-10-24T13:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-24T13:30:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.10.2026 15:32:16",
+      "firstHalfEnded": "24.10.2026 16:18:20",
+      "secondHalfStarted": "24.10.2026 16:35:18",
+      "secondHalfEnded": "24.10.2026 17:23:10",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.10.2026 17:23:10"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9899",
+      "name": "Zemplín Michalovce",
+      "score": 1
+    },
+    {
+      "id": "2437",
+      "name": "Zeleziarne Podbrezová",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 82,
+      "added": 0,
+      "display": "82"
+    },
+    {
+      "side": "away",
+      "minute": 8,
+      "added": 0,
+      "display": "8"
+    },
+    {
+      "side": "away",
+      "minute": 69,
+      "added": 0,
+      "display": "69"
+    },
+    {
+      "side": "away",
+      "minute": 76,
+      "added": 0,
+      "display": "76"
+    },
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 23,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 46,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 58,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Red",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

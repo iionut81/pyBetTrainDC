@@ -1,0 +1,163 @@
+{
+  "ok": true,
+  "id": "5837895",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5837895",
+  "verified_at_utc": "2026-11-11T08:30:58.934Z",
+  "general": {
+    "matchId": "5837895",
+    "matchName": "Accrington Stanley-vs-Grimsby Town_Tue, Sep 1, 2026, 18:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#AE001B",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#AE001B",
+        "away": "#2A2A2A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 109,
+    "leagueName": "League Two",
+    "leagueRoundName": "4",
+    "parentLeagueId": 109,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Accrington Stanley",
+      "id": 8671
+    },
+    "awayTeam": {
+      "name": "Grimsby Town",
+      "id": 10005
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Sep 1, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-01T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-01T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.09.2026 20:45:06",
+      "firstHalfEnded": "01.09.2026 21:38:30",
+      "secondHalfStarted": "01.09.2026 21:55:09",
+      "secondHalfEnded": "01.09.2026 22:48:21",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.09.2026 22:48:21"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8671",
+      "name": "Accrington Stanley",
+      "score": 2
+    },
+    {
+      "id": "10005",
+      "name": "Grimsby Town",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 7,
+      "display": "45+7",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 6,
+      "added": 0,
+      "display": "6",
+      "period": "FirstHalf",
+      "own_goal": true
+    },
+    {
+      "side": "away",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      4
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      2,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

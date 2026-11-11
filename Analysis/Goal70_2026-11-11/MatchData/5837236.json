@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "id": "5837236",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5837236",
+  "verified_at_utc": "2026-11-11T08:30:58.184Z",
+  "general": {
+    "matchId": "5837236",
+    "matchName": "Doncaster Rovers-vs-Sheffield Wednesday_Sat, Oct 24, 2026, 14:00 UTC",
+    "matchRound": "13",
+    "teamColors": {
+      "darkMode": {
+        "home": "#CE1C40",
+        "away": "#4685C3"
+      },
+      "lightMode": {
+        "home": "#CE1C40",
+        "away": "#4685C3"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 108,
+    "leagueName": "League One",
+    "leagueRoundName": "13",
+    "parentLeagueId": 108,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Doncaster Rovers",
+      "id": 9903
+    },
+    "awayTeam": {
+      "name": "Sheffield Wednesday",
+      "id": 10163
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Oct 24, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-10-24T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-24T14:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "24.10.2026 16:01:10",
+      "firstHalfEnded": "24.10.2026 16:47:18",
+      "secondHalfStarted": "24.10.2026 17:03:28",
+      "secondHalfEnded": "24.10.2026 17:55:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "24.10.2026 17:55:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9903",
+      "name": "Doncaster Rovers",
+      "score": 2
+    },
+    {
+      "id": "10163",
+      "name": "Sheffield Wednesday",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 6,
+      "added": 0,
+      "display": "6",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 16,
+      "added": 0,
+      "display": "16",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      4
+    ],
+    "All": [
+      9,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

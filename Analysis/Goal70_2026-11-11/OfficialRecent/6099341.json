@@ -1,0 +1,188 @@
+{
+  "ok": true,
+  "id": "6099341",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6099341",
+  "verified_at_utc": "2026-11-11T08:31:41.903Z",
+  "general": {
+    "matchId": "6099341",
+    "matchName": "Peterborough United-vs-Barnsley_Tue, Sep 15, 2026, 18:30 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#3679c3",
+        "away": "#E1052E"
+      },
+      "lightMode": {
+        "home": "#3679c3",
+        "away": "#E1052E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938221,
+    "leagueName": "EFL Cup",
+    "leagueRoundName": "3",
+    "parentLeagueId": 133,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Peterborough United",
+      "id": 8677
+    },
+    "awayTeam": {
+      "name": "Barnsley",
+      "id": 8283
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Sep 15, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-09-15T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-15T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.09.2026 20:30:24",
+      "firstHalfEnded": "15.09.2026 21:18:09",
+      "secondHalfStarted": "15.09.2026 21:32:56",
+      "secondHalfEnded": "15.09.2026 22:22:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.09.2026 22:36:21"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 3",
+    "reason": {
+      "short": "Pen",
+      "shortKey": "penalties_short",
+      "long": "Pen 7 - 6",
+      "longKey": "afterpenalties",
+      "penalties": [
+        7,
+        6
+      ]
+    },
+    "whoLostOnPenalties": "Barnsley",
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8677",
+      "name": "Peterborough United",
+      "score": 3
+    },
+    {
+      "id": "8283",
+      "name": "Barnsley",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 1,
+      "added": 0,
+      "display": "1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 40,
+      "added": 0,
+      "display": "40",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      0
+    ],
+    "SecondHalf": [
+      6,
+      1
+    ],
+    "All": [
+      7,
+      1
+    ]
+  },
+  "cards": [
+    {
+      "time": 26,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

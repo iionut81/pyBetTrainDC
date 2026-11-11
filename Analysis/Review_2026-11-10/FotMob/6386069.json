@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "id": "6386069",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6386069",
+  "verified_at_utc": "2026-11-11T08:27:41.435Z",
+  "general": {
+    "matchId": "6386069",
+    "matchName": "Pamplona-vs-Eibar_Tue, Nov 10, 2026, 18:00 UTC",
+    "matchRound": "1st Round",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DDDDDD",
+        "away": "#0071B9"
+      },
+      "lightMode": {
+        "home": "#333333",
+        "away": "#0071B9"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 138,
+    "leagueName": "Copa del Rey",
+    "leagueRoundName": "1st Round",
+    "parentLeagueId": 138,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Pamplona",
+      "id": 190064
+    },
+    "awayTeam": {
+      "name": "Eibar",
+      "id": 8372
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Tue, Nov 10, 2026, 18:00 UTC",
+    "matchTimeUTCDate": "2026-11-10T18:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-10T18:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.11.2026 19:00:17",
+      "firstHalfEnded": "10.11.2026 19:46:17",
+      "secondHalfStarted": "10.11.2026 20:02:46",
+      "secondHalfEnded": "10.11.2026 20:50:07",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.11.2026 20:50:07"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "190064",
+      "name": "Pamplona",
+      "score": 0
+    },
+    {
+      "id": "8372",
+      "name": "Eibar",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 2,
+      "added": 0,
+      "display": "2"
+    },
+    {
+      "side": "away",
+      "minute": 22,
+      "added": 0,
+      "display": "22"
+    },
+    {
+      "side": "away",
+      "minute": 53,
+      "added": 0,
+      "display": "53"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": null
+  },
+  "cards": [
+    {
+      "time": 16,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,170 @@
+{
+  "ok": true,
+  "id": "5772171",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5772171",
+  "verified_at_utc": "2026-11-11T08:31:03.113Z",
+  "general": {
+    "matchId": "5772171",
+    "matchName": "Zeleziarne Podbrezová-vs-FC Košice_Sat, Aug 29, 2026, 16:00 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#BF143A",
+        "away": "#FACE19"
+      },
+      "lightMode": {
+        "home": "#BF143A",
+        "away": "#dc9f00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 936918,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "6",
+    "parentLeagueId": 176,
+    "countryCode": "SVK",
+    "homeTeam": {
+      "name": "Zeleziarne Podbrezová",
+      "id": 2437
+    },
+    "awayTeam": {
+      "name": "FC Košice",
+      "id": 969268
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 29, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-08-29T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-29T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "29.08.2026 18:02:14",
+      "firstHalfEnded": "29.08.2026 18:52:55",
+      "secondHalfStarted": "29.08.2026 19:09:30",
+      "secondHalfEnded": "29.08.2026 19:58:29",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "29.08.2026 19:58:29"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2437",
+      "name": "Zeleziarne Podbrezová",
+      "score": 2
+    },
+    {
+      "id": "969268",
+      "name": "FC Košice",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 48,
+      "added": 0,
+      "display": "48"
+    },
+    {
+      "side": "home",
+      "minute": 64,
+      "added": 0,
+      "display": "64"
+    },
+    {
+      "side": "away",
+      "minute": 41,
+      "added": 0,
+      "display": "41"
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 5,
+      "display": "45+5"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      4
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      9,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 40,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 53,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 77,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,132 @@
+{
+  "ok": true,
+  "id": "5772147",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5772147",
+  "verified_at_utc": "2026-11-11T08:31:01.883Z",
+  "general": {
+    "matchId": "5772147",
+    "matchName": "Zemplin Michalovce-vs-Zilina_Sun, Aug 2, 2026, 15:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FEDD01",
+        "away": "#0B7330"
+      },
+      "lightMode": {
+        "home": "#00369d",
+        "away": "#0B7330"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 936918,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "2",
+    "parentLeagueId": 176,
+    "countryCode": "SVK",
+    "homeTeam": {
+      "name": "Zemplin Michalovce",
+      "id": 9899
+    },
+    "awayTeam": {
+      "name": "Zilina",
+      "id": 6022
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sun, Aug 2, 2026, 15:00 UTC",
+    "matchTimeUTCDate": "2026-08-02T15:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-02T15:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.08.2026 17:00:13",
+      "firstHalfEnded": "02.08.2026 17:48:04",
+      "secondHalfStarted": "02.08.2026 18:04:16",
+      "secondHalfEnded": "02.08.2026 18:53:05",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.08.2026 18:53:05"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9899",
+      "name": "Zemplin Michalovce",
+      "score": 0
+    },
+    {
+      "id": "6022",
+      "name": "Zilina",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      3
+    ],
+    "All": [
+      6,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 24,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

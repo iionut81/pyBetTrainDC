@@ -1,0 +1,169 @@
+{
+  "ok": true,
+  "id": "6386084",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6386084",
+  "verified_at_utc": "2026-11-11T08:27:42.007Z",
+  "general": {
+    "matchId": "6386084",
+    "matchName": "Tavernes de la Valldigna-vs-Valencia_Tue, Nov 10, 2026, 20:00 UTC",
+    "matchRound": "1st Round",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D72A1A",
+        "away": "#ff9238"
+      },
+      "lightMode": {
+        "home": "#D72A1A",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 138,
+    "leagueName": "Copa del Rey",
+    "leagueRoundName": "1st Round",
+    "parentLeagueId": 138,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Tavernes de la Valldigna",
+      "id": 2341167
+    },
+    "awayTeam": {
+      "name": "Valencia",
+      "id": 10267
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Nov 10, 2026, 20:00 UTC",
+    "matchTimeUTCDate": "2026-11-10T20:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-11-10T20:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "10.11.2026 21:00:22",
+      "firstHalfEnded": "10.11.2026 21:45:53",
+      "secondHalfStarted": "10.11.2026 22:01:27",
+      "secondHalfEnded": "10.11.2026 22:46:28",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "10.11.2026 22:46:28"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 6",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "2341167",
+      "name": "Tavernes de la Valldigna",
+      "score": 0
+    },
+    {
+      "id": "10267",
+      "name": "Valencia",
+      "score": 6
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 1,
+      "added": 0,
+      "display": "1",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 23,
+      "added": 0,
+      "display": "23",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 69,
+      "added": 0,
+      "display": "69",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      3,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 9,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 22,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 49,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

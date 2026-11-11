@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "id": "5837901",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5837901",
+  "verified_at_utc": "2026-11-11T08:31:00.887Z",
+  "general": {
+    "matchId": "5837901",
+    "matchName": "Fleetwood Town-vs-Oldham Athletic_Tue, Sep 1, 2026, 18:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#C80808",
+        "away": "#014898"
+      },
+      "lightMode": {
+        "home": "#C80808",
+        "away": "#014898"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 109,
+    "leagueName": "League Two",
+    "leagueRoundName": "4",
+    "parentLeagueId": 109,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Fleetwood Town",
+      "id": 45723
+    },
+    "awayTeam": {
+      "name": "Oldham Athletic",
+      "id": 9785
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Sep 1, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-09-01T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-01T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.09.2026 20:45:20",
+      "firstHalfEnded": "01.09.2026 21:32:20",
+      "secondHalfStarted": "01.09.2026 21:47:25",
+      "secondHalfEnded": "01.09.2026 22:38:02",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.09.2026 22:38:02"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "45723",
+      "name": "Fleetwood Town",
+      "score": 1
+    },
+    {
+      "id": "9785",
+      "name": "Oldham Athletic",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 0,
+      "display": "45",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      2
+    ],
+    "All": [
+      7,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 5,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -58,3 +58,7 @@ sau verificare de rezultate, reconstruim interfata in aceeasi sesiune.
 
 
 8 noiembrie 2026: [jurnal](2026-11-08.md), [review7noiembrie](../Review_2026-11-07/REVIEW.md), [Gol70](../Goal70_2026-11-08/EUROPE_ALL_MATCHES.md), [cornere](../Corners1H_2026-11-08/ANALYSIS.md).105partide,103/81modele; research parțial. Candidați Cambuur–PSV/Girona–Almería, preferință individuală Girona; nicio alegere nouă inferată.
+
+- [10noiembrie2026](2026-11-10.md): review9noiembrie, Sabadellcornere6Succes; NO BETambelepiețe,29ligi fărăpartideidentificate,24cuperecorduri fărăistoricbilateralcomplet; researchpartial.
+
+- [11 noiembrie2026](2026-11-11.md): review10noiembrie fărăalegeriproprii;5cupe/3modelepepiață;Gol70 NO BET,candidatcornereArtis–Jablonec;researchpartial.

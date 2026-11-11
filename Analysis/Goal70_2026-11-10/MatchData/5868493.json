@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "id": "5868493",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868493",
+  "verified_at_utc": "2026-11-07T06:56:23.825Z",
+  "general": {
+    "matchId": "5868493",
+    "matchName": "Celta Fortuna-vs-Tenerife_Mon, Oct 19, 2026, 18:30 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#6fb5e8",
+        "away": "#004fbc"
+      },
+      "lightMode": {
+        "home": "#67ade0",
+        "away": "#0038A7"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 938653,
+    "leagueName": "LaLiga2",
+    "leagueRoundName": "10",
+    "parentLeagueId": 140,
+    "countryCode": "ESP",
+    "homeTeam": {
+      "name": "Celta Fortuna",
+      "id": 161743
+    },
+    "awayTeam": {
+      "name": "Tenerife",
+      "id": 9867
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Oct 19, 2026, 18:30 UTC",
+    "matchTimeUTCDate": "2026-10-19T18:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-19T18:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "19.10.2026 20:32:59",
+      "firstHalfEnded": "19.10.2026 21:19:46",
+      "secondHalfStarted": "19.10.2026 21:36:27",
+      "secondHalfEnded": "19.10.2026 22:27:03",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "19.10.2026 22:27:03"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "161743",
+      "name": "Celta Fortuna",
+      "score": 1
+    },
+    {
+      "id": "9867",
+      "name": "Tenerife",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 28,
+      "added": 0,
+      "display": "28",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 50,
+      "added": 0,
+      "display": "50",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      2
+    ],
+    "All": [
+      4,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 10,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-07/MatchData/5868493.json"
+}

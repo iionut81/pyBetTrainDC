@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "id": "5837948",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5837948",
+  "verified_at_utc": "2026-11-11T08:31:01.334Z",
+  "general": {
+    "matchId": "5837948",
+    "matchName": "Oldham Athletic-vs-Salford City_Sat, Sep 26, 2026, 16:30 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#014898",
+        "away": "#FF5500"
+      },
+      "lightMode": {
+        "home": "#014898",
+        "away": "#FF5500"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 109,
+    "leagueName": "League Two",
+    "leagueRoundName": "8",
+    "parentLeagueId": 109,
+    "countryCode": "ENG",
+    "homeTeam": {
+      "name": "Oldham Athletic",
+      "id": 9785
+    },
+    "awayTeam": {
+      "name": "Salford City",
+      "id": 282326
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Sep 26, 2026, 16:30 UTC",
+    "matchTimeUTCDate": "2026-09-26T16:30:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-26T16:30:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "26.09.2026 18:30:13",
+      "firstHalfEnded": "26.09.2026 19:21:02",
+      "secondHalfStarted": "26.09.2026 19:36:58",
+      "secondHalfEnded": "26.09.2026 20:24:21",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.09.2026 20:24:21"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9785",
+      "name": "Oldham Athletic",
+      "score": 1
+    },
+    {
+      "id": "282326",
+      "name": "Salford City",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 21,
+      "added": 0,
+      "display": "21",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 5,
+      "added": 0,
+      "display": "5",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 19,
+      "added": 0,
+      "display": "19",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 81,
+      "added": 0,
+      "display": "81",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      3
+    ],
+    "SecondHalf": [
+      9,
+      2
+    ],
+    "All": [
+      11,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 34,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,176 @@
+{
+  "ok": true,
+  "id": "5772155",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5772155",
+  "verified_at_utc": "2026-11-11T08:31:02.910Z",
+  "general": {
+    "matchId": "5772155",
+    "matchName": "Ruzomberok-vs-Zeleziarne Podbrezova_Sat, Aug 8, 2026, 16:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#D85F28",
+        "away": "#BF143A"
+      },
+      "lightMode": {
+        "home": "#D85F28",
+        "away": "#BF143A"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 936918,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "3",
+    "parentLeagueId": 176,
+    "countryCode": "SVK",
+    "homeTeam": {
+      "name": "Ruzomberok",
+      "id": 10186
+    },
+    "awayTeam": {
+      "name": "Zeleziarne Podbrezova",
+      "id": 2437
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 8, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-08-08T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-08T16:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "08.08.2026 18:02:49",
+      "firstHalfEnded": "08.08.2026 18:48:51",
+      "secondHalfStarted": "08.08.2026 19:04:35",
+      "secondHalfEnded": "08.08.2026 19:52:08",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.08.2026 19:52:08"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10186",
+      "name": "Ruzomberok",
+      "score": 1
+    },
+    {
+      "id": "2437",
+      "name": "Zeleziarne Podbrezova",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 9,
+      "added": 0,
+      "display": "9"
+    },
+    {
+      "side": "away",
+      "minute": 17,
+      "added": 0,
+      "display": "17"
+    },
+    {
+      "side": "away",
+      "minute": 62,
+      "added": 0,
+      "display": "62"
+    },
+    {
+      "side": "away",
+      "minute": 40,
+      "added": 0,
+      "display": "40"
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      4
+    ],
+    "All": [
+      5,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 20,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 30,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "YellowRed",
+      "isHome": true
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

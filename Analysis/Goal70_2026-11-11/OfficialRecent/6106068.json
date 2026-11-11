@@ -1,0 +1,118 @@
+{
+  "ok": true,
+  "id": "6106068",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6106068",
+  "verified_at_utc": "2026-11-11T08:31:42.639Z",
+  "general": {
+    "matchId": "6106068",
+    "matchName": "MFK Nová Bana-vs-Zlaté Moravce_Wed, Sep 9, 2026, 14:00 UTC",
+    "matchRound": "1/32",
+    "teamColors": {
+      "darkMode": {
+        "home": "#DDDDDD",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#333333",
+        "away": "#080840"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 177,
+    "leagueName": "FA Cup",
+    "leagueRoundName": "1/32",
+    "parentLeagueId": 177,
+    "countryCode": "SVK",
+    "homeTeam": {
+      "name": "MFK Nová Bana",
+      "id": 575366
+    },
+    "awayTeam": {
+      "name": "Zlaté Moravce",
+      "id": 2255
+    },
+    "coverageLevel": "lower",
+    "matchTimeUTC": "Wed, Sep 9, 2026, 14:00 UTC",
+    "matchTimeUTCDate": "2026-09-09T14:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-09-09T14:00:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "09.09.2026 16:01:02",
+      "firstHalfEnded": "09.09.2026 16:49:02",
+      "secondHalfStarted": "09.09.2026 17:09:31",
+      "secondHalfEnded": "09.09.2026 17:53:15",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "09.09.2026 18:05:16"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "Pen",
+      "shortKey": "penalties_short",
+      "long": "Pen 2 - 4",
+      "longKey": "afterpenalties",
+      "penalties": [
+        2,
+        4
+      ]
+    },
+    "whoLostOnPenalties": "MFK Nová Bana",
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "575366",
+      "name": "MFK Nová Bana",
+      "score": 1
+    },
+    {
+      "id": "2255",
+      "name": "Zlaté Moravce",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 16,
+      "added": 0,
+      "display": "16"
+    },
+    {
+      "side": "away",
+      "minute": 84,
+      "added": 0,
+      "display": "84"
+    }
+  ],
+  "stats": {
+    "FirstHalf": null,
+    "SecondHalf": null,
+    "All": null
+  },
+  "cards": [
+    {
+      "time": 83,
+      "card": "YellowRed",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -104,7 +104,9 @@ export function writeMatchReports(root,dist,archive) {
   const goalModels=firstCsv(root,[`${goalBase}/all_models.csv`,`${goalBase}/Europe_Combined/all_models.csv`]);
   const cornerModels=firstCsv(root,[`${cornerBase}/all_models.csv`]);
   const goalHistory=firstCsv(root,[`${goalBase}/historical_observations.csv`,`${goalBase}/Data/historical_validated.csv`,`${goalBase}/Europe_Combined/historical_validated.csv`]);
-  const cornerHistory=firstCsv(root,[`${cornerBase}/historical_corners_1h.csv`]);
+  // Some daily runs save both markets in one observation file. Keep dedicated
+  // corner history authoritative; the shared file still needs explicit 1H data.
+  const cornerHistory=firstCsv(root,[`${cornerBase}/historical_corners_1h.csv`,`${cornerBase}/historical_observations.csv`,`${goalBase}/historical_observations.csv`]);
   for(const m of day.matches)for(const market of ['goal','corner']){
    const sample=m[market],row=modelRow((market==='goal'?goalModels:cornerModels).rows,m);
    const href=matchReportHref(day.date,market,m.id),file=path.join(dist,href),dir=path.dirname(file);

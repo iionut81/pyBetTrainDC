@@ -1,0 +1,72 @@
+{
+  "ok": true,
+  "data": {
+    "leagues": [
+      {
+        "id": "3944",
+        "uid": "s:600~l:3944",
+        "name": "Swiss Super League",
+        "abbreviation": "Swiss Super League",
+        "midsizeName": "SUI.1",
+        "slug": "sui.1",
+        "season": {
+          "year": 2025,
+          "startDate": "2025-06-01T04:00Z",
+          "endDate": "2026-06-01T03:59Z",
+          "displayName": "2025-26 Swiss Super League",
+          "type": {
+            "id": "2",
+            "type": 13502,
+            "name": "Second Phase",
+            "abbreviation": "Second Phase"
+          }
+        },
+        "logos": [
+          {
+            "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/17.png",
+            "width": 500,
+            "height": 500,
+            "alt": "",
+            "rel": [
+              "full",
+              "default"
+            ],
+            "lastUpdated": "2018-06-05T00:47Z"
+          }
+        ],
+        "calendarType": "day",
+        "calendarIsWhitelist": true,
+        "calendarStartDate": "2025-06-01T04:00Z",
+        "calendarEndDate": "2026-06-01T03:59Z",
+        "calendar": [
+          "2025-07-25T07:00Z",
+          "2025-07-26T07:00Z",
+          "2025-07-27T07:00Z",
+          "2025-08-02T07:00Z",
+          "2025-08-03T07:00Z",
+          "2025-08-06T07:00Z",
+          "2025-08-09T07:00Z",
+          "2025-08-10T07:00Z",
+          "2025-08-23T07:00Z",
+          "2025-08-24T07:00Z",
+          "2025-08-30T07:00Z",
+          "2025-08-31T07:00Z",
+          "2025-09-13T07:00Z",
+          "2025-09-14T07:00Z",
+          "2025-09-17T07:00Z",
+          "2025-09-27T07:00Z",
+          "2025-09-28T07:00Z"
+        ]
+      }
+    ],
+    "events": [],
+    "provider": {
+      "id": "100",
+      "name": "Draft Kings",
+      "displayName": "Draft Kings",
+      "priority": 1
+    }
+  },
+  "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/sui.1/scoreboard?dates=20261110&limit=1000",
+  "verified_at_utc": "2026-11-10T07:55:31.907Z"
+}

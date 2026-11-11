@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5772150",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5772150",
+  "verified_at_utc": "2026-11-11T08:31:01.950Z",
+  "general": {
+    "matchId": "5772150",
+    "matchName": "Zemplín Michalovce-vs-Komárno_Sat, Aug 8, 2026, 16:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FEDD01",
+        "away": "#652C90"
+      },
+      "lightMode": {
+        "home": "#00369d",
+        "away": "#101010"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 936918,
+    "leagueName": "1. Liga",
+    "leagueRoundName": "3",
+    "parentLeagueId": 176,
+    "countryCode": "SVK",
+    "homeTeam": {
+      "name": "Zemplín Michalovce",
+      "id": 9899
+    },
+    "awayTeam": {
+      "name": "Komárno",
+      "id": 611956
+    },
+    "coverageLevel": "ratings",
+    "matchTimeUTC": "Sat, Aug 8, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-08-08T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-08-08T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "08.08.2026 18:02:52",
+      "firstHalfEnded": "08.08.2026 18:50:36",
+      "secondHalfStarted": "08.08.2026 19:07:06",
+      "secondHalfEnded": "08.08.2026 19:58:42",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "08.08.2026 19:58:42"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "9899",
+      "name": "Zemplín Michalovce",
+      "score": 1
+    },
+    {
+      "id": "611956",
+      "name": "Komárno",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 63,
+      "added": 0,
+      "display": "63"
+    },
+    {
+      "side": "away",
+      "minute": 20,
+      "added": 0,
+      "display": "20"
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      3
+    ],
+    "SecondHalf": [
+      4,
+      4
+    ],
+    "All": [
+      4,
+      7
+    ]
+  },
+  "cards": [
+    {
+      "time": 41,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 61,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 73,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}
