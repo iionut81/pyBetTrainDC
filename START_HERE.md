@@ -13,6 +13,8 @@ Actualizat: 18 noiembrie 2026. Acest repository păstrează regulile, deciziile,
 
 ## Conversații și explicații
 
+- [Pagina publică pentru review](https://iionut81.github.io/pyBetTrainDC/review/): evaluare, meciuri, istoric și rapoarte, numai pentru consultare; copie cu date până la18noiembrie2026. Nu se actualizează automat la modificarea fișierelor locale.
+
 - [Indexul conversațiilor publicate](Analysis/Conversation_History/published/README.md): mesajele vizibile găsite local pentru sesiunile principale ale acestui proiect, inclusiv rulările zilnice. Inventarul exact este în manifestul din același director.
 - [Jurnalele zilnice](Analysis/Selection_History/README.md): decizii, alegeri explicite, rezultate și lecții.
 - [Auditul sistemelor](Analysis/System_Audit_2026-11-17/REPORT.md) și [protocolul propus pentru îmbunătățirea selecției](Analysis/System_Audit_2026-11-17/SELECTION_IMPROVEMENT_PROTOCOL.md).

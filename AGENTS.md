@@ -5,6 +5,17 @@ GOAL_BY_70 and CORNERS_1H_UNDER_7_5, also read
 `Prompts/Football_Goal70_Corners1H_Master.md` before researching or ranking.
 The explicit user instructions in the conversation take priority over older prompts.
 
+- Public review page requested 2026-11-18: a separate read-only GitHub Pages
+  page is published at https://iionut81.github.io/pyBetTrainDC/review/ from
+  gh-pages/review/. Keep the existing root site intact. Source and checks live
+  in Previews/Pred_Review_Page/. The published snapshot uses main commit
+  275e89b13a7bbbf87b8268ba784863d9e553dd16, through 18 November: 17 days,
+  905 inventoried fixtures, 1810 match/market reports. Deployment commit
+  cac28a1189414ceb3603c464fdc093e2c2811944 was built and verified publicly.
+  No local choice API, conversations, personal journals or execution settings
+  belong in this review page. This publication does not create automatic
+  deployments or schedules; future public updates need explicit authorization.
+
 - Explicit publication authorization, 2026-11-18: the user requested a commit
   and push to main containing the project's conversations and persistent memory
   for access from other devices. Publish the reviewed copy of locally available
