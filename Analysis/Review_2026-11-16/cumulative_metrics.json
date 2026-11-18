@@ -1,0 +1,38 @@
+{
+  "at_ro": "2026-11-17T09:07:33.609+02:00",
+  "summary": {
+    "goal70": {
+      "all": {
+        "n": 359,
+        "success": 307,
+        "fail": 52,
+        "mean_p": 0.8739204022522981,
+        "brier": 0.1228374012567228
+      },
+      "analyst": {
+        "n": 11,
+        "success": 9,
+        "fail": 2,
+        "mean_p": 0.92915188271523,
+        "brier": 0.16087392837480888
+      }
+    },
+    "corners1h": {
+      "all": {
+        "n": 248,
+        "success": 222,
+        "fail": 26,
+        "mean_p": 0.8910475068558456,
+        "brier": 0.0957483130524746
+      },
+      "analyst": {
+        "n": 10,
+        "success": 10,
+        "fail": 0,
+        "mean_p": 0.9514509919431802,
+        "brier": 0.003002078670379475
+      }
+    }
+  },
+  "scope": "verified modeled only; missingness may bias; observed development cohort, not independent test"
+}

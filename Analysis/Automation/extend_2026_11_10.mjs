@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import {read,save,writeCsv,ro} from './research_2026_11_10.mjs';
+const b='Analysis/Goal70_2026-11-10',g=read(b+'/fixtures_global.json');
+const cups=g.leagues.filter(l=>[138,142,42,73,10216].includes(l.primaryId??l.id));
+const rows=cups.flatMap(l=>l.matches.map(m=>({id:String(m.id),competition:(l.primaryId??l.id)===138?'esp.copa_del_rey':'eng.efl_trophy',date:m.status.utcTime,home:m.home.name,away:m.away.name,home_id:String(m.home.id),away_id:String(m.away.id),status:m.status,source:'https://www.fotmob.com/api/data/matchDetails?matchId='+m.id,history_basis:'domestic_league_projection_cross_competition',league_id:l.primaryId??l.id})));
+save(b+'/Revisions/initial_league_inventory.json',{at_ro:ro(),fixtures:read(b+'/candidate_fixtures.json'),reason:'Separate tracked-cup inventory added; no published probabilities changed'});
+save(b+'/candidate_fixtures.json',rows);
+save(b+'/cups_coverage.json',{at_ro:ro(),source:g.source,competitions:cups.map(l=>({name:l.name,id:l.primaryId??l.id,count:l.matches.length})),limit:'Lower-division and U21 current domestic event histories not verified; no substitution with senior-team history. European men competitions absent in global response.'});
+const initial=fs.readFileSync(b+'/exclusions.csv','utf8');fs.writeFileSync(b+'/Revisions/initial_exclusions.csv',initial);
+import {csv} from './research_2026_11_10.mjs';writeCsv(b+'/exclusions.csv',csv(b+'/exclusions.csv').filter(r=>!rows.some(f=>f.id===r.id)));
+console.log('Cups inventoried',rows.length);

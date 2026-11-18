@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "5181793",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181793",
+  "verified_at_utc": "2026-11-12T07:31:59.877Z",
+  "general": {
+    "matchId": "5181793",
+    "matchName": "France-vs-Italy_Fri, Oct 2, 2026, 18:45 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#365b98",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#26406A",
+        "away": "#369A68"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 920741,
+    "leagueName": "UEFA Nations League A Grp. 1",
+    "leagueRoundName": "3",
+    "parentLeagueId": 9806,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "France",
+      "id": 6723
+    },
+    "awayTeam": {
+      "name": "Italy",
+      "id": 8204
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Oct 2, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-10-02T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-02T18:45:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "02.10.2026 20:48:27",
+      "firstHalfEnded": "02.10.2026 21:33:51",
+      "secondHalfStarted": "02.10.2026 21:50:36",
+      "secondHalfEnded": "02.10.2026 22:40:04",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "02.10.2026 22:40:04"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6723",
+      "name": "France",
+      "score": 1
+    },
+    {
+      "id": "8204",
+      "name": "Italy",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      6,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 73,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 74,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 85,
+      "card": "YellowRed",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-12/International/MatchData/5181793.json"
+}

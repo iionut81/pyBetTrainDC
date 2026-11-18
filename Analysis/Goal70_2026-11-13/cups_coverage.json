@@ -1,0 +1,50 @@
+{
+  "at_ro": "2026-11-13T09:35:38.526+02:00",
+  "fixtures": [
+    {
+      "id": "5868541",
+      "competition": "esp.2",
+      "date": "2026-11-13T19:30:00.000Z",
+      "home": "Leganés",
+      "away": "Burgos CF",
+      "home_id": "7854",
+      "away_id": "7876",
+      "status": {
+        "utcTime": "2026-11-13T19:30:00.000Z",
+        "halfs": {
+          "firstHalfStarted": "13.11.2026 20:30:00"
+        },
+        "periodLength": 45,
+        "started": false,
+        "cancelled": false,
+        "finished": false
+      },
+      "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5868541",
+      "history_basis": "same_league_current_season",
+      "league_id": 140
+    },
+    {
+      "id": "6386080",
+      "competition": "esp.copa_del_rey",
+      "date": "2026-11-13T20:00:00.000Z",
+      "home": "Salamanca CF UDS",
+      "away": "Celta Vigo",
+      "home_id": "490334",
+      "away_id": "9910",
+      "status": {
+        "utcTime": "2026-11-13T20:00:00.000Z",
+        "halfs": {
+          "firstHalfStarted": "13.11.2026 21:00:00"
+        },
+        "periodLength": 45,
+        "started": false,
+        "cancelled": false,
+        "finished": false
+      },
+      "source": "https://www.fotmob.com/api/data/matchDetails?matchId=6386080",
+      "history_basis": "domestic_league_projection_cross_competition",
+      "league_id": 138
+    }
+  ],
+  "notes": "Competition schedules plus global feed; Copa included as domestic projection, not assumed transferable"
+}

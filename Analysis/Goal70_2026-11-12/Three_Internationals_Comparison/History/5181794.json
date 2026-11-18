@@ -1,0 +1,167 @@
+{
+  "ok": true,
+  "id": "5181794",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181794",
+  "verified_at_utc": "2026-11-12T07:31:59.497Z",
+  "general": {
+    "matchId": "5181794",
+    "matchName": "France-vs-Belgium_Mon, Oct 5, 2026, 18:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#365b98",
+        "away": "#9f2533"
+      },
+      "lightMode": {
+        "home": "#26406A",
+        "away": "#9f2533"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 920741,
+    "leagueName": "UEFA Nations League A Grp. 1",
+    "leagueRoundName": "4",
+    "parentLeagueId": 9806,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "France",
+      "id": 6723
+    },
+    "awayTeam": {
+      "name": "Belgium",
+      "id": 8263
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Oct 5, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-10-05T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-05T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.10.2026 20:45:45",
+      "firstHalfEnded": "05.10.2026 21:32:30",
+      "secondHalfStarted": "05.10.2026 21:48:21",
+      "secondHalfEnded": "05.10.2026 22:37:07",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.10.2026 22:37:07"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6723",
+      "name": "France",
+      "score": 4
+    },
+    {
+      "id": "8263",
+      "name": "Belgium",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 77,
+      "added": 0,
+      "display": "77",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 81,
+      "added": 0,
+      "display": "81",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 1,
+      "display": "90+1",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 35,
+      "added": 0,
+      "display": "35",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      9,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 57,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 75,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-12/International/MatchData/5181794.json"
+}

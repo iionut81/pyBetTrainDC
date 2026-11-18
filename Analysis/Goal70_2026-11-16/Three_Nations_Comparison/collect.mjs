@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import {read,csv,save,writeCsv,pool,fetch,api,match,observation,ro} from '../../Automation/research_2026_11_13.mjs';
+const B='Analysis/Goal70_2026-11-16',D=B+'/Three_Nations_Comparison',ids=['5181944','5181836','5181787'];
+fs.mkdirSync(D,{recursive:true});
+const models=csv(B+'/all_models.csv').filter(m=>ids.includes(m.id)),tids=[...new Set(models.flatMap(m=>[m.home_id,m.away_id]))];
+await pool([...models.map(m=>({p:'matchDetails?matchId='+m.id,file:'match_'+m.id})),...tids.map(id=>({p:'teams?id='+id,file:'team_'+id}))],async r=>{const v=await fetch(api(r.p));if(!v.ok)throw Error(JSON.stringify(v));save(D+'/'+r.file+'.json',v);});
+const refs=[];
+for(const tid of tids){const team=read(D+'/team_'+tid+'.json');const fixtures=team.data.fixtures?.allFixtures?.fixtures??[];for(const m of fixtures.filter(m=>m.status?.finished&&!m.status?.cancelled&&!m.status?.awarded&&Date.parse(m.status.utcTime)<Date.parse('2026-11-16T00:00:00+02:00')&&!/friendl/i.test(m.tournament?.name??'')&&String(m.tournament?.leagueId)!=='489').sort((a,b)=>Date.parse(b.status.utcTime)-Date.parse(a.status.utcTime)).slice(0,10))refs.push({team_id:tid,id:String(m.id),date:m.status.utcTime,competition:m.tournament?.name,home:m.home?.name,away:m.away?.name});}
+await pool([...new Set(refs.map(r=>r.id))],id=>match(id,D+'/Recent'));
+const recent=refs.map(r=>{const x=read(D+'/Recent/'+r.id+'.json');return {...r,...observation(x),goals:JSON.stringify(x.goals??[]),source:x.source};});
+writeCsv(D+'/last10_official.csv',recent);
+const history=read(B+'/historical_observations.json');
+const comparisons=models.map(m=>{const raw=read(D+'/match_'+m.id+'.json'),d=raw.data;return {model:m,source:raw.source,verified_at_utc:raw.verified_at_utc,status:d.header?.status,identity_ok:String(d.general?.matchId)===m.id,lineup_type:d.content?.lineup?.lineupType,stadium:d.content?.matchFacts?.infoBox?.Stadium,weather:d.content?.weather,teams:['homeTeam','awayTeam'].map(side=>{const t=d.content?.lineup?.[side];return {name:t?.name,formation:t?.formation,coach:t?.coach?.name,starters:t?.starters?.map(p=>p.name),unavailable:t?.unavailable?.map(p=>({name:p.name,reason:p.unavailability}))};}),edition_history:history.filter(h=>String(h.league)===m.league_id&&[m.home_id,m.away_id].some(id=>[String(h.home_id),String(h.away_id)].includes(id))),recent:recent.filter(r=>[m.home_id,m.away_id].includes(r.team_id))};});
+save(D+'/comparison.json',{recorded_at_ro:ro(),comparisons});
+console.log(JSON.stringify({at_ro:ro(),rows:recent.length,missing:recent.filter(r=>!r.goal_result).length,matches:comparisons.map(c=>({match:c.model.home+'-'+c.model.away,teams:c.teams,weather:c.weather,history:c.edition_history.map(h=>({match:h.home+'-'+h.away,score:h.score,first:h.first_goal,home70:h.home70,away70:h.away70})),recent:[c.model.home_id,c.model.away_id].map(id=>({id,n:c.recent.filter(r=>r.team_id===id).length,wins:c.recent.filter(r=>r.team_id===id&&r.goal_result==='success').length,fails:c.recent.filter(r=>r.team_id===id&&r.goal_result==='fail').map(r=>({match:r.home+'-'+r.away,score:r.score_ft,first:r.first_goal_minute}))}))}))},null,2));

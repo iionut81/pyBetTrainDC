@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-17",
+  "review_status": "partial",
+  "goal_research_status": "partial",
+  "corner_research_status": "partial",
+  "dashboard_status": "complete",
+  "missing_data": [
+    "Review 16: 24 Gol70 / 30 cornere pending și o anulare; 47 identități restante reîncercate fără observații noi pentru piața restantă.",
+    "75 suplimente fără istoric exact bilateral validat; zece semnalări cu dată/oră/status neconfirmate.",
+    "În 361 istorice: 16 liste de goluri și 126 observații FirstHalf lipsă/neconciliate.",
+    "Patru ligi fără confirmare ESPN independentă; acoperire mondială feminin și juniori incompletă.",
+    "XI, minute individuale, gazon și audit complet al eliminărilor neverificate; ultimele zece oficiale incomplete pentru unele alternative."
+  ],
+  "review_path": "Analysis/Review_2026-11-16/REVIEW.md",
+  "goal_path": "Analysis/Goal70_2026-11-17/EUROPE_ALL_MATCHES.md",
+  "corner_path": "Analysis/Corners1H_2026-11-17/ANALYSIS.md",
+  "lessons_path": "Analysis/Review_2026-11-16/LESSONS_FOR_NEXT_SCAN.md",
+  "review_handoff_at_ro": "2026-11-17T09:03:35.630+02:00",
+  "research_started_at_ro": "2026-11-17T09:03:35.726+02:00",
+  "reported_at_ro": "2026-11-17T09:18:46.293+02:00",
+  "research_complete": false,
+  "counts": {
+    "at_ro": "2026-11-17T09:12:42.268+02:00",
+    "total": 133,
+    "numeric_inventory": 58,
+    "supplemental": 75,
+    "uncertain_signals": 10,
+    "history": 361,
+    "goal": 5,
+    "corner": 0,
+    "goal_missing": 16,
+    "corner_missing": 126,
+    "status": "partial"
+  },
+  "decisions": {
+    "at_ro": "2026-11-17T09:12:42.268+02:00",
+    "goal_candidate": "6416837",
+    "corner_candidate": null,
+    "corner_decision": "NO BET",
+    "primary_individual": "6416837 GOAL_BY_70",
+    "user_choices_created": 0,
+    "scope": "partial identified worldwide inventory",
+    "context_adjustment": 0
+  },
+  "verification": {
+    "node_tests_passed": 6,
+    "data_checks_passed": 9,
+    "browser_checks_passed": 10,
+    "browser_exceptions": 0,
+    "models_recomputed": 5,
+    "desktop_screenshot_inspected": true,
+    "mobile_overflow": false,
+    "data_path": "Analysis/Goal70_2026-11-17/scheduled-data-verification.json",
+    "browser_path": "Analysis/Goal70_2026-11-17/dashboard-scheduled-verification.json"
+  },
+  "concurrent_file_changes": {
+    "detected": true,
+    "handling": "Preserved current review/cumulative audit/proposals from concurrent work. Archived canonical model lists before removing duplicate UAE-Syria alias, FotMob6546845 kept. No other processes terminated."
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "ok": true,
+  "id": "4689494",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4689494",
+  "verified_at_utc": "2026-11-12T11:44:47.308Z",
+  "general": {
+    "matchId": "4689494",
+    "matchName": "Italy-vs-Norway_Sun, Nov 16, 2025, 19:45 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0064aa",
+        "away": "#b53032"
+      },
+      "lightMode": {
+        "home": "#0064aa",
+        "away": "#b53032"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 896541,
+    "leagueName": "World Cup Qualification UEFA 1st Round Grp. I",
+    "leagueRoundName": "10",
+    "parentLeagueId": 10195,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Italy",
+      "id": 8204
+    },
+    "awayTeam": {
+      "name": "Norway",
+      "id": 8492
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Nov 16, 2025, 19:45 UTC",
+    "matchTimeUTCDate": "2025-11-16T19:45:00.000Z",
+    "started": true,
+    "finished": true
+  },
+  "status": {
+    "utcTime": "2025-11-16T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "16.11.2025 20:47:30",
+      "firstHalfEnded": "16.11.2025 21:35:19",
+      "secondHalfStarted": "16.11.2025 21:51:00",
+      "secondHalfEnded": "16.11.2025 22:40:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "16.11.2025 22:40:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8204",
+      "name": "Italy",
+      "score": 1
+    },
+    {
+      "id": "8492",
+      "name": "Norway",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 11,
+      "added": 0,
+      "display": "11",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 63,
+      "added": 0,
+      "display": "63",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 78,
+      "added": 0,
+      "display": "78",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      6,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 45,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

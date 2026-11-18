@@ -62,3 +62,9 @@ sau verificare de rezultate, reconstruim interfata in aceeasi sesiune.
 - [10noiembrie2026](2026-11-10.md): review9noiembrie, Sabadellcornere6Succes; NO BETambelepiețe,29ligi fărăpartideidentificate,24cuperecorduri fărăistoricbilateralcomplet; researchpartial.
 
 - [11 noiembrie2026](2026-11-11.md): review10noiembrie fărăalegeriproprii;5cupe/3modelepepiață;Gol70 NO BET,candidatcornereArtis–Jablonec;researchpartial.
+
+
+12noiembrie: [jurnal](2026-11-12.md), [Gol70](../Goal70_2026-11-12/EUROPE_ALL_MATCHES.md), [cornere](../Corners1H_2026-11-12/ANALYSIS.md); NO BETambele,2modeleGol70/0cornere,cercetareparțială.
+
+
+14noiembrie2026: [jurnal](2026-11-14.md), [review13](../Review_2026-11-13/REVIEW.md), [Gol70](../Goal70_2026-11-14/EUROPE_ALL_MATCHES.md), [cornere](../Corners1H_2026-11-14/ANALYSIS.md). Trei alegeri13verificateSucces;azi preferințăindividualăValladolid–Castellóncornere15RO95,72/90,29%,candidatGol70separat91,42/85,98%.164înregistrări,6/5modele,researchparțial,fărăalegerinoiinferate.

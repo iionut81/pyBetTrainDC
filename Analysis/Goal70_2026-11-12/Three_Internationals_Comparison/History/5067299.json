@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "id": "5067299",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5067299",
+  "verified_at_utc": "2026-11-12T11:44:47.326Z",
+  "general": {
+    "matchId": "5067299",
+    "matchName": "Bosnia and Herzegovina-vs-Italy_Tue, Mar 31, 2026, 18:45 UTC",
+    "matchRound": "final",
+    "teamColors": {
+      "darkMode": {
+        "home": "#027EB0",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#027EB0",
+        "away": "#369A68"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 913098,
+    "leagueName": "World Cup Qualification UEFA 2nd Round",
+    "leagueRoundName": "final",
+    "parentLeagueId": 10195,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Bosnia and Herzegovina",
+      "id": 10106
+    },
+    "awayTeam": {
+      "name": "Italy",
+      "id": 8204
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Mar 31, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-03-31T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-03-31T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "31.03.2026 20:46:18",
+      "firstHalfEnded": "31.03.2026 21:35:10",
+      "secondHalfStarted": "31.03.2026 21:53:53",
+      "secondHalfEnded": "31.03.2026 22:42:19",
+      "firstExtraHalfStarted": "31.03.2026 22:46:25",
+      "secondExtraHalfStarted": "31.03.2026 23:06:44",
+      "gameEnded": "31.03.2026 23:34:21"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 1",
+    "reason": {
+      "short": "Pen",
+      "shortKey": "penalties_short",
+      "long": "Pen 4 - 1",
+      "longKey": "afterpenalties",
+      "penalties": [
+        4,
+        1
+      ]
+    },
+    "whoLostOnPenalties": "Italy",
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10106",
+      "name": "Bosnia and Herzegovina",
+      "score": 1
+    },
+    {
+      "id": "8204",
+      "name": "Italy",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 79,
+      "added": 0,
+      "display": "79",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 15,
+      "added": 0,
+      "display": "15",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      1
+    ],
+    "All": [
+      10,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 41,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 103,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 114,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 120,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,181 @@
+{
+  "ok": true,
+  "id": "4653847",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4653847",
+  "verified_at_utc": "2026-11-12T11:44:48.258Z",
+  "general": {
+    "matchId": "4653847",
+    "matchName": "Mexico-vs-England_Mon, Jul 6, 2026, 01:00 UTC",
+    "matchRound": "1/8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#00634b",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#00634b",
+        "away": "#6FA3E6"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894789,
+    "leagueName": "World Cup",
+    "leagueRoundName": "1/8",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Mexico",
+      "id": 6710
+    },
+    "awayTeam": {
+      "name": "England",
+      "id": 8491
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Jul 6, 2026, 01:00 UTC",
+    "matchTimeUTCDate": "2026-07-06T01:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-06T01:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "06.07.2026 03:00:13",
+      "firstHalfEnded": "06.07.2026 03:50:47",
+      "secondHalfStarted": "06.07.2026 04:07:27",
+      "secondHalfEnded": "06.07.2026 05:04:40",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.07.2026 05:04:40"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6710",
+      "name": "Mexico",
+      "score": 2
+    },
+    {
+      "id": "8491",
+      "name": "England",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 42,
+      "added": 0,
+      "display": "42",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 69,
+      "added": 0,
+      "display": "69",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 36,
+      "added": 0,
+      "display": "36",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 38,
+      "added": 0,
+      "display": "38",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 60,
+      "added": 0,
+      "display": "60",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      2
+    ],
+    "SecondHalf": [
+      8,
+      0
+    ],
+    "All": [
+      12,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 1,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 54,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 72,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

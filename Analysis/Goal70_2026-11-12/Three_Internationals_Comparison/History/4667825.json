@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "id": "4667825",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4667825",
+  "verified_at_utc": "2026-11-12T11:44:48.725Z",
+  "general": {
+    "matchId": "4667825",
+    "matchName": "England-vs-Croatia_Wed, Jun 17, 2026, 20:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFFFFF",
+        "away": "#CC3737"
+      },
+      "lightMode": {
+        "home": "#6FA3E6",
+        "away": "#CC3737"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894801,
+    "leagueName": "World Cup Grp. L",
+    "leagueRoundName": "1",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "England",
+      "id": 8491
+    },
+    "awayTeam": {
+      "name": "Croatia",
+      "id": 10155
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Jun 17, 2026, 20:00 UTC",
+    "matchTimeUTCDate": "2026-06-17T20:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-06-17T20:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.06.2026 22:00:12",
+      "firstHalfEnded": "17.06.2026 22:51:13",
+      "secondHalfStarted": "17.06.2026 23:09:21",
+      "secondHalfEnded": "18.06.2026 00:00:32",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.06.2026 00:00:32"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "4 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8491",
+      "name": "England",
+      "score": 4
+    },
+    {
+      "id": "10155",
+      "name": "Croatia",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 12,
+      "added": 0,
+      "display": "12",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 42,
+      "added": 0,
+      "display": "42",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 47,
+      "added": 0,
+      "display": "47",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 85,
+      "added": 0,
+      "display": "85",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 36,
+      "added": 0,
+      "display": "36",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 5,
+      "display": "45+5",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      8,
+      2
+    ]
+  },
+  "cards": [],
+  "formations": {}
+}

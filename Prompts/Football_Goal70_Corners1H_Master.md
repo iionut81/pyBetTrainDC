@@ -1,5 +1,17 @@
 # Model portabil: gol pana la 70 si sub 7,5 cornere prima repriza
 
+Extindere cerută explicit la 12 noiembrie 2026: în inventarul de azi includem
+TOATE partidele dintre naționale, oficiale și amicale, pe ambele piețe, împreună
+cu domeniul de club deja convenit. Seniori/juniori și masculin/feminin rămân
+identități și cohorte distincte. Aceleași formule 50/50, definiții, AR20%, praguri
+minime 5 general/3 teren, verificări de date și context. Baza este ediția curentă
+a competiției naționalelor; pentru amicale, anul calendaristic curent separat.
+Nu completăm eșantionul cu cluburi sau ediții vechi și nu amestecăm amicale cu
+oficiale în model; alte perioade sunt doar diagnostic separat. Terenul neutru
+și gazda desemnată se declară, fără a pretinde avantaj propriu neconfirmat.
+Arhivăm inventarul/rangurile inițiale înainte de extinderea zilei; predicțiile
+existente rămân intacte. Nicio probabilitate dacă lipsesc datele/eligibilitatea.
+
 Versiune: 1.6. Data: 2026-11-03. Fus orar: Europe/Bucharest.
 
 Clarificare de acoperire, 2 noiembrie: verifica integral primele ligi masculine

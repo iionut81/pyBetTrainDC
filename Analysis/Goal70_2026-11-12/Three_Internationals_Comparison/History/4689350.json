@@ -1,0 +1,167 @@
+{
+  "ok": true,
+  "id": "4689350",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4689350",
+  "verified_at_utc": "2026-11-12T11:44:46.756Z",
+  "general": {
+    "matchId": "4689350",
+    "matchName": "Spain-vs-Turkiye_Tue, Nov 18, 2025, 19:45 UTC",
+    "matchRound": "6",
+    "teamColors": {
+      "darkMode": {
+        "home": "#c62035",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#c62035",
+        "away": "#000000"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 896537,
+    "leagueName": "World Cup Qualification UEFA 1st Round Grp. E",
+    "leagueRoundName": "6",
+    "parentLeagueId": 10195,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Spain",
+      "id": 6720
+    },
+    "awayTeam": {
+      "name": "Turkiye",
+      "id": 6595
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Nov 18, 2025, 19:45 UTC",
+    "matchTimeUTCDate": "2025-11-18T19:45:00.000Z",
+    "started": true,
+    "finished": true
+  },
+  "status": {
+    "utcTime": "2025-11-18T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "18.11.2025 20:49:35",
+      "firstHalfEnded": "18.11.2025 21:35:57",
+      "secondHalfStarted": "18.11.2025 21:51:53",
+      "secondHalfEnded": "18.11.2025 22:44:16",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "18.11.2025 22:44:16"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6720",
+      "name": "Spain",
+      "score": 2
+    },
+    {
+      "id": "6595",
+      "name": "Turkiye",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 4,
+      "added": 0,
+      "display": "4",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 62,
+      "added": 0,
+      "display": "62",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 42,
+      "added": 0,
+      "display": "42",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 54,
+      "added": 0,
+      "display": "54",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      4,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      6,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 12,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 68,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 76,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 80,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 89,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

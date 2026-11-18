@@ -67,3 +67,40 @@ test('Artis–Jablonec corner report reads the shared observation archive and pr
  assert.ok(html.includes('Încă neverificat'));
  files.forEach((file,i)=>assert.deepEqual(fs.readFileSync(path.join(root,file)),frozen[i]));
 });
+
+test('International reports keep U21 competition history separate and never turn missing corners into zero',t=>{
+ const root=path.resolve(import.meta.dirname,'../..'),archive=loadArchive(root),day=archive.days.find(d=>d.date==='2026-11-12');
+ const match=day.matches.find(m=>m.id==='6416832');
+ const tempRoot=fs.mkdtempSync(path.join(os.tmpdir(),'pred-corner-report-'));
+ t.after(()=>{assert.equal(path.dirname(tempRoot),os.tmpdir());assert.ok(path.basename(tempRoot).startsWith('pred-corner-report-'));fs.rmSync(tempRoot,{recursive:true,force:true});});
+ writeMatchReports(root,tempRoot,{...archive,days:[{...day,matches:[match]}]});
+ const goal=fs.readFileSync(path.join(tempRoot,'reports/2026-11-12/goal/6416832.html'),'utf8');
+ const history=goal.split('<h2>Istoricul disponibil pentru acest meci</h2>')[1].split('<h2>Rezultatul verificat')[0];
+ assert.match(goal,/Bază: ediția curentă a competiției naționalelor/);
+ assert.doesNotMatch(goal,/Bază: proiecție din campionatele interne/);
+ assert.match(history,/Iceland U21 · 10 observații/);assert.match(history,/Greece U21 · 10 observații/);
+ assert.equal((history.match(/<td>Succes<\/td>/g)||[]).length,18);assert.equal((history.match(/<td>Fail<\/td>/g)||[]).length,2);
+ assert.match(goal,/93,92%/);assert.match(goal,/89,35%/);
+ const corner=fs.readFileSync(path.join(tempRoot,'reports/2026-11-12/corner/6416832.html'),'utf8');
+ const ch=corner.split('<h2>Istoricul disponibil pentru acest meci</h2>')[1].split('<h2>Rezultatul verificat')[0];
+ assert.equal((ch.match(/Date 1H indisponibile/g)||[]).length,20);assert.doesNotMatch(ch,/<td>(Succes|Fail)<\/td>/);
+ assert.equal(match.corner.p,null);assert.equal(match.goal.p,0.9391899373747821);
+});
+
+test('Puertollano report identifies Albacete-only frequencies and counts fixtures separately from validated corner observations',t=>{
+ const root=path.resolve(import.meta.dirname,'../..'),archive=loadArchive(root),day=archive.days.find(d=>d.date==='2026-11-12'),match=day.matches.find(m=>m.id==='6386074');
+ const tempRoot=fs.mkdtempSync(path.join(os.tmpdir(),'pred-corner-report-'));
+ t.after(()=>{assert.equal(path.dirname(tempRoot),os.tmpdir());assert.ok(path.basename(tempRoot).startsWith('pred-corner-report-'));fs.rmSync(tempRoot,{recursive:true,force:true});});
+ const files=['Analysis/Corners1H_2026-11-12/all_models.csv','Analysis/Selection_History/2026-11-12_corners1h_candidates.csv','Analysis/Selection_History/user_selections.csv'],before=files.map(f=>fs.readFileSync(path.join(root,f)));
+ writeMatchReports(root,tempRoot,{...archive,days:[{...day,matches:[match]}]});
+ const html=fs.readFileSync(path.join(tempRoot,'reports/2026-11-12/corner/6386074.html'),'utf8');
+ assert.match(html,/<span>Doar Albacete<\/span><strong>13\/13 · 100,00%/);
+ assert.match(html,/<span>Doar Albacete · deplasare<\/span><strong>7\/7 · 100,00%/);
+ assert.match(html,/CS Puertollano: 0 din 10 meciuri cu date cornere 1H validate/);
+ assert.match(html,/nu din istoricul ambelor echipe/);
+ assert.match(html,/CS Puertollano · 10 meciuri în istoric · 0 cu date 1H validate/);
+ const history=html.split('<h2>Istoricul disponibil pentru acest meci</h2>')[1].split('<h2>Rezultatul verificat')[0];
+ assert.equal((history.match(/Date 1H indisponibile/g)||[]).length,10);assert.equal((history.match(/<td>Succes<\/td>/g)||[]).length,10);
+ assert.match(html,/CS Puertollano · sezon<\/td><td>0<\/td><td>—<\/td>/);
+ assert.equal(match.corner.p,null);files.forEach((f,i)=>assert.deepEqual(fs.readFileSync(path.join(root,f)),before[i]));
+});

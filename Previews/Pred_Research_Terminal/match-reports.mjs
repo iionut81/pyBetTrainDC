@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { parseCsv } from './data.mjs';
+import { parseCsv,historyCoverage } from './data.mjs';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const number = value => value == null || value === '' || !Number.isFinite(Number(value)) ? null : Number(value);
@@ -68,6 +68,7 @@ function historyTable(rows,model,m,side,market,cutoff) {
   const before=Date.parse(r.date)<cutoff;
   return before&&(teamId ? r.home_id===teamId||r.away_id===teamId : r.home===teamName||r.away===teamName);
  }).sort((a,b)=>Date.parse(b.date)-Date.parse(a.date)).filter((r,i,all)=>all.findIndex(x=>x.id===r.id)===i).slice(0,10);
+ let verified=0;
  const body=history.map(r=>{
   let observation,result;
   if(market==='goal'){
@@ -79,19 +80,23 @@ function historyTable(rows,model,m,side,market,cutoff) {
   }else{
    ({observation,result}=cornerHistoryObservation(r));
   }
+  if(result!=='Neverificat')verified++;
   const stats=matchStatsHref(r.source,r.api_source);
-  return `<tr><td>${esc(r.date.slice(0,10))}<small>${esc(r.league)}</small></td><td>${stats?source(stats,`${r.home} – ${r.away}`):`${esc(r.home)} – ${esc(r.away)}`}${market==='goal'?`<small>${esc(r.score||`${r.home_score??'—'}–${r.away_score??'—'}`)}</small>`:''}</td><td>${observation}</td><td>${result}</td><td>${stats?source(stats,'Statistici meci'):'<span class="muted">Link statistici indisponibil</span>'}<small>${source(r.source||r.api_source,'Dovadă date')}</small></td></tr>`;
+  return `<tr><td>${esc(r.date.slice(0,10))}<small>${esc(r.league_label||r.league)}</small></td><td>${stats?source(stats,`${r.home} – ${r.away}`):`${esc(r.home)} – ${esc(r.away)}`}${market==='goal'?`<small>${esc(r.score||`${r.home_score??'—'}–${r.away_score??'—'}`)}</small>`:''}</td><td>${observation}</td><td>${result}</td><td>${stats?source(stats,'Statistici meci'):'<span class="muted">Link statistici indisponibil</span>'}<small>${source(r.source||r.api_source,'Dovadă date')}</small></td></tr>`;
  }).join('');
- return `<h3>${esc(teamName)} · ${history.length} observații disponibile în eșantion</h3><p class="muted">Cele mai recente rânduri salvate înaintea predicției, maximum 10. Nu reprezintă automat ultimele 10 meciuri oficiale din toate competițiile.</p>${history.length?`<div class="scroll"><table><thead><tr><th>Data / competiția</th><th>Meci / scor final</th><th>${market==='goal'?'Primul gol':'Cornere 1H'}</th><th>Pragul ales</th><th>Statistici / dovadă</th></tr></thead><tbody>${body}</tbody></table></div>`:'<p>Istoricul individual nu este disponibil în fișierul sursă identificat. Lipsa nu este zero.</p>'}`;
+ const heading=verified<history.length?`${history.length} meciuri în istoric · ${verified} cu date ${market==='corner'?'1H':'Gol70'} validate`:`${history.length} observații disponibile în eșantion`;
+ return `<h3>${esc(teamName)} · ${heading}</h3><p class="muted">Cele mai recente rânduri salvate înaintea predicției, maximum 10. Nu reprezintă automat ultimele 10 meciuri oficiale din toate competițiile.</p>${history.length?`<div class="scroll"><table><thead><tr><th>Data / competiția</th><th>Meci / scor final</th><th>${market==='goal'?'Primul gol':'Cornere 1H'}</th><th>Pragul ales</th><th>Statistici / dovadă</th></tr></thead><tbody>${body}</tbody></table></div>`:'<p>Istoricul individual nu este disponibil în fișierul sursă identificat. Lipsa nu este zero.</p>'}`;
 }
 
 function countsTable(row,market,m) {
  const columns=market==='goal'?['Meciuri','Marcate ≤70′','Primite ≤70′','Gol70 reușit','Primul gol >70′','Fără gol']:['Meciuri','Cornere 1H obținute','Cornere 1H cedate','Total mediu 1H','Exact 7','Minimum 8'];
  const body=['home','away','home_venue','away_venue'].map(prefix=>{
-  const values=market==='goal'
+  let values=market==='goal'
    ? [row[prefix+'_n'],row[prefix+'_gf70'],row[prefix+'_ga70'],row[prefix+'_success']??row[prefix+'_wins'],row[prefix+'_late'],row[prefix+'_0_0']??row[prefix+'_nil']]
    : [row[prefix+'_n'],row[prefix+'_cf']??row[prefix+'_gf'],row[prefix+'_ca']??row[prefix+'_ga'],row[prefix+'_mean'],row[prefix+'_7']??row[prefix+'_seven'],row[prefix+'_8plus']??row[prefix+'_eight']];
   const label=(prefix.startsWith('home')?m.originalHome:m.originalAway)+(prefix.endsWith('venue')?(prefix.startsWith('home')?' · acasă':' · deplasare'):' · sezon');
+  // Empty samples have no measured totals or frequencies, even if the CSV stores zero sums.
+  if(number(row[prefix+'_n'])===0)values=values.map((v,i)=>i===0?v:null);
   return `<tr><td>${esc(label)}</td>${values.map(v=>`<td>${fmt(v)}</td>`).join('')}</tr>`;
  }).join('');
  return `<div class="scroll"><table><thead><tr><th>Eșantion</th>${columns.map(c=>`<th>${c}</th>`).join('')}</tr></thead><tbody>${body}</tbody></table></div>`;
@@ -109,6 +114,7 @@ export function writeMatchReports(root,dist,archive) {
   const cornerHistory=firstCsv(root,[`${cornerBase}/historical_corners_1h.csv`,`${cornerBase}/historical_observations.csv`,`${goalBase}/historical_observations.csv`]);
   for(const m of day.matches)for(const market of ['goal','corner']){
    const sample=m[market],row=modelRow((market==='goal'?goalModels:cornerModels).rows,m);
+   const coverage=historyCoverage(row,market);
    const href=matchReportHref(day.date,market,m.id),file=path.join(dist,href),dir=path.dirname(file);
    sample.report=href;
    const dailyTarget=day.links[market]?path.resolve(dist,day.links[market]):null;
@@ -125,6 +131,7 @@ export function writeMatchReports(root,dist,archive) {
    const observation=outcome.result==='success'||outcome.result==='fail'?(market==='goal'?outcome.minute?` · primul gol ${esc(outcome.minute)}′`:' · fără gol':number(outcome.corners)!=null?` · ${fmt(outcome.corners)} cornere 1H`:''):'';
    const metric=(label,value)=>`<div class="metric"><span>${label}</span><strong>${value}</strong></div>`;
    const formula=market==='goal'?'P(≥1 gol ≤70′) = 1 − exp(−λ). Scenariul AR 20% folosește λ × 0,8.':'P(cornere 1H ≤7) = exp(−λ) × Σ(k=0…7) λᵏ/k!. Scenariul AR 20% folosește λ × 1,2.';
+   const basis=m.basis==='national_current_competition_edition'?'Bază: ediția curentă a competiției naționalelor; amicalele folosesc separat anul calendaristic curent. Categoriile de vârstă sunt distincte. Trecerea din grupe în baraj și terenul neutru pot limita comparabilitatea.':m.basis==='same_league_current_season'?'Bază: istoricul din campionatul intern curent.':'Bază: proiecție din campionatele interne într-o altă competiție; transferul comportamentului între competiții este incert.';
    const detailed=sample.userSelection?.analysis_path;
    const reviewFile=path.join(root,`Analysis/Review_${day.date}/REVIEW.md`);
    const reviewLink=fs.existsSync(reviewFile)?link(local(dir,reviewFile),'Analiza succeselor și eșecurilor zilei'):'';
@@ -133,8 +140,9 @@ export function writeMatchReports(root,dist,archive) {
    </style></head><body data-match-id="${esc(m.id)}" data-market="${market}" data-date="${esc(day.date)}"><main>
     <nav>${link(local(dir,path.join(dist,'index.html')),'Înapoi la dashboard')}${link(dailyHref,'Raportul zilei')}</nav>
     <header><span class="eyebrow">PRED / RAPORTUL MECIULUI / ${market==='goal'?'GOL70':'CORNERE 1H'}</span><h1>${esc(m.home)} <span class="muted">vs</span> ${esc(m.away)}</h1><p class="muted">${esc(day.date)} · ${esc(m.kickoff)} RO · ${esc(m.league)}</p><span class="badge">${role}</span><h3>${title}</h3><p>${definition}</p><p>${statsHref?`<span class="badge">${source(statsHref,'Goluri, cornere și statistici meci')}</span>`:'<span class="muted">Linkul public de statistici nu este disponibil pentru acest meci.</span>'}</p><p class="muted">Pagina furnizorului se deschide separat. Statisticile disponibile depind de acoperirea meciului; cornerele totale nu înlocuiesc cornerele din prima repriză.</p></header>
-    <div class="metrics">${metric('Model brut de screening',pct(sample.p))}${metric('Succes Rate AR 20%',pct(sample.stress))}${metric('Frecvență istorică',ratio(sample.wins,sample.n))}${metric('Frecvență acasă/deplasare',ratio(sample.venueWins,sample.venueN))}</div>
-    <section><h2>Ce susțin datele salvate</h2><p class="notice">Raport statistic din arhiva zilei. Probabilități necalibrate. Acest document nu adaugă o analiză contextuală nouă și nu confirmă automat tactica, accidentările, loturile sau vremea.</p><p>${m.basis==='same_league_current_season'?'Bază: istoricul din campionatul intern curent.':'Bază: proiecție din campionatele interne într-o altă competiție; transferul comportamentului între competiții este incert.'}</p><p>Momentul snapshotului: <code>${esc(m.recordedAt||'Nespecificat')}</code>. Numărătorile și probabilitățile originale sunt păstrate; rezultatele ulterioare sunt afișate separat.</p><p>Cotă echitabilă matematică din screening: <strong>${sample.p>0?fmt(1/sample.p):'—'}</strong>. Nu este cotă disponibilă în piață.</p>${sample.final?`<p class="notice">Există o estimare finală distinctă: ${pct(sample.final.p)}; AR 20% ${pct(sample.final.stress)}; istoric ${ratio(sample.final.wins,sample.final.n)}; teren ${ratio(sample.final.venueWins,sample.final.venueN)}. Tabelul de mai jos păstrează intrările screeningului inițial. Detaliile excluderilor sunt în raportul zilei.</p>`:''}</section>
+    <div class="metrics">${metric('Model brut de screening',pct(sample.p))}${metric('Succes Rate AR 20%',pct(sample.stress))}${metric(coverage.season.label||'Frecvență istorică',number(sample.n)>0?ratio(sample.wins,sample.n):'—')}${metric(coverage.venue.label||'Frecvență acasă/deplasare',number(sample.venueN)>0?ratio(sample.venueWins,sample.venueN):'—')}</div>
+    ${coverage.note?`<p class="notice history-coverage">${esc(coverage.note)}</p>`:''}
+    <section><h2>Ce susțin datele salvate</h2><p class="notice">Raport statistic din arhiva zilei. Probabilități necalibrate. Acest document nu adaugă o analiză contextuală nouă și nu confirmă automat tactica, accidentările, loturile sau vremea.</p><p>${basis}</p><p>Momentul snapshotului: <code>${esc(m.recordedAt||'Nespecificat')}</code>. Numărătorile și probabilitățile originale sunt păstrate; rezultatele ulterioare sunt afișate separat.</p><p>Cotă echitabilă matematică din screening: <strong>${sample.p>0?fmt(1/sample.p):'—'}</strong>. Nu este cotă disponibilă în piață.</p>${sample.final?`<p class="notice">Există o estimare finală distinctă: ${pct(sample.final.p)}; AR 20% ${pct(sample.final.stress)}; istoric ${ratio(sample.final.wins,sample.final.n)}; teren ${ratio(sample.final.venueWins,sample.final.venueN)}. Tabelul de mai jos păstrează intrările screeningului inițial. Detaliile excluderilor sunt în raportul zilei.</p>`:''}</section>
     <section><h2>Intrările și calculul screeningului</h2>${countsTable(row,market,m)}<p>λ sezon: <code>${fmt(row.lambda_season)}</code> · λ teren: <code>${fmt(row.lambda_venue)}</code> · λ combinat: <code>${fmt(row.lambda_combined)}</code>.</p><p>Pentru fiecare configurație, λ este jumătate din suma ratelor marcate/obținute și primite/cedate ale celor două echipe. λ combinat = 50% × λ sezon + 50% × λ teren. Ponderarea este euristică; eșantioanele se suprapun.</p><p>${formula}</p><p>Probabilitate doar sezon: ${pct(row.season_only)} · doar teren: ${pct(row.venue_only)}. Liniuța indică o valoare neînregistrată, nu zero.</p>${market==='goal'?'<p class="muted">Golurile ulterioare deschiderii scorului pot supraestima șansa primului gol în modelul Poisson. Frecvența primului gol rămâne o observație separată.</p>':`<p>Screening: exact 7 cornere ${ratio(sample.seven,sample.n)}; minimum 8 cornere ${ratio(sample.eight,sample.n)}. O repriză cu 8 sau mai multe cornere este Fail. Variația și dependența evenimentelor pot limita modelul Poisson.</p>`}</section>
     <section><h2>Istoricul disponibil pentru acest meci</h2>${historyTable(history.rows,row,m,'home',market,cutoff)}${historyTable(history.rows,row,m,'away',market,cutoff)}<p class="muted">O confruntare directă poate apărea în prezentarea ambelor echipe; tabelele nu se însumează pentru a recalcula frecvența agregată. Eșantionul agregat afișat mai sus provine din snapshotul original.</p></section>
     <section><h2>Rezultatul verificat, separat de predicție</h2><p><strong>${result}</strong>${observation}</p>${source(outcome.source,'Dovada rezultatului')}</section>

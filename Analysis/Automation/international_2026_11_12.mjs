@@ -1,0 +1,62 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {read,csv,save,writeCsv,pool,fetch,api,extract,observation,ro} from './research_2026_11_12.mjs';
+const base='Analysis/Goal70_2026-11-12/International', date='2026-11-12';
+const localDate=s=>Number.isFinite(Date.parse(s))?new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Bucharest'}).format(new Date(s)):'';
+async function cached(url,file){if(fs.existsSync(file)){const old=read(file);if(old.ok)return old;}const result=await fetch(url);save(file,result);return result;}
+async function inventory(){
+ save(base+'/scope.json',{requested_at_ro:ro(),date,definition:'All national-team fixtures on Romanian date, official and friendly; senior/youth/women identities separate',history:'Current competition edition; friendlies current calendar year separately; unchanged 5 overall/3 designated-venue minimum, explicit neutral venue caveat',review_handoff:'Analysis/Review_2026-11-11/LESSONS_FOR_NEXT_SCAN.md',request:'Vreau sa incluzi in cautarea meciurilor si orice meci international se joaca azi si sa aplici regulile ca si cum ar fi meci de club.'});
+ await pool(['20261111','20261112','20261113'],async day=>{await cached(api('matches?date='+day),base+'/Global/'+day+'.json');},3);
+ const rows=[],outside=[];
+ for(const day of ['20261111','20261112','20261113']){const raw=read(base+'/Global/'+day+'.json');if(!raw.ok)continue;for(const l of raw.data.leagues??[]){if(l.ccode!=='INT'||/club|champions league|europa|conference|libertadores|sudamericana/i.test(l.name))continue;for(const m of l.matches??[]){const row={id:String(m.id),competition:l.name,league_id:String(l.primaryId??l.id),group_id:String(l.id),date:m.status.utcTime,home:m.home.name,away:m.away.name,home_id:String(m.home.id),away_id:String(m.away.id),category:/U\d+/i.test(l.name+' '+m.home.name)?'youth':/women|\(W\)/i.test(l.name+' '+m.home.name)?'women':'senior_men',source:api('matchDetails?matchId='+m.id),history_basis:'national_current_competition_edition',status:m.status};(localDate(row.date)===date?rows:outside).push(row);}}}
+ const unique=[...new Map(rows.map(r=>[r.id,r])).values()];save(base+'/candidate_fixtures.json',unique);writeCsv(base+'/inventory.csv',unique.map(({status,...r})=>({...r,started:status.started??false,finished:status.finished??false,kickoff_ro:new Date(Date.parse(r.date)+7200000).toISOString().replace('Z','+02:00')})));
+ writeCsv(base+'/outside_romanian_date.csv',[...new Map(outside.map(r=>[r.id,r])).values()].map(({status,...r})=>r));
+ const ids=[...new Set(unique.map(r=>r.league_id))];await pool(ids,async id=>{await cached(api('leagues?id='+id+'&ccode3=ROU'),base+'/Schedules/'+id+'.json');},4);
+ await pool(['uefa.nations','caf.nations_qual','concacaf.nations.league','fifa.friendly','uefa.euro_u21','uefa.euro_u19','uefa.euro_u17'],async slug=>{await cached('https://site.api.espn.com/apis/site/v2/sports/soccer/'+slug+'/scoreboard?dates=20261112&limit=1000',base+'/ESPN/'+slug+'.json');},4);
+ const comps=ids.map(id=>{const r=read(base+'/Schedules/'+id+'.json'),d=r.data;return {id,ok:r.ok,name:d?.details?.name,selectedSeason:d?.details?.selectedSeason,allSeasons:d?.allAvailableSeasons,fixtures:d?.fixtures?.allMatches?.length??0,source:r.source,error:r.error};});save(base+'/competition_coverage.json',comps);
+ console.log(JSON.stringify({at_ro:ro(),fixtures:unique.length,byCompetition:Object.fromEntries([...new Set(unique.map(r=>r.competition))].map(c=>[c,unique.filter(r=>r.competition===c).length])),competitions:comps}));
+}
+if(process.argv[2]==='scan-international')await inventory();
+
+async function collect(){
+ const fixtures=read(base+'/candidate_fixtures.json'),coverage=read(base+'/competition_coverage.json');
+ // A competition schedule can contain fixtures omitted by the global feed.
+ for(const comp of coverage){const raw=read(base+'/Schedules/'+comp.id+'.json');if(!raw.ok)continue;for(const m of raw.data.fixtures?.allMatches??[]){if(localDate(m.status.utcTime)!==date||fixtures.some(f=>f.id===String(m.id)))continue;fixtures.push({id:String(m.id),competition:comp.name,league_id:String(comp.id),date:m.status.utcTime,home:m.home.name,away:m.away.name,home_id:String(m.home.id),away_id:String(m.away.id),category:/U.?\d+/i.test(comp.name+' '+m.home.name)?'youth':'senior_men',source:api('matchDetails?matchId='+m.id),history_basis:'national_current_competition_edition',status:m.status,inventory_note:'Recovered from competition schedule, absent from global daily feed'});}}
+ const need=new Map(),cutoff=Date.parse(date+'T00:00:00+02:00');
+ for(const f of fixtures){const comp=coverage.find(c=>c.id===f.league_id),raw=read(base+'/Schedules/'+f.league_id+'.json');f.edition=comp.selectedSeason;f.history_competition=comp.name;
+  for(const m of raw.data?.fixtures?.allMatches??[]){if(Date.parse(m.status.utcTime)>=cutoff||!m.status.finished||m.status.cancelled||m.status.awarded||![String(m.home.id),String(m.away.id)].some(id=>[f.home_id,f.away_id].includes(id)))continue;need.set(String(m.id),{id:String(m.id),league:f.league_id,date:m.status.utcTime,home_id:String(m.home.id),away_id:String(m.away.id),home:m.home.name,away:m.away.name,score:m.status.scoreStr,edition:f.edition,status:m.status});}
+ }
+ console.log('International historical match requests: '+need.size);
+ await pool([...need.values()],async m=>{const file=base+'/MatchData/'+m.id+'.json';if(fs.existsSync(file)&&read(file).ok)return;const r=await fetch(api('matchDetails?matchId='+m.id));save(file,extract(r,m.id));},6);
+ const history=[...need.values()].map(m=>{const d=read(base+'/MatchData/'+m.id+'.json'),o=observation(d);return {...m,first_goal:o.first_goal_minute,goal_ok:!!o.goal_result,corner_ok:!!o.corner_result,home70:o.goal_result?d.goals.filter(g=>g.side==='home'&&g.minute<=70).length:null,away70:o.goal_result?d.goals.filter(g=>g.side==='away'&&g.minute<=70).length:null,home_cf:o.corner_result?Number(d.stats.FirstHalf[0]):null,away_cf:o.corner_result?Number(d.stats.FirstHalf[1]):null,success70:o.goal_result==='success',under:o.corner_result==='success',total1h:o.actual_corners_1h,goal_reason:o.goal_reason??o.reason,corner_reason:o.corner_reason??o.reason,source:d.source,cards:d.cards??[],goals:d.goals??[]};});
+ save(base+'/historical_observations.json',history);writeCsv(base+'/historical_observations.csv',history.map(({status,goals,cards,...r})=>({...r,goals:JSON.stringify(goals),cards:JSON.stringify(cards)})));
+ await pool(fixtures,async f=>{const raw=await cached(f.source,base+'/StatusAtExtension/'+f.id+'.json');const d=raw.data;if(!raw.ok||String(d.general?.matchId)!==f.id){f.status_verified=false;return;}
+  f.status=d.header.status;f.date=d.general.matchTimeUTCDate??f.date;f.status_verified=true;f.status_verified_at_ro=new Date(Date.parse(raw.verified_at_utc)+7200000).toISOString().replace('Z','+02:00');f.stadium=d.content?.matchFacts?.infoBox?.Stadium;f.home_league=f.league_id;f.away_league=f.league_id;
+  f.venue_note='Home/away is designated fixture side; true home advantage and neutral venue require contextual confirmation';
+ },5);
+ save(base+'/candidate_fixtures.json',fixtures);
+ console.log(JSON.stringify({fixtures:fixtures.length,historical:history.length,goalMissing:history.filter(h=>!h.goal_ok).length,cornerMissing:history.filter(h=>!h.corner_ok).length,teams:fixtures.map(f=>{const n=id=>history.filter(h=>h.league===f.league_id&&(h.home_id===id||h.away_id===id)).length;return {id:f.id,home:f.home,away:f.away,edition:f.edition,home_n:n(f.home_id),away_n:n(f.away_id),started:f.status.started,finished:f.status.finished};})}));
+}
+if(process.argv[2]==='collect-international')await collect();
+
+function calculate(){
+ const fixtures=read(base+'/candidate_fixtures.json'),history=read(base+'/historical_observations.json'),out={goal:[],corner:[]},diagnostics=[];
+ const cdf=l=>{let v=Math.exp(-l),s=v;for(let k=1;k<=7;k++){v*=l/k;s+=v;}return s;};
+ const stats=(rows,id,market)=>{const a=rows.filter(r=>r[market+'_ok']),gf=market==='goal'?'home70':'home_cf',ga=market==='goal'?'away70':'away_cf',tot=a.map(r=>r[gf]+r[ga]),mean=a.length?tot.reduce((s,v)=>s+v,0)/a.length:null;return {expected:rows.length,n:a.length,missing:rows.length-a.length,gf:a.reduce((s,r)=>s+(r.home_id===id?r[gf]:r[ga]),0),ga:a.reduce((s,r)=>s+(r.home_id===id?r[ga]:r[gf]),0),wins:a.filter(r=>market==='goal'?r.success70:r.under).length,late:a.filter(r=>r.goal_ok&&!r.success70&&r.first_goal).length,nil:a.filter(r=>r.goal_ok&&!r.success70&&!r.first_goal).length,seven:tot.filter(t=>t===7).length,eight:tot.filter(t=>t>=8).length,mean,variance:a.length>1?tot.reduce((s,v)=>s+(v-mean)**2,0)/(a.length-1):null};};
+ for(const f of fixtures){const as=history.filter(h=>h.league===f.league_id&&(h.home_id===f.home_id||h.away_id===f.home_id)),bs=history.filter(h=>h.league===f.league_id&&(h.home_id===f.away_id||h.away_id===f.away_id)),av=as.filter(h=>h.home_id===f.home_id),bv=bs.filter(h=>h.away_id===f.away_id);
+  for(const market of ['goal','corner']){const a=stats(as,f.home_id,market),b=stats(bs,f.away_id,market),ah=stats(av,f.home_id,market),ba=stats(bv,f.away_id,market),reasons=[];
+   if(!f.status_verified)reasons.push('identity_or_live_status_unconfirmed');if(f.status?.started||f.status?.finished||Date.parse(f.date)<=Date.now())reasons.push('already_started_or_finished');if(f.status?.cancelled)reasons.push('cancelled');if(a.n<5||b.n<5)reasons.push('overall_sample_below_5');if(ah.n<3||ba.n<3)reasons.push('venue_sample_below_3');if([a,b,ah,ba].some(s=>s.missing))reasons.push('missing_exact_'+market+'_observations');if(!as.length||!bs.length)reasons.push('one_or_both_team_histories_unavailable');
+   const prob=market==='goal'?l=>1-Math.exp(-l):cdf,eligible=!reasons.length,ls=eligible?(a.gf/a.n+b.ga/b.n+b.gf/b.n+a.ga/a.n)/2:null,lv=eligible?(ah.gf/ah.n+ba.ga/ba.n+ba.gf/ba.n+ah.ga/ah.n)/2:null,l=eligible?(ls+lv)/2:null,p=eligible?prob(l):null;
+   const u=[...new Map([...as,...bs].filter(r=>r[market+'_ok']).map(r=>[r.id,r])).values()],v=[...new Map([...av,...bv].filter(r=>r[market+'_ok']).map(r=>[r.id,r])).values()];
+   const {status,stadium,...safe}=f;const row={...safe,eligible,reason:reasons.join(';')||'complete_current_national_competition_edition',home_league:f.league_id,away_league:f.league_id,lambda_season:ls,lambda_venue:lv,lambda_combined:l,p_raw:p,p_stress:eligible?prob(l*(market==='goal'?.8:1.2)):null,fair_odds:p?1/p:null,season_only:eligible?prob(ls):null,venue_only:eligible?prob(lv):null,first_goal_success:u.filter(r=>r.success70).length,first_goal_n:u.length,venue_success:v.filter(r=>r.success70).length,venue_n:v.length,unique_n:u.length,unique_under:u.filter(r=>r.under).length,unique_7:u.filter(r=>r.total1h===7).length,unique_8plus:u.filter(r=>r.total1h!==''&&r.total1h>=8).length,venue_unique_n:v.length,venue_under:v.filter(r=>r.under).length,analyst_selected:false,user_selected:false,recorded_at_ro:ro(),kickoff_ro:f.date?new Date(Date.parse(f.date)+7200000).toISOString().replace('Z','+02:00'):'',outcome:'',first_goal_actual:'',actual_corners_1h:''};
+   for(const [prefix,s]of [['home',a],['away',b],['home_venue',ah],['away_venue',ba]])for(const [k,val]of Object.entries(s))row[prefix+'_'+k]=val;
+   out[market].push(row);
+  }
+  diagnostics.push({id:f.id,home:f.home,away:f.away,edition:f.edition,stadium:f.stadium,home_history:as.map(h=>({id:h.id,date:h.date,first_goal:h.goal_ok?(h.first_goal||'0-0'):null,corners:h.corner_ok?h.total1h:null,source:h.source})),away_history:bs.map(h=>({id:h.id,date:h.date,first_goal:h.goal_ok?(h.first_goal||'0-0'):null,corners:h.corner_ok?h.total1h:null,source:h.source})),home_venue_series:av.map(h=>({id:h.id,first_goal:h.first_goal,corners:h.corner_ok?h.total1h:null})),away_venue_series:bv.map(h=>({id:h.id,first_goal:h.first_goal,corners:h.corner_ok?h.total1h:null}))});
+ }
+ save(base+'/diagnostics.json',diagnostics);
+ for(const market of ['goal','corner']){out[market].sort((a,b)=>(b.p_raw??-1)-(a.p_raw??-1));writeCsv(base+'/'+market+'_models.csv',out[market]);}
+ console.log(JSON.stringify({eligible:out.goal.filter(r=>r.eligible).map(r=>({market:'goal',id:r.id,home:r.home,away:r.away,p:r.p_raw,stress:r.p_stress,history:r.first_goal_success+'/'+r.first_goal_n,samples:[r.home_n,r.away_n,r.home_venue_n,r.away_venue_n]})).concat(out.corner.filter(r=>r.eligible).map(r=>({market:'corner',id:r.id,home:r.home,away:r.away,p:r.p_raw,stress:r.p_stress,history:r.unique_under+'/'+r.unique_n}))),rows:fixtures.length}));
+}
+if(process.argv[2]==='calculate-international')calculate();
+export {base,date,localDate,cached};

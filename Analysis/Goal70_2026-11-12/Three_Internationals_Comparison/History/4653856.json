@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "id": "4653856",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4653856",
+  "verified_at_utc": "2026-11-12T11:44:48.126Z",
+  "general": {
+    "matchId": "4653856",
+    "matchName": "England-vs-Argentina_Wed, Jul 15, 2026, 19:00 UTC",
+    "matchRound": "1/2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFFFFF",
+        "away": "#98CEF0"
+      },
+      "lightMode": {
+        "home": "#6FA3E6",
+        "away": "#002982"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894789,
+    "leagueName": "World Cup",
+    "leagueRoundName": "1/2",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "England",
+      "id": 8491
+    },
+    "awayTeam": {
+      "name": "Argentina",
+      "id": 6706
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Jul 15, 2026, 19:00 UTC",
+    "matchTimeUTCDate": "2026-07-15T19:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-15T19:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "15.07.2026 21:00:19",
+      "firstHalfEnded": "15.07.2026 21:48:54",
+      "secondHalfStarted": "15.07.2026 22:06:05",
+      "secondHalfEnded": "15.07.2026 23:03:02",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "15.07.2026 23:03:02"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8491",
+      "name": "England",
+      "score": 1
+    },
+    {
+      "id": "6706",
+      "name": "Argentina",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 55,
+      "added": 0,
+      "display": "55",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 85,
+      "added": 0,
+      "display": "85",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 2,
+      "display": "90+2",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      1
+    ],
+    "SecondHalf": [
+      0,
+      5
+    ],
+    "All": [
+      1,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 51,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

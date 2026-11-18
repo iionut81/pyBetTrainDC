@@ -1,5 +1,7 @@
 # Pred — Sports Prediction Pipeline
 
+Pentru conversații, reguli, decizii și reluarea lucrului de pe alt calculator: **[START_HERE.md — memoria proiectului](START_HERE.md)**.
+
 5 models, 16 leagues, daily predictions + weekly retraining.
 
 ---

@@ -1,0 +1,145 @@
+{
+  "ok": true,
+  "id": "4653707",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4653707",
+  "verified_at_utc": "2026-11-12T11:44:48.484Z",
+  "general": {
+    "matchId": "4653707",
+    "matchName": "Portugal-vs-Croatia_Thu, Jul 2, 2026, 23:00 UTC",
+    "matchRound": "1/16",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ab0027",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#ab0027",
+        "away": "#0040a5"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894789,
+    "leagueName": "World Cup",
+    "leagueRoundName": "1/16",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Portugal",
+      "id": 8361
+    },
+    "awayTeam": {
+      "name": "Croatia",
+      "id": 10155
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Jul 2, 2026, 23:00 UTC",
+    "matchTimeUTCDate": "2026-07-02T23:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-02T23:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "03.07.2026 01:00:11",
+      "firstHalfEnded": "03.07.2026 01:49:24",
+      "secondHalfStarted": "03.07.2026 02:05:16",
+      "secondHalfEnded": "03.07.2026 03:09:14",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "03.07.2026 03:09:14"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8361",
+      "name": "Portugal",
+      "score": 2
+    },
+    {
+      "id": "10155",
+      "name": "Croatia",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 68,
+      "added": 0,
+      "display": "68",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 4,
+      "display": "90+4",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 53,
+      "added": 0,
+      "display": "53",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      6,
+      0
+    ],
+    "SecondHalf": [
+      3,
+      5
+    ],
+    "All": [
+      9,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 17,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 59,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

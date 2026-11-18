@@ -1,0 +1,147 @@
+{
+  "ok": true,
+  "id": "4689380",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4689380",
+  "verified_at_utc": "2026-11-12T11:44:48.819Z",
+  "general": {
+    "matchId": "4689380",
+    "matchName": "Croatia-vs-Faroe Islands_Fri, Nov 14, 2025, 19:45 UTC",
+    "matchRound": "9",
+    "teamColors": {
+      "darkMode": {
+        "home": "#CC3737",
+        "away": "#feffff"
+      },
+      "lightMode": {
+        "home": "#CC3737",
+        "away": "#3060A8"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 896544,
+    "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+    "leagueRoundName": "9",
+    "parentLeagueId": 10195,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Croatia",
+      "id": 10155
+    },
+    "awayTeam": {
+      "name": "Faroe Islands",
+      "id": 8269
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Nov 14, 2025, 19:45 UTC",
+    "matchTimeUTCDate": "2025-11-14T19:45:00.000Z",
+    "started": true,
+    "finished": true
+  },
+  "status": {
+    "utcTime": "2025-11-14T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "14.11.2025 20:46:37",
+      "firstHalfEnded": "14.11.2025 21:32:20",
+      "secondHalfStarted": "14.11.2025 21:48:10",
+      "secondHalfEnded": "14.11.2025 22:34:38",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.11.2025 22:34:38"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10155",
+      "name": "Croatia",
+      "score": 3
+    },
+    {
+      "id": "8269",
+      "name": "Faroe Islands",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 23,
+      "added": 0,
+      "display": "23",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 70,
+      "added": 0,
+      "display": "70",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 16,
+      "added": 0,
+      "display": "16",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      7,
+      0
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      11,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 44,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 81,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

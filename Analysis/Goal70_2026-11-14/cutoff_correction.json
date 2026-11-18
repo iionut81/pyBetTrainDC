@@ -1,0 +1,25 @@
+{
+  "at_ro": "2026-11-14T09:08:51.541+02:00",
+  "excluded": [
+    {
+      "id": "6462728",
+      "date": "2026-11-13T23:00:00Z",
+      "home": "Argentina",
+      "away": "Uruguay"
+    },
+    {
+      "id": "6422182",
+      "date": "2026-11-13T23:00:00Z",
+      "home": "Saint Martin",
+      "away": "El Salvador"
+    }
+  ],
+  "used_history": 304,
+  "raw_requests": 306,
+  "affected_inventory_ids": [
+    "6462728",
+    "6422182"
+  ],
+  "modeled_probabilities_changed": false,
+  "reason": "Compare parsed timestamps against Romanian midnight, not ISO strings with different offsets. Both fixtures remain in today inventory without predictions."
+}

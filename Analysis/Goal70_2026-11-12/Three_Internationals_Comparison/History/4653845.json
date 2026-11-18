@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "id": "4653845",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4653845",
+  "verified_at_utc": "2026-11-12T11:44:46.603Z",
+  "general": {
+    "matchId": "4653845",
+    "matchName": "USA-vs-Belgium_Tue, Jul 7, 2026, 00:00 UTC",
+    "matchRound": "1/8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#ffffff",
+        "away": "#9f2533"
+      },
+      "lightMode": {
+        "home": "#293664",
+        "away": "#9f2533"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894789,
+    "leagueName": "World Cup",
+    "leagueRoundName": "1/8",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "USA",
+      "id": 6713
+    },
+    "awayTeam": {
+      "name": "Belgium",
+      "id": 8263
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Jul 7, 2026, 00:00 UTC",
+    "matchTimeUTCDate": "2026-07-07T00:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-07T00:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "07.07.2026 02:00:36",
+      "firstHalfEnded": "07.07.2026 02:52:12",
+      "secondHalfStarted": "07.07.2026 03:09:04",
+      "secondHalfEnded": "07.07.2026 03:58:27",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "07.07.2026 03:58:27"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 4",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6713",
+      "name": "USA",
+      "score": 1
+    },
+    {
+      "id": "8263",
+      "name": "Belgium",
+      "score": 4
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 9,
+      "added": 0,
+      "display": "9",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 33,
+      "added": 0,
+      "display": "33",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 57,
+      "added": 0,
+      "display": "57",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      1,
+      3
+    ],
+    "SecondHalf": [
+      2,
+      2
+    ],
+    "All": [
+      3,
+      5
+    ]
+  },
+  "cards": [
+    {
+      "time": 35,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 69,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

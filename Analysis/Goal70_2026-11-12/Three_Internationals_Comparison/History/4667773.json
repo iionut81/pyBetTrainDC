@@ -1,0 +1,134 @@
+{
+  "ok": true,
+  "id": "4667773",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4667773",
+  "verified_at_utc": "2026-11-12T11:44:45.968Z",
+  "general": {
+    "matchId": "4667773",
+    "matchName": "Turkiye-vs-Paraguay_Sat, Jun 20, 2026, 03:00 UTC",
+    "matchRound": "2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#d71c00",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#d71c00",
+        "away": "#212B46"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894793,
+    "leagueName": "World Cup Grp. D",
+    "leagueRoundName": "2",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Turkiye",
+      "id": 6595
+    },
+    "awayTeam": {
+      "name": "Paraguay",
+      "id": 6724
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Jun 20, 2026, 03:00 UTC",
+    "matchTimeUTCDate": "2026-06-20T03:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-06-20T03:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 1,
+    "halfs": {
+      "firstHalfStarted": "20.06.2026 05:00:11",
+      "firstHalfEnded": "20.06.2026 05:55:27",
+      "secondHalfStarted": "20.06.2026 06:11:49",
+      "secondHalfEnded": "20.06.2026 07:05:46",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "20.06.2026 07:05:46"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "0 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6595",
+      "name": "Turkiye",
+      "score": 0
+    },
+    {
+      "id": "6724",
+      "name": "Paraguay",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "away",
+      "minute": 2,
+      "added": 0,
+      "display": "2",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      5,
+      0
+    ],
+    "SecondHalf": [
+      7,
+      0
+    ],
+    "All": [
+      12,
+      0
+    ]
+  },
+  "cards": [
+    {
+      "time": 4,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 45,
+      "card": "Red",
+      "isHome": false
+    },
+    {
+      "time": 63,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 71,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "id": "5067289",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5067289",
+  "verified_at_utc": "2026-11-12T11:44:46.083Z",
+  "general": {
+    "matchId": "5067289",
+    "matchName": "Turkiye-vs-Romania_Thu, Mar 26, 2026, 17:00 UTC",
+    "matchRound": "1/2",
+    "teamColors": {
+      "darkMode": {
+        "home": "#d71c00",
+        "away": "#F7C515"
+      },
+      "lightMode": {
+        "home": "#d71c00",
+        "away": "#d89f00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 913098,
+    "leagueName": "World Cup Qualification UEFA 2nd Round",
+    "leagueRoundName": "1/2",
+    "parentLeagueId": 10195,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Turkiye",
+      "id": 6595
+    },
+    "awayTeam": {
+      "name": "Romania",
+      "id": 9730
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Thu, Mar 26, 2026, 17:00 UTC",
+    "matchTimeUTCDate": "2026-03-26T17:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-03-26T17:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "26.03.2026 18:02:23",
+      "firstHalfEnded": "26.03.2026 18:47:40",
+      "secondHalfStarted": "26.03.2026 19:02:53",
+      "secondHalfEnded": "26.03.2026 19:51:41",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.03.2026 19:51:41"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6595",
+      "name": "Turkiye",
+      "score": 1
+    },
+    {
+      "id": "9730",
+      "name": "Romania",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 53,
+      "added": 0,
+      "display": "53",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      1
+    ],
+    "SecondHalf": [
+      6,
+      2
+    ],
+    "All": [
+      9,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 18,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

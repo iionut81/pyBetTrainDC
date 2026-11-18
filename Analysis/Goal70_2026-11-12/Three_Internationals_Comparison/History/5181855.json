@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "id": "5181855",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181855",
+  "verified_at_utc": "2026-11-12T07:32:00.348Z",
+  "general": {
+    "matchId": "5181855",
+    "matchName": "Croatia-vs-Spain_Tue, Oct 6, 2026, 18:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#CC3737",
+        "away": "#ffba4d"
+      },
+      "lightMode": {
+        "home": "#CC3737",
+        "away": "#D38402"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 920743,
+    "leagueName": "UEFA Nations League A Grp. 3",
+    "leagueRoundName": "4",
+    "parentLeagueId": 9806,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Croatia",
+      "id": 10155
+    },
+    "awayTeam": {
+      "name": "Spain",
+      "id": 6720
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Oct 6, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-10-06T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-06T18:45:00.000Z",
+    "numberOfHomeRedCards": 1,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "06.10.2026 20:45:31",
+      "firstHalfEnded": "06.10.2026 21:31:39",
+      "secondHalfStarted": "06.10.2026 21:47:07",
+      "secondHalfEnded": "06.10.2026 22:36:16",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "06.10.2026 22:36:16"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "10155",
+      "name": "Croatia",
+      "score": 1
+    },
+    {
+      "id": "6720",
+      "name": "Spain",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 17,
+      "added": 0,
+      "display": "17",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 61,
+      "added": 0,
+      "display": "61",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 88,
+      "added": 0,
+      "display": "88",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      3,
+      2
+    ],
+    "SecondHalf": [
+      0,
+      4
+    ],
+    "All": [
+      3,
+      6
+    ]
+  },
+  "cards": [
+    {
+      "time": 14,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 22,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 65,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 66,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 79,
+      "card": "YellowRed",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-12/International/MatchData/5181855.json"
+}

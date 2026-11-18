@@ -5,6 +5,30 @@ GOAL_BY_70 and CORNERS_1H_UNDER_7_5, also read
 `Prompts/Football_Goal70_Corners1H_Master.md` before researching or ranking.
 The explicit user instructions in the conversation take priority over older prompts.
 
+- Explicit publication authorization, 2026-11-18: the user requested a commit
+  and push to main containing the project's conversations and persistent memory
+  for access from other devices. Publish the reviewed copy of locally available
+  visible project messages in Analysis/Conversation_History/published/ alongside
+  instructions, journals, analyses and the dashboard. START_HERE.md is the entry
+  point. Exclude hidden reasoning, system/developer messages, tool records,
+  internal-agent sessions and credentials. The private transcripts directory
+  remains ignored. This one-time publication does not authorize future automatic
+  publication, commits, pushes, model changes or schedules.
+
+- Scope extension explicitly requested 2026-11-12: include every international
+  national-team fixture played today, official competitions and friendlies,
+  alongside the existing club scope, for BOTH markets. Record senior/youth and
+  men's/women's categories separately; never substitute one squad's history for
+  another. Apply the SAME definitions, Poisson 50/50, stress scenarios, minimum
+  samples (5 overall/3 venue), data validation and contextual checks as for clubs.
+  Use the current national competition edition (friendlies: current calendar
+  year, separately); do not silently pool older editions or club data to make a
+  fixture eligible. Neutral venues and designated home sides are explicit.
+  Preserve prospective club snapshots when extending today's inventory; archive
+  the previous version, then compare every eligible fixture before finalists.
+  This request authorizes today's scope extension, not production model changes,
+  new schedules, bets, external messages or another commit/push.
+
 - Conversation continuity explicitly requested 2026-11-03: at the beginning of
   a new or resumed session read `Analysis/SESSION_RESUME.md`, then the latest
   daily journal and canonical selections/results. After each user exchange,

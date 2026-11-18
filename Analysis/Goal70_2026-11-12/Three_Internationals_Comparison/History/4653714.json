@@ -1,0 +1,140 @@
+{
+  "ok": true,
+  "id": "4653714",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4653714",
+  "verified_at_utc": "2026-11-12T11:44:48.371Z",
+  "general": {
+    "matchId": "4653714",
+    "matchName": "England-vs-DR Congo_Wed, Jul 1, 2026, 16:00 UTC",
+    "matchRound": "1/16",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFFFFF",
+        "away": "#1F7EB8"
+      },
+      "lightMode": {
+        "home": "#6FA3E6",
+        "away": "#CC1B1E"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894789,
+    "leagueName": "World Cup",
+    "leagueRoundName": "1/16",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "England",
+      "id": 8491
+    },
+    "awayTeam": {
+      "name": "DR Congo",
+      "id": 6321
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Jul 1, 2026, 16:00 UTC",
+    "matchTimeUTCDate": "2026-07-01T16:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-01T16:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.07.2026 18:00:22",
+      "firstHalfEnded": "01.07.2026 18:51:45",
+      "secondHalfStarted": "01.07.2026 19:08:15",
+      "secondHalfEnded": "01.07.2026 20:00:14",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "01.07.2026 20:00:14"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8491",
+      "name": "England",
+      "score": 2
+    },
+    {
+      "id": "6321",
+      "name": "DR Congo",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 7,
+      "added": 0,
+      "display": "7",
+      "period": "FirstHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      3,
+      2
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 27,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

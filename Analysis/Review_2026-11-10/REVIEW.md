@@ -89,3 +89,8 @@ Succesele nu validează predicții inexistente. NO BET a fost determinat de lips
 ## Clarificare de status 2026-11-11T10:34:37.698+02:00
 
 Badajoz–Tenerife are cancelled=true DAR reason.long=Postponed/shortKey=postponed_short în FotMob și dată nedeterminată în [RFEF](https://rfef.es/es/noticias/actualizado-el-calendario-de-los-partidos-aplazados-de-la-copa-del-rey-mapfre-y-de-la-copa). Corectată clasificarea tehnică cancelled în postponed_not_scored în ambeleCSV, fără schimbarea observațiilor sau a numitorului23/19. Predarea inițială rămâne păstrată; această clarificare este după scanare.
+
+
+## Completare verificată12noiembrie — 2026-11-12T09:26:53.625+02:00
+
+TrivalValderas–Leganés:7cornereFirstHalf(2+5),succeslalimită; repriza2(0+3),FT(2+8). Partidadincohortaprospectivă10noiembrie a fostdisputată11noiembrie16:30UTC; nu estemodelnou pentru11. CSVactualizatfărămodificareapredicțiilor; versiuneaanterioarăînReview_2026-11-11/corners10_before_retry.csv. Bilantulcohortei10cornere devine16succese/4eșecuri,3pending și1amânarecanonicăpăstratăînconflict. Nuanulămamânareacanonicaîntr-unconflictnoucancelled fărăreconciliereindependentă.

@@ -1,5 +1,12 @@
 # Continuitatea conversatiilor PRED
 
+Actualizare18noiembrie2026: utilizatorul a cerut explicit commit și push pe main
+cu conversațiile și memoria proiectului. Copia verificată pentru publicare este
+în [published/README.md](published/README.md); punctul de pornire pe alt calculator
+este [START_HERE.md](../../START_HERE.md). Exporturile din `transcripts/` rămân
+private și ignorate. Autorizarea acestei publicări nu stabilește publicarea
+automată a conversațiilor viitoare.
+
 Cerinta utilizatorului, 3 noiembrie 2026: pastram conversatiile proiectului si
 deciziile, astfel incat inchiderea IDE-ului sa nu impuna reluarea explicatiilor.
 

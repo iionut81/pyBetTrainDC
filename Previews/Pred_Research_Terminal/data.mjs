@@ -18,6 +18,28 @@ export function parseCsv(input){
 }
 const num=v=>v==null||v===''?null:Number(v);
 const truth=v=>String(v).toLowerCase()==='true';
+
+export function historyCoverage(row,market){
+ const count=value=>value==null||value===''||!Number.isInteger(Number(value))||Number(value)<0?null:Number(value);
+ const sample=prefix=>{
+  const n=count(row[prefix+'_n']),expected=count(row[prefix+'_expected']);
+  const missing=count(row[prefix+'_missing'])??(n!=null&&expected!=null&&expected>=n?expected-n:null);
+  return {n,expected,missing};
+ };
+ const group=venue=>{
+  const home=sample(venue?'home_venue':'home'),away=sample(venue?'away_venue':'away');
+  const known=home.n!=null&&away.n!=null;
+  const incomplete=known&&[home,away].some(s=>s.n===0||s.missing>0);
+  const onlySide=known&&home.n===0&&away.n>0?'away':known&&away.n===0&&home.n>0?'home':null;
+  const onlyTeam=onlySide?row[onlySide]:null;
+  const label=!incomplete?null:onlyTeam?`Doar ${onlyTeam}${venue?(onlySide==='home'?' · acasă':' · deplasare'):''}`:venue?'Teren · date parțiale':'Istoric · date parțiale';
+  return {home,away,known,incomplete,onlySide,label};
+ };
+ const season=group(false),venue=group(true),event=market==='corner'?'cornere 1H':'Gol70';
+ const describe=(side,s)=>`${row[side]}: ${s.n}${s.expected!=null?' din '+s.expected:''} meciuri cu date ${event} validate${s.missing>0?' ('+s.missing+' fără observație validată)':''}.`;
+ const note=season.incomplete?`Istoric incomplet pentru această piață. ${describe('home',season.home)} ${describe('away',season.away)}${season.onlySide?' Frecvența afișată provine numai din meciurile '+row[season.onlySide]+', nu din istoricul ambelor echipe.':' Frecvența afișată folosește numai observațiile validate.'} Lipsurile nu sunt succese, eșecuri sau zero.`:'';
+ return {season,venue,note};
+}
 const labels={'eng.1':'Premier League','eng.2':'Championship','ita.1':'Serie A','ita.2':'Serie B','esp.1':'La Liga','esp.2':'LaLiga 2','ger.1':'Bundesliga','ger.2':'2. Bundesliga','fra.1':'Ligue 1','por.1':'Primeira Liga','ned.1':'Eredivisie','bel.1':'Pro League','swe.1':'Allsvenskan','nor.1':'Eliteserien','den.1':'Superliga','den.cup':'Cupa Danemarcei','gre.1':'Super League Grecia','rou.1':'SuperLiga România','rom.1':'SuperLiga România','srb.1':'SuperLiga Serbia','uefa.champions':'Champions League'};
 const short=name=>({'Feyenoord Rotterdam':'Feyenoord','Internazionale':'Inter','Queens Park Rangers':'QPR','Bodo/Glimt':'Bodø/Glimt','AS Roma':'Roma','IK Sirius':'Sirius','Bayern Munich':'Bayern München'}[name]??name);
 const normalizeResult=r=>r?.startsWith('postponed')?'postponed':['success','fail','void','cancelled'].includes(r)?r:'pending';
@@ -45,7 +67,7 @@ export function loadArchive(root){
   const dayUsers=users.filter(u=>u.analysis_date===date);
   const finalCorners=[...csv(`${baseCorner}/prospective_selection.csv`),...csv(`${baseCorner}/prospective_alternative.csv`)];
   const matches=goals.map(g=>({id:g.id,ids:[g.id],home:short(g.home),away:short(g.away),originalHome:g.home,originalAway:g.away,kickoff:time(g.kickoff_ro),competition:g.competition||g.league,league:labels[g.competition||g.league]??g.competition??g.league,basis:g.history_basis||'same_league_current_season',recordedAt:g.recorded_at_ro||g.model_snapshot_at_ro||'',
-   goal:{p:num(g.p_raw),stress:num(g.p_stress),wins:num(g.first_goal_success??g.first_goal_unique_success),n:num(g.first_goal_n??g.first_goal_unique_n),venueWins:num(g.venue_success??g.venue_unique_success),venueN:num(g.venue_n??g.venue_unique_n),source:g.source,eligible:num(g.p_raw)!=null},corner:{p:null,stress:null,eligible:false},analystGoal:truth(g.analyst_selected||g.analyst_finalist)}));
+   goal:{p:num(g.p_raw),stress:num(g.p_stress),wins:num(g.first_goal_success??g.first_goal_unique_success),n:num(g.first_goal_n??g.first_goal_unique_n),venueWins:num(g.venue_success??g.venue_unique_success),venueN:num(g.venue_n??g.venue_unique_n),source:g.source,eligible:num(g.p_raw)!=null,coverage:historyCoverage(g,'goal')},corner:{p:null,stress:null,eligible:false},analystGoal:truth(g.analyst_selected||g.analyst_finalist)}));
   const sameNames=(m,r)=>m.originalHome===r.home&&m.originalAway===r.away;
   const resolve=r=>{
    const keys=[r.id,r.match_id,r.goal70_espn_id,r.prediction_id,r.fotmob_id].filter(Boolean);
@@ -60,7 +82,7 @@ export function loadArchive(root){
    let m=resolve(c);
    if(!m){m={id:c.goal70_espn_id||c.id,ids:[c.id,c.goal70_espn_id].filter(Boolean),home:short(c.home),away:short(c.away),originalHome:c.home,originalAway:c.away,kickoff:time(c.kickoff_ro||c.date),competition:c.competition||c.league,league:labels[c.competition||c.league]??c.competition??c.league,basis:c.history_basis||'same_league_current_season',goal:{p:null,stress:null,eligible:false}};matches.push(m);}
    m.ids=[...new Set([...m.ids,c.id,c.goal70_espn_id].filter(Boolean))];
-   m.corner={p:num(c.p_raw),stress:num(c.p_stress),wins:num(c.unique_under),n:num(c.unique_n),venueWins:num(c.venue_under),venueN:num(c.venue_unique_n),eight:num(c.unique_8plus),seven:num(c.unique_7),source:c.source,eligible:truth(c.eligible)&&num(c.p_raw)!=null};
+   m.corner={p:num(c.p_raw),stress:num(c.p_stress),wins:num(c.unique_under),n:num(c.unique_n),venueWins:num(c.venue_under),venueN:num(c.venue_unique_n),eight:num(c.unique_8plus),seven:num(c.unique_7),source:c.source,eligible:truth(c.eligible)&&num(c.p_raw)!=null,coverage:historyCoverage(c,'corner')};
    m.analystCorner=truth(c.analyst_selected);
   }
   for(const f of finalCorners){const m=resolve(f);if(!m)throw Error('Unmatched corner finalist '+date+' '+f.match_id);m.analystCorner=true;m.corner.final={p:num(f.final_p_raw||f.p_raw),stress:num(f.final_p_stress||f.p_stress),wins:num(f.historical_success)??m.corner.wins,n:num(f.historical_n)??m.corner.n,venueWins:num(f.venue_success)??m.corner.venueWins,venueN:num(f.venue_n)??m.corner.venueN,recordedAt:f.recorded_at_ro};}

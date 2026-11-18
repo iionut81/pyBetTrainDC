@@ -1,0 +1,127 @@
+{
+  "ok": true,
+  "id": "4667772",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4667772",
+  "verified_at_utc": "2026-11-12T11:44:46.109Z",
+  "general": {
+    "matchId": "4667772",
+    "matchName": "Australia-vs-Turkiye_Sun, Jun 14, 2026, 04:00 UTC",
+    "matchRound": "1",
+    "teamColors": {
+      "darkMode": {
+        "home": "#FFB81C",
+        "away": "#d71c00"
+      },
+      "lightMode": {
+        "home": "#de9c00",
+        "away": "#d71c00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(29, 29, 29, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894793,
+    "leagueName": "World Cup Grp. D",
+    "leagueRoundName": "1",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Australia",
+      "id": 6716
+    },
+    "awayTeam": {
+      "name": "Turkiye",
+      "id": 6595
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sun, Jun 14, 2026, 04:00 UTC",
+    "matchTimeUTCDate": "2026-06-14T04:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-06-14T04:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "14.06.2026 06:00:37",
+      "firstHalfEnded": "14.06.2026 06:49:51",
+      "secondHalfStarted": "14.06.2026 07:05:26",
+      "secondHalfEnded": "14.06.2026 07:56:46",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.06.2026 07:56:46"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6716",
+      "name": "Australia",
+      "score": 2
+    },
+    {
+      "id": "6595",
+      "name": "Turkiye",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 27,
+      "added": 0,
+      "display": "27",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 75,
+      "added": 0,
+      "display": "75",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      6
+    ],
+    "All": [
+      5,
+      8
+    ]
+  },
+  "cards": [
+    {
+      "time": 86,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

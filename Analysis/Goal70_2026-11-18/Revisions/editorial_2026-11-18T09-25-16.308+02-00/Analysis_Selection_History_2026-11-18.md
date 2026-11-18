@@ -1,0 +1,7 @@
+# Jurnal PRED —18 noiembrie2026
+
+Rulare zilnică autorizată ambele piețe și toate naționalele,fărăagențiparaleli. Orăreală inițială09:08:02RO. Citite instrucțiunile,resume,jurnal17,canonice/events. Nicioalegere17 sau veche pending în user_selections;nu s-au creat alegeri. Review17parțial și lecții predate2026-11-18T09:10:57.650+02:00,înainteascanării. IrlandaU21candidatanalist succes62;scor90=2–1/AET2–2,separate. Rezultate și restanțeînReview17;predicții originale păstrate. Urmeazădashboarddupărezultate,apoiscanareambelepiețe,surse/context,verificări/export/resume.
+
+## Cercetare și decizie2026-11-18T09:20:48.542+02:00
+
+22partide(9naționaleîncheiate/6Copa/3Slovenia/4UWCL).29ligiconvenitefărămeciidentificat,4coroborăriindependenteincomplete;273istorice,4goluri/138FirstHalflipsă. Toate6modeleGol70eligibilecalculate,0cornere. NO BETambele:niciunpreferatfermdupăcomparație,nupragnou. LiderPortugalete84,61/77,62%,17/23și8/12;Badajoz83,45/76,29%,Minera83,43/76,26%;transfercupă,loturiincomplete și rafaleBadajoz60,1riscuri.120oficialerecente/12echipe,GF70/0–0/tardive și sensibilitățipăstrate. NouănaționaleFTnuprimescpredicții.Categorii/genuri/ediții distincte,amicale2026separat,neutru/desemnateexplicit.Nicioalegerecreată. Datelecanonicearhivateînainteaextinderii;șaptecluburiU19ucraineneeliminatedinnaționale;9137Chinaeliminatădindomeniucupă,identitățispaniolevalidate.Metoda/producția/selection_engine/programarea/Gitneschimbate,fărăpariuri/mize/mesajeexterne/commit/push.Urmeazăbuild/verificări/export/resume.

@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
 import {fileURLToPath} from 'node:url';
-import {loadArchive} from './data.mjs';
+import {loadArchive,historyCoverage} from './data.mjs';
 
 function fixture(t){
  const root=fs.mkdtempSync(path.join(os.tmpdir(),'pred-dashboard-test-'));
@@ -67,4 +67,23 @@ test('Contradictory outcomes stop the build instead of silently choosing a sourc
  csv('Analysis/Selection_History/2026-11-05_goal70_candidates.csv',[{id:'g1',home:'A',away:'B',kickoff_ro:'20:00',competition:'eng.2',p_raw:'.9',result:'fail',source:'https://example.test/fixture'}]);
  csv('Analysis/Selection_History/user_selections.csv',[{selection_id:'s1',analysis_date:'2026-11-05',market:'GOAL_BY_70',match_id:'g1',home:'A',away:'B',result:'success',actual_first_goal_minute:'20'}]);
  assert.throws(()=>loadArchive(root),/Conflicting verified outcomes/);
+});
+
+test('Coverage distinguishes unilateral history, partially verified bilateral history and unknown legacy metadata',()=>{
+ const unilateral=historyCoverage({home:'A',away:'B',home_n:'0',home_expected:'10',home_missing:'10',away_n:'13',away_expected:'13',away_missing:'0',home_venue_n:'0',home_venue_expected:'5',away_venue_n:'7',away_venue_expected:'7'},'corner');
+ assert.equal(unilateral.season.onlySide,'away');assert.equal(unilateral.season.label,'Doar B');assert.equal(unilateral.venue.label,'Doar B · deplasare');assert.match(unilateral.note,/A: 0 din 10/);assert.match(unilateral.note,/numai din meciurile B/);
+ const partial=historyCoverage({home:'A',away:'B',home_n:'4',home_expected:'5',home_missing:'1',away_n:'6',away_expected:'6',away_missing:'0'},'goal');
+ assert.equal(partial.season.incomplete,true);assert.equal(partial.season.onlySide,null);assert.match(partial.note,/numai observațiile validate/);
+ const legacy=historyCoverage({home:'A',away:'B'},'corner');assert.equal(legacy.season.known,false);assert.equal(legacy.note,'');
+});
+
+test('Puertollano corner frequency belongs only to Albacete while the bilateral model remains unavailable',()=>{
+ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
+ const m=loadArchive(root).days.find(d=>d.date==='2026-11-12').matches.find(m=>m.id==='6386074');
+ assert.equal(m.corner.p,null);assert.equal(m.corner.stress,null);assert.equal(m.corner.wins,13);assert.equal(m.corner.n,13);
+ assert.equal(m.corner.coverage.season.home.n,0);assert.equal(m.corner.coverage.season.home.expected,10);
+ assert.equal(m.corner.coverage.season.away.n,13);assert.equal(m.corner.coverage.season.onlySide,'away');assert.equal(m.corner.coverage.season.label,'Doar Albacete');
+ assert.equal(m.corner.coverage.venue.away.n,7);assert.equal(m.corner.coverage.venue.label,'Doar Albacete · deplasare');
+ const full=loadArchive(root).days.find(d=>d.date==='2026-11-11').matches.find(m=>m.id==='6420192');
+ assert.equal(full.corner.coverage.season.incomplete,false);assert.equal(full.corner.coverage.note,'');
 });

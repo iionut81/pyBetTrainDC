@@ -1,0 +1,1182 @@
+{
+  "at_ro": "2026-11-17 09:45:31",
+  "scope": "Same projection and probabilities as dashboard evaluation; pre-17Nov outcomes only; no future-data model fit",
+  "stats": {
+    "goal": {
+      "models": {
+        "n": 359,
+        "hits": 307,
+        "fails": 52,
+        "rate": 0.8551532033426184,
+        "mean_p": 0.8739204022522981,
+        "gap_pp": -1.8767198909679705,
+        "expected_fails": 45.262575591425,
+        "excess_fails": 6.737424408575015,
+        "brier": 0.1228374012567228,
+        "log_loss": 0.4110329371916057,
+        "in_sample_constant_brier": 0.12386620215547678,
+        "brier_skill_vs_in_sample_constant": 0.008305743462309723,
+        "wilson95_iid_descriptive": [
+          0.8149845236604137,
+          0.8878014854410784
+        ],
+        "independent_bernoulli_count_sd": 6.225661280405237,
+        "days": 14
+      },
+      "analyst": {
+        "n": 13,
+        "hits": 11,
+        "fails": 2,
+        "rate": 0.8461538461538461,
+        "mean_p": 0.9314022194159342,
+        "gap_pp": -8.5248373262088,
+        "expected_fails": 0.891771147592856,
+        "excess_fails": 1.108228852407144,
+        "brier": 0.13661037492245853,
+        "log_loss": 0.4656294115359916,
+        "in_sample_constant_brier": 0.1301775147928994,
+        "brier_skill_vs_in_sample_constant": -0.04941606190434067,
+        "wilson95_iid_descriptive": [
+          0.5776482949136899,
+          0.9567427368172621
+        ],
+        "independent_bernoulli_count_sd": 0.9089952103754045,
+        "days": 12
+      },
+      "user": {
+        "n": 11,
+        "hits": 10,
+        "fails": 1,
+        "rate": 0.9090909090909091,
+        "mean_p": 0.8987656589794316,
+        "gap_pp": 1.0325250111477446,
+        "expected_fails": 1.1135777512262521,
+        "excess_fails": -0.11357775122625191,
+        "brier": 0.08697788902929769,
+        "log_loss": 0.3246577074823034,
+        "in_sample_constant_brier": 0.08264462809917358,
+        "brier_skill_vs_in_sample_constant": -0.05243245725450163,
+        "wilson95_iid_descriptive": [
+          0.6226353745137962,
+          0.9837682477371741
+        ],
+        "independent_bernoulli_count_sd": 0.9944230065917335,
+        "days": 11
+      },
+      "status": {
+        "modeled": 366,
+        "pending_modeled": 5,
+        "unmodeled_verified": 166
+      },
+      "bins": [
+        {
+          "lo": 0,
+          "hi": 0.8,
+          "n": 22,
+          "hits": 18,
+          "fails": 4,
+          "rate": 0.8181818181818182,
+          "mean_p": 0.7632693448031689,
+          "gap_pp": 5.491247337864936,
+          "expected_fails": 5.208074414330285,
+          "excess_fails": -1.2080744143302857,
+          "brier": 0.14289276788543934,
+          "log_loss": 0.45836738709610303,
+          "in_sample_constant_brier": 0.14876033057851237,
+          "brier_skill_vs_in_sample_constant": 0.039443060325657586,
+          "wilson95_iid_descriptive": [
+            0.6148297802336213,
+            0.9269323397589488
+          ],
+          "independent_bernoulli_count_sd": 1.9900017260700122,
+          "days": 6
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.85,
+          "n": 76,
+          "hits": 61,
+          "fails": 15,
+          "rate": 0.8026315789473685,
+          "mean_p": 0.8282767386524043,
+          "gap_pp": -2.564515970503578,
+          "expected_fails": 13.050967862417277,
+          "excess_fails": 1.9490321375827193,
+          "brier": 0.15868461319488997,
+          "log_loss": 0.49784480155634353,
+          "in_sample_constant_brier": 0.1584141274238227,
+          "brier_skill_vs_in_sample_constant": -0.001707459905666342,
+          "wilson95_iid_descriptive": [
+            0.6995595508255928,
+            0.8765812078766376
+          ],
+          "independent_bernoulli_count_sd": 3.28548496515923,
+          "days": 10
+        },
+        {
+          "lo": 0.85,
+          "hi": 0.9,
+          "n": 146,
+          "hits": 125,
+          "fails": 21,
+          "rate": 0.8561643835616438,
+          "mean_p": 0.8754332289644807,
+          "gap_pp": -1.926884540283691,
+          "expected_fails": 18.186748571185813,
+          "excess_fails": 2.8132514288141888,
+          "brier": 0.12400504841414649,
+          "log_loss": 0.4158142962722522,
+          "in_sample_constant_brier": 0.12314693188215427,
+          "brier_skill_vs_in_sample_constant": -0.006968233141312785,
+          "wilson95_iid_descriptive": [
+            0.7901069642691216,
+            0.9039593030424928
+          ],
+          "independent_bernoulli_count_sd": 3.9863577042062013,
+          "days": 13
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.95,
+          "n": 110,
+          "hits": 99,
+          "fails": 11,
+          "rate": 0.9,
+          "mean_p": 0.9219061678698196,
+          "gap_pp": -2.190616786981958,
+          "expected_fails": 8.590321534319843,
+          "excess_fails": 2.409678465680154,
+          "brier": 0.08954976364759268,
+          "log_loss": 0.3217509535221305,
+          "in_sample_constant_brier": 0.08999999999999998,
+          "brier_skill_vs_in_sample_constant": 0.0050026261378589565,
+          "wilson95_iid_descriptive": [
+            0.8297634281701123,
+            0.9432404649585859
+          ],
+          "independent_bernoulli_count_sd": 2.8101996990100973,
+          "days": 12
+        },
+        {
+          "lo": 0.95,
+          "hi": 1.00000001,
+          "n": 5,
+          "hits": 4,
+          "fails": 1,
+          "rate": 0.8,
+          "mean_p": 0.9547073581656335,
+          "gap_pp": -15.47073581656334,
+          "expected_fails": 0.2264632091718327,
+          "excess_fails": 0.7735367908281671,
+          "brier": 0.18794889703431497,
+          "log_loss": 0.7078089748413844,
+          "in_sample_constant_brier": 0.15999999999999998,
+          "brier_skill_vs_in_sample_constant": -0.1746806064644688,
+          "wilson95_iid_descriptive": [
+            0.3755282641185388,
+            0.9637768390302125
+          ],
+          "independent_bernoulli_count_sd": 0.4648332583706223,
+          "days": 2
+        }
+      ],
+      "daily": [
+        {
+          "date": "2026-11-02",
+          "n": 26,
+          "hits": 22,
+          "fails": 4,
+          "rate": 0.8461538461538461,
+          "mean_p": 0.8617844000631039,
+          "gap_pp": -1.5630553909257716,
+          "expected_fails": 3.5936055983592996,
+          "excess_fails": 0.4063944016407006,
+          "brier": 0.12088800406398165,
+          "log_loss": 0.3945406101983607,
+          "in_sample_constant_brier": 0.1301775147928994,
+          "brier_skill_vs_in_sample_constant": 0.07136033241759554,
+          "wilson95_iid_descriptive": [
+            0.6646841558168644,
+            0.9385006600107053
+          ],
+          "independent_bernoulli_count_sd": 1.742689102071915,
+          "days": 1
+        },
+        {
+          "date": "2026-11-03",
+          "n": 20,
+          "hits": 18,
+          "fails": 2,
+          "rate": 0.9,
+          "mean_p": 0.8899683721030783,
+          "gap_pp": 1.003162789692169,
+          "expected_fails": 2.2006325579384334,
+          "excess_fails": -0.20063255793843382,
+          "brier": 0.08529935197564517,
+          "log_loss": 0.30003033840413684,
+          "in_sample_constant_brier": 0.08999999999999998,
+          "brier_skill_vs_in_sample_constant": 0.052229422492831246,
+          "wilson95_iid_descriptive": [
+            0.6989617935882066,
+            0.9721341060158468
+          ],
+          "independent_bernoulli_count_sd": 1.390983874199093,
+          "days": 1
+        },
+        {
+          "date": "2026-11-04",
+          "n": 17,
+          "hits": 16,
+          "fails": 1,
+          "rate": 0.9411764705882353,
+          "mean_p": 0.8828669585445714,
+          "gap_pp": 5.830951204366386,
+          "expected_fails": 1.9912617047422858,
+          "excess_fails": -0.9912617047422856,
+          "brier": 0.05628202959464737,
+          "log_loss": 0.22639700433865814,
+          "in_sample_constant_brier": 0.05536332179930797,
+          "brier_skill_vs_in_sample_constant": -0.01659415955331789,
+          "wilson95_iid_descriptive": [
+            0.730174547964372,
+            0.9895398693548358
+          ],
+          "independent_bernoulli_count_sd": 1.3147654002831977,
+          "days": 1
+        },
+        {
+          "date": "2026-11-05",
+          "n": 33,
+          "hits": 29,
+          "fails": 4,
+          "rate": 0.8787878787878788,
+          "mean_p": 0.8865705827009567,
+          "gap_pp": -0.7782703913077893,
+          "expected_fails": 3.7431707708684296,
+          "excess_fails": 0.25682922913157047,
+          "brier": 0.1006670127246661,
+          "log_loss": 0.3455948792962049,
+          "in_sample_constant_brier": 0.10651974288337925,
+          "brier_skill_vs_in_sample_constant": 0.054945027093436294,
+          "wilson95_iid_descriptive": [
+            0.7267415674973484,
+            0.9518391673241576
+          ],
+          "independent_bernoulli_count_sd": 1.807318236660258,
+          "days": 1
+        },
+        {
+          "date": "2026-11-06",
+          "n": 33,
+          "hits": 26,
+          "fails": 7,
+          "rate": 0.7878787878787878,
+          "mean_p": 0.8564714850558011,
+          "gap_pp": -6.859269717701322,
+          "expected_fails": 4.736440993158565,
+          "excess_fails": 2.263559006841436,
+          "brier": 0.17415029985997002,
+          "log_loss": 0.5570059644245324,
+          "in_sample_constant_brier": 0.16712580348943987,
+          "brier_skill_vs_in_sample_constant": -0.04203118982146892,
+          "wilson95_iid_descriptive": [
+            0.6224802241287064,
+            0.8932411343356381
+          ],
+          "independent_bernoulli_count_sd": 1.9887053570803435,
+          "days": 1
+        },
+        {
+          "date": "2026-11-07",
+          "n": 101,
+          "hits": 86,
+          "fails": 15,
+          "rate": 0.8514851485148515,
+          "mean_p": 0.8733600245989415,
+          "gap_pp": -2.187487608409,
+          "expected_fails": 12.790637515506912,
+          "excess_fails": 2.20936248449309,
+          "brier": 0.12617208368567454,
+          "log_loss": 0.4230661911267709,
+          "in_sample_constant_brier": 0.12645819037349282,
+          "brier_skill_vs_in_sample_constant": 0.0022624607150653064,
+          "wilson95_iid_descriptive": [
+            0.7693273004006358,
+            0.9078847986134959
+          ],
+          "independent_bernoulli_count_sd": 3.30592528718466,
+          "days": 1
+        },
+        {
+          "date": "2026-11-08",
+          "n": 102,
+          "hits": 87,
+          "fails": 15,
+          "rate": 0.8529411764705882,
+          "mean_p": 0.877905333060775,
+          "gap_pp": -2.4964156590186803,
+          "expected_fails": 12.45365602780095,
+          "excess_fails": 2.546343972199054,
+          "brier": 0.1248589676472951,
+          "log_loss": 0.4126443986169613,
+          "in_sample_constant_brier": 0.12543252595155713,
+          "brier_skill_vs_in_sample_constant": 0.004572644136047632,
+          "wilson95_iid_descriptive": [
+            0.771452166523051,
+            0.9088096586950106
+          ],
+          "independent_bernoulli_count_sd": 3.279456983512762,
+          "days": 1
+        },
+        {
+          "date": "2026-11-09",
+          "n": 4,
+          "hits": 2,
+          "fails": 2,
+          "rate": 0.5,
+          "mean_p": 0.870837143338419,
+          "gap_pp": -37.0837143338419,
+          "expected_fails": 0.516651426646324,
+          "excess_fails": 1.483348573353676,
+          "brier": 0.3759148642285487,
+          "log_loss": 1.0446660230919935,
+          "in_sample_constant_brier": 0.25,
+          "brier_skill_vs_in_sample_constant": -0.5036594569141948,
+          "wilson95_iid_descriptive": [
+            0.15003570882017148,
+            0.8499642911798285
+          ],
+          "independent_bernoulli_count_sd": 0.6688026778473984,
+          "days": 1
+        },
+        {
+          "date": "2026-11-10",
+          "n": 0
+        },
+        {
+          "date": "2026-11-11",
+          "n": 3,
+          "hits": 3,
+          "fails": 0,
+          "rate": 1,
+          "mean_p": 0.8780632768118354,
+          "gap_pp": 12.193672318816462,
+          "expected_fails": 0.36581016956449386,
+          "excess_fails": -0.36581016956449386,
+          "brier": 0.014988262268034258,
+          "log_loss": 0.1301146974458214,
+          "in_sample_constant_brier": 0,
+          "brier_skill_vs_in_sample_constant": null,
+          "wilson95_iid_descriptive": [
+            0.43849391955098227,
+            1
+          ],
+          "independent_bernoulli_count_sd": 0.5664321519479548,
+          "days": 1
+        },
+        {
+          "date": "2026-11-12",
+          "n": 3,
+          "hits": 2,
+          "fails": 1,
+          "rate": 0.6666666666666666,
+          "mean_p": 0.8817704788168057,
+          "gap_pp": -21.510381215013908,
+          "expected_fails": 0.3546885635495829,
+          "excess_fails": 0.6453114364504172,
+          "brier": 0.30899940182811814,
+          "log_loss": 1.0396813403346183,
+          "in_sample_constant_brier": 0.22222222222222224,
+          "brier_skill_vs_in_sample_constant": -0.3904973082265315,
+          "wilson95_iid_descriptive": [
+            0.2076549551264879,
+            0.9385096847238394
+          ],
+          "independent_bernoulli_count_sd": 0.5532361456148654,
+          "days": 1
+        },
+        {
+          "date": "2026-11-13",
+          "n": 5,
+          "hits": 5,
+          "fails": 0,
+          "rate": 1,
+          "mean_p": 0.813749697011518,
+          "gap_pp": 18.6250302988482,
+          "expected_fails": 0.93125151494241,
+          "excess_fails": -0.93125151494241,
+          "brier": 0.04131457830390975,
+          "log_loss": 0.211285275367392,
+          "in_sample_constant_brier": 0,
+          "brier_skill_vs_in_sample_constant": null,
+          "wilson95_iid_descriptive": [
+            0.5655085052479191,
+            1.0000000000000002
+          ],
+          "independent_bernoulli_count_sd": 0.8512805785537815,
+          "days": 1
+        },
+        {
+          "date": "2026-11-14",
+          "n": 6,
+          "hits": 6,
+          "fails": 0,
+          "rate": 1,
+          "mean_p": 0.8610347469193774,
+          "gap_pp": 13.896525308062257,
+          "expected_fails": 0.8337915184837354,
+          "excess_fails": -0.8337915184837354,
+          "brier": 0.020630411969184765,
+          "log_loss": 0.15051100225015832,
+          "in_sample_constant_brier": 0,
+          "brier_skill_vs_in_sample_constant": null,
+          "wilson95_iid_descriptive": [
+            0.6096569663469354,
+            0.9999999999999999
+          ],
+          "independent_bernoulli_count_sd": 0.8426203455107326,
+          "days": 1
+        },
+        {
+          "date": "2026-11-15",
+          "n": 4,
+          "hits": 4,
+          "fails": 0,
+          "rate": 1,
+          "mean_p": 0.8574140889753274,
+          "gap_pp": 14.258591102467255,
+          "expected_fails": 0.5703436440986902,
+          "excess_fails": -0.5703436440986902,
+          "brier": 0.022590554464981726,
+          "log_loss": 0.1554238767485242,
+          "in_sample_constant_brier": 0,
+          "brier_skill_vs_in_sample_constant": null,
+          "wilson95_iid_descriptive": [
+            0.5100999795960008,
+            1
+          ],
+          "independent_bernoulli_count_sd": 0.6928069184403137,
+          "days": 1
+        },
+        {
+          "date": "2026-11-16",
+          "n": 2,
+          "hits": 1,
+          "fails": 1,
+          "rate": 0.5,
+          "mean_p": 0.9096832071175107,
+          "gap_pp": -40.96832071175107,
+          "expected_fails": 0.18063358576497857,
+          "excess_fails": 0.8193664142350214,
+          "brier": 0.42422545245529436,
+          "log_loss": 1.289465418114843,
+          "in_sample_constant_brier": 0.25,
+          "brier_skill_vs_in_sample_constant": -0.6969018098211774,
+          "wilson95_iid_descriptive": [
+            0.09452865480086614,
+            0.9054713451991339
+          ],
+          "independent_bernoulli_count_sd": 0.40526389549200525,
+          "days": 1
+        },
+        {
+          "date": "2026-11-17",
+          "n": 0
+        }
+      ],
+      "top1_by_raw": {
+        "n": 14,
+        "hits": 11,
+        "fails": 3,
+        "rate": 0.7857142857142857,
+        "mean_p": 0.928196541469034,
+        "gap_pp": -14.248225575474827,
+        "expected_fails": 1.0052484194335245,
+        "excess_fails": 1.9947515805664757,
+        "brier": 0.19427035060843786,
+        "log_loss": 0.6772693967315668,
+        "in_sample_constant_brier": 0.16836734693877553,
+        "brier_skill_vs_in_sample_constant": -0.15384814300769145,
+        "wilson95_iid_descriptive": [
+          0.5241027622679172,
+          0.9242875166308363
+        ],
+        "independent_bernoulli_count_sd": 0.9618995601865684,
+        "days": 14
+      },
+      "by_basis": [
+        {
+          "basis": "same_league_current_season",
+          "n": 294,
+          "hits": 251,
+          "fails": 43,
+          "rate": 0.8537414965986394,
+          "mean_p": 0.8721477586397667,
+          "gap_pp": -1.8406262041127275,
+          "expected_fails": 37.588558959908596,
+          "excess_fails": 5.411441040091419,
+          "brier": 0.12363833371444595,
+          "log_loss": 0.41292544323856506,
+          "in_sample_constant_brier": 0.12486695358415478,
+          "brier_skill_vs_in_sample_constant": 0.009839431766714757,
+          "wilson95_iid_descriptive": [
+            0.8087886993769051,
+            0.8895690854322014
+          ],
+          "independent_bernoulli_count_sd": 5.669549482404858,
+          "days": 11
+        },
+        {
+          "basis": "domestic_league_projection_cross_competition",
+          "n": 58,
+          "hits": 52,
+          "fails": 6,
+          "rate": 0.896551724137931,
+          "mean_p": 0.8828645306133598,
+          "gap_pp": 1.3687193524571262,
+          "expected_fails": 6.793857224425132,
+          "excess_fails": -0.7938572244251332,
+          "brier": 0.08861386323507316,
+          "log_loss": 0.31155409912206605,
+          "in_sample_constant_brier": 0.09274673008323424,
+          "brier_skill_vs_in_sample_constant": 0.04456078229876248,
+          "wilson95_iid_descriptive": [
+            0.7921166146899103,
+            0.9517192498414084
+          ],
+          "independent_bernoulli_count_sd": 2.423048520404696,
+          "days": 6
+        },
+        {
+          "basis": "domestic_league_projection_to_cup",
+          "n": 1,
+          "hits": 0,
+          "fails": 1,
+          "rate": 0,
+          "mean_p": 0.881330179085375,
+          "gap_pp": -88.1330179085375,
+          "expected_fails": 0.11866982091462497,
+          "excess_fails": 0.881330179085375,
+          "brier": 0.7767428845666592,
+          "log_loss": 2.1314102564102564,
+          "in_sample_constant_brier": 0,
+          "brier_skill_vs_in_sample_constant": null,
+          "wilson95_iid_descriptive": [
+            0,
+            0.7934567085261071
+          ],
+          "independent_bernoulli_count_sd": 0.32339958954630077,
+          "days": 1
+        },
+        {
+          "basis": "national_current_competition_edition",
+          "n": 5,
+          "hits": 3,
+          "fails": 2,
+          "rate": 0.6,
+          "mean_p": 0.8734490634822357,
+          "gap_pp": -27.344906348223574,
+          "expected_fails": 0.6327546825888214,
+          "excess_fails": 1.3672453174111787,
+          "brier": 0.36320746230273915,
+          "log_loss": 1.1642774288806048,
+          "in_sample_constant_brier": 0.24,
+          "brier_skill_vs_in_sample_constant": -0.5133644262614132,
+          "wilson95_iid_descriptive": [
+            0.23071993220883708,
+            0.8823817688407467
+          ],
+          "independent_bernoulli_count_sd": 0.7260532969139764,
+          "days": 3
+        },
+        {
+          "basis": "national_friendlies_calendar_2026",
+          "n": 1,
+          "hits": 1,
+          "fails": 0,
+          "rate": 1,
+          "mean_p": 0.8712650964121957,
+          "gap_pp": 12.873490358780426,
+          "expected_fails": 0.12873490358780426,
+          "excess_fails": -0.12873490358780426,
+          "brier": 0.016572675401761258,
+          "log_loss": 0.13780898975514264,
+          "in_sample_constant_brier": 0,
+          "brier_skill_vs_in_sample_constant": null,
+          "wilson95_iid_descriptive": [
+            0.20654329147389294,
+            1
+          ],
+          "independent_bernoulli_count_sd": 0.3349062976207569,
+          "days": 1
+        }
+      ]
+    },
+    "corner": {
+      "models": {
+        "n": 293,
+        "hits": 261,
+        "fails": 32,
+        "rate": 0.8907849829351536,
+        "mean_p": 0.8926491697092915,
+        "gap_pp": -0.18641867741379103,
+        "expected_fails": 31.45379327517758,
+        "excess_fails": 0.5462067248224077,
+        "brier": 0.09791784448297336,
+        "log_loss": 0.35128675888955263,
+        "in_sample_constant_brier": 0.09728709711237168,
+        "brier_skill_vs_in_sample_constant": -0.00648336099362834,
+        "wilson95_iid_descriptive": [
+          0.849885926881805,
+          0.9215692869426727
+        ],
+        "independent_bernoulli_count_sd": 5.212599336467969,
+        "days": 13
+      },
+      "analyst": {
+        "n": 14,
+        "hits": 14,
+        "fails": 0,
+        "rate": 1,
+        "mean_p": 0.9530909013972669,
+        "gap_pp": 4.690909860273306,
+        "expected_fails": 0.656727380438263,
+        "excess_fails": -0.656727380438263,
+        "brier": 0.0026930108796070734,
+        "log_loss": 0.048322465522269945,
+        "in_sample_constant_brier": 0,
+        "brier_skill_vs_in_sample_constant": null,
+        "wilson95_iid_descriptive": [
+          0.7846829880728186,
+          1
+        ],
+        "independent_bernoulli_count_sd": 0.7867815631569952,
+        "days": 12
+      },
+      "user": {
+        "n": 11,
+        "hits": 11,
+        "fails": 0,
+        "rate": 1,
+        "mean_p": 0.9510536569507014,
+        "gap_pp": 4.894634304929857,
+        "expected_fails": 0.5384097735422843,
+        "excess_fails": -0.5384097735422843,
+        "brier": 0.002951683247474779,
+        "log_loss": 0.05049937290442044,
+        "in_sample_constant_brier": 0,
+        "brier_skill_vs_in_sample_constant": null,
+        "wilson95_iid_descriptive": [
+          0.7411599827511859,
+          1
+        ],
+        "independent_bernoulli_count_sd": 0.7112954785601145,
+        "days": 11
+      },
+      "status": {
+        "modeled": 295,
+        "pending_modeled": 1,
+        "unmodeled_verified": 180
+      },
+      "bins": [
+        {
+          "lo": 0,
+          "hi": 0.8,
+          "n": 24,
+          "hits": 21,
+          "fails": 3,
+          "rate": 0.875,
+          "mean_p": 0.7660820245764611,
+          "gap_pp": 10.891797542353887,
+          "expected_fails": 5.614031410164933,
+          "excess_fails": -2.614031410164933,
+          "brier": 0.12233486555348666,
+          "log_loss": 0.4171942157813496,
+          "in_sample_constant_brier": 0.109375,
+          "brier_skill_vs_in_sample_constant": -0.11849019934616378,
+          "wilson95_iid_descriptive": [
+            0.6899571185214243,
+            0.9565574496068442
+          ],
+          "independent_bernoulli_count_sd": 2.0704258817361643,
+          "days": 8
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.85,
+          "n": 35,
+          "hits": 31,
+          "fails": 4,
+          "rate": 0.8857142857142857,
+          "mean_p": 0.8325283828412643,
+          "gap_pp": 5.318590287302138,
+          "expected_fails": 5.8615066005557495,
+          "excess_fails": -1.8615066005557486,
+          "brier": 0.10331524233983244,
+          "log_loss": 0.3636633365301875,
+          "in_sample_constant_brier": 0.1012244897959184,
+          "brier_skill_vs_in_sample_constant": -0.020654611824957314,
+          "wilson95_iid_descriptive": [
+            0.7404820521187976,
+            0.9546489414551025
+          ],
+          "independent_bernoulli_count_sd": 2.2074341397658994,
+          "days": 8
+        },
+        {
+          "lo": 0.85,
+          "hi": 0.9,
+          "n": 86,
+          "hits": 72,
+          "fails": 14,
+          "rate": 0.8372093023255814,
+          "mean_p": 0.8784359402025402,
+          "gap_pp": -4.122663787695879,
+          "expected_fails": 10.45450914258154,
+          "excess_fails": 3.5454908574184563,
+          "brier": 0.13737009467821054,
+          "log_loss": 0.4493277330870631,
+          "in_sample_constant_brier": 0.13628988642509463,
+          "brier_skill_vs_in_sample_constant": -0.007925813730203624,
+          "wilson95_iid_descriptive": [
+            0.745101070539971,
+            0.9004795958773677
+          ],
+          "independent_bernoulli_count_sd": 3.027984776959244,
+          "days": 10
+        },
+        {
+          "lo": 0.9,
+          "hi": 0.95,
+          "n": 105,
+          "hits": 98,
+          "fails": 7,
+          "rate": 0.9333333333333333,
+          "mean_p": 0.9244894739367704,
+          "gap_pp": 0.8843859396562959,
+          "expected_fails": 7.928605236639109,
+          "excess_fails": -0.9286052366391107,
+          "brier": 0.062172460352579575,
+          "log_loss": 0.24382979185567652,
+          "in_sample_constant_brier": 0.06222222222222221,
+          "brier_skill_vs_in_sample_constant": 0.0007997443335422405,
+          "wilson95_iid_descriptive": [
+            0.8687428511060533,
+            0.9673345310713495
+          ],
+          "independent_bernoulli_count_sd": 2.7036542397969017,
+          "days": 10
+        },
+        {
+          "lo": 0.95,
+          "hi": 1.00000001,
+          "n": 43,
+          "hits": 39,
+          "fails": 4,
+          "rate": 0.9069767441860465,
+          "mean_p": 0.9629037003433478,
+          "gap_pp": -5.592695615730136,
+          "expected_fails": 1.5951408852360436,
+          "excess_fails": 2.404859114763959,
+          "brier": 0.08827724881363773,
+          "log_loss": 0.3707402141161973,
+          "in_sample_constant_brier": 0.0843699296917253,
+          "brier_skill_vs_in_sample_constant": -0.04631175036164148,
+          "wilson95_iid_descriptive": [
+            0.7839701160146731,
+            0.9632289548966534
+          ],
+          "independent_bernoulli_count_sd": 1.2382749983386654,
+          "days": 9
+        }
+      ],
+      "daily": [
+        {
+          "date": "2026-11-02",
+          "n": 26,
+          "hits": 22,
+          "fails": 4,
+          "rate": 0.8461538461538461,
+          "mean_p": 0.9111605586153507,
+          "gap_pp": -6.500671246150458,
+          "expected_fails": 2.3098254760008814,
+          "excess_fails": 1.690174523999119,
+          "brier": 0.1199892481471643,
+          "log_loss": 0.375404232200087,
+          "in_sample_constant_brier": 0.1301775147928994,
+          "brier_skill_vs_in_sample_constant": 0.07826441196041967,
+          "wilson95_iid_descriptive": [
+            0.6646841558168644,
+            0.9385006600107053
+          ],
+          "independent_bernoulli_count_sd": 1.4156489659320453,
+          "days": 1
+        },
+        {
+          "date": "2026-11-03",
+          "n": 19,
+          "hits": 17,
+          "fails": 2,
+          "rate": 0.8947368421052632,
+          "mean_p": 0.8882237105565111,
+          "gap_pp": 0.6513131548752105,
+          "expected_fails": 2.1237494994262898,
+          "excess_fails": -0.12374949942628999,
+          "brier": 0.09603296550901186,
+          "log_loss": 0.33401877182033585,
+          "in_sample_constant_brier": 0.09418282548476453,
+          "brier_skill_vs_in_sample_constant": -0.019644133786861362,
+          "wilson95_iid_descriptive": [
+            0.686054495051583,
+            0.9706420586049034
+          ],
+          "independent_bernoulli_count_sd": 1.3535086457555392,
+          "days": 1
+        },
+        {
+          "date": "2026-11-04",
+          "n": 16,
+          "hits": 15,
+          "fails": 1,
+          "rate": 0.9375,
+          "mean_p": 0.8566551751519301,
+          "gap_pp": 8.084482484806987,
+          "expected_fails": 2.293517197569118,
+          "excess_fails": -1.293517197569118,
+          "brier": 0.07167349856807813,
+          "log_loss": 0.28766247831947206,
+          "in_sample_constant_brier": 0.05859375,
+          "brier_skill_vs_in_sample_constant": -0.22322770889520016,
+          "wilson95_iid_descriptive": [
+            0.7167073163197013,
+            0.9888809426916687
+          ],
+          "independent_bernoulli_count_sd": 1.3888948385470192,
+          "days": 1
+        },
+        {
+          "date": "2026-11-05",
+          "n": 21,
+          "hits": 21,
+          "fails": 0,
+          "rate": 1,
+          "mean_p": 0.8872316084137892,
+          "gap_pp": 11.276839158621076,
+          "expected_fails": 2.368136223310426,
+          "excess_fails": -2.368136223310426,
+          "brier": 0.017953784561204937,
+          "log_loss": 0.1231980198367358,
+          "in_sample_constant_brier": 0,
+          "brier_skill_vs_in_sample_constant": null,
+          "wilson95_iid_descriptive": [
+            0.8453561767357979,
+            0.9999999999999999
+          ],
+          "independent_bernoulli_count_sd": 1.4110658196998187,
+          "days": 1
+        },
+        {
+          "date": "2026-11-06",
+          "n": 31,
+          "hits": 29,
+          "fails": 2,
+          "rate": 0.9354838709677419,
+          "mean_p": 0.9002025197192112,
+          "gap_pp": 3.5281351248530712,
+          "expected_fails": 3.0937218887044535,
+          "excess_fails": -1.0937218887044522,
+          "brier": 0.06697492344744553,
+          "log_loss": 0.26497306388336545,
+          "in_sample_constant_brier": 0.06035379812695114,
+          "brier_skill_vs_in_sample_constant": -0.10970519712060534,
+          "wilson95_iid_descriptive": [
+            0.7928101168125354,
+            0.9821255922249368
+          ],
+          "independent_bernoulli_count_sd": 1.6421571079850565,
+          "days": 1
+        },
+        {
+          "date": "2026-11-07",
+          "n": 83,
+          "hits": 70,
+          "fails": 13,
+          "rate": 0.8433734939759037,
+          "mean_p": 0.889956397797546,
+          "gap_pp": -4.658290382164232,
+          "expected_fails": 9.133618982803684,
+          "excess_fails": 3.8663810171963124,
+          "brier": 0.13697735276875647,
+          "log_loss": 0.4650090270430499,
+          "in_sample_constant_brier": 0.13209464363478005,
+          "brier_skill_vs_in_sample_constant": -0.03696371782853136,
+          "wilson95_iid_descriptive": [
+            0.7502466907604597,
+            0.9061207644683709
+          ],
+          "independent_bernoulli_count_sd": 2.81823711118417,
+          "days": 1
+        },
+        {
+          "date": "2026-11-08",
+          "n": 81,
+          "hits": 72,
+          "fails": 9,
+          "rate": 0.8888888888888888,
+          "mean_p": 0.8927547720277642,
+          "gap_pp": -0.386588313887537,
+          "expected_fails": 8.686863465751099,
+          "excess_fails": 0.313136534248905,
+          "brier": 0.09504508763018865,
+          "log_loss": 0.3495299116424203,
+          "in_sample_constant_brier": 0.09876543209876547,
+          "brier_skill_vs_in_sample_constant": 0.037668487744340284,
+          "wilson95_iid_descriptive": [
+            0.8021271435356178,
+            0.9404331099249487
+          ],
+          "independent_bernoulli_count_sd": 2.7399523343448116,
+          "days": 1
+        },
+        {
+          "date": "2026-11-09",
+          "n": 3,
+          "hits": 3,
+          "fails": 0,
+          "rate": 1,
+          "mean_p": 0.903106268057436,
+          "gap_pp": 9.689373194256401,
+          "expected_fails": 0.29068119582769203,
+          "excess_fails": -0.29068119582769203,
+          "brier": 0.011136032172883946,
+          "log_loss": 0.10299992479575053,
+          "in_sample_constant_brier": 0,
+          "brier_skill_vs_in_sample_constant": null,
+          "wilson95_iid_descriptive": [
+            0.43849391955098227,
+            1
+          ],
+          "independent_bernoulli_count_sd": 0.5072209570877766,
+          "days": 1
+        },
+        {
+          "date": "2026-11-10",
+          "n": 0
+        },
+        {
+          "date": "2026-11-11",
+          "n": 2,
+          "hits": 2,
+          "fails": 0,
+          "rate": 1,
+          "mean_p": 0.8113199897650035,
+          "gap_pp": 18.868001023499648,
+          "expected_fails": 0.37736002046999295,
+          "excess_fails": -0.37736002046999295,
+          "brier": 0.0398634550465374,
+          "log_loss": 0.2123416880765966,
+          "in_sample_constant_brier": 0,
+          "brier_skill_vs_in_sample_constant": null,
+          "wilson95_iid_descriptive": [
+            0.34237195288961925,
+            1
+          ],
+          "independent_bernoulli_count_sd": 0.545557614168218,
+          "days": 1
+        },
+        {
+          "date": "2026-11-12",
+          "n": 0
+        },
+        {
+          "date": "2026-11-13",
+          "n": 1,
+          "hits": 1,
+          "fails": 0,
+          "rate": 1,
+          "mean_p": 0.9125132671314271,
+          "gap_pp": 8.74867328685729,
+          "expected_fails": 0.08748673286857289,
+          "excess_fails": -0.08748673286857289,
+          "brier": 0.007653928428017032,
+          "log_loss": 0.0915526543090735,
+          "in_sample_constant_brier": 0,
+          "brier_skill_vs_in_sample_constant": null,
+          "wilson95_iid_descriptive": [
+            0.20654329147389294,
+            1
+          ],
+          "independent_bernoulli_count_sd": 0.2825469951009139,
+          "days": 1
+        },
+        {
+          "date": "2026-11-14",
+          "n": 5,
+          "hits": 4,
+          "fails": 1,
+          "rate": 0.8,
+          "mean_p": 0.9475668546154694,
+          "gap_pp": -14.756685461546937,
+          "expected_fails": 0.26216572692265294,
+          "excess_fails": 0.7378342730773468,
+          "brier": 0.1832124092564812,
+          "log_loss": 0.6469302856086822,
+          "in_sample_constant_brier": 0.15999999999999998,
+          "brier_skill_vs_in_sample_constant": -0.1450775578530077,
+          "wilson95_iid_descriptive": [
+            0.3755282641185388,
+            0.9637768390302125
+          ],
+          "independent_bernoulli_count_sd": 0.4980499125600568,
+          "days": 1
+        },
+        {
+          "date": "2026-11-15",
+          "n": 4,
+          "hits": 4,
+          "fails": 0,
+          "rate": 1,
+          "mean_p": 0.9193694523778444,
+          "gap_pp": 8.063054762215561,
+          "expected_fails": 0.3225221904886224,
+          "excess_fails": -0.3225221904886224,
+          "brier": 0.007521021189047545,
+          "log_loss": 0.08467373389112123,
+          "in_sample_constant_brier": 0,
+          "brier_skill_vs_in_sample_constant": null,
+          "wilson95_iid_descriptive": [
+            0.5100999795960008,
+            1
+          ],
+          "independent_bernoulli_count_sd": 0.5407754670216022,
+          "days": 1
+        },
+        {
+          "date": "2026-11-16",
+          "n": 1,
+          "hits": 1,
+          "fails": 0,
+          "rate": 1,
+          "mean_p": 0.8958553249660637,
+          "gap_pp": 10.414467503393631,
+          "expected_fails": 0.10414467503393632,
+          "excess_fails": -0.10414467503393632,
+          "brier": 0.010846113337924198,
+          "log_loss": 0.10997634671631845,
+          "in_sample_constant_brier": 0,
+          "brier_skill_vs_in_sample_constant": null,
+          "wilson95_iid_descriptive": [
+            0.20654329147389294,
+            1
+          ],
+          "independent_bernoulli_count_sd": 0.30544813257902254,
+          "days": 1
+        },
+        {
+          "date": "2026-11-17",
+          "n": 0
+        }
+      ],
+      "top1_by_raw": {
+        "n": 12,
+        "hits": 10,
+        "fails": 2,
+        "rate": 0.8333333333333334,
+        "mean_p": 0.9564878541383517,
+        "gap_pp": -12.315452080501831,
+        "expected_fails": 0.5221457503397797,
+        "excess_fails": 1.4778542496602198,
+        "brier": 0.1628272883740709,
+        "log_loss": 0.7368734981474492,
+        "in_sample_constant_brier": 0.13888888888888887,
+        "brier_skill_vs_in_sample_constant": -0.17235647629331075,
+        "wilson95_iid_descriptive": [
+          0.5519636426153274,
+          0.9530358523851776
+        ],
+        "independent_bernoulli_count_sd": 0.7008402826028449,
+        "days": 12
+      },
+      "by_basis": [
+        {
+          "basis": "same_league_current_season",
+          "n": 252,
+          "hits": 222,
+          "fails": 30,
+          "rate": 0.8809523809523809,
+          "mean_p": 0.895536322872783,
+          "gap_pp": -1.4583941920402022,
+          "expected_fails": 26.324846636058695,
+          "excess_fails": 3.6751533639413094,
+          "brier": 0.10434744576461587,
+          "log_loss": 0.36932146207679006,
+          "in_sample_constant_brier": 0.10487528344671203,
+          "brier_skill_vs_in_sample_constant": 0.0050330036282033586,
+          "wilson95_iid_descriptive": [
+            0.8351387856575552,
+            0.9153255641588938
+          ],
+          "independent_bernoulli_count_sd": 4.781426188390947,
+          "days": 11
+        },
+        {
+          "basis": "domestic_league_projection_cross_competition",
+          "n": 40,
+          "hits": 38,
+          "fails": 2,
+          "rate": 0.95,
+          "mean_p": 0.8757299061229407,
+          "gap_pp": 7.4270093877059296,
+          "expected_fails": 4.970803755082374,
+          "excess_fails": -2.970803755082372,
+          "brier": 0.05923407322641605,
+          "log_loss": 0.24214667340356852,
+          "in_sample_constant_brier": 0.04750000000000004,
+          "brier_skill_vs_in_sample_constant": -0.24703312055612625,
+          "wilson95_iid_descriptive": [
+            0.834958291820748,
+            0.9861796228538989
+          ],
+          "independent_bernoulli_count_sd": 2.04353168197864,
+          "days": 4
+        },
+        {
+          "basis": "domestic_league_projection_to_cup",
+          "n": 1,
+          "hits": 1,
+          "fails": 0,
+          "rate": 1,
+          "mean_p": 0.841857115963569,
+          "gap_pp": 15.814288403643095,
+          "expected_fails": 0.15814288403643095,
+          "excess_fails": -0.15814288403643095,
+          "brier": 0.02500917177136005,
+          "log_loss": 0.17214497514506893,
+          "in_sample_constant_brier": 0,
+          "brier_skill_vs_in_sample_constant": null,
+          "wilson95_iid_descriptive": [
+            0.20654329147389294,
+            1
+          ],
+          "independent_bernoulli_count_sd": 0.364874926879158,
+          "days": 1
+        },
+        {
+          "basis": "national_current_competition_edition",
+          "n": 0
+        },
+        {
+          "basis": "national_friendlies_calendar_2026",
+          "n": 0
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Missing outcomes can bias verified cohort",
+    "Events share teams and dates; iid interval is descriptive only",
+    "In-sample constant uses observed mean from this cohort: diagnostic comparator, not prospective benchmark",
+    "Bins and ranking audits are descriptive and not independent validation",
+    "Legacy 2021-26 corners audit is separate from November prospective sample"
+  ]
+}

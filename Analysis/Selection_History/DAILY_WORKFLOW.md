@@ -1,5 +1,12 @@
 # Flux zilnic salvat — PRED, 3 noiembrie 2026
 
+Extindere explicită pentru12noiembrie2026: toate meciurile dintre naționale
+intră în inventarul ambelor piețe alături de cluburi, cu aceleași reguli și
+minime5general/3teren. Ediția curentă, amicale anulcurent separat; categorii
+seniori/juniori/masculin/feminin distincte. Fărăistoric de club sau ediții vechi
+adăugate pentru eligibilitate. Neutralitatea se declară. La extindere arhivăm
+versiunea de club și păstrăm procentele originale; comparăm toți eligibilii.
+
 Cerinta utilizatorului: dashboard dinamic, cu analize si rezultate pastrate
 pentru fiecare zi. Utilizatorul va comunica alegerea sa pentru cornere;
 aceasta trebuie inregistrata si afisata ca **Alegerea ta**, urmata de **-Succes**

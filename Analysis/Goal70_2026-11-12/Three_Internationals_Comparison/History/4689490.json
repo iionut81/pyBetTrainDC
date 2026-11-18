@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "id": "4689490",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4689490",
+  "verified_at_utc": "2026-11-12T11:46:03.253Z",
+  "general": {
+    "matchId": "4689490",
+    "matchName": "Italy-vs-Israel_Tue, Oct 14, 2025, 18:45 UTC",
+    "matchRound": "8",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0064aa",
+        "away": "#5ab0d2"
+      },
+      "lightMode": {
+        "home": "#0064aa",
+        "away": "#5ab0d2"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 896541,
+    "leagueName": "World Cup Qualification UEFA 1st Round Grp. I",
+    "leagueRoundName": "8",
+    "parentLeagueId": 10195,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Italy",
+      "id": 8204
+    },
+    "awayTeam": {
+      "name": "Israel",
+      "id": 8567
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Tue, Oct 14, 2025, 18:45 UTC",
+    "matchTimeUTCDate": "2025-10-14T18:45:00.000Z",
+    "started": true,
+    "finished": true
+  },
+  "status": {
+    "utcTime": "2025-10-14T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "14.10.2025 20:48:23",
+      "firstHalfEnded": "14.10.2025 21:36:42",
+      "secondHalfStarted": "14.10.2025 21:52:58",
+      "secondHalfEnded": "14.10.2025 22:42:34",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "14.10.2025 22:42:34"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 0",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8204",
+      "name": "Italy",
+      "score": 3
+    },
+    {
+      "id": "8567",
+      "name": "Israel",
+      "score": 0
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 74,
+      "added": 0,
+      "display": "74",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 3,
+      "display": "90+3",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      1
+    ],
+    "SecondHalf": [
+      4,
+      2
+    ],
+    "All": [
+      4,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 88,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

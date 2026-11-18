@@ -1,0 +1,170 @@
+{
+  "ok": true,
+  "id": "4689382",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4689382",
+  "verified_at_utc": "2026-11-12T11:44:48.781Z",
+  "general": {
+    "matchId": "4689382",
+    "matchName": "Montenegro-vs-Croatia_Mon, Nov 17, 2025, 19:45 UTC",
+    "matchRound": "10",
+    "teamColors": {
+      "darkMode": {
+        "home": "#F85048",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#F85048",
+        "away": "#0040a5"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 896544,
+    "leagueName": "World Cup Qualification UEFA 1st Round Grp. L",
+    "leagueRoundName": "10",
+    "parentLeagueId": 10195,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Montenegro",
+      "id": 49437
+    },
+    "awayTeam": {
+      "name": "Croatia",
+      "id": 10155
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Nov 17, 2025, 19:45 UTC",
+    "matchTimeUTCDate": "2025-11-17T19:45:00.000Z",
+    "started": true,
+    "finished": true
+  },
+  "status": {
+    "utcTime": "2025-11-17T19:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "17.11.2025 20:45:37",
+      "firstHalfEnded": "17.11.2025 21:31:48",
+      "secondHalfStarted": "17.11.2025 21:47:30",
+      "secondHalfEnded": "17.11.2025 22:35:48",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "17.11.2025 22:35:48"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "2 - 3",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "49437",
+      "name": "Montenegro",
+      "score": 2
+    },
+    {
+      "id": "10155",
+      "name": "Croatia",
+      "score": 3
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 17,
+      "added": 0,
+      "display": "17",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 37,
+      "added": 0,
+      "display": "37",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 72,
+      "added": 0,
+      "display": "72",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      2
+    ],
+    "SecondHalf": [
+      3,
+      1
+    ],
+    "All": [
+      5,
+      3
+    ]
+  },
+  "cards": [
+    {
+      "time": 29,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 31,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 37,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 70,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

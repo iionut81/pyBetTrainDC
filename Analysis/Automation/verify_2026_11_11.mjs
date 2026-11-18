@@ -1,0 +1,25 @@
+﻿import fs from 'node:fs';import assert from 'node:assert/strict';import {csv,read,save,ro} from './research_2026_11_11.mjs';
+const b='Analysis/Goal70_2026-11-11',c='Analysis/Corners1H_2026-11-11',R='Analysis/Review_2026-11-10',H='Analysis/Selection_History',p='Previews/Pred_Research_Terminal';const run=read('Analysis/Automation/run_report_2026-11-11.json'),today=read(p+'/dist/data/2026-11-11.json'),yesterday=read(p+'/dist/data/2026-11-10.json');
+assert(Date.parse(run.review_handoff_at_ro)<Date.parse(run.research_started_at_ro));assert.equal(today.matches.length,5);assert.equal(today.coverage.goal,3);assert.equal(today.coverage.corner,3);assert.equal(today.userSelections.length,0);assert(today.matches.every(m=>m.goal.outcome.result==='pending'&&m.corner.outcome.result==='pending'));assert.equal(today.metrics.goal.hit_rate,null);assert.equal(today.metrics.corner.hit_rate,null);
+assert.equal(yesterday.metrics.goal.success,20);assert.equal(yesterday.metrics.goal.fail,3);assert.equal(yesterday.metrics.corner.success,15);assert.equal(yesterday.metrics.corner.fail,4);assert.equal(yesterday.metrics.corner.pending,4);assert.equal(yesterday.metrics.goal.postponed,1);assert.equal(yesterday.coverage.goal,0);assert.equal(yesterday.metrics.goal.mean_predicted_probability,null);
+assert.deepEqual(csv(H+'/user_selections.csv'),read(R+'/user_selections_before_review.json'));
+const cdf=l=>{let a=Math.exp(-l),s=a;for(let k=1;k<=7;k++){a*=l/k;s+=a;}return s;};let checked=0;
+for(const [market,dir]of [['goal',b],['corner',c]])for(const r of csv(dir+'/all_models.csv')){if(!r.p_raw){assert.equal(r.rank,'');continue;}const f=p=>Number(r[p+'_gf'])/Number(r[p+'_n']),a=p=>Number(r[p+'_ga'])/Number(r[p+'_n']);const ls=(f('home')+a('away')+f('away')+a('home'))/2,lv=(f('home_venue')+a('away_venue')+f('away_venue')+a('home_venue'))/2,l=(ls+lv)/2,prob=market==='goal'?v=>1-Math.exp(-v):cdf;assert(Math.abs(prob(l)-Number(r.p_raw))<1e-12);assert(Math.abs(prob(l*(market==='goal'?.8:1.2))-Number(r.p_stress))<1e-12);checked++;}
+assert.equal(checked,6);assert.equal(today.matches.filter(m=>m.analystCorner).length,1);assert.equal(today.matches.filter(m=>m.analystGoal).length,0);assert(csv(b+'/universe_coverage.csv').every(r=>r.season_schedule_ok==='true'&&r.season_schedule_daily==='0'));
+for(const market of ['goal','corner']){const row=csv((market==='goal'?b:c)+'/all_models.csv').find(r=>r.id==='6420192'),old=csv(b+'/Revisions/initial_five_cup_scan/'+market+'_models.csv').find(r=>r.id===row.id);assert.equal(row.p_raw,old.p_raw);assert.equal(row.recorded_at_ro,old.recorded_at_ro);}
+save('Analysis/Automation/verification_2026-11-11.json',{status:'PASS',checked_at_ro:ro(),model_checks:checked,checks:['review before scan','5fixtures/3models each','all6 probabilities and stress recomputed','20/23 and15/19 all outcomes distinct from0models','today pending/null hit rate','all explicit choice rows unchanged','original Artis probability/timestamp preserved','one analyst corner and no inferred user selection','29season schedules checked']});
+let script=fs.readFileSync(p+'/.runtime/daily-2026-11-10-runtime.mjs','utf8');let begin=script.indexOf(" await check('Today24"),end=script.indexOf(' const screenshot=');assert(begin>0&&end>begin);script=script.slice(0,begin)+`
+ await check('Today5fixtures3models each','DATA.date==="2026-11-11"&&DATA.matches.length===5&&DATA.coverage.goal===3&&DATA.coverage.corner===3');
+ await check('Today no choices or results','DATA.userSelections.length===0&&!document.querySelector("#outcomeStrip")');
+ await evaluate('setMarket("corner")');
+ await check('Corner analyst Artis only','DATA.matches.filter(m=>m.analystCorner).length===1&&DATA.matches.find(m=>m.analystCorner).id==="6420192"');
+ await check('Today review pending','document.querySelector("#reviewPanel").dataset.reviewDate==="2026-11-11"&&!document.querySelector("#outcomeStrip")');
+ await evaluate('selectDay("2026-11-10");setMarket("corner")');
+ await check('Yesterday4corner failures shown','document.querySelectorAll("#outcomeStrip .failed").length===4');
+ await evaluate('setMarket("goal")');
+ await check('Yesterday3goal failures shown','document.querySelectorAll("#outcomeStrip .failed").length===3');
+ await evaluate('selectDay("2026-11-09");setMarket("corner")');
+ await check('Prior actual user choice success pinned','filteredMatches()[0].id==="5868534"&&document.querySelector(".corner-card .choice-result").textContent==="-Succes"');
+ await evaluate('selectDay("2026-11-11");setMarket("corner")');
+ await check('Returning today clears old results','!document.querySelector("#outcomeStrip")');
+`+script.slice(end);script=script.replace(/const here=.*?;/,"const here=path.resolve('Previews/Pred_Research_Terminal');").replaceAll('2026-11-10.png','2026-11-11.png').replaceAll("date:'2026-11-10'","date:'2026-11-11'").replaceAll('daily-verification-2026-11-10.json','daily-verification-2026-11-11.json');fs.writeFileSync(p+'/.runtime/daily-2026-11-11-runtime.mjs',script);console.log('PASS data and6models; browser check prepared');

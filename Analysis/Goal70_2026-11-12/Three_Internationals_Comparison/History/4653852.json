@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "id": "4653852",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4653852",
+  "verified_at_utc": "2026-11-12T11:44:48.160Z",
+  "general": {
+    "matchId": "4653852",
+    "matchName": "Norway-vs-England_Sat, Jul 11, 2026, 21:00 UTC",
+    "matchRound": "1/4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#b53032",
+        "away": "#FFFFFF"
+      },
+      "lightMode": {
+        "home": "#b53032",
+        "away": "#6FA3E6"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894789,
+    "leagueName": "World Cup",
+    "leagueRoundName": "1/4",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Norway",
+      "id": 8492
+    },
+    "awayTeam": {
+      "name": "England",
+      "id": 8491
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Sat, Jul 11, 2026, 21:00 UTC",
+    "matchTimeUTCDate": "2026-07-11T21:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-11T21:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "11.07.2026 23:01:27",
+      "firstHalfEnded": "11.07.2026 23:50:58",
+      "secondHalfStarted": "12.07.2026 00:07:32",
+      "secondHalfEnded": "12.07.2026 01:01:14",
+      "firstExtraHalfStarted": "12.07.2026 01:07:20",
+      "secondExtraHalfStarted": "12.07.2026 01:29:28",
+      "gameEnded": "12.07.2026 01:46:42"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "1 - 2",
+    "reason": {
+      "short": "AET",
+      "shortKey": "afterextratime_short",
+      "long": "After extra time",
+      "longKey": "afterextra"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8492",
+      "name": "Norway",
+      "score": 1
+    },
+    {
+      "id": "8491",
+      "name": "England",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 36,
+      "added": 0,
+      "display": "36",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 45,
+      "added": 2,
+      "display": "45+2",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 93,
+      "added": 0,
+      "display": "93",
+      "period": "FirstHalfExtra",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      0,
+      2
+    ],
+    "SecondHalf": [
+      5,
+      1
+    ],
+    "All": [
+      7,
+      4
+    ]
+  },
+  "cards": [
+    {
+      "time": 117,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

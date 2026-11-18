@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "id": "4667775",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4667775",
+  "verified_at_utc": "2026-11-12T11:44:46.065Z",
+  "general": {
+    "matchId": "4667775",
+    "matchName": "Turkiye-vs-USA_Fri, Jun 26, 2026, 02:00 UTC",
+    "matchRound": "3",
+    "teamColors": {
+      "darkMode": {
+        "home": "#d71c00",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#d71c00",
+        "away": "#293664"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894793,
+    "leagueName": "World Cup Grp. D",
+    "leagueRoundName": "3",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Turkiye",
+      "id": 6595
+    },
+    "awayTeam": {
+      "name": "USA",
+      "id": 6713
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Fri, Jun 26, 2026, 02:00 UTC",
+    "matchTimeUTCDate": "2026-06-26T02:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-06-26T02:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "26.06.2026 04:00:14",
+      "firstHalfEnded": "26.06.2026 04:51:21",
+      "secondHalfStarted": "26.06.2026 05:08:00",
+      "secondHalfEnded": "26.06.2026 06:02:17",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "26.06.2026 06:02:17"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "6595",
+      "name": "Turkiye",
+      "score": 3
+    },
+    {
+      "id": "6713",
+      "name": "USA",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 10,
+      "added": 0,
+      "display": "10",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 31,
+      "added": 0,
+      "display": "31",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 90,
+      "added": 8,
+      "display": "90+8",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 3,
+      "added": 0,
+      "display": "3",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 49,
+      "added": 0,
+      "display": "49",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      5
+    ],
+    "SecondHalf": [
+      0,
+      4
+    ],
+    "All": [
+      2,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 19,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {}
+}

@@ -1,0 +1,34 @@
+﻿import fs from 'node:fs';import {read,write,csvread,csvwrite,get,pool,stamp} from '../daily_2026_11_16.mjs';
+const b='Analysis/Goal70_2026-11-16',c='Analysis/Corners1H_2026-11-16',at=stamp();
+for(let p of [b+'/candidate_fixtures.json',b+'/all_models.csv',c+'/all_models.csv','Analysis/Selection_History/2026-11-16_goal70_candidates.csv','Analysis/Selection_History/2026-11-16_corners1h_candidates.csv'])write(b+'/Revisions/before_supplement_extension/'+(p.startsWith(c)?'corner_':'')+p.split('/').at(-1),fs.readFileSync(p,'utf8'));
+const original=read(b+'/candidate_fixtures.json'),supp=[],decode=s=>s.replace(/<[^>]*>/g,'').replaceAll('&amp;','&').trim();
+const norm=s=>s.toLowerCase().replace(/czech republic/g,'czechia').replace(/[^a-z0-9]/g,'');
+function add(r){if(original.some(x=>norm(x.home)===norm(r.home)&&norm(x.away)===norm(r.away))||supp.some(x=>norm(x.home)===norm(r.home)&&norm(x.away)===norm(r.away)))return;supp.push({id:'supp_20261116_'+(supp.length+1),home_id:'',away_id:'',league_id:'',hist_home:[],hist_away:[],status_verified:false,category:'youth_men',gender:'male',venue_note:'Designated sides only; actual home/neutral venue unconfirmed',edition:/friendl/i.test(r.competition)?'2026':'current_edition_unconfirmed',history_basis:/friendl/i.test(r.competition)?'national_friendlies_calendar_2026':'national_current_competition_edition',inventory_note:'Supplementary fixture; exact current-edition full goal events and FirstHalf bilateral 5/3 history unavailable; kickoff/status requires verification',...r});}
+let html=fs.readFileSync(b+'/Supplemental/footynomad.html','utf8'),current='';for(let a of html.match(/<a\b[^>]*>[\s\S]*?<\/a>/g)||[]){if(/href="\/league\//.test(a)){current=decode(a);continue;}if(!/href="\/fixture\//.test(a)||!/^Friendlies$|U20 Elite League/.test(current))continue;let home=a.match(/class="ticket-home">([\s\S]*?)<\/span>/)?.[1],away=a.match(/class="ticket-away">([\s\S]*?)<\/span>/)?.[1],date=a.match(/datetime="([^"]+)"/)?.[1],link=a.match(/href="([^"]+)"/)?.[1];if(home&&away&&date){let r={home:decode(home),away:decode(away),date,competition:current,source:'https://footynomad.com'+link};if(new Date(Date.parse(date)+7200000).toISOString().slice(0,10)==='2026-11-16')add(r);else write(b+'/Supplemental/outside_'+norm(r.home)+'.json',r);}}
+const extras=[
+['10:30','Netherlands U18','Sweden U18','International Friendly','https://oleball.com/league/international-friendly'],
+['11:00','Uzbekistan U20','Venezuela U20','International Friendly','https://oleball.com/league/international-friendly'],
+['12:00','Kyrgyzstan U23','Russia U21','International Friendly','https://oleball.com/league/international-friendly'],
+['13:00','Indonesia U20','USA U19','International Friendly','https://score808live.biz/football/score/league/1366/international-friendly/'],
+['15:00','Egypt U20','Tanzania U20','International Friendly','https://oleball.com/league/international-friendly'],
+['18:00','Japan U19','Colombia U19','International Friendly','https://oleball.com/league/international-friendly'],
+['16:00','Ivory Coast U20','Morocco U20','International Friendly','https://score808live.biz/football/score/league/1366/international-friendly/'],
+['17:00','Algeria U23','Eswatini U23','CAF U23 Cup of Nations','https://footballinfo.net/Fixtures?date=2026-11-16'],
+['13:00','Tunisia U17','Morocco U17','UNAF U17 qualifying','https://www.rotascore.com/pt-PT/matches/2026-11-16'],
+['13:00','Algeria U17','Egypt U17','UNAF U17 qualifying','https://www.rotascore.com/pt-PT/matches/2026-11-16'],
+['11:00','Spain U17 Women','Switzerland U17 Women','UEFA Women U17 Qualification','https://de.uefa.com/womensunder17/teams/2600047/matches/'],
+['18:00','Portugal U17 Women','Belgium U17 Women','UEFA Women U17 Qualification','https://pt.uefa.com/womensunder17/teams/2600056--belgium/matches/']];
+for(let [time,home,away,competition,source]of extras)add({home,away,date:'2026-11-16T'+time+':00Z',competition,source,...(/Women/.test(home)?{category:'youth_women',gender:'female',edition:'2026/2027'}:{})});
+// Signals are retained as uncertain inventory, not confirmed fixtures or retrospective forecasts.
+for(let [home,away,competition,source,note]of [
+['Panama U19 Women','Guatemala U19 Women','UNCAF U19 Women','https://scoremondo.com/en/date/2026-11-16','Provider daily page mixes previous-day results; Romanian date and exact kickoff unverified'],
+['Costa Rica U19 Women','Honduras U19 Women','UNCAF U19 Women','https://oleball.com/league/international-friendly','Friendly versus UNCAF/date conflict; UTC+8 labels in second source; Romanian date unresolved'],
+['El Salvador U19 Women','Nicaragua U19 Women','UNCAF U19 Women','https://oleball.com/league/international-friendly','Friendly versus UNCAF/date conflict; Romanian date unresolved'],
+['Austria U19','England U19','UEFA U19 Qualification','https://www.whufc.com/en/news/west-ham-uniteds-november-2026-academy-internationals-or-all-you-need-to-know','Club article lists16Nov; same article next-round17Nov; official date requires confirmation'],
+['Bulgaria U19','Latvia U19','UEFA U19 Qualification','https://www.whufc.com/en/news/west-ham-uniteds-november-2026-academy-internationals-or-all-you-need-to-know','Date16Nov in club article versus other qualification calendars; unresolved'],
+['Lithuania U19','Sweden U19','UEFA U19 Qualification','https://www.whufc.com/en/news/west-ham-uniteds-november-2026-academy-internationals-or-all-you-need-to-know','Date16Nov in club article; independent confirmation required'],
+['Palestine U17','India U17','AFC U17 Qualification','https://scoremondo.com/en/date/2026-11-16','Conflicting date16/17Nov; retain signal only']])add({home,away,competition,source,date:null,category:/Women/.test(home)?'youth_women':'youth_men',gender:/Women/.test(home)?'female':'male',inventory_note:note+'; not confirmed today; no model',inventory_confirmed:false});
+write(b+'/Supplemental/inventory.json',supp);csvwrite(b+'/Supplemental/inventory.csv',supp.map(({hist_home,hist_away,...r})=>r));write(b+'/candidate_fixtures.json',[...original,...supp]);write(b+'/Supplemental/handoff.json',{at_ro:at,original:original.length,supplemental:supp.length,uncertain:supp.filter(x=>x.inventory_confirmed===false).length});
+await pool([...new Set(supp.map(x=>x.source).filter(x=>!x.includes('/fixture/')))],async(url,i)=>{try{const {execFileSync}=await import('node:child_process');let s=execFileSync('curl.exe',['-L','--max-time','20','-sS',url],{encoding:'utf8',maxBuffer:15e6});write(b+'/Supplemental/source_'+i+'.html',s);write(b+'/Supplemental/source_'+i+'.json',{url,at_ro:stamp()});}catch(e){write(b+'/Supplemental/source_'+i+'.error.json',{url,error:String(e).slice(0,200)});}});
+await get('https://www.fotmob.com/api/data/allLeagues',b+'/Supplemental/allLeagues.json');
+console.log({initial:original.length,supplemental:supp.length,uncertain:supp.filter(x=>x.inventory_confirmed===false).length});

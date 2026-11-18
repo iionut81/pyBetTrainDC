@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "id": "4653710",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=4653710",
+  "verified_at_utc": "2026-11-12T11:44:46.776Z",
+  "general": {
+    "matchId": "4653710",
+    "matchName": "Belgium-vs-Senegal_Wed, Jul 1, 2026, 20:00 UTC",
+    "matchRound": "1/16",
+    "teamColors": {
+      "darkMode": {
+        "home": "#9f2533",
+        "away": "#ffffff"
+      },
+      "lightMode": {
+        "home": "#9f2533",
+        "away": "#0c954e"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(29, 29, 29, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 894789,
+    "leagueName": "World Cup",
+    "leagueRoundName": "1/16",
+    "parentLeagueId": 77,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Belgium",
+      "id": 8263
+    },
+    "awayTeam": {
+      "name": "Senegal",
+      "id": 6395
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Wed, Jul 1, 2026, 20:00 UTC",
+    "matchTimeUTCDate": "2026-07-01T20:00:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-07-01T20:00:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "01.07.2026 22:00:40",
+      "firstHalfEnded": "01.07.2026 22:51:16",
+      "secondHalfStarted": "01.07.2026 23:07:36",
+      "secondHalfEnded": "02.07.2026 00:00:06",
+      "firstExtraHalfStarted": "02.07.2026 00:05:05",
+      "secondExtraHalfStarted": "02.07.2026 00:22:57",
+      "gameEnded": "02.07.2026 00:49:53"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 2",
+    "reason": {
+      "short": "AET",
+      "shortKey": "afterextratime_short",
+      "long": "After extra time",
+      "longKey": "afterextra"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8263",
+      "name": "Belgium",
+      "score": 3
+    },
+    {
+      "id": "6395",
+      "name": "Senegal",
+      "score": 2
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 86,
+      "added": 0,
+      "display": "86",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 89,
+      "added": 0,
+      "display": "89",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 120,
+      "added": 5,
+      "display": "120+5",
+      "period": "SecondHalfExtra",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 24,
+      "added": 0,
+      "display": "24",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 51,
+      "added": 0,
+      "display": "51",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      1
+    ],
+    "SecondHalf": [
+      2,
+      0
+    ],
+    "All": [
+      4,
+      2
+    ]
+  },
+  "cards": [
+    {
+      "time": 64,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 67,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 90,
+      "card": "Yellow",
+      "isHome": true
+    }
+  ],
+  "formations": {}
+}

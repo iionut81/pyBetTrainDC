@@ -1,0 +1,366 @@
+# Review 14 noiembrie 2026
+
+Predare 2026-11-15T09:12:22.831+02:00. **Parțial**: observațiile exacte lipsă rămân pending. Surse prospective: [context](../Goal70_2026-11-14/CONTEXT.md), [calcule](../Goal70_2026-11-14/CALCULATIONS.md), CSV canonice14 și user_selections/events recitite. Rezultate: FotMob/ și Backlog/ cu metadate sursă; fără predicții retrospective.
+
+## Alegerile explicite
+
+Ambele sunt Succes: Valladolid–Castellón Gol70, primul67, scor0–1; Almería–Andorra cornere FirstHalf2, scor2–1. Canonicul actualizat atomic sublock; p/rang/timestamp inițiale păstrate. Nu sunt pariuri presupuse.
+
+## Cohorte
+
+Gol70 inventar success: 29; fail: 7; pending: 128; modele success: 6. Cornere inventar success: 29; fail: 2; pending: 133; modele success: 4; fail: 1. Utilizator2/2, distinct de analist și inventar.
+
+## Ipoteze, succese și eșecuri
+
+Valladolid Gol70 avea91,42% brut/85,98% stres,24/25 general,13/13 teren, GF70 propriu13/6 și9/7; Castellón–Sabadell0–0, numai-sezon90,02%, numai-teren92,63%, fără scoruri ample89,50%. Primul67 este succes apropiat de prag: atacurile istorice ridicate nu garantau deschiderea timpurie. Apărarea Castellónului, absențele, pressingul, rafalele40,7km/h și încărcarea incomplet cunoscută erau avertismente documentate. Cauza golului tardiv nu poate fi demonstrată din minut/scor.
+
+Almería cornere95,24/89,36%,25/25 și12/12; istoricul avea un exact7 și niciun>=8. Cele2 cornere sunt compatibile cu ipoteza, fără a demonstra calibrarea sau că pressingul/golul timpuriu reduce cornerele. Suspendările Andorrei, antrenorii și lotul erau documentate; XI și minutele individuale rămâneau necunoscute. Candidatul analistului la cornere era Valladolid95,72/90,29%, nu alegerea utilizatorului; păstrăm rezultatul separat în tabel.
+
+Tabelele includ fiecare fail și succes, probabilitatea/AR20 și rangul original când existau, frecvențele prospective și competiția. Pentru nemodelate nu inventăm procent/rang: motivele de ineligibilitate se păstrează în CSV. Verificarea cauzelor tactice și a eliminărilor nu este exhaustivă; cauzele fiecărui fail rămân necunoscute. Exact7 câștigă la limită,>=8 pierde. Nicio modificare retrospectivă a modelului.
+
+## Lista completă Gol70
+
+|Meci / competiție|rang; brut / stres|istoric general; teren|observație|rezultat / sursă|
+|---|---|---|---|---|
+|Real Valladolid–Castellón / esp.2|1; 91.42% / 85.98%|24/25; 13/13|primul 67; FirstHalf 5|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5868546)|
+|Almería–FC Andorra / esp.2|2; 89.24% / 83.19%|24/25; 11/12|primul 26; FirstHalf 2|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5868537)|
+|Japan–Brazil / Friendlies|3; 87.13% / 80.60%|11/14; 6/8|primul 15; FirstHalf 5|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6497224)|
+|Mallorca–Córdoba / esp.2|4; 85.50% / 78.66%|21/25; 12/13|primul 3; FirstHalf 5|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5868542)|
+|Real Sociedad B–Sporting Gijón / esp.2|5; 82.06% / 74.70%|20/26; 9/12|primul 7; FirstHalf 5|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5868544)|
+|Real Oviedo–Girona / esp.2|6; 81.28% / 73.83%|22/26; 8/11|primul 47; FirstHalf 9|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5868543)|
+|Argentina–Uruguay / Friendlies|—; nemodelat|10/12; 10/12|primul 48; FirstHalf 4|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6462728)|
+|Saint Martin–El Salvador / CONCACAF Nations League Play-In|—; nemodelat|8/8; 4/4|primul 34; FirstHalf 3|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6422182)|
+|Norway–Wales / UEFA Nations League A Grp. 4|—; nemodelat|6/7; 4/4|primul 59; FirstHalf 5|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5181869)|
+|Portugal–Denmark / UEFA Nations League A Grp. 4|—; nemodelat|6/7; 3/4|primul 43; FirstHalf 7|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5181870)|
+|Kosovo–Israel / UEFA Nations League B Grp. 3|—; nemodelat|5/7; 3/4|primul no_goal; FirstHalf 6|[fail](https://www.fotmob.com/api/data/matchDetails?matchId=5181820)|
+|Austria–Ireland / UEFA Nations League B Grp. 3|—; nemodelat|6/7; 3/4|primul 79; FirstHalf 5|[fail](https://www.fotmob.com/api/data/matchDetails?matchId=5181821)|
+|Georgia–Hungary / UEFA Nations League B Grp. 2|—; nemodelat|3/7; 1/4|primul 73; FirstHalf 3|[fail](https://www.fotmob.com/api/data/matchDetails?matchId=5181808)|
+|Northern Ireland–Ukraine / UEFA Nations League B Grp. 2|—; nemodelat|3/7; 1/4|primul 68; FirstHalf 2|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5181809)|
+|Romania–Poland / UEFA Nations League B Grp. 4|—; nemodelat|5/7; 3/4|primul 68; FirstHalf 6|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5181845)|
+|Sweden–Bosnia and Herzegovina / UEFA Nations League B Grp. 4|—; nemodelat|5/7; 3/4|primul 5; FirstHalf 2|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5181846)|
+|Colombia–Chile / Friendlies|—; nemodelat|14/14; 12/12|primul 35; FirstHalf 1|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6539346)|
+|Ecuador–Costa Rica / Friendlies|—; nemodelat|9/10; 6/6|primul 22; FirstHalf 4|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6539347)|
+|Peru–Bolivia / Friendlies|—; nemodelat|14/14; 4/4|primul 13; FirstHalf 7|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6539348)|
+|Tahiti–Cook Islands / Friendlies|—; nemodelat|1/1; 0/0|primul 25; FirstHalf necunoscut|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6633209)|
+|Bahrain–Yemen / Friendlies|—; nemodelat|1/1; 0/0|primul 22; FirstHalf necunoscut|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6539349)|
+|Oman–Tajikistan / Friendlies|—; nemodelat|5/5; 2/2|primul 60; FirstHalf 6|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6633216)|
+|China–Malaysia / Friendlies|—; nemodelat|7/8; 5/6|primul 10; FirstHalf 3|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6539350)|
+|Chinese Taipei–Kyrgyzstan / Friendlies|—; nemodelat|5/7; 0/0|primul 31; FirstHalf necunoscut|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6539351)|
+|Thailand–Brunei / Friendlies|—; nemodelat|0/1; 0/0|primul 3; FirstHalf 9|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6633217)|
+|Palestine–Iran / Friendlies|—; nemodelat|7/9; 3/3|primul 77; FirstHalf necunoscut|[fail](https://www.fotmob.com/api/data/matchDetails?matchId=6539352)|
+|Sint Maarten–French Guiana / CONCACAF Nations League B Grp. 4|—; nemodelat|4/7; 3/4|primul 24; FirstHalf 3|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6375174)|
+|Guatemala–Canada / CONCACAF Nations League A Championship Playoff|—; nemodelat|2/4; 1/2|primul 18; FirstHalf 3|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6391961)|
+|Haiti–USA / CONCACAF Nations League A Championship Playoff|—; nemodelat|4/4; 2/2|primul 10; FirstHalf 4|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6391963)|
+|Montserrat–Nicaragua / CONCACAF Nations League Play-In|—; nemodelat|8/8; 4/4|primul 35; FirstHalf 7|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6422183)|
+|FK Čadca–Spartak Trnava / FA Cup|—; nemodelat|0/0; 0/0|primul 20; FirstHalf necunoscut|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6486790)|
+|India–Bhutan / SAFF Championship|—; nemodelat|4/4; 2/2|primul 9; FirstHalf 4|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6632187)|
+|Bangladesh–Pakistan / SAFF Championship|—; nemodelat|4/4; 2/2|primul 86; FirstHalf 3|[fail](https://www.fotmob.com/api/data/matchDetails?matchId=6632188)|
+|Bijelo Brdo–HNK Gorica / Croatian Cup - 8th Finals|—; nemodelat|10/13; 5/6|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=1000021077)|
+|Rudeš–Segesta / Croatian Cup - 8th Finals|—; nemodelat|10/13; 6/6|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=1000021078)|
+|Uganda–Botswana / Africa Cup of Nations Qualification|—; nemodelat|4/4; 3/3|primul 8; FirstHalf 3|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6040349)|
+|Algeria–Togo / Africa Cup of Nations Qualification|—; nemodelat|4/4; 2/2|primul 76; FirstHalf 3|[fail](https://www.fotmob.com/api/data/matchDetails?matchId=6040360)|
+|Angola–South Sudan / Africa Cup of Nations Qualification|—; nemodelat|3/4; 2/2|primul 90+2; FirstHalf 5|[fail](https://www.fotmob.com/api/data/matchDetails?matchId=6040216)|
+|India U17–Guam U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428081)|
+|Iraq U17–Chinese Taipei U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428084)|
+|Yemen U17–N. Mariana Islands U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428093)|
+|Indonesia U17–Cambodia U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428082)|
+|Myanmar U17–Philippines U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428088)|
+|IR Iran U17–Sri Lanka U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428083)|
+|United Arab Emirates U17–Macau U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428092)|
+|Laos U17–Pakistan U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428086)|
+|Thailand U17–Maldives U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428090)|
+|Turkmenistan U17–Mongolia U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428091)|
+|Malaysia U17–Singapore U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428087)|
+|Oman U17–Brunei U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428089)|
+|Bangladesh U17–Bhutan U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428080)|
+|Kuwait U17–Lebanon U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428085)|
+|Korea Republic U21–Mexico U23 / Friendlies|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1572228)|
+|Thailand U23–Singapore U23 / Friendlies|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1572229)|
+|Turkey U18–Germany U18 / Friendlies|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1572230)|
+|England U18–Norway U19 / Friendlies|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1572231)|
+|Netherlands U18–Switzerland U18 / Friendlies|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1572232)|
+|Vietnam U23–Qatar U23 / Friendlies|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1572234)|
+|Basque Country–Venezuela / Friendlies|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1572236)|
+|France U17–Luxembourg U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414054)|
+|North Macedonia U17–San Marino U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414061)|
+|Croatia U17–Kosovo U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414052)|
+|Germany U17–Lithuania U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414055)|
+|Kazakhstan U17–Austria U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414058)|
+|Slovakia U17–Netherlands U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414067)|
+|Republic of Ireland U17–Wales U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414056)|
+|Italy U17–Armenia U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414057)|
+|Serbia U17–Andorra U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414066)|
+|Belgium U17–Latvia U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414051)|
+|Turkey U17–Hungary U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414069)|
+|Scotland U17–Albania U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414065)|
+|Norway U17–Malta U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414062)|
+|Poland U17–England U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414063)|
+|Sweden U17–Finland U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414068)|
+|Portugal U17–Bulgaria U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414064)|
+|Northern Ireland U17–Azerbaijan U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414060)|
+|Denmark U17–Estonia U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414053)|
+|Montenegro U17–Ukraine U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414059)|
+|Bosnia-Herzegovina U19–Georgia U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_430733)|
+|Montenegro U19–Faroe Islands U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_452808)|
+|Slovakia U19–Liechtenstein U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_461557)|
+|Czech Republic U19–Croatia U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_430742)|
+|Israel U19–Romania U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_452798)|
+|Luxembourg U19–Andorra U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_452804)|
+|England U19–Belarus U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_442330)|
+|Northern Ireland U19–Malta U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_452810)|
+|Switzerland U19–North Macedonia U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_461565)|
+|Armenia U19–Albania U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_430724)|
+|Moldova U19–Gibraltar U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_452806)|
+|Spain U19–Wales U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_461560)|
+|Estonia U19–Turkey U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_442332)|
+|Hungary U19–Netherlands U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_442344)|
+|Sweden U19–Lithuania U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_461563)|
+|Bulgaria U19–Latvia U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_430736)|
+|Greece U19–Norway U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_442342)|
+|Italy U19–Ukraine U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_452800)|
+|Belgium U19–Kazakhstan U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_430730)|
+|Finland U19–Iceland U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_442335)|
+|Serbia U19–Azerbaijan U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_461554)|
+|Denmark U19–San Marino U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_442328)|
+|Austria U19–Slovenia U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_430726)|
+|France U19–Republic of Ireland U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_442337)|
+|Portugal U19–Germany U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_452815)|
+|Scotland U19–Kosovo U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_461552)|
+|Le Puy Foot–Diables Noirs / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570973)|
+|Versailles–Rodez / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570974)|
+|Tourcoing–Reims / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570977)|
+|Balagne–Montpellier / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570978)|
+|Boulay–Sochaux / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570983)|
+|Rhone-Crussol–Fréjus St-Raphaël / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570984)|
+|Vendée Fontenay–Clermont Foot / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570985)|
+|Choisy au Bac–Caen / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570986)|
+|Chalon–Hauts Lyonnais / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570987)|
+|Croix Football IC–Thaon / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570988)|
+|Le Poiré sur Vie–USSA Vertou / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570989)|
+|Cheruy–Bourg-en-bresse 01 / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570990)|
+|Firminy–Annecy / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570991)|
+|Tinteniac–Concarneau / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570992)|
+|St Sebastien–La Baule-Le Pouliguen / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570993)|
+|Koetzingue–Biesheim / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570994)|
+|Châteaubriant–Horizon Patho / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570976)|
+|Lyon Duchere–Feurs / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570995)|
+|Dunkerque–Quevilly / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570996)|
+|Cheminots Paray–Villefranche / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570997)|
+|Pontivy GSI–TA Rennes / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570998)|
+|Saint-Omer–Vire / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570999)|
+|Vitré–Saint-Pierre Milizac / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571000)|
+|Amnéville–Sundhoffen / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571001)|
+|Caen PTT–Chambly Thelle FC / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571002)|
+|Cournon–Chassieu Décines / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571003)|
+|Le Touquet–Avranches / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571004)|
+|Racing Besançon–APM Metz / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571005)|
+|St Ouen l&#39;Aumône–Boulogne / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571006)|
+|Saint-Brieuc–Rouen / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571007)|
+|Vesoul–Fleury 91 / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571008)|
+|Strasbourg Koenigshoffen–Oberlauterbach / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571009)|
+|Stade Béthunois–Nancy / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571010)|
+|ASPTT Dijon–Selongey / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571011)|
+|Grau-du-Roi–Riviera / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571012)|
+|Contres–Linas-Montlhery / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571013)|
+|SAG Cestas–Bayonne / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571042)|
+|Balma–Castanet / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571014)|
+|Avenir Foot Lozère–Entente Crest-Aouste / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571015)|
+|Lannion–Guingamp / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571016)|
+|Bressuire–Challans / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571017)|
+|Stade Bordelais–Mazeres / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571018)|
+|Chauny–Le Pays du Valois / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571019)|
+|Lourdes–PAU / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571020)|
+|Brive–Angoulême / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571021)|
+|Boulazac–Anglet Genets / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571022)|
+|Buxerolles–Sablé / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571023)|
+|CPB Brequigny–Montluçon / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571024)|
+|Claira/Laurent–Puissalicon / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571025)|
+|Macaire–Nueillaubiers / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571026)|
+|OM Cambrai–Amiens / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571027)|
+|Uruguay U17 Women–Peru U17 Women / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_0)|
+|Madagascar U23–South Africa U23 / CAF U23 Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_1)|
+|Brazil U20–Peru U20 / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_2)|
+|Turkiye U16–Germany U16 / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_3)|
+|Austria U16–Czechia U16 / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_4)|
+|England U18–Sweden U18 / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_5)|
+|UAE U23–Jordan U23 / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_6)|
+|Jordan U20–USA U19 / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_7)|
+|Iraq U23–Lebanon U23 / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_8)|
+
+## Lista completă cornere
+
+|Meci / competiție|rang; brut / stres|istoric general; teren|observație|rezultat / sursă|
+|---|---|---|---|---|
+|Real Valladolid–Castellón / esp.2|1; 95.72% / 90.29%|24/25; 13/13|primul 67; FirstHalf 5|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5868546)|
+|Almería–FC Andorra / esp.2|2; 95.24% / 89.36%|24/25; 11/12|primul 26; FirstHalf 2|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5868537)|
+|Real Oviedo–Girona / esp.2|3; 95.10% / 89.08%|22/26; 8/11|primul 47; FirstHalf 9|[fail](https://www.fotmob.com/api/data/matchDetails?matchId=5868543)|
+|Mallorca–Córdoba / esp.2|4; 94.49% / 87.91%|21/25; 12/13|primul 3; FirstHalf 5|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5868542)|
+|Real Sociedad B–Sporting Gijón / esp.2|5; 93.23% / 85.56%|20/26; 9/12|primul 7; FirstHalf 5|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5868544)|
+|Argentina–Uruguay / Friendlies|—; nemodelat|10/12; 10/12|primul 48; FirstHalf 4|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6462728)|
+|Saint Martin–El Salvador / CONCACAF Nations League Play-In|—; nemodelat|8/8; 4/4|primul 34; FirstHalf 3|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6422182)|
+|Norway–Wales / UEFA Nations League A Grp. 4|—; nemodelat|6/7; 4/4|primul 59; FirstHalf 5|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5181869)|
+|Portugal–Denmark / UEFA Nations League A Grp. 4|—; nemodelat|6/7; 3/4|primul 43; FirstHalf 7|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5181870)|
+|Kosovo–Israel / UEFA Nations League B Grp. 3|—; nemodelat|5/7; 3/4|primul no_goal; FirstHalf 6|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5181820)|
+|Austria–Ireland / UEFA Nations League B Grp. 3|—; nemodelat|6/7; 3/4|primul 79; FirstHalf 5|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5181821)|
+|Georgia–Hungary / UEFA Nations League B Grp. 2|—; nemodelat|3/7; 1/4|primul 73; FirstHalf 3|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5181808)|
+|Northern Ireland–Ukraine / UEFA Nations League B Grp. 2|—; nemodelat|3/7; 1/4|primul 68; FirstHalf 2|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5181809)|
+|Romania–Poland / UEFA Nations League B Grp. 4|—; nemodelat|5/7; 3/4|primul 68; FirstHalf 6|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5181845)|
+|Sweden–Bosnia and Herzegovina / UEFA Nations League B Grp. 4|—; nemodelat|5/7; 3/4|primul 5; FirstHalf 2|[success](https://www.fotmob.com/api/data/matchDetails?matchId=5181846)|
+|Colombia–Chile / Friendlies|—; nemodelat|13/13; 11/11|primul 35; FirstHalf 1|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6539346)|
+|Ecuador–Costa Rica / Friendlies|—; nemodelat|7/7; 4/4|primul 22; FirstHalf 4|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6539347)|
+|Peru–Bolivia / Friendlies|—; nemodelat|10/10; 4/4|primul 13; FirstHalf 7|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6539348)|
+|Tahiti–Cook Islands / Friendlies|—; nemodelat|0/0; 0/0|primul 25; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=6633209)|
+|Bahrain–Yemen / Friendlies|—; nemodelat|0/0; 0/0|primul 22; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=6539349)|
+|Oman–Tajikistan / Friendlies|—; nemodelat|1/1; 1/1|primul 60; FirstHalf 6|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6633216)|
+|Japan–Brazil / Friendlies|—; nemodelat|10/12; 5/6|primul 15; FirstHalf 5|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6497224)|
+|China–Malaysia / Friendlies|—; nemodelat|7/8; 5/6|primul 10; FirstHalf 3|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6539350)|
+|Chinese Taipei–Kyrgyzstan / Friendlies|—; nemodelat|0/0; 0/0|primul 31; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=6539351)|
+|Thailand–Brunei / Friendlies|—; nemodelat|0/1; 0/0|primul 3; FirstHalf 9|[fail](https://www.fotmob.com/api/data/matchDetails?matchId=6633217)|
+|Palestine–Iran / Friendlies|—; nemodelat|2/2; 1/1|primul 77; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=6539352)|
+|Sint Maarten–French Guiana / CONCACAF Nations League B Grp. 4|—; nemodelat|4/7; 3/4|primul 24; FirstHalf 3|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6375174)|
+|Guatemala–Canada / CONCACAF Nations League A Championship Playoff|—; nemodelat|2/4; 1/2|primul 18; FirstHalf 3|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6391961)|
+|Haiti–USA / CONCACAF Nations League A Championship Playoff|—; nemodelat|4/4; 2/2|primul 10; FirstHalf 4|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6391963)|
+|Montserrat–Nicaragua / CONCACAF Nations League Play-In|—; nemodelat|8/8; 4/4|primul 35; FirstHalf 7|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6422183)|
+|FK Čadca–Spartak Trnava / FA Cup|—; nemodelat|0/0; 0/0|primul 20; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=6486790)|
+|India–Bhutan / SAFF Championship|—; nemodelat|4/4; 2/2|primul 9; FirstHalf 4|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6632187)|
+|Bangladesh–Pakistan / SAFF Championship|—; nemodelat|3/3; 1/1|primul 86; FirstHalf 3|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6632188)|
+|Bijelo Brdo–HNK Gorica / Croatian Cup - 8th Finals|—; nemodelat|10/13; 5/6|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=1000021077)|
+|Rudeš–Segesta / Croatian Cup - 8th Finals|—; nemodelat|10/13; 6/6|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=1000021078)|
+|Uganda–Botswana / Africa Cup of Nations Qualification|—; nemodelat|4/4; 3/3|primul 8; FirstHalf 3|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6040349)|
+|Algeria–Togo / Africa Cup of Nations Qualification|—; nemodelat|4/4; 2/2|primul 76; FirstHalf 3|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6040360)|
+|Angola–South Sudan / Africa Cup of Nations Qualification|—; nemodelat|2/3; 1/1|primul 90+2; FirstHalf 5|[success](https://www.fotmob.com/api/data/matchDetails?matchId=6040216)|
+|India U17–Guam U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428081)|
+|Iraq U17–Chinese Taipei U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428084)|
+|Yemen U17–N. Mariana Islands U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428093)|
+|Indonesia U17–Cambodia U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428082)|
+|Myanmar U17–Philippines U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428088)|
+|IR Iran U17–Sri Lanka U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428083)|
+|United Arab Emirates U17–Macau U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428092)|
+|Laos U17–Pakistan U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428086)|
+|Thailand U17–Maldives U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428090)|
+|Turkmenistan U17–Mongolia U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428091)|
+|Malaysia U17–Singapore U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428087)|
+|Oman U17–Brunei U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428089)|
+|Bangladesh U17–Bhutan U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428080)|
+|Kuwait U17–Lebanon U17 / AFC U17 Asian Cup|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_428085)|
+|Korea Republic U21–Mexico U23 / Friendlies|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1572228)|
+|Thailand U23–Singapore U23 / Friendlies|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1572229)|
+|Turkey U18–Germany U18 / Friendlies|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1572230)|
+|England U18–Norway U19 / Friendlies|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1572231)|
+|Netherlands U18–Switzerland U18 / Friendlies|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1572232)|
+|Vietnam U23–Qatar U23 / Friendlies|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1572234)|
+|Basque Country–Venezuela / Friendlies|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1572236)|
+|France U17–Luxembourg U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414054)|
+|North Macedonia U17–San Marino U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414061)|
+|Croatia U17–Kosovo U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414052)|
+|Germany U17–Lithuania U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414055)|
+|Kazakhstan U17–Austria U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414058)|
+|Slovakia U17–Netherlands U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414067)|
+|Republic of Ireland U17–Wales U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414056)|
+|Italy U17–Armenia U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414057)|
+|Serbia U17–Andorra U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414066)|
+|Belgium U17–Latvia U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414051)|
+|Turkey U17–Hungary U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414069)|
+|Scotland U17–Albania U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414065)|
+|Norway U17–Malta U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414062)|
+|Poland U17–England U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414063)|
+|Sweden U17–Finland U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414068)|
+|Portugal U17–Bulgaria U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414064)|
+|Northern Ireland U17–Azerbaijan U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414060)|
+|Denmark U17–Estonia U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414053)|
+|Montenegro U17–Ukraine U17 / UEFA U17 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_414059)|
+|Bosnia-Herzegovina U19–Georgia U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_430733)|
+|Montenegro U19–Faroe Islands U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_452808)|
+|Slovakia U19–Liechtenstein U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_461557)|
+|Czech Republic U19–Croatia U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_430742)|
+|Israel U19–Romania U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_452798)|
+|Luxembourg U19–Andorra U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_452804)|
+|England U19–Belarus U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_442330)|
+|Northern Ireland U19–Malta U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_452810)|
+|Switzerland U19–North Macedonia U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_461565)|
+|Armenia U19–Albania U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_430724)|
+|Moldova U19–Gibraltar U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_452806)|
+|Spain U19–Wales U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_461560)|
+|Estonia U19–Turkey U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_442332)|
+|Hungary U19–Netherlands U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_442344)|
+|Sweden U19–Lithuania U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_461563)|
+|Bulgaria U19–Latvia U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_430736)|
+|Greece U19–Norway U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_442342)|
+|Italy U19–Ukraine U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_452800)|
+|Belgium U19–Kazakhstan U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_430730)|
+|Finland U19–Iceland U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_442335)|
+|Serbia U19–Azerbaijan U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_461554)|
+|Denmark U19–San Marino U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_442328)|
+|Austria U19–Slovenia U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_430726)|
+|France U19–Republic of Ireland U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_442337)|
+|Portugal U19–Germany U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_452815)|
+|Scotland U19–Kosovo U19 / UEFA U19 Championship - Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_461552)|
+|Le Puy Foot–Diables Noirs / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570973)|
+|Versailles–Rodez / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570974)|
+|Tourcoing–Reims / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570977)|
+|Balagne–Montpellier / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570978)|
+|Boulay–Sochaux / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570983)|
+|Rhone-Crussol–Fréjus St-Raphaël / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570984)|
+|Vendée Fontenay–Clermont Foot / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570985)|
+|Choisy au Bac–Caen / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570986)|
+|Chalon–Hauts Lyonnais / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570987)|
+|Croix Football IC–Thaon / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570988)|
+|Le Poiré sur Vie–USSA Vertou / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570989)|
+|Cheruy–Bourg-en-bresse 01 / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570990)|
+|Firminy–Annecy / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570991)|
+|Tinteniac–Concarneau / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570992)|
+|St Sebastien–La Baule-Le Pouliguen / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570993)|
+|Koetzingue–Biesheim / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570994)|
+|Châteaubriant–Horizon Patho / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570976)|
+|Lyon Duchere–Feurs / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570995)|
+|Dunkerque–Quevilly / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570996)|
+|Cheminots Paray–Villefranche / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570997)|
+|Pontivy GSI–TA Rennes / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570998)|
+|Saint-Omer–Vire / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1570999)|
+|Vitré–Saint-Pierre Milizac / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571000)|
+|Amnéville–Sundhoffen / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571001)|
+|Caen PTT–Chambly Thelle FC / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571002)|
+|Cournon–Chassieu Décines / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571003)|
+|Le Touquet–Avranches / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571004)|
+|Racing Besançon–APM Metz / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571005)|
+|St Ouen l&#39;Aumône–Boulogne / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571006)|
+|Saint-Brieuc–Rouen / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571007)|
+|Vesoul–Fleury 91 / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571008)|
+|Strasbourg Koenigshoffen–Oberlauterbach / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571009)|
+|Stade Béthunois–Nancy / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571010)|
+|ASPTT Dijon–Selongey / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571011)|
+|Grau-du-Roi–Riviera / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571012)|
+|Contres–Linas-Montlhery / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571013)|
+|SAG Cestas–Bayonne / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571042)|
+|Balma–Castanet / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571014)|
+|Avenir Foot Lozère–Entente Crest-Aouste / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571015)|
+|Lannion–Guingamp / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571016)|
+|Bressuire–Challans / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571017)|
+|Stade Bordelais–Mazeres / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571018)|
+|Chauny–Le Pays du Valois / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571019)|
+|Lourdes–PAU / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571020)|
+|Brive–Angoulême / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571021)|
+|Boulazac–Anglet Genets / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571022)|
+|Buxerolles–Sablé / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571023)|
+|CPB Brequigny–Montluçon / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571024)|
+|Claira/Laurent–Puissalicon / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571025)|
+|Macaire–Nueillaubiers / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571026)|
+|OM Cambrai–Amiens / Coupe de France|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_1571027)|
+|Uruguay U17 Women–Peru U17 Women / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_0)|
+|Madagascar U23–South Africa U23 / CAF U23 Qualification|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_1)|
+|Brazil U20–Peru U20 / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_2)|
+|Turkiye U16–Germany U16 / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_3)|
+|Austria U16–Czechia U16 / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_4)|
+|England U18–Sweden U18 / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_5)|
+|UAE U23–Jordan U23 / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_6)|
+|Jordan U20–USA U19 / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_7)|
+|Iraq U23–Lebanon U23 / International Friendly|—; nemodelat|0/0; 0/0|primul necunoscut; FirstHalf necunoscut|[pending](https://www.fotmob.com/api/data/matchDetails?matchId=supp_extra_8)|
+
+## Restanțe și limite
+
+Reîncercate 37 identități vechi; 1 actualizări cu dovezi și copii anterioare. Conflictele istorice rămân separate. Suplimentele fără identitate numerică nu pot fi confirmate prin endpoint numeric. Reconcilierea cere toate golurile cu scorul90 și FirstHalf+SecondHalf=All pe echipe. Absența nu este zero. O zi nu demonstrează profit, calibrare sau cauzalitate.
+
+
+## Eșecul modelat și reușitele la limită
+
+Oviedo–Girona cornere:9, Fail; rang3,95,10% brut/89,08%AR20,24/26 general și9/11 teren. Contextul prospectiv avertiza explicit totalurile8/9 și Oviedo acasă varianță7,47>medie5,33. Semnalul de dispersie era cunoscut înainte; rezultatul nu demonstrează că varianța a cauzat eșecul sau că o distribuție alternativă ar fi prezis corect. Loturile nu fuseseră verificate la profunzimea primelor două meciuri: limită documentată. Thailanda–Brunei9 este celălalt fail de inventar, nemodelat. Portugal–Danemarca, Peru–Bolivia și Montserrat–Nicaragua au exact7, succese la limită. Cele7failuriGol70 sunt nemodelate: Kosovo0–0, Austria79, Georgia73, Palestina77, Bangladesh86, Algeria76, Angola90+2. Nu atribuim procente/ranguri inexistente sau cauze tactice.

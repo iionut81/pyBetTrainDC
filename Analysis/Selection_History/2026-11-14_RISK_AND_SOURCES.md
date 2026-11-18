@@ -1,0 +1,15 @@
+# Alegeri confirmate, combinații și surse — 14 noiembrie 2026
+
+Utilizatorul confirmă Valladolid–Castellón GOAL_BY_70 și Almería–FCAndorra CORNERS_1H_UNDER_7_5; întreabă ce structură ar servi o cotă orientativă1,15–1,20 și de unde provin datele zilnice. Verificare locală10:51RO: ambele există deja înuser_selections.csv, create prin dashboard10:47:33și10:38:55. Nu adăugăm dubluri, nu schimbăm timestamp/probabilitate/rezultat, nu deducem bilet combinat sau miză.
+
+Răspuns metodologic: riscul nu poate fi eliminat. Pentru cea mai mare șansă de reușită a unei selecții, preferăm un singur eveniment bine susținut;NO BETeste permis.Nu adăugăm un pic doar pentru preț. Nici2goluri,nici1gol+1corner,nici2cornere nu sunt categoric superioare prin etichetă. Contează probabilitățile reale,calibrarea,calitatea datelor și dependența. Nu pretindem că ratelePoisson brute sunt probabilități reale validate.
+
+Matematic P(A∩B)≤min(P(A),P(B)), indiferent de dependență;în ipoteza independenței P(A∩B)=P(A)P(B). Exemplu puripotetic:90%și90%→81%,95%și95%→90,25%. Nu sunt estimări ale piețelor noastre sau ale alegerilor de azi. Pe același meci golurile și cornerele pot depinde de scor,ritm și schimbări tactice;nici meciurile distincte nu garantează independență sau erori de model independente. [PennState,regulaprodusului](https://online.stat.psu.edu/stat414/Lesson05).
+
+Pragurile teoretice de rentabilitate la cotele propuse de utilizator:fărăcosturi,taxe sauanulări,1/1,15=86,9565%;1/1,20=83,3333%. Un preț propus și o estimare necalibrată nu dovedesc valoare. Nu au fost căutate cote de bookmaker și nu cerem utilizatorului cote. Nicio garanție de cotă disponibilă1,15–1,20din selecțiile proprii.
+
+Audit de proveniență azi: înAnalysis/Goal70_2026-11-14/MatchData/5868546.json.source.json esteFotMobmatchDetails; înSchedules/aut.1.json.source.json esteFotMobleagues;scriptulAnalysis/daily_2026_11_14.mjs foloseșteFotMob pentru istorice,rezultate șiFirstHalf,ESPNpentru verificări de calendare. Context/sources.jsonarhiveazăcluburi,federații și actualizări;OpenMeteoeste înContext/weather_5868546.json.source.json. ConfirmărileESPNnu sunt completepentru toateînregistrările;surseleoficialeși suplimentarevariazădupăcompetiție. Sofascoreeste menționat înarhitectura generală,dar nueste sursa numerică principală aacestoralegeri;FootyStatsnu a fost folosit pentru acestea.
+
+PentruGol70se folosescminutele evenimentelor,reconciliate cu scorul;pentru cornereobservațiileFirstHalfpeechipe,reconciliate cuSecondHalf/Allcânddisponibile. Scorulpauzei sauFTcornersnuînlocuiesc pragurile. Datelelipsă/conflictelerămânNULL/pending. Douăpagini/accesărialeaceluiașifurnizornusuntdouăconfirmăriindependentealeistoricului. Toateacesteaverificădatele,nucalibreazăautomatpredicțiile. Arhiva deobservații/rezultatesusțineviitoareaevaluarecronologicăseparată,fărăschimbărineautorizatedemodel.
+
+Concluzie pentru funcționare: păstrăm cele două alegeri explicite de azi,separate;nu schimbăm regula implicită a analistului de maximumo selecție principalătotalșiNO BET.Nusunt autorizate pariuri,mize,schimbăridemodel/programare,commit/push. Urmeazărezultate14→review/lecții→scanare15.

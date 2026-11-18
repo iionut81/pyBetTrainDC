@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-06",
+  "review_status": "complete",
+  "goal_research_status": "partial",
+  "corner_research_status": "partial",
+  "dashboard_status": "complete",
+  "review_path": "Analysis/Review_2026-11-05/REVIEW.md",
+  "lessons_path": "Analysis/Review_2026-11-05/LESSONS_FOR_NEXT_SCAN.md",
+  "review_handoff_at_ro": "2026-11-06T08:02:35.506+02:00",
+  "research_started_at_ro": "2026-11-06T08:02:50.846+02:00",
+  "goal_path": "Analysis/Goal70_2026-11-06/EUROPE_ALL_MATCHES.md",
+  "corner_path": "Analysis/Corners1H_2026-11-06/ANALYSIS.md",
+  "missing_data": [
+    "Two Cyprus fixtures missing FirstHalf corner observations",
+    "Four leagues lack independent ESPN schedule confirmation",
+    "Lineups predicted, not confirmed",
+    "Independent verification of all historical FirstHalf counts incomplete",
+    "Some injury/return claims only in provider or conflicting with official sources"
+  ],
+  "fixtures": 34,
+  "active_unstarted": 33,
+  "goal_models": 33,
+  "corner_models": 31,
+  "goal_candidate": {
+    "id": "5739547",
+    "p_raw": "0.9305165487771985",
+    "p_stress": "0.8815581709861964",
+    "kickoff_ro": "2026-11-06T20:00:00.000+02:00"
+  },
+  "corner_candidate": {
+    "id": "5868128",
+    "p_raw": "0.9769260639374044",
+    "p_stress": "0.9439596583057372",
+    "kickoff_ro": "2026-11-06T22:00:00.000+02:00"
+  },
+  "principal_individual": {
+    "market": "CORNERS_1H_UNDER_7_5",
+    "id": "5868128"
+  },
+  "completed_at_ro": "2026-11-06T08:48:29.575+02:00",
+  "validation": {
+    "archive_tests": 4,
+    "browser_checks": 25,
+    "automation_check_groups": 7,
+    "recomputed_models": 64,
+    "runtime_exceptions": 0,
+    "preflight": "READY",
+    "next_scheduled_run_ro": "2026-11-07T08:00:00+02:00"
+  },
+  "repair_path": "Analysis/Automation/REPAIR_2026-11-06.md"
+}

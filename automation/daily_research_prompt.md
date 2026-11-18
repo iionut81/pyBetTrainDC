@@ -87,6 +87,15 @@ Nu incepe inventarul sau selectia zilei curente in paralel cu review-ul.
 
 ## Pasul 3: research complet pentru ziua curenta si pickuri
 
+- Extindere explicită12noiembrie2026: pentru această zi include TOATE partidele
+  dintre naționale (oficiale/amicale) alături de cluburi, pentru AMBELE piețe.
+  Distinge seniori/juniori/masculin/feminin, ediția curentă a competiției și
+  amicalele din anul curent separat. Aceleași formule și minime5general/3teren,
+  aceleași verificări de loturi, motivație, program, teren și status neînceput.
+  Nu transfera istoricul de club/seniori ori ediții vechi pentru eligibilitate;
+  neutralitatea se documentează. Arhivează versiunea inițială de azi înaintea
+  extinderii, păstrează probabilitățile și alegerile, apoi compară toți eligibilii.
+
 - Citeste mai intai LESSONS_FOR_NEXT_SCAN.md salvat la pasul2. In rapoartele
   zilei curente include sectiunea "Lectii aplicate din review": pentru fiecare
   lectie relevanta, verificarea efectuata, dovada noua si daca este aplicabila,

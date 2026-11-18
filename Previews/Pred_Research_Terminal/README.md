@@ -253,3 +253,23 @@ din `Goal70_YYYY-MM-DD/`. Se folosesc numai coloanele explicite FirstHalf;
 statisticile FT nu substituie lipsurile. Un fișier dedicat existent are prioritate.
 Regresia Artis–Jablonec este inclusă în `match-reports.test.mjs`; verificarea
 în browser rulează cu `node Previews/Pred_Research_Terminal/check-shared-corner-history.mjs`.
+
+Rapoartele recunosc și baza `national_current_competition_edition`: istoricul
+naționalelor este etichetat distinct de proiecțiile dintre campionatele de club.
+Categoriile U21/U20/U19/U17 nu înlocuiesc seniorii. Verificarea extinderii din
+12 noiembrie: `node Analysis/Automation/verify_international_2026_11_12.mjs`;
+aceasta pregătește verificarea browser din `.runtime/`. Dovezile și limitele
+sunt în `Analysis/Goal70_2026-11-12/International/REPORT.md`.
+
+### Frecvențe din istoric incomplet
+
+Fișele și rapoartele identifică echipa de la care provin frecvențele unilaterale:
+de exemplu, „Doar Albacete” și „Doar Albacete · deplasare”. Nota de acoperire
+arată separat numărul de meciuri salvate și observațiile validate pentru fiecare
+echipă și piață. Prezența unui meci în listă nu confirmă existența statisticilor
+FirstHalf. Un eșantion gol nu afișează sume sau frecvențe măsurate de zero.
+
+Datele istorice și probabilitățile originale rămân intacte; metadatele de
+acoperire se derivă la construire din numărătorile salvate. Verificări:
+`node --test Previews/Pred_Research_Terminal/data.test.mjs Previews/Pred_Research_Terminal/match-reports.test.mjs`
+și `node Previews/Pred_Research_Terminal/check-partial-history.mjs`.

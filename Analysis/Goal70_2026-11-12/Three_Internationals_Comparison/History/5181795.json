@@ -1,0 +1,159 @@
+{
+  "ok": true,
+  "id": "5181795",
+  "source": "https://www.fotmob.com/api/data/matchDetails?matchId=5181795",
+  "verified_at_utc": "2026-11-12T07:31:59.852Z",
+  "general": {
+    "matchId": "5181795",
+    "matchName": "Italy-vs-Turkiye_Mon, Oct 5, 2026, 18:45 UTC",
+    "matchRound": "4",
+    "teamColors": {
+      "darkMode": {
+        "home": "#0064aa",
+        "away": "#d71c00"
+      },
+      "lightMode": {
+        "home": "#0064aa",
+        "away": "#d71c00"
+      },
+      "fontDarkMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      },
+      "fontLightMode": {
+        "home": "rgba(255, 255, 255, 1.0)",
+        "away": "rgba(255, 255, 255, 1.0)"
+      }
+    },
+    "leagueId": 920741,
+    "leagueName": "UEFA Nations League A Grp. 1",
+    "leagueRoundName": "4",
+    "parentLeagueId": 9806,
+    "countryCode": "INT",
+    "homeTeam": {
+      "name": "Italy",
+      "id": 8204
+    },
+    "awayTeam": {
+      "name": "Turkiye",
+      "id": 6595
+    },
+    "coverageLevel": "xG",
+    "matchTimeUTC": "Mon, Oct 5, 2026, 18:45 UTC",
+    "matchTimeUTCDate": "2026-10-05T18:45:00.000Z",
+    "started": true,
+    "finished": true,
+    "gender": "male"
+  },
+  "status": {
+    "utcTime": "2026-10-05T18:45:00.000Z",
+    "numberOfHomeRedCards": 0,
+    "numberOfAwayRedCards": 0,
+    "halfs": {
+      "firstHalfStarted": "05.10.2026 20:46:14",
+      "firstHalfEnded": "05.10.2026 21:31:23",
+      "secondHalfStarted": "05.10.2026 21:47:21",
+      "secondHalfEnded": "05.10.2026 22:35:30",
+      "firstExtraHalfStarted": "",
+      "secondExtraHalfStarted": "",
+      "gameEnded": "05.10.2026 22:35:30"
+    },
+    "finished": true,
+    "started": true,
+    "cancelled": false,
+    "awarded": false,
+    "scoreStr": "3 - 1",
+    "reason": {
+      "short": "FT",
+      "shortKey": "fulltime_short",
+      "long": "Full-Time",
+      "longKey": "finished"
+    },
+    "whoLostOnPenalties": null,
+    "whoLostOnAggregated": ""
+  },
+  "teams": [
+    {
+      "id": "8204",
+      "name": "Italy",
+      "score": 3
+    },
+    {
+      "id": "6595",
+      "name": "Turkiye",
+      "score": 1
+    }
+  ],
+  "goals": [
+    {
+      "side": "home",
+      "minute": 26,
+      "added": 0,
+      "display": "26",
+      "period": "FirstHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 64,
+      "added": 0,
+      "display": "64",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "home",
+      "minute": 87,
+      "added": 0,
+      "display": "87",
+      "period": "SecondHalf",
+      "own_goal": false
+    },
+    {
+      "side": "away",
+      "minute": 61,
+      "added": 0,
+      "display": "61",
+      "period": "SecondHalf",
+      "own_goal": false
+    }
+  ],
+  "stats": {
+    "FirstHalf": [
+      2,
+      5
+    ],
+    "SecondHalf": [
+      1,
+      4
+    ],
+    "All": [
+      3,
+      9
+    ]
+  },
+  "cards": [
+    {
+      "time": 42,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 47,
+      "card": "Yellow",
+      "isHome": true
+    },
+    {
+      "time": 55,
+      "card": "Yellow",
+      "isHome": false
+    },
+    {
+      "time": 82,
+      "card": "Yellow",
+      "isHome": false
+    }
+  ],
+  "formations": {},
+  "reused_from": "Analysis/Goal70_2026-11-12/International/MatchData/5181795.json"
+}

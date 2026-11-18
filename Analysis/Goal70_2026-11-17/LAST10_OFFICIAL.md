@@ -1,0 +1,72 @@
+# Ultimele zece oficiale disponibile
+
+66aparițiirecuperate.FinaliștiIrlanda/Finlanda10fiecare,9/10reușitefiecare. NL/DK9fiecare,Cehia10/Turcia9,Japonia4/Paraguay5;Rusia/Venezuela0înfeedulrecent,nuînseamnăcănuauoficialeînistorie. Restulpânăla10esteindisponibil,fărăcompletaredinamicale.Niciunamicalnuintrăîntabel;baselineamicale2026rămâneseparat.
+
+|EchipăID|Data|Competiție|Teren|Meci|Scor90|Primulgol|Gol70|FirstHalf|Sursă|
+|---|---|---|---|---|---|---|---|---|---|
+|6715|2026-06-29T17:00:00.000Z|World Cup|deplasare|Brazil–Japan|2-1|29|success|4|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4653711)|
+|6715|2026-06-25T23:00:00.000Z|World Cup Grp. F|acasă|Japan–Sweden|1-1|56|success|4|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4667788)|
+|6715|2026-06-21T04:00:00.000Z|World Cup Grp. F|deplasare|Tunisia–Japan|0-4|4|success|3|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4667785)|
+|6715|2026-06-14T20:00:00.000Z|World Cup Grp. F|deplasare|Netherlands–Japan|2-2|50|success|4|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4667783)|
+|6724|2026-07-04T21:00:00.000Z|World Cup|acasă|Paraguay–France|0-1|70|success|7|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4653842)|
+|6724|2026-06-29T20:30:00.000Z|World Cup|deplasare|Germany–Paraguay|1-1|42|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4653703)|
+|6724|2026-06-26T02:00:00.000Z|World Cup Grp. D|acasă|Paraguay–Australia|0-0|no_goal|fail|3|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4667776)|
+|6724|2026-06-20T03:00:00.000Z|World Cup Grp. D|deplasare|Turkiye–Paraguay|0-1|2|success|5|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4667773)|
+|6724|2026-06-13T01:00:00.000Z|World Cup Grp. D|deplasare|USA–Paraguay|4-1|7|success|2|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4667771)|
+|5833|2026-11-13T16:00:00.000Z|EURO U21 Qualification Playoff|deplasare|Turkiye U21–Czechia U21|0-1|48|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=6416834)|
+|5833|2026-10-06T16:30:00.000Z|EURO U21 Qualification Grp. B|deplasare|Portugal U21–Czechia U21|2-0|28|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785880)|
+|5833|2026-09-30T16:00:00.000Z|EURO U21 Qualification Grp. B|acasă|Czechia U21–Bulgaria U21|1-0|54|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785877)|
+|5833|2026-09-25T13:45:00.000Z|EURO U21 Qualification Grp. B|deplasare|Azerbaijan U21–Czechia U21|1-1|38|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785875)|
+|5833|2026-03-31T15:00:00.000Z|EURO U21 Qualification Grp. B|acasă|Czechia U21–Gibraltar U21|5-0|14|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785871)|
+|5833|2026-03-27T19:00:00.000Z|EURO U21 Qualification Grp. B|deplasare|Scotland U21–Czechia U21|0-0|no_goal|fail|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785870)|
+|5833|2025-11-18T17:00:00.000Z|EURO U21 Qualification Grp. B|acasă|Czechia U21–Portugal U21|0-0|no_goal|fail|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785866)|
+|5833|2025-10-14T16:00:00.000Z|EURO U21 Qualification Grp. B|deplasare|Bulgaria U21–Czechia U21|2-1|30|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785862)|
+|5833|2025-10-10T16:00:00.000Z|EURO U21 Qualification Grp. B|acasă|Czechia U21–Azerbaijan U21|5-0|40|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785860)|
+|5833|2025-09-09T11:00:00.000Z|EURO U21 Qualification Grp. B|deplasare|Gibraltar U21–Czechia U21|1-2|19|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785855)|
+|5845|2026-11-13T16:00:00.000Z|EURO U21 Qualification Playoff|acasă|Turkiye U21–Czechia U21|0-1|48|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=6416834)|
+|5845|2026-10-06T17:00:00.000Z|EURO U21 Qualification Grp. H|acasă|Turkiye U21–Hungary U21|0-0|no_goal|fail|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785777)|
+|5845|2026-09-26T16:00:00.000Z|EURO U21 Qualification Grp. H|deplasare|Ukraine U21–Turkiye U21|2-2|12|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785772)|
+|5845|2026-03-31T15:30:00.000Z|EURO U21 Qualification Grp. H|deplasare|Croatia U21–Turkiye U21|3-0|38|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785770)|
+|5845|2025-11-18T16:00:00.000Z|EURO U21 Qualification Grp. H|deplasare|Lithuania U21–Turkiye U21|1-2|2|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785768)|
+|5845|2025-11-14T17:00:00.000Z|EURO U21 Qualification Grp. H|acasă|Turkiye U21–Ukraine U21|1-0|73|fail|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785766)|
+|5845|2025-10-14T16:00:00.000Z|EURO U21 Qualification Grp. H|deplasare|Hungary U21–Turkiye U21|1-1|6|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785763)|
+|5845|2025-10-10T17:00:00.000Z|EURO U21 Qualification Grp. H|acasă|Turkiye U21–Lithuania U21|2-0|26|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785762)|
+|5845|2025-09-09T17:00:00.000Z|EURO U21 Qualification Grp. H|acasă|Turkiye U21–Croatia U21|1-1|62|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785759)|
+|6635|2026-11-13T17:30:00.000Z|EURO U21 Qualification Playoff|deplasare|Denmark U21–Netherlands U21|0-3|6|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=6416831)|
+|6635|2026-10-06T16:45:00.000Z|EURO U21 Qualification Grp. G|acasă|Netherlands U21–Bosnia and Herzegovina U21|4-0|70|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785819)|
+|6635|2026-10-02T16:00:00.000Z|EURO U21 Qualification Grp. G|deplasare|Slovenia U21–Netherlands U21|2-4|15|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785818)|
+|6635|2026-09-25T16:30:00.000Z|EURO U21 Qualification Grp. G|acasă|Netherlands U21–Norway U21|0-0|no_goal|fail|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785795)|
+|6635|2026-03-27T17:00:00.000Z|EURO U21 Qualification Grp. G|deplasare|Norway U21–Netherlands U21|3-2|35|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785790)|
+|6635|2025-11-18T18:30:00.000Z|EURO U21 Qualification Grp. G|deplasare|Israel U21–Netherlands U21|3-1|15|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785788)|
+|6635|2025-11-14T17:30:00.000Z|EURO U21 Qualification Grp. G|acasă|Netherlands U21–Slovenia U21|2-0|61|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785786)|
+|6635|2025-10-10T16:00:00.000Z|EURO U21 Qualification Grp. G|deplasare|Bosnia and Herzegovina U21–Netherlands U21|0-0|no_goal|fail|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785783)|
+|6635|2025-09-09T15:00:00.000Z|EURO U21 Qualification Grp. G|acasă|Netherlands U21–Israel U21|2-2|61|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785780)|
+|8494|2026-11-13T17:30:00.000Z|EURO U21 Qualification Playoff|acasă|Denmark U21–Netherlands U21|0-3|6|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=6416831)|
+|8494|2026-10-06T16:30:00.000Z|EURO U21 Qualification Grp. I|acasă|Denmark U21–Belgium U21|0-0|no_goal|fail|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785816)|
+|8494|2026-10-02T16:00:00.000Z|EURO U21 Qualification Grp. I|deplasare|Austria U21–Denmark U21|1-1|50|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785815)|
+|8494|2026-09-28T16:30:00.000Z|EURO U21 Qualification Grp. I|acasă|Denmark U21–Belarus U21|2-0|55|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785813)|
+|8494|2026-03-31T16:00:00.000Z|EURO U21 Qualification Grp. I|acasă|Denmark U21–Wales U21|4-0|17|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785810)|
+|8494|2025-11-18T14:00:00.000Z|EURO U21 Qualification Grp. I|deplasare|Belarus U21–Denmark U21|0-1|47|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785807)|
+|8494|2025-10-14T18:00:00.000Z|EURO U21 Qualification Grp. I|deplasare|Belgium U21–Denmark U21|2-0|80|fail|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785804)|
+|8494|2025-10-10T16:00:00.000Z|EURO U21 Qualification Grp. I|acasă|Denmark U21–Austria U21|1-1|45+1|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785801)|
+|8494|2025-09-08T18:30:00.000Z|EURO U21 Qualification Grp. I|deplasare|Wales U21–Denmark U21|2-6|1|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785799)|
+|5856|2026-11-13T16:15:00.000Z|EURO U21 Qualification Playoff|deplasare|Finland U21–Ireland U21|1-0|45+8|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=6416833)|
+|5856|2026-10-06T17:00:00.000Z|EURO U21 Qualification Grp. D|acasă|Ireland U21–England U21|3-1|7|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785941)|
+|5856|2026-09-29T18:00:00.000Z|EURO U21 Qualification Grp. D|acasă|Ireland U21–Kazakhstan U21|4-3|1|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785936)|
+|5856|2026-09-25T16:00:00.000Z|EURO U21 Qualification Grp. D|deplasare|Slovakia U21–Ireland U21|0-2|2|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785935)|
+|5856|2026-03-31T15:00:00.000Z|EURO U21 Qualification Grp. D|deplasare|Kazakhstan U21–Ireland U21|0-1|89|fail|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785933)|
+|5856|2026-03-26T17:15:00.000Z|EURO U21 Qualification Grp. D|acasă|Ireland U21–Moldova U21|1-1|20|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785929)|
+|5856|2025-11-18T18:30:00.000Z|EURO U21 Qualification Grp. D|deplasare|Andorra U21–Ireland U21|4-0|16|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785927)|
+|5856|2025-11-14T19:45:00.000Z|EURO U21 Qualification Grp. D|deplasare|England U21–Ireland U21|2-0|60|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785925)|
+|5856|2025-10-10T18:30:00.000Z|EURO U21 Qualification Grp. D|acasă|Ireland U21–Slovakia U21|2-2|3|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785920)|
+|5856|2025-09-09T18:30:00.000Z|EURO U21 Qualification Grp. D|acasă|Ireland U21–Andorra U21|1-0|66|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785917)|
+|5851|2026-11-13T16:15:00.000Z|EURO U21 Qualification Playoff|acasă|Finland U21–Ireland U21|1-0|45+8|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=6416833)|
+|5851|2026-10-06T17:00:00.000Z|EURO U21 Qualification Grp. A|deplasare|Kosovo U21–Finland U21|4-4|14|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785757)|
+|5851|2026-09-30T16:00:00.000Z|EURO U21 Qualification Grp. A|deplasare|Romania U21–Finland U21|0-2|28|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785752)|
+|5851|2026-09-25T15:30:00.000Z|EURO U21 Qualification Grp. A|acasă|Finland U21–Spain U21|2-1|9|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785749)|
+|5851|2026-03-31T15:00:00.000Z|EURO U21 Qualification Grp. A|acasă|Finland U21–Cyprus U21|3-0|21|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785748)|
+|5851|2026-03-26T17:00:00.000Z|EURO U21 Qualification Grp. A|deplasare|San Marino U21–Finland U21|0-8|17|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785743)|
+|5851|2025-11-18T16:30:00.000Z|EURO U21 Qualification Grp. A|acasă|Finland U21–Kosovo U21|0-0|no_goal|fail|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785740)|
+|5851|2025-11-14T15:00:00.000Z|EURO U21 Qualification Grp. A|acasă|Finland U21–Romania U21|2-0|23|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785738)|
+|5851|2025-10-14T16:30:00.000Z|EURO U21 Qualification Grp. A|deplasare|Spain U21–Finland U21|2-1|65|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785734)|
+|5851|2025-09-09T16:00:00.000Z|EURO U21 Qualification Grp. A|deplasare|Cyprus U21–Finland U21|0-5|7|success|necunoscut|[sursă](https://www.fotmob.com/api/data/matchDetails?matchId=4785733)|
