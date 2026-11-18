@@ -2,7 +2,7 @@
 
 Publicarea acestei copii a fost cerută explicit la 18 noiembrie 2026. Repository-ul este public.
 
-26 conversații, 321 mesaje vizibile disponibile local. Sunt incluse și instrucțiunile/răspunsurile vizibile ale rulărilor zilnice. Sesiunile interne de agenți și contextul injectat al mediului sunt excluse. Nu este o copie completă a istoricului nativ și nu reface automat conversațiile în aplicație.
+26 conversații, 326 mesaje vizibile disponibile local. Sunt incluse și instrucțiunile/răspunsurile vizibile ale rulărilor zilnice. Sesiunile interne de agenți și contextul injectat al mediului sunt excluse. Nu este o copie completă a istoricului nativ și nu reface automat conversațiile în aplicație.
 
 Pentru reluarea lucrului citește [starea curentă](../../SESSION_RESUME.md) și [punctul de pornire](../../../START_HERE.md). Inventarul exact și hash-urile sunt în [manifest](manifest.json).
 
@@ -32,5 +32,5 @@ Pentru reluarea lucrului citește [starea curentă](../../SESSION_RESUME.md) și
 | 2026-11-15T07:10:02.817Z | 2026-11-15T07:10:02.817Z | 1 | [Deschide](2026-11-15_01a1de0a.md) |
 | 2026-11-16T06:25:54.636Z | 2026-11-16T06:25:54.636Z | 1 | [Deschide](2026-11-16_01a1e308.md) |
 | 2026-11-17T06:59:37.900Z | 2026-11-17T06:59:37.900Z | 1 | [Deschide](2026-11-17_01a1e84d.md) |
-| 2026-11-17T07:00:42.210Z | 2026-11-18T09:42:09.246Z | 12 | [Deschide](2026-11-17_01a1e84e.md) |
+| 2026-11-17T07:00:42.210Z | 2026-11-18T10:01:12.703Z | 17 | [Deschide](2026-11-17_01a1e84e.md) |
 | 2026-11-18T07:07:56.061Z | 2026-11-18T07:07:56.061Z | 1 | [Deschide](2026-11-18_01a1ed7b.md) |
