@@ -1,0 +1,58 @@
+<!doctype html><html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark"><title>CALCULATIONS.md · PRED Review</title><style>body{background:#081214;color:#deebe7;font:15px/1.75 system-ui;margin:0}main{max-width:1100px;margin:auto;padding:30px 24px 80px}a{color:#58e0c0}h1{font-size:clamp(28px,5vw,42px);line-height:1.2}h2{margin-top:34px;font-size:22px}h3{font-size:18px}p,li{overflow-wrap:anywhere}code{font-size:.9em;color:#e1c98c}.scroll,pre{overflow:auto}table{border-collapse:collapse;min-width:100%;font-size:13px}td,th{padding:10px 12px;border:1px solid #29413e;text-align:left}th{background:#10241f}.notice{font-size:12px;color:#9fb5af}.intro{padding:20px;border:1px solid #29413e;border-radius:12px;background:#0b1b18}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.eyebrow{font-size:11px;letter-spacing:.13em;color:#58e0c0}@media(max-width:650px){main{padding:22px 18px 50px}.grid{grid-template-columns:1fr}td,th{padding:8px}}</style></head><body><main><a href="../../../index.html">← Dashboard de review</a><p class="eyebrow">PRED / REVIEW PUBLIC</p><h1>Calcule prospective15noiembrie</h1>
+<p>Ponderi50/50sezon/teren; minime5general/3teren bilateral. Goluri valide cu minutafișat&lt;=70 inclusiv45+, fără factor70/90; p=1−exp(−λ), stresλ×0,8. CornereFirstHalf&lt;=7, p=PoissonCDF(7,λ), stresλ×1,2. Fair=1/p; nu prețdisponibil. Date.parse înainte de15nov00RO; toate golurile reconciliate cu scorul90 șiFirstHalf+SecondHalf=All pe echipe. Fără schimbarea producției/calibrării.</p>
+<h2>Gol70</h2>
+<div class="scroll"><table><tr><th>Rang</th><th>Meci</th><th>KickoffRO</th><th>Brut</th><th>AR20</th><th>Fair matematic</th><th>Istoric general; teren</th></tr><tr><td>1</td><td>Granada–Las Palmas</td><td>2026-11-15T17:15:00.000+02:00</td><td>90.35%</td><td>84.60%</td><td>1.1068</td><td>22/25; 11/11</td></tr><tr><td>2</td><td>Eibar–Cádiz</td><td>2026-11-15T19:30:00.000+02:00</td><td>88.53%</td><td>82.32%</td><td>1.1295</td><td>23/25; 11/11</td></tr><tr><td>3</td><td>Tenerife–AD Ceuta FC</td><td>2026-11-15T15:00:00.000+02:00</td><td>86.16%</td><td>79.44%</td><td>1.1606</td><td>25/25; 12/12</td></tr><tr><td>4</td><td>Eldense–Sabadell</td><td>2026-11-15T19:30:00.000+02:00</td><td>77.92%</td><td>70.13%</td><td>1.2834</td><td>18/26; 10/13</td></tr></table></div>
+<h3>Granada–Las Palmas</h3>
+<p>λ sezon/teren/combinat=2.1603/2.5167/2.3385; numai-sezon88.47%, numai-teren91.93%.</p>
+<div class="scroll"><table><tr><th>Echipă</th><th>General n;obținute/cedate</th><th>Teren n;obținute/cedate</th></tr><tr><td>Granada</td><td>12;14/12</td><td>5;7/4</td></tr><tr><td>Las Palmas</td><td>13;13/15</td><td>6;8/9</td></tr></table></div>
+<p>ContraexempleGol70: 2026-08-15T17:00:00Z Real Oviedo–Granada, primul0–0; 2026-09-04T18:30:00Z Las Palmas–Leganés, primul0–0; 2026-11-09T19:30:00Z Las Palmas–Eldense, primul90+5.</p>
+<p>Cornereexact7/&gt;=8: niciunul.</p>
+<p>Diagnostic fără diferențeFT&gt;=4: 90.35%; fără modificarea modelului.</p>
+<h3>Eibar–Cádiz</h3>
+<p>λ sezon/teren/combinat=2.0481/2.2833/2.1657; numai-sezon87.10%, numai-teren89.81%.</p>
+<div class="scroll"><table><tr><th>Echipă</th><th>General n;obținute/cedate</th><th>Teren n;obținute/cedate</th></tr><tr><td>Eibar</td><td>12;17/10</td><td>6;8/5</td></tr><tr><td>Cádiz</td><td>13;8/16</td><td>5;3/9</td></tr></table></div>
+<p>ContraexempleGol70: 2026-08-15T17:00:00Z Cádiz–Celta Fortuna, primul0–0; 2026-10-11T19:00:00Z Cádiz–Sporting Gijón, primul87.</p>
+<p>Cornereexact7/&gt;=8: Eibar–Real Valladolid 9; Eldense–Eibar 7; Real Oviedo–Eibar 8; Córdoba–Eibar 11; Eldense–Cádiz 7.</p>
+<p>Diagnostic fără diferențeFT&gt;=4: 88.03%; fără modificarea modelului.</p>
+<h3>Tenerife–AD Ceuta FC</h3>
+<p>λ sezon/teren/combinat=2.0385/1.9167/1.9776; numai-sezon86.98%, numai-teren85.29%.</p>
+<div class="scroll"><table><tr><th>Echipă</th><th>General n;obținute/cedate</th><th>Teren n;obținute/cedate</th></tr><tr><td>Tenerife</td><td>12;13/11</td><td>6;6/2</td></tr><tr><td>AD Ceuta FC</td><td>13;5/22</td><td>6;3/12</td></tr></table></div>
+<p>ContraexempleGol70: .</p>
+<p>Cornereexact7/&gt;=8: Córdoba–Tenerife 9; Córdoba–AD Ceuta FC 9.</p>
+<p>Diagnostic fără diferențeFT&gt;=4: 84.86%; fără modificarea modelului.</p>
+<h3>Eldense–Sabadell</h3>
+<p>λ sezon/teren/combinat=1.4615/1.5595/1.5105; numai-sezon76.81%, numai-teren78.98%.</p>
+<div class="scroll"><table><tr><th>Echipă</th><th>General n;obținute/cedate</th><th>Teren n;obținute/cedate</th></tr><tr><td>Eldense</td><td>13;7/13</td><td>6;5/6</td></tr><tr><td>Sabadell</td><td>13;8/10</td><td>7;2/7</td></tr></table></div>
+<p>ContraexempleGol70: 2026-11-09T19:30:00Z Las Palmas–Eldense, primul90+5; 2026-08-29T17:00:00Z Leganés–Eldense, primul90; 2026-09-05T19:00:00Z Eldense–Mallorca, primul0–0; 2026-09-13T12:00:00Z Sporting Gijón–Eldense, primul76; 2026-08-17T17:00:00Z Sporting Gijón–Sabadell, primul0–0; 2026-08-23T17:00:00Z Castellón–Sabadell, primul0–0; 2026-10-04T19:00:00Z Sabadell–FC Andorra, primul0–0; 2026-11-09T19:30:00Z Sabadell–Real Sociedad B, primul0–0.</p>
+<p>Cornereexact7/&gt;=8: Eldense–Eibar 7; Eldense–Cádiz 7; Almería–Eldense 7; Eldense–Mallorca 9; Albacete–Eldense 7; Albacete–Sabadell 7.</p>
+<p>Diagnostic fără diferențeFT&gt;=4: 77.92%; fără modificarea modelului.</p>
+<h2>Cornere1H</h2>
+<div class="scroll"><table><tr><th>Rang</th><th>Meci</th><th>KickoffRO</th><th>Brut</th><th>AR20</th><th>Fair matematic</th><th>Istoric general; teren</th></tr><tr><td>1</td><td>Granada–Las Palmas</td><td>2026-11-15T17:15:00.000+02:00</td><td>95.50%</td><td>89.86%</td><td>1.0472</td><td>25/25; 11/11</td></tr><tr><td>2</td><td>Tenerife–AD Ceuta FC</td><td>2026-11-15T15:00:00.000+02:00</td><td>94.45%</td><td>87.82%</td><td>1.0588</td><td>23/25; 11/12</td></tr><tr><td>3</td><td>Eibar–Cádiz</td><td>2026-11-15T19:30:00.000+02:00</td><td>90.21%</td><td>80.21%</td><td>1.1085</td><td>22/25; 10/11</td></tr><tr><td>4</td><td>Eldense–Sabadell</td><td>2026-11-15T19:30:00.000+02:00</td><td>87.60%</td><td>75.89%</td><td>1.1416</td><td>25/26; 12/13</td></tr></table></div>
+<h3>Granada–Las Palmas</h3>
+<p>λ sezon/teren/combinat=3.5032/4.2833/3.8933; numai-sezon97.31%, numai-teren93.02%.</p>
+<div class="scroll"><table><tr><th>Echipă</th><th>General n;obținute/cedate</th><th>Teren n;obținute/cedate</th></tr><tr><td>Granada</td><td>12;20/17</td><td>5;15/7</td></tr><tr><td>Las Palmas</td><td>13;28/23</td><td>6;13/12</td></tr></table></div>
+<p>TotalFirstHalfmedie/varianță teren: Granada 4.4/1.2999999999999998; Las Palmas 4.166666666666667/1.7666666666666668. Exact7=0;&gt;=8=0 din25unice.</p>
+<p>ContraexempleGol70: 2026-08-15T17:00:00Z Real Oviedo–Granada, primul0–0; 2026-09-04T18:30:00Z Las Palmas–Leganés, primul0–0; 2026-11-09T19:30:00Z Las Palmas–Eldense, primul90+5.</p>
+<p>Cornereexact7/&gt;=8: niciunul.</p>
+<p>Diagnostic fără diferențeFT&gt;=4: 90.35%; fără modificarea modelului.</p>
+<h3>Tenerife–AD Ceuta FC</h3>
+<p>λ sezon/teren/combinat=4.1442/4.0000/4.0721; numai-sezon93.98%, numai-teren94.89%.</p>
+<div class="scroll"><table><tr><th>Echipă</th><th>General n;obținute/cedate</th><th>Teren n;obținute/cedate</th></tr><tr><td>Tenerife</td><td>12;22/23</td><td>6;7/8</td></tr><tr><td>AD Ceuta FC</td><td>13;34/25</td><td>6;20/13</td></tr></table></div>
+<p>TotalFirstHalfmedie/varianță teren: Tenerife 2.5/1.1; AD Ceuta FC 5.5/4.3. Exact7=0;&gt;=8=2 din25unice.</p>
+<p>ContraexempleGol70: .</p>
+<p>Cornereexact7/&gt;=8: Córdoba–Tenerife 9; Córdoba–AD Ceuta FC 9.</p>
+<p>Diagnostic fără diferențeFT&gt;=4: 84.86%; fără modificarea modelului.</p>
+<h3>Eibar–Cádiz</h3>
+<p>λ sezon/teren/combinat=4.8654/4.4000/4.6327; numai-sezon88.03%, numai-teren92.14%.</p>
+<div class="scroll"><table><tr><th>Echipă</th><th>General n;obținute/cedate</th><th>Teren n;obținute/cedate</th></tr><tr><td>Eibar</td><td>12;28/38</td><td>6;17/13</td></tr><tr><td>Cádiz</td><td>13;15/40</td><td>5;4/15</td></tr></table></div>
+<p>TotalFirstHalfmedie/varianță teren: Eibar 5/6.4; Cádiz 3.8/5.7. Exact7=2;&gt;=8=3 din25unice.</p>
+<p>ContraexempleGol70: 2026-08-15T17:00:00Z Cádiz–Celta Fortuna, primul0–0; 2026-10-11T19:00:00Z Cádiz–Sporting Gijón, primul87.</p>
+<p>Cornereexact7/&gt;=8: Eibar–Real Valladolid 9; Eldense–Eibar 7; Real Oviedo–Eibar 8; Córdoba–Eibar 11; Eldense–Cádiz 7.</p>
+<p>Diagnostic fără diferențeFT&gt;=4: 88.03%; fără modificarea modelului.</p>
+<h3>Eldense–Sabadell</h3>
+<p>λ sezon/teren/combinat=4.6154/5.2024/4.9089; numai-sezon90.36%, numai-teren84.47%.</p>
+<div class="scroll"><table><tr><th>Echipă</th><th>General n;obținute/cedate</th><th>Teren n;obținute/cedate</th></tr><tr><td>Eldense</td><td>13;35/31</td><td>6;20/15</td></tr><tr><td>Sabadell</td><td>13;34/20</td><td>7;17/15</td></tr></table></div>
+<p>TotalFirstHalfmedie/varianță teren: Eldense 5.833333333333333/7.366666666666665; Sabadell 4.571428571428571/3.9523809523809526. Exact7=5;&gt;=8=1 din26unice.</p>
+<p>ContraexempleGol70: 2026-11-09T19:30:00Z Las Palmas–Eldense, primul90+5; 2026-08-29T17:00:00Z Leganés–Eldense, primul90; 2026-09-05T19:00:00Z Eldense–Mallorca, primul0–0; 2026-09-13T12:00:00Z Sporting Gijón–Eldense, primul76; 2026-08-17T17:00:00Z Sporting Gijón–Sabadell, primul0–0; 2026-08-23T17:00:00Z Castellón–Sabadell, primul0–0; 2026-10-04T19:00:00Z Sabadell–FC Andorra, primul0–0; 2026-11-09T19:30:00Z Sabadell–Real Sociedad B, primul0–0.</p>
+<p>Cornereexact7/&gt;=8: Eldense–Eibar 7; Eldense–Cádiz 7; Almería–Eldense 7; Eldense–Mallorca 9; Albacete–Eldense 7; Albacete–Sabadell 7.</p>
+<p>Diagnostic fără diferențeFT&gt;=4: 77.92%; fără modificarea modelului.</p><p class="notice">Date salvate până la 2026-11-18. Copie de consultare, publicată 2026-11-18. Estimări necalibrate; nicio promisiune de profit.</p></main></body></html>
